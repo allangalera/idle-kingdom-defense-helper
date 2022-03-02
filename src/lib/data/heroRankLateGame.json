@@ -1,0 +1,45 @@
+[
+	{
+		"title": "Must Have",
+		"color": "red",
+		"heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian", "Harold"]
+	},
+	{
+		"title": "Must Have (less priority)",
+		"color": "orange",
+		"heroList": ["Adrian", "Anthony", "Julian", "Blake"]
+	},
+	{
+		"title": "Situational",
+		"color": "amber",
+		"heroList": [
+			"Aisha",
+			"Xavier",
+			"Sophia",
+			"Rodrick",
+			"Daniel",
+			"Brian",
+			"Ryan",
+			"Lucas",
+			"Mason",
+			"Marcus",
+			"Leonidas",
+			"Randolph"
+		]
+	},
+	{
+		"title": "Avoid",
+		"color": "yellow",
+		"heroList": [
+			"Austin",
+			"Diego",
+			"Ellie",
+			"Jackson",
+			"Miguel",
+			"Logan",
+			"Carlos",
+			"Vincent",
+			"Raven"
+		]
+	}
+]

@@ -1,0 +1,226 @@
+[
+	{
+		"name": "Ellie",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/c9/EllieAnimated.gif",
+		"tier": "C",
+		"class": "Supporter",
+		"type": "Poison"
+	},
+	{
+		"name": "Luke",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/90/LukeAnimated.gif",
+		"tier": "C",
+		"class": "Supporter",
+		"type": "Boost"
+	},
+	{
+		"name": "Logan",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/e7/LoganAnimated.gif",
+		"tier": "C",
+		"class": "Supporter",
+		"type": "Summon"
+	},
+	{
+		"name": "Mason",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/21/MasonAnimated.gif",
+		"tier": "C",
+		"class": "Supporter",
+		"type": "Paralyze"
+	},
+	{
+		"name": "Diego",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/96/DiegoAnimated.gif",
+		"tier": "C",
+		"class": "Supporter",
+		"type": "Stun"
+	},
+	{
+		"name": "Brian",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/8/83/BrianAnimated.gif",
+		"tier": "C",
+		"class": "Warrior",
+		"type": "Boost"
+	},
+	{
+		"name": "Tristan",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/3f/TristanAnimated.gif",
+		"tier": "B",
+		"class": "Supporter",
+		"type": "Boost"
+	},
+	{
+		"name": "Carlos",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ae/CarlosAnimated.gif",
+		"tier": "B",
+		"class": "Supporter",
+		"type": "Summon"
+	},
+	{
+		"name": "Austin",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/6b/AustinAnimated.gif",
+		"tier": "B",
+		"class": "Supporter",
+		"type": "Stun"
+	},
+	{
+		"name": "Miguel",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/0f/MiguelAnimated.gif",
+		"tier": "B",
+		"class": "Warrior",
+		"type": "Knock"
+	},
+	{
+		"name": "Leonidas",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/36/LeonidasAnimated.gif",
+		"tier": "B",
+		"class": "Warrior",
+		"type": "Paralyze"
+	},
+	{
+		"name": "Randolph",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/53/RandolphAnimated.gif",
+		"tier": "B",
+		"class": "Warrior",
+		"type": "Stun"
+	},
+	{
+		"name": "Jackson",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/JacksonAnimated.gif",
+		"tier": "B",
+		"class": "Warrior",
+		"type": "Knock"
+	},
+	{
+		"name": "Evan",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ee/EvanAnimated.gif",
+		"tier": "A",
+		"class": "Supporter",
+		"type": "Freeze"
+	},
+	{
+		"name": "Aisha",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ad/AishaAnimated.gif",
+		"tier": "A",
+		"class": "Supporter",
+		"type": "Boost"
+	},
+	{
+		"name": "Xavier",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/3f/XavierAnimated.gif",
+		"tier": "A",
+		"class": "Supporter",
+		"type": "Summon"
+	},
+	{
+		"name": "Marcus",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/1/11/MarcusAnimated.gif",
+		"tier": "A",
+		"class": "Supporter",
+		"type": "Knock"
+	},
+	{
+		"name": "Ryan",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/RyanAnimated.gif",
+		"tier": "A",
+		"class": "Warrior",
+		"type": "Freeze"
+	},
+	{
+		"name": "Blake",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/63/BlakeAnimated.gif",
+		"tier": "A",
+		"class": "Warrior",
+		"type": "Knock"
+	},
+	{
+		"name": "Raven",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/7/7d/RavenAnimated.gif",
+		"tier": "A",
+		"class": "Warrior",
+		"type": "Poison"
+	},
+	{
+		"name": "Gabriel",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/94/GabrielAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Boost"
+	},
+	{
+		"name": "Christian",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/29/ChristianAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Burn"
+	},
+	{
+		"name": "Adrian",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ec/AdrianAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Summon"
+	},
+	{
+		"name": "Lucas",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/32/LucasAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Knock"
+	},
+	{
+		"name": "Sophia",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/5a/SophiaAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Boost"
+	},
+	{
+		"name": "Camilla",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/4/4a/CamillaAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Burn"
+	},
+	{
+		"name": "Harold",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/62/HaroldAnimated.gif",
+		"tier": "S",
+		"class": "Supporter",
+		"type": "Paralyze"
+	},
+	{
+		"name": "Daniel",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/38/DanielAnimated.gif",
+		"tier": "S",
+		"class": "Warrior",
+		"type": "Boost"
+	},
+	{
+		"name": "Julian",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/ce/JulianAnimated.gif",
+		"tier": "S",
+		"class": "Warrior",
+		"type": "Stun"
+	},
+	{
+		"name": "Anthony",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/a2/AnthonyAnimated.gif",
+		"tier": "S",
+		"class": "Warrior",
+		"type": "Paralyze"
+	},
+	{
+		"name": "Vincent",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/5d/VincentAnimated.gif",
+		"tier": "S",
+		"class": "Warrior",
+		"type": "Poison"
+	},
+	{
+		"name": "Rodrick",
+		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/cb/RodrickAnimated.gif",
+		"tier": "S",
+		"class": "Warrior",
+		"type": "Burn"
+	}
+]
