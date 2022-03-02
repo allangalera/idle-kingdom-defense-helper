@@ -40,7 +40,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/raleway": "^4.5.3",
-		"@mobily/ts-belt": "^3.9.0",
 		"nanoid": "^3.3.1"
 	}
 }

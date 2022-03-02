@@ -50,50 +50,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/anonymous-pro@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/anonymous-pro/-/anonymous-pro-4.5.2.tgz#0b532b330cc5765f0fa826a378c17893b4a77da0"
-  integrity sha512-NiNjkSo8DjmjELG6+hmHyeGErDAJUkYDUF9tKwYtOFJJtDW/ru/S7flLSkWlXzFnHbZBTr2F8zz73QjHD3oV9g==
-
-"@fontsource/lora@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.4.tgz#152903de2355c2233225f77bab38ff63d32cc258"
-  integrity sha512-ByMEakmlcbKD3t9FsSnVoaL+rWPCjOHTql/EhlBpBkLWXmDtaGFNoTNw3ypR5r1LjthIdpIf2i8LgKtVqhj7dA==
-
-"@fontsource/montserrat@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.5.tgz#3408b8a20285a81b0743087bae5ed7aaa32c490c"
-  integrity sha512-JEFI803levuRx3D0Lry4WoM/Azrc3xpHlogi2022Y8ykaAenXvrjMym2BVU1W5QsuRIL86vrSUaxchO7Vk4CIw==
-
-"@fontsource/open-sans@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.5.tgz#f42ede921cc807cf7b96896691348d75dafbf70c"
-  integrity sha512-h1oUPSQpoMnDrnzIZTVS9PPBFhWXS87v6/cd9FY2Xc+GKbOVcjPZxcvUDU1TnCie2QSoYY9aifERRV/d8JHtWQ==
-
 "@fontsource/raleway@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@fontsource/raleway/-/raleway-4.5.3.tgz#0a4477e037dbd9a4a26c1c9db3aa2bf93722b499"
   integrity sha512-wJ8Rm8k5MuSnfERuL5Q1bd8Z80o3uWpC1vUmZAxcLXAY9IxnfGqZjZJ1Jd2lY1u5NaEo+zXCvHEViAIv6b1jEg==
-
-"@fontsource/roboto-serif@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto-serif/-/roboto-serif-4.5.1.tgz#2f0f894d1be39a22c40f5ec0f85cc13c2591737e"
-  integrity sha512-VDsrVF5oKflcxKELu1g4wLD2Y8Mkq6HJ3d2Bhf6V37LVY27DJNHkX7dcLjDyWqcUoyikjc0lCk6uTz/FlCSKhQ==
-
-"@fontsource/roboto@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.3.tgz#c729ac22c35ae1c224cde10042ce7ab356bc4dda"
-  integrity sha512-NUvBTj332dFRdiVkLlavXbDGoD2zyyeGYmMyrXOnctg/3e4pq95+rJgNfUP+k4v8UBk2L1aomGw9dDjbRdAmTg==
-
-"@fontsource/source-sans-pro@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-4.5.3.tgz#bdb1eeed5db70bcd1f68cd1e8c859834f0e6bc67"
-  integrity sha512-9xWGu3ArKsjf6+WVrNoCUywybTB3rIidpvOI2tByQpzYVOupFUv6qohyrjDrVvPb6XHJQTD0NIzisR7RKhiP7A==
-
-"@fontsource/source-serif-pro@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/source-serif-pro/-/source-serif-pro-4.5.2.tgz#6e4326d0990d840111462f5fb754c49445ae0f27"
-  integrity sha512-SLZc/0MiC/SiubsJrdbCoxzlOmKmwH8xuD41iGdaR8taao33yRCM7Qk2oXfJHgl2uYH2LFSchjHRzO+vZBdGQQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"

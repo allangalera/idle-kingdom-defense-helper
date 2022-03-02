@@ -6,6 +6,7 @@
 </script>
 
 <h1>Idle Kingdom Best Heroes</h1>
+
 <HeroList heroList={heroes} />
 <div class="container">
 	<h2>Early Game</h2>
