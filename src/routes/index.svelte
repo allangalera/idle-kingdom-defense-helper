@@ -1,18 +1,11 @@
 <script>
 	import HeroRank from '$lib/components/HeroRank/index.svelte';
-	import HeroList from '$lib/components/HeroList/index.svelte';
-
-	import { heroes, heroRankLateGame, heroRankEarlyGame } from '$lib/db';
+	import { newHeroRankList } from '$lib/db';
 </script>
 
-<h1>Idle Kingdom Best Heroes</h1>
-
-<HeroList heroList={heroes} />
 <div class="container">
-	<h2>Early Game</h2>
-	<HeroRank heroRank={heroRankEarlyGame} />
-	<h2>Late Game</h2>
-	<HeroRank heroRank={heroRankLateGame} />
+	<h1>Idle Kingdom Best Heroes</h1>
+	<HeroRank heroRank={newHeroRankList} />
 </div>
 
 <style>

@@ -5,7 +5,8 @@ import classesListJson from '$lib/data/classes.json';
 import typesListJson from '$lib/data/types.json';
 import heroRankJson from '$lib/data/heroRankLateGame.json';
 import heroRankEarlyJson from '$lib/data/heroRankEarlyGame.json';
-import { addIdToCollection, createSortByListAndName, sortByName, sortByTierList } from '$lib/utils';
+import newHeroRankListJson from '$lib/data/newList.json';
+import { addIdToCollection, createSortByListAndName } from '$lib/utils';
 
 const classesListJsonRaw = addIdToCollection(classesListJson);
 const typesListJsonRaw = addIdToCollection(typesListJson);
@@ -58,5 +59,14 @@ export const heroRankEarlyGame = heroRankEarlyGameRaw.map((rank) => {
 	return {
 		...rank,
 		heroList: sortByTierListAndName(rank.heroList),
+	};
+});
+
+export const newHeroRankList = newHeroRankListJson.map((row) => {
+	return {
+		...row,
+		heroList: row.heroList.map((heroName) => {
+			return heroes.find((hero) => hero.name === heroName);
+		}),
 	};
 });

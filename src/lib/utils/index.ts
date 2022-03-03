@@ -9,15 +9,6 @@ export const addIdToCollection = <T>(collection: T[]): (T & { id: string })[] =>
 	});
 };
 
-export const sortByTierList = (tiers) => (item) => {
-	const tierList = tiers.map((tier) => tier.name);
-	return tierList.indexOf(item.tier.name);
-};
-
-export const sortByName = (item) => {
-	return item.name;
-};
-
 export const createSortByListAndName = (tierList) => (array) => {
 	const clonedArray = array.slice();
 	const sortFunction = (prev, curr) => {
