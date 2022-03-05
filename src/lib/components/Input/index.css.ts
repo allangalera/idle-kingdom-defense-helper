@@ -21,4 +21,12 @@ export const input = style({
 	':hover': {
 		borderColor: theme.colors.border.hover,
 	},
+	':focus': {
+		boxShadow: `0 0 0 3px ${theme.colors.accent.base}`,
+		outline: 'none',
+	},
+	'::selection': {
+		background: theme.colors.accent.base,
+		color: theme.baseColor.white,
+	},
 });

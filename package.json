@@ -40,10 +40,10 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/raleway": "^4.5.3",
-		"@imask/svelte": "^6.4.2",
 		"@vanilla-extract/recipes": "^0.2.3",
 		"imask": "^6.4.2",
 		"nanoid": "^3.3.1",
+		"svelte-icons-pack": "^1.4.6",
 		"zod": "^3.13.4"
 	}
 }

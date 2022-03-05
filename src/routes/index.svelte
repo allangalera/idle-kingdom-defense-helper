@@ -6,7 +6,7 @@
 </script>
 
 <div class={styles.grid}>
-	<GridItem title="Castle Gold Upgrade Cost Calculator">
+	<GridItem title="Castle Upgrade Cost Calculator">
 		<CastleGoldUpgradeCostCalculator />
 	</GridItem>
 	<GridItem title="Hero Upgrade Cost Calculator">

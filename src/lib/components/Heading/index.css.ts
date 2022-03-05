@@ -6,6 +6,10 @@ export const heading = style({
 	color: theme.colors.text.default,
 	margin: 0,
 	fontWeight: 600,
+	'::selection': {
+		background: theme.colors.accent.base,
+		color: theme.baseColor.white,
+	},
 });
 
 export const headingVariant = styleVariants({

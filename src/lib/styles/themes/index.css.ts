@@ -181,6 +181,13 @@ export const colors = createThemeContract({
 		default: '',
 		hover: '',
 	},
+	accent: {
+		base: '',
+		transparency: '',
+	},
+	secondary: {
+		base: '',
+	},
 });
 
 export const theme = { ...root, colors };

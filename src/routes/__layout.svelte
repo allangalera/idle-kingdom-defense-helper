@@ -7,6 +7,7 @@
 	import Layout from '$lib/components/Layout/index.svelte';
 	import Header from '$lib/components/Header/index.svelte';
 	import Main from '$lib/components/Main/index.svelte';
+	import Footer from '$lib/components/Footer/index.svelte';
 	import { browser } from '$app/env';
 	import lazyload from 'vanilla-lazyload';
 
@@ -23,4 +24,5 @@
 	<Main>
 		<slot />
 	</Main>
+	<Footer />
 </Layout>

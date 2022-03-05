@@ -7,14 +7,21 @@ export const lightTheme = createTheme(colors, {
 		contrast: '#ffffff',
 	},
 	background: {
-		default: '#ebebeb',
+		default: '#E6E6E6',
 		contrast: '#0b0b0b',
 	},
 	header: {
-		default: '#D7D7D7',
+		default: '#E6E6E6',
 	},
 	border: {
-		default: '#aeaeae',
-		hover: '#868686',
+		default: '#CCCCCC',
+		hover: '#999999',
+	},
+	accent: {
+		base: '#783cb7',
+		transparency: ' #783cb728',
+	},
+	secondary: {
+		base: '#48dc81',
 	},
 });

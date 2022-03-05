@@ -7,4 +7,5 @@ export const container = style({
 	margin: '0 auto',
 	maxWidth: theme.breakpoints.xl,
 	padding: theme.space[8],
+	flex: 1,
 });

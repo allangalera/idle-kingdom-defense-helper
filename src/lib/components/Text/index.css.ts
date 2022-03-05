@@ -6,4 +6,8 @@ export const paragraph = style({
 	color: theme.colors.text.default,
 	margin: 0,
 	fontSize: theme.font.sizes.base,
+	'::selection': {
+		background: theme.colors.accent.base,
+		color: theme.baseColor.white,
+	},
 });
