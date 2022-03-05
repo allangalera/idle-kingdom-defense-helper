@@ -1,51 +1,75 @@
 import { style, styleVariants } from '@vanilla-extract/css';
-import { tiers, contrastTextColor, borderRadius, fontSize0 } from '$lib/styles/vars.css';
+import { theme } from '$lib/styles/themes/index.css';
 
 export const outsideBorder = style({
-	borderRadius: [borderRadius],
+	borderRadius: theme.border.radii.base,
 	borderColor: 'black',
-	borderWidth: '1px',
+	borderWidth: theme.sizes.px,
 	borderStyle: 'solid',
 });
 
 export const outsideBorderVariant = styleVariants({
-	C: [outsideBorder, { background: tiers.C.darker }],
-	B: [outsideBorder, { background: tiers.B.darker }],
-	A: [outsideBorder, { background: tiers.A.darker }],
-	S: [outsideBorder, { background: tiers.S.darker }],
+	C: [outsideBorder, { background: theme.baseColor.heroTiers.C.darker }],
+	B: [outsideBorder, { background: theme.baseColor.heroTiers.B.darker }],
+	A: [outsideBorder, { background: theme.baseColor.heroTiers.A.darker }],
+	S: [outsideBorder, { background: theme.baseColor.heroTiers.S.darker }],
 });
 
 export const hero = style({
 	display: 'flex',
 	flexDirection: 'column',
-	borderRadius: [borderRadius],
+	borderRadius: theme.border.radii.base,
 	overflow: 'hidden',
-	borderWidth: '4px',
+	borderWidth: theme.sizes[1],
 	position: 'relative',
 	width: '120px',
 	borderStyle: 'solid',
 });
 
 export const heroVariant = styleVariants({
-	C: [hero, { borderColor: tiers.C.darker, background: tiers.C.darker }],
-	B: [hero, { borderColor: tiers.B.darker, background: tiers.B.darker }],
-	A: [hero, { borderColor: tiers.A.darker, background: tiers.A.darker }],
-	S: [hero, { borderColor: tiers.S.darker, background: tiers.S.darker }],
+	C: [
+		hero,
+		{
+			borderColor: theme.baseColor.heroTiers.C.darker,
+			background: theme.baseColor.heroTiers.C.darker,
+		},
+	],
+	B: [
+		hero,
+		{
+			borderColor: theme.baseColor.heroTiers.B.darker,
+			background: theme.baseColor.heroTiers.B.darker,
+		},
+	],
+	A: [
+		hero,
+		{
+			borderColor: theme.baseColor.heroTiers.A.darker,
+			background: theme.baseColor.heroTiers.A.darker,
+		},
+	],
+	S: [
+		hero,
+		{
+			borderColor: theme.baseColor.heroTiers.S.darker,
+			background: theme.baseColor.heroTiers.S.darker,
+		},
+	],
 });
 
 export const heroContainer = style({
-	borderRadius: [borderRadius],
+	borderRadius: theme.border.radii.base,
 	borderColor: 'black',
-	borderWidth: '1px',
+	borderWidth: theme.sizes.px,
 	borderStyle: 'solid',
 	overflow: 'hidden',
 });
 
 export const heroContainerVariant = styleVariants({
-	C: [heroContainer, { background: tiers.C.lighter }],
-	B: [heroContainer, { background: tiers.B.lighter }],
-	A: [heroContainer, { background: tiers.A.lighter }],
-	S: [heroContainer, { background: tiers.S.lighter }],
+	C: [heroContainer, { background: theme.baseColor.heroTiers.C.lighter }],
+	B: [heroContainer, { background: theme.baseColor.heroTiers.B.lighter }],
+	A: [heroContainer, { background: theme.baseColor.heroTiers.A.lighter }],
+	S: [heroContainer, { background: theme.baseColor.heroTiers.S.lighter }],
 });
 
 export const heroImageContainer = style({
@@ -66,17 +90,17 @@ export const heroImage = style({
 });
 
 export const heroClass = style({
-	width: '24px',
+	width: theme.sizes[6],
 	position: 'absolute',
-	margin: '2px',
+	margin: theme.space[0.5],
 	left: 0,
 	top: 0,
 });
 
 export const heroType = style({
-	width: '24px',
+	width: theme.sizes[6],
 	position: 'absolute',
-	margin: '2px',
+	margin: theme.space[0.5],
 	right: 0,
 	top: 0,
 });
@@ -85,21 +109,21 @@ const heroNameAndTierBase = style({
 	display: 'flex',
 	justifyContent: 'space-between',
 	alignItems: 'center',
-	padding: '0 4px',
+	padding: `0 ${theme.space[1]}`,
 });
 
 export const heroNameAndTier = styleVariants({
-	C: [heroNameAndTierBase, { background: [tiers.C.base] }],
-	B: [heroNameAndTierBase, { background: [tiers.B.base] }],
-	A: [heroNameAndTierBase, { background: [tiers.A.base] }],
-	S: [heroNameAndTierBase, { background: [tiers.S.base] }],
+	C: [heroNameAndTierBase, { background: [theme.baseColor.heroTiers.C.base] }],
+	B: [heroNameAndTierBase, { background: [theme.baseColor.heroTiers.B.base] }],
+	A: [heroNameAndTierBase, { background: [theme.baseColor.heroTiers.A.base] }],
+	S: [heroNameAndTierBase, { background: [theme.baseColor.heroTiers.S.base] }],
 });
 
 export const tierBadge = style({
-	maxHeight: '16px',
+	maxHeight: theme.sizes[4],
 });
 
 export const heroName = style({
-	color: [contrastTextColor],
-	fontSize: [fontSize0],
+	color: theme.baseColor.white,
+	fontSize: theme.font.sizes.base,
 });

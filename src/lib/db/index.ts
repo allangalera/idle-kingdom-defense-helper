@@ -7,6 +7,7 @@ import heroRankJson from '$lib/data/heroRankLateGame.json';
 import heroRankEarlyJson from '$lib/data/heroRankEarlyGame.json';
 import newHeroRankListJson from '$lib/data/newList.json';
 import { addIdToCollection, createSortByListAndName } from '$lib/utils';
+import { CASTLE_INITIAL_UPGRADE_COST, CASTLE_MAX_LEVEL } from '$lib/constants';
 
 const classesListJsonRaw = addIdToCollection(classesListJson);
 const typesListJsonRaw = addIdToCollection(typesListJson);
@@ -70,3 +71,25 @@ export const newHeroRankList = newHeroRankListJson.map((row) => {
 		}),
 	};
 });
+
+const generateCastleGoldUpgradeData = (): Map<number, { cost: number; cumulativeCost: number }> => {
+	let levelUpgradeCost = CASTLE_INITIAL_UPGRADE_COST;
+	let result = 0;
+	const castleUpgradeData = new Map();
+	for (let level = 1; level <= CASTLE_MAX_LEVEL; level++) {
+		levelUpgradeCost += getLevelIncrement(level);
+		result += levelUpgradeCost;
+		castleUpgradeData.set(level, {
+			cost: levelUpgradeCost,
+			cumulativeCost: result,
+		});
+	}
+	return castleUpgradeData;
+};
+
+const getLevelIncrement = (level: number) => {
+	const roundedValue = Math.floor(level / 500 - 0.0021);
+	return roundedValue <= 20 ? (roundedValue + 1) * 10 : 210;
+};
+
+export const castleGoldUpgradeData = generateCastleGoldUpgradeData();

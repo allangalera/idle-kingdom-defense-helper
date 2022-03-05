@@ -1,20 +1,15 @@
 <script>
-	import HeroRank from '$lib/components/HeroRank/index.svelte';
-	import { newHeroRankList } from '$lib/db';
+	import * as styles from './index.css';
+	import GridItem from '$lib/components/GridItem/index.svelte';
+	import CastleGoldUpgradeCostCalculator from '$lib/components/CastleGoldUpgradeCostCalculator/index.svelte';
+	import HeroUpgradeCostCalculator from '$lib/components/HeroUpgradeCostCalculator/index.svelte';
 </script>
 
-<div class="container">
-	<h1>Idle Kingdom Best Heroes</h1>
-	<HeroRank heroRank={newHeroRankList} />
+<div class={styles.grid}>
+	<GridItem title="Castle Gold Upgrade Cost Calculator">
+		<CastleGoldUpgradeCostCalculator />
+	</GridItem>
+	<GridItem title="Hero Upgrade Cost Calculator">
+		<HeroUpgradeCostCalculator />
+	</GridItem>
 </div>
-
-<style>
-	.container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 8px;
-		flex-direction: column;
-		gap: 16px;
-	}
-</style>
