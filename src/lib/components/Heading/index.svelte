@@ -7,51 +7,27 @@
 </script>
 
 {#if as == 'h1'}
-	<h1
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h1 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h1>
 {:else if as == 'h2'}
-	<h2
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h2 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h2>
 {:else if as == 'h3'}
-	<h3
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h3 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h3>
 {:else if as == 'h4'}
-	<h4
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h4 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h4>
 {:else if as == 'h5'}
-	<h5
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h5 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h5>
 {:else}
-	<h6
-		class={styles.headingRecipe({
-			fontSize,
-		})}
-	>
+	<h6 class={styles.headingVariant[fontSize]}>
 		<slot />
 	</h6>
 {/if}

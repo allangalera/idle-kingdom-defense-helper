@@ -13,6 +13,7 @@ export const middle = style({
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
+	textAlign: 'center',
 });
 
 export const sides = style({

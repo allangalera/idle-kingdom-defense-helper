@@ -36,7 +36,7 @@ const space = {
 	96: '24rem',
 };
 
-const fontSizes = {
+export const fontSizes = {
 	xs: '0.75rem',
 	sm: '0.875rem',
 	base: '1rem',
