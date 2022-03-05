@@ -1,7 +1,7 @@
 <script>
 	import * as styles from './index.css';
 	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
-	import ascensionStoneIcon from '$lib/assets/Ascension.png';
+	import Card from '$lib/components/Card/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import { ASCENSION } from '$lib/constants';
 	import { getIdleKingdomNumberFormat } from '$lib/utils';
@@ -110,13 +110,7 @@
 			<Text>Shards</Text>
 		</div>
 		<div class={styles.ascensionStoneResult}>
-			<Text>{getIdleKingdomNumberFormat(ascensionStonesCost)}</Text>
-			<img
-				class={styles.icon}
-				src={ascensionStoneIcon}
-				alt="Ascension Stone Icon"
-				title="Ascension Stone"
-			/>
+			<Card value={ascensionStonesCost} />
 		</div>
 	</div>
 </div>

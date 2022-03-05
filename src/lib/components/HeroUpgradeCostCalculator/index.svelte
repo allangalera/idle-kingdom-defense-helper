@@ -1,14 +1,15 @@
-<script>
+<script lang="ts">
 	import * as styles from './index.css';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
+	import Card from '$lib/components/Card/index.svelte';
 	import goldIcon from '$lib/assets/gold_icon.png';
 	import soulstoneIcon from '$lib/assets/Soulstone.png';
 	let currentLevel = '1';
 	let targetLevel = '2';
 	let result = {
-		coins: '0',
-		souls: '0',
+		coins: 0,
+		souls: 0,
 	};
 	let dataCoins = [];
 	let dataSoulStones = [];
@@ -80,7 +81,7 @@
 			currentLevel: currLevel,
 			targetLevel: tarLevel,
 		});
-		if (!validation.success) return { coins: '0', souls: '0' };
+		if (!validation.success) return { coins: 0, souls: 0 };
 		const { currentLevel: level, targetLevel: target } = validation.data;
 		let cs = 0;
 		let sss = 0;
@@ -95,8 +96,8 @@
 			sss = 0;
 		}
 		return {
-			coins: getIdleKingdomNumberFormat(cs),
-			souls: getIdleKingdomNumberFormat(sss),
+			coins: cs,
+			souls: sss,
 		};
 	}
 	$: result = calculate(+currentLevel, +targetLevel);
@@ -123,12 +124,10 @@
 	/>
 	<div class={styles.result}>
 		<div class={styles.goldResult}>
-			<Text>{result.coins}</Text>
-			<img class={`lazy ${styles.icon}`} src={goldIcon} alt="gold coin" title="Gold coin" />
+			<Card cardType="coin" value={result.coins} />
 		</div>
 		<div class={styles.soulResult}>
-			<Text>{result.souls}</Text>
-			<img class={`lazy ${styles.icon}`} src={soulstoneIcon} alt="gold coin" title="Gold coin" />
+			<Card cardType="soulstone" value={result.souls} />
 		</div>
 	</div>
 </div>
