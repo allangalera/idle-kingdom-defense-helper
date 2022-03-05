@@ -4,6 +4,7 @@
 	import ascensionStoneIcon from '$lib/assets/Ascension.png';
 	import Text from '$lib/components/Text/index.svelte';
 	import { ASCENSION } from '$lib/constants';
+	import { getIdleKingdomNumberFormat } from '$lib/utils';
 
 	let ascensionStartLevels = new Array(25).fill(false);
 	let ascensionEndLevels = new Array(25).fill(false);
@@ -105,11 +106,11 @@
 	</div>
 	<div class={styles.result}>
 		<div class={styles.shardResult}>
-			<Text>{shardsCost}</Text>
+			<Text>{getIdleKingdomNumberFormat(shardsCost)}</Text>
 			<Text>Shards</Text>
 		</div>
 		<div class={styles.ascensionStoneResult}>
-			<Text>{ascensionStonesCost}</Text>
+			<Text>{getIdleKingdomNumberFormat(ascensionStonesCost)}</Text>
 			<img
 				class={styles.icon}
 				src={ascensionStoneIcon}

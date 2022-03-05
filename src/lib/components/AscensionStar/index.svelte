@@ -21,11 +21,17 @@
 <div role="button" on:click on:click={onChange}>
 	{#if selected}
 		<Icon
+			className={styles.shadow}
 			src={AiFillStar}
 			color={theme.baseColor.ascensionList[ascensionLevel]}
 			size={theme.sizes[8]}
 		/>
 	{:else}
-		<Icon src={AiOutlineStar} color={theme.colors.text.default} size={theme.sizes[8]} />
+		<Icon
+			className={styles.shadow}
+			src={AiOutlineStar}
+			color={theme.colors.text.default}
+			size={theme.sizes[8]}
+		/>
 	{/if}
 </div>

@@ -29,6 +29,7 @@ export const result = style({
 	display: 'flex',
 	justifyContent: 'space-evenly',
 	alignItems: 'center',
+	fontWeight: 600,
 });
 
 export const shardResult = style({
