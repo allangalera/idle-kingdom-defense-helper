@@ -15,7 +15,7 @@
 		>
 	</div>
 	<div class={styles.socialIconsContainer}>
-		<a class={styles.anchor} href="https://discord.gg/KMbhHrZrHF" target="_blank" rel="noreferrer"
+		<a class={styles.anchor} href="https://discord.gg/QS9MMrrYkA" target="_blank" rel="noreferrer"
 			><Icon
 				className={styles.discordIcon}
 				src={SiDiscord}
