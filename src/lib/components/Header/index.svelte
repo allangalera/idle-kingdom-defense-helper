@@ -10,7 +10,6 @@
 	import { theme } from '$lib/styles/themes/index.css';
 	let checked = $themeStore === 'light' ? false : true;
 	function switchTheme(checked) {
-		console.log({ checked });
 		themeStore.set(checked ? 'dark' : 'light');
 	}
 

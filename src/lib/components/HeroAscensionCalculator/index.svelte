@@ -1,0 +1,121 @@
+<script>
+	import * as styles from './index.css';
+	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
+	import ascensionStoneIcon from '$lib/assets/Ascension.png';
+	import Text from '$lib/components/Text/index.svelte';
+	import { ASCENSION } from '$lib/constants';
+
+	let ascensionStartLevels = new Array(25).fill(false);
+	let ascensionEndLevels = new Array(25).fill(false);
+	let selectedStartLevel = 0;
+	let selectedEndLevel = 0;
+
+	ascensionStartLevels[0] = true;
+	ascensionEndLevels[0] = true;
+
+	let shardsCost = 0;
+	let ascensionStonesCost = 0;
+
+	let ascensionGroups = [
+		[0, 0, 0, 0, 0],
+		[1, 1, 1, 1, 1],
+		[2, 2, 2, 2, 2],
+		[3, 3, 3, 3, 3],
+		[4, 4, 4, 4, 4],
+	];
+
+	function onAscencionStartClick(level) {
+		ascensionStartLevels = ascensionStartLevels.map((startLevel, index) =>
+			index >= level ? false : true
+		);
+		selectedStartLevel = level;
+	}
+
+	function onAscencionEndClick(level) {
+		ascensionEndLevels = ascensionEndLevels.map((startLevel, index) =>
+			index >= level ? false : true
+		);
+		selectedEndLevel = level;
+	}
+
+	function calculateCost(startLevel, endLevel) {
+		shardsCost = 0;
+		ascensionStonesCost = 0;
+		let ascensionStonesCostLevel = 0;
+		if (startLevel >= endLevel) return;
+		// endLevel++;
+		// startLevel++;
+		console.group('New Run');
+		for (let level = 1; level <= endLevel; level++) {
+			let ascensionIncrement = ASCENSION.ASCENSION_STONE_PER_5_LEVELS[Math.floor(level / 5)];
+			ascensionStonesCostLevel += ascensionIncrement;
+			if (level > startLevel) {
+				console.log('add');
+				shardsCost += (level + 1) * ASCENSION.SHARD_PER_LEVEL;
+				ascensionStonesCost += ascensionStonesCostLevel;
+			}
+			console.log({
+				startLevel,
+				endLevel,
+				level,
+				shardsCost,
+				ascensionStonesCost,
+				rounding: Math.floor(level / 5),
+			});
+		}
+		console.log({ shardsCost, ascensionStonesCost });
+		console.groupEnd();
+	}
+
+	$: calculateCost(selectedStartLevel, selectedEndLevel);
+</script>
+
+<div class={styles.container}>
+	<div class={styles.innerContainer}>
+		<Text>From:</Text>
+		<div class={styles.ascensionLevelContainer}>
+			{#each ascensionGroups as ascensionGroup, index1}
+				<div class={styles.ascensionLevel}>
+					{#each ascensionGroup as level, index2}
+						<AscensionStar
+							selected={ascensionStartLevels[index1 * 5 + index2]}
+							on:click={() => onAscencionStartClick(index1 * 5 + index2)}
+							ascensionLevel={index1}
+						/>
+					{/each}
+				</div>
+			{/each}
+		</div>
+	</div>
+	<div class={styles.innerContainer}>
+		<Text>To:</Text>
+		<div class={styles.ascensionLevelContainer}>
+			{#each ascensionGroups as ascensionGroup, index1}
+				<div class={styles.ascensionLevel}>
+					{#each ascensionGroup as level, index2}
+						<AscensionStar
+							selected={ascensionEndLevels[index1 * 5 + index2]}
+							on:click={() => onAscencionEndClick(index1 * 5 + index2)}
+							ascensionLevel={index1}
+						/>
+					{/each}
+				</div>
+			{/each}
+		</div>
+	</div>
+	<div class={styles.result}>
+		<div class={styles.shardResult}>
+			<Text>{shardsCost}</Text>
+			<Text>Shards</Text>
+		</div>
+		<div class={styles.ascensionStoneResult}>
+			<Text>{ascensionStonesCost}</Text>
+			<img
+				class={styles.icon}
+				src={ascensionStoneIcon}
+				alt="Ascension Stone Icon"
+				title="Ascension Stone"
+			/>
+		</div>
+	</div>
+</div>

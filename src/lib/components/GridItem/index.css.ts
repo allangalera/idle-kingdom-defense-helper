@@ -13,7 +13,11 @@ export const containerVariant = styleVariants({
 	full: [
 		container,
 		{
-			gridColumn: '1 / span 2',
+			'@media': {
+				'screen and (min-width: 768px)': {
+					gridColumn: '1 / span 2',
+				},
+			},
 		},
 	],
 });

@@ -7,8 +7,6 @@
 
 	$: dispatch('toggle', { checked });
 
-	function action() {}
-
 	function onChange() {
 		checked = !checked;
 	}
