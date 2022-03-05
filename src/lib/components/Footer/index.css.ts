@@ -21,10 +21,14 @@ export const svelteIcon = style({
 
 export const redditIcon = style({
 	background: 'radial-gradient(#fff 10%, #fff 50%, transparent 51%, transparent)',
+	width: theme.sizes[8],
+	height: theme.sizes[8],
 });
 
 export const discordIcon = style({
 	background: 'radial-gradient(#fff 10%, #fff 50%, transparent 51%, transparent)',
+	width: theme.sizes[8],
+	height: theme.sizes[8],
 });
 
 export const anchor = style({
