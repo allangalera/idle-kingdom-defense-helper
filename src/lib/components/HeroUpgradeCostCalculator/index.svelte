@@ -1,10 +1,7 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import Input from '$lib/components/Input/index.svelte';
-	import Text from '$lib/components/Text/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
-	import goldIcon from '$lib/assets/gold_icon.png';
-	import soulstoneIcon from '$lib/assets/Soulstone.png';
 	let currentLevel = '1';
 	let targetLevel = '2';
 	let result = {
@@ -20,7 +17,6 @@
 		4, 3, 4, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
 	];
 	const incSoulstones = [2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
-	import { getIdleKingdomNumberFormat } from '$lib/utils';
 	import { heroUpgradeCostCalculatorParameterSchema } from '$lib/utils';
 	import { onMount } from 'svelte';
 	import { MAX_HERO_LEVEL } from '$lib/constants';

@@ -3,11 +3,9 @@ import { style } from '@vanilla-extract/css';
 
 export const wrapper = style({
 	position: 'relative',
-	// width: '100%',
 	width: theme.sizes[24],
 	height: 'auto',
 	aspectRatio: '1 / 1',
-	// padding: theme.space.px,
 	padding: '0.09rem',
 	overflow: 'hidden',
 	background: '#000000',

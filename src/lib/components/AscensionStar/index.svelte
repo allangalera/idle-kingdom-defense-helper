@@ -1,13 +1,16 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import { createEventDispatcher } from 'svelte';
-	import Icon from 'svelte-icons-pack/Icon.svelte';
-	import AiFillStar from 'svelte-icons-pack/ai/AiFillStar';
-	import AiOutlineStar from 'svelte-icons-pack/ai/AiOutlineStar';
-	import { theme } from '$lib/styles/themes/index.css';
+	import start1 from '$lib/assets/iconStarBig1.png';
+	import start2 from '$lib/assets/iconStarBig2.png';
+	import start3 from '$lib/assets/iconStarBig3.png';
+	import start4 from '$lib/assets/iconStarBig4.png';
+	import start5 from '$lib/assets/iconStarBig5.png';
 
 	export let selected;
 	export let ascensionLevel = 0;
+
+	const startLevels = [start1, start2, start3, start4, start5];
 
 	const dispatch = createEventDispatcher();
 
@@ -20,18 +23,8 @@
 
 <div role="button" on:click on:click={onChange}>
 	{#if selected}
-		<Icon
-			className={styles.shadow}
-			src={AiFillStar}
-			color={theme.baseColor.ascensionList[ascensionLevel]}
-			size={theme.sizes[8]}
-		/>
+		<img src={startLevels[ascensionLevel]} alt="start level" />
 	{:else}
-		<Icon
-			className={styles.shadow}
-			src={AiOutlineStar}
-			color={theme.colors.text.default}
-			size={theme.sizes[8]}
-		/>
+		<img class={styles.fade} src={startLevels[ascensionLevel]} alt="start level" />
 	{/if}
 </div>

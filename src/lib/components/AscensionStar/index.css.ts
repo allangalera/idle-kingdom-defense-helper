@@ -6,3 +6,7 @@ export const shadow = style({
 	width: theme.sizes[8],
 	height: theme.sizes[8],
 });
+
+export const fade = style({
+	opacity: 0.3,
+});

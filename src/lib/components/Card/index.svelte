@@ -1,8 +1,8 @@
 <script lang="ts">
 	import * as styles from './index.css';
-	import ascensionStoneIcon from '$lib/assets/Ascension.png';
-	import goldCoinIcon from '$lib/assets/gold_icon.png';
-	import soulstoneIcon from '$lib/assets/Soulstone.png';
+	import ascensionStoneIcon from '$lib/assets/iconEvolveStone.png';
+	import goldCoinIcon from '$lib/assets/iconGold.png';
+	import soulstoneIcon from '$lib/assets/iconSoul.png';
 	import { getIdleKingdomNumberFormat } from '$lib/utils';
 	export let value: number = 0;
 	export let cardType: string = 'ascension-stone';
