@@ -8,5 +8,5 @@ export const shadow = style({
 });
 
 export const fade = style({
-	opacity: 0.3,
+	opacity: 0.15,
 });
