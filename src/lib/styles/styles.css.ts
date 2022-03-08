@@ -5,7 +5,6 @@ globalFontFace('HeadingFont', {
 });
 
 globalStyle('html, body', {
-	minWidth: '100vw',
 	minHeight: '100vh',
 	margin: 0,
 });
