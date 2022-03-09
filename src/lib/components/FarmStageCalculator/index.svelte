@@ -6,9 +6,10 @@
 
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
+	import Heading from '$lib/components/Heading/index.svelte';
 
 	let stage = '1';
-	let result = '';
+	let result = [];
 	let gear = {
 		hero: {
 			weapon: false,
@@ -153,69 +154,72 @@
 
 			currentStage--;
 		}
-		result = JSON.stringify(stages);
+		result = stages;
 	}
 
 	$: calculateStage(stage, gear);
 </script>
 
 <div class={styles.container}>
-	<div>
-		<Input
-			bind:value={stage}
-			maskOptions={{
-				mask: Number,
-				min: 0,
-				max: 13000,
-			}}
-			label="Current stage"
-		/>
-		<Text>Hero</Text>
-		<div class={styles.flex}>
-			<label>
-				<Text>Weapon</Text>
-				<input type="checkbox" on:change={updateGearData('hero', 'weapon')} />
-			</label>
-			<label>
-				<Text>Armor</Text>
-				<input type="checkbox" on:change={updateGearData('hero', 'armor')} />
-			</label>
-			<label>
-				<Text>Helmet</Text>
-				<input type="checkbox" on:change={updateGearData('hero', 'helmet')} />
-			</label>
-			<label>
-				<Text>Boots</Text>
-				<input type="checkbox" on:change={updateGearData('hero', 'boots')} />
-			</label>
-		</div>
-		<Text>Archer</Text>
-		<div class={styles.flex}>
-			<label>
-				<Text>Bow</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'bow')} />
-			</label>
-			<label>
-				<Text>Arrow</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'arrow')} />
-			</label>
-			<label>
-				<Text>Helmet</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'helmet')} />
-			</label>
-			<label>
-				<Text>Armor</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'armor')} />
-			</label>
-			<label>
-				<Text>Gloves</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'gloves')} />
-			</label>
-			<label>
-				<Text>Boots</Text>
-				<input type="checkbox" on:change={updateGearData('archer', 'boots')} />
-			</label>
-		</div>
+	<Input
+		bind:value={stage}
+		maskOptions={{
+			mask: Number,
+			min: 0,
+			max: 13000,
+		}}
+		label="Current stage"
+	/>
+	<Text>Hero</Text>
+	<div class={styles.flex}>
+		<label>
+			<Text>Weapon</Text>
+			<input type="checkbox" on:change={updateGearData('hero', 'weapon')} />
+		</label>
+		<label>
+			<Text>Armor</Text>
+			<input type="checkbox" on:change={updateGearData('hero', 'armor')} />
+		</label>
+		<label>
+			<Text>Helmet</Text>
+			<input type="checkbox" on:change={updateGearData('hero', 'helmet')} />
+		</label>
+		<label>
+			<Text>Boots</Text>
+			<input type="checkbox" on:change={updateGearData('hero', 'boots')} />
+		</label>
 	</div>
-	<div><Text>Result: {result}</Text></div>
+	<Text>Archer</Text>
+	<div class={styles.flex}>
+		<label>
+			<Text>Bow</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'bow')} />
+		</label>
+		<label>
+			<Text>Arrow</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'arrow')} />
+		</label>
+		<label>
+			<Text>Helmet</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'helmet')} />
+		</label>
+		<label>
+			<Text>Armor</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'armor')} />
+		</label>
+		<label>
+			<Text>Gloves</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'gloves')} />
+		</label>
+		<label>
+			<Text>Boots</Text>
+			<input type="checkbox" on:change={updateGearData('archer', 'boots')} />
+		</label>
+	</div>
+	<Heading>Results:</Heading>
+	<div class={styles.flex}>
+		{#each result as stage}
+			<Text>{stage}</Text>
+		{/each}
+	</div>
 </div>
