@@ -51,13 +51,13 @@
 	}
 
 	function calculateHeroDropFromStage(stage) {
-		const stageDrops = ['all', 'weapon', 'helmet', 'armor', 'shoes'];
+		const stageDrops = ['all', 'weapon', 'helmet', 'armor', 'boots'];
 
 		return stageDrops[stage % 5];
 	}
 
 	function calculateArcherDropFromStage(stage) {
-		const drops = ['all', 'bow', 'arrow', 'helmet', 'armor', 'gloves', 'shoe'];
+		const drops = ['all', 'bow', 'arrow', 'helmet', 'armor', 'gloves', 'boots'];
 
 		return drops[stage % 7];
 	}
@@ -121,14 +121,20 @@
 			hasGear = validate;
 			let heroDropFromStage = calculateHeroDropFromStage(currentStage);
 			let archerDropFromStage = calculateArcherDropFromStage(currentStage);
-			console.log({ currentStage, validate, wantedGear, heroDropFromStage, archerDropFromStage });
+
 			if (
 				(wantedGear.hero.length > 1 || wantedGear.hero.length === 0) &&
 				(wantedGear.archer.length > 1 || wantedGear.archer.length === 0)
 			) {
 				if (heroDropFromStage === 'all' && archerDropFromStage === 'all') stages.push(currentStage);
 			} else {
-				if (wantedGear.archer.length === 1 && wantedGear.hero.length === 1) {
+				if (wantedGear.archer.length > 1 && wantedGear.hero.length === 1) {
+					if (archerDropFromStage === 'all' && wantedGear.hero.includes(heroDropFromStage))
+						stages.push(currentStage);
+				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length > 1) {
+					if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage))
+						stages.push(currentStage);
+				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length === 1) {
 					if (
 						wantedGear.archer.includes(archerDropFromStage) &&
 						heroDropFromStage !== 'all' &&
@@ -164,7 +170,7 @@
 			}}
 			label="Current stage"
 		/>
-		<Text>hero</Text>
+		<Text>Hero</Text>
 		<div class={styles.flex}>
 			<label>
 				<Text>Weapon</Text>
@@ -183,7 +189,7 @@
 				<input type="checkbox" on:change={updateGearData('hero', 'boots')} />
 			</label>
 		</div>
-		<Text>hero</Text>
+		<Text>Archer</Text>
 		<div class={styles.flex}>
 			<label>
 				<Text>Bow</Text>
