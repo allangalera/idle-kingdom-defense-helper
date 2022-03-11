@@ -20,10 +20,8 @@
 
 	onMount(async () => {
 		const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches ?? false;
-		console.log({ isDarkMode });
 		theme.update((currentTheme) => {
 			if (currentTheme.isForced) return currentTheme;
-			console.log('going to update theme');
 			return {
 				...currentTheme,
 				theme: isDarkMode ? ThemeOptions.dark : ThemeOptions.light,
@@ -32,7 +30,6 @@
 		window.matchMedia('(prefers-color-scheme: dark').addEventListener('change', (event) => {
 			theme.update((currentTheme) => {
 				if (currentTheme.isForced) return currentTheme;
-				console.log('going to update theme');
 				return {
 					...currentTheme,
 					theme: event.matches ? ThemeOptions.dark : ThemeOptions.light,

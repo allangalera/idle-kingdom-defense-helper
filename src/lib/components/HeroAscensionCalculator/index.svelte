@@ -44,27 +44,14 @@
 		ascensionStonesCost = 0;
 		let ascensionStonesCostLevel = 0;
 		if (startLevel >= endLevel) return;
-		// endLevel++;
-		// startLevel++;
-		console.group('New Run');
 		for (let level = 1; level <= endLevel; level++) {
 			let ascensionIncrement = ASCENSION.ASCENSION_STONE_PER_5_LEVELS[Math.floor(level / 5)];
 			ascensionStonesCostLevel += ascensionIncrement;
 			if (level > startLevel) {
-				console.log('add');
 				shardsCost += (level + 1) * ASCENSION.SHARD_PER_LEVEL;
 				ascensionStonesCost += ascensionStonesCostLevel;
 			}
-			console.log({
-				startLevel,
-				endLevel,
-				level,
-				shardsCost,
-				ascensionStonesCost,
-				rounding: Math.floor(level / 5),
-			});
 		}
-		console.log({ shardsCost, ascensionStonesCost });
 		console.groupEnd();
 	}
 

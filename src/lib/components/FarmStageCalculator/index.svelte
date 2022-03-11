@@ -65,7 +65,7 @@
 	}
 
 	function calculateEnemyFromStage(stage) {
-		const enemies = [10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14, 5, 10];
+		const enemies = [10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14, 5];
 
 		return enemies[stage % 14];
 	}
@@ -150,19 +150,33 @@
 			hasGear = validate;
 			let heroDropFromStage = calculateHeroDropFromStage(currentStage);
 			let archerDropFromStage = calculateArcherDropFromStage(currentStage);
+			let enemyType = calculateEnemyFromStage(currentStage);
+
+			const currentStageData = {
+				stage: currentStage,
+				enemy: {
+					type: enemyType,
+					color: getColorFromEnemyDifficulty(enemyType),
+				},
+				drop: {
+					hero: heroDropFromStage,
+					archer: archerDropFromStage,
+				},
+			};
 
 			if (
 				(wantedGear.hero.length > 1 || wantedGear.hero.length === 0) &&
 				(wantedGear.archer.length > 1 || wantedGear.archer.length === 0)
 			) {
-				if (heroDropFromStage === 'all' && archerDropFromStage === 'all') stages.push(currentStage);
+				if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
+					stages.push(currentStageData);
 			} else {
 				if (wantedGear.archer.length > 1 && wantedGear.hero.length === 1) {
 					if (archerDropFromStage === 'all' && wantedGear.hero.includes(heroDropFromStage))
-						stages.push(currentStage);
+						stages.push(currentStageData);
 				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length > 1) {
 					if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage))
-						stages.push(currentStage);
+						stages.push(currentStageData);
 				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length === 1) {
 					if (
 						wantedGear.archer.includes(archerDropFromStage) &&
@@ -170,13 +184,13 @@
 						wantedGear.hero.includes(heroDropFromStage) &&
 						archerDropFromStage !== 'all'
 					)
-						stages.push(currentStage);
+						stages.push(currentStageData);
 				} else {
 					if (
 						(wantedGear.archer.includes(archerDropFromStage) && heroDropFromStage !== 'all') ||
 						(wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage !== 'all')
 					)
-						stages.push(currentStage);
+						stages.push(currentStageData);
 				}
 			}
 
@@ -272,14 +286,14 @@
 		<Text fontSize="sm"><Text color="red9" as="span">Hard</Text>: 1, 9, 11</Text>
 	</div>
 	<div class={styles.flex}>
-		{#each result as stage}
-			<Text fontSize="lg"
-				>{stage} (<Text
-					as="span"
-					color={getColorFromEnemyDifficulty(calculateEnemyFromStage(stage))}
-					>{calculateEnemyFromStage(stage)}</Text
-				>)</Text
-			>
-		{/each}
+		{#if result.length > 0}
+			{#each result as stageData}
+				<Text fontSize="lg"
+					>{stageData.stage} (<Text as="span" color={stageData.enemy.color}
+						>{stageData.enemy.type}</Text
+					>)</Text
+				>
+			{/each}
+		{/if}
 	</div>
 </div>
