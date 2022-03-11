@@ -4,7 +4,7 @@ import { style, styleVariants } from '@vanilla-extract/css';
 export const container = style({
 	borderWidth: theme.space.px,
 	borderStyle: 'solid',
-	borderColor: theme.colors.border.default,
+	borderColor: theme.themeColors.border.default,
 	borderRadius: theme.border.radii.base,
 });
 
@@ -23,14 +23,13 @@ export const containerVariant = styleVariants({
 });
 
 export const title = style({
-	color: theme.colors.text.default,
 	padding: theme.space[2],
 	textAlign: 'center',
 	borderWidth: 0,
 	borderBottomWidth: theme.space.px,
-	borderColor: theme.colors.border.default,
+	borderColor: theme.themeColors.border.default,
 	borderStyle: 'solid',
-	fontSize: theme.font.sizes['2xl'],
+	fontSize: theme.font.fontSizes['2xl'],
 });
 
 export const content = style({

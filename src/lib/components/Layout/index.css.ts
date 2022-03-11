@@ -5,5 +5,5 @@ export const container = style({
 	display: 'flex',
 	flexDirection: 'column',
 	minHeight: '100vh',
-	background: theme.colors.background.default,
+	background: theme.themeColors.background.default,
 });

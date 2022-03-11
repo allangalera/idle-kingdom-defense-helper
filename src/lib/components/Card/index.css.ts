@@ -110,6 +110,6 @@ export const textContainer = style({
 	fontWeight: 600,
 	color: theme.baseColor.white,
 	fontFamily: theme.font.family.body,
-	fontSize: theme.font.sizes.base,
+	fontSize: theme.font.fontSizes.base,
 	margin: 0,
 });

@@ -4,6 +4,7 @@
 
 	import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
 
+	import Link from '$lib/components/Link/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
@@ -61,6 +62,33 @@
 		const drops = ['all', 'bow', 'arrow', 'helmet', 'armor', 'gloves', 'boots'];
 
 		return drops[stage % 7];
+	}
+
+	function calculateEnemyFromStage(stage) {
+		const enemies = [10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14, 5, 10];
+
+		return enemies[stage % 14];
+	}
+
+	function getColorFromEnemyDifficulty(enemy) {
+		const enemyGroupDifficultyColor = {
+			1: 'red9',
+			2: 'green9',
+			3: 'green9',
+			4: 'yellow9',
+			5: 'green9',
+			6: 'yellow9',
+			7: 'green9',
+			8: 'green9',
+			9: 'red9',
+			10: 'green9',
+			11: 'red9',
+			12: 'yellow9',
+			13: 'yellow9',
+			14: 'green9',
+		};
+
+		return enemyGroupDifficultyColor[enemy] ?? 'slate12';
 	}
 
 	const updateGearData = (type: 'archer' | 'hero', currentGear: string) => (event) => {
@@ -217,9 +245,34 @@
 		</label>
 	</div>
 	<Heading>Results:</Heading>
+	<Text fontSize="sm"
+		>results are stages that contains the items you selected. If you didn't select any it will try
+		finding stages with all drops. The number in parentesis is the enemy group. The enemy group is
+		bases on <Link
+			href="https://cdn.discordapp.com/attachments/932658558863020062/938424333850796042/ruins_cheatsheet_2_blank.png"
+			target="_blank"
+			rel="noreferrer">this image</Link
+		>. The difficuly of each group was based on <Link
+			href="https://cdn.discordapp.com/attachments/932658558863020062/938873694439239730/ruins_cheatsheet_2_1.png"
+			target="_blank"
+			rel="noreferrer">this image</Link
+		></Text
+	>
+	<div>
+		<Text fontSize="sm">For easy reference:</Text>
+		<Text fontSize="sm"><Text color="green9" as="span">Easy</Text>: 2, 3, 5, 7, 8, 10, 14</Text>
+		<Text fontSize="sm"><Text color="yellow9" as="span">Medium</Text>: 4, 6, 12, 13</Text>
+		<Text fontSize="sm"><Text color="red9" as="span">Hard</Text>: 1, 9, 11</Text>
+	</div>
 	<div class={styles.flex}>
 		{#each result as stage}
-			<Text>{stage}</Text>
+			<Text fontSize="lg"
+				>{stage} (<Text
+					as="span"
+					color={getColorFromEnemyDifficulty(calculateEnemyFromStage(stage))}
+					>{calculateEnemyFromStage(stage)}</Text
+				>)</Text
+			>
 		{/each}
 	</div>
 </div>

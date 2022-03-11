@@ -125,5 +125,5 @@ export const tierBadge = style({
 
 export const heroName = style({
 	color: theme.baseColor.white,
-	fontSize: theme.font.sizes.base,
+	fontSize: theme.font.fontSizes.base,
 });

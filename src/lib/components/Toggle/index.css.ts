@@ -10,13 +10,13 @@ export const container = style({
 	display: 'flex',
 	borderRadius: theme.border.radii.full,
 	width: theme.sizes[10],
-	borderColor: theme.colors.border.default,
+	borderColor: theme.themeColors.border.default,
 	borderWidth: theme.space.px,
 	borderStyle: 'solid',
 	background: 'grey',
 	padding: theme.space[0.5],
 	':focus': {
-		boxShadow: `0 0 0 3px ${theme.colors.accent.base}`,
+		boxShadow: `0 0 0 3px ${theme.themeColors.accent.base}`,
 	},
 });
 
@@ -25,7 +25,7 @@ export const containerVariant = styleVariants({
 	checked: [
 		container,
 		{
-			background: theme.colors.accent.base,
+			background: theme.themeColors.accent.base,
 		},
 	],
 });

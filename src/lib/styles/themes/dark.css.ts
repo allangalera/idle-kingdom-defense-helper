@@ -1,7 +1,14 @@
 import { createTheme } from '@vanilla-extract/css';
-import { colors } from './index.css';
+import { themeColors } from './index.css';
+import { slateDark, redDark, greenDark, yellowDark } from '@radix-ui/colors';
 
-export const darkTheme = createTheme(colors, {
+export const darkTheme = createTheme(themeColors, {
+	baseColors: {
+		...slateDark,
+		...redDark,
+		...greenDark,
+		...yellowDark,
+	},
 	text: {
 		default: '#ffffff',
 		contrast: '#151515',

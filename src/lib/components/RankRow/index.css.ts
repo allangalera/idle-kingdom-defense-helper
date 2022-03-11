@@ -1,31 +1,31 @@
 import { style, styleVariants } from '@vanilla-extract/css';
-import { borderRadius, defaultTextColor, tierList } from '$lib/styles/vars.css';
+import { theme } from '$lib/styles/themes/index.css';
 
 export const container = style({
 	display: 'flex',
 	flexDirection: 'row',
 	background: '#202020',
-	borderRadius: [borderRadius],
+	borderRadius: [theme.border.radii.base],
 	overflow: 'hidden',
 	maxWidth: '1250px',
 });
 
 export const containerVariant = styleVariants({
-	rank0: [container, { borderColor: tierList.rank0 }],
-	rank1: [container, { borderColor: tierList.rank1 }],
-	rank2: [container, { borderColor: tierList.rank2 }],
-	rank3: [container, { borderColor: tierList.rank3 }],
-	rank4: [container, { borderColor: tierList.rank4 }],
-	rank5: [container, { borderColor: tierList.rank5 }],
-	rank6: [container, { borderColor: tierList.rank6 }],
-	rank7: [container, { borderColor: tierList.rank7 }],
-	rank8: [container, { borderColor: tierList.rank8 }],
-	rank9: [container, { borderColor: tierList.rank9 }],
-	rank10: [container, { borderColor: tierList.rank10 }],
-	rank11: [container, { borderColor: tierList.rank11 }],
-	rank12: [container, { borderColor: tierList.rank12 }],
-	rank13: [container, { borderColor: tierList.rank13 }],
-	rank14: [container, { borderColor: tierList.rank14 }],
+	rank0: [container, { borderColor: theme.baseColor.tierList[0] }],
+	rank1: [container, { borderColor: theme.baseColor.tierList[1] }],
+	rank2: [container, { borderColor: theme.baseColor.tierList[2] }],
+	rank3: [container, { borderColor: theme.baseColor.tierList[3] }],
+	rank4: [container, { borderColor: theme.baseColor.tierList[4] }],
+	rank5: [container, { borderColor: theme.baseColor.tierList[5] }],
+	rank6: [container, { borderColor: theme.baseColor.tierList[6] }],
+	rank7: [container, { borderColor: theme.baseColor.tierList[7] }],
+	rank8: [container, { borderColor: theme.baseColor.tierList[8] }],
+	rank9: [container, { borderColor: theme.baseColor.tierList[9] }],
+	rank10: [container, { borderColor: theme.baseColor.tierList[10] }],
+	rank11: [container, { borderColor: theme.baseColor.tierList[11] }],
+	rank12: [container, { borderColor: theme.baseColor.tierList[12] }],
+	rank13: [container, { borderColor: theme.baseColor.tierList[13] }],
+	rank14: [container, { borderColor: theme.baseColor.tierList[14] }],
 });
 
 const titleContianerBase = style({
@@ -38,21 +38,21 @@ const titleContianerBase = style({
 });
 
 export const titleContainerVariant = styleVariants({
-	rank0: [titleContianerBase, { background: tierList.rank0 }],
-	rank1: [titleContianerBase, { background: tierList.rank1 }],
-	rank2: [titleContianerBase, { background: tierList.rank2 }],
-	rank3: [titleContianerBase, { background: tierList.rank3 }],
-	rank4: [titleContianerBase, { background: tierList.rank4 }],
-	rank5: [titleContianerBase, { background: tierList.rank5 }],
-	rank6: [titleContianerBase, { background: tierList.rank6 }],
-	rank7: [titleContianerBase, { background: tierList.rank7 }],
-	rank8: [titleContianerBase, { background: tierList.rank8 }],
-	rank9: [titleContianerBase, { background: tierList.rank9 }],
-	rank10: [titleContianerBase, { background: tierList.rank10 }],
-	rank11: [titleContianerBase, { background: tierList.rank11 }],
-	rank12: [titleContianerBase, { background: tierList.rank12 }],
-	rank13: [titleContianerBase, { background: tierList.rank13 }],
-	rank14: [titleContianerBase, { background: tierList.rank14 }],
+	rank0: [titleContianerBase, { borderColor: theme.baseColor.tierList[0] }],
+	rank1: [titleContianerBase, { borderColor: theme.baseColor.tierList[1] }],
+	rank2: [titleContianerBase, { borderColor: theme.baseColor.tierList[2] }],
+	rank3: [titleContianerBase, { borderColor: theme.baseColor.tierList[3] }],
+	rank4: [titleContianerBase, { borderColor: theme.baseColor.tierList[4] }],
+	rank5: [titleContianerBase, { borderColor: theme.baseColor.tierList[5] }],
+	rank6: [titleContianerBase, { borderColor: theme.baseColor.tierList[6] }],
+	rank7: [titleContianerBase, { borderColor: theme.baseColor.tierList[7] }],
+	rank8: [titleContianerBase, { borderColor: theme.baseColor.tierList[8] }],
+	rank9: [titleContianerBase, { borderColor: theme.baseColor.tierList[9] }],
+	rank10: [titleContianerBase, { borderColor: theme.baseColor.tierList[10] }],
+	rank11: [titleContianerBase, { borderColor: theme.baseColor.tierList[11] }],
+	rank12: [titleContianerBase, { borderColor: theme.baseColor.tierList[12] }],
+	rank13: [titleContianerBase, { borderColor: theme.baseColor.tierList[13] }],
+	rank14: [titleContianerBase, { borderColor: theme.baseColor.tierList[14] }],
 });
 
 export const heroesContainer = style({
@@ -64,6 +64,6 @@ export const heroesContainer = style({
 });
 
 export const title = style({
-	color: [defaultTextColor],
+	color: theme.themeColors.text.default,
 	textAlign: 'center',
 });

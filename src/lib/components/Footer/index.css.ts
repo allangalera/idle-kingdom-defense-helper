@@ -32,9 +32,9 @@ export const discordIcon = style({
 });
 
 export const anchor = style({
-	color: theme.colors.secondary.base,
+	color: theme.themeColors.secondary.base,
 	':focus': {
-		boxShadow: `0 0 0 3px ${theme.colors.accent.base}`,
+		boxShadow: `0 0 0 3px ${theme.themeColors.accent.base}`,
 		border: 'none',
 		outline: 'none',
 	},

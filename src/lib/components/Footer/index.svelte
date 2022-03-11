@@ -1,6 +1,8 @@
 <script>
 	import * as styles from './index.css';
+	import { sprinkles } from '$lib/styles/sprinkles.css';
 	import Text from '$lib/components/Text/index.svelte';
+	import Link from '$lib/components/Link/index.svelte';
 	import SiSvelte from 'svelte-icons-pack/si/SiSvelte';
 	import Icon from 'svelte-icons-pack/Icon.svelte';
 	import SiDiscord from 'svelte-icons-pack/si/SiDiscord';
@@ -8,7 +10,14 @@
 	import { theme } from '$lib/styles/themes/index.css';
 </script>
 
-<footer class={styles.container}>
+<footer
+	class={[
+		styles.container,
+		sprinkles({
+			background: 'slate1',
+		}),
+	].join(' ')}
+>
 	<div>
 		<Text
 			>Made with ❤️ and <Icon src={SiSvelte} color="#FF3E00" className={styles.svelteIcon} /></Text
@@ -38,11 +47,10 @@
 	</div>
 	<div>
 		<Text
-			>All rights belongs to <a
-				class={styles.anchor}
+			>All rights belongs to <Link
 				href="https://play.google.com/store/apps/dev?id=4782903676457533844"
 				target="_blank"
-				rel="noreferrer">StormX</a
+				rel="noreferrer">StormX</Link
 			></Text
 		>
 	</div>

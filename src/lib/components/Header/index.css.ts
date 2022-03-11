@@ -52,8 +52,3 @@ export const right = style([
 		right: theme.space[8],
 	},
 ]);
-
-export const button = style({
-	background: theme.colors.background.default,
-	color: theme.colors.text.default,
-});

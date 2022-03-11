@@ -1,8 +1,4 @@
-import { globalFontFace, globalStyle } from '@vanilla-extract/css';
-
-globalFontFace('HeadingFont', {
-	src: 'local("Raleway")',
-});
+import { globalStyle } from '@vanilla-extract/css';
 
 globalStyle('html, body', {
 	minHeight: '100vh',

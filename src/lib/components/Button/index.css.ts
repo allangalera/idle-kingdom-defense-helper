@@ -5,17 +5,17 @@ export const button = style({
 	cursor: ' pointer',
 	fontFamily: theme.font.family.body,
 	backgroundColor: 'transparent',
-	color: theme.colors.text.default,
+	color: theme.themeColors.text.default,
 	padding: theme.space[2],
 	borderRadius: theme.border.radii.base,
 	borderWidth: theme.space.px,
-	borderColor: theme.colors.accent.base,
+	borderColor: theme.themeColors.accent.base,
 	borderStyle: 'solid',
 	':hover': {
-		backgroundColor: theme.colors.accent.transparency,
+		backgroundColor: theme.themeColors.accent.transparency,
 	},
 	':focus': {
-		boxShadow: `0 0 0 3px ${theme.colors.accent.base}`,
+		boxShadow: `0 0 0 3px ${theme.themeColors.accent.base}`,
 		outline: 'none',
 	},
 });

@@ -3,11 +3,9 @@ import { style } from '@vanilla-extract/css';
 
 export const paragraph = style({
 	fontFamily: theme.font.family.body,
-	color: theme.colors.text.default,
 	margin: 0,
-	fontSize: theme.font.sizes.base,
 	'::selection': {
-		background: theme.colors.accent.base,
+		background: theme.themeColors.accent.base,
 		color: theme.baseColor.white,
 	},
 });

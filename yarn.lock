@@ -55,6 +55,21 @@
   resolved "https://registry.yarnpkg.com/@fontsource/raleway/-/raleway-4.5.3.tgz#0a4477e037dbd9a4a26c1c9db3aa2bf93722b499"
   integrity sha512-wJ8Rm8k5MuSnfERuL5Q1bd8Z80o3uWpC1vUmZAxcLXAY9IxnfGqZjZJ1Jd2lY1u5NaEo+zXCvHEViAIv6b1jEg==
 
+"@fontsource/roboto-mono@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-mono/-/roboto-mono-4.5.3.tgz#04b9969707b10a53511780b0f686d9d0c233a082"
+  integrity sha512-ELuIIUBo1kq2hFmOXjWv9o2VbM22Pct2F0T+D8f5T0MxDKIqkh0m1JMs9bbTzMjc+wVvyJ6LU5EiNkO26kLlKA==
+
+"@fontsource/roboto-serif@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-serif/-/roboto-serif-4.5.1.tgz#2f0f894d1be39a22c40f5ec0f85cc13c2591737e"
+  integrity sha512-VDsrVF5oKflcxKELu1g4wLD2Y8Mkq6HJ3d2Bhf6V37LVY27DJNHkX7dcLjDyWqcUoyikjc0lCk6uTz/FlCSKhQ==
+
+"@fontsource/roboto@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.3.tgz#c729ac22c35ae1c224cde10042ce7ab356bc4dda"
+  integrity sha512-NUvBTj332dFRdiVkLlavXbDGoD2zyyeGYmMyrXOnctg/3e4pq95+rJgNfUP+k4v8UBk2L1aomGw9dDjbRdAmTg==
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -94,6 +109,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@radix-ui/colors@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@radix-ui/colors/-/colors-0.1.8.tgz#b08c62536fc462a87632165fb28e9b18f9bd047e"
+  integrity sha512-jwRMXYwC0hUo0mv6wGpuw254Pd9p/R6Td5xsRpOmaWkUHlooNWqVcadgyzlRumMq3xfOTXwJReU0Jv+EIy4Jbw==
 
 "@rollup/pluginutils@^4.1.2":
   version "4.1.2"
@@ -313,6 +333,11 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/recipes/-/recipes-0.2.3.tgz#cb6390efeb273ce5ac76d944fd65e550bd930654"
   integrity sha512-RKCfW2nczXmHLSR8TJcLUOvfE941rJl397GdbJiIBU3DqTSJuqDDOr3bKFiLP28BohLHs3Hz8BAzjYldKqGhXg==
+
+"@vanilla-extract/sprinkles@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/sprinkles/-/sprinkles-1.4.0.tgz#acad9c9470a41b8350ae97efc02bb33e52553bcf"
+  integrity sha512-q9Tu5bHkN/fT0IFkBDEsNeTKN/8CFYkgGVDw0iZ+wM/n9IKhWrKLnOjDk1v9NpCXD3rUQqDipl0pdGCEcBe4RQ==
 
 "@vanilla-extract/vite-plugin@^3.1.2":
   version "3.1.2"

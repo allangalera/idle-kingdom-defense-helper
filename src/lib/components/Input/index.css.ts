@@ -9,24 +9,24 @@ export const container = style({
 
 export const input = style({
 	fontFamily: theme.font.family.body,
-	fontSize: theme.font.sizes.lg,
+	fontSize: theme.font.fontSizes.lg,
 	borderRadius: theme.border.radii.base,
-	background: theme.colors.background.default,
-	color: theme.colors.text.default,
+	color: theme.themeColors.text.default,
+	background: 'transparent',
 	borderWidth: theme.space.px,
-	borderColor: theme.colors.border.default,
+	borderColor: theme.themeColors.border.default,
 	borderStyle: 'solid',
 	padding: theme.space[2],
 	width: '100%',
 	':hover': {
-		borderColor: theme.colors.border.hover,
+		borderColor: theme.themeColors.border.hover,
 	},
 	':focus': {
-		boxShadow: `0 0 0 3px ${theme.colors.accent.base}`,
+		boxShadow: `0 0 0 3px ${theme.themeColors.accent.base}`,
 		outline: 'none',
 	},
 	'::selection': {
-		background: theme.colors.accent.base,
+		background: theme.themeColors.accent.base,
 		color: theme.baseColor.white,
 	},
 });

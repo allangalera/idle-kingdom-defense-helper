@@ -1,6 +1,6 @@
 <script>
 	import * as styles from './index.css';
-	import { theme as themeStore } from '$lib/shared/stores/theme';
+	import { theme as themeStore, ThemeOptions } from '$lib/shared/stores/theme';
 	import Heading from '$lib/components/Heading/index.svelte';
 	import Toggle from '$lib/components/Toggle/index.svelte';
 	import Icon from 'svelte-icons-pack/Icon.svelte';
@@ -8,23 +8,49 @@
 	import FiSun from 'svelte-icons-pack/fi/FiSun';
 
 	import { theme } from '$lib/styles/themes/index.css';
-	let checked = $themeStore === 'light' ? false : true;
-	function switchTheme(checked) {
-		themeStore.set(checked ? 'dark' : 'light');
+	import { sprinkles } from '$lib/styles/sprinkles.css';
+	import { onMount } from 'svelte';
+
+	let checked = false;
+
+	function onChange(e) {
+		// checked = e.target.checked;
+		themeStore.set(
+			e.target.checked
+				? {
+						theme: ThemeOptions.dark,
+						isForced: true,
+				  }
+				: {
+						theme: ThemeOptions.light,
+						isForced: true,
+				  }
+		);
 	}
 
-	$: switchTheme(checked);
+	onMount(() => {
+		checked = $themeStore.theme === ThemeOptions.dark;
+	});
+
+	$: checked = $themeStore.theme === ThemeOptions.dark;
 </script>
 
-<header class={styles.header}>
+<header
+	class={[
+		styles.header,
+		sprinkles({
+			background: 'slate1',
+		}),
+	].join(' ')}
+>
 	<div class={styles.container}>
 		<div class={styles.middle}>
 			<Heading fontSize="2xl">IKD Helper</Heading>
 		</div>
 		<div class={styles.right}>
-			<Icon src={FiSun} color={theme.colors.text.default} />
-			<Toggle bind:checked />
-			<Icon src={FiMoon} color={theme.colors.text.default} />
+			<Icon src={FiSun} color={theme.themeColors.text.default} />
+			<Toggle bind:checked on:change={onChange} />
+			<Icon src={FiMoon} color={theme.themeColors.text.default} />
 		</div>
 	</div>
 </header>
