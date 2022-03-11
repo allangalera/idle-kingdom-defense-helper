@@ -7,6 +7,7 @@
 	import Link from '$lib/components/Link/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
+	import StageResult from '$lib/components/StageResult/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
 	let timer;
 	let stage = '1';
@@ -287,12 +288,8 @@
 	</div>
 	<div class={styles.flex}>
 		{#if result.length > 0}
-			{#each result as stageData}
-				<Text fontSize="lg"
-					>{stageData.stage} (<Text as="span" color={stageData.enemy.color}
-						>{stageData.enemy.type}</Text
-					>)</Text
-				>
+			{#each result as stageData (stageData.stage)}
+				<StageResult {stageData} />
 			{/each}
 		{/if}
 	</div>
