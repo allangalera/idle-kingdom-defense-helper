@@ -8,7 +8,7 @@
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
-
+	let timer;
 	let stage = '1';
 	let result = [];
 	let gear = {
@@ -185,7 +185,14 @@
 		result = stages;
 	}
 
-	$: calculateStage(stage, gear);
+	function debounce(stage, gear) {
+		clearTimeout(timer);
+		timer = setTimeout(() => {
+			calculateStage(stage, gear);
+		}, 500);
+	}
+
+	$: debounce(stage, gear);
 </script>
 
 <div class={styles.container}>
