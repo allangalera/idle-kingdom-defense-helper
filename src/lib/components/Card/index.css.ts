@@ -31,4 +31,5 @@ export const textContainer = style({
 	fontFamily: theme.font.family.body,
 	fontSize: theme.font.fontSizes.base,
 	margin: 0,
+	textShadow: '1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000',
 });

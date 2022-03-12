@@ -15,7 +15,7 @@
 			<Text color="white" fontSize="3xl">?</Text>
 		</div>
 		<div class={styles.counter}>
-			<Text color="white" fontSize="lg">x{value}</Text>
+			<Text color="white" fontSize="xl">{value}</Text>
 		</div>
 	</div>
 </CardBorder>

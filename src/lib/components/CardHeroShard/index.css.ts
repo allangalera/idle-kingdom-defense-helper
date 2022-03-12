@@ -34,9 +34,12 @@ export const question = style({
 
 export const counter = style({
 	position: 'absolute',
-	top: 0,
+	bottom: 0,
+	left: 0,
+	width: '100%',
 	right: theme.space[1],
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
+	textShadow: '1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000',
 });
