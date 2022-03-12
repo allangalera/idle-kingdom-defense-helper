@@ -6,6 +6,8 @@ import typesListJson from '$lib/data/types.json';
 import heroRankJson from '$lib/data/heroRankLateGame.json';
 import heroRankEarlyJson from '$lib/data/heroRankEarlyGame.json';
 import newHeroRankListJson from '$lib/data/newList.json';
+import gStageJson from '$lib/data/g_stage.json';
+import gStagePoolJson from '$lib/data/g_stagePool.json';
 import { addIdToCollection, createSortByListAndName } from '$lib/utils';
 import { CASTLE_INITIAL_UPGRADE_COST, CASTLE_MAX_LEVEL } from '$lib/constants';
 
@@ -93,3 +95,33 @@ const getLevelIncrement = (level: number) => {
 };
 
 export const castleGoldUpgradeData = generateCastleGoldUpgradeData();
+
+// const gStageJsonLength = gStageJson.length;
+
+// for (let i = 1; i < gStageJsonLength; i++) {
+// 	const currentGStage = gStageJson[i];
+// 	const diff = currentGStage.lv - gStageJson[i - 1].lv;
+// 	console.groupCollapsed(`Stage: ${i} | diff: ${diff}`);
+// 	console.log(currentGStage);
+// 	console.groupEnd();
+// }
+
+// const gStagePoolJsonLength = gStagePoolJson.length;
+// let latestPoolId = 0;
+// let counter = 0;
+// for (let i = 0; i < gStagePoolJsonLength; i++) {
+// 	if (latestPoolId !== gStagePoolJson[i].poolId) {
+// 		latestPoolId = gStagePoolJson[i].poolId;
+// 		console.log(counter);
+// 		counter = 0;
+// 	}
+// 	counter++;
+// 	// const currentGStagePool = gStagePoolJson[i];
+// 	// if (i > 0) {
+// 	// const diff = currentGStagePool.poolId - gStagePoolJson[i - 1].poolId;
+// 	// console.groupCollapsed(`Stage: ${i} | diff: ${diff}`);
+// 	// console.log(currentGStagePool);
+// 	// if (diff !== 7) console.log('changed');
+// 	// console.groupEnd();
+// 	// }
+// }

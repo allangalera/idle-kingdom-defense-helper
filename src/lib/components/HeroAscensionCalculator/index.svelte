@@ -3,8 +3,8 @@
 	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
+	import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
 	import { ASCENSION } from '$lib/constants';
-	import { getIdleKingdomNumberFormat } from '$lib/utils';
 
 	let ascensionStartLevels = new Array(25).fill(false);
 	let ascensionEndLevels = new Array(25).fill(false);
@@ -93,11 +93,10 @@
 	</div>
 	<div class={styles.result}>
 		<div class={styles.shardResult}>
-			<Text>{getIdleKingdomNumberFormat(shardsCost)}</Text>
-			<Text>Shards</Text>
+			<CardHeroShard value={shardsCost} />
 		</div>
 		<div class={styles.ascensionStoneResult}>
-			<Card value={ascensionStonesCost} />
+			<Card cardType="ascension-stone" value={ascensionStonesCost} />
 		</div>
 	</div>
 </div>

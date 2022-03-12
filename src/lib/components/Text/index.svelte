@@ -1,9 +1,9 @@
 <script lang="ts">
 	import * as styles from './index.css';
-	import { sprinkles } from '$lib/styles/sprinkles.css';
+	import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
 	export let as: 'p' | 'span' = 'p';
-	export let fontSize = 'base';
-	export let color = 'slate12';
+	export let fontSize: Sprinkles['fontSize'] = 'base';
+	export let color: Sprinkles['color'] = 'slate12';
 
 	let className = [
 		styles.paragraph,

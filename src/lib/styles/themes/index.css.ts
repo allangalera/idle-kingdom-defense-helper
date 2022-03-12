@@ -156,6 +156,17 @@ export const root = createGlobalTheme(':root', {
 			base: '2px',
 		},
 	},
+	colors: {
+		white: '#ffffff',
+		black: '#353535',
+		cardBorderDefault: '#4c596b',
+		cardBoarderTierUncommon: '#69a619',
+		cardBoarderTierRare: '#2783ad',
+		cardBoarderTierEpic: '#8c4bb5',
+		cardBoarderTierLegendary: '#b28400',
+		cardBoarderTierMythic: '#d93429',
+		cardBackgroundDefault: '#41372e',
+	},
 	baseColor: {
 		white: '#ffffff',
 		black: '#353535',

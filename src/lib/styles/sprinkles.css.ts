@@ -48,8 +48,8 @@ const colorProperties = defineProperties({
 	},
 	defaultCondition: 'lightMode',
 	properties: {
-		background: theme.themeColors.baseColors,
-		color: theme.themeColors.baseColors,
+		background: { ...theme.themeColors.baseColors, ...theme.colors },
+		color: { ...theme.themeColors.baseColors, ...theme.colors },
 	},
 });
 
