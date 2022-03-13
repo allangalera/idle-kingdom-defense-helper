@@ -7,10 +7,8 @@
 	export let background: Sprinkles['background'] = 'cardBackgroundDefault';
 	export let width: Sprinkles['width'] = 24;
 	export let heroType: HeroType = null;
-	export let ranking: {
-		level: UpgradeLevel;
-		rarity: Rarity;
-	} = null;
+	export let level: UpgradeLevel;
+	export let rarity: Rarity;
 
 	const gearRarity = {
 		common: 1,
@@ -20,8 +18,7 @@
 		legendary: 5,
 		mythic: 6,
 	};
-
-	const rankingLevels = ranking && new Array(ranking.level);
+	$: rankingLevels = level && new Array(level);
 </script>
 
 <div
@@ -64,12 +61,12 @@
 			/>
 		</div>
 	{/if}
-	{#if ranking}
+	{#if level && rarity}
 		<div class={styles.ranking}>
-			{#each rankingLevels as level}
+			{#each rankingLevels as _}
 				<img
 					class={styles.star}
-					src={`images/ranking/iconStarSmall${gearRarity[ranking.rarity]}.png`}
+					src={`images/ranking/iconStarSmall${gearRarity[rarity]}.png`}
 					alt="ranking icon"
 				/>
 			{/each}

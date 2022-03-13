@@ -19,6 +19,12 @@
 			checked = !checked;
 		}
 	}
+
+	function onKeyDown(e) {
+		if (e.key === ' ' || e.key === 'Enter') {
+			e.preventDefault();
+		}
+	}
 </script>
 
 <label>
@@ -28,7 +34,8 @@
 		aria-hidden
 		tabindex="0"
 		on:keyup={onKeyUp}
+		on:keydown={onKeyDown}
 	>
-		<CardGear {gearType} />
+		<CardGear {gearType} width={20} />
 	</div>
 </label>

@@ -18,38 +18,39 @@
 		hero: {
 			weapon: false,
 			helmet: false,
-			armor: false,
+			chest: false,
 			boots: false,
 		},
 		archer: {
 			bow: false,
 			arrow: false,
 			helmet: false,
-			armor: false,
+			chest: false,
 			gloves: false,
 			boots: false,
 		},
 	};
 
 	function returnItemLevelDropFromStage(stage) {
-		const gear = {};
+		let archer = {};
+		let hero = {};
 		for (const level of Object.keys(gearUnlockLevelsJson)) {
 			if (level > stage) break;
 			let archerDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('archer'));
 			if (archerDrop.length) {
-				gear['archer.full'] = archerDrop[0];
-				gear['archer.rarity'] = archerDrop[0].split('-')[1];
-				gear['archer.level'] = +archerDrop[0].split('-')[2];
+				archer['full'] = archerDrop[0];
+				archer['rarity'] = archerDrop[0].split('-')[1];
+				archer['level'] = +archerDrop[0].split('-')[2];
 			}
 			let heroDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('hero'));
 			if (heroDrop.length) {
-				gear['hero.full'] = heroDrop[0];
-				gear['hero.rarity'] = heroDrop[0].split('-')[1];
-				gear['hero.level'] = +heroDrop[0].split('-')[2];
+				hero['full'] = heroDrop[0];
+				hero['rarity'] = heroDrop[0].split('-')[1];
+				hero['level'] = +heroDrop[0].split('-')[2];
 			}
 		}
 
-		return gear;
+		return { archer, hero };
 	}
 
 	function calculateHeroDropFromStage(stage) {
@@ -63,20 +64,6 @@
 
 		return drops[stage % 7];
 	}
-
-	const updateGearData = (type: 'archer' | 'hero', currentGear: string) => (event) => {
-		gear = {
-			...gear,
-			...{
-				[type]: {
-					...gear[type],
-					...{
-						[currentGear]: event.target.checked,
-					},
-				},
-			},
-		};
-	};
 
 	function returnGearsToFind(gears) {
 		let wanted = {
@@ -93,20 +80,21 @@
 		return wanted;
 	}
 
-	function validateIfGearIsValid(bestGear, stageGear, wanted) {
+	function validateIfGearIsValid(currentBestGear, stageGear, wanted) {
 		let hasHeroGear = wanted.hero.length > 0;
 		let hasArcherGear = wanted.archer.length > 0;
 
-		if (!bestGear.hero && !bestGear.archer) return false;
+		if (!currentBestGear.hero && !currentBestGear.archer) return false;
 
 		if (hasHeroGear && hasArcherGear) {
-			return equals(bestGear, stageGear);
-		} else if (hasHeroGear) {
-			return equals(bestGear.hero, stageGear.hero);
-		} else if (hasArcherGear) {
-			return equals(bestGear.archer, stageGear.archer);
+			return equals(currentBestGear, stageGear);
+		} else if (hasHeroGear && !hasArcherGear) {
+			return equals(currentBestGear.hero, stageGear.hero);
+		} else if (!hasHeroGear && hasArcherGear) {
+			return equals(currentBestGear.archer, stageGear.archer);
 		}
-		return equals(bestGear, stageGear);
+
+		return equals(currentBestGear, stageGear);
 	}
 
 	function calculateStage(stage: string, gearToFind) {
@@ -114,19 +102,20 @@
 		if (!parsedStage) return;
 		let currentBestGear = returnItemLevelDropFromStage(parsedStage);
 		const wantedGear = returnGearsToFind(gearToFind);
-		let currentStage = parsedStage - 1;
-		if (!currentStage) return;
-		let hasGear = true;
+
 		let stages = [];
 		let stageGear;
-		while (hasGear) {
+
+		for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
 			stageGear = returnItemLevelDropFromStage(currentStage);
 			let validate = validateIfGearIsValid(currentBestGear, stageGear, wantedGear);
+
 			if (!validate && stages.length === 0) {
 				currentBestGear = stageGear;
-			} else {
-				hasGear = validate;
+			} else if (!validate) {
+				break;
 			}
+
 			let heroDropFromStage = calculateHeroDropFromStage(currentStage);
 			let archerDropFromStage = calculateArcherDropFromStage(currentStage);
 			let enemyType = getEnemyIdFromStage(currentStage);
@@ -138,44 +127,54 @@
 					hero: heroDropFromStage,
 					archer: archerDropFromStage,
 				},
-				bestGear: currentBestGear,
+				bestGear: stageGear,
 			};
 
-			if (
-				(wantedGear.hero.length > 1 || wantedGear.hero.length === 0) &&
-				(wantedGear.archer.length > 1 || wantedGear.archer.length === 0)
-			) {
-				if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
-					stages.push(currentStageData);
-			} else {
-				if (wantedGear.archer.length > 1 && wantedGear.hero.length === 1) {
-					if (archerDropFromStage === 'all' && wantedGear.hero.includes(heroDropFromStage))
+			const condition = `${wantedGear.hero.length}-${wantedGear.archer.length}`;
+
+			switch (condition) {
+				case '0-0':
+					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
 						stages.push(currentStageData);
-				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length > 1) {
+					break;
+				case '0-1':
+					if (wantedGear.archer.includes(archerDropFromStage)) stages.push(currentStageData);
+					break;
+				case '0-2':
+					if (archerDropFromStage === 'all') stages.push(currentStageData);
+					break;
+				case '1-0':
+					if (wantedGear.hero.includes(heroDropFromStage)) stages.push(currentStageData);
+					break;
+				case '1-1':
+					if (
+						wantedGear.hero.includes(heroDropFromStage) &&
+						wantedGear.archer.includes(archerDropFromStage)
+					)
+						stages.push(currentStageData);
+					break;
+				case '1-2':
+					if (wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage === 'all')
+						stages.push(currentStageData);
+					break;
+				case '2-0':
+					if (heroDropFromStage === 'all') stages.push(currentStageData);
+					break;
+				case '2-1':
 					if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage))
 						stages.push(currentStageData);
-				} else if (wantedGear.archer.length === 1 && wantedGear.hero.length === 1) {
-					if (
-						wantedGear.archer.includes(archerDropFromStage) &&
-						heroDropFromStage !== 'all' &&
-						wantedGear.hero.includes(heroDropFromStage) &&
-						archerDropFromStage !== 'all'
-					)
+					break;
+				case '2-2':
+					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
 						stages.push(currentStageData);
-				} else {
-					if (
-						(wantedGear.archer.includes(archerDropFromStage) && heroDropFromStage !== 'all') ||
-						(wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage !== 'all')
-					)
+					break;
+				default:
+					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
 						stages.push(currentStageData);
-				}
 			}
-
-			currentStage--;
 		}
 		result = stages;
 		bestGear = currentBestGear;
-		bestGear = clone(bestGear);
 	}
 
 	function debounce(stage, gear) {
@@ -186,7 +185,6 @@
 	}
 
 	$: debounce(stage, gear);
-	$: console.log(bestGear);
 </script>
 
 <div class={styles.container}>
@@ -195,7 +193,7 @@
 		maskOptions={{
 			mask: Number,
 			min: 0,
-			max: 13000,
+			max: 15000,
 		}}
 		label="Current stage"
 	/>
@@ -205,65 +203,95 @@
 			gearType={{
 				type: 'hero',
 				equip: 'weapon',
-				rarity: pathOr('common', ['hero.rarity'], bestGear),
-				level: pathOr(1, ['hero.rarity'], bestGear),
+				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
+				level: pathOr(1, ['hero', 'level'], bestGear),
 			}}
-			on:change={updateGearData('hero', 'weapon')}
+			bind:checked={gear.hero.weapon}
 		/>
 		<CardToggle
 			gearType={{
 				type: 'hero',
 				equip: 'chest',
-				rarity: pathOr('common', ['hero.rarity'], bestGear),
-				level: pathOr(1, ['hero.rarity'], bestGear),
+				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
+				level: pathOr(1, ['hero', 'level'], bestGear),
 			}}
-			on:change={updateGearData('hero', 'chest')}
+			bind:checked={gear.hero.chest}
 		/>
 		<CardToggle
 			gearType={{
 				type: 'hero',
 				equip: 'helmet',
-				rarity: pathOr('common', ['hero.rarity'], bestGear),
-				level: pathOr(1, ['hero.rarity'], bestGear),
+				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
+				level: pathOr(1, ['hero', 'level'], bestGear),
 			}}
-			on:change={updateGearData('hero', 'helmet')}
+			bind:checked={gear.hero.helmet}
 		/>
 		<CardToggle
 			gearType={{
 				type: 'hero',
 				equip: 'boots',
-				rarity: pathOr('common', ['hero.rarity'], bestGear),
-				level: pathOr(1, ['hero.rarity'], bestGear),
+				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
+				level: pathOr(1, ['hero', 'level'], bestGear),
 			}}
-			on:change={updateGearData('hero', 'boots')}
+			bind:checked={gear.hero.boots}
 		/>
 	</div>
 	<Text>Archer</Text>
 	<div class={styles.flex}>
-		<label>
-			<Text>Bow</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'bow')} />
-		</label>
-		<label>
-			<Text>Arrow</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'arrow')} />
-		</label>
-		<label>
-			<Text>Helmet</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'helmet')} />
-		</label>
-		<label>
-			<Text>Armor</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'chest')} />
-		</label>
-		<label>
-			<Text>Gloves</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'gloves')} />
-		</label>
-		<label>
-			<Text>Boots</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'boots')} />
-		</label>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'bow',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.bow}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'arrow',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.arrow}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'helmet',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.helmet}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'chest',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.chest}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'gloves',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.gloves}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'blueprint',
+				equip: 'boots',
+				rarity: pathOr('common', ['archer', 'rarity'], bestGear),
+				level: pathOr(1, ['archer', 'level'], bestGear),
+			}}
+			bind:checked={gear.archer.boots}
+		/>
 	</div>
 	<Heading>Results:</Heading>
 	<div class={styles.flex}>
