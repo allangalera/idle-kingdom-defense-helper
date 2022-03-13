@@ -131,10 +131,10 @@
 		return equals(bestGear, stageGear);
 	}
 
-	function calculateStage(stage: string, gearToFind) {
+	function calculateStage(stage: string, gearToFind, carriedBestGear: any = null) {
 		let parsedStage = +stage;
 		if (!parsedStage) return;
-		const bestGear = returnItemLevelDropFromStage(parsedStage);
+		const bestGear = carriedBestGear ? carriedBestGear : returnItemLevelDropFromStage(parsedStage);
 		const wantedGear = returnGearsToFind(gearToFind);
 		let currentStage = parsedStage - 1;
 		if (!currentStage) return;
@@ -221,7 +221,7 @@
 		</label>
 		<label>
 			<Text>Armor</Text>
-			<input type="checkbox" on:change={updateGearData('hero', 'armor')} />
+			<input type="checkbox" on:change={updateGearData('hero', 'chest')} />
 		</label>
 		<label>
 			<Text>Helmet</Text>
@@ -248,7 +248,7 @@
 		</label>
 		<label>
 			<Text>Armor</Text>
-			<input type="checkbox" on:change={updateGearData('archer', 'armor')} />
+			<input type="checkbox" on:change={updateGearData('archer', 'chest')} />
 		</label>
 		<label>
 			<Text>Gloves</Text>

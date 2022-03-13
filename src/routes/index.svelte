@@ -5,7 +5,6 @@
 	import HeroUpgradeCostCalculator from '$lib/components/HeroUpgradeCostCalculator/index.svelte';
 	import HeroAscensionCalculator from '$lib/components/HeroAscensionCalculator/index.svelte';
 	import FarmStageCalculator from '$lib/components/FarmStageCalculator/index.svelte';
-	import CardGear from '$lib/components/CardGear/index.svelte';
 </script>
 
 <div class={styles.grid}>
