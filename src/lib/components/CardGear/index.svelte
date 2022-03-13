@@ -59,7 +59,7 @@
 	} as const;
 
 	function getCardBorderColor(gearType: CardGearType) {
-		if (['archer', 'blueprint'].includes(gearType.type)) {
+		if (['archer'].includes(gearType.type)) {
 			return rarityColors.common;
 		}
 
@@ -80,11 +80,10 @@
 
 <CardBorder
 	borderColor={getCardBorderColor(gearType)}
+	background={getCardBorderColor(gearType)}
 	{width}
-	ranking={{
-		level: gearType.level,
-		rarity: gearType.rarity,
-	}}
+	level={gearType.level}
+	rarity={gearType.rarity}
 >
 	<div class={styles.wrapper}>
 		<img class={styles.img} src={getGearImagePath(gearType)} alt="Helmet Gear" />

@@ -3,6 +3,7 @@
 	import Text from '$lib/components/Text/index.svelte';
 	import CardGear from '$lib/components/CardGear/index.svelte';
 	import { is } from 'ramda';
+	import { header } from '../Header/index.css';
 
 	export let stageData: {
 		stage: number;
@@ -14,9 +15,10 @@
 		bestGear: any;
 	};
 
-	let shouldShowHeroGear = Boolean(stageData?.bestGear?.hero) && Boolean(stageData?.drop?.hero);
+	let shouldShowHeroGear =
+		Boolean(stageData?.bestGear?.hero?.full) && Boolean(stageData?.drop?.hero);
 	let shouldShowArcherGear =
-		Boolean(stageData?.bestGear?.archer) && Boolean(stageData?.drop?.archer);
+		Boolean(stageData?.bestGear?.archer?.full) && Boolean(stageData?.drop?.archer);
 
 	let shouldShowEnemies = is(Array, stageData.enemy);
 </script>
@@ -41,7 +43,7 @@
 						type: 'hero',
 						equip: stageData.drop.hero,
 						rarity: stageData.bestGear.hero.rarity,
-						level: stageData.bestGear.hero.stars.length,
+						level: stageData.bestGear.hero.level,
 					}}
 				/>
 			{/if}
@@ -52,7 +54,7 @@
 						type: 'blueprint',
 						equip: stageData.drop.archer,
 						rarity: stageData.bestGear.archer.rarity,
-						level: stageData.bestGear.archer.stars.length,
+						level: stageData.bestGear.archer.level,
 					}}
 				/>
 			{/if}
