@@ -18,7 +18,7 @@
 	let shouldShowArcherGear =
 		Boolean(stageData?.bestGear?.archer) && Boolean(stageData?.drop?.archer);
 
-	let shouldShowEnemies = is(stageData.enemy, Array);
+	let shouldShowEnemies = is(Array, stageData.enemy);
 </script>
 
 <div class={styles.flex}>
