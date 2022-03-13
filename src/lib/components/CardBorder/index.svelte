@@ -5,6 +5,7 @@
 
 	export let borderColor: Sprinkles['background'] = 'cardBorderDefault';
 	export let background: Sprinkles['background'] = 'cardBackgroundDefault';
+	export let width: Sprinkles['width'] = 24;
 	export let heroType: HeroType = null;
 	export let ranking: {
 		level: UpgradeLevel;
@@ -23,7 +24,14 @@
 	const rankingLevels = ranking && new Array(ranking.level);
 </script>
 
-<div class={styles.wrapper}>
+<div
+	class={[
+		styles.wrapper,
+		sprinkles({
+			width,
+		}),
+	].join(' ')}
+>
 	<div class={styles.outerBorder}>
 		<div
 			class={[

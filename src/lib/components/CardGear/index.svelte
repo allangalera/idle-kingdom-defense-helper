@@ -2,8 +2,10 @@
 	import * as styles from './index.css';
 
 	import CardBorder from '$lib/components/CardBorder/index.svelte';
+	import type { Sprinkles } from '$lib/styles/sprinkles.css';
 
 	export let gearType: CardGearType;
+	export let width: Sprinkles['width'] = 24;
 
 	const gearOptions = {
 		hero: 'hgear',
@@ -12,6 +14,7 @@
 	};
 
 	const heroGearEquip = {
+		all: 0,
 		weapon: 1,
 		helmet: 2,
 		chest: 3,
@@ -19,6 +22,16 @@
 	};
 
 	const archerGearEquip = {
+		bow: 1,
+		arrow: 2,
+		helmet: 3,
+		chest: 4,
+		gloves: 5,
+		boots: 6,
+	};
+
+	const blueprintGearEquip = {
+		all: 0,
 		bow: 1,
 		arrow: 2,
 		helmet: 3,
@@ -58,7 +71,7 @@
 		if (type === 'hero') {
 			return `images/gear/${gearOptions[type]}_${heroGearEquip[equip]}${gearRarity[rarity]}.png`;
 		} else if (type === 'blueprint') {
-			return `images/blueprint/${gearOptions[type]}${gearRarity[rarity]}${archerGearEquip[equip]}.png`;
+			return `images/blueprint/${gearOptions[type]}${gearRarity[rarity]}${blueprintGearEquip[equip]}.png`;
 		}
 
 		return `images/gear/${gearOptions[type]}${gearRarity[rarity]}${archerGearEquip[equip]}.png`;
@@ -67,6 +80,7 @@
 
 <CardBorder
 	borderColor={getCardBorderColor(gearType)}
+	{width}
 	ranking={{
 		level: gearType.level,
 		rarity: gearType.rarity,

@@ -6,7 +6,7 @@ type HeroType = 'warrior' | 'support';
 
 type HeroGear = {
 	type: 'hero';
-	equip: 'weapon' | 'chest' | 'helmet' | 'boots';
+	equip: 'all' | 'weapon' | 'chest' | 'helmet' | 'boots';
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
@@ -20,7 +20,7 @@ type ArcherGear = {
 
 type Blueprint = {
 	type: 'blueprint';
-	equip: 'bow' | 'arrow' | 'helmet' | 'chest' | 'gloves' | 'boots';
+	equip: 'all' | 'bow' | 'arrow' | 'helmet' | 'chest' | 'gloves' | 'boots';
 	rarity: Rarity;
 	level: UpgradeLevel;
 };

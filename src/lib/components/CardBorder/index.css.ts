@@ -3,7 +3,6 @@ import { style } from '@vanilla-extract/css';
 
 export const wrapper = style({
 	position: 'relative',
-	width: theme.sizes[24],
 	height: 'auto',
 	aspectRatio: '1 / 1',
 });
@@ -105,6 +104,6 @@ export const badge = style({
 });
 
 export const star = style({
-	width: theme.sizes[4],
+	width: '17%',
 	transform: 'scale(1.1)',
 });

@@ -3,8 +3,8 @@
 	import { equals } from 'ramda';
 
 	import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
+	import { getEnemyIdFromStage } from '$lib/db';
 
-	import Link from '$lib/components/Link/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import StageResult from '$lib/components/StageResult/index.svelte';
@@ -54,21 +54,15 @@
 	}
 
 	function calculateHeroDropFromStage(stage) {
-		const stageDrops = ['all', 'weapon', 'helmet', 'armor', 'boots'];
+		const stageDrops = ['all', 'weapon', 'helmet', 'chest', 'boots'];
 
 		return stageDrops[stage % 5];
 	}
 
 	function calculateArcherDropFromStage(stage) {
-		const drops = ['all', 'bow', 'arrow', 'helmet', 'armor', 'gloves', 'boots'];
+		const drops = ['all', 'bow', 'arrow', 'helmet', 'chest', 'gloves', 'boots'];
 
 		return drops[stage % 7];
-	}
-
-	function calculateEnemyFromStage(stage) {
-		const enemies = [10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14, 5];
-
-		return enemies[stage % 14];
 	}
 
 	function getColorFromEnemyDifficulty(enemy) {
@@ -143,6 +137,7 @@
 		const bestGear = returnItemLevelDropFromStage(parsedStage);
 		const wantedGear = returnGearsToFind(gearToFind);
 		let currentStage = parsedStage - 1;
+		if (!currentStage) return;
 		let hasGear = true;
 		let stages = [];
 		while (hasGear) {
@@ -151,18 +146,16 @@
 			hasGear = validate;
 			let heroDropFromStage = calculateHeroDropFromStage(currentStage);
 			let archerDropFromStage = calculateArcherDropFromStage(currentStage);
-			let enemyType = calculateEnemyFromStage(currentStage);
+			let enemyType = getEnemyIdFromStage(currentStage);
 
 			const currentStageData = {
 				stage: currentStage,
-				enemy: {
-					type: enemyType,
-					color: getColorFromEnemyDifficulty(enemyType),
-				},
+				enemy: enemyType,
 				drop: {
 					hero: heroDropFromStage,
 					archer: archerDropFromStage,
 				},
+				bestGear,
 			};
 
 			if (
@@ -267,25 +260,6 @@
 		</label>
 	</div>
 	<Heading>Results:</Heading>
-	<Text fontSize="sm"
-		>results are stages that contains the items you selected. If you didn't select any it will try
-		finding stages with all drops. The number in parentesis is the enemy group. The enemy group is
-		bases on <Link
-			href="https://cdn.discordapp.com/attachments/932658558863020062/938424333850796042/ruins_cheatsheet_2_blank.png"
-			target="_blank"
-			rel="noreferrer">this image</Link
-		>. The difficuly of each group was based on <Link
-			href="https://cdn.discordapp.com/attachments/932658558863020062/938873694439239730/ruins_cheatsheet_2_1.png"
-			target="_blank"
-			rel="noreferrer">this image</Link
-		></Text
-	>
-	<div>
-		<Text fontSize="sm">For easy reference:</Text>
-		<Text fontSize="sm"><Text color="green9" as="span">Easy</Text>: 2, 3, 5, 7, 8, 10, 14</Text>
-		<Text fontSize="sm"><Text color="yellow9" as="span">Medium</Text>: 4, 6, 12, 13</Text>
-		<Text fontSize="sm"><Text color="red9" as="span">Hard</Text>: 1, 9, 11</Text>
-	</div>
 	<div class={styles.flex}>
 		{#if result.length > 0}
 			{#each result as stageData (stageData.stage)}

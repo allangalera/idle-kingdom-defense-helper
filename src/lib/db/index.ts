@@ -125,3 +125,63 @@ export const castleGoldUpgradeData = generateCastleGoldUpgradeData();
 // 	// console.groupEnd();
 // 	// }
 // }
+
+// for i = 1, table.maxn(g_stagePool) do
+//   if _gStagePool[g_stagePool[i].poolId] == nil then
+//     _gStagePool[g_stagePool[i].poolId] = {}
+//   end
+
+//   if _gStagePool[g_stagePool[i].poolId][g_stagePool[i].setId] == nil then
+//     _gStagePool[g_stagePool[i].poolId][g_stagePool[i].setId] = {}
+//   end
+
+//   table.insert(_gStagePool[g_stagePool[i].poolId][g_stagePool[i].setId], table.maxn(_gStagePool[g_stagePool[i].poolId][g_stagePool[i].setId]) + 1, g_stagePool[i])
+// end
+
+export const generateGStagePool = () => {
+	const _gStagePool = {};
+	const gStagePoolJsonLength = gStagePoolJson.length;
+	for (let i = 0; i < gStagePoolJsonLength; i++) {
+		const currentStagePool = gStagePoolJson[i];
+		if (!_gStagePool[currentStagePool.poolId]) {
+			_gStagePool[currentStagePool.poolId] = {};
+		}
+
+		if (!_gStagePool[currentStagePool.poolId][currentStagePool.setId]) {
+			_gStagePool[currentStagePool.poolId][currentStagePool.setId] = [];
+		}
+
+		_gStagePool[currentStagePool.poolId][currentStagePool.setId].push(currentStagePool);
+	}
+
+	return _gStagePool;
+};
+
+const _gStagePool = generateGStagePool();
+
+export const getEnemyIdFromStage = (stage: number) => {
+	if (stage === 0) return;
+	const gStageJsonLength = gStageJson.length;
+
+	let stageData;
+	for (let i = 1; i < gStageJsonLength; i++) {
+		const currentStageData = gStageJson[i];
+		if (currentStageData.lv <= stage) {
+			stageData = currentStageData;
+		} else {
+			break;
+		}
+	}
+	if (!stageData) return;
+	const dLv = stage - stageData.lv;
+	const stagePool = _gStagePool[stageData.poolId];
+	const setCnt = Object.keys(stagePool).length;
+	const setIdx = (dLv % setCnt) + 1;
+	const selectedStageSet = stagePool[setIdx];
+
+	return selectedStageSet;
+};
+
+for (let i = 1000; i < 1050; i++) {
+	getEnemyIdFromStage(i);
+}
