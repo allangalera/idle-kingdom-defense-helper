@@ -2,6 +2,7 @@
 	import * as styles from './index.css';
 	import Text from '$lib/components/Text/index.svelte';
 	import CardGear from '$lib/components/CardGear/index.svelte';
+	import { is } from 'ramda';
 
 	export let stageData: {
 		stage: number;
@@ -16,6 +17,8 @@
 	let shouldShowHeroGear = Boolean(stageData?.bestGear?.hero) && Boolean(stageData?.drop?.hero);
 	let shouldShowArcherGear =
 		Boolean(stageData?.bestGear?.archer) && Boolean(stageData?.drop?.archer);
+
+	let shouldShowEnemies = is(stageData.enemy, Array);
 </script>
 
 <div class={styles.flex}>
@@ -23,11 +26,13 @@
 		<Text fontSize="2xl">{stageData.stage}</Text>
 	</div>
 	<div class={styles.details}>
-		{#each stageData.enemy as unities}
-			{#if unities.unitCnt !== 1}
-				<img src={`images/enemies/enemy${unities.unitId}.png`} alt="enemy" />
-			{/if}
-		{/each}
+		{#if shouldShowEnemies}
+			{#each stageData.enemy as unities}
+				{#if unities.unitCnt !== 1}
+					<img src={`images/enemies/enemy${unities.unitId}.png`} alt="enemy" />
+				{/if}
+			{/each}
+		{/if}
 		<div class={styles.drop}>
 			{#if shouldShowHeroGear}
 				<CardGear
