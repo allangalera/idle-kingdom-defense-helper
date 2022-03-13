@@ -65,27 +65,6 @@
 		return drops[stage % 7];
 	}
 
-	function getColorFromEnemyDifficulty(enemy) {
-		const enemyGroupDifficultyColor = {
-			1: 'red9',
-			2: 'green9',
-			3: 'green9',
-			4: 'yellow9',
-			5: 'green9',
-			6: 'yellow9',
-			7: 'green9',
-			8: 'green9',
-			9: 'red9',
-			10: 'green9',
-			11: 'red9',
-			12: 'yellow9',
-			13: 'yellow9',
-			14: 'green9',
-		};
-
-		return enemyGroupDifficultyColor[enemy] ?? 'slate12';
-	}
-
 	const updateGearData = (type: 'archer' | 'hero', currentGear: string) => (event) => {
 		gear = {
 			...gear,
@@ -131,19 +110,24 @@
 		return equals(bestGear, stageGear);
 	}
 
-	function calculateStage(stage: string, gearToFind, carriedBestGear: any = null) {
+	function calculateStage(stage: string, gearToFind) {
 		let parsedStage = +stage;
 		if (!parsedStage) return;
-		const bestGear = carriedBestGear ? carriedBestGear : returnItemLevelDropFromStage(parsedStage);
+		let bestGear = returnItemLevelDropFromStage(parsedStage);
 		const wantedGear = returnGearsToFind(gearToFind);
 		let currentStage = parsedStage - 1;
 		if (!currentStage) return;
 		let hasGear = true;
 		let stages = [];
+		let stageGear;
 		while (hasGear) {
-			let stageGear = returnItemLevelDropFromStage(currentStage);
+			stageGear = returnItemLevelDropFromStage(currentStage);
 			let validate = validateIfGearIsValid(bestGear, stageGear, wantedGear);
-			hasGear = validate;
+			if (!validate && stages.length === 0) {
+				bestGear = stageGear;
+			} else {
+				hasGear = validate;
+			}
 			let heroDropFromStage = calculateHeroDropFromStage(currentStage);
 			let archerDropFromStage = calculateArcherDropFromStage(currentStage);
 			let enemyType = getEnemyIdFromStage(currentStage);
