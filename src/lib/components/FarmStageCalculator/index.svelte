@@ -1,10 +1,11 @@
 <script lang="ts">
 	import * as styles from './index.css';
-	import { equals } from 'ramda';
+	import { equals, pathOr, clone } from 'ramda';
 
 	import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
 	import { getEnemyIdFromStage } from '$lib/db';
 
+	import CardToggle from '$lib/components/CardToggle/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import StageResult from '$lib/components/StageResult/index.svelte';
@@ -12,6 +13,7 @@
 	let timer;
 	let stage = '1';
 	let result = [];
+	let bestGear;
 	let gear = {
 		hero: {
 			weapon: false,
@@ -30,27 +32,24 @@
 	};
 
 	function returnItemLevelDropFromStage(stage) {
-		let archer = null;
-		let hero = null;
+		const gear = {};
 		for (const level of Object.keys(gearUnlockLevelsJson)) {
 			if (level > stage) break;
 			let archerDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('archer'));
-			if (archerDrop.length)
-				archer = {
-					full: archerDrop[0],
-					rarity: archerDrop[0].split('-')[1],
-					stars: archerDrop[0].split('-')[2],
-				};
+			if (archerDrop.length) {
+				gear['archer.full'] = archerDrop[0];
+				gear['archer.rarity'] = archerDrop[0].split('-')[1];
+				gear['archer.level'] = +archerDrop[0].split('-')[2];
+			}
 			let heroDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('hero'));
-			if (heroDrop.length)
-				hero = {
-					full: heroDrop[0],
-					rarity: heroDrop[0].split('-')[1],
-					stars: heroDrop[0].split('-')[2],
-				};
+			if (heroDrop.length) {
+				gear['hero.full'] = heroDrop[0];
+				gear['hero.rarity'] = heroDrop[0].split('-')[1];
+				gear['hero.level'] = +heroDrop[0].split('-')[2];
+			}
 		}
 
-		return { archer, hero };
+		return gear;
 	}
 
 	function calculateHeroDropFromStage(stage) {
@@ -113,7 +112,7 @@
 	function calculateStage(stage: string, gearToFind) {
 		let parsedStage = +stage;
 		if (!parsedStage) return;
-		let bestGear = returnItemLevelDropFromStage(parsedStage);
+		let currentBestGear = returnItemLevelDropFromStage(parsedStage);
 		const wantedGear = returnGearsToFind(gearToFind);
 		let currentStage = parsedStage - 1;
 		if (!currentStage) return;
@@ -122,9 +121,9 @@
 		let stageGear;
 		while (hasGear) {
 			stageGear = returnItemLevelDropFromStage(currentStage);
-			let validate = validateIfGearIsValid(bestGear, stageGear, wantedGear);
+			let validate = validateIfGearIsValid(currentBestGear, stageGear, wantedGear);
 			if (!validate && stages.length === 0) {
-				bestGear = stageGear;
+				currentBestGear = stageGear;
 			} else {
 				hasGear = validate;
 			}
@@ -139,7 +138,7 @@
 					hero: heroDropFromStage,
 					archer: archerDropFromStage,
 				},
-				bestGear,
+				bestGear: currentBestGear,
 			};
 
 			if (
@@ -175,6 +174,8 @@
 			currentStage--;
 		}
 		result = stages;
+		bestGear = currentBestGear;
+		bestGear = clone(bestGear);
 	}
 
 	function debounce(stage, gear) {
@@ -185,6 +186,7 @@
 	}
 
 	$: debounce(stage, gear);
+	$: console.log(bestGear);
 </script>
 
 <div class={styles.container}>
@@ -199,22 +201,42 @@
 	/>
 	<Text>Hero</Text>
 	<div class={styles.flex}>
-		<label>
-			<Text>Weapon</Text>
-			<input type="checkbox" on:change={updateGearData('hero', 'weapon')} />
-		</label>
-		<label>
-			<Text>Armor</Text>
-			<input type="checkbox" on:change={updateGearData('hero', 'chest')} />
-		</label>
-		<label>
-			<Text>Helmet</Text>
-			<input type="checkbox" on:change={updateGearData('hero', 'helmet')} />
-		</label>
-		<label>
-			<Text>Boots</Text>
-			<input type="checkbox" on:change={updateGearData('hero', 'boots')} />
-		</label>
+		<CardToggle
+			gearType={{
+				type: 'hero',
+				equip: 'weapon',
+				rarity: pathOr('common', ['hero.rarity'], bestGear),
+				level: pathOr(1, ['hero.rarity'], bestGear),
+			}}
+			on:change={updateGearData('hero', 'weapon')}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'hero',
+				equip: 'chest',
+				rarity: pathOr('common', ['hero.rarity'], bestGear),
+				level: pathOr(1, ['hero.rarity'], bestGear),
+			}}
+			on:change={updateGearData('hero', 'chest')}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'hero',
+				equip: 'helmet',
+				rarity: pathOr('common', ['hero.rarity'], bestGear),
+				level: pathOr(1, ['hero.rarity'], bestGear),
+			}}
+			on:change={updateGearData('hero', 'helmet')}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'hero',
+				equip: 'boots',
+				rarity: pathOr('common', ['hero.rarity'], bestGear),
+				level: pathOr(1, ['hero.rarity'], bestGear),
+			}}
+			on:change={updateGearData('hero', 'boots')}
+		/>
 	</div>
 	<Text>Archer</Text>
 	<div class={styles.flex}>

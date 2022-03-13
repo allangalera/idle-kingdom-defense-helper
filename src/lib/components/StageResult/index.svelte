@@ -14,9 +14,11 @@
 		bestGear: any;
 	};
 
-	let shouldShowHeroGear = Boolean(stageData?.bestGear?.hero) && Boolean(stageData?.drop?.hero);
-	let shouldShowArcherGear =
-		Boolean(stageData?.bestGear?.archer) && Boolean(stageData?.drop?.archer);
+	console.log(stageData);
+
+	let shouldShowHeroGear =
+		Boolean(stageData?.bestGear?.['hero.full']) && Boolean(stageData?.drop?.hero);
+	let shouldShowArcherGear = Boolean(stageData?.bestGear) && Boolean(stageData?.drop?.archer);
 
 	let shouldShowEnemies = is(Array, stageData.enemy);
 </script>
@@ -40,8 +42,8 @@
 					gearType={{
 						type: 'hero',
 						equip: stageData.drop.hero,
-						rarity: stageData.bestGear.hero.rarity,
-						level: stageData.bestGear.hero.stars.length,
+						rarity: stageData.bestGear['hero.rarity'],
+						level: stageData.bestGear['hero.level'],
 					}}
 				/>
 			{/if}
@@ -51,8 +53,8 @@
 					gearType={{
 						type: 'blueprint',
 						equip: stageData.drop.archer,
-						rarity: stageData.bestGear.archer.rarity,
-						level: stageData.bestGear.archer.stars.length,
+						rarity: stageData.bestGear['archer.rarity'],
+						level: stageData.bestGear['archer.level'],
 					}}
 				/>
 			{/if}

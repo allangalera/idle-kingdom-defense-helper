@@ -26,3 +26,16 @@ type Blueprint = {
 };
 
 type CardGearType = HeroGear | ArcherGear | Blueprint;
+
+type BestGearType = {
+	hero: {
+		full: `hero-${Rarity}-${UpgradeLevel}`;
+		rarity: Rarity;
+		level: UpgradeLevel;
+	};
+	archer: {
+		full: `archer-${Rarity}-${UpgradeLevel}`;
+		rarity: Rarity;
+		level: UpgradeLevel;
+	};
+};
