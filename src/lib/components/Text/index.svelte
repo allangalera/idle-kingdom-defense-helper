@@ -4,12 +4,14 @@
 	export let as: 'p' | 'span' = 'p';
 	export let fontSize: Sprinkles['fontSize'] = 'base';
 	export let color: Sprinkles['color'] = 'slate12';
+	export let textAlign: Sprinkles['textAlign'] = 'left';
 
 	let className = [
 		styles.paragraph,
 		sprinkles({
 			color: color,
 			fontSize: fontSize,
+			textAlign: textAlign,
 		}),
 	].join(' ');
 </script>

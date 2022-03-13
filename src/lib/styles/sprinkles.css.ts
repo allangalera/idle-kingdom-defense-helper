@@ -31,6 +31,7 @@ const responsiveProperties = defineProperties({
 		fontWeight: theme.font.fontWeights,
 		lineHeight: theme.font.lineHeights,
 		letterSpacing: theme.font.letterSpacings,
+		textAlign: ['left', 'center', 'right', 'start', 'end'],
 	},
 	shorthands: {
 		padding: ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight'],

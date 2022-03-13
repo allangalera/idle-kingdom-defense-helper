@@ -60,7 +60,7 @@
 
 <div class={styles.container}>
 	<div class={styles.innerContainer}>
-		<Text>From:</Text>
+		<Text textAlign="center">From</Text>
 		<div class={styles.ascensionLevelContainer}>
 			{#each ascensionGroups as ascensionGroup, index1}
 				<div class={styles.ascensionLevel}>
@@ -76,7 +76,7 @@
 		</div>
 	</div>
 	<div class={styles.innerContainer}>
-		<Text>To:</Text>
+		<Text textAlign="center">To</Text>
 		<div class={styles.ascensionLevelContainer}>
 			{#each ascensionGroups as ascensionGroup, index1}
 				<div class={styles.ascensionLevel}>

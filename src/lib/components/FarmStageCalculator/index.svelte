@@ -130,7 +130,10 @@
 				bestGear: stageGear,
 			};
 
-			const condition = `${wantedGear.hero.length}-${wantedGear.archer.length}`;
+			const condition = `${Math.min(wantedGear.hero.length, 2)}-${Math.min(
+				wantedGear.archer.length,
+				2
+			)}`;
 
 			switch (condition) {
 				case '0-0':
@@ -168,9 +171,6 @@
 					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
 						stages.push(currentStageData);
 					break;
-				default:
-					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
-						stages.push(currentStageData);
 			}
 		}
 		result = stages;
@@ -189,6 +189,7 @@
 
 <div class={styles.container}>
 	<Input
+		textAlign="center"
 		bind:value={stage}
 		maskOptions={{
 			mask: Number,
@@ -293,7 +294,7 @@
 			bind:checked={gear.archer.boots}
 		/>
 	</div>
-	<Heading>Results:</Heading>
+	<Heading>Results</Heading>
 	<div class={styles.flex}>
 		{#if result.length > 0}
 			{#each result as stageData (stageData.stage)}

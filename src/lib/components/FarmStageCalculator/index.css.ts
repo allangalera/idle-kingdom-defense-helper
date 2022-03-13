@@ -6,10 +6,14 @@ export const container = style({
 	flexDirection: 'column',
 	gap: theme.space[4],
 	flexWrap: 'wrap',
+	justifyContent: 'center',
+	alignItems: 'center',
 });
 
 export const flex = style({
 	display: 'flex',
 	gap: theme.space[4],
 	flexWrap: 'wrap',
+	justifyContent: 'center',
+	alignItems: 'center',
 });
