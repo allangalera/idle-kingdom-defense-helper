@@ -21,7 +21,7 @@
 	}
 </script>
 
-<div role="button" on:click on:click={onChange}>
+<div class={styles.button} role="button" on:click on:click={onChange}>
 	{#if selected}
 		<img src={startLevels[ascensionLevel]} alt="start level" />
 	{:else}

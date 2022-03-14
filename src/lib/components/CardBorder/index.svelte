@@ -7,8 +7,8 @@
 	export let background: Sprinkles['background'] = 'cardBackgroundDefault';
 	export let width: Sprinkles['width'] = 24;
 	export let heroType: HeroType = null;
-	export let level: UpgradeLevel;
-	export let rarity: Rarity;
+	export let level: UpgradeLevel = null;
+	export let rarity: Rarity = null;
 
 	const gearRarity = {
 		common: 1,

@@ -4,6 +4,7 @@
 	import ascensionStoneIcon from '$lib/assets/iconEvolveStone.png';
 	import goldCoinIcon from '$lib/assets/iconGold.png';
 	import soulstoneIcon from '$lib/assets/iconSoul.png';
+	import steelIcon from '$lib/assets/iconIron.png';
 	import { getIdleKingdomNumberFormat } from '$lib/utils';
 	export let value: number = 0;
 	export let cardType: CardType;
@@ -18,6 +19,8 @@
 				<img class={styles.img} src={goldCoinIcon} alt="Coin Icon" />
 			{:else if cardType === 'soulstone'}
 				<img class={styles.img} src={soulstoneIcon} alt="Soulstone Icon" />
+			{:else if cardType === 'steel'}
+				<img class={styles.img} src={steelIcon} alt="Steel Icon" />
 			{/if}
 		</div>
 		<div class={styles.textContainer}>

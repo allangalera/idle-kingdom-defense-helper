@@ -1,23 +1,20 @@
 <script lang="ts">
 	import * as styles from './index.css';
+
+	import Text from '$lib/components/Text/index.svelte';
 	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
-	import Text from '$lib/components/Text/index.svelte';
-	import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
-	import { ASCENSION } from '$lib/constants';
+	import archerEquipUpgradeCostJson from '$lib/data/archerEquipUpgradeCost.json';
 
 	let ascensionStartLevels = new Array(25).fill(false);
 	let ascensionEndLevels = new Array(25).fill(false);
 	let selectedStartLevel = 0;
-	let selectedEndLevel = 1;
+	let selectedEndLevel = 0;
+	let steelCost = 0;
 
 	ascensionStartLevels[0] = true;
 	ascensionEndLevels[0] = true;
 	ascensionEndLevels[1] = true;
-
-	let shardsCost = 0;
-	let ascensionStonesCost = 0;
-
 	let ascensionGroups = [
 		[0, 0, 0, 0, 0],
 		[1, 1, 1, 1, 1],
@@ -41,17 +38,11 @@
 	}
 
 	function calculateCost(startLevel, endLevel) {
-		shardsCost = 0;
-		ascensionStonesCost = 0;
-		let ascensionStonesCostLevel = 0;
+		steelCost = 0;
+
 		if (startLevel >= endLevel) return;
-		for (let level = 1; level <= endLevel; level++) {
-			let ascensionIncrement = ASCENSION.ASCENSION_STONE_PER_5_LEVELS[Math.floor(level / 5)];
-			ascensionStonesCostLevel += ascensionIncrement;
-			if (level > startLevel) {
-				shardsCost += (level + 1) * ASCENSION.SHARD_PER_LEVEL;
-				ascensionStonesCost += ascensionStonesCostLevel;
-			}
+		for (let level = startLevel; level < endLevel; level++) {
+			steelCost += archerEquipUpgradeCostJson[level + 2].steel;
 		}
 	}
 
@@ -92,11 +83,8 @@
 		</div>
 	</div>
 	<div class={styles.result}>
-		<div class={styles.shardResult}>
-			<CardHeroShard value={shardsCost} />
-		</div>
 		<div class={styles.ascensionStoneResult}>
-			<Card cardType="ascension-stone" value={ascensionStonesCost} />
+			<Card cardType="steel" value={steelCost} />
 		</div>
 	</div>
 </div>
