@@ -212,20 +212,20 @@
 		<CardToggle
 			gearType={{
 				type: 'hero',
-				equip: 'chest',
-				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
-				level: pathOr(1, ['hero', 'level'], bestGear),
-			}}
-			bind:checked={gear.hero.chest}
-		/>
-		<CardToggle
-			gearType={{
-				type: 'hero',
 				equip: 'helmet',
 				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
 				level: pathOr(1, ['hero', 'level'], bestGear),
 			}}
 			bind:checked={gear.hero.helmet}
+		/>
+		<CardToggle
+			gearType={{
+				type: 'hero',
+				equip: 'chest',
+				rarity: pathOr('common', ['hero', 'rarity'], bestGear),
+				level: pathOr(1, ['hero', 'level'], bestGear),
+			}}
+			bind:checked={gear.hero.chest}
 		/>
 		<CardToggle
 			gearType={{
