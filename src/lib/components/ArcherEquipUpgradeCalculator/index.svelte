@@ -9,7 +9,7 @@
 	let ascensionStartLevels = new Array(25).fill(false);
 	let ascensionEndLevels = new Array(25).fill(false);
 	let selectedStartLevel = 0;
-	let selectedEndLevel = 0;
+	let selectedEndLevel = 1;
 	let steelCost = 0;
 
 	ascensionStartLevels[0] = true;

@@ -18,10 +18,10 @@
 	<GridItem title="Hero Ascension Calculator" full>
 		<HeroAscensionCalculator />
 	</GridItem>
-	<GridItem title="Stage to Farm Calculator" full>
-		<FarmStageCalculator />
-	</GridItem>
 	<GridItem title="Archer Upgrade Cost Calculator" full>
 		<ArcherEquipUpgradeCalculator />
+	</GridItem>
+	<GridItem title="Stage to Farm Calculator" full>
+		<FarmStageCalculator />
 	</GridItem>
 </div>
