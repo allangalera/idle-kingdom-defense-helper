@@ -84,7 +84,7 @@ export const root = createGlobalTheme(':root', {
 	},
 	font: {
 		family: {
-			heading: 'Roboto Serif',
+			heading: 'Roboto Slab',
 			body: 'Roboto',
 			mono: 'Roboto Mono',
 		},

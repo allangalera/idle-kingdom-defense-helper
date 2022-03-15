@@ -1,6 +1,6 @@
 <script>
 	import '@fontsource/roboto';
-	import '@fontsource/roboto-serif';
+	import '@fontsource/roboto-slab';
 	import '@fontsource/roboto-mono';
 	import '$lib/styles/styles.css';
 	import { theme, ThemeOptions } from '$lib/shared/stores/theme';

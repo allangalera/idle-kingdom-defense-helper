@@ -39,12 +39,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/raleway": "^4.5.3",
 		"@fontsource/roboto": "^4.5.3",
 		"@fontsource/roboto-mono": "^4.5.3",
-		"@fontsource/roboto-serif": "^4.5.1",
+		"@fontsource/roboto-slab": "^4.5.4",
 		"@radix-ui/colors": "^0.1.8",
-		"@vanilla-extract/recipes": "^0.2.3",
 		"@vanilla-extract/sprinkles": "^1.4.0",
 		"imask": "^6.4.2",
 		"nanoid": "^3.3.1",
