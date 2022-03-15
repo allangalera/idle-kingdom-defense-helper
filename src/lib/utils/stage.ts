@@ -76,8 +76,7 @@ export const calculateStage = (stage: string, wantedGear) => {
 	const stages = [];
 	let stageGear;
 
-	let currentStage = parsedStage - 1;
-	while (currentStage > 0) {
+	for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
 		stageGear = returnItemLevelDropFromStage(currentStage);
 		const validate = validateIfGearIsValid(currentBestGear, stageGear, wantedGear);
 
@@ -106,31 +105,25 @@ export const calculateStage = (stage: string, wantedGear) => {
 			2
 		)}`;
 
-		let step = 1;
-
 		switch (condition) {
 			case '0-0':
 				if (heroDropFromStage === 'all' && archerDropFromStage === 'all') {
 					stages.push(currentStageData);
-					step = 35;
 				}
 				break;
 			case '0-1':
 				if (wantedGear.archer.includes(archerDropFromStage)) {
 					stages.push(currentStageData);
-					step = 7;
 				}
 				break;
 			case '0-2':
 				if (archerDropFromStage === 'all') {
 					stages.push(currentStageData);
-					step = 7;
 				}
 				break;
 			case '1-0':
 				if (wantedGear.hero.includes(heroDropFromStage)) {
 					stages.push(currentStageData);
-					step = 5;
 				}
 				break;
 			case '1-1':
@@ -139,36 +132,29 @@ export const calculateStage = (stage: string, wantedGear) => {
 					wantedGear.archer.includes(archerDropFromStage)
 				) {
 					stages.push(currentStageData);
-					currentStage += -35;
-					step = 35;
 				}
 				break;
 			case '1-2':
 				if (wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage === 'all') {
 					stages.push(currentStageData);
-					step = 35;
 				}
 				break;
 			case '2-0':
 				if (heroDropFromStage === 'all') {
 					stages.push(currentStageData);
-					step = 5;
 				}
 				break;
 			case '2-1':
 				if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage)) {
 					stages.push(currentStageData);
-					step = 35;
 				}
 				break;
 			case '2-2':
 				if (heroDropFromStage === 'all' && archerDropFromStage === 'all') {
 					stages.push(currentStageData);
-					step = 35;
 				}
 				break;
 		}
-		currentStage -= step;
 	}
 
 	return {

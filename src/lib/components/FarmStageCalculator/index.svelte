@@ -53,7 +53,7 @@
 			const { stages, currentBestGear } = calculateStage(stage, returnGearsToFind(gear));
 			result = stages;
 			bestGear = currentBestGear;
-		}, 250);
+		}, 500);
 	}
 
 	$: debounce(stage, gear);
