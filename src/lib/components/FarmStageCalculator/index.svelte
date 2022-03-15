@@ -106,7 +106,8 @@
 		let stages = [];
 		let stageGear;
 
-		for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
+		let currentStage = parsedStage - 1;
+		while (currentStage >= 0) {
 			stageGear = returnItemLevelDropFromStage(currentStage);
 			let validate = validateIfGearIsValid(currentBestGear, stageGear, wantedGear);
 
@@ -135,43 +136,69 @@
 				2
 			)}`;
 
+			let step = 1;
+
 			switch (condition) {
 				case '0-0':
-					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
+					if (heroDropFromStage === 'all' && archerDropFromStage === 'all') {
 						stages.push(currentStageData);
+						step = 35;
+					}
 					break;
 				case '0-1':
-					if (wantedGear.archer.includes(archerDropFromStage)) stages.push(currentStageData);
+					if (wantedGear.archer.includes(archerDropFromStage)) {
+						stages.push(currentStageData);
+						step = 7;
+					}
 					break;
 				case '0-2':
-					if (archerDropFromStage === 'all') stages.push(currentStageData);
+					if (archerDropFromStage === 'all') {
+						stages.push(currentStageData);
+						step = 7;
+					}
 					break;
 				case '1-0':
-					if (wantedGear.hero.includes(heroDropFromStage)) stages.push(currentStageData);
+					if (wantedGear.hero.includes(heroDropFromStage)) {
+						stages.push(currentStageData);
+						step = 5;
+					}
 					break;
 				case '1-1':
 					if (
 						wantedGear.hero.includes(heroDropFromStage) &&
 						wantedGear.archer.includes(archerDropFromStage)
-					)
+					) {
 						stages.push(currentStageData);
+						currentStage += -35;
+						step = 35;
+					}
 					break;
 				case '1-2':
-					if (wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage === 'all')
+					if (wantedGear.hero.includes(heroDropFromStage) && archerDropFromStage === 'all') {
 						stages.push(currentStageData);
+						step = 35;
+					}
 					break;
 				case '2-0':
-					if (heroDropFromStage === 'all') stages.push(currentStageData);
+					if (heroDropFromStage === 'all') {
+						stages.push(currentStageData);
+						step = 5;
+					}
 					break;
 				case '2-1':
-					if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage))
+					if (heroDropFromStage === 'all' && wantedGear.archer.includes(archerDropFromStage)) {
 						stages.push(currentStageData);
+						step = 35;
+					}
 					break;
 				case '2-2':
-					if (heroDropFromStage === 'all' && archerDropFromStage === 'all')
+					if (heroDropFromStage === 'all' && archerDropFromStage === 'all') {
 						stages.push(currentStageData);
+						step = 35;
+					}
 					break;
 			}
+			currentStage -= step;
 		}
 		result = stages;
 		bestGear = currentBestGear;
@@ -181,7 +208,7 @@
 		clearTimeout(timer);
 		timer = setTimeout(() => {
 			calculateStage(stage, gear);
-		}, 500);
+		}, 250);
 	}
 
 	$: debounce(stage, gear);
