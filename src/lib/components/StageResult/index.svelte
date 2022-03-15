@@ -3,7 +3,6 @@
 	import Text from '$lib/components/Text/index.svelte';
 	import CardGear from '$lib/components/CardGear/index.svelte';
 	import { is } from 'ramda';
-	import { header } from '../Header/index.css';
 
 	export let stageData: {
 		stage: number;

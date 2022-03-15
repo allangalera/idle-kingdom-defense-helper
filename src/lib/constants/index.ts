@@ -1,6 +1,7 @@
 export const CASTLE_INITIAL_UPGRADE_COST = 100;
 export const CASTLE_MAX_LEVEL = 50000;
 export const MAX_HERO_LEVEL = 12000;
+export const MAX_STAGE_LEVEL = 15000;
 
 export const ASCENSION = {
 	SHARD_PER_LEVEL: 10,

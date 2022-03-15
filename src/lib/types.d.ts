@@ -1,26 +1,33 @@
-type Rarity = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary' | 'mythic';
+import { RarityEnum, HeroGearEquip, ArcherGearEquip } from './enums';
+
+type Rarity = keyof typeof RarityEnum;
 
 type UpgradeLevel = 1 | 2 | 3 | 4 | 5;
 
-type HeroType = 'warrior' | 'support';
+export enum Hero {
+	warrior = 'warrior',
+	support = 'support',
+}
+
+type HeroType = keyof typeof Hero;
 
 type HeroGear = {
 	type: 'hero';
-	equip: 'all' | 'weapon' | 'chest' | 'helmet' | 'boots';
+	equip: 'all' | keyof typeof HeroGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
 
 type ArcherGear = {
 	type: 'archer';
-	equip: 'bow' | 'arrow' | 'helmet' | 'chest' | 'gloves' | 'boots';
+	equip: keyof typeof ArcherGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
 
 type Blueprint = {
 	type: 'blueprint';
-	equip: 'all' | 'bow' | 'arrow' | 'helmet' | 'chest' | 'gloves' | 'boots';
+	equip: 'all' | keyof typeof ArcherGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
