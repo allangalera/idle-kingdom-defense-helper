@@ -1,0 +1,9610 @@
+[
+	{
+		"incCostSoul": 10,
+		"incCostGold": 5,
+		"initCostGold": 100,
+		"id": 1,
+		"level": 1,
+		"initCostSoul": 200
+	},
+	{
+		"incCostSoul": 12.5,
+		"incCostGold": 8.6,
+		"initCostGold": 150,
+		"id": 2,
+		"level": 11,
+		"initCostSoul": 300
+	},
+	{
+		"incCostSoul": 15,
+		"incCostGold": 12.2,
+		"initCostGold": 236,
+		"id": 3,
+		"level": 21,
+		"initCostSoul": 425
+	},
+	{
+		"incCostSoul": 17.5,
+		"incCostGold": 15.8,
+		"initCostGold": 358,
+		"id": 4,
+		"level": 31,
+		"initCostSoul": 575
+	},
+	{
+		"incCostSoul": 20,
+		"incCostGold": 19.4,
+		"initCostGold": 516,
+		"id": 5,
+		"level": 41,
+		"initCostSoul": 750
+	},
+	{
+		"incCostSoul": 22.5,
+		"incCostGold": 23,
+		"initCostGold": 710,
+		"id": 6,
+		"level": 51,
+		"initCostSoul": 950
+	},
+	{
+		"incCostSoul": 25,
+		"incCostGold": 26.6,
+		"initCostGold": 940,
+		"id": 7,
+		"level": 61,
+		"initCostSoul": 1175
+	},
+	{
+		"incCostSoul": 27.5,
+		"incCostGold": 30.2,
+		"initCostGold": 1206,
+		"id": 8,
+		"level": 71,
+		"initCostSoul": 1425
+	},
+	{
+		"incCostSoul": 30,
+		"incCostGold": 33.8,
+		"initCostGold": 1508,
+		"id": 9,
+		"level": 81,
+		"initCostSoul": 1700
+	},
+	{
+		"incCostSoul": 32.5,
+		"incCostGold": 37.4,
+		"initCostGold": 1846,
+		"id": 10,
+		"level": 91,
+		"initCostSoul": 2000
+	},
+	{
+		"incCostSoul": 35,
+		"incCostGold": 41,
+		"initCostGold": 2220,
+		"id": 11,
+		"level": 101,
+		"initCostSoul": 2325
+	},
+	{
+		"incCostSoul": 37.5,
+		"incCostGold": 44.6,
+		"initCostGold": 2630,
+		"id": 12,
+		"level": 111,
+		"initCostSoul": 2675
+	},
+	{
+		"incCostSoul": 40,
+		"incCostGold": 48.2,
+		"initCostGold": 3076,
+		"id": 13,
+		"level": 121,
+		"initCostSoul": 3050
+	},
+	{
+		"incCostSoul": 42.5,
+		"incCostGold": 51.8,
+		"initCostGold": 3558,
+		"id": 14,
+		"level": 131,
+		"initCostSoul": 3450
+	},
+	{
+		"incCostSoul": 45,
+		"incCostGold": 55.4,
+		"initCostGold": 4076,
+		"id": 15,
+		"level": 141,
+		"initCostSoul": 3875
+	},
+	{
+		"incCostSoul": 47.5,
+		"incCostGold": 59,
+		"initCostGold": 4630,
+		"id": 16,
+		"level": 151,
+		"initCostSoul": 4325
+	},
+	{
+		"incCostSoul": 50,
+		"incCostGold": 62.6,
+		"initCostGold": 5220,
+		"id": 17,
+		"level": 161,
+		"initCostSoul": 4800
+	},
+	{
+		"incCostSoul": 52.5,
+		"incCostGold": 66.2,
+		"initCostGold": 5846,
+		"id": 18,
+		"level": 171,
+		"initCostSoul": 5300
+	},
+	{
+		"incCostSoul": 55,
+		"incCostGold": 69.8,
+		"initCostGold": 6508,
+		"id": 19,
+		"level": 181,
+		"initCostSoul": 5825
+	},
+	{
+		"incCostSoul": 57.5,
+		"incCostGold": 73.4,
+		"initCostGold": 7206,
+		"id": 20,
+		"level": 191,
+		"initCostSoul": 6375
+	},
+	{
+		"incCostSoul": 60,
+		"incCostGold": 77,
+		"initCostGold": 7940,
+		"id": 21,
+		"level": 201,
+		"initCostSoul": 6950
+	},
+	{
+		"incCostSoul": 62.5,
+		"incCostGold": 80.6,
+		"initCostGold": 8710,
+		"id": 22,
+		"level": 211,
+		"initCostSoul": 7550
+	},
+	{
+		"incCostSoul": 65,
+		"incCostGold": 84.2,
+		"initCostGold": 9516,
+		"id": 23,
+		"level": 221,
+		"initCostSoul": 8175
+	},
+	{
+		"incCostSoul": 67.5,
+		"incCostGold": 87.8,
+		"initCostGold": 10358,
+		"id": 24,
+		"level": 231,
+		"initCostSoul": 8825
+	},
+	{
+		"incCostSoul": 70,
+		"incCostGold": 91.4,
+		"initCostGold": 11236,
+		"id": 25,
+		"level": 241,
+		"initCostSoul": 9500
+	},
+	{
+		"incCostSoul": 72.5,
+		"incCostGold": 95,
+		"initCostGold": 12150,
+		"id": 26,
+		"level": 251,
+		"initCostSoul": 10200
+	},
+	{
+		"incCostSoul": 75,
+		"incCostGold": 98.6,
+		"initCostGold": 13100,
+		"id": 27,
+		"level": 261,
+		"initCostSoul": 10925
+	},
+	{
+		"incCostSoul": 77.5,
+		"incCostGold": 102.2,
+		"initCostGold": 14086,
+		"id": 28,
+		"level": 271,
+		"initCostSoul": 11675
+	},
+	{
+		"incCostSoul": 80,
+		"incCostGold": 105.8,
+		"initCostGold": 15108,
+		"id": 29,
+		"level": 281,
+		"initCostSoul": 12450
+	},
+	{
+		"incCostSoul": 82.5,
+		"incCostGold": 109.4,
+		"initCostGold": 16166,
+		"id": 30,
+		"level": 291,
+		"initCostSoul": 13250
+	},
+	{
+		"incCostSoul": 85,
+		"incCostGold": 113,
+		"initCostGold": 17260,
+		"id": 31,
+		"level": 301,
+		"initCostSoul": 14075
+	},
+	{
+		"incCostSoul": 87.5,
+		"incCostGold": 116.6,
+		"initCostGold": 18390,
+		"id": 32,
+		"level": 311,
+		"initCostSoul": 14925
+	},
+	{
+		"incCostSoul": 90,
+		"incCostGold": 120.2,
+		"initCostGold": 19556,
+		"id": 33,
+		"level": 321,
+		"initCostSoul": 15800
+	},
+	{
+		"incCostSoul": 92.5,
+		"incCostGold": 123.8,
+		"initCostGold": 20758,
+		"id": 34,
+		"level": 331,
+		"initCostSoul": 16700
+	},
+	{
+		"incCostSoul": 95,
+		"incCostGold": 127.4,
+		"initCostGold": 21996,
+		"id": 35,
+		"level": 341,
+		"initCostSoul": 17625
+	},
+	{
+		"incCostSoul": 97.5,
+		"incCostGold": 131,
+		"initCostGold": 23270,
+		"id": 36,
+		"level": 351,
+		"initCostSoul": 18575
+	},
+	{
+		"incCostSoul": 100,
+		"incCostGold": 134.6,
+		"initCostGold": 24580,
+		"id": 37,
+		"level": 361,
+		"initCostSoul": 19550
+	},
+	{
+		"incCostSoul": 102.5,
+		"incCostGold": 138.2,
+		"initCostGold": 25926,
+		"id": 38,
+		"level": 371,
+		"initCostSoul": 20550
+	},
+	{
+		"incCostSoul": 105,
+		"incCostGold": 141.8,
+		"initCostGold": 27308,
+		"id": 39,
+		"level": 381,
+		"initCostSoul": 21575
+	},
+	{
+		"incCostSoul": 107.5,
+		"incCostGold": 145.4,
+		"initCostGold": 28726,
+		"id": 40,
+		"level": 391,
+		"initCostSoul": 22625
+	},
+	{
+		"incCostSoul": 110,
+		"incCostGold": 149,
+		"initCostGold": 30180,
+		"id": 41,
+		"level": 401,
+		"initCostSoul": 23700
+	},
+	{
+		"incCostSoul": 112.5,
+		"incCostGold": 152.6,
+		"initCostGold": 31670,
+		"id": 42,
+		"level": 411,
+		"initCostSoul": 24800
+	},
+	{
+		"incCostSoul": 115,
+		"incCostGold": 156.2,
+		"initCostGold": 33196,
+		"id": 43,
+		"level": 421,
+		"initCostSoul": 25925
+	},
+	{
+		"incCostSoul": 117.5,
+		"incCostGold": 159.8,
+		"initCostGold": 34758,
+		"id": 44,
+		"level": 431,
+		"initCostSoul": 27075
+	},
+	{
+		"incCostSoul": 120,
+		"incCostGold": 163.4,
+		"initCostGold": 36356,
+		"id": 45,
+		"level": 441,
+		"initCostSoul": 28250
+	},
+	{
+		"incCostSoul": 122.5,
+		"incCostGold": 167,
+		"initCostGold": 37990,
+		"id": 46,
+		"level": 451,
+		"initCostSoul": 29450
+	},
+	{
+		"incCostSoul": 125,
+		"incCostGold": 170.6,
+		"initCostGold": 39660,
+		"id": 47,
+		"level": 461,
+		"initCostSoul": 30675
+	},
+	{
+		"incCostSoul": 127.5,
+		"incCostGold": 174.2,
+		"initCostGold": 41366,
+		"id": 48,
+		"level": 471,
+		"initCostSoul": 31925
+	},
+	{
+		"incCostSoul": 130,
+		"incCostGold": 177.8,
+		"initCostGold": 43108,
+		"id": 49,
+		"level": 481,
+		"initCostSoul": 33200
+	},
+	{
+		"incCostSoul": 132.5,
+		"incCostGold": 181.4,
+		"initCostGold": 44886,
+		"id": 50,
+		"level": 491,
+		"initCostSoul": 34500
+	},
+	{
+		"incCostSoul": 135,
+		"incCostGold": 185,
+		"initCostGold": 46700,
+		"id": 51,
+		"level": 501,
+		"initCostSoul": 35825
+	},
+	{
+		"incCostSoul": 137.5,
+		"incCostGold": 188.6,
+		"initCostGold": 48550,
+		"id": 52,
+		"level": 511,
+		"initCostSoul": 37175
+	},
+	{
+		"incCostSoul": 140,
+		"incCostGold": 192.2,
+		"initCostGold": 50436,
+		"id": 53,
+		"level": 521,
+		"initCostSoul": 38550
+	},
+	{
+		"incCostSoul": 142.5,
+		"incCostGold": 195.8,
+		"initCostGold": 52358,
+		"id": 54,
+		"level": 531,
+		"initCostSoul": 39950
+	},
+	{
+		"incCostSoul": 145,
+		"incCostGold": 199.4,
+		"initCostGold": 54316,
+		"id": 55,
+		"level": 541,
+		"initCostSoul": 41375
+	},
+	{
+		"incCostSoul": 147.5,
+		"incCostGold": 203,
+		"initCostGold": 56310,
+		"id": 56,
+		"level": 551,
+		"initCostSoul": 42825
+	},
+	{
+		"incCostSoul": 150,
+		"incCostGold": 206.6,
+		"initCostGold": 58340,
+		"id": 57,
+		"level": 561,
+		"initCostSoul": 44300
+	},
+	{
+		"incCostSoul": 152.5,
+		"incCostGold": 210.2,
+		"initCostGold": 60406,
+		"id": 58,
+		"level": 571,
+		"initCostSoul": 45800
+	},
+	{
+		"incCostSoul": 155,
+		"incCostGold": 213.8,
+		"initCostGold": 62508,
+		"id": 59,
+		"level": 581,
+		"initCostSoul": 47325
+	},
+	{
+		"incCostSoul": 157.5,
+		"incCostGold": 217.4,
+		"initCostGold": 64646,
+		"id": 60,
+		"level": 591,
+		"initCostSoul": 48875
+	},
+	{
+		"incCostSoul": 160,
+		"incCostGold": 221,
+		"initCostGold": 66820,
+		"id": 61,
+		"level": 601,
+		"initCostSoul": 50450
+	},
+	{
+		"incCostSoul": 162.5,
+		"incCostGold": 224.6,
+		"initCostGold": 69030,
+		"id": 62,
+		"level": 611,
+		"initCostSoul": 52050
+	},
+	{
+		"incCostSoul": 165,
+		"incCostGold": 228.2,
+		"initCostGold": 71276,
+		"id": 63,
+		"level": 621,
+		"initCostSoul": 53675
+	},
+	{
+		"incCostSoul": 167.5,
+		"incCostGold": 231.8,
+		"initCostGold": 73558,
+		"id": 64,
+		"level": 631,
+		"initCostSoul": 55325
+	},
+	{
+		"incCostSoul": 170,
+		"incCostGold": 235.4,
+		"initCostGold": 75876,
+		"id": 65,
+		"level": 641,
+		"initCostSoul": 57000
+	},
+	{
+		"incCostSoul": 172.5,
+		"incCostGold": 239,
+		"initCostGold": 78230,
+		"id": 66,
+		"level": 651,
+		"initCostSoul": 58700
+	},
+	{
+		"incCostSoul": 175,
+		"incCostGold": 242.6,
+		"initCostGold": 80620,
+		"id": 67,
+		"level": 661,
+		"initCostSoul": 60425
+	},
+	{
+		"incCostSoul": 177.5,
+		"incCostGold": 246.2,
+		"initCostGold": 83046,
+		"id": 68,
+		"level": 671,
+		"initCostSoul": 62175
+	},
+	{
+		"incCostSoul": 180,
+		"incCostGold": 249.8,
+		"initCostGold": 85508,
+		"id": 69,
+		"level": 681,
+		"initCostSoul": 63950
+	},
+	{
+		"incCostSoul": 182.5,
+		"incCostGold": 253.4,
+		"initCostGold": 88006,
+		"id": 70,
+		"level": 691,
+		"initCostSoul": 65750
+	},
+	{
+		"incCostSoul": 185,
+		"incCostGold": 257,
+		"initCostGold": 90540,
+		"id": 71,
+		"level": 701,
+		"initCostSoul": 67575
+	},
+	{
+		"incCostSoul": 187.5,
+		"incCostGold": 260.6,
+		"initCostGold": 93110,
+		"id": 72,
+		"level": 711,
+		"initCostSoul": 69425
+	},
+	{
+		"incCostSoul": 190,
+		"incCostGold": 264.2,
+		"initCostGold": 95716,
+		"id": 73,
+		"level": 721,
+		"initCostSoul": 71300
+	},
+	{
+		"incCostSoul": 192.5,
+		"incCostGold": 267.8,
+		"initCostGold": 98358,
+		"id": 74,
+		"level": 731,
+		"initCostSoul": 73200
+	},
+	{
+		"incCostSoul": 195,
+		"incCostGold": 271.4,
+		"initCostGold": 101036,
+		"id": 75,
+		"level": 741,
+		"initCostSoul": 75125
+	},
+	{
+		"incCostSoul": 197.5,
+		"incCostGold": 275,
+		"initCostGold": 103750,
+		"id": 76,
+		"level": 751,
+		"initCostSoul": 77075
+	},
+	{
+		"incCostSoul": 200,
+		"incCostGold": 278.6,
+		"initCostGold": 106500,
+		"id": 77,
+		"level": 761,
+		"initCostSoul": 79050
+	},
+	{
+		"incCostSoul": 202.5,
+		"incCostGold": 282.2,
+		"initCostGold": 109286,
+		"id": 78,
+		"level": 771,
+		"initCostSoul": 81050
+	},
+	{
+		"incCostSoul": 205,
+		"incCostGold": 285.8,
+		"initCostGold": 112108,
+		"id": 79,
+		"level": 781,
+		"initCostSoul": 83075
+	},
+	{
+		"incCostSoul": 207.5,
+		"incCostGold": 289.4,
+		"initCostGold": 114966,
+		"id": 80,
+		"level": 791,
+		"initCostSoul": 85125
+	},
+	{
+		"incCostSoul": 210,
+		"incCostGold": 293,
+		"initCostGold": 117860,
+		"id": 81,
+		"level": 801,
+		"initCostSoul": 87200
+	},
+	{
+		"incCostSoul": 212.5,
+		"incCostGold": 296.6,
+		"initCostGold": 120790,
+		"id": 82,
+		"level": 811,
+		"initCostSoul": 89300
+	},
+	{
+		"incCostSoul": 215,
+		"incCostGold": 300.2,
+		"initCostGold": 123756,
+		"id": 83,
+		"level": 821,
+		"initCostSoul": 91425
+	},
+	{
+		"incCostSoul": 217.5,
+		"incCostGold": 303.8,
+		"initCostGold": 126758,
+		"id": 84,
+		"level": 831,
+		"initCostSoul": 93575
+	},
+	{
+		"incCostSoul": 220,
+		"incCostGold": 307.4,
+		"initCostGold": 129796,
+		"id": 85,
+		"level": 841,
+		"initCostSoul": 95750
+	},
+	{
+		"incCostSoul": 222.5,
+		"incCostGold": 311,
+		"initCostGold": 132870,
+		"id": 86,
+		"level": 851,
+		"initCostSoul": 97950
+	},
+	{
+		"incCostSoul": 225,
+		"incCostGold": 314.6,
+		"initCostGold": 135980,
+		"id": 87,
+		"level": 861,
+		"initCostSoul": 100175
+	},
+	{
+		"incCostSoul": 227.5,
+		"incCostGold": 318.2,
+		"initCostGold": 139126,
+		"id": 88,
+		"level": 871,
+		"initCostSoul": 102425
+	},
+	{
+		"incCostSoul": 230,
+		"incCostGold": 321.8,
+		"initCostGold": 142308,
+		"id": 89,
+		"level": 881,
+		"initCostSoul": 104700
+	},
+	{
+		"incCostSoul": 232.5,
+		"incCostGold": 325.4,
+		"initCostGold": 145526,
+		"id": 90,
+		"level": 891,
+		"initCostSoul": 107000
+	},
+	{
+		"incCostSoul": 235,
+		"incCostGold": 329,
+		"initCostGold": 148780,
+		"id": 91,
+		"level": 901,
+		"initCostSoul": 109325
+	},
+	{
+		"incCostSoul": 237.5,
+		"incCostGold": 332.6,
+		"initCostGold": 152070,
+		"id": 92,
+		"level": 911,
+		"initCostSoul": 111675
+	},
+	{
+		"incCostSoul": 240,
+		"incCostGold": 336.2,
+		"initCostGold": 155396,
+		"id": 93,
+		"level": 921,
+		"initCostSoul": 114050
+	},
+	{
+		"incCostSoul": 242.5,
+		"incCostGold": 339.8,
+		"initCostGold": 158758,
+		"id": 94,
+		"level": 931,
+		"initCostSoul": 116450
+	},
+	{
+		"incCostSoul": 245,
+		"incCostGold": 343.4,
+		"initCostGold": 162156,
+		"id": 95,
+		"level": 941,
+		"initCostSoul": 118875
+	},
+	{
+		"incCostSoul": 247.5,
+		"incCostGold": 347,
+		"initCostGold": 165590,
+		"id": 96,
+		"level": 951,
+		"initCostSoul": 121325
+	},
+	{
+		"incCostSoul": 250,
+		"incCostGold": 350.6,
+		"initCostGold": 169060,
+		"id": 97,
+		"level": 961,
+		"initCostSoul": 123800
+	},
+	{
+		"incCostSoul": 252.5,
+		"incCostGold": 354.2,
+		"initCostGold": 172566,
+		"id": 98,
+		"level": 971,
+		"initCostSoul": 126300
+	},
+	{
+		"incCostSoul": 255,
+		"incCostGold": 357.8,
+		"initCostGold": 176108,
+		"id": 99,
+		"level": 981,
+		"initCostSoul": 128825
+	},
+	{
+		"incCostSoul": 257.5,
+		"incCostGold": 361.4,
+		"initCostGold": 179686,
+		"id": 100,
+		"level": 991,
+		"initCostSoul": 131375
+	},
+	{
+		"incCostSoul": 260,
+		"incCostGold": 365,
+		"initCostGold": 183300,
+		"id": 101,
+		"level": 1001,
+		"initCostSoul": 133950
+	},
+	{
+		"incCostSoul": 262.5,
+		"incCostGold": 368.6,
+		"initCostGold": 186950,
+		"id": 102,
+		"level": 1011,
+		"initCostSoul": 136550
+	},
+	{
+		"incCostSoul": 265,
+		"incCostGold": 372.2,
+		"initCostGold": 190636,
+		"id": 103,
+		"level": 1021,
+		"initCostSoul": 139175
+	},
+	{
+		"incCostSoul": 267.5,
+		"incCostGold": 375.8,
+		"initCostGold": 194358,
+		"id": 104,
+		"level": 1031,
+		"initCostSoul": 141825
+	},
+	{
+		"incCostSoul": 270,
+		"incCostGold": 379.4,
+		"initCostGold": 198116,
+		"id": 105,
+		"level": 1041,
+		"initCostSoul": 144500
+	},
+	{
+		"incCostSoul": 272.5,
+		"incCostGold": 383,
+		"initCostGold": 201910,
+		"id": 106,
+		"level": 1051,
+		"initCostSoul": 147200
+	},
+	{
+		"incCostSoul": 275,
+		"incCostGold": 386.6,
+		"initCostGold": 205740,
+		"id": 107,
+		"level": 1061,
+		"initCostSoul": 149925
+	},
+	{
+		"incCostSoul": 277.5,
+		"incCostGold": 390.2,
+		"initCostGold": 209606,
+		"id": 108,
+		"level": 1071,
+		"initCostSoul": 152675
+	},
+	{
+		"incCostSoul": 280,
+		"incCostGold": 393.8,
+		"initCostGold": 213508,
+		"id": 109,
+		"level": 1081,
+		"initCostSoul": 155450
+	},
+	{
+		"incCostSoul": 282.5,
+		"incCostGold": 397.4,
+		"initCostGold": 217446,
+		"id": 110,
+		"level": 1091,
+		"initCostSoul": 158250
+	},
+	{
+		"incCostSoul": 285,
+		"incCostGold": 401,
+		"initCostGold": 221420,
+		"id": 111,
+		"level": 1101,
+		"initCostSoul": 161075
+	},
+	{
+		"incCostSoul": 287.5,
+		"incCostGold": 404.6,
+		"initCostGold": 225430,
+		"id": 112,
+		"level": 1111,
+		"initCostSoul": 163925
+	},
+	{
+		"incCostSoul": 290,
+		"incCostGold": 408.2,
+		"initCostGold": 229476,
+		"id": 113,
+		"level": 1121,
+		"initCostSoul": 166800
+	},
+	{
+		"incCostSoul": 292.5,
+		"incCostGold": 411.8,
+		"initCostGold": 233558,
+		"id": 114,
+		"level": 1131,
+		"initCostSoul": 169700
+	},
+	{
+		"incCostSoul": 295,
+		"incCostGold": 415.4,
+		"initCostGold": 237676,
+		"id": 115,
+		"level": 1141,
+		"initCostSoul": 172625
+	},
+	{
+		"incCostSoul": 297.5,
+		"incCostGold": 419,
+		"initCostGold": 241830,
+		"id": 116,
+		"level": 1151,
+		"initCostSoul": 175575
+	},
+	{
+		"incCostSoul": 300,
+		"incCostGold": 422.6,
+		"initCostGold": 246020,
+		"id": 117,
+		"level": 1161,
+		"initCostSoul": 178550
+	},
+	{
+		"incCostSoul": 302.5,
+		"incCostGold": 426.2,
+		"initCostGold": 250246,
+		"id": 118,
+		"level": 1171,
+		"initCostSoul": 181550
+	},
+	{
+		"incCostSoul": 305,
+		"incCostGold": 429.8,
+		"initCostGold": 254508,
+		"id": 119,
+		"level": 1181,
+		"initCostSoul": 184575
+	},
+	{
+		"incCostSoul": 307.5,
+		"incCostGold": 433.4,
+		"initCostGold": 258806,
+		"id": 120,
+		"level": 1191,
+		"initCostSoul": 187625
+	},
+	{
+		"incCostSoul": 310,
+		"incCostGold": 437,
+		"initCostGold": 263140,
+		"id": 121,
+		"level": 1201,
+		"initCostSoul": 190700
+	},
+	{
+		"incCostSoul": 312.5,
+		"incCostGold": 440.6,
+		"initCostGold": 267510,
+		"id": 122,
+		"level": 1211,
+		"initCostSoul": 193800
+	},
+	{
+		"incCostSoul": 315,
+		"incCostGold": 444.2,
+		"initCostGold": 271916,
+		"id": 123,
+		"level": 1221,
+		"initCostSoul": 196925
+	},
+	{
+		"incCostSoul": 317.5,
+		"incCostGold": 447.8,
+		"initCostGold": 276358,
+		"id": 124,
+		"level": 1231,
+		"initCostSoul": 200075
+	},
+	{
+		"incCostSoul": 320,
+		"incCostGold": 451.4,
+		"initCostGold": 280836,
+		"id": 125,
+		"level": 1241,
+		"initCostSoul": 203250
+	},
+	{
+		"incCostSoul": 322.5,
+		"incCostGold": 455,
+		"initCostGold": 285350,
+		"id": 126,
+		"level": 1251,
+		"initCostSoul": 206450
+	},
+	{
+		"incCostSoul": 325,
+		"incCostGold": 458.6,
+		"initCostGold": 289900,
+		"id": 127,
+		"level": 1261,
+		"initCostSoul": 209675
+	},
+	{
+		"incCostSoul": 327.5,
+		"incCostGold": 462.2,
+		"initCostGold": 294486,
+		"id": 128,
+		"level": 1271,
+		"initCostSoul": 212925
+	},
+	{
+		"incCostSoul": 330,
+		"incCostGold": 465.8,
+		"initCostGold": 299108,
+		"id": 129,
+		"level": 1281,
+		"initCostSoul": 216200
+	},
+	{
+		"incCostSoul": 332.5,
+		"incCostGold": 469.4,
+		"initCostGold": 303766,
+		"id": 130,
+		"level": 1291,
+		"initCostSoul": 219500
+	},
+	{
+		"incCostSoul": 335,
+		"incCostGold": 473,
+		"initCostGold": 308460,
+		"id": 131,
+		"level": 1301,
+		"initCostSoul": 222825
+	},
+	{
+		"incCostSoul": 337.5,
+		"incCostGold": 476.6,
+		"initCostGold": 313190,
+		"id": 132,
+		"level": 1311,
+		"initCostSoul": 226175
+	},
+	{
+		"incCostSoul": 340,
+		"incCostGold": 480.2,
+		"initCostGold": 317956,
+		"id": 133,
+		"level": 1321,
+		"initCostSoul": 229550
+	},
+	{
+		"incCostSoul": 342.5,
+		"incCostGold": 483.8,
+		"initCostGold": 322758,
+		"id": 134,
+		"level": 1331,
+		"initCostSoul": 232950
+	},
+	{
+		"incCostSoul": 345,
+		"incCostGold": 487.4,
+		"initCostGold": 327596,
+		"id": 135,
+		"level": 1341,
+		"initCostSoul": 236375
+	},
+	{
+		"incCostSoul": 347.5,
+		"incCostGold": 491,
+		"initCostGold": 332470,
+		"id": 136,
+		"level": 1351,
+		"initCostSoul": 239825
+	},
+	{
+		"incCostSoul": 350,
+		"incCostGold": 494.6,
+		"initCostGold": 337380,
+		"id": 137,
+		"level": 1361,
+		"initCostSoul": 243300
+	},
+	{
+		"incCostSoul": 352.5,
+		"incCostGold": 498.2,
+		"initCostGold": 342326,
+		"id": 138,
+		"level": 1371,
+		"initCostSoul": 246800
+	},
+	{
+		"incCostSoul": 355,
+		"incCostGold": 501.8,
+		"initCostGold": 347308,
+		"id": 139,
+		"level": 1381,
+		"initCostSoul": 250325
+	},
+	{
+		"incCostSoul": 357.5,
+		"incCostGold": 505.4,
+		"initCostGold": 352326,
+		"id": 140,
+		"level": 1391,
+		"initCostSoul": 253875
+	},
+	{
+		"incCostSoul": 360,
+		"incCostGold": 509,
+		"initCostGold": 357380,
+		"id": 141,
+		"level": 1401,
+		"initCostSoul": 257450
+	},
+	{
+		"incCostSoul": 362.5,
+		"incCostGold": 512.6,
+		"initCostGold": 362470,
+		"id": 142,
+		"level": 1411,
+		"initCostSoul": 261050
+	},
+	{
+		"incCostSoul": 365,
+		"incCostGold": 516.2,
+		"initCostGold": 367596,
+		"id": 143,
+		"level": 1421,
+		"initCostSoul": 264675
+	},
+	{
+		"incCostSoul": 367.5,
+		"incCostGold": 519.8,
+		"initCostGold": 372758,
+		"id": 144,
+		"level": 1431,
+		"initCostSoul": 268325
+	},
+	{
+		"incCostSoul": 370,
+		"incCostGold": 523.4,
+		"initCostGold": 377956,
+		"id": 145,
+		"level": 1441,
+		"initCostSoul": 272000
+	},
+	{
+		"incCostSoul": 372.5,
+		"incCostGold": 527,
+		"initCostGold": 383190,
+		"id": 146,
+		"level": 1451,
+		"initCostSoul": 275700
+	},
+	{
+		"incCostSoul": 375,
+		"incCostGold": 530.6,
+		"initCostGold": 388460,
+		"id": 147,
+		"level": 1461,
+		"initCostSoul": 279425
+	},
+	{
+		"incCostSoul": 377.5,
+		"incCostGold": 534.2,
+		"initCostGold": 393766,
+		"id": 148,
+		"level": 1471,
+		"initCostSoul": 283175
+	},
+	{
+		"incCostSoul": 380,
+		"incCostGold": 537.8,
+		"initCostGold": 399108,
+		"id": 149,
+		"level": 1481,
+		"initCostSoul": 286950
+	},
+	{
+		"incCostSoul": 382.5,
+		"incCostGold": 541.4,
+		"initCostGold": 404486,
+		"id": 150,
+		"level": 1491,
+		"initCostSoul": 290750
+	},
+	{
+		"incCostSoul": 385,
+		"incCostGold": 545,
+		"initCostGold": 409900,
+		"id": 151,
+		"level": 1501,
+		"initCostSoul": 294575
+	},
+	{
+		"incCostSoul": 387.5,
+		"incCostGold": 548.6,
+		"initCostGold": 415350,
+		"id": 152,
+		"level": 1511,
+		"initCostSoul": 298425
+	},
+	{
+		"incCostSoul": 390,
+		"incCostGold": 552.2,
+		"initCostGold": 420836,
+		"id": 153,
+		"level": 1521,
+		"initCostSoul": 302300
+	},
+	{
+		"incCostSoul": 392.5,
+		"incCostGold": 555.8,
+		"initCostGold": 426358,
+		"id": 154,
+		"level": 1531,
+		"initCostSoul": 306200
+	},
+	{
+		"incCostSoul": 395,
+		"incCostGold": 559.4,
+		"initCostGold": 431916,
+		"id": 155,
+		"level": 1541,
+		"initCostSoul": 310125
+	},
+	{
+		"incCostSoul": 397.5,
+		"incCostGold": 563,
+		"initCostGold": 437510,
+		"id": 156,
+		"level": 1551,
+		"initCostSoul": 314075
+	},
+	{
+		"incCostSoul": 400,
+		"incCostGold": 566.6,
+		"initCostGold": 443140,
+		"id": 157,
+		"level": 1561,
+		"initCostSoul": 318050
+	},
+	{
+		"incCostSoul": 402.5,
+		"incCostGold": 570.2,
+		"initCostGold": 448806,
+		"id": 158,
+		"level": 1571,
+		"initCostSoul": 322050
+	},
+	{
+		"incCostSoul": 405,
+		"incCostGold": 573.8,
+		"initCostGold": 454508,
+		"id": 159,
+		"level": 1581,
+		"initCostSoul": 326075
+	},
+	{
+		"incCostSoul": 407.5,
+		"incCostGold": 577.4,
+		"initCostGold": 460246,
+		"id": 160,
+		"level": 1591,
+		"initCostSoul": 330125
+	},
+	{
+		"incCostSoul": 410,
+		"incCostGold": 581,
+		"initCostGold": 466020,
+		"id": 161,
+		"level": 1601,
+		"initCostSoul": 334200
+	},
+	{
+		"incCostSoul": 412.5,
+		"incCostGold": 584.6,
+		"initCostGold": 471830,
+		"id": 162,
+		"level": 1611,
+		"initCostSoul": 338300
+	},
+	{
+		"incCostSoul": 415,
+		"incCostGold": 588.2,
+		"initCostGold": 477676,
+		"id": 163,
+		"level": 1621,
+		"initCostSoul": 342425
+	},
+	{
+		"incCostSoul": 417.5,
+		"incCostGold": 591.8,
+		"initCostGold": 483558,
+		"id": 164,
+		"level": 1631,
+		"initCostSoul": 346575
+	},
+	{
+		"incCostSoul": 420,
+		"incCostGold": 595.4,
+		"initCostGold": 489476,
+		"id": 165,
+		"level": 1641,
+		"initCostSoul": 350750
+	},
+	{
+		"incCostSoul": 422.5,
+		"incCostGold": 599,
+		"initCostGold": 495430,
+		"id": 166,
+		"level": 1651,
+		"initCostSoul": 354950
+	},
+	{
+		"incCostSoul": 425,
+		"incCostGold": 602.6,
+		"initCostGold": 501420,
+		"id": 167,
+		"level": 1661,
+		"initCostSoul": 359175
+	},
+	{
+		"incCostSoul": 427.5,
+		"incCostGold": 606.2,
+		"initCostGold": 507446,
+		"id": 168,
+		"level": 1671,
+		"initCostSoul": 363425
+	},
+	{
+		"incCostSoul": 430,
+		"incCostGold": 609.8,
+		"initCostGold": 513508,
+		"id": 169,
+		"level": 1681,
+		"initCostSoul": 367700
+	},
+	{
+		"incCostSoul": 432.5,
+		"incCostGold": 613.4,
+		"initCostGold": 519606,
+		"id": 170,
+		"level": 1691,
+		"initCostSoul": 372000
+	},
+	{
+		"incCostSoul": 435,
+		"incCostGold": 617,
+		"initCostGold": 525740,
+		"id": 171,
+		"level": 1701,
+		"initCostSoul": 376325
+	},
+	{
+		"incCostSoul": 437.5,
+		"incCostGold": 620.6,
+		"initCostGold": 531910,
+		"id": 172,
+		"level": 1711,
+		"initCostSoul": 380675
+	},
+	{
+		"incCostSoul": 440,
+		"incCostGold": 624.2,
+		"initCostGold": 538116,
+		"id": 173,
+		"level": 1721,
+		"initCostSoul": 385050
+	},
+	{
+		"incCostSoul": 442.5,
+		"incCostGold": 627.8,
+		"initCostGold": 544358,
+		"id": 174,
+		"level": 1731,
+		"initCostSoul": 389450
+	},
+	{
+		"incCostSoul": 445,
+		"incCostGold": 631.4,
+		"initCostGold": 550636,
+		"id": 175,
+		"level": 1741,
+		"initCostSoul": 393875
+	},
+	{
+		"incCostSoul": 447.5,
+		"incCostGold": 635,
+		"initCostGold": 556950,
+		"id": 176,
+		"level": 1751,
+		"initCostSoul": 398325
+	},
+	{
+		"incCostSoul": 450,
+		"incCostGold": 638.6,
+		"initCostGold": 563300,
+		"id": 177,
+		"level": 1761,
+		"initCostSoul": 402800
+	},
+	{
+		"incCostSoul": 452.5,
+		"incCostGold": 642.2,
+		"initCostGold": 569686,
+		"id": 178,
+		"level": 1771,
+		"initCostSoul": 407300
+	},
+	{
+		"incCostSoul": 455,
+		"incCostGold": 645.8,
+		"initCostGold": 576108,
+		"id": 179,
+		"level": 1781,
+		"initCostSoul": 411825
+	},
+	{
+		"incCostSoul": 457.5,
+		"incCostGold": 649.4,
+		"initCostGold": 582566,
+		"id": 180,
+		"level": 1791,
+		"initCostSoul": 416375
+	},
+	{
+		"incCostSoul": 460,
+		"incCostGold": 653,
+		"initCostGold": 589060,
+		"id": 181,
+		"level": 1801,
+		"initCostSoul": 420950
+	},
+	{
+		"incCostSoul": 462.5,
+		"incCostGold": 656.6,
+		"initCostGold": 595590,
+		"id": 182,
+		"level": 1811,
+		"initCostSoul": 425550
+	},
+	{
+		"incCostSoul": 465,
+		"incCostGold": 660.2,
+		"initCostGold": 602156,
+		"id": 183,
+		"level": 1821,
+		"initCostSoul": 430175
+	},
+	{
+		"incCostSoul": 467.5,
+		"incCostGold": 663.8,
+		"initCostGold": 608758,
+		"id": 184,
+		"level": 1831,
+		"initCostSoul": 434825
+	},
+	{
+		"incCostSoul": 470,
+		"incCostGold": 667.4,
+		"initCostGold": 615396,
+		"id": 185,
+		"level": 1841,
+		"initCostSoul": 439500
+	},
+	{
+		"incCostSoul": 472.5,
+		"incCostGold": 671,
+		"initCostGold": 622070,
+		"id": 186,
+		"level": 1851,
+		"initCostSoul": 444200
+	},
+	{
+		"incCostSoul": 475,
+		"incCostGold": 674.6,
+		"initCostGold": 628780,
+		"id": 187,
+		"level": 1861,
+		"initCostSoul": 448925
+	},
+	{
+		"incCostSoul": 477.5,
+		"incCostGold": 678.2,
+		"initCostGold": 635526,
+		"id": 188,
+		"level": 1871,
+		"initCostSoul": 453675
+	},
+	{
+		"incCostSoul": 480,
+		"incCostGold": 681.8,
+		"initCostGold": 642308,
+		"id": 189,
+		"level": 1881,
+		"initCostSoul": 458450
+	},
+	{
+		"incCostSoul": 482.5,
+		"incCostGold": 685.4,
+		"initCostGold": 649126,
+		"id": 190,
+		"level": 1891,
+		"initCostSoul": 463250
+	},
+	{
+		"incCostSoul": 485,
+		"incCostGold": 689,
+		"initCostGold": 655980,
+		"id": 191,
+		"level": 1901,
+		"initCostSoul": 468075
+	},
+	{
+		"incCostSoul": 487.5,
+		"incCostGold": 692.6,
+		"initCostGold": 662870,
+		"id": 192,
+		"level": 1911,
+		"initCostSoul": 472925
+	},
+	{
+		"incCostSoul": 490,
+		"incCostGold": 696.2,
+		"initCostGold": 669796,
+		"id": 193,
+		"level": 1921,
+		"initCostSoul": 477800
+	},
+	{
+		"incCostSoul": 492.5,
+		"incCostGold": 699.8,
+		"initCostGold": 676758,
+		"id": 194,
+		"level": 1931,
+		"initCostSoul": 482700
+	},
+	{
+		"incCostSoul": 495,
+		"incCostGold": 703.4,
+		"initCostGold": 683756,
+		"id": 195,
+		"level": 1941,
+		"initCostSoul": 487625
+	},
+	{
+		"incCostSoul": 497.5,
+		"incCostGold": 707,
+		"initCostGold": 690790,
+		"id": 196,
+		"level": 1951,
+		"initCostSoul": 492575
+	},
+	{
+		"incCostSoul": 500,
+		"incCostGold": 710.6,
+		"initCostGold": 697860,
+		"id": 197,
+		"level": 1961,
+		"initCostSoul": 497550
+	},
+	{
+		"incCostSoul": 502.5,
+		"incCostGold": 714.2,
+		"initCostGold": 704966,
+		"id": 198,
+		"level": 1971,
+		"initCostSoul": 502550
+	},
+	{
+		"incCostSoul": 505,
+		"incCostGold": 717.8,
+		"initCostGold": 712108,
+		"id": 199,
+		"level": 1981,
+		"initCostSoul": 507575
+	},
+	{
+		"incCostSoul": 507.5,
+		"incCostGold": 721.4,
+		"initCostGold": 719286,
+		"id": 200,
+		"level": 1991,
+		"initCostSoul": 512625
+	},
+	{
+		"incCostSoul": 510,
+		"incCostGold": 725,
+		"initCostGold": 726500,
+		"id": 201,
+		"level": 2001,
+		"initCostSoul": 517700
+	},
+	{
+		"incCostSoul": 512.5,
+		"incCostGold": 728.6,
+		"initCostGold": 733750,
+		"id": 202,
+		"level": 2011,
+		"initCostSoul": 522800
+	},
+	{
+		"incCostSoul": 515,
+		"incCostGold": 732.2,
+		"initCostGold": 741036,
+		"id": 203,
+		"level": 2021,
+		"initCostSoul": 527925
+	},
+	{
+		"incCostSoul": 517.5,
+		"incCostGold": 735.8,
+		"initCostGold": 748358,
+		"id": 204,
+		"level": 2031,
+		"initCostSoul": 533075
+	},
+	{
+		"incCostSoul": 520,
+		"incCostGold": 739.4,
+		"initCostGold": 755716,
+		"id": 205,
+		"level": 2041,
+		"initCostSoul": 538250
+	},
+	{
+		"incCostSoul": 522.5,
+		"incCostGold": 743,
+		"initCostGold": 763110,
+		"id": 206,
+		"level": 2051,
+		"initCostSoul": 543450
+	},
+	{
+		"incCostSoul": 525,
+		"incCostGold": 746.6,
+		"initCostGold": 770540,
+		"id": 207,
+		"level": 2061,
+		"initCostSoul": 548675
+	},
+	{
+		"incCostSoul": 527.5,
+		"incCostGold": 750.2,
+		"initCostGold": 778006,
+		"id": 208,
+		"level": 2071,
+		"initCostSoul": 553925
+	},
+	{
+		"incCostSoul": 530,
+		"incCostGold": 753.8,
+		"initCostGold": 785508,
+		"id": 209,
+		"level": 2081,
+		"initCostSoul": 559200
+	},
+	{
+		"incCostSoul": 532.5,
+		"incCostGold": 757.4,
+		"initCostGold": 793046,
+		"id": 210,
+		"level": 2091,
+		"initCostSoul": 564500
+	},
+	{
+		"incCostSoul": 535,
+		"incCostGold": 761,
+		"initCostGold": 800620,
+		"id": 211,
+		"level": 2101,
+		"initCostSoul": 569825
+	},
+	{
+		"incCostSoul": 537.5,
+		"incCostGold": 764.6,
+		"initCostGold": 808230,
+		"id": 212,
+		"level": 2111,
+		"initCostSoul": 575175
+	},
+	{
+		"incCostSoul": 540,
+		"incCostGold": 768.2,
+		"initCostGold": 815876,
+		"id": 213,
+		"level": 2121,
+		"initCostSoul": 580550
+	},
+	{
+		"incCostSoul": 542.5,
+		"incCostGold": 771.8,
+		"initCostGold": 823558,
+		"id": 214,
+		"level": 2131,
+		"initCostSoul": 585950
+	},
+	{
+		"incCostSoul": 545,
+		"incCostGold": 775.4,
+		"initCostGold": 831276,
+		"id": 215,
+		"level": 2141,
+		"initCostSoul": 591375
+	},
+	{
+		"incCostSoul": 547.5,
+		"incCostGold": 779,
+		"initCostGold": 839030,
+		"id": 216,
+		"level": 2151,
+		"initCostSoul": 596825
+	},
+	{
+		"incCostSoul": 550,
+		"incCostGold": 782.6,
+		"initCostGold": 846820,
+		"id": 217,
+		"level": 2161,
+		"initCostSoul": 602300
+	},
+	{
+		"incCostSoul": 552.5,
+		"incCostGold": 786.2,
+		"initCostGold": 854646,
+		"id": 218,
+		"level": 2171,
+		"initCostSoul": 607800
+	},
+	{
+		"incCostSoul": 555,
+		"incCostGold": 789.8,
+		"initCostGold": 862508,
+		"id": 219,
+		"level": 2181,
+		"initCostSoul": 613325
+	},
+	{
+		"incCostSoul": 557.5,
+		"incCostGold": 793.4,
+		"initCostGold": 870406,
+		"id": 220,
+		"level": 2191,
+		"initCostSoul": 618875
+	},
+	{
+		"incCostSoul": 560,
+		"incCostGold": 797,
+		"initCostGold": 878340,
+		"id": 221,
+		"level": 2201,
+		"initCostSoul": 624450
+	},
+	{
+		"incCostSoul": 562.5,
+		"incCostGold": 800.6,
+		"initCostGold": 886310,
+		"id": 222,
+		"level": 2211,
+		"initCostSoul": 630050
+	},
+	{
+		"incCostSoul": 565,
+		"incCostGold": 804.2,
+		"initCostGold": 894316,
+		"id": 223,
+		"level": 2221,
+		"initCostSoul": 635675
+	},
+	{
+		"incCostSoul": 567.5,
+		"incCostGold": 807.8,
+		"initCostGold": 902358,
+		"id": 224,
+		"level": 2231,
+		"initCostSoul": 641325
+	},
+	{
+		"incCostSoul": 570,
+		"incCostGold": 811.4,
+		"initCostGold": 910436,
+		"id": 225,
+		"level": 2241,
+		"initCostSoul": 647000
+	},
+	{
+		"incCostSoul": 572.5,
+		"incCostGold": 815,
+		"initCostGold": 918550,
+		"id": 226,
+		"level": 2251,
+		"initCostSoul": 652700
+	},
+	{
+		"incCostSoul": 575,
+		"incCostGold": 818.6,
+		"initCostGold": 926700,
+		"id": 227,
+		"level": 2261,
+		"initCostSoul": 658425
+	},
+	{
+		"incCostSoul": 577.5,
+		"incCostGold": 822.2,
+		"initCostGold": 934886,
+		"id": 228,
+		"level": 2271,
+		"initCostSoul": 664175
+	},
+	{
+		"incCostSoul": 580,
+		"incCostGold": 825.8,
+		"initCostGold": 943108,
+		"id": 229,
+		"level": 2281,
+		"initCostSoul": 669950
+	},
+	{
+		"incCostSoul": 582.5,
+		"incCostGold": 829.4,
+		"initCostGold": 951366,
+		"id": 230,
+		"level": 2291,
+		"initCostSoul": 675750
+	},
+	{
+		"incCostSoul": 585,
+		"incCostGold": 833,
+		"initCostGold": 959660,
+		"id": 231,
+		"level": 2301,
+		"initCostSoul": 681575
+	},
+	{
+		"incCostSoul": 587.5,
+		"incCostGold": 836.6,
+		"initCostGold": 967990,
+		"id": 232,
+		"level": 2311,
+		"initCostSoul": 687425
+	},
+	{
+		"incCostSoul": 590,
+		"incCostGold": 840.2,
+		"initCostGold": 976356,
+		"id": 233,
+		"level": 2321,
+		"initCostSoul": 693300
+	},
+	{
+		"incCostSoul": 592.5,
+		"incCostGold": 843.8,
+		"initCostGold": 984758,
+		"id": 234,
+		"level": 2331,
+		"initCostSoul": 699200
+	},
+	{
+		"incCostSoul": 595,
+		"incCostGold": 847.4,
+		"initCostGold": 993196,
+		"id": 235,
+		"level": 2341,
+		"initCostSoul": 705125
+	},
+	{
+		"incCostSoul": 597.5,
+		"incCostGold": 851,
+		"initCostGold": 1001670,
+		"id": 236,
+		"level": 2351,
+		"initCostSoul": 711075
+	},
+	{
+		"incCostSoul": 600,
+		"incCostGold": 854.6,
+		"initCostGold": 1010180,
+		"id": 237,
+		"level": 2361,
+		"initCostSoul": 717050
+	},
+	{
+		"incCostSoul": 602.5,
+		"incCostGold": 858.2,
+		"initCostGold": 1018726,
+		"id": 238,
+		"level": 2371,
+		"initCostSoul": 723050
+	},
+	{
+		"incCostSoul": 605,
+		"incCostGold": 861.8,
+		"initCostGold": 1027308,
+		"id": 239,
+		"level": 2381,
+		"initCostSoul": 729075
+	},
+	{
+		"incCostSoul": 607.5,
+		"incCostGold": 865.4,
+		"initCostGold": 1035926,
+		"id": 240,
+		"level": 2391,
+		"initCostSoul": 735125
+	},
+	{
+		"incCostSoul": 610,
+		"incCostGold": 869,
+		"initCostGold": 1044580,
+		"id": 241,
+		"level": 2401,
+		"initCostSoul": 741200
+	},
+	{
+		"incCostSoul": 612.5,
+		"incCostGold": 872.6,
+		"initCostGold": 1053270,
+		"id": 242,
+		"level": 2411,
+		"initCostSoul": 747300
+	},
+	{
+		"incCostSoul": 615,
+		"incCostGold": 876.2,
+		"initCostGold": 1061996,
+		"id": 243,
+		"level": 2421,
+		"initCostSoul": 753425
+	},
+	{
+		"incCostSoul": 617.5,
+		"incCostGold": 879.8,
+		"initCostGold": 1070758,
+		"id": 244,
+		"level": 2431,
+		"initCostSoul": 759575
+	},
+	{
+		"incCostSoul": 620,
+		"incCostGold": 883.4,
+		"initCostGold": 1079556,
+		"id": 245,
+		"level": 2441,
+		"initCostSoul": 765750
+	},
+	{
+		"incCostSoul": 622.5,
+		"incCostGold": 887,
+		"initCostGold": 1088390,
+		"id": 246,
+		"level": 2451,
+		"initCostSoul": 771950
+	},
+	{
+		"incCostSoul": 625,
+		"incCostGold": 890.6,
+		"initCostGold": 1097260,
+		"id": 247,
+		"level": 2461,
+		"initCostSoul": 778175
+	},
+	{
+		"incCostSoul": 627.5,
+		"incCostGold": 894.2,
+		"initCostGold": 1106166,
+		"id": 248,
+		"level": 2471,
+		"initCostSoul": 784425
+	},
+	{
+		"incCostSoul": 630,
+		"incCostGold": 897.8,
+		"initCostGold": 1115108,
+		"id": 249,
+		"level": 2481,
+		"initCostSoul": 790700
+	},
+	{
+		"incCostSoul": 632.5,
+		"incCostGold": 901.4,
+		"initCostGold": 1124086,
+		"id": 250,
+		"level": 2491,
+		"initCostSoul": 797000
+	},
+	{
+		"incCostSoul": 635,
+		"incCostGold": 905,
+		"initCostGold": 1133100,
+		"id": 251,
+		"level": 2501,
+		"initCostSoul": 803325
+	},
+	{
+		"incCostSoul": 637.5,
+		"incCostGold": 908.6,
+		"initCostGold": 1142150,
+		"id": 252,
+		"level": 2511,
+		"initCostSoul": 809675
+	},
+	{
+		"incCostSoul": 640,
+		"incCostGold": 912.2,
+		"initCostGold": 1151236,
+		"id": 253,
+		"level": 2521,
+		"initCostSoul": 816050
+	},
+	{
+		"incCostSoul": 642.5,
+		"incCostGold": 915.8,
+		"initCostGold": 1160358,
+		"id": 254,
+		"level": 2531,
+		"initCostSoul": 822450
+	},
+	{
+		"incCostSoul": 645,
+		"incCostGold": 919.4,
+		"initCostGold": 1169516,
+		"id": 255,
+		"level": 2541,
+		"initCostSoul": 828875
+	},
+	{
+		"incCostSoul": 647.5,
+		"incCostGold": 923,
+		"initCostGold": 1178710,
+		"id": 256,
+		"level": 2551,
+		"initCostSoul": 835325
+	},
+	{
+		"incCostSoul": 650,
+		"incCostGold": 926.6,
+		"initCostGold": 1187940,
+		"id": 257,
+		"level": 2561,
+		"initCostSoul": 841800
+	},
+	{
+		"incCostSoul": 652.5,
+		"incCostGold": 930.2,
+		"initCostGold": 1197206,
+		"id": 258,
+		"level": 2571,
+		"initCostSoul": 848300
+	},
+	{
+		"incCostSoul": 655,
+		"incCostGold": 933.8,
+		"initCostGold": 1206508,
+		"id": 259,
+		"level": 2581,
+		"initCostSoul": 854825
+	},
+	{
+		"incCostSoul": 657.5,
+		"incCostGold": 937.4,
+		"initCostGold": 1215846,
+		"id": 260,
+		"level": 2591,
+		"initCostSoul": 861375
+	},
+	{
+		"incCostSoul": 660,
+		"incCostGold": 941,
+		"initCostGold": 1225220,
+		"id": 261,
+		"level": 2601,
+		"initCostSoul": 867950
+	},
+	{
+		"incCostSoul": 662.5,
+		"incCostGold": 944.6,
+		"initCostGold": 1234630,
+		"id": 262,
+		"level": 2611,
+		"initCostSoul": 874550
+	},
+	{
+		"incCostSoul": 665,
+		"incCostGold": 948.2,
+		"initCostGold": 1244076,
+		"id": 263,
+		"level": 2621,
+		"initCostSoul": 881175
+	},
+	{
+		"incCostSoul": 667.5,
+		"incCostGold": 951.8,
+		"initCostGold": 1253558,
+		"id": 264,
+		"level": 2631,
+		"initCostSoul": 887825
+	},
+	{
+		"incCostSoul": 670,
+		"incCostGold": 955.4,
+		"initCostGold": 1263076,
+		"id": 265,
+		"level": 2641,
+		"initCostSoul": 894500
+	},
+	{
+		"incCostSoul": 672.5,
+		"incCostGold": 959,
+		"initCostGold": 1272630,
+		"id": 266,
+		"level": 2651,
+		"initCostSoul": 901200
+	},
+	{
+		"incCostSoul": 675,
+		"incCostGold": 962.6,
+		"initCostGold": 1282220,
+		"id": 267,
+		"level": 2661,
+		"initCostSoul": 907925
+	},
+	{
+		"incCostSoul": 677.5,
+		"incCostGold": 966.2,
+		"initCostGold": 1291846,
+		"id": 268,
+		"level": 2671,
+		"initCostSoul": 914675
+	},
+	{
+		"incCostSoul": 680,
+		"incCostGold": 969.8,
+		"initCostGold": 1301508,
+		"id": 269,
+		"level": 2681,
+		"initCostSoul": 921450
+	},
+	{
+		"incCostSoul": 682.5,
+		"incCostGold": 973.4,
+		"initCostGold": 1311206,
+		"id": 270,
+		"level": 2691,
+		"initCostSoul": 928250
+	},
+	{
+		"incCostSoul": 685,
+		"incCostGold": 977,
+		"initCostGold": 1320940,
+		"id": 271,
+		"level": 2701,
+		"initCostSoul": 935075
+	},
+	{
+		"incCostSoul": 687.5,
+		"incCostGold": 980.6,
+		"initCostGold": 1330710,
+		"id": 272,
+		"level": 2711,
+		"initCostSoul": 941925
+	},
+	{
+		"incCostSoul": 690,
+		"incCostGold": 984.2,
+		"initCostGold": 1340516,
+		"id": 273,
+		"level": 2721,
+		"initCostSoul": 948800
+	},
+	{
+		"incCostSoul": 692.5,
+		"incCostGold": 987.8,
+		"initCostGold": 1350358,
+		"id": 274,
+		"level": 2731,
+		"initCostSoul": 955700
+	},
+	{
+		"incCostSoul": 695,
+		"incCostGold": 991.4,
+		"initCostGold": 1360236,
+		"id": 275,
+		"level": 2741,
+		"initCostSoul": 962625
+	},
+	{
+		"incCostSoul": 697.5,
+		"incCostGold": 995,
+		"initCostGold": 1370150,
+		"id": 276,
+		"level": 2751,
+		"initCostSoul": 969575
+	},
+	{
+		"incCostSoul": 700,
+		"incCostGold": 998.6,
+		"initCostGold": 1380100,
+		"id": 277,
+		"level": 2761,
+		"initCostSoul": 976550
+	},
+	{
+		"incCostSoul": 702.5,
+		"incCostGold": 1002.2,
+		"initCostGold": 1390086,
+		"id": 278,
+		"level": 2771,
+		"initCostSoul": 983550
+	},
+	{
+		"incCostSoul": 705,
+		"incCostGold": 1005.8,
+		"initCostGold": 1400108,
+		"id": 279,
+		"level": 2781,
+		"initCostSoul": 990575
+	},
+	{
+		"incCostSoul": 707.5,
+		"incCostGold": 1009.4,
+		"initCostGold": 1410166,
+		"id": 280,
+		"level": 2791,
+		"initCostSoul": 997625
+	},
+	{
+		"incCostSoul": 710,
+		"incCostGold": 1013,
+		"initCostGold": 1420260,
+		"id": 281,
+		"level": 2801,
+		"initCostSoul": 1004700
+	},
+	{
+		"incCostSoul": 712.5,
+		"incCostGold": 1016.6,
+		"initCostGold": 1430390,
+		"id": 282,
+		"level": 2811,
+		"initCostSoul": 1011800
+	},
+	{
+		"incCostSoul": 715,
+		"incCostGold": 1020.2,
+		"initCostGold": 1440556,
+		"id": 283,
+		"level": 2821,
+		"initCostSoul": 1018925
+	},
+	{
+		"incCostSoul": 717.5,
+		"incCostGold": 1023.8,
+		"initCostGold": 1450758,
+		"id": 284,
+		"level": 2831,
+		"initCostSoul": 1026075
+	},
+	{
+		"incCostSoul": 720,
+		"incCostGold": 1027.4,
+		"initCostGold": 1460996,
+		"id": 285,
+		"level": 2841,
+		"initCostSoul": 1033250
+	},
+	{
+		"incCostSoul": 722.5,
+		"incCostGold": 1031,
+		"initCostGold": 1471270,
+		"id": 286,
+		"level": 2851,
+		"initCostSoul": 1040450
+	},
+	{
+		"incCostSoul": 725,
+		"incCostGold": 1034.6,
+		"initCostGold": 1481580,
+		"id": 287,
+		"level": 2861,
+		"initCostSoul": 1047675
+	},
+	{
+		"incCostSoul": 727.5,
+		"incCostGold": 1038.2,
+		"initCostGold": 1491926,
+		"id": 288,
+		"level": 2871,
+		"initCostSoul": 1054925
+	},
+	{
+		"incCostSoul": 730,
+		"incCostGold": 1041.8,
+		"initCostGold": 1502308,
+		"id": 289,
+		"level": 2881,
+		"initCostSoul": 1062200
+	},
+	{
+		"incCostSoul": 732.5,
+		"incCostGold": 1045.4,
+		"initCostGold": 1512726,
+		"id": 290,
+		"level": 2891,
+		"initCostSoul": 1069500
+	},
+	{
+		"incCostSoul": 735,
+		"incCostGold": 1049,
+		"initCostGold": 1523180,
+		"id": 291,
+		"level": 2901,
+		"initCostSoul": 1076825
+	},
+	{
+		"incCostSoul": 737.5,
+		"incCostGold": 1052.6,
+		"initCostGold": 1533670,
+		"id": 292,
+		"level": 2911,
+		"initCostSoul": 1084175
+	},
+	{
+		"incCostSoul": 740,
+		"incCostGold": 1056.2,
+		"initCostGold": 1544196,
+		"id": 293,
+		"level": 2921,
+		"initCostSoul": 1091550
+	},
+	{
+		"incCostSoul": 742.5,
+		"incCostGold": 1059.8,
+		"initCostGold": 1554758,
+		"id": 294,
+		"level": 2931,
+		"initCostSoul": 1098950
+	},
+	{
+		"incCostSoul": 745,
+		"incCostGold": 1063.4,
+		"initCostGold": 1565356,
+		"id": 295,
+		"level": 2941,
+		"initCostSoul": 1106375
+	},
+	{
+		"incCostSoul": 747.5,
+		"incCostGold": 1067,
+		"initCostGold": 1575990,
+		"id": 296,
+		"level": 2951,
+		"initCostSoul": 1113825
+	},
+	{
+		"incCostSoul": 750,
+		"incCostGold": 1070.6,
+		"initCostGold": 1586660,
+		"id": 297,
+		"level": 2961,
+		"initCostSoul": 1121300
+	},
+	{
+		"incCostSoul": 752.5,
+		"incCostGold": 1074.2,
+		"initCostGold": 1597366,
+		"id": 298,
+		"level": 2971,
+		"initCostSoul": 1128800
+	},
+	{
+		"incCostSoul": 755,
+		"incCostGold": 1077.8,
+		"initCostGold": 1608108,
+		"id": 299,
+		"level": 2981,
+		"initCostSoul": 1136325
+	},
+	{
+		"incCostSoul": 757.5,
+		"incCostGold": 1081.4,
+		"initCostGold": 1618886,
+		"id": 300,
+		"level": 2991,
+		"initCostSoul": 1143875
+	},
+	{
+		"incCostSoul": 760,
+		"incCostGold": 1085,
+		"initCostGold": 1629700,
+		"id": 301,
+		"level": 3001,
+		"initCostSoul": 1151450
+	},
+	{
+		"incCostSoul": 762.5,
+		"incCostGold": 1088.6,
+		"initCostGold": 1640550,
+		"id": 302,
+		"level": 3011,
+		"initCostSoul": 1159050
+	},
+	{
+		"incCostSoul": 765,
+		"incCostGold": 1092.2,
+		"initCostGold": 1651436,
+		"id": 303,
+		"level": 3021,
+		"initCostSoul": 1166675
+	},
+	{
+		"incCostSoul": 767.5,
+		"incCostGold": 1095.8,
+		"initCostGold": 1662358,
+		"id": 304,
+		"level": 3031,
+		"initCostSoul": 1174325
+	},
+	{
+		"incCostSoul": 770,
+		"incCostGold": 1099.4,
+		"initCostGold": 1673316,
+		"id": 305,
+		"level": 3041,
+		"initCostSoul": 1182000
+	},
+	{
+		"incCostSoul": 772.5,
+		"incCostGold": 1103,
+		"initCostGold": 1684310,
+		"id": 306,
+		"level": 3051,
+		"initCostSoul": 1189700
+	},
+	{
+		"incCostSoul": 775,
+		"incCostGold": 1106.6,
+		"initCostGold": 1695340,
+		"id": 307,
+		"level": 3061,
+		"initCostSoul": 1197425
+	},
+	{
+		"incCostSoul": 777.5,
+		"incCostGold": 1110.2,
+		"initCostGold": 1706406,
+		"id": 308,
+		"level": 3071,
+		"initCostSoul": 1205175
+	},
+	{
+		"incCostSoul": 780,
+		"incCostGold": 1113.8,
+		"initCostGold": 1717508,
+		"id": 309,
+		"level": 3081,
+		"initCostSoul": 1212950
+	},
+	{
+		"incCostSoul": 782.5,
+		"incCostGold": 1117.4,
+		"initCostGold": 1728646,
+		"id": 310,
+		"level": 3091,
+		"initCostSoul": 1220750
+	},
+	{
+		"incCostSoul": 785,
+		"incCostGold": 1121,
+		"initCostGold": 1739820,
+		"id": 311,
+		"level": 3101,
+		"initCostSoul": 1228575
+	},
+	{
+		"incCostSoul": 787.5,
+		"incCostGold": 1124.6,
+		"initCostGold": 1751030,
+		"id": 312,
+		"level": 3111,
+		"initCostSoul": 1236425
+	},
+	{
+		"incCostSoul": 790,
+		"incCostGold": 1128.2,
+		"initCostGold": 1762276,
+		"id": 313,
+		"level": 3121,
+		"initCostSoul": 1244300
+	},
+	{
+		"incCostSoul": 792.5,
+		"incCostGold": 1131.8,
+		"initCostGold": 1773558,
+		"id": 314,
+		"level": 3131,
+		"initCostSoul": 1252200
+	},
+	{
+		"incCostSoul": 795,
+		"incCostGold": 1135.4,
+		"initCostGold": 1784876,
+		"id": 315,
+		"level": 3141,
+		"initCostSoul": 1260125
+	},
+	{
+		"incCostSoul": 797.5,
+		"incCostGold": 1139,
+		"initCostGold": 1796230,
+		"id": 316,
+		"level": 3151,
+		"initCostSoul": 1268075
+	},
+	{
+		"incCostSoul": 800,
+		"incCostGold": 1142.6,
+		"initCostGold": 1807620,
+		"id": 317,
+		"level": 3161,
+		"initCostSoul": 1276050
+	},
+	{
+		"incCostSoul": 802.5,
+		"incCostGold": 1146.2,
+		"initCostGold": 1819046,
+		"id": 318,
+		"level": 3171,
+		"initCostSoul": 1284050
+	},
+	{
+		"incCostSoul": 805,
+		"incCostGold": 1149.8,
+		"initCostGold": 1830508,
+		"id": 319,
+		"level": 3181,
+		"initCostSoul": 1292075
+	},
+	{
+		"incCostSoul": 807.5,
+		"incCostGold": 1153.4,
+		"initCostGold": 1842006,
+		"id": 320,
+		"level": 3191,
+		"initCostSoul": 1300125
+	},
+	{
+		"incCostSoul": 810,
+		"incCostGold": 1157,
+		"initCostGold": 1853540,
+		"id": 321,
+		"level": 3201,
+		"initCostSoul": 1308200
+	},
+	{
+		"incCostSoul": 812.5,
+		"incCostGold": 1160.6,
+		"initCostGold": 1865110,
+		"id": 322,
+		"level": 3211,
+		"initCostSoul": 1316300
+	},
+	{
+		"incCostSoul": 815,
+		"incCostGold": 1164.2,
+		"initCostGold": 1876716,
+		"id": 323,
+		"level": 3221,
+		"initCostSoul": 1324425
+	},
+	{
+		"incCostSoul": 817.5,
+		"incCostGold": 1167.8,
+		"initCostGold": 1888358,
+		"id": 324,
+		"level": 3231,
+		"initCostSoul": 1332575
+	},
+	{
+		"incCostSoul": 820,
+		"incCostGold": 1171.4,
+		"initCostGold": 1900036,
+		"id": 325,
+		"level": 3241,
+		"initCostSoul": 1340750
+	},
+	{
+		"incCostSoul": 822.5,
+		"incCostGold": 1175,
+		"initCostGold": 1911750,
+		"id": 326,
+		"level": 3251,
+		"initCostSoul": 1348950
+	},
+	{
+		"incCostSoul": 825,
+		"incCostGold": 1178.6,
+		"initCostGold": 1923500,
+		"id": 327,
+		"level": 3261,
+		"initCostSoul": 1357175
+	},
+	{
+		"incCostSoul": 827.5,
+		"incCostGold": 1182.2,
+		"initCostGold": 1935286,
+		"id": 328,
+		"level": 3271,
+		"initCostSoul": 1365425
+	},
+	{
+		"incCostSoul": 830,
+		"incCostGold": 1185.8,
+		"initCostGold": 1947108,
+		"id": 329,
+		"level": 3281,
+		"initCostSoul": 1373700
+	},
+	{
+		"incCostSoul": 832.5,
+		"incCostGold": 1189.4,
+		"initCostGold": 1958966,
+		"id": 330,
+		"level": 3291,
+		"initCostSoul": 1382000
+	},
+	{
+		"incCostSoul": 835,
+		"incCostGold": 1193,
+		"initCostGold": 1970860,
+		"id": 331,
+		"level": 3301,
+		"initCostSoul": 1390325
+	},
+	{
+		"incCostSoul": 837.5,
+		"incCostGold": 1196.6,
+		"initCostGold": 1982790,
+		"id": 332,
+		"level": 3311,
+		"initCostSoul": 1398675
+	},
+	{
+		"incCostSoul": 840,
+		"incCostGold": 1200.2,
+		"initCostGold": 1994756,
+		"id": 333,
+		"level": 3321,
+		"initCostSoul": 1407050
+	},
+	{
+		"incCostSoul": 842.5,
+		"incCostGold": 1203.8,
+		"initCostGold": 2006758,
+		"id": 334,
+		"level": 3331,
+		"initCostSoul": 1415450
+	},
+	{
+		"incCostSoul": 845,
+		"incCostGold": 1207.4,
+		"initCostGold": 2018796,
+		"id": 335,
+		"level": 3341,
+		"initCostSoul": 1423875
+	},
+	{
+		"incCostSoul": 847.5,
+		"incCostGold": 1211,
+		"initCostGold": 2030870,
+		"id": 336,
+		"level": 3351,
+		"initCostSoul": 1432325
+	},
+	{
+		"incCostSoul": 850,
+		"incCostGold": 1214.6,
+		"initCostGold": 2042980,
+		"id": 337,
+		"level": 3361,
+		"initCostSoul": 1440800
+	},
+	{
+		"incCostSoul": 852.5,
+		"incCostGold": 1218.2,
+		"initCostGold": 2055126,
+		"id": 338,
+		"level": 3371,
+		"initCostSoul": 1449300
+	},
+	{
+		"incCostSoul": 855,
+		"incCostGold": 1221.8,
+		"initCostGold": 2067308,
+		"id": 339,
+		"level": 3381,
+		"initCostSoul": 1457825
+	},
+	{
+		"incCostSoul": 857.5,
+		"incCostGold": 1225.4,
+		"initCostGold": 2079526,
+		"id": 340,
+		"level": 3391,
+		"initCostSoul": 1466375
+	},
+	{
+		"incCostSoul": 860,
+		"incCostGold": 1229,
+		"initCostGold": 2091780,
+		"id": 341,
+		"level": 3401,
+		"initCostSoul": 1474950
+	},
+	{
+		"incCostSoul": 862.5,
+		"incCostGold": 1232.6,
+		"initCostGold": 2104070,
+		"id": 342,
+		"level": 3411,
+		"initCostSoul": 1483550
+	},
+	{
+		"incCostSoul": 865,
+		"incCostGold": 1236.2,
+		"initCostGold": 2116396,
+		"id": 343,
+		"level": 3421,
+		"initCostSoul": 1492175
+	},
+	{
+		"incCostSoul": 867.5,
+		"incCostGold": 1239.8,
+		"initCostGold": 2128758,
+		"id": 344,
+		"level": 3431,
+		"initCostSoul": 1500825
+	},
+	{
+		"incCostSoul": 870,
+		"incCostGold": 1243.4,
+		"initCostGold": 2141156,
+		"id": 345,
+		"level": 3441,
+		"initCostSoul": 1509500
+	},
+	{
+		"incCostSoul": 872.5,
+		"incCostGold": 1247,
+		"initCostGold": 2153590,
+		"id": 346,
+		"level": 3451,
+		"initCostSoul": 1518200
+	},
+	{
+		"incCostSoul": 875,
+		"incCostGold": 1250.6,
+		"initCostGold": 2166060,
+		"id": 347,
+		"level": 3461,
+		"initCostSoul": 1526925
+	},
+	{
+		"incCostSoul": 877.5,
+		"incCostGold": 1254.2,
+		"initCostGold": 2178566,
+		"id": 348,
+		"level": 3471,
+		"initCostSoul": 1535675
+	},
+	{
+		"incCostSoul": 880,
+		"incCostGold": 1257.8,
+		"initCostGold": 2191108,
+		"id": 349,
+		"level": 3481,
+		"initCostSoul": 1544450
+	},
+	{
+		"incCostSoul": 882.5,
+		"incCostGold": 1261.4,
+		"initCostGold": 2203686,
+		"id": 350,
+		"level": 3491,
+		"initCostSoul": 1553250
+	},
+	{
+		"incCostSoul": 885,
+		"incCostGold": 1265,
+		"initCostGold": 2216300,
+		"id": 351,
+		"level": 3501,
+		"initCostSoul": 1562075
+	},
+	{
+		"incCostSoul": 887.5,
+		"incCostGold": 1268.6,
+		"initCostGold": 2228950,
+		"id": 352,
+		"level": 3511,
+		"initCostSoul": 1570925
+	},
+	{
+		"incCostSoul": 890,
+		"incCostGold": 1272.2,
+		"initCostGold": 2241636,
+		"id": 353,
+		"level": 3521,
+		"initCostSoul": 1579800
+	},
+	{
+		"incCostSoul": 892.5,
+		"incCostGold": 1275.8,
+		"initCostGold": 2254358,
+		"id": 354,
+		"level": 3531,
+		"initCostSoul": 1588700
+	},
+	{
+		"incCostSoul": 895,
+		"incCostGold": 1279.4,
+		"initCostGold": 2267116,
+		"id": 355,
+		"level": 3541,
+		"initCostSoul": 1597625
+	},
+	{
+		"incCostSoul": 897.5,
+		"incCostGold": 1283,
+		"initCostGold": 2279910,
+		"id": 356,
+		"level": 3551,
+		"initCostSoul": 1606575
+	},
+	{
+		"incCostSoul": 900,
+		"incCostGold": 1286.6,
+		"initCostGold": 2292740,
+		"id": 357,
+		"level": 3561,
+		"initCostSoul": 1615550
+	},
+	{
+		"incCostSoul": 902.5,
+		"incCostGold": 1290.2,
+		"initCostGold": 2305606,
+		"id": 358,
+		"level": 3571,
+		"initCostSoul": 1624550
+	},
+	{
+		"incCostSoul": 905,
+		"incCostGold": 1293.8,
+		"initCostGold": 2318508,
+		"id": 359,
+		"level": 3581,
+		"initCostSoul": 1633575
+	},
+	{
+		"incCostSoul": 907.5,
+		"incCostGold": 1297.4,
+		"initCostGold": 2331446,
+		"id": 360,
+		"level": 3591,
+		"initCostSoul": 1642625
+	},
+	{
+		"incCostSoul": 910,
+		"incCostGold": 1301,
+		"initCostGold": 2344420,
+		"id": 361,
+		"level": 3601,
+		"initCostSoul": 1651700
+	},
+	{
+		"incCostSoul": 912.5,
+		"incCostGold": 1304.6,
+		"initCostGold": 2357430,
+		"id": 362,
+		"level": 3611,
+		"initCostSoul": 1660800
+	},
+	{
+		"incCostSoul": 915,
+		"incCostGold": 1308.2,
+		"initCostGold": 2370476,
+		"id": 363,
+		"level": 3621,
+		"initCostSoul": 1669925
+	},
+	{
+		"incCostSoul": 917.5,
+		"incCostGold": 1311.8,
+		"initCostGold": 2383558,
+		"id": 364,
+		"level": 3631,
+		"initCostSoul": 1679075
+	},
+	{
+		"incCostSoul": 920,
+		"incCostGold": 1315.4,
+		"initCostGold": 2396676,
+		"id": 365,
+		"level": 3641,
+		"initCostSoul": 1688250
+	},
+	{
+		"incCostSoul": 922.5,
+		"incCostGold": 1319,
+		"initCostGold": 2409830,
+		"id": 366,
+		"level": 3651,
+		"initCostSoul": 1697450
+	},
+	{
+		"incCostSoul": 925,
+		"incCostGold": 1322.6,
+		"initCostGold": 2423020,
+		"id": 367,
+		"level": 3661,
+		"initCostSoul": 1706675
+	},
+	{
+		"incCostSoul": 927.5,
+		"incCostGold": 1326.2,
+		"initCostGold": 2436246,
+		"id": 368,
+		"level": 3671,
+		"initCostSoul": 1715925
+	},
+	{
+		"incCostSoul": 930,
+		"incCostGold": 1329.8,
+		"initCostGold": 2449508,
+		"id": 369,
+		"level": 3681,
+		"initCostSoul": 1725200
+	},
+	{
+		"incCostSoul": 932.5,
+		"incCostGold": 1333.4,
+		"initCostGold": 2462806,
+		"id": 370,
+		"level": 3691,
+		"initCostSoul": 1734500
+	},
+	{
+		"incCostSoul": 935,
+		"incCostGold": 1337,
+		"initCostGold": 2476140,
+		"id": 371,
+		"level": 3701,
+		"initCostSoul": 1743825
+	},
+	{
+		"incCostSoul": 937.5,
+		"incCostGold": 1340.6,
+		"initCostGold": 2489510,
+		"id": 372,
+		"level": 3711,
+		"initCostSoul": 1753175
+	},
+	{
+		"incCostSoul": 940,
+		"incCostGold": 1344.2,
+		"initCostGold": 2502916,
+		"id": 373,
+		"level": 3721,
+		"initCostSoul": 1762550
+	},
+	{
+		"incCostSoul": 942.5,
+		"incCostGold": 1347.8,
+		"initCostGold": 2516358,
+		"id": 374,
+		"level": 3731,
+		"initCostSoul": 1771950
+	},
+	{
+		"incCostSoul": 945,
+		"incCostGold": 1351.4,
+		"initCostGold": 2529836,
+		"id": 375,
+		"level": 3741,
+		"initCostSoul": 1781375
+	},
+	{
+		"incCostSoul": 947.5,
+		"incCostGold": 1355,
+		"initCostGold": 2543350,
+		"id": 376,
+		"level": 3751,
+		"initCostSoul": 1790825
+	},
+	{
+		"incCostSoul": 950,
+		"incCostGold": 1358.6,
+		"initCostGold": 2556900,
+		"id": 377,
+		"level": 3761,
+		"initCostSoul": 1800300
+	},
+	{
+		"incCostSoul": 952.5,
+		"incCostGold": 1362.2,
+		"initCostGold": 2570486,
+		"id": 378,
+		"level": 3771,
+		"initCostSoul": 1809800
+	},
+	{
+		"incCostSoul": 955,
+		"incCostGold": 1365.8,
+		"initCostGold": 2584108,
+		"id": 379,
+		"level": 3781,
+		"initCostSoul": 1819325
+	},
+	{
+		"incCostSoul": 957.5,
+		"incCostGold": 1369.4,
+		"initCostGold": 2597766,
+		"id": 380,
+		"level": 3791,
+		"initCostSoul": 1828875
+	},
+	{
+		"incCostSoul": 960,
+		"incCostGold": 1373,
+		"initCostGold": 2611460,
+		"id": 381,
+		"level": 3801,
+		"initCostSoul": 1838450
+	},
+	{
+		"incCostSoul": 962.5,
+		"incCostGold": 1376.6,
+		"initCostGold": 2625190,
+		"id": 382,
+		"level": 3811,
+		"initCostSoul": 1848050
+	},
+	{
+		"incCostSoul": 965,
+		"incCostGold": 1380.2,
+		"initCostGold": 2638956,
+		"id": 383,
+		"level": 3821,
+		"initCostSoul": 1857675
+	},
+	{
+		"incCostSoul": 967.5,
+		"incCostGold": 1383.8,
+		"initCostGold": 2652758,
+		"id": 384,
+		"level": 3831,
+		"initCostSoul": 1867325
+	},
+	{
+		"incCostSoul": 970,
+		"incCostGold": 1387.4,
+		"initCostGold": 2666596,
+		"id": 385,
+		"level": 3841,
+		"initCostSoul": 1877000
+	},
+	{
+		"incCostSoul": 972.5,
+		"incCostGold": 1391,
+		"initCostGold": 2680470,
+		"id": 386,
+		"level": 3851,
+		"initCostSoul": 1886700
+	},
+	{
+		"incCostSoul": 975,
+		"incCostGold": 1394.6,
+		"initCostGold": 2694380,
+		"id": 387,
+		"level": 3861,
+		"initCostSoul": 1896425
+	},
+	{
+		"incCostSoul": 977.5,
+		"incCostGold": 1398.2,
+		"initCostGold": 2708326,
+		"id": 388,
+		"level": 3871,
+		"initCostSoul": 1906175
+	},
+	{
+		"incCostSoul": 980,
+		"incCostGold": 1401.8,
+		"initCostGold": 2722308,
+		"id": 389,
+		"level": 3881,
+		"initCostSoul": 1915950
+	},
+	{
+		"incCostSoul": 982.5,
+		"incCostGold": 1405.4,
+		"initCostGold": 2736326,
+		"id": 390,
+		"level": 3891,
+		"initCostSoul": 1925750
+	},
+	{
+		"incCostSoul": 985,
+		"incCostGold": 1409,
+		"initCostGold": 2750380,
+		"id": 391,
+		"level": 3901,
+		"initCostSoul": 1935575
+	},
+	{
+		"incCostSoul": 987.5,
+		"incCostGold": 1412.6,
+		"initCostGold": 2764470,
+		"id": 392,
+		"level": 3911,
+		"initCostSoul": 1945425
+	},
+	{
+		"incCostSoul": 990,
+		"incCostGold": 1416.2,
+		"initCostGold": 2778596,
+		"id": 393,
+		"level": 3921,
+		"initCostSoul": 1955300
+	},
+	{
+		"incCostSoul": 992.5,
+		"incCostGold": 1419.8,
+		"initCostGold": 2792758,
+		"id": 394,
+		"level": 3931,
+		"initCostSoul": 1965200
+	},
+	{
+		"incCostSoul": 995,
+		"incCostGold": 1423.4,
+		"initCostGold": 2806956,
+		"id": 395,
+		"level": 3941,
+		"initCostSoul": 1975125
+	},
+	{
+		"incCostSoul": 997.5,
+		"incCostGold": 1427,
+		"initCostGold": 2821190,
+		"id": 396,
+		"level": 3951,
+		"initCostSoul": 1985075
+	},
+	{
+		"incCostSoul": 1000,
+		"incCostGold": 1430.6,
+		"initCostGold": 2835460,
+		"id": 397,
+		"level": 3961,
+		"initCostSoul": 1995050
+	},
+	{
+		"incCostSoul": 1002.5,
+		"incCostGold": 1434.2,
+		"initCostGold": 2849766,
+		"id": 398,
+		"level": 3971,
+		"initCostSoul": 2005050
+	},
+	{
+		"incCostSoul": 1005,
+		"incCostGold": 1437.8,
+		"initCostGold": 2864108,
+		"id": 399,
+		"level": 3981,
+		"initCostSoul": 2015075
+	},
+	{
+		"incCostSoul": 1007.5,
+		"incCostGold": 1441.4,
+		"initCostGold": 2878486,
+		"id": 400,
+		"level": 3991,
+		"initCostSoul": 2025125
+	},
+	{
+		"incCostSoul": 1010,
+		"incCostGold": 1445,
+		"initCostGold": 2892900,
+		"id": 401,
+		"level": 4001,
+		"initCostSoul": 2035200
+	},
+	{
+		"incCostSoul": 1012.5,
+		"incCostGold": 1448.6,
+		"initCostGold": 2907350,
+		"id": 402,
+		"level": 4011,
+		"initCostSoul": 2045300
+	},
+	{
+		"incCostSoul": 1015,
+		"incCostGold": 1452.2,
+		"initCostGold": 2921836,
+		"id": 403,
+		"level": 4021,
+		"initCostSoul": 2055425
+	},
+	{
+		"incCostSoul": 1017.5,
+		"incCostGold": 1455.8,
+		"initCostGold": 2936358,
+		"id": 404,
+		"level": 4031,
+		"initCostSoul": 2065575
+	},
+	{
+		"incCostSoul": 1020,
+		"incCostGold": 1459.4,
+		"initCostGold": 2950916,
+		"id": 405,
+		"level": 4041,
+		"initCostSoul": 2075750
+	},
+	{
+		"incCostSoul": 1022.5,
+		"incCostGold": 1463,
+		"initCostGold": 2965510,
+		"id": 406,
+		"level": 4051,
+		"initCostSoul": 2085950
+	},
+	{
+		"incCostSoul": 1025,
+		"incCostGold": 1466.6,
+		"initCostGold": 2980140,
+		"id": 407,
+		"level": 4061,
+		"initCostSoul": 2096175
+	},
+	{
+		"incCostSoul": 1027.5,
+		"incCostGold": 1470.2,
+		"initCostGold": 2994806,
+		"id": 408,
+		"level": 4071,
+		"initCostSoul": 2106425
+	},
+	{
+		"incCostSoul": 1030,
+		"incCostGold": 1473.8,
+		"initCostGold": 3009508,
+		"id": 409,
+		"level": 4081,
+		"initCostSoul": 2116700
+	},
+	{
+		"incCostSoul": 1032.5,
+		"incCostGold": 1477.4,
+		"initCostGold": 3024246,
+		"id": 410,
+		"level": 4091,
+		"initCostSoul": 2127000
+	},
+	{
+		"incCostSoul": 1035,
+		"incCostGold": 1481,
+		"initCostGold": 3039020,
+		"id": 411,
+		"level": 4101,
+		"initCostSoul": 2137325
+	},
+	{
+		"incCostSoul": 1037.5,
+		"incCostGold": 1484.6,
+		"initCostGold": 3053830,
+		"id": 412,
+		"level": 4111,
+		"initCostSoul": 2147675
+	},
+	{
+		"incCostSoul": 1040,
+		"incCostGold": 1488.2,
+		"initCostGold": 3068676,
+		"id": 413,
+		"level": 4121,
+		"initCostSoul": 2158050
+	},
+	{
+		"incCostSoul": 1042.5,
+		"incCostGold": 1491.8,
+		"initCostGold": 3083558,
+		"id": 414,
+		"level": 4131,
+		"initCostSoul": 2168450
+	},
+	{
+		"incCostSoul": 1045,
+		"incCostGold": 1495.4,
+		"initCostGold": 3098476,
+		"id": 415,
+		"level": 4141,
+		"initCostSoul": 2178875
+	},
+	{
+		"incCostSoul": 1047.5,
+		"incCostGold": 1499,
+		"initCostGold": 3113430,
+		"id": 416,
+		"level": 4151,
+		"initCostSoul": 2189325
+	},
+	{
+		"incCostSoul": 1050,
+		"incCostGold": 1502.6,
+		"initCostGold": 3128420,
+		"id": 417,
+		"level": 4161,
+		"initCostSoul": 2199800
+	},
+	{
+		"incCostSoul": 1052.5,
+		"incCostGold": 1506.2,
+		"initCostGold": 3143446,
+		"id": 418,
+		"level": 4171,
+		"initCostSoul": 2210300
+	},
+	{
+		"incCostSoul": 1055,
+		"incCostGold": 1509.8,
+		"initCostGold": 3158508,
+		"id": 419,
+		"level": 4181,
+		"initCostSoul": 2220825
+	},
+	{
+		"incCostSoul": 1057.5,
+		"incCostGold": 1513.4,
+		"initCostGold": 3173606,
+		"id": 420,
+		"level": 4191,
+		"initCostSoul": 2231375
+	},
+	{
+		"incCostSoul": 1060,
+		"incCostGold": 1517,
+		"initCostGold": 3188740,
+		"id": 421,
+		"level": 4201,
+		"initCostSoul": 2241950
+	},
+	{
+		"incCostSoul": 1062.5,
+		"incCostGold": 1520.6,
+		"initCostGold": 3203910,
+		"id": 422,
+		"level": 4211,
+		"initCostSoul": 2252550
+	},
+	{
+		"incCostSoul": 1065,
+		"incCostGold": 1524.2,
+		"initCostGold": 3219116,
+		"id": 423,
+		"level": 4221,
+		"initCostSoul": 2263175
+	},
+	{
+		"incCostSoul": 1067.5,
+		"incCostGold": 1527.8,
+		"initCostGold": 3234358,
+		"id": 424,
+		"level": 4231,
+		"initCostSoul": 2273825
+	},
+	{
+		"incCostSoul": 1070,
+		"incCostGold": 1531.4,
+		"initCostGold": 3249636,
+		"id": 425,
+		"level": 4241,
+		"initCostSoul": 2284500
+	},
+	{
+		"incCostSoul": 1072.5,
+		"incCostGold": 1535,
+		"initCostGold": 3264950,
+		"id": 426,
+		"level": 4251,
+		"initCostSoul": 2295200
+	},
+	{
+		"incCostSoul": 1075,
+		"incCostGold": 1538.6,
+		"initCostGold": 3280300,
+		"id": 427,
+		"level": 4261,
+		"initCostSoul": 2305925
+	},
+	{
+		"incCostSoul": 1077.5,
+		"incCostGold": 1542.2,
+		"initCostGold": 3295686,
+		"id": 428,
+		"level": 4271,
+		"initCostSoul": 2316675
+	},
+	{
+		"incCostSoul": 1080,
+		"incCostGold": 1545.8,
+		"initCostGold": 3311108,
+		"id": 429,
+		"level": 4281,
+		"initCostSoul": 2327450
+	},
+	{
+		"incCostSoul": 1082.5,
+		"incCostGold": 1549.4,
+		"initCostGold": 3326566,
+		"id": 430,
+		"level": 4291,
+		"initCostSoul": 2338250
+	},
+	{
+		"incCostSoul": 1085,
+		"incCostGold": 1553,
+		"initCostGold": 3342060,
+		"id": 431,
+		"level": 4301,
+		"initCostSoul": 2349075
+	},
+	{
+		"incCostSoul": 1087.5,
+		"incCostGold": 1556.6,
+		"initCostGold": 3357590,
+		"id": 432,
+		"level": 4311,
+		"initCostSoul": 2359925
+	},
+	{
+		"incCostSoul": 1090,
+		"incCostGold": 1560.2,
+		"initCostGold": 3373156,
+		"id": 433,
+		"level": 4321,
+		"initCostSoul": 2370800
+	},
+	{
+		"incCostSoul": 1092.5,
+		"incCostGold": 1563.8,
+		"initCostGold": 3388758,
+		"id": 434,
+		"level": 4331,
+		"initCostSoul": 2381700
+	},
+	{
+		"incCostSoul": 1095,
+		"incCostGold": 1567.4,
+		"initCostGold": 3404396,
+		"id": 435,
+		"level": 4341,
+		"initCostSoul": 2392625
+	},
+	{
+		"incCostSoul": 1097.5,
+		"incCostGold": 1571,
+		"initCostGold": 3420070,
+		"id": 436,
+		"level": 4351,
+		"initCostSoul": 2403575
+	},
+	{
+		"incCostSoul": 1100,
+		"incCostGold": 1574.6,
+		"initCostGold": 3435780,
+		"id": 437,
+		"level": 4361,
+		"initCostSoul": 2414550
+	},
+	{
+		"incCostSoul": 1102.5,
+		"incCostGold": 1578.2,
+		"initCostGold": 3451526,
+		"id": 438,
+		"level": 4371,
+		"initCostSoul": 2425550
+	},
+	{
+		"incCostSoul": 1105,
+		"incCostGold": 1581.8,
+		"initCostGold": 3467308,
+		"id": 439,
+		"level": 4381,
+		"initCostSoul": 2436575
+	},
+	{
+		"incCostSoul": 1107.5,
+		"incCostGold": 1585.4,
+		"initCostGold": 3483126,
+		"id": 440,
+		"level": 4391,
+		"initCostSoul": 2447625
+	},
+	{
+		"incCostSoul": 1110,
+		"incCostGold": 1589,
+		"initCostGold": 3498980,
+		"id": 441,
+		"level": 4401,
+		"initCostSoul": 2458700
+	},
+	{
+		"incCostSoul": 1112.5,
+		"incCostGold": 1592.6,
+		"initCostGold": 3514870,
+		"id": 442,
+		"level": 4411,
+		"initCostSoul": 2469800
+	},
+	{
+		"incCostSoul": 1115,
+		"incCostGold": 1596.2,
+		"initCostGold": 3530796,
+		"id": 443,
+		"level": 4421,
+		"initCostSoul": 2480925
+	},
+	{
+		"incCostSoul": 1117.5,
+		"incCostGold": 1599.8,
+		"initCostGold": 3546758,
+		"id": 444,
+		"level": 4431,
+		"initCostSoul": 2492075
+	},
+	{
+		"incCostSoul": 1120,
+		"incCostGold": 1603.4,
+		"initCostGold": 3562756,
+		"id": 445,
+		"level": 4441,
+		"initCostSoul": 2503250
+	},
+	{
+		"incCostSoul": 1122.5,
+		"incCostGold": 1607,
+		"initCostGold": 3578790,
+		"id": 446,
+		"level": 4451,
+		"initCostSoul": 2514450
+	},
+	{
+		"incCostSoul": 1125,
+		"incCostGold": 1610.6,
+		"initCostGold": 3594860,
+		"id": 447,
+		"level": 4461,
+		"initCostSoul": 2525675
+	},
+	{
+		"incCostSoul": 1127.5,
+		"incCostGold": 1614.2,
+		"initCostGold": 3610966,
+		"id": 448,
+		"level": 4471,
+		"initCostSoul": 2536925
+	},
+	{
+		"incCostSoul": 1130,
+		"incCostGold": 1617.8,
+		"initCostGold": 3627108,
+		"id": 449,
+		"level": 4481,
+		"initCostSoul": 2548200
+	},
+	{
+		"incCostSoul": 1132.5,
+		"incCostGold": 1621.4,
+		"initCostGold": 3643286,
+		"id": 450,
+		"level": 4491,
+		"initCostSoul": 2559500
+	},
+	{
+		"incCostSoul": 1135,
+		"incCostGold": 1625,
+		"initCostGold": 3659500,
+		"id": 451,
+		"level": 4501,
+		"initCostSoul": 2570825
+	},
+	{
+		"incCostSoul": 1137.5,
+		"incCostGold": 1628.6,
+		"initCostGold": 3675750,
+		"id": 452,
+		"level": 4511,
+		"initCostSoul": 2582175
+	},
+	{
+		"incCostSoul": 1140,
+		"incCostGold": 1632.2,
+		"initCostGold": 3692036,
+		"id": 453,
+		"level": 4521,
+		"initCostSoul": 2593550
+	},
+	{
+		"incCostSoul": 1142.5,
+		"incCostGold": 1635.8,
+		"initCostGold": 3708358,
+		"id": 454,
+		"level": 4531,
+		"initCostSoul": 2604950
+	},
+	{
+		"incCostSoul": 1145,
+		"incCostGold": 1639.4,
+		"initCostGold": 3724716,
+		"id": 455,
+		"level": 4541,
+		"initCostSoul": 2616375
+	},
+	{
+		"incCostSoul": 1147.5,
+		"incCostGold": 1643,
+		"initCostGold": 3741110,
+		"id": 456,
+		"level": 4551,
+		"initCostSoul": 2627825
+	},
+	{
+		"incCostSoul": 1150,
+		"incCostGold": 1646.6,
+		"initCostGold": 3757540,
+		"id": 457,
+		"level": 4561,
+		"initCostSoul": 2639300
+	},
+	{
+		"incCostSoul": 1152.5,
+		"incCostGold": 1650.2,
+		"initCostGold": 3774006,
+		"id": 458,
+		"level": 4571,
+		"initCostSoul": 2650800
+	},
+	{
+		"incCostSoul": 1155,
+		"incCostGold": 1653.8,
+		"initCostGold": 3790508,
+		"id": 459,
+		"level": 4581,
+		"initCostSoul": 2662325
+	},
+	{
+		"incCostSoul": 1157.5,
+		"incCostGold": 1657.4,
+		"initCostGold": 3807046,
+		"id": 460,
+		"level": 4591,
+		"initCostSoul": 2673875
+	},
+	{
+		"incCostSoul": 1160,
+		"incCostGold": 1661,
+		"initCostGold": 3823620,
+		"id": 461,
+		"level": 4601,
+		"initCostSoul": 2685450
+	},
+	{
+		"incCostSoul": 1162.5,
+		"incCostGold": 1664.6,
+		"initCostGold": 3840230,
+		"id": 462,
+		"level": 4611,
+		"initCostSoul": 2697050
+	},
+	{
+		"incCostSoul": 1165,
+		"incCostGold": 1668.2,
+		"initCostGold": 3856876,
+		"id": 463,
+		"level": 4621,
+		"initCostSoul": 2708675
+	},
+	{
+		"incCostSoul": 1167.5,
+		"incCostGold": 1671.8,
+		"initCostGold": 3873558,
+		"id": 464,
+		"level": 4631,
+		"initCostSoul": 2720325
+	},
+	{
+		"incCostSoul": 1170,
+		"incCostGold": 1675.4,
+		"initCostGold": 3890276,
+		"id": 465,
+		"level": 4641,
+		"initCostSoul": 2732000
+	},
+	{
+		"incCostSoul": 1172.5,
+		"incCostGold": 1679,
+		"initCostGold": 3907030,
+		"id": 466,
+		"level": 4651,
+		"initCostSoul": 2743700
+	},
+	{
+		"incCostSoul": 1175,
+		"incCostGold": 1682.6,
+		"initCostGold": 3923820,
+		"id": 467,
+		"level": 4661,
+		"initCostSoul": 2755425
+	},
+	{
+		"incCostSoul": 1177.5,
+		"incCostGold": 1686.2,
+		"initCostGold": 3940646,
+		"id": 468,
+		"level": 4671,
+		"initCostSoul": 2767175
+	},
+	{
+		"incCostSoul": 1180,
+		"incCostGold": 1689.8,
+		"initCostGold": 3957508,
+		"id": 469,
+		"level": 4681,
+		"initCostSoul": 2778950
+	},
+	{
+		"incCostSoul": 1182.5,
+		"incCostGold": 1693.4,
+		"initCostGold": 3974406,
+		"id": 470,
+		"level": 4691,
+		"initCostSoul": 2790750
+	},
+	{
+		"incCostSoul": 1185,
+		"incCostGold": 1697,
+		"initCostGold": 3991340,
+		"id": 471,
+		"level": 4701,
+		"initCostSoul": 2802575
+	},
+	{
+		"incCostSoul": 1187.5,
+		"incCostGold": 1700.6,
+		"initCostGold": 4008310,
+		"id": 472,
+		"level": 4711,
+		"initCostSoul": 2814425
+	},
+	{
+		"incCostSoul": 1190,
+		"incCostGold": 1704.2,
+		"initCostGold": 4025316,
+		"id": 473,
+		"level": 4721,
+		"initCostSoul": 2826300
+	},
+	{
+		"incCostSoul": 1192.5,
+		"incCostGold": 1707.8,
+		"initCostGold": 4042358,
+		"id": 474,
+		"level": 4731,
+		"initCostSoul": 2838200
+	},
+	{
+		"incCostSoul": 1195,
+		"incCostGold": 1711.4,
+		"initCostGold": 4059436,
+		"id": 475,
+		"level": 4741,
+		"initCostSoul": 2850125
+	},
+	{
+		"incCostSoul": 1197.5,
+		"incCostGold": 1715,
+		"initCostGold": 4076550,
+		"id": 476,
+		"level": 4751,
+		"initCostSoul": 2862075
+	},
+	{
+		"incCostSoul": 1200,
+		"incCostGold": 1718.6,
+		"initCostGold": 4093700,
+		"id": 477,
+		"level": 4761,
+		"initCostSoul": 2874050
+	},
+	{
+		"incCostSoul": 1202.5,
+		"incCostGold": 1722.2,
+		"initCostGold": 4110886,
+		"id": 478,
+		"level": 4771,
+		"initCostSoul": 2886050
+	},
+	{
+		"incCostSoul": 1205,
+		"incCostGold": 1725.8,
+		"initCostGold": 4128108,
+		"id": 479,
+		"level": 4781,
+		"initCostSoul": 2898075
+	},
+	{
+		"incCostSoul": 1207.5,
+		"incCostGold": 1729.4,
+		"initCostGold": 4145366,
+		"id": 480,
+		"level": 4791,
+		"initCostSoul": 2910125
+	},
+	{
+		"incCostSoul": 1210,
+		"incCostGold": 1733,
+		"initCostGold": 4162660,
+		"id": 481,
+		"level": 4801,
+		"initCostSoul": 2922200
+	},
+	{
+		"incCostSoul": 1212.5,
+		"incCostGold": 1736.6,
+		"initCostGold": 4179990,
+		"id": 482,
+		"level": 4811,
+		"initCostSoul": 2934300
+	},
+	{
+		"incCostSoul": 1215,
+		"incCostGold": 1740.2,
+		"initCostGold": 4197356,
+		"id": 483,
+		"level": 4821,
+		"initCostSoul": 2946425
+	},
+	{
+		"incCostSoul": 1217.5,
+		"incCostGold": 1743.8,
+		"initCostGold": 4214758,
+		"id": 484,
+		"level": 4831,
+		"initCostSoul": 2958575
+	},
+	{
+		"incCostSoul": 1220,
+		"incCostGold": 1747.4,
+		"initCostGold": 4232196,
+		"id": 485,
+		"level": 4841,
+		"initCostSoul": 2970750
+	},
+	{
+		"incCostSoul": 1222.5,
+		"incCostGold": 1751,
+		"initCostGold": 4249670,
+		"id": 486,
+		"level": 4851,
+		"initCostSoul": 2982950
+	},
+	{
+		"incCostSoul": 1225,
+		"incCostGold": 1754.6,
+		"initCostGold": 4267180,
+		"id": 487,
+		"level": 4861,
+		"initCostSoul": 2995175
+	},
+	{
+		"incCostSoul": 1227.5,
+		"incCostGold": 1758.2,
+		"initCostGold": 4284726,
+		"id": 488,
+		"level": 4871,
+		"initCostSoul": 3007425
+	},
+	{
+		"incCostSoul": 1230,
+		"incCostGold": 1761.8,
+		"initCostGold": 4302308,
+		"id": 489,
+		"level": 4881,
+		"initCostSoul": 3019700
+	},
+	{
+		"incCostSoul": 1232.5,
+		"incCostGold": 1765.4,
+		"initCostGold": 4319926,
+		"id": 490,
+		"level": 4891,
+		"initCostSoul": 3032000
+	},
+	{
+		"incCostSoul": 1235,
+		"incCostGold": 1769,
+		"initCostGold": 4337580,
+		"id": 491,
+		"level": 4901,
+		"initCostSoul": 3044325
+	},
+	{
+		"incCostSoul": 1237.5,
+		"incCostGold": 1772.6,
+		"initCostGold": 4355270,
+		"id": 492,
+		"level": 4911,
+		"initCostSoul": 3056675
+	},
+	{
+		"incCostSoul": 1240,
+		"incCostGold": 1776.2,
+		"initCostGold": 4372996,
+		"id": 493,
+		"level": 4921,
+		"initCostSoul": 3069050
+	},
+	{
+		"incCostSoul": 1242.5,
+		"incCostGold": 1779.8,
+		"initCostGold": 4390758,
+		"id": 494,
+		"level": 4931,
+		"initCostSoul": 3081450
+	},
+	{
+		"incCostSoul": 1245,
+		"incCostGold": 1783.4,
+		"initCostGold": 4408556,
+		"id": 495,
+		"level": 4941,
+		"initCostSoul": 3093875
+	},
+	{
+		"incCostSoul": 1247.5,
+		"incCostGold": 1787,
+		"initCostGold": 4426390,
+		"id": 496,
+		"level": 4951,
+		"initCostSoul": 3106325
+	},
+	{
+		"incCostSoul": 1250,
+		"incCostGold": 1790.6,
+		"initCostGold": 4444260,
+		"id": 497,
+		"level": 4961,
+		"initCostSoul": 3118800
+	},
+	{
+		"incCostSoul": 1252.5,
+		"incCostGold": 1794.2,
+		"initCostGold": 4462166,
+		"id": 498,
+		"level": 4971,
+		"initCostSoul": 3131300
+	},
+	{
+		"incCostSoul": 1255,
+		"incCostGold": 1797.8,
+		"initCostGold": 4480108,
+		"id": 499,
+		"level": 4981,
+		"initCostSoul": 3143825
+	},
+	{
+		"incCostSoul": 1257.5,
+		"incCostGold": 1801.4,
+		"initCostGold": 4498086,
+		"id": 500,
+		"level": 4991,
+		"initCostSoul": 3156375
+	},
+	{
+		"incCostSoul": 1260,
+		"incCostGold": 1805,
+		"initCostGold": 4516100,
+		"id": 501,
+		"level": 5001,
+		"initCostSoul": 3168950
+	},
+	{
+		"incCostSoul": 1262.5,
+		"incCostGold": 1808.6,
+		"initCostGold": 4534150,
+		"id": 502,
+		"level": 5011,
+		"initCostSoul": 3181550
+	},
+	{
+		"incCostSoul": 1265,
+		"incCostGold": 1812.2,
+		"initCostGold": 4552236,
+		"id": 503,
+		"level": 5021,
+		"initCostSoul": 3194175
+	},
+	{
+		"incCostSoul": 1267.5,
+		"incCostGold": 1815.8,
+		"initCostGold": 4570358,
+		"id": 504,
+		"level": 5031,
+		"initCostSoul": 3206825
+	},
+	{
+		"incCostSoul": 1270,
+		"incCostGold": 1819.4,
+		"initCostGold": 4588516,
+		"id": 505,
+		"level": 5041,
+		"initCostSoul": 3219500
+	},
+	{
+		"incCostSoul": 1272.5,
+		"incCostGold": 1823,
+		"initCostGold": 4606710,
+		"id": 506,
+		"level": 5051,
+		"initCostSoul": 3232200
+	},
+	{
+		"incCostSoul": 1275,
+		"incCostGold": 1826.6,
+		"initCostGold": 4624940,
+		"id": 507,
+		"level": 5061,
+		"initCostSoul": 3244925
+	},
+	{
+		"incCostSoul": 1277.5,
+		"incCostGold": 1830.2,
+		"initCostGold": 4643206,
+		"id": 508,
+		"level": 5071,
+		"initCostSoul": 3257675
+	},
+	{
+		"incCostSoul": 1280,
+		"incCostGold": 1833.8,
+		"initCostGold": 4661508,
+		"id": 509,
+		"level": 5081,
+		"initCostSoul": 3270450
+	},
+	{
+		"incCostSoul": 1282.5,
+		"incCostGold": 1837.4,
+		"initCostGold": 4679846,
+		"id": 510,
+		"level": 5091,
+		"initCostSoul": 3283250
+	},
+	{
+		"incCostSoul": 1285,
+		"incCostGold": 1841,
+		"initCostGold": 4698220,
+		"id": 511,
+		"level": 5101,
+		"initCostSoul": 3296075
+	},
+	{
+		"incCostSoul": 1287.5,
+		"incCostGold": 1844.6,
+		"initCostGold": 4716630,
+		"id": 512,
+		"level": 5111,
+		"initCostSoul": 3308925
+	},
+	{
+		"incCostSoul": 1290,
+		"incCostGold": 1848.2,
+		"initCostGold": 4735076,
+		"id": 513,
+		"level": 5121,
+		"initCostSoul": 3321800
+	},
+	{
+		"incCostSoul": 1292.5,
+		"incCostGold": 1851.8,
+		"initCostGold": 4753558,
+		"id": 514,
+		"level": 5131,
+		"initCostSoul": 3334700
+	},
+	{
+		"incCostSoul": 1295,
+		"incCostGold": 1855.4,
+		"initCostGold": 4772076,
+		"id": 515,
+		"level": 5141,
+		"initCostSoul": 3347625
+	},
+	{
+		"incCostSoul": 1297.5,
+		"incCostGold": 1859,
+		"initCostGold": 4790630,
+		"id": 516,
+		"level": 5151,
+		"initCostSoul": 3360575
+	},
+	{
+		"incCostSoul": 1300,
+		"incCostGold": 1862.6,
+		"initCostGold": 4809220,
+		"id": 517,
+		"level": 5161,
+		"initCostSoul": 3373550
+	},
+	{
+		"incCostSoul": 1302.5,
+		"incCostGold": 1866.2,
+		"initCostGold": 4827846,
+		"id": 518,
+		"level": 5171,
+		"initCostSoul": 3386550
+	},
+	{
+		"incCostSoul": 1305,
+		"incCostGold": 1869.8,
+		"initCostGold": 4846508,
+		"id": 519,
+		"level": 5181,
+		"initCostSoul": 3399575
+	},
+	{
+		"incCostSoul": 1307.5,
+		"incCostGold": 1873.4,
+		"initCostGold": 4865206,
+		"id": 520,
+		"level": 5191,
+		"initCostSoul": 3412625
+	},
+	{
+		"incCostSoul": 1310,
+		"incCostGold": 1877,
+		"initCostGold": 4883940,
+		"id": 521,
+		"level": 5201,
+		"initCostSoul": 3425700
+	},
+	{
+		"incCostSoul": 1312.5,
+		"incCostGold": 1880.6,
+		"initCostGold": 4902710,
+		"id": 522,
+		"level": 5211,
+		"initCostSoul": 3438800
+	},
+	{
+		"incCostSoul": 1315,
+		"incCostGold": 1884.2,
+		"initCostGold": 4921516,
+		"id": 523,
+		"level": 5221,
+		"initCostSoul": 3451925
+	},
+	{
+		"incCostSoul": 1317.5,
+		"incCostGold": 1887.8,
+		"initCostGold": 4940358,
+		"id": 524,
+		"level": 5231,
+		"initCostSoul": 3465075
+	},
+	{
+		"incCostSoul": 1320,
+		"incCostGold": 1891.4,
+		"initCostGold": 4959236,
+		"id": 525,
+		"level": 5241,
+		"initCostSoul": 3478250
+	},
+	{
+		"incCostSoul": 1322.5,
+		"incCostGold": 1895,
+		"initCostGold": 4978150,
+		"id": 526,
+		"level": 5251,
+		"initCostSoul": 3491450
+	},
+	{
+		"incCostSoul": 1325,
+		"incCostGold": 1898.6,
+		"initCostGold": 4997100,
+		"id": 527,
+		"level": 5261,
+		"initCostSoul": 3504675
+	},
+	{
+		"incCostSoul": 1327.5,
+		"incCostGold": 1902.2,
+		"initCostGold": 5016086,
+		"id": 528,
+		"level": 5271,
+		"initCostSoul": 3517925
+	},
+	{
+		"incCostSoul": 1330,
+		"incCostGold": 1905.8,
+		"initCostGold": 5035108,
+		"id": 529,
+		"level": 5281,
+		"initCostSoul": 3531200
+	},
+	{
+		"incCostSoul": 1332.5,
+		"incCostGold": 1909.4,
+		"initCostGold": 5054166,
+		"id": 530,
+		"level": 5291,
+		"initCostSoul": 3544500
+	},
+	{
+		"incCostSoul": 1335,
+		"incCostGold": 1913,
+		"initCostGold": 5073260,
+		"id": 531,
+		"level": 5301,
+		"initCostSoul": 3557825
+	},
+	{
+		"incCostSoul": 1337.5,
+		"incCostGold": 1916.6,
+		"initCostGold": 5092390,
+		"id": 532,
+		"level": 5311,
+		"initCostSoul": 3571175
+	},
+	{
+		"incCostSoul": 1340,
+		"incCostGold": 1920.2,
+		"initCostGold": 5111556,
+		"id": 533,
+		"level": 5321,
+		"initCostSoul": 3584550
+	},
+	{
+		"incCostSoul": 1342.5,
+		"incCostGold": 1923.8,
+		"initCostGold": 5130758,
+		"id": 534,
+		"level": 5331,
+		"initCostSoul": 3597950
+	},
+	{
+		"incCostSoul": 1345,
+		"incCostGold": 1927.4,
+		"initCostGold": 5149996,
+		"id": 535,
+		"level": 5341,
+		"initCostSoul": 3611375
+	},
+	{
+		"incCostSoul": 1347.5,
+		"incCostGold": 1931,
+		"initCostGold": 5169270,
+		"id": 536,
+		"level": 5351,
+		"initCostSoul": 3624825
+	},
+	{
+		"incCostSoul": 1350,
+		"incCostGold": 1934.6,
+		"initCostGold": 5188580,
+		"id": 537,
+		"level": 5361,
+		"initCostSoul": 3638300
+	},
+	{
+		"incCostSoul": 1352.5,
+		"incCostGold": 1938.2,
+		"initCostGold": 5207926,
+		"id": 538,
+		"level": 5371,
+		"initCostSoul": 3651800
+	},
+	{
+		"incCostSoul": 1355,
+		"incCostGold": 1941.8,
+		"initCostGold": 5227308,
+		"id": 539,
+		"level": 5381,
+		"initCostSoul": 3665325
+	},
+	{
+		"incCostSoul": 1357.5,
+		"incCostGold": 1945.4,
+		"initCostGold": 5246726,
+		"id": 540,
+		"level": 5391,
+		"initCostSoul": 3678875
+	},
+	{
+		"incCostSoul": 1360,
+		"incCostGold": 1949,
+		"initCostGold": 5266180,
+		"id": 541,
+		"level": 5401,
+		"initCostSoul": 3692450
+	},
+	{
+		"incCostSoul": 1362.5,
+		"incCostGold": 1952.6,
+		"initCostGold": 5285670,
+		"id": 542,
+		"level": 5411,
+		"initCostSoul": 3706050
+	},
+	{
+		"incCostSoul": 1365,
+		"incCostGold": 1956.2,
+		"initCostGold": 5305196,
+		"id": 543,
+		"level": 5421,
+		"initCostSoul": 3719675
+	},
+	{
+		"incCostSoul": 1367.5,
+		"incCostGold": 1959.8,
+		"initCostGold": 5324758,
+		"id": 544,
+		"level": 5431,
+		"initCostSoul": 3733325
+	},
+	{
+		"incCostSoul": 1370,
+		"incCostGold": 1963.4,
+		"initCostGold": 5344356,
+		"id": 545,
+		"level": 5441,
+		"initCostSoul": 3747000
+	},
+	{
+		"incCostSoul": 1372.5,
+		"incCostGold": 1967,
+		"initCostGold": 5363990,
+		"id": 546,
+		"level": 5451,
+		"initCostSoul": 3760700
+	},
+	{
+		"incCostSoul": 1375,
+		"incCostGold": 1970.6,
+		"initCostGold": 5383660,
+		"id": 547,
+		"level": 5461,
+		"initCostSoul": 3774425
+	},
+	{
+		"incCostSoul": 1377.5,
+		"incCostGold": 1974.2,
+		"initCostGold": 5403366,
+		"id": 548,
+		"level": 5471,
+		"initCostSoul": 3788175
+	},
+	{
+		"incCostSoul": 1380,
+		"incCostGold": 1977.8,
+		"initCostGold": 5423108,
+		"id": 549,
+		"level": 5481,
+		"initCostSoul": 3801950
+	},
+	{
+		"incCostSoul": 1382.5,
+		"incCostGold": 1981.4,
+		"initCostGold": 5442886,
+		"id": 550,
+		"level": 5491,
+		"initCostSoul": 3815750
+	},
+	{
+		"incCostSoul": 1385,
+		"incCostGold": 1985,
+		"initCostGold": 5462700,
+		"id": 551,
+		"level": 5501,
+		"initCostSoul": 3829575
+	},
+	{
+		"incCostSoul": 1387.5,
+		"incCostGold": 1988.6,
+		"initCostGold": 5482550,
+		"id": 552,
+		"level": 5511,
+		"initCostSoul": 3843425
+	},
+	{
+		"incCostSoul": 1390,
+		"incCostGold": 1992.2,
+		"initCostGold": 5502436,
+		"id": 553,
+		"level": 5521,
+		"initCostSoul": 3857300
+	},
+	{
+		"incCostSoul": 1392.5,
+		"incCostGold": 1995.8,
+		"initCostGold": 5522358,
+		"id": 554,
+		"level": 5531,
+		"initCostSoul": 3871200
+	},
+	{
+		"incCostSoul": 1395,
+		"incCostGold": 1999.4,
+		"initCostGold": 5542316,
+		"id": 555,
+		"level": 5541,
+		"initCostSoul": 3885125
+	},
+	{
+		"incCostSoul": 1397.5,
+		"incCostGold": 2003,
+		"initCostGold": 5562310,
+		"id": 556,
+		"level": 5551,
+		"initCostSoul": 3899075
+	},
+	{
+		"incCostSoul": 1400,
+		"incCostGold": 2006.6,
+		"initCostGold": 5582340,
+		"id": 557,
+		"level": 5561,
+		"initCostSoul": 3913050
+	},
+	{
+		"incCostSoul": 1402.5,
+		"incCostGold": 2010.2,
+		"initCostGold": 5602406,
+		"id": 558,
+		"level": 5571,
+		"initCostSoul": 3927050
+	},
+	{
+		"incCostSoul": 1405,
+		"incCostGold": 2013.8,
+		"initCostGold": 5622508,
+		"id": 559,
+		"level": 5581,
+		"initCostSoul": 3941075
+	},
+	{
+		"incCostSoul": 1407.5,
+		"incCostGold": 2017.4,
+		"initCostGold": 5642646,
+		"id": 560,
+		"level": 5591,
+		"initCostSoul": 3955125
+	},
+	{
+		"incCostSoul": 1410,
+		"incCostGold": 2021,
+		"initCostGold": 5662820,
+		"id": 561,
+		"level": 5601,
+		"initCostSoul": 3969200
+	},
+	{
+		"incCostSoul": 1412.5,
+		"incCostGold": 2024.6,
+		"initCostGold": 5683030,
+		"id": 562,
+		"level": 5611,
+		"initCostSoul": 3983300
+	},
+	{
+		"incCostSoul": 1415,
+		"incCostGold": 2028.2,
+		"initCostGold": 5703276,
+		"id": 563,
+		"level": 5621,
+		"initCostSoul": 3997425
+	},
+	{
+		"incCostSoul": 1417.5,
+		"incCostGold": 2031.8,
+		"initCostGold": 5723558,
+		"id": 564,
+		"level": 5631,
+		"initCostSoul": 4011575
+	},
+	{
+		"incCostSoul": 1420,
+		"incCostGold": 2035.4,
+		"initCostGold": 5743876,
+		"id": 565,
+		"level": 5641,
+		"initCostSoul": 4025750
+	},
+	{
+		"incCostSoul": 1422.5,
+		"incCostGold": 2039,
+		"initCostGold": 5764230,
+		"id": 566,
+		"level": 5651,
+		"initCostSoul": 4039950
+	},
+	{
+		"incCostSoul": 1425,
+		"incCostGold": 2042.6,
+		"initCostGold": 5784620,
+		"id": 567,
+		"level": 5661,
+		"initCostSoul": 4054175
+	},
+	{
+		"incCostSoul": 1427.5,
+		"incCostGold": 2046.2,
+		"initCostGold": 5805046,
+		"id": 568,
+		"level": 5671,
+		"initCostSoul": 4068425
+	},
+	{
+		"incCostSoul": 1430,
+		"incCostGold": 2049.8,
+		"initCostGold": 5825508,
+		"id": 569,
+		"level": 5681,
+		"initCostSoul": 4082700
+	},
+	{
+		"incCostSoul": 1432.5,
+		"incCostGold": 2053.4,
+		"initCostGold": 5846006,
+		"id": 570,
+		"level": 5691,
+		"initCostSoul": 4097000
+	},
+	{
+		"incCostSoul": 1435,
+		"incCostGold": 2057,
+		"initCostGold": 5866540,
+		"id": 571,
+		"level": 5701,
+		"initCostSoul": 4111325
+	},
+	{
+		"incCostSoul": 1437.5,
+		"incCostGold": 2060.6,
+		"initCostGold": 5887110,
+		"id": 572,
+		"level": 5711,
+		"initCostSoul": 4125675
+	},
+	{
+		"incCostSoul": 1440,
+		"incCostGold": 2064.2,
+		"initCostGold": 5907716,
+		"id": 573,
+		"level": 5721,
+		"initCostSoul": 4140050
+	},
+	{
+		"incCostSoul": 1442.5,
+		"incCostGold": 2067.8,
+		"initCostGold": 5928358,
+		"id": 574,
+		"level": 5731,
+		"initCostSoul": 4154450
+	},
+	{
+		"incCostSoul": 1445,
+		"incCostGold": 2071.4,
+		"initCostGold": 5949036,
+		"id": 575,
+		"level": 5741,
+		"initCostSoul": 4168875
+	},
+	{
+		"incCostSoul": 1447.5,
+		"incCostGold": 2075,
+		"initCostGold": 5969750,
+		"id": 576,
+		"level": 5751,
+		"initCostSoul": 4183325
+	},
+	{
+		"incCostSoul": 1450,
+		"incCostGold": 2078.6,
+		"initCostGold": 5990500,
+		"id": 577,
+		"level": 5761,
+		"initCostSoul": 4197800
+	},
+	{
+		"incCostSoul": 1452.5,
+		"incCostGold": 2082.2,
+		"initCostGold": 6011286,
+		"id": 578,
+		"level": 5771,
+		"initCostSoul": 4212300
+	},
+	{
+		"incCostSoul": 1455,
+		"incCostGold": 2085.8,
+		"initCostGold": 6032108,
+		"id": 579,
+		"level": 5781,
+		"initCostSoul": 4226825
+	},
+	{
+		"incCostSoul": 1457.5,
+		"incCostGold": 2089.4,
+		"initCostGold": 6052966,
+		"id": 580,
+		"level": 5791,
+		"initCostSoul": 4241375
+	},
+	{
+		"incCostSoul": 1460,
+		"incCostGold": 2093,
+		"initCostGold": 6073860,
+		"id": 581,
+		"level": 5801,
+		"initCostSoul": 4255950
+	},
+	{
+		"incCostSoul": 1462.5,
+		"incCostGold": 2096.6,
+		"initCostGold": 6094790,
+		"id": 582,
+		"level": 5811,
+		"initCostSoul": 4270550
+	},
+	{
+		"incCostSoul": 1465,
+		"incCostGold": 2100.2,
+		"initCostGold": 6115756,
+		"id": 583,
+		"level": 5821,
+		"initCostSoul": 4285175
+	},
+	{
+		"incCostSoul": 1467.5,
+		"incCostGold": 2103.8,
+		"initCostGold": 6136758,
+		"id": 584,
+		"level": 5831,
+		"initCostSoul": 4299825
+	},
+	{
+		"incCostSoul": 1470,
+		"incCostGold": 2107.4,
+		"initCostGold": 6157796,
+		"id": 585,
+		"level": 5841,
+		"initCostSoul": 4314500
+	},
+	{
+		"incCostSoul": 1472.5,
+		"incCostGold": 2111,
+		"initCostGold": 6178870,
+		"id": 586,
+		"level": 5851,
+		"initCostSoul": 4329200
+	},
+	{
+		"incCostSoul": 1475,
+		"incCostGold": 2114.6,
+		"initCostGold": 6199980,
+		"id": 587,
+		"level": 5861,
+		"initCostSoul": 4343925
+	},
+	{
+		"incCostSoul": 1477.5,
+		"incCostGold": 2118.2,
+		"initCostGold": 6221126,
+		"id": 588,
+		"level": 5871,
+		"initCostSoul": 4358675
+	},
+	{
+		"incCostSoul": 1480,
+		"incCostGold": 2121.8,
+		"initCostGold": 6242308,
+		"id": 589,
+		"level": 5881,
+		"initCostSoul": 4373450
+	},
+	{
+		"incCostSoul": 1482.5,
+		"incCostGold": 2125.4,
+		"initCostGold": 6263526,
+		"id": 590,
+		"level": 5891,
+		"initCostSoul": 4388250
+	},
+	{
+		"incCostSoul": 1485,
+		"incCostGold": 2129,
+		"initCostGold": 6284780,
+		"id": 591,
+		"level": 5901,
+		"initCostSoul": 4403075
+	},
+	{
+		"incCostSoul": 1487.5,
+		"incCostGold": 2132.6,
+		"initCostGold": 6306070,
+		"id": 592,
+		"level": 5911,
+		"initCostSoul": 4417925
+	},
+	{
+		"incCostSoul": 1490,
+		"incCostGold": 2136.2,
+		"initCostGold": 6327396,
+		"id": 593,
+		"level": 5921,
+		"initCostSoul": 4432800
+	},
+	{
+		"incCostSoul": 1492.5,
+		"incCostGold": 2139.8,
+		"initCostGold": 6348758,
+		"id": 594,
+		"level": 5931,
+		"initCostSoul": 4447700
+	},
+	{
+		"incCostSoul": 1495,
+		"incCostGold": 2143.4,
+		"initCostGold": 6370156,
+		"id": 595,
+		"level": 5941,
+		"initCostSoul": 4462625
+	},
+	{
+		"incCostSoul": 1497.5,
+		"incCostGold": 2147,
+		"initCostGold": 6391590,
+		"id": 596,
+		"level": 5951,
+		"initCostSoul": 4477575
+	},
+	{
+		"incCostSoul": 1500,
+		"incCostGold": 2150.6,
+		"initCostGold": 6413060,
+		"id": 597,
+		"level": 5961,
+		"initCostSoul": 4492550
+	},
+	{
+		"incCostSoul": 1502.5,
+		"incCostGold": 2154.2,
+		"initCostGold": 6434566,
+		"id": 598,
+		"level": 5971,
+		"initCostSoul": 4507550
+	},
+	{
+		"incCostSoul": 1505,
+		"incCostGold": 2157.8,
+		"initCostGold": 6456108,
+		"id": 599,
+		"level": 5981,
+		"initCostSoul": 4522575
+	},
+	{
+		"incCostSoul": 1507.5,
+		"incCostGold": 2161.4,
+		"initCostGold": 6477686,
+		"id": 600,
+		"level": 5991,
+		"initCostSoul": 4537625
+	},
+	{
+		"incCostSoul": 1510,
+		"incCostGold": 2165,
+		"initCostGold": 6499300,
+		"id": 601,
+		"level": 6001,
+		"initCostSoul": 4552700
+	},
+	{
+		"incCostSoul": 1512.5,
+		"incCostGold": 2168.6,
+		"initCostGold": 6520950,
+		"id": 602,
+		"level": 6011,
+		"initCostSoul": 4567800
+	},
+	{
+		"incCostSoul": 1515,
+		"incCostGold": 2172.2,
+		"initCostGold": 6542636,
+		"id": 603,
+		"level": 6021,
+		"initCostSoul": 4582925
+	},
+	{
+		"incCostSoul": 1517.5,
+		"incCostGold": 2175.8,
+		"initCostGold": 6564358,
+		"id": 604,
+		"level": 6031,
+		"initCostSoul": 4598075
+	},
+	{
+		"incCostSoul": 1520,
+		"incCostGold": 2179.4,
+		"initCostGold": 6586116,
+		"id": 605,
+		"level": 6041,
+		"initCostSoul": 4613250
+	},
+	{
+		"incCostSoul": 1522.5,
+		"incCostGold": 2183,
+		"initCostGold": 6607910,
+		"id": 606,
+		"level": 6051,
+		"initCostSoul": 4628450
+	},
+	{
+		"incCostSoul": 1525,
+		"incCostGold": 2186.6,
+		"initCostGold": 6629740,
+		"id": 607,
+		"level": 6061,
+		"initCostSoul": 4643675
+	},
+	{
+		"incCostSoul": 1527.5,
+		"incCostGold": 2190.2,
+		"initCostGold": 6651606,
+		"id": 608,
+		"level": 6071,
+		"initCostSoul": 4658925
+	},
+	{
+		"incCostSoul": 1530,
+		"incCostGold": 2193.8,
+		"initCostGold": 6673508,
+		"id": 609,
+		"level": 6081,
+		"initCostSoul": 4674200
+	},
+	{
+		"incCostSoul": 1532.5,
+		"incCostGold": 2197.4,
+		"initCostGold": 6695446,
+		"id": 610,
+		"level": 6091,
+		"initCostSoul": 4689500
+	},
+	{
+		"incCostSoul": 1535,
+		"incCostGold": 2201,
+		"initCostGold": 6717420,
+		"id": 611,
+		"level": 6101,
+		"initCostSoul": 4704825
+	},
+	{
+		"incCostSoul": 1537.5,
+		"incCostGold": 2204.6,
+		"initCostGold": 6739430,
+		"id": 612,
+		"level": 6111,
+		"initCostSoul": 4720175
+	},
+	{
+		"incCostSoul": 1540,
+		"incCostGold": 2208.2,
+		"initCostGold": 6761476,
+		"id": 613,
+		"level": 6121,
+		"initCostSoul": 4735550
+	},
+	{
+		"incCostSoul": 1542.5,
+		"incCostGold": 2211.8,
+		"initCostGold": 6783558,
+		"id": 614,
+		"level": 6131,
+		"initCostSoul": 4750950
+	},
+	{
+		"incCostSoul": 1545,
+		"incCostGold": 2215.4,
+		"initCostGold": 6805676,
+		"id": 615,
+		"level": 6141,
+		"initCostSoul": 4766375
+	},
+	{
+		"incCostSoul": 1547.5,
+		"incCostGold": 2219,
+		"initCostGold": 6827830,
+		"id": 616,
+		"level": 6151,
+		"initCostSoul": 4781825
+	},
+	{
+		"incCostSoul": 1550,
+		"incCostGold": 2222.6,
+		"initCostGold": 6850020,
+		"id": 617,
+		"level": 6161,
+		"initCostSoul": 4797300
+	},
+	{
+		"incCostSoul": 1552.5,
+		"incCostGold": 2226.2,
+		"initCostGold": 6872246,
+		"id": 618,
+		"level": 6171,
+		"initCostSoul": 4812800
+	},
+	{
+		"incCostSoul": 1555,
+		"incCostGold": 2229.8,
+		"initCostGold": 6894508,
+		"id": 619,
+		"level": 6181,
+		"initCostSoul": 4828325
+	},
+	{
+		"incCostSoul": 1557.5,
+		"incCostGold": 2233.4,
+		"initCostGold": 6916806,
+		"id": 620,
+		"level": 6191,
+		"initCostSoul": 4843875
+	},
+	{
+		"incCostSoul": 1560,
+		"incCostGold": 2237,
+		"initCostGold": 6939140,
+		"id": 621,
+		"level": 6201,
+		"initCostSoul": 4859450
+	},
+	{
+		"incCostSoul": 1562.5,
+		"incCostGold": 2240.6,
+		"initCostGold": 6961510,
+		"id": 622,
+		"level": 6211,
+		"initCostSoul": 4875050
+	},
+	{
+		"incCostSoul": 1565,
+		"incCostGold": 2244.2,
+		"initCostGold": 6983916,
+		"id": 623,
+		"level": 6221,
+		"initCostSoul": 4890675
+	},
+	{
+		"incCostSoul": 1567.5,
+		"incCostGold": 2247.8,
+		"initCostGold": 7006358,
+		"id": 624,
+		"level": 6231,
+		"initCostSoul": 4906325
+	},
+	{
+		"incCostSoul": 1570,
+		"incCostGold": 2251.4,
+		"initCostGold": 7028836,
+		"id": 625,
+		"level": 6241,
+		"initCostSoul": 4922000
+	},
+	{
+		"incCostSoul": 1572.5,
+		"incCostGold": 2255,
+		"initCostGold": 7051350,
+		"id": 626,
+		"level": 6251,
+		"initCostSoul": 4937700
+	},
+	{
+		"incCostSoul": 1575,
+		"incCostGold": 2258.6,
+		"initCostGold": 7073900,
+		"id": 627,
+		"level": 6261,
+		"initCostSoul": 4953425
+	},
+	{
+		"incCostSoul": 1577.5,
+		"incCostGold": 2262.2,
+		"initCostGold": 7096486,
+		"id": 628,
+		"level": 6271,
+		"initCostSoul": 4969175
+	},
+	{
+		"incCostSoul": 1580,
+		"incCostGold": 2265.8,
+		"initCostGold": 7119108,
+		"id": 629,
+		"level": 6281,
+		"initCostSoul": 4984950
+	},
+	{
+		"incCostSoul": 1582.5,
+		"incCostGold": 2269.4,
+		"initCostGold": 7141766,
+		"id": 630,
+		"level": 6291,
+		"initCostSoul": 5000750
+	},
+	{
+		"incCostSoul": 1585,
+		"incCostGold": 2273,
+		"initCostGold": 7164460,
+		"id": 631,
+		"level": 6301,
+		"initCostSoul": 5016575
+	},
+	{
+		"incCostSoul": 1587.5,
+		"incCostGold": 2276.6,
+		"initCostGold": 7187190,
+		"id": 632,
+		"level": 6311,
+		"initCostSoul": 5032425
+	},
+	{
+		"incCostSoul": 1590,
+		"incCostGold": 2280.2,
+		"initCostGold": 7209956,
+		"id": 633,
+		"level": 6321,
+		"initCostSoul": 5048300
+	},
+	{
+		"incCostSoul": 1592.5,
+		"incCostGold": 2283.8,
+		"initCostGold": 7232758,
+		"id": 634,
+		"level": 6331,
+		"initCostSoul": 5064200
+	},
+	{
+		"incCostSoul": 1595,
+		"incCostGold": 2287.4,
+		"initCostGold": 7255596,
+		"id": 635,
+		"level": 6341,
+		"initCostSoul": 5080125
+	},
+	{
+		"incCostSoul": 1597.5,
+		"incCostGold": 2291,
+		"initCostGold": 7278470,
+		"id": 636,
+		"level": 6351,
+		"initCostSoul": 5096075
+	},
+	{
+		"incCostSoul": 1600,
+		"incCostGold": 2294.6,
+		"initCostGold": 7301380,
+		"id": 637,
+		"level": 6361,
+		"initCostSoul": 5112050
+	},
+	{
+		"incCostSoul": 1602.5,
+		"incCostGold": 2298.2,
+		"initCostGold": 7324326,
+		"id": 638,
+		"level": 6371,
+		"initCostSoul": 5128050
+	},
+	{
+		"incCostSoul": 1605,
+		"incCostGold": 2301.8,
+		"initCostGold": 7347308,
+		"id": 639,
+		"level": 6381,
+		"initCostSoul": 5144075
+	},
+	{
+		"incCostSoul": 1607.5,
+		"incCostGold": 2305.4,
+		"initCostGold": 7370326,
+		"id": 640,
+		"level": 6391,
+		"initCostSoul": 5160125
+	},
+	{
+		"incCostSoul": 1610,
+		"incCostGold": 2309,
+		"initCostGold": 7393380,
+		"id": 641,
+		"level": 6401,
+		"initCostSoul": 5176200
+	},
+	{
+		"incCostSoul": 1612.5,
+		"incCostGold": 2312.6,
+		"initCostGold": 7416470,
+		"id": 642,
+		"level": 6411,
+		"initCostSoul": 5192300
+	},
+	{
+		"incCostSoul": 1615,
+		"incCostGold": 2316.2,
+		"initCostGold": 7439596,
+		"id": 643,
+		"level": 6421,
+		"initCostSoul": 5208425
+	},
+	{
+		"incCostSoul": 1617.5,
+		"incCostGold": 2319.8,
+		"initCostGold": 7462758,
+		"id": 644,
+		"level": 6431,
+		"initCostSoul": 5224575
+	},
+	{
+		"incCostSoul": 1620,
+		"incCostGold": 2323.4,
+		"initCostGold": 7485956,
+		"id": 645,
+		"level": 6441,
+		"initCostSoul": 5240750
+	},
+	{
+		"incCostSoul": 1622.5,
+		"incCostGold": 2327,
+		"initCostGold": 7509190,
+		"id": 646,
+		"level": 6451,
+		"initCostSoul": 5256950
+	},
+	{
+		"incCostSoul": 1625,
+		"incCostGold": 2330.6,
+		"initCostGold": 7532460,
+		"id": 647,
+		"level": 6461,
+		"initCostSoul": 5273175
+	},
+	{
+		"incCostSoul": 1627.5,
+		"incCostGold": 2334.2,
+		"initCostGold": 7555766,
+		"id": 648,
+		"level": 6471,
+		"initCostSoul": 5289425
+	},
+	{
+		"incCostSoul": 1630,
+		"incCostGold": 2337.8,
+		"initCostGold": 7579108,
+		"id": 649,
+		"level": 6481,
+		"initCostSoul": 5305700
+	},
+	{
+		"incCostSoul": 1632.5,
+		"incCostGold": 2341.4,
+		"initCostGold": 7602486,
+		"id": 650,
+		"level": 6491,
+		"initCostSoul": 5322000
+	},
+	{
+		"incCostSoul": 1635,
+		"incCostGold": 2345,
+		"initCostGold": 7625900,
+		"id": 651,
+		"level": 6501,
+		"initCostSoul": 5338325
+	},
+	{
+		"incCostSoul": 1637.5,
+		"incCostGold": 2348.6,
+		"initCostGold": 7649350,
+		"id": 652,
+		"level": 6511,
+		"initCostSoul": 5354675
+	},
+	{
+		"incCostSoul": 1640,
+		"incCostGold": 2352.2,
+		"initCostGold": 7672836,
+		"id": 653,
+		"level": 6521,
+		"initCostSoul": 5371050
+	},
+	{
+		"incCostSoul": 1642.5,
+		"incCostGold": 2355.8,
+		"initCostGold": 7696358,
+		"id": 654,
+		"level": 6531,
+		"initCostSoul": 5387450
+	},
+	{
+		"incCostSoul": 1645,
+		"incCostGold": 2359.4,
+		"initCostGold": 7719916,
+		"id": 655,
+		"level": 6541,
+		"initCostSoul": 5403875
+	},
+	{
+		"incCostSoul": 1647.5,
+		"incCostGold": 2363,
+		"initCostGold": 7743510,
+		"id": 656,
+		"level": 6551,
+		"initCostSoul": 5420325
+	},
+	{
+		"incCostSoul": 1650,
+		"incCostGold": 2366.6,
+		"initCostGold": 7767140,
+		"id": 657,
+		"level": 6561,
+		"initCostSoul": 5436800
+	},
+	{
+		"incCostSoul": 1652.5,
+		"incCostGold": 2370.2,
+		"initCostGold": 7790806,
+		"id": 658,
+		"level": 6571,
+		"initCostSoul": 5453300
+	},
+	{
+		"incCostSoul": 1655,
+		"incCostGold": 2373.8,
+		"initCostGold": 7814508,
+		"id": 659,
+		"level": 6581,
+		"initCostSoul": 5469825
+	},
+	{
+		"incCostSoul": 1657.5,
+		"incCostGold": 2377.4,
+		"initCostGold": 7838246,
+		"id": 660,
+		"level": 6591,
+		"initCostSoul": 5486375
+	},
+	{
+		"incCostSoul": 1660,
+		"incCostGold": 2381,
+		"initCostGold": 7862020,
+		"id": 661,
+		"level": 6601,
+		"initCostSoul": 5502950
+	},
+	{
+		"incCostSoul": 1662.5,
+		"incCostGold": 2384.6,
+		"initCostGold": 7885830,
+		"id": 662,
+		"level": 6611,
+		"initCostSoul": 5519550
+	},
+	{
+		"incCostSoul": 1665,
+		"incCostGold": 2388.2,
+		"initCostGold": 7909676,
+		"id": 663,
+		"level": 6621,
+		"initCostSoul": 5536175
+	},
+	{
+		"incCostSoul": 1667.5,
+		"incCostGold": 2391.8,
+		"initCostGold": 7933558,
+		"id": 664,
+		"level": 6631,
+		"initCostSoul": 5552825
+	},
+	{
+		"incCostSoul": 1670,
+		"incCostGold": 2395.4,
+		"initCostGold": 7957476,
+		"id": 665,
+		"level": 6641,
+		"initCostSoul": 5569500
+	},
+	{
+		"incCostSoul": 1672.5,
+		"incCostGold": 2399,
+		"initCostGold": 7981430,
+		"id": 666,
+		"level": 6651,
+		"initCostSoul": 5586200
+	},
+	{
+		"incCostSoul": 1675,
+		"incCostGold": 2402.6,
+		"initCostGold": 8005420,
+		"id": 667,
+		"level": 6661,
+		"initCostSoul": 5602925
+	},
+	{
+		"incCostSoul": 1677.5,
+		"incCostGold": 2406.2,
+		"initCostGold": 8029446,
+		"id": 668,
+		"level": 6671,
+		"initCostSoul": 5619675
+	},
+	{
+		"incCostSoul": 1680,
+		"incCostGold": 2409.8,
+		"initCostGold": 8053508,
+		"id": 669,
+		"level": 6681,
+		"initCostSoul": 5636450
+	},
+	{
+		"incCostSoul": 1682.5,
+		"incCostGold": 2413.4,
+		"initCostGold": 8077606,
+		"id": 670,
+		"level": 6691,
+		"initCostSoul": 5653250
+	},
+	{
+		"incCostSoul": 1685,
+		"incCostGold": 2417,
+		"initCostGold": 8101740,
+		"id": 671,
+		"level": 6701,
+		"initCostSoul": 5670075
+	},
+	{
+		"incCostSoul": 1687.5,
+		"incCostGold": 2420.6,
+		"initCostGold": 8125910,
+		"id": 672,
+		"level": 6711,
+		"initCostSoul": 5686925
+	},
+	{
+		"incCostSoul": 1690,
+		"incCostGold": 2424.2,
+		"initCostGold": 8150116,
+		"id": 673,
+		"level": 6721,
+		"initCostSoul": 5703800
+	},
+	{
+		"incCostSoul": 1692.5,
+		"incCostGold": 2427.8,
+		"initCostGold": 8174358,
+		"id": 674,
+		"level": 6731,
+		"initCostSoul": 5720700
+	},
+	{
+		"incCostSoul": 1695,
+		"incCostGold": 2431.4,
+		"initCostGold": 8198636,
+		"id": 675,
+		"level": 6741,
+		"initCostSoul": 5737625
+	},
+	{
+		"incCostSoul": 1697.5,
+		"incCostGold": 2435,
+		"initCostGold": 8222950,
+		"id": 676,
+		"level": 6751,
+		"initCostSoul": 5754575
+	},
+	{
+		"incCostSoul": 1700,
+		"incCostGold": 2438.6,
+		"initCostGold": 8247300,
+		"id": 677,
+		"level": 6761,
+		"initCostSoul": 5771550
+	},
+	{
+		"incCostSoul": 1702.5,
+		"incCostGold": 2442.2,
+		"initCostGold": 8271686,
+		"id": 678,
+		"level": 6771,
+		"initCostSoul": 5788550
+	},
+	{
+		"incCostSoul": 1705,
+		"incCostGold": 2445.8,
+		"initCostGold": 8296108,
+		"id": 679,
+		"level": 6781,
+		"initCostSoul": 5805575
+	},
+	{
+		"incCostSoul": 1707.5,
+		"incCostGold": 2449.4,
+		"initCostGold": 8320566,
+		"id": 680,
+		"level": 6791,
+		"initCostSoul": 5822625
+	},
+	{
+		"incCostSoul": 1710,
+		"incCostGold": 2453,
+		"initCostGold": 8345060,
+		"id": 681,
+		"level": 6801,
+		"initCostSoul": 5839700
+	},
+	{
+		"incCostSoul": 1712.5,
+		"incCostGold": 2456.6,
+		"initCostGold": 8369590,
+		"id": 682,
+		"level": 6811,
+		"initCostSoul": 5856800
+	},
+	{
+		"incCostSoul": 1715,
+		"incCostGold": 2460.2,
+		"initCostGold": 8394156,
+		"id": 683,
+		"level": 6821,
+		"initCostSoul": 5873925
+	},
+	{
+		"incCostSoul": 1717.5,
+		"incCostGold": 2463.8,
+		"initCostGold": 8418758,
+		"id": 684,
+		"level": 6831,
+		"initCostSoul": 5891075
+	},
+	{
+		"incCostSoul": 1720,
+		"incCostGold": 2467.4,
+		"initCostGold": 8443396,
+		"id": 685,
+		"level": 6841,
+		"initCostSoul": 5908250
+	},
+	{
+		"incCostSoul": 1722.5,
+		"incCostGold": 2471,
+		"initCostGold": 8468070,
+		"id": 686,
+		"level": 6851,
+		"initCostSoul": 5925450
+	},
+	{
+		"incCostSoul": 1725,
+		"incCostGold": 2474.6,
+		"initCostGold": 8492780,
+		"id": 687,
+		"level": 6861,
+		"initCostSoul": 5942675
+	},
+	{
+		"incCostSoul": 1727.5,
+		"incCostGold": 2478.2,
+		"initCostGold": 8517526,
+		"id": 688,
+		"level": 6871,
+		"initCostSoul": 5959925
+	},
+	{
+		"incCostSoul": 1730,
+		"incCostGold": 2481.8,
+		"initCostGold": 8542308,
+		"id": 689,
+		"level": 6881,
+		"initCostSoul": 5977200
+	},
+	{
+		"incCostSoul": 1732.5,
+		"incCostGold": 2485.4,
+		"initCostGold": 8567126,
+		"id": 690,
+		"level": 6891,
+		"initCostSoul": 5994500
+	},
+	{
+		"incCostSoul": 1735,
+		"incCostGold": 2489,
+		"initCostGold": 8591980,
+		"id": 691,
+		"level": 6901,
+		"initCostSoul": 6011825
+	},
+	{
+		"incCostSoul": 1737.5,
+		"incCostGold": 2492.6,
+		"initCostGold": 8616870,
+		"id": 692,
+		"level": 6911,
+		"initCostSoul": 6029175
+	},
+	{
+		"incCostSoul": 1740,
+		"incCostGold": 2496.2,
+		"initCostGold": 8641796,
+		"id": 693,
+		"level": 6921,
+		"initCostSoul": 6046550
+	},
+	{
+		"incCostSoul": 1742.5,
+		"incCostGold": 2499.8,
+		"initCostGold": 8666758,
+		"id": 694,
+		"level": 6931,
+		"initCostSoul": 6063950
+	},
+	{
+		"incCostSoul": 1745,
+		"incCostGold": 2503.4,
+		"initCostGold": 8691756,
+		"id": 695,
+		"level": 6941,
+		"initCostSoul": 6081375
+	},
+	{
+		"incCostSoul": 1747.5,
+		"incCostGold": 2507,
+		"initCostGold": 8716790,
+		"id": 696,
+		"level": 6951,
+		"initCostSoul": 6098825
+	},
+	{
+		"incCostSoul": 1750,
+		"incCostGold": 2510.6,
+		"initCostGold": 8741860,
+		"id": 697,
+		"level": 6961,
+		"initCostSoul": 6116300
+	},
+	{
+		"incCostSoul": 1752.5,
+		"incCostGold": 2514.2,
+		"initCostGold": 8766966,
+		"id": 698,
+		"level": 6971,
+		"initCostSoul": 6133800
+	},
+	{
+		"incCostSoul": 1755,
+		"incCostGold": 2517.8,
+		"initCostGold": 8792108,
+		"id": 699,
+		"level": 6981,
+		"initCostSoul": 6151325
+	},
+	{
+		"incCostSoul": 1757.5,
+		"incCostGold": 2521.4,
+		"initCostGold": 8817286,
+		"id": 700,
+		"level": 6991,
+		"initCostSoul": 6168875
+	},
+	{
+		"incCostSoul": 1760,
+		"incCostGold": 2525,
+		"initCostGold": 8842500,
+		"id": 701,
+		"level": 7001,
+		"initCostSoul": 6186450
+	},
+	{
+		"incCostSoul": 1762.5,
+		"incCostGold": 2528.6,
+		"initCostGold": 8867750,
+		"id": 702,
+		"level": 7011,
+		"initCostSoul": 6204050
+	},
+	{
+		"incCostSoul": 1765,
+		"incCostGold": 2532.2,
+		"initCostGold": 8893036,
+		"id": 703,
+		"level": 7021,
+		"initCostSoul": 6221675
+	},
+	{
+		"incCostSoul": 1767.5,
+		"incCostGold": 2535.8,
+		"initCostGold": 8918358,
+		"id": 704,
+		"level": 7031,
+		"initCostSoul": 6239325
+	},
+	{
+		"incCostSoul": 1770,
+		"incCostGold": 2539.4,
+		"initCostGold": 8943716,
+		"id": 705,
+		"level": 7041,
+		"initCostSoul": 6257000
+	},
+	{
+		"incCostSoul": 1772.5,
+		"incCostGold": 2543,
+		"initCostGold": 8969110,
+		"id": 706,
+		"level": 7051,
+		"initCostSoul": 6274700
+	},
+	{
+		"incCostSoul": 1775,
+		"incCostGold": 2546.6,
+		"initCostGold": 8994540,
+		"id": 707,
+		"level": 7061,
+		"initCostSoul": 6292425
+	},
+	{
+		"incCostSoul": 1777.5,
+		"incCostGold": 2550.2,
+		"initCostGold": 9020006,
+		"id": 708,
+		"level": 7071,
+		"initCostSoul": 6310175
+	},
+	{
+		"incCostSoul": 1780,
+		"incCostGold": 2553.8,
+		"initCostGold": 9045508,
+		"id": 709,
+		"level": 7081,
+		"initCostSoul": 6327950
+	},
+	{
+		"incCostSoul": 1782.5,
+		"incCostGold": 2557.4,
+		"initCostGold": 9071046,
+		"id": 710,
+		"level": 7091,
+		"initCostSoul": 6345750
+	},
+	{
+		"incCostSoul": 1785,
+		"incCostGold": 2561,
+		"initCostGold": 9096620,
+		"id": 711,
+		"level": 7101,
+		"initCostSoul": 6363575
+	},
+	{
+		"incCostSoul": 1787.5,
+		"incCostGold": 2564.6,
+		"initCostGold": 9122230,
+		"id": 712,
+		"level": 7111,
+		"initCostSoul": 6381425
+	},
+	{
+		"incCostSoul": 1790,
+		"incCostGold": 2568.2,
+		"initCostGold": 9147876,
+		"id": 713,
+		"level": 7121,
+		"initCostSoul": 6399300
+	},
+	{
+		"incCostSoul": 1792.5,
+		"incCostGold": 2571.8,
+		"initCostGold": 9173558,
+		"id": 714,
+		"level": 7131,
+		"initCostSoul": 6417200
+	},
+	{
+		"incCostSoul": 1795,
+		"incCostGold": 2575.4,
+		"initCostGold": 9199276,
+		"id": 715,
+		"level": 7141,
+		"initCostSoul": 6435125
+	},
+	{
+		"incCostSoul": 1797.5,
+		"incCostGold": 2579,
+		"initCostGold": 9225030,
+		"id": 716,
+		"level": 7151,
+		"initCostSoul": 6453075
+	},
+	{
+		"incCostSoul": 1800,
+		"incCostGold": 2582.6,
+		"initCostGold": 9250820,
+		"id": 717,
+		"level": 7161,
+		"initCostSoul": 6471050
+	},
+	{
+		"incCostSoul": 1802.5,
+		"incCostGold": 2586.2,
+		"initCostGold": 9276646,
+		"id": 718,
+		"level": 7171,
+		"initCostSoul": 6489050
+	},
+	{
+		"incCostSoul": 1805,
+		"incCostGold": 2589.8,
+		"initCostGold": 9302508,
+		"id": 719,
+		"level": 7181,
+		"initCostSoul": 6507075
+	},
+	{
+		"incCostSoul": 1807.5,
+		"incCostGold": 2593.4,
+		"initCostGold": 9328406,
+		"id": 720,
+		"level": 7191,
+		"initCostSoul": 6525125
+	},
+	{
+		"incCostSoul": 1810,
+		"incCostGold": 2597,
+		"initCostGold": 9354340,
+		"id": 721,
+		"level": 7201,
+		"initCostSoul": 6543200
+	},
+	{
+		"incCostSoul": 1812.5,
+		"incCostGold": 2600.6,
+		"initCostGold": 9380310,
+		"id": 722,
+		"level": 7211,
+		"initCostSoul": 6561300
+	},
+	{
+		"incCostSoul": 1815,
+		"incCostGold": 2604.2,
+		"initCostGold": 9406316,
+		"id": 723,
+		"level": 7221,
+		"initCostSoul": 6579425
+	},
+	{
+		"incCostSoul": 1817.5,
+		"incCostGold": 2607.8,
+		"initCostGold": 9432358,
+		"id": 724,
+		"level": 7231,
+		"initCostSoul": 6597575
+	},
+	{
+		"incCostSoul": 1820,
+		"incCostGold": 2611.4,
+		"initCostGold": 9458436,
+		"id": 725,
+		"level": 7241,
+		"initCostSoul": 6615750
+	},
+	{
+		"incCostSoul": 1822.5,
+		"incCostGold": 2615,
+		"initCostGold": 9484550,
+		"id": 726,
+		"level": 7251,
+		"initCostSoul": 6633950
+	},
+	{
+		"incCostSoul": 1825,
+		"incCostGold": 2618.6,
+		"initCostGold": 9510700,
+		"id": 727,
+		"level": 7261,
+		"initCostSoul": 6652175
+	},
+	{
+		"incCostSoul": 1827.5,
+		"incCostGold": 2622.2,
+		"initCostGold": 9536886,
+		"id": 728,
+		"level": 7271,
+		"initCostSoul": 6670425
+	},
+	{
+		"incCostSoul": 1830,
+		"incCostGold": 2625.8,
+		"initCostGold": 9563108,
+		"id": 729,
+		"level": 7281,
+		"initCostSoul": 6688700
+	},
+	{
+		"incCostSoul": 1832.5,
+		"incCostGold": 2629.4,
+		"initCostGold": 9589366,
+		"id": 730,
+		"level": 7291,
+		"initCostSoul": 6707000
+	},
+	{
+		"incCostSoul": 1835,
+		"incCostGold": 2633,
+		"initCostGold": 9615660,
+		"id": 731,
+		"level": 7301,
+		"initCostSoul": 6725325
+	},
+	{
+		"incCostSoul": 1837.5,
+		"incCostGold": 2636.6,
+		"initCostGold": 9641990,
+		"id": 732,
+		"level": 7311,
+		"initCostSoul": 6743675
+	},
+	{
+		"incCostSoul": 1840,
+		"incCostGold": 2640.2,
+		"initCostGold": 9668356,
+		"id": 733,
+		"level": 7321,
+		"initCostSoul": 6762050
+	},
+	{
+		"incCostSoul": 1842.5,
+		"incCostGold": 2643.8,
+		"initCostGold": 9694758,
+		"id": 734,
+		"level": 7331,
+		"initCostSoul": 6780450
+	},
+	{
+		"incCostSoul": 1845,
+		"incCostGold": 2647.4,
+		"initCostGold": 9721196,
+		"id": 735,
+		"level": 7341,
+		"initCostSoul": 6798875
+	},
+	{
+		"incCostSoul": 1847.5,
+		"incCostGold": 2651,
+		"initCostGold": 9747670,
+		"id": 736,
+		"level": 7351,
+		"initCostSoul": 6817325
+	},
+	{
+		"incCostSoul": 1850,
+		"incCostGold": 2654.6,
+		"initCostGold": 9774180,
+		"id": 737,
+		"level": 7361,
+		"initCostSoul": 6835800
+	},
+	{
+		"incCostSoul": 1852.5,
+		"incCostGold": 2658.2,
+		"initCostGold": 9800726,
+		"id": 738,
+		"level": 7371,
+		"initCostSoul": 6854300
+	},
+	{
+		"incCostSoul": 1855,
+		"incCostGold": 2661.8,
+		"initCostGold": 9827308,
+		"id": 739,
+		"level": 7381,
+		"initCostSoul": 6872825
+	},
+	{
+		"incCostSoul": 1857.5,
+		"incCostGold": 2665.4,
+		"initCostGold": 9853926,
+		"id": 740,
+		"level": 7391,
+		"initCostSoul": 6891375
+	},
+	{
+		"incCostSoul": 1860,
+		"incCostGold": 2669,
+		"initCostGold": 9880580,
+		"id": 741,
+		"level": 7401,
+		"initCostSoul": 6909950
+	},
+	{
+		"incCostSoul": 1862.5,
+		"incCostGold": 2672.6,
+		"initCostGold": 9907270,
+		"id": 742,
+		"level": 7411,
+		"initCostSoul": 6928550
+	},
+	{
+		"incCostSoul": 1865,
+		"incCostGold": 2676.2,
+		"initCostGold": 9933996,
+		"id": 743,
+		"level": 7421,
+		"initCostSoul": 6947175
+	},
+	{
+		"incCostSoul": 1867.5,
+		"incCostGold": 2679.8,
+		"initCostGold": 9960758,
+		"id": 744,
+		"level": 7431,
+		"initCostSoul": 6965825
+	},
+	{
+		"incCostSoul": 1870,
+		"incCostGold": 2683.4,
+		"initCostGold": 9987556,
+		"id": 745,
+		"level": 7441,
+		"initCostSoul": 6984500
+	},
+	{
+		"incCostSoul": 1872.5,
+		"incCostGold": 2687,
+		"initCostGold": 10014390,
+		"id": 746,
+		"level": 7451,
+		"initCostSoul": 7003200
+	},
+	{
+		"incCostSoul": 1875,
+		"incCostGold": 2690.6,
+		"initCostGold": 10041260,
+		"id": 747,
+		"level": 7461,
+		"initCostSoul": 7021925
+	},
+	{
+		"incCostSoul": 1877.5,
+		"incCostGold": 2694.2,
+		"initCostGold": 10068166,
+		"id": 748,
+		"level": 7471,
+		"initCostSoul": 7040675
+	},
+	{
+		"incCostSoul": 1880,
+		"incCostGold": 2697.8,
+		"initCostGold": 10095108,
+		"id": 749,
+		"level": 7481,
+		"initCostSoul": 7059450
+	},
+	{
+		"incCostSoul": 1882.5,
+		"incCostGold": 2701.4,
+		"initCostGold": 10122086,
+		"id": 750,
+		"level": 7491,
+		"initCostSoul": 7078250
+	},
+	{
+		"incCostSoul": 1885,
+		"incCostGold": 2705,
+		"initCostGold": 10149100,
+		"id": 751,
+		"level": 7501,
+		"initCostSoul": 7097075
+	},
+	{
+		"incCostSoul": 1887.5,
+		"incCostGold": 2708.6,
+		"initCostGold": 10176150,
+		"id": 752,
+		"level": 7511,
+		"initCostSoul": 7115925
+	},
+	{
+		"incCostSoul": 1890,
+		"incCostGold": 2712.2,
+		"initCostGold": 10203236,
+		"id": 753,
+		"level": 7521,
+		"initCostSoul": 7134800
+	},
+	{
+		"incCostSoul": 1892.5,
+		"incCostGold": 2715.8,
+		"initCostGold": 10230358,
+		"id": 754,
+		"level": 7531,
+		"initCostSoul": 7153700
+	},
+	{
+		"incCostSoul": 1895,
+		"incCostGold": 2719.4,
+		"initCostGold": 10257516,
+		"id": 755,
+		"level": 7541,
+		"initCostSoul": 7172625
+	},
+	{
+		"incCostSoul": 1897.5,
+		"incCostGold": 2723,
+		"initCostGold": 10284710,
+		"id": 756,
+		"level": 7551,
+		"initCostSoul": 7191575
+	},
+	{
+		"incCostSoul": 1900,
+		"incCostGold": 2726.6,
+		"initCostGold": 10311940,
+		"id": 757,
+		"level": 7561,
+		"initCostSoul": 7210550
+	},
+	{
+		"incCostSoul": 1902.5,
+		"incCostGold": 2730.2,
+		"initCostGold": 10339206,
+		"id": 758,
+		"level": 7571,
+		"initCostSoul": 7229550
+	},
+	{
+		"incCostSoul": 1905,
+		"incCostGold": 2733.8,
+		"initCostGold": 10366508,
+		"id": 759,
+		"level": 7581,
+		"initCostSoul": 7248575
+	},
+	{
+		"incCostSoul": 1907.5,
+		"incCostGold": 2737.4,
+		"initCostGold": 10393846,
+		"id": 760,
+		"level": 7591,
+		"initCostSoul": 7267625
+	},
+	{
+		"incCostSoul": 1910,
+		"incCostGold": 2741,
+		"initCostGold": 10421220,
+		"id": 761,
+		"level": 7601,
+		"initCostSoul": 7286700
+	},
+	{
+		"incCostSoul": 1912.5,
+		"incCostGold": 2744.6,
+		"initCostGold": 10448630,
+		"id": 762,
+		"level": 7611,
+		"initCostSoul": 7305800
+	},
+	{
+		"incCostSoul": 1915,
+		"incCostGold": 2748.2,
+		"initCostGold": 10476076,
+		"id": 763,
+		"level": 7621,
+		"initCostSoul": 7324925
+	},
+	{
+		"incCostSoul": 1917.5,
+		"incCostGold": 2751.8,
+		"initCostGold": 10503558,
+		"id": 764,
+		"level": 7631,
+		"initCostSoul": 7344075
+	},
+	{
+		"incCostSoul": 1920,
+		"incCostGold": 2755.4,
+		"initCostGold": 10531076,
+		"id": 765,
+		"level": 7641,
+		"initCostSoul": 7363250
+	},
+	{
+		"incCostSoul": 1922.5,
+		"incCostGold": 2759,
+		"initCostGold": 10558630,
+		"id": 766,
+		"level": 7651,
+		"initCostSoul": 7382450
+	},
+	{
+		"incCostSoul": 1925,
+		"incCostGold": 2762.6,
+		"initCostGold": 10586220,
+		"id": 767,
+		"level": 7661,
+		"initCostSoul": 7401675
+	},
+	{
+		"incCostSoul": 1927.5,
+		"incCostGold": 2766.2,
+		"initCostGold": 10613846,
+		"id": 768,
+		"level": 7671,
+		"initCostSoul": 7420925
+	},
+	{
+		"incCostSoul": 1930,
+		"incCostGold": 2769.8,
+		"initCostGold": 10641508,
+		"id": 769,
+		"level": 7681,
+		"initCostSoul": 7440200
+	},
+	{
+		"incCostSoul": 1932.5,
+		"incCostGold": 2773.4,
+		"initCostGold": 10669206,
+		"id": 770,
+		"level": 7691,
+		"initCostSoul": 7459500
+	},
+	{
+		"incCostSoul": 1935,
+		"incCostGold": 2777,
+		"initCostGold": 10696940,
+		"id": 771,
+		"level": 7701,
+		"initCostSoul": 7478825
+	},
+	{
+		"incCostSoul": 1937.5,
+		"incCostGold": 2780.6,
+		"initCostGold": 10724710,
+		"id": 772,
+		"level": 7711,
+		"initCostSoul": 7498175
+	},
+	{
+		"incCostSoul": 1940,
+		"incCostGold": 2784.2,
+		"initCostGold": 10752516,
+		"id": 773,
+		"level": 7721,
+		"initCostSoul": 7517550
+	},
+	{
+		"incCostSoul": 1942.5,
+		"incCostGold": 2787.8,
+		"initCostGold": 10780358,
+		"id": 774,
+		"level": 7731,
+		"initCostSoul": 7536950
+	},
+	{
+		"incCostSoul": 1945,
+		"incCostGold": 2791.4,
+		"initCostGold": 10808236,
+		"id": 775,
+		"level": 7741,
+		"initCostSoul": 7556375
+	},
+	{
+		"incCostSoul": 1947.5,
+		"incCostGold": 2795,
+		"initCostGold": 10836150,
+		"id": 776,
+		"level": 7751,
+		"initCostSoul": 7575825
+	},
+	{
+		"incCostSoul": 1950,
+		"incCostGold": 2798.6,
+		"initCostGold": 10864100,
+		"id": 777,
+		"level": 7761,
+		"initCostSoul": 7595300
+	},
+	{
+		"incCostSoul": 1952.5,
+		"incCostGold": 2802.2,
+		"initCostGold": 10892086,
+		"id": 778,
+		"level": 7771,
+		"initCostSoul": 7614800
+	},
+	{
+		"incCostSoul": 1955,
+		"incCostGold": 2805.8,
+		"initCostGold": 10920108,
+		"id": 779,
+		"level": 7781,
+		"initCostSoul": 7634325
+	},
+	{
+		"incCostSoul": 1957.5,
+		"incCostGold": 2809.4,
+		"initCostGold": 10948166,
+		"id": 780,
+		"level": 7791,
+		"initCostSoul": 7653875
+	},
+	{
+		"incCostSoul": 1960,
+		"incCostGold": 2813,
+		"initCostGold": 10976260,
+		"id": 781,
+		"level": 7801,
+		"initCostSoul": 7673450
+	},
+	{
+		"incCostSoul": 1962.5,
+		"incCostGold": 2816.6,
+		"initCostGold": 11004390,
+		"id": 782,
+		"level": 7811,
+		"initCostSoul": 7693050
+	},
+	{
+		"incCostSoul": 1965,
+		"incCostGold": 2820.2,
+		"initCostGold": 11032556,
+		"id": 783,
+		"level": 7821,
+		"initCostSoul": 7712675
+	},
+	{
+		"incCostSoul": 1967.5,
+		"incCostGold": 2823.8,
+		"initCostGold": 11060758,
+		"id": 784,
+		"level": 7831,
+		"initCostSoul": 7732325
+	},
+	{
+		"incCostSoul": 1970,
+		"incCostGold": 2827.4,
+		"initCostGold": 11088996,
+		"id": 785,
+		"level": 7841,
+		"initCostSoul": 7752000
+	},
+	{
+		"incCostSoul": 1972.5,
+		"incCostGold": 2831,
+		"initCostGold": 11117270,
+		"id": 786,
+		"level": 7851,
+		"initCostSoul": 7771700
+	},
+	{
+		"incCostSoul": 1975,
+		"incCostGold": 2834.6,
+		"initCostGold": 11145580,
+		"id": 787,
+		"level": 7861,
+		"initCostSoul": 7791425
+	},
+	{
+		"incCostSoul": 1977.5,
+		"incCostGold": 2838.2,
+		"initCostGold": 11173926,
+		"id": 788,
+		"level": 7871,
+		"initCostSoul": 7811175
+	},
+	{
+		"incCostSoul": 1980,
+		"incCostGold": 2841.8,
+		"initCostGold": 11202308,
+		"id": 789,
+		"level": 7881,
+		"initCostSoul": 7830950
+	},
+	{
+		"incCostSoul": 1982.5,
+		"incCostGold": 2845.4,
+		"initCostGold": 11230726,
+		"id": 790,
+		"level": 7891,
+		"initCostSoul": 7850750
+	},
+	{
+		"incCostSoul": 1985,
+		"incCostGold": 2849,
+		"initCostGold": 11259180,
+		"id": 791,
+		"level": 7901,
+		"initCostSoul": 7870575
+	},
+	{
+		"incCostSoul": 1987.5,
+		"incCostGold": 2852.6,
+		"initCostGold": 11287670,
+		"id": 792,
+		"level": 7911,
+		"initCostSoul": 7890425
+	},
+	{
+		"incCostSoul": 1990,
+		"incCostGold": 2856.2,
+		"initCostGold": 11316196,
+		"id": 793,
+		"level": 7921,
+		"initCostSoul": 7910300
+	},
+	{
+		"incCostSoul": 1992.5,
+		"incCostGold": 2859.8,
+		"initCostGold": 11344758,
+		"id": 794,
+		"level": 7931,
+		"initCostSoul": 7930200
+	},
+	{
+		"incCostSoul": 1995,
+		"incCostGold": 2863.4,
+		"initCostGold": 11373356,
+		"id": 795,
+		"level": 7941,
+		"initCostSoul": 7950125
+	},
+	{
+		"incCostSoul": 1997.5,
+		"incCostGold": 2867,
+		"initCostGold": 11401990,
+		"id": 796,
+		"level": 7951,
+		"initCostSoul": 7970075
+	},
+	{
+		"incCostSoul": 2000,
+		"incCostGold": 2870.6,
+		"initCostGold": 11430660,
+		"id": 797,
+		"level": 7961,
+		"initCostSoul": 7990050
+	},
+	{
+		"incCostSoul": 2002.5,
+		"incCostGold": 2874.2,
+		"initCostGold": 11459366,
+		"id": 798,
+		"level": 7971,
+		"initCostSoul": 8010050
+	},
+	{
+		"incCostSoul": 2005,
+		"incCostGold": 2877.8,
+		"initCostGold": 11488108,
+		"id": 799,
+		"level": 7981,
+		"initCostSoul": 8030075
+	},
+	{
+		"incCostSoul": 2007.5,
+		"incCostGold": 2881.4,
+		"initCostGold": 11516886,
+		"id": 800,
+		"level": 7991,
+		"initCostSoul": 8050125
+	},
+	{
+		"incCostSoul": 2010,
+		"incCostGold": 2885,
+		"initCostGold": 11545700,
+		"id": 801,
+		"level": 8001,
+		"initCostSoul": 8070200
+	},
+	{
+		"incCostSoul": 2012.5,
+		"incCostGold": 2888.6,
+		"initCostGold": 11574550,
+		"id": 802,
+		"level": 8011,
+		"initCostSoul": 8090300
+	},
+	{
+		"incCostSoul": 2015,
+		"incCostGold": 2892.2,
+		"initCostGold": 11603436,
+		"id": 803,
+		"level": 8021,
+		"initCostSoul": 8110425
+	},
+	{
+		"incCostSoul": 2017.5,
+		"incCostGold": 2895.8,
+		"initCostGold": 11632358,
+		"id": 804,
+		"level": 8031,
+		"initCostSoul": 8130575
+	},
+	{
+		"incCostSoul": 2020,
+		"incCostGold": 2899.4,
+		"initCostGold": 11661316,
+		"id": 805,
+		"level": 8041,
+		"initCostSoul": 8150750
+	},
+	{
+		"incCostSoul": 2022.5,
+		"incCostGold": 2903,
+		"initCostGold": 11690310,
+		"id": 806,
+		"level": 8051,
+		"initCostSoul": 8170950
+	},
+	{
+		"incCostSoul": 2025,
+		"incCostGold": 2906.6,
+		"initCostGold": 11719340,
+		"id": 807,
+		"level": 8061,
+		"initCostSoul": 8191175
+	},
+	{
+		"incCostSoul": 2027.5,
+		"incCostGold": 2910.2,
+		"initCostGold": 11748406,
+		"id": 808,
+		"level": 8071,
+		"initCostSoul": 8211425
+	},
+	{
+		"incCostSoul": 2030,
+		"incCostGold": 2913.8,
+		"initCostGold": 11777508,
+		"id": 809,
+		"level": 8081,
+		"initCostSoul": 8231700
+	},
+	{
+		"incCostSoul": 2032.5,
+		"incCostGold": 2917.4,
+		"initCostGold": 11806646,
+		"id": 810,
+		"level": 8091,
+		"initCostSoul": 8252000
+	},
+	{
+		"incCostSoul": 2035,
+		"incCostGold": 2921,
+		"initCostGold": 11835820,
+		"id": 811,
+		"level": 8101,
+		"initCostSoul": 8272325
+	},
+	{
+		"incCostSoul": 2037.5,
+		"incCostGold": 2924.6,
+		"initCostGold": 11865030,
+		"id": 812,
+		"level": 8111,
+		"initCostSoul": 8292675
+	},
+	{
+		"incCostSoul": 2040,
+		"incCostGold": 2928.2,
+		"initCostGold": 11894276,
+		"id": 813,
+		"level": 8121,
+		"initCostSoul": 8313050
+	},
+	{
+		"incCostSoul": 2042.5,
+		"incCostGold": 2931.8,
+		"initCostGold": 11923558,
+		"id": 814,
+		"level": 8131,
+		"initCostSoul": 8333450
+	},
+	{
+		"incCostSoul": 2045,
+		"incCostGold": 2935.4,
+		"initCostGold": 11952876,
+		"id": 815,
+		"level": 8141,
+		"initCostSoul": 8353875
+	},
+	{
+		"incCostSoul": 2047.5,
+		"incCostGold": 2939,
+		"initCostGold": 11982230,
+		"id": 816,
+		"level": 8151,
+		"initCostSoul": 8374325
+	},
+	{
+		"incCostSoul": 2050,
+		"incCostGold": 2942.6,
+		"initCostGold": 12011620,
+		"id": 817,
+		"level": 8161,
+		"initCostSoul": 8394800
+	},
+	{
+		"incCostSoul": 2052.5,
+		"incCostGold": 2946.2,
+		"initCostGold": 12041046,
+		"id": 818,
+		"level": 8171,
+		"initCostSoul": 8415300
+	},
+	{
+		"incCostSoul": 2055,
+		"incCostGold": 2949.8,
+		"initCostGold": 12070508,
+		"id": 819,
+		"level": 8181,
+		"initCostSoul": 8435825
+	},
+	{
+		"incCostSoul": 2057.5,
+		"incCostGold": 2953.4,
+		"initCostGold": 12100006,
+		"id": 820,
+		"level": 8191,
+		"initCostSoul": 8456375
+	},
+	{
+		"incCostSoul": 2060,
+		"incCostGold": 2957,
+		"initCostGold": 12129540,
+		"id": 821,
+		"level": 8201,
+		"initCostSoul": 8476950
+	},
+	{
+		"incCostSoul": 2062.5,
+		"incCostGold": 2960.6,
+		"initCostGold": 12159110,
+		"id": 822,
+		"level": 8211,
+		"initCostSoul": 8497550
+	},
+	{
+		"incCostSoul": 2065,
+		"incCostGold": 2964.2,
+		"initCostGold": 12188716,
+		"id": 823,
+		"level": 8221,
+		"initCostSoul": 8518175
+	},
+	{
+		"incCostSoul": 2067.5,
+		"incCostGold": 2967.8,
+		"initCostGold": 12218358,
+		"id": 824,
+		"level": 8231,
+		"initCostSoul": 8538825
+	},
+	{
+		"incCostSoul": 2070,
+		"incCostGold": 2971.4,
+		"initCostGold": 12248036,
+		"id": 825,
+		"level": 8241,
+		"initCostSoul": 8559500
+	},
+	{
+		"incCostSoul": 2072.5,
+		"incCostGold": 2975,
+		"initCostGold": 12277750,
+		"id": 826,
+		"level": 8251,
+		"initCostSoul": 8580200
+	},
+	{
+		"incCostSoul": 2075,
+		"incCostGold": 2978.6,
+		"initCostGold": 12307500,
+		"id": 827,
+		"level": 8261,
+		"initCostSoul": 8600925
+	},
+	{
+		"incCostSoul": 2077.5,
+		"incCostGold": 2982.2,
+		"initCostGold": 12337286,
+		"id": 828,
+		"level": 8271,
+		"initCostSoul": 8621675
+	},
+	{
+		"incCostSoul": 2080,
+		"incCostGold": 2985.8,
+		"initCostGold": 12367108,
+		"id": 829,
+		"level": 8281,
+		"initCostSoul": 8642450
+	},
+	{
+		"incCostSoul": 2082.5,
+		"incCostGold": 2989.4,
+		"initCostGold": 12396966,
+		"id": 830,
+		"level": 8291,
+		"initCostSoul": 8663250
+	},
+	{
+		"incCostSoul": 2085,
+		"incCostGold": 2993,
+		"initCostGold": 12426860,
+		"id": 831,
+		"level": 8301,
+		"initCostSoul": 8684075
+	},
+	{
+		"incCostSoul": 2087.5,
+		"incCostGold": 2996.6,
+		"initCostGold": 12456790,
+		"id": 832,
+		"level": 8311,
+		"initCostSoul": 8704925
+	},
+	{
+		"incCostSoul": 2090,
+		"incCostGold": 3000.2,
+		"initCostGold": 12486756,
+		"id": 833,
+		"level": 8321,
+		"initCostSoul": 8725800
+	},
+	{
+		"incCostSoul": 2092.5,
+		"incCostGold": 3003.8,
+		"initCostGold": 12516758,
+		"id": 834,
+		"level": 8331,
+		"initCostSoul": 8746700
+	},
+	{
+		"incCostSoul": 2095,
+		"incCostGold": 3007.4,
+		"initCostGold": 12546796,
+		"id": 835,
+		"level": 8341,
+		"initCostSoul": 8767625
+	},
+	{
+		"incCostSoul": 2097.5,
+		"incCostGold": 3011,
+		"initCostGold": 12576870,
+		"id": 836,
+		"level": 8351,
+		"initCostSoul": 8788575
+	},
+	{
+		"incCostSoul": 2100,
+		"incCostGold": 3014.6,
+		"initCostGold": 12606980,
+		"id": 837,
+		"level": 8361,
+		"initCostSoul": 8809550
+	},
+	{
+		"incCostSoul": 2102.5,
+		"incCostGold": 3018.2,
+		"initCostGold": 12637126,
+		"id": 838,
+		"level": 8371,
+		"initCostSoul": 8830550
+	},
+	{
+		"incCostSoul": 2105,
+		"incCostGold": 3021.8,
+		"initCostGold": 12667308,
+		"id": 839,
+		"level": 8381,
+		"initCostSoul": 8851575
+	},
+	{
+		"incCostSoul": 2107.5,
+		"incCostGold": 3025.4,
+		"initCostGold": 12697526,
+		"id": 840,
+		"level": 8391,
+		"initCostSoul": 8872625
+	},
+	{
+		"incCostSoul": 2110,
+		"incCostGold": 3029,
+		"initCostGold": 12727780,
+		"id": 841,
+		"level": 8401,
+		"initCostSoul": 8893700
+	},
+	{
+		"incCostSoul": 2112.5,
+		"incCostGold": 3032.6,
+		"initCostGold": 12758070,
+		"id": 842,
+		"level": 8411,
+		"initCostSoul": 8914800
+	},
+	{
+		"incCostSoul": 2115,
+		"incCostGold": 3036.2,
+		"initCostGold": 12788396,
+		"id": 843,
+		"level": 8421,
+		"initCostSoul": 8935925
+	},
+	{
+		"incCostSoul": 2117.5,
+		"incCostGold": 3039.8,
+		"initCostGold": 12818758,
+		"id": 844,
+		"level": 8431,
+		"initCostSoul": 8957075
+	},
+	{
+		"incCostSoul": 2120,
+		"incCostGold": 3043.4,
+		"initCostGold": 12849156,
+		"id": 845,
+		"level": 8441,
+		"initCostSoul": 8978250
+	},
+	{
+		"incCostSoul": 2122.5,
+		"incCostGold": 3047,
+		"initCostGold": 12879590,
+		"id": 846,
+		"level": 8451,
+		"initCostSoul": 8999450
+	},
+	{
+		"incCostSoul": 2125,
+		"incCostGold": 3050.6,
+		"initCostGold": 12910060,
+		"id": 847,
+		"level": 8461,
+		"initCostSoul": 9020675
+	},
+	{
+		"incCostSoul": 2127.5,
+		"incCostGold": 3054.2,
+		"initCostGold": 12940566,
+		"id": 848,
+		"level": 8471,
+		"initCostSoul": 9041925
+	},
+	{
+		"incCostSoul": 2130,
+		"incCostGold": 3057.8,
+		"initCostGold": 12971108,
+		"id": 849,
+		"level": 8481,
+		"initCostSoul": 9063200
+	},
+	{
+		"incCostSoul": 2132.5,
+		"incCostGold": 3061.4,
+		"initCostGold": 13001686,
+		"id": 850,
+		"level": 8491,
+		"initCostSoul": 9084500
+	},
+	{
+		"incCostSoul": 2135,
+		"incCostGold": 3065,
+		"initCostGold": 13032300,
+		"id": 851,
+		"level": 8501,
+		"initCostSoul": 9105825
+	},
+	{
+		"incCostSoul": 2137.5,
+		"incCostGold": 3068.6,
+		"initCostGold": 13062950,
+		"id": 852,
+		"level": 8511,
+		"initCostSoul": 9127175
+	},
+	{
+		"incCostSoul": 2140,
+		"incCostGold": 3072.2,
+		"initCostGold": 13093636,
+		"id": 853,
+		"level": 8521,
+		"initCostSoul": 9148550
+	},
+	{
+		"incCostSoul": 2142.5,
+		"incCostGold": 3075.8,
+		"initCostGold": 13124358,
+		"id": 854,
+		"level": 8531,
+		"initCostSoul": 9169950
+	},
+	{
+		"incCostSoul": 2145,
+		"incCostGold": 3079.4,
+		"initCostGold": 13155116,
+		"id": 855,
+		"level": 8541,
+		"initCostSoul": 9191375
+	},
+	{
+		"incCostSoul": 2147.5,
+		"incCostGold": 3083,
+		"initCostGold": 13185910,
+		"id": 856,
+		"level": 8551,
+		"initCostSoul": 9212825
+	},
+	{
+		"incCostSoul": 2150,
+		"incCostGold": 3086.6,
+		"initCostGold": 13216740,
+		"id": 857,
+		"level": 8561,
+		"initCostSoul": 9234300
+	},
+	{
+		"incCostSoul": 2152.5,
+		"incCostGold": 3090.2,
+		"initCostGold": 13247606,
+		"id": 858,
+		"level": 8571,
+		"initCostSoul": 9255800
+	},
+	{
+		"incCostSoul": 2155,
+		"incCostGold": 3093.8,
+		"initCostGold": 13278508,
+		"id": 859,
+		"level": 8581,
+		"initCostSoul": 9277325
+	},
+	{
+		"incCostSoul": 2157.5,
+		"incCostGold": 3097.4,
+		"initCostGold": 13309446,
+		"id": 860,
+		"level": 8591,
+		"initCostSoul": 9298875
+	},
+	{
+		"incCostSoul": 2160,
+		"incCostGold": 3101,
+		"initCostGold": 13340420,
+		"id": 861,
+		"level": 8601,
+		"initCostSoul": 9320450
+	},
+	{
+		"incCostSoul": 2162.5,
+		"incCostGold": 3104.6,
+		"initCostGold": 13371430,
+		"id": 862,
+		"level": 8611,
+		"initCostSoul": 9342050
+	},
+	{
+		"incCostSoul": 2165,
+		"incCostGold": 3108.2,
+		"initCostGold": 13402476,
+		"id": 863,
+		"level": 8621,
+		"initCostSoul": 9363675
+	},
+	{
+		"incCostSoul": 2167.5,
+		"incCostGold": 3111.8,
+		"initCostGold": 13433558,
+		"id": 864,
+		"level": 8631,
+		"initCostSoul": 9385325
+	},
+	{
+		"incCostSoul": 2170,
+		"incCostGold": 3115.4,
+		"initCostGold": 13464676,
+		"id": 865,
+		"level": 8641,
+		"initCostSoul": 9407000
+	},
+	{
+		"incCostSoul": 2172.5,
+		"incCostGold": 3119,
+		"initCostGold": 13495830,
+		"id": 866,
+		"level": 8651,
+		"initCostSoul": 9428700
+	},
+	{
+		"incCostSoul": 2175,
+		"incCostGold": 3122.6,
+		"initCostGold": 13527020,
+		"id": 867,
+		"level": 8661,
+		"initCostSoul": 9450425
+	},
+	{
+		"incCostSoul": 2177.5,
+		"incCostGold": 3126.2,
+		"initCostGold": 13558246,
+		"id": 868,
+		"level": 8671,
+		"initCostSoul": 9472175
+	},
+	{
+		"incCostSoul": 2180,
+		"incCostGold": 3129.8,
+		"initCostGold": 13589508,
+		"id": 869,
+		"level": 8681,
+		"initCostSoul": 9493950
+	},
+	{
+		"incCostSoul": 2182.5,
+		"incCostGold": 3133.4,
+		"initCostGold": 13620806,
+		"id": 870,
+		"level": 8691,
+		"initCostSoul": 9515750
+	},
+	{
+		"incCostSoul": 2185,
+		"incCostGold": 3137,
+		"initCostGold": 13652140,
+		"id": 871,
+		"level": 8701,
+		"initCostSoul": 9537575
+	},
+	{
+		"incCostSoul": 2187.5,
+		"incCostGold": 3140.6,
+		"initCostGold": 13683510,
+		"id": 872,
+		"level": 8711,
+		"initCostSoul": 9559425
+	},
+	{
+		"incCostSoul": 2190,
+		"incCostGold": 3144.2,
+		"initCostGold": 13714916,
+		"id": 873,
+		"level": 8721,
+		"initCostSoul": 9581300
+	},
+	{
+		"incCostSoul": 2192.5,
+		"incCostGold": 3147.8,
+		"initCostGold": 13746358,
+		"id": 874,
+		"level": 8731,
+		"initCostSoul": 9603200
+	},
+	{
+		"incCostSoul": 2195,
+		"incCostGold": 3151.4,
+		"initCostGold": 13777836,
+		"id": 875,
+		"level": 8741,
+		"initCostSoul": 9625125
+	},
+	{
+		"incCostSoul": 2197.5,
+		"incCostGold": 3155,
+		"initCostGold": 13809350,
+		"id": 876,
+		"level": 8751,
+		"initCostSoul": 9647075
+	},
+	{
+		"incCostSoul": 2200,
+		"incCostGold": 3158.6,
+		"initCostGold": 13840900,
+		"id": 877,
+		"level": 8761,
+		"initCostSoul": 9669050
+	},
+	{
+		"incCostSoul": 2202.5,
+		"incCostGold": 3162.2,
+		"initCostGold": 13872486,
+		"id": 878,
+		"level": 8771,
+		"initCostSoul": 9691050
+	},
+	{
+		"incCostSoul": 2205,
+		"incCostGold": 3165.8,
+		"initCostGold": 13904108,
+		"id": 879,
+		"level": 8781,
+		"initCostSoul": 9713075
+	},
+	{
+		"incCostSoul": 2207.5,
+		"incCostGold": 3169.4,
+		"initCostGold": 13935766,
+		"id": 880,
+		"level": 8791,
+		"initCostSoul": 9735125
+	},
+	{
+		"incCostSoul": 2210,
+		"incCostGold": 3173,
+		"initCostGold": 13967460,
+		"id": 881,
+		"level": 8801,
+		"initCostSoul": 9757200
+	},
+	{
+		"incCostSoul": 2212.5,
+		"incCostGold": 3176.6,
+		"initCostGold": 13999190,
+		"id": 882,
+		"level": 8811,
+		"initCostSoul": 9779300
+	},
+	{
+		"incCostSoul": 2215,
+		"incCostGold": 3180.2,
+		"initCostGold": 14030956,
+		"id": 883,
+		"level": 8821,
+		"initCostSoul": 9801425
+	},
+	{
+		"incCostSoul": 2217.5,
+		"incCostGold": 3183.8,
+		"initCostGold": 14062758,
+		"id": 884,
+		"level": 8831,
+		"initCostSoul": 9823575
+	},
+	{
+		"incCostSoul": 2220,
+		"incCostGold": 3187.4,
+		"initCostGold": 14094596,
+		"id": 885,
+		"level": 8841,
+		"initCostSoul": 9845750
+	},
+	{
+		"incCostSoul": 2222.5,
+		"incCostGold": 3190.9999999999,
+		"initCostGold": 14126470,
+		"id": 886,
+		"level": 8851,
+		"initCostSoul": 9867950
+	},
+	{
+		"incCostSoul": 2225,
+		"incCostGold": 3194.5999999999,
+		"initCostGold": 14158380,
+		"id": 887,
+		"level": 8861,
+		"initCostSoul": 9890175
+	},
+	{
+		"incCostSoul": 2227.5,
+		"incCostGold": 3198.1999999999,
+		"initCostGold": 14190326,
+		"id": 888,
+		"level": 8871,
+		"initCostSoul": 9912425
+	},
+	{
+		"incCostSoul": 2230,
+		"incCostGold": 3201.7999999999,
+		"initCostGold": 14222308,
+		"id": 889,
+		"level": 8881,
+		"initCostSoul": 9934700
+	},
+	{
+		"incCostSoul": 2232.5,
+		"incCostGold": 3205.3999999999,
+		"initCostGold": 14254326,
+		"id": 890,
+		"level": 8891,
+		"initCostSoul": 9957000
+	},
+	{
+		"incCostSoul": 2235,
+		"incCostGold": 3208.9999999999,
+		"initCostGold": 14286380,
+		"id": 891,
+		"level": 8901,
+		"initCostSoul": 9979325
+	},
+	{
+		"incCostSoul": 2237.5,
+		"incCostGold": 3212.5999999999,
+		"initCostGold": 14318470,
+		"id": 892,
+		"level": 8911,
+		"initCostSoul": 10001675
+	},
+	{
+		"incCostSoul": 2240,
+		"incCostGold": 3216.1999999999,
+		"initCostGold": 14350596,
+		"id": 893,
+		"level": 8921,
+		"initCostSoul": 10024050
+	},
+	{
+		"incCostSoul": 2242.5,
+		"incCostGold": 3219.7999999999,
+		"initCostGold": 14382758,
+		"id": 894,
+		"level": 8931,
+		"initCostSoul": 10046450
+	},
+	{
+		"incCostSoul": 2245,
+		"incCostGold": 3223.3999999999,
+		"initCostGold": 14414956,
+		"id": 895,
+		"level": 8941,
+		"initCostSoul": 10068875
+	},
+	{
+		"incCostSoul": 2247.5,
+		"incCostGold": 3226.9999999999,
+		"initCostGold": 14447190,
+		"id": 896,
+		"level": 8951,
+		"initCostSoul": 10091325
+	},
+	{
+		"incCostSoul": 2250,
+		"incCostGold": 3230.5999999999,
+		"initCostGold": 14479460,
+		"id": 897,
+		"level": 8961,
+		"initCostSoul": 10113800
+	},
+	{
+		"incCostSoul": 2252.5,
+		"incCostGold": 3234.1999999999,
+		"initCostGold": 14511766,
+		"id": 898,
+		"level": 8971,
+		"initCostSoul": 10136300
+	},
+	{
+		"incCostSoul": 2255,
+		"incCostGold": 3237.7999999999,
+		"initCostGold": 14544108,
+		"id": 899,
+		"level": 8981,
+		"initCostSoul": 10158825
+	},
+	{
+		"incCostSoul": 2257.5,
+		"incCostGold": 3241.3999999999,
+		"initCostGold": 14576486,
+		"id": 900,
+		"level": 8991,
+		"initCostSoul": 10181375
+	},
+	{
+		"incCostSoul": 2260,
+		"incCostGold": 3244.9999999999,
+		"initCostGold": 14608900,
+		"id": 901,
+		"level": 9001,
+		"initCostSoul": 10203950
+	},
+	{
+		"incCostSoul": 2262.5,
+		"incCostGold": 3248.5999999999,
+		"initCostGold": 14641350,
+		"id": 902,
+		"level": 9011,
+		"initCostSoul": 10226550
+	},
+	{
+		"incCostSoul": 2265,
+		"incCostGold": 3252.1999999999,
+		"initCostGold": 14673836,
+		"id": 903,
+		"level": 9021,
+		"initCostSoul": 10249175
+	},
+	{
+		"incCostSoul": 2267.5,
+		"incCostGold": 3255.7999999999,
+		"initCostGold": 14706358,
+		"id": 904,
+		"level": 9031,
+		"initCostSoul": 10271825
+	},
+	{
+		"incCostSoul": 2270,
+		"incCostGold": 3259.3999999999,
+		"initCostGold": 14738916,
+		"id": 905,
+		"level": 9041,
+		"initCostSoul": 10294500
+	},
+	{
+		"incCostSoul": 2272.5,
+		"incCostGold": 3262.9999999999,
+		"initCostGold": 14771510,
+		"id": 906,
+		"level": 9051,
+		"initCostSoul": 10317200
+	},
+	{
+		"incCostSoul": 2275,
+		"incCostGold": 3266.5999999999,
+		"initCostGold": 14804140,
+		"id": 907,
+		"level": 9061,
+		"initCostSoul": 10339925
+	},
+	{
+		"incCostSoul": 2277.5,
+		"incCostGold": 3270.1999999999,
+		"initCostGold": 14836806,
+		"id": 908,
+		"level": 9071,
+		"initCostSoul": 10362675
+	},
+	{
+		"incCostSoul": 2280,
+		"incCostGold": 3273.7999999999,
+		"initCostGold": 14869508,
+		"id": 909,
+		"level": 9081,
+		"initCostSoul": 10385450
+	},
+	{
+		"incCostSoul": 2282.5,
+		"incCostGold": 3277.3999999999,
+		"initCostGold": 14902246,
+		"id": 910,
+		"level": 9091,
+		"initCostSoul": 10408250
+	},
+	{
+		"incCostSoul": 2285,
+		"incCostGold": 3280.9999999999,
+		"initCostGold": 14935020,
+		"id": 911,
+		"level": 9101,
+		"initCostSoul": 10431075
+	},
+	{
+		"incCostSoul": 2287.5,
+		"incCostGold": 3284.5999999999,
+		"initCostGold": 14967830,
+		"id": 912,
+		"level": 9111,
+		"initCostSoul": 10453925
+	},
+	{
+		"incCostSoul": 2290,
+		"incCostGold": 3288.1999999999,
+		"initCostGold": 15000676,
+		"id": 913,
+		"level": 9121,
+		"initCostSoul": 10476800
+	},
+	{
+		"incCostSoul": 2292.5,
+		"incCostGold": 3291.7999999999,
+		"initCostGold": 15033558,
+		"id": 914,
+		"level": 9131,
+		"initCostSoul": 10499700
+	},
+	{
+		"incCostSoul": 2295,
+		"incCostGold": 3295.3999999999,
+		"initCostGold": 15066476,
+		"id": 915,
+		"level": 9141,
+		"initCostSoul": 10522625
+	},
+	{
+		"incCostSoul": 2297.5,
+		"incCostGold": 3298.9999999999,
+		"initCostGold": 15099430,
+		"id": 916,
+		"level": 9151,
+		"initCostSoul": 10545575
+	},
+	{
+		"incCostSoul": 2300,
+		"incCostGold": 3302.5999999999,
+		"initCostGold": 15132420,
+		"id": 917,
+		"level": 9161,
+		"initCostSoul": 10568550
+	},
+	{
+		"incCostSoul": 2302.5,
+		"incCostGold": 3306.1999999999,
+		"initCostGold": 15165446,
+		"id": 918,
+		"level": 9171,
+		"initCostSoul": 10591550
+	},
+	{
+		"incCostSoul": 2305,
+		"incCostGold": 3309.7999999999,
+		"initCostGold": 15198508,
+		"id": 919,
+		"level": 9181,
+		"initCostSoul": 10614575
+	},
+	{
+		"incCostSoul": 2307.5,
+		"incCostGold": 3313.3999999999,
+		"initCostGold": 15231606,
+		"id": 920,
+		"level": 9191,
+		"initCostSoul": 10637625
+	},
+	{
+		"incCostSoul": 2310,
+		"incCostGold": 3316.9999999999,
+		"initCostGold": 15264740,
+		"id": 921,
+		"level": 9201,
+		"initCostSoul": 10660700
+	},
+	{
+		"incCostSoul": 2312.5,
+		"incCostGold": 3320.5999999999,
+		"initCostGold": 15297910,
+		"id": 922,
+		"level": 9211,
+		"initCostSoul": 10683800
+	},
+	{
+		"incCostSoul": 2315,
+		"incCostGold": 3324.1999999999,
+		"initCostGold": 15331116,
+		"id": 923,
+		"level": 9221,
+		"initCostSoul": 10706925
+	},
+	{
+		"incCostSoul": 2317.5,
+		"incCostGold": 3327.7999999999,
+		"initCostGold": 15364358,
+		"id": 924,
+		"level": 9231,
+		"initCostSoul": 10730075
+	},
+	{
+		"incCostSoul": 2320,
+		"incCostGold": 3331.3999999999,
+		"initCostGold": 15397636,
+		"id": 925,
+		"level": 9241,
+		"initCostSoul": 10753250
+	},
+	{
+		"incCostSoul": 2322.5,
+		"incCostGold": 3334.9999999999,
+		"initCostGold": 15430950,
+		"id": 926,
+		"level": 9251,
+		"initCostSoul": 10776450
+	},
+	{
+		"incCostSoul": 2325,
+		"incCostGold": 3338.5999999999,
+		"initCostGold": 15464300,
+		"id": 927,
+		"level": 9261,
+		"initCostSoul": 10799675
+	},
+	{
+		"incCostSoul": 2327.5,
+		"incCostGold": 3342.1999999999,
+		"initCostGold": 15497686,
+		"id": 928,
+		"level": 9271,
+		"initCostSoul": 10822925
+	},
+	{
+		"incCostSoul": 2330,
+		"incCostGold": 3345.7999999999,
+		"initCostGold": 15531108,
+		"id": 929,
+		"level": 9281,
+		"initCostSoul": 10846200
+	},
+	{
+		"incCostSoul": 2332.5,
+		"incCostGold": 3349.3999999999,
+		"initCostGold": 15564566,
+		"id": 930,
+		"level": 9291,
+		"initCostSoul": 10869500
+	},
+	{
+		"incCostSoul": 2335,
+		"incCostGold": 3352.9999999999,
+		"initCostGold": 15598060,
+		"id": 931,
+		"level": 9301,
+		"initCostSoul": 10892825
+	},
+	{
+		"incCostSoul": 2337.5,
+		"incCostGold": 3356.5999999999,
+		"initCostGold": 15631590,
+		"id": 932,
+		"level": 9311,
+		"initCostSoul": 10916175
+	},
+	{
+		"incCostSoul": 2340,
+		"incCostGold": 3360.1999999999,
+		"initCostGold": 15665156,
+		"id": 933,
+		"level": 9321,
+		"initCostSoul": 10939550
+	},
+	{
+		"incCostSoul": 2342.5,
+		"incCostGold": 3363.7999999999,
+		"initCostGold": 15698758,
+		"id": 934,
+		"level": 9331,
+		"initCostSoul": 10962950
+	},
+	{
+		"incCostSoul": 2345,
+		"incCostGold": 3367.3999999999,
+		"initCostGold": 15732396,
+		"id": 935,
+		"level": 9341,
+		"initCostSoul": 10986375
+	},
+	{
+		"incCostSoul": 2347.5,
+		"incCostGold": 3370.9999999999,
+		"initCostGold": 15766070,
+		"id": 936,
+		"level": 9351,
+		"initCostSoul": 11009825
+	},
+	{
+		"incCostSoul": 2350,
+		"incCostGold": 3374.5999999999,
+		"initCostGold": 15799780,
+		"id": 937,
+		"level": 9361,
+		"initCostSoul": 11033300
+	},
+	{
+		"incCostSoul": 2352.5,
+		"incCostGold": 3378.1999999999,
+		"initCostGold": 15833526,
+		"id": 938,
+		"level": 9371,
+		"initCostSoul": 11056800
+	},
+	{
+		"incCostSoul": 2355,
+		"incCostGold": 3381.7999999999,
+		"initCostGold": 15867308,
+		"id": 939,
+		"level": 9381,
+		"initCostSoul": 11080325
+	},
+	{
+		"incCostSoul": 2357.5,
+		"incCostGold": 3385.3999999999,
+		"initCostGold": 15901126,
+		"id": 940,
+		"level": 9391,
+		"initCostSoul": 11103875
+	},
+	{
+		"incCostSoul": 2360,
+		"incCostGold": 3388.9999999999,
+		"initCostGold": 15934980,
+		"id": 941,
+		"level": 9401,
+		"initCostSoul": 11127450
+	},
+	{
+		"incCostSoul": 2362.5,
+		"incCostGold": 3392.5999999999,
+		"initCostGold": 15968870,
+		"id": 942,
+		"level": 9411,
+		"initCostSoul": 11151050
+	},
+	{
+		"incCostSoul": 2365,
+		"incCostGold": 3396.1999999999,
+		"initCostGold": 16002796,
+		"id": 943,
+		"level": 9421,
+		"initCostSoul": 11174675
+	},
+	{
+		"incCostSoul": 2367.5,
+		"incCostGold": 3399.7999999999,
+		"initCostGold": 16036758,
+		"id": 944,
+		"level": 9431,
+		"initCostSoul": 11198325
+	},
+	{
+		"incCostSoul": 2370,
+		"incCostGold": 3403.3999999999,
+		"initCostGold": 16070756,
+		"id": 945,
+		"level": 9441,
+		"initCostSoul": 11222000
+	},
+	{
+		"incCostSoul": 2372.5,
+		"incCostGold": 3406.9999999999,
+		"initCostGold": 16104790,
+		"id": 946,
+		"level": 9451,
+		"initCostSoul": 11245700
+	},
+	{
+		"incCostSoul": 2375,
+		"incCostGold": 3410.5999999999,
+		"initCostGold": 16138860,
+		"id": 947,
+		"level": 9461,
+		"initCostSoul": 11269425
+	},
+	{
+		"incCostSoul": 2377.5,
+		"incCostGold": 3414.1999999999,
+		"initCostGold": 16172966,
+		"id": 948,
+		"level": 9471,
+		"initCostSoul": 11293175
+	},
+	{
+		"incCostSoul": 2380,
+		"incCostGold": 3417.7999999999,
+		"initCostGold": 16207108,
+		"id": 949,
+		"level": 9481,
+		"initCostSoul": 11316950
+	},
+	{
+		"incCostSoul": 2382.5,
+		"incCostGold": 3421.3999999999,
+		"initCostGold": 16241286,
+		"id": 950,
+		"level": 9491,
+		"initCostSoul": 11340750
+	},
+	{
+		"incCostSoul": 2385,
+		"incCostGold": 3424.9999999999,
+		"initCostGold": 16275500,
+		"id": 951,
+		"level": 9501,
+		"initCostSoul": 11364575
+	},
+	{
+		"incCostSoul": 2387.5,
+		"incCostGold": 3428.5999999999,
+		"initCostGold": 16309750,
+		"id": 952,
+		"level": 9511,
+		"initCostSoul": 11388425
+	},
+	{
+		"incCostSoul": 2390,
+		"incCostGold": 3432.1999999999,
+		"initCostGold": 16344036,
+		"id": 953,
+		"level": 9521,
+		"initCostSoul": 11412300
+	},
+	{
+		"incCostSoul": 2392.5,
+		"incCostGold": 3435.7999999999,
+		"initCostGold": 16378358,
+		"id": 954,
+		"level": 9531,
+		"initCostSoul": 11436200
+	},
+	{
+		"incCostSoul": 2395,
+		"incCostGold": 3439.3999999999,
+		"initCostGold": 16412716,
+		"id": 955,
+		"level": 9541,
+		"initCostSoul": 11460125
+	},
+	{
+		"incCostSoul": 2397.5,
+		"incCostGold": 3442.9999999999,
+		"initCostGold": 16447110,
+		"id": 956,
+		"level": 9551,
+		"initCostSoul": 11484075
+	},
+	{
+		"incCostSoul": 2400,
+		"incCostGold": 3446.5999999999,
+		"initCostGold": 16481540,
+		"id": 957,
+		"level": 9561,
+		"initCostSoul": 11508050
+	},
+	{
+		"incCostSoul": 2402.5,
+		"incCostGold": 3450.1999999999,
+		"initCostGold": 16516006,
+		"id": 958,
+		"level": 9571,
+		"initCostSoul": 11532050
+	},
+	{
+		"incCostSoul": 2405,
+		"incCostGold": 3453.7999999999,
+		"initCostGold": 16550508,
+		"id": 959,
+		"level": 9581,
+		"initCostSoul": 11556075
+	},
+	{
+		"incCostSoul": 2407.5,
+		"incCostGold": 3457.3999999999,
+		"initCostGold": 16585046,
+		"id": 960,
+		"level": 9591,
+		"initCostSoul": 11580125
+	},
+	{
+		"incCostSoul": 2410,
+		"incCostGold": 3460.9999999999,
+		"initCostGold": 16619620,
+		"id": 961,
+		"level": 9601,
+		"initCostSoul": 11604200
+	},
+	{
+		"incCostSoul": 2412.5,
+		"incCostGold": 3464.5999999999,
+		"initCostGold": 16654230,
+		"id": 962,
+		"level": 9611,
+		"initCostSoul": 11628300
+	},
+	{
+		"incCostSoul": 2415,
+		"incCostGold": 3468.1999999999,
+		"initCostGold": 16688876,
+		"id": 963,
+		"level": 9621,
+		"initCostSoul": 11652425
+	},
+	{
+		"incCostSoul": 2417.5,
+		"incCostGold": 3471.7999999999,
+		"initCostGold": 16723558,
+		"id": 964,
+		"level": 9631,
+		"initCostSoul": 11676575
+	},
+	{
+		"incCostSoul": 2420,
+		"incCostGold": 3475.3999999999,
+		"initCostGold": 16758276,
+		"id": 965,
+		"level": 9641,
+		"initCostSoul": 11700750
+	},
+	{
+		"incCostSoul": 2422.5,
+		"incCostGold": 3478.9999999999,
+		"initCostGold": 16793030,
+		"id": 966,
+		"level": 9651,
+		"initCostSoul": 11724950
+	},
+	{
+		"incCostSoul": 2425,
+		"incCostGold": 3482.5999999999,
+		"initCostGold": 16827820,
+		"id": 967,
+		"level": 9661,
+		"initCostSoul": 11749175
+	},
+	{
+		"incCostSoul": 2427.5,
+		"incCostGold": 3486.1999999999,
+		"initCostGold": 16862646,
+		"id": 968,
+		"level": 9671,
+		"initCostSoul": 11773425
+	},
+	{
+		"incCostSoul": 2430,
+		"incCostGold": 3489.7999999999,
+		"initCostGold": 16897508,
+		"id": 969,
+		"level": 9681,
+		"initCostSoul": 11797700
+	},
+	{
+		"incCostSoul": 2432.5,
+		"incCostGold": 3493.3999999999,
+		"initCostGold": 16932406,
+		"id": 970,
+		"level": 9691,
+		"initCostSoul": 11822000
+	},
+	{
+		"incCostSoul": 2435,
+		"incCostGold": 3496.9999999999,
+		"initCostGold": 16967340,
+		"id": 971,
+		"level": 9701,
+		"initCostSoul": 11846325
+	},
+	{
+		"incCostSoul": 2437.5,
+		"incCostGold": 3500.5999999999,
+		"initCostGold": 17002310,
+		"id": 972,
+		"level": 9711,
+		"initCostSoul": 11870675
+	},
+	{
+		"incCostSoul": 2440,
+		"incCostGold": 3504.1999999999,
+		"initCostGold": 17037316,
+		"id": 973,
+		"level": 9721,
+		"initCostSoul": 11895050
+	},
+	{
+		"incCostSoul": 2442.5,
+		"incCostGold": 3507.7999999999,
+		"initCostGold": 17072358,
+		"id": 974,
+		"level": 9731,
+		"initCostSoul": 11919450
+	},
+	{
+		"incCostSoul": 2445,
+		"incCostGold": 3511.3999999999,
+		"initCostGold": 17107436,
+		"id": 975,
+		"level": 9741,
+		"initCostSoul": 11943875
+	},
+	{
+		"incCostSoul": 2447.5,
+		"incCostGold": 3514.9999999999,
+		"initCostGold": 17142550,
+		"id": 976,
+		"level": 9751,
+		"initCostSoul": 11968325
+	},
+	{
+		"incCostSoul": 2450,
+		"incCostGold": 3518.5999999999,
+		"initCostGold": 17177700,
+		"id": 977,
+		"level": 9761,
+		"initCostSoul": 11992800
+	},
+	{
+		"incCostSoul": 2452.5,
+		"incCostGold": 3522.1999999999,
+		"initCostGold": 17212886,
+		"id": 978,
+		"level": 9771,
+		"initCostSoul": 12017300
+	},
+	{
+		"incCostSoul": 2455,
+		"incCostGold": 3525.7999999999,
+		"initCostGold": 17248108,
+		"id": 979,
+		"level": 9781,
+		"initCostSoul": 12041825
+	},
+	{
+		"incCostSoul": 2457.5,
+		"incCostGold": 3529.3999999999,
+		"initCostGold": 17283366,
+		"id": 980,
+		"level": 9791,
+		"initCostSoul": 12066375
+	},
+	{
+		"incCostSoul": 2460,
+		"incCostGold": 3532.9999999999,
+		"initCostGold": 17318660,
+		"id": 981,
+		"level": 9801,
+		"initCostSoul": 12090950
+	},
+	{
+		"incCostSoul": 2462.5,
+		"incCostGold": 3536.5999999999,
+		"initCostGold": 17353990,
+		"id": 982,
+		"level": 9811,
+		"initCostSoul": 12115550
+	},
+	{
+		"incCostSoul": 2465,
+		"incCostGold": 3540.1999999999,
+		"initCostGold": 17389356,
+		"id": 983,
+		"level": 9821,
+		"initCostSoul": 12140175
+	},
+	{
+		"incCostSoul": 2467.5,
+		"incCostGold": 3543.7999999999,
+		"initCostGold": 17424758,
+		"id": 984,
+		"level": 9831,
+		"initCostSoul": 12164825
+	},
+	{
+		"incCostSoul": 2470,
+		"incCostGold": 3547.3999999999,
+		"initCostGold": 17460196,
+		"id": 985,
+		"level": 9841,
+		"initCostSoul": 12189500
+	},
+	{
+		"incCostSoul": 2472.5,
+		"incCostGold": 3550.9999999999,
+		"initCostGold": 17495670,
+		"id": 986,
+		"level": 9851,
+		"initCostSoul": 12214200
+	},
+	{
+		"incCostSoul": 2475,
+		"incCostGold": 3554.5999999999,
+		"initCostGold": 17531180,
+		"id": 987,
+		"level": 9861,
+		"initCostSoul": 12238925
+	},
+	{
+		"incCostSoul": 2477.5,
+		"incCostGold": 3558.1999999999,
+		"initCostGold": 17566726,
+		"id": 988,
+		"level": 9871,
+		"initCostSoul": 12263675
+	},
+	{
+		"incCostSoul": 2480,
+		"incCostGold": 3561.7999999999,
+		"initCostGold": 17602308,
+		"id": 989,
+		"level": 9881,
+		"initCostSoul": 12288450
+	},
+	{
+		"incCostSoul": 2482.5,
+		"incCostGold": 3565.3999999999,
+		"initCostGold": 17637926,
+		"id": 990,
+		"level": 9891,
+		"initCostSoul": 12313250
+	},
+	{
+		"incCostSoul": 2485,
+		"incCostGold": 3568.9999999999,
+		"initCostGold": 17673580,
+		"id": 991,
+		"level": 9901,
+		"initCostSoul": 12338075
+	},
+	{
+		"incCostSoul": 2487.5,
+		"incCostGold": 3572.5999999999,
+		"initCostGold": 17709270,
+		"id": 992,
+		"level": 9911,
+		"initCostSoul": 12362925
+	},
+	{
+		"incCostSoul": 2490,
+		"incCostGold": 3576.1999999999,
+		"initCostGold": 17744996,
+		"id": 993,
+		"level": 9921,
+		"initCostSoul": 12387800
+	},
+	{
+		"incCostSoul": 2492.5,
+		"incCostGold": 3579.7999999999,
+		"initCostGold": 17780758,
+		"id": 994,
+		"level": 9931,
+		"initCostSoul": 12412700
+	},
+	{
+		"incCostSoul": 2495,
+		"incCostGold": 3583.3999999999,
+		"initCostGold": 17816556,
+		"id": 995,
+		"level": 9941,
+		"initCostSoul": 12437625
+	},
+	{
+		"incCostSoul": 2497.5,
+		"incCostGold": 3586.9999999999,
+		"initCostGold": 17852390,
+		"id": 996,
+		"level": 9951,
+		"initCostSoul": 12462575
+	},
+	{
+		"incCostSoul": 2500,
+		"incCostGold": 3590.5999999999,
+		"initCostGold": 17888260,
+		"id": 997,
+		"level": 9961,
+		"initCostSoul": 12487550
+	},
+	{
+		"incCostSoul": 2502.5,
+		"incCostGold": 3594.1999999999,
+		"initCostGold": 17924166,
+		"id": 998,
+		"level": 9971,
+		"initCostSoul": 12512550
+	},
+	{
+		"incCostSoul": 2505,
+		"incCostGold": 3597.7999999999,
+		"initCostGold": 17960108,
+		"id": 999,
+		"level": 9981,
+		"initCostSoul": 12537575
+	},
+	{
+		"incCostSoul": 2507.5,
+		"incCostGold": 3601.3999999999,
+		"initCostGold": 17996086,
+		"id": 1000,
+		"level": 9991,
+		"initCostSoul": 12562625
+	},
+	{
+		"incCostSoul": 2510,
+		"incCostGold": 3604.9999999999,
+		"initCostGold": 18032100,
+		"id": 1001,
+		"level": 10001,
+		"initCostSoul": 12587700
+	},
+	{
+		"incCostSoul": 2512.5,
+		"incCostGold": 3608.5999999999,
+		"initCostGold": 18068150,
+		"id": 1002,
+		"level": 10011,
+		"initCostSoul": 12612800
+	},
+	{
+		"incCostSoul": 2515,
+		"incCostGold": 3612.1999999999,
+		"initCostGold": 18104236,
+		"id": 1003,
+		"level": 10021,
+		"initCostSoul": 12637925
+	},
+	{
+		"incCostSoul": 2517.5,
+		"incCostGold": 3615.7999999999,
+		"initCostGold": 18140358,
+		"id": 1004,
+		"level": 10031,
+		"initCostSoul": 12663075
+	},
+	{
+		"incCostSoul": 2520,
+		"incCostGold": 3619.3999999999,
+		"initCostGold": 18176516,
+		"id": 1005,
+		"level": 10041,
+		"initCostSoul": 12688250
+	},
+	{
+		"incCostSoul": 2522.5,
+		"incCostGold": 3622.9999999999,
+		"initCostGold": 18212710,
+		"id": 1006,
+		"level": 10051,
+		"initCostSoul": 12713450
+	},
+	{
+		"incCostSoul": 2525,
+		"incCostGold": 3626.5999999999,
+		"initCostGold": 18248940,
+		"id": 1007,
+		"level": 10061,
+		"initCostSoul": 12738675
+	},
+	{
+		"incCostSoul": 2527.5,
+		"incCostGold": 3630.1999999999,
+		"initCostGold": 18285206,
+		"id": 1008,
+		"level": 10071,
+		"initCostSoul": 12763925
+	},
+	{
+		"incCostSoul": 2530,
+		"incCostGold": 3633.7999999999,
+		"initCostGold": 18321508,
+		"id": 1009,
+		"level": 10081,
+		"initCostSoul": 12789200
+	},
+	{
+		"incCostSoul": 2532.5,
+		"incCostGold": 3637.3999999999,
+		"initCostGold": 18357846,
+		"id": 1010,
+		"level": 10091,
+		"initCostSoul": 12814500
+	},
+	{
+		"incCostSoul": 2535,
+		"incCostGold": 3640.9999999999,
+		"initCostGold": 18394220,
+		"id": 1011,
+		"level": 10101,
+		"initCostSoul": 12839825
+	},
+	{
+		"incCostSoul": 2537.5,
+		"incCostGold": 3644.5999999999,
+		"initCostGold": 18430630,
+		"id": 1012,
+		"level": 10111,
+		"initCostSoul": 12865175
+	},
+	{
+		"incCostSoul": 2540,
+		"incCostGold": 3648.1999999999,
+		"initCostGold": 18467076,
+		"id": 1013,
+		"level": 10121,
+		"initCostSoul": 12890550
+	},
+	{
+		"incCostSoul": 2542.5,
+		"incCostGold": 3651.7999999999,
+		"initCostGold": 18503558,
+		"id": 1014,
+		"level": 10131,
+		"initCostSoul": 12915950
+	},
+	{
+		"incCostSoul": 2545,
+		"incCostGold": 3655.3999999999,
+		"initCostGold": 18540076,
+		"id": 1015,
+		"level": 10141,
+		"initCostSoul": 12941375
+	},
+	{
+		"incCostSoul": 2547.5,
+		"incCostGold": 3658.9999999999,
+		"initCostGold": 18576630,
+		"id": 1016,
+		"level": 10151,
+		"initCostSoul": 12966825
+	},
+	{
+		"incCostSoul": 2550,
+		"incCostGold": 3662.5999999999,
+		"initCostGold": 18613220,
+		"id": 1017,
+		"level": 10161,
+		"initCostSoul": 12992300
+	},
+	{
+		"incCostSoul": 2552.5,
+		"incCostGold": 3666.1999999999,
+		"initCostGold": 18649846,
+		"id": 1018,
+		"level": 10171,
+		"initCostSoul": 13017800
+	},
+	{
+		"incCostSoul": 2555,
+		"incCostGold": 3669.7999999999,
+		"initCostGold": 18686508,
+		"id": 1019,
+		"level": 10181,
+		"initCostSoul": 13043325
+	},
+	{
+		"incCostSoul": 2557.5,
+		"incCostGold": 3673.3999999999,
+		"initCostGold": 18723206,
+		"id": 1020,
+		"level": 10191,
+		"initCostSoul": 13068875
+	},
+	{
+		"incCostSoul": 2560,
+		"incCostGold": 3676.9999999999,
+		"initCostGold": 18759940,
+		"id": 1021,
+		"level": 10201,
+		"initCostSoul": 13094450
+	},
+	{
+		"incCostSoul": 2562.5,
+		"incCostGold": 3680.5999999999,
+		"initCostGold": 18796710,
+		"id": 1022,
+		"level": 10211,
+		"initCostSoul": 13120050
+	},
+	{
+		"incCostSoul": 2565,
+		"incCostGold": 3684.1999999999,
+		"initCostGold": 18833516,
+		"id": 1023,
+		"level": 10221,
+		"initCostSoul": 13145675
+	},
+	{
+		"incCostSoul": 2567.5,
+		"incCostGold": 3687.7999999999,
+		"initCostGold": 18870358,
+		"id": 1024,
+		"level": 10231,
+		"initCostSoul": 13171325
+	},
+	{
+		"incCostSoul": 2570,
+		"incCostGold": 3691.3999999999,
+		"initCostGold": 18907236,
+		"id": 1025,
+		"level": 10241,
+		"initCostSoul": 13197000
+	},
+	{
+		"incCostSoul": 2572.5,
+		"incCostGold": 3694.9999999999,
+		"initCostGold": 18944150,
+		"id": 1026,
+		"level": 10251,
+		"initCostSoul": 13222700
+	},
+	{
+		"incCostSoul": 2575,
+		"incCostGold": 3698.5999999999,
+		"initCostGold": 18981100,
+		"id": 1027,
+		"level": 10261,
+		"initCostSoul": 13248425
+	},
+	{
+		"incCostSoul": 2577.5,
+		"incCostGold": 3702.1999999999,
+		"initCostGold": 19018086,
+		"id": 1028,
+		"level": 10271,
+		"initCostSoul": 13274175
+	},
+	{
+		"incCostSoul": 2580,
+		"incCostGold": 3705.7999999999,
+		"initCostGold": 19055108,
+		"id": 1029,
+		"level": 10281,
+		"initCostSoul": 13299950
+	},
+	{
+		"incCostSoul": 2582.5,
+		"incCostGold": 3709.3999999999,
+		"initCostGold": 19092166,
+		"id": 1030,
+		"level": 10291,
+		"initCostSoul": 13325750
+	},
+	{
+		"incCostSoul": 2585,
+		"incCostGold": 3712.9999999999,
+		"initCostGold": 19129260,
+		"id": 1031,
+		"level": 10301,
+		"initCostSoul": 13351575
+	},
+	{
+		"incCostSoul": 2587.5,
+		"incCostGold": 3716.5999999999,
+		"initCostGold": 19166390,
+		"id": 1032,
+		"level": 10311,
+		"initCostSoul": 13377425
+	},
+	{
+		"incCostSoul": 2590,
+		"incCostGold": 3720.1999999999,
+		"initCostGold": 19203556,
+		"id": 1033,
+		"level": 10321,
+		"initCostSoul": 13403300
+	},
+	{
+		"incCostSoul": 2592.5,
+		"incCostGold": 3723.7999999999,
+		"initCostGold": 19240758,
+		"id": 1034,
+		"level": 10331,
+		"initCostSoul": 13429200
+	},
+	{
+		"incCostSoul": 2595,
+		"incCostGold": 3727.3999999999,
+		"initCostGold": 19277996,
+		"id": 1035,
+		"level": 10341,
+		"initCostSoul": 13455125
+	},
+	{
+		"incCostSoul": 2597.5,
+		"incCostGold": 3730.9999999999,
+		"initCostGold": 19315270,
+		"id": 1036,
+		"level": 10351,
+		"initCostSoul": 13481075
+	},
+	{
+		"incCostSoul": 2600,
+		"incCostGold": 3734.5999999999,
+		"initCostGold": 19352580,
+		"id": 1037,
+		"level": 10361,
+		"initCostSoul": 13507050
+	},
+	{
+		"incCostSoul": 2602.5,
+		"incCostGold": 3738.1999999999,
+		"initCostGold": 19389926,
+		"id": 1038,
+		"level": 10371,
+		"initCostSoul": 13533050
+	},
+	{
+		"incCostSoul": 2605,
+		"incCostGold": 3741.7999999999,
+		"initCostGold": 19427308,
+		"id": 1039,
+		"level": 10381,
+		"initCostSoul": 13559075
+	},
+	{
+		"incCostSoul": 2607.5,
+		"incCostGold": 3745.3999999999,
+		"initCostGold": 19464726,
+		"id": 1040,
+		"level": 10391,
+		"initCostSoul": 13585125
+	},
+	{
+		"incCostSoul": 2610,
+		"incCostGold": 3748.9999999999,
+		"initCostGold": 19502180,
+		"id": 1041,
+		"level": 10401,
+		"initCostSoul": 13611200
+	},
+	{
+		"incCostSoul": 2612.5,
+		"incCostGold": 3752.5999999999,
+		"initCostGold": 19539670,
+		"id": 1042,
+		"level": 10411,
+		"initCostSoul": 13637300
+	},
+	{
+		"incCostSoul": 2615,
+		"incCostGold": 3756.1999999999,
+		"initCostGold": 19577196,
+		"id": 1043,
+		"level": 10421,
+		"initCostSoul": 13663425
+	},
+	{
+		"incCostSoul": 2617.5,
+		"incCostGold": 3759.7999999999,
+		"initCostGold": 19614758,
+		"id": 1044,
+		"level": 10431,
+		"initCostSoul": 13689575
+	},
+	{
+		"incCostSoul": 2620,
+		"incCostGold": 3763.3999999999,
+		"initCostGold": 19652356,
+		"id": 1045,
+		"level": 10441,
+		"initCostSoul": 13715750
+	},
+	{
+		"incCostSoul": 2622.5,
+		"incCostGold": 3766.9999999999,
+		"initCostGold": 19689990,
+		"id": 1046,
+		"level": 10451,
+		"initCostSoul": 13741950
+	},
+	{
+		"incCostSoul": 2625,
+		"incCostGold": 3770.5999999999,
+		"initCostGold": 19727660,
+		"id": 1047,
+		"level": 10461,
+		"initCostSoul": 13768175
+	},
+	{
+		"incCostSoul": 2627.5,
+		"incCostGold": 3774.1999999999,
+		"initCostGold": 19765366,
+		"id": 1048,
+		"level": 10471,
+		"initCostSoul": 13794425
+	},
+	{
+		"incCostSoul": 2630,
+		"incCostGold": 3777.7999999999,
+		"initCostGold": 19803108,
+		"id": 1049,
+		"level": 10481,
+		"initCostSoul": 13820700
+	},
+	{
+		"incCostSoul": 2632.5,
+		"incCostGold": 3781.3999999999,
+		"initCostGold": 19840886,
+		"id": 1050,
+		"level": 10491,
+		"initCostSoul": 13847000
+	},
+	{
+		"incCostSoul": 2635,
+		"incCostGold": 3784.9999999999,
+		"initCostGold": 19878700,
+		"id": 1051,
+		"level": 10501,
+		"initCostSoul": 13873325
+	},
+	{
+		"incCostSoul": 2637.5,
+		"incCostGold": 3788.5999999999,
+		"initCostGold": 19916550,
+		"id": 1052,
+		"level": 10511,
+		"initCostSoul": 13899675
+	},
+	{
+		"incCostSoul": 2640,
+		"incCostGold": 3792.1999999999,
+		"initCostGold": 19954436,
+		"id": 1053,
+		"level": 10521,
+		"initCostSoul": 13926050
+	},
+	{
+		"incCostSoul": 2642.5,
+		"incCostGold": 3795.7999999999,
+		"initCostGold": 19992358,
+		"id": 1054,
+		"level": 10531,
+		"initCostSoul": 13952450
+	},
+	{
+		"incCostSoul": 2645,
+		"incCostGold": 3799.3999999999,
+		"initCostGold": 20030316,
+		"id": 1055,
+		"level": 10541,
+		"initCostSoul": 13978875
+	},
+	{
+		"incCostSoul": 2647.5,
+		"incCostGold": 3802.9999999999,
+		"initCostGold": 20068310,
+		"id": 1056,
+		"level": 10551,
+		"initCostSoul": 14005325
+	},
+	{
+		"incCostSoul": 2650,
+		"incCostGold": 3806.5999999999,
+		"initCostGold": 20106340,
+		"id": 1057,
+		"level": 10561,
+		"initCostSoul": 14031800
+	},
+	{
+		"incCostSoul": 2652.5,
+		"incCostGold": 3810.1999999999,
+		"initCostGold": 20144406,
+		"id": 1058,
+		"level": 10571,
+		"initCostSoul": 14058300
+	},
+	{
+		"incCostSoul": 2655,
+		"incCostGold": 3813.7999999999,
+		"initCostGold": 20182508,
+		"id": 1059,
+		"level": 10581,
+		"initCostSoul": 14084825
+	},
+	{
+		"incCostSoul": 2657.5,
+		"incCostGold": 3817.3999999999,
+		"initCostGold": 20220646,
+		"id": 1060,
+		"level": 10591,
+		"initCostSoul": 14111375
+	},
+	{
+		"incCostSoul": 2660,
+		"incCostGold": 3820.9999999999,
+		"initCostGold": 20258820,
+		"id": 1061,
+		"level": 10601,
+		"initCostSoul": 14137950
+	},
+	{
+		"incCostSoul": 2662.5,
+		"incCostGold": 3824.5999999999,
+		"initCostGold": 20297030,
+		"id": 1062,
+		"level": 10611,
+		"initCostSoul": 14164550
+	},
+	{
+		"incCostSoul": 2665,
+		"incCostGold": 3828.1999999999,
+		"initCostGold": 20335276,
+		"id": 1063,
+		"level": 10621,
+		"initCostSoul": 14191175
+	},
+	{
+		"incCostSoul": 2667.5,
+		"incCostGold": 3831.7999999999,
+		"initCostGold": 20373558,
+		"id": 1064,
+		"level": 10631,
+		"initCostSoul": 14217825
+	},
+	{
+		"incCostSoul": 2670,
+		"incCostGold": 3835.3999999999,
+		"initCostGold": 20411876,
+		"id": 1065,
+		"level": 10641,
+		"initCostSoul": 14244500
+	},
+	{
+		"incCostSoul": 2672.5,
+		"incCostGold": 3838.9999999999,
+		"initCostGold": 20450230,
+		"id": 1066,
+		"level": 10651,
+		"initCostSoul": 14271200
+	},
+	{
+		"incCostSoul": 2675,
+		"incCostGold": 3842.5999999999,
+		"initCostGold": 20488620,
+		"id": 1067,
+		"level": 10661,
+		"initCostSoul": 14297925
+	},
+	{
+		"incCostSoul": 2677.5,
+		"incCostGold": 3846.1999999999,
+		"initCostGold": 20527046,
+		"id": 1068,
+		"level": 10671,
+		"initCostSoul": 14324675
+	},
+	{
+		"incCostSoul": 2680,
+		"incCostGold": 3849.7999999999,
+		"initCostGold": 20565508,
+		"id": 1069,
+		"level": 10681,
+		"initCostSoul": 14351450
+	},
+	{
+		"incCostSoul": 2682.5,
+		"incCostGold": 3853.3999999999,
+		"initCostGold": 20604006,
+		"id": 1070,
+		"level": 10691,
+		"initCostSoul": 14378250
+	},
+	{
+		"incCostSoul": 2685,
+		"incCostGold": 3856.9999999999,
+		"initCostGold": 20642540,
+		"id": 1071,
+		"level": 10701,
+		"initCostSoul": 14405075
+	},
+	{
+		"incCostSoul": 2687.5,
+		"incCostGold": 3860.5999999999,
+		"initCostGold": 20681110,
+		"id": 1072,
+		"level": 10711,
+		"initCostSoul": 14431925
+	},
+	{
+		"incCostSoul": 2690,
+		"incCostGold": 3864.1999999999,
+		"initCostGold": 20719716,
+		"id": 1073,
+		"level": 10721,
+		"initCostSoul": 14458800
+	},
+	{
+		"incCostSoul": 2692.5,
+		"incCostGold": 3867.7999999999,
+		"initCostGold": 20758358,
+		"id": 1074,
+		"level": 10731,
+		"initCostSoul": 14485700
+	},
+	{
+		"incCostSoul": 2695,
+		"incCostGold": 3871.3999999999,
+		"initCostGold": 20797036,
+		"id": 1075,
+		"level": 10741,
+		"initCostSoul": 14512625
+	},
+	{
+		"incCostSoul": 2697.5,
+		"incCostGold": 3874.9999999999,
+		"initCostGold": 20835750,
+		"id": 1076,
+		"level": 10751,
+		"initCostSoul": 14539575
+	},
+	{
+		"incCostSoul": 2700,
+		"incCostGold": 3878.5999999999,
+		"initCostGold": 20874500,
+		"id": 1077,
+		"level": 10761,
+		"initCostSoul": 14566550
+	},
+	{
+		"incCostSoul": 2702.5,
+		"incCostGold": 3882.1999999999,
+		"initCostGold": 20913286,
+		"id": 1078,
+		"level": 10771,
+		"initCostSoul": 14593550
+	},
+	{
+		"incCostSoul": 2705,
+		"incCostGold": 3885.7999999999,
+		"initCostGold": 20952108,
+		"id": 1079,
+		"level": 10781,
+		"initCostSoul": 14620575
+	},
+	{
+		"incCostSoul": 2707.5,
+		"incCostGold": 3889.3999999999,
+		"initCostGold": 20990966,
+		"id": 1080,
+		"level": 10791,
+		"initCostSoul": 14647625
+	},
+	{
+		"incCostSoul": 2710,
+		"incCostGold": 3892.9999999999,
+		"initCostGold": 21029860,
+		"id": 1081,
+		"level": 10801,
+		"initCostSoul": 14674700
+	},
+	{
+		"incCostSoul": 2712.5,
+		"incCostGold": 3896.5999999999,
+		"initCostGold": 21068790,
+		"id": 1082,
+		"level": 10811,
+		"initCostSoul": 14701800
+	},
+	{
+		"incCostSoul": 2715,
+		"incCostGold": 3900.1999999999,
+		"initCostGold": 21107756,
+		"id": 1083,
+		"level": 10821,
+		"initCostSoul": 14728925
+	},
+	{
+		"incCostSoul": 2717.5,
+		"incCostGold": 3903.7999999999,
+		"initCostGold": 21146758,
+		"id": 1084,
+		"level": 10831,
+		"initCostSoul": 14756075
+	},
+	{
+		"incCostSoul": 2720,
+		"incCostGold": 3907.3999999999,
+		"initCostGold": 21185796,
+		"id": 1085,
+		"level": 10841,
+		"initCostSoul": 14783250
+	},
+	{
+		"incCostSoul": 2722.5,
+		"incCostGold": 3910.9999999999,
+		"initCostGold": 21224870,
+		"id": 1086,
+		"level": 10851,
+		"initCostSoul": 14810450
+	},
+	{
+		"incCostSoul": 2725,
+		"incCostGold": 3914.5999999999,
+		"initCostGold": 21263980,
+		"id": 1087,
+		"level": 10861,
+		"initCostSoul": 14837675
+	},
+	{
+		"incCostSoul": 2727.5,
+		"incCostGold": 3918.1999999999,
+		"initCostGold": 21303126,
+		"id": 1088,
+		"level": 10871,
+		"initCostSoul": 14864925
+	},
+	{
+		"incCostSoul": 2730,
+		"incCostGold": 3921.7999999999,
+		"initCostGold": 21342308,
+		"id": 1089,
+		"level": 10881,
+		"initCostSoul": 14892200
+	},
+	{
+		"incCostSoul": 2732.5,
+		"incCostGold": 3925.3999999999,
+		"initCostGold": 21381526,
+		"id": 1090,
+		"level": 10891,
+		"initCostSoul": 14919500
+	},
+	{
+		"incCostSoul": 2735,
+		"incCostGold": 3928.9999999999,
+		"initCostGold": 21420780,
+		"id": 1091,
+		"level": 10901,
+		"initCostSoul": 14946825
+	},
+	{
+		"incCostSoul": 2737.5,
+		"incCostGold": 3932.5999999999,
+		"initCostGold": 21460070,
+		"id": 1092,
+		"level": 10911,
+		"initCostSoul": 14974175
+	},
+	{
+		"incCostSoul": 2740,
+		"incCostGold": 3936.1999999999,
+		"initCostGold": 21499396,
+		"id": 1093,
+		"level": 10921,
+		"initCostSoul": 15001550
+	},
+	{
+		"incCostSoul": 2742.5,
+		"incCostGold": 3939.7999999999,
+		"initCostGold": 21538758,
+		"id": 1094,
+		"level": 10931,
+		"initCostSoul": 15028950
+	},
+	{
+		"incCostSoul": 2745,
+		"incCostGold": 3943.3999999999,
+		"initCostGold": 21578156,
+		"id": 1095,
+		"level": 10941,
+		"initCostSoul": 15056375
+	},
+	{
+		"incCostSoul": 2747.5,
+		"incCostGold": 3946.9999999999,
+		"initCostGold": 21617590,
+		"id": 1096,
+		"level": 10951,
+		"initCostSoul": 15083825
+	},
+	{
+		"incCostSoul": 2750,
+		"incCostGold": 3950.5999999999,
+		"initCostGold": 21657060,
+		"id": 1097,
+		"level": 10961,
+		"initCostSoul": 15111300
+	},
+	{
+		"incCostSoul": 2752.5,
+		"incCostGold": 3954.1999999999,
+		"initCostGold": 21696566,
+		"id": 1098,
+		"level": 10971,
+		"initCostSoul": 15138800
+	},
+	{
+		"incCostSoul": 2755,
+		"incCostGold": 3957.7999999999,
+		"initCostGold": 21736108,
+		"id": 1099,
+		"level": 10981,
+		"initCostSoul": 15166325
+	},
+	{
+		"incCostSoul": 2757.5,
+		"incCostGold": 3961.3999999999,
+		"initCostGold": 21775686,
+		"id": 1100,
+		"level": 10991,
+		"initCostSoul": 15193875
+	},
+	{
+		"incCostSoul": 2760,
+		"incCostGold": 3964.9999999999,
+		"initCostGold": 21815300,
+		"id": 1101,
+		"level": 11001,
+		"initCostSoul": 15221450
+	},
+	{
+		"incCostSoul": 2762.5,
+		"incCostGold": 3968.5999999999,
+		"initCostGold": 21854950,
+		"id": 1102,
+		"level": 11011,
+		"initCostSoul": 15249050
+	},
+	{
+		"incCostSoul": 2765,
+		"incCostGold": 3972.1999999999,
+		"initCostGold": 21894636,
+		"id": 1103,
+		"level": 11021,
+		"initCostSoul": 15276675
+	},
+	{
+		"incCostSoul": 2767.5,
+		"incCostGold": 3975.7999999999,
+		"initCostGold": 21934358,
+		"id": 1104,
+		"level": 11031,
+		"initCostSoul": 15304325
+	},
+	{
+		"incCostSoul": 2770,
+		"incCostGold": 3979.3999999999,
+		"initCostGold": 21974116,
+		"id": 1105,
+		"level": 11041,
+		"initCostSoul": 15332000
+	},
+	{
+		"incCostSoul": 2772.5,
+		"incCostGold": 3982.9999999999,
+		"initCostGold": 22013910,
+		"id": 1106,
+		"level": 11051,
+		"initCostSoul": 15359700
+	},
+	{
+		"incCostSoul": 2775,
+		"incCostGold": 3986.5999999999,
+		"initCostGold": 22053740,
+		"id": 1107,
+		"level": 11061,
+		"initCostSoul": 15387425
+	},
+	{
+		"incCostSoul": 2777.5,
+		"incCostGold": 3990.1999999999,
+		"initCostGold": 22093606,
+		"id": 1108,
+		"level": 11071,
+		"initCostSoul": 15415175
+	},
+	{
+		"incCostSoul": 2780,
+		"incCostGold": 3993.7999999999,
+		"initCostGold": 22133508,
+		"id": 1109,
+		"level": 11081,
+		"initCostSoul": 15442950
+	},
+	{
+		"incCostSoul": 2782.5,
+		"incCostGold": 3997.3999999999,
+		"initCostGold": 22173446,
+		"id": 1110,
+		"level": 11091,
+		"initCostSoul": 15470750
+	},
+	{
+		"incCostSoul": 2785,
+		"incCostGold": 4000.9999999999,
+		"initCostGold": 22213420,
+		"id": 1111,
+		"level": 11101,
+		"initCostSoul": 15498575
+	},
+	{
+		"incCostSoul": 2787.5,
+		"incCostGold": 4004.5999999999,
+		"initCostGold": 22253430,
+		"id": 1112,
+		"level": 11111,
+		"initCostSoul": 15526425
+	},
+	{
+		"incCostSoul": 2790,
+		"incCostGold": 4008.1999999999,
+		"initCostGold": 22293476,
+		"id": 1113,
+		"level": 11121,
+		"initCostSoul": 15554300
+	},
+	{
+		"incCostSoul": 2792.5,
+		"incCostGold": 4011.7999999999,
+		"initCostGold": 22333558,
+		"id": 1114,
+		"level": 11131,
+		"initCostSoul": 15582200
+	},
+	{
+		"incCostSoul": 2795,
+		"incCostGold": 4015.3999999999,
+		"initCostGold": 22373676,
+		"id": 1115,
+		"level": 11141,
+		"initCostSoul": 15610125
+	},
+	{
+		"incCostSoul": 2797.5,
+		"incCostGold": 4018.9999999999,
+		"initCostGold": 22413830,
+		"id": 1116,
+		"level": 11151,
+		"initCostSoul": 15638075
+	},
+	{
+		"incCostSoul": 2800,
+		"incCostGold": 4022.5999999999,
+		"initCostGold": 22454020,
+		"id": 1117,
+		"level": 11161,
+		"initCostSoul": 15666050
+	},
+	{
+		"incCostSoul": 2802.5,
+		"incCostGold": 4026.1999999999,
+		"initCostGold": 22494246,
+		"id": 1118,
+		"level": 11171,
+		"initCostSoul": 15694050
+	},
+	{
+		"incCostSoul": 2805,
+		"incCostGold": 4029.7999999999,
+		"initCostGold": 22534508,
+		"id": 1119,
+		"level": 11181,
+		"initCostSoul": 15722075
+	},
+	{
+		"incCostSoul": 2807.5,
+		"incCostGold": 4033.3999999999,
+		"initCostGold": 22574806,
+		"id": 1120,
+		"level": 11191,
+		"initCostSoul": 15750125
+	},
+	{
+		"incCostSoul": 2810,
+		"incCostGold": 4036.9999999999,
+		"initCostGold": 22615140,
+		"id": 1121,
+		"level": 11201,
+		"initCostSoul": 15778200
+	},
+	{
+		"incCostSoul": 2812.5,
+		"incCostGold": 4040.5999999999,
+		"initCostGold": 22655510,
+		"id": 1122,
+		"level": 11211,
+		"initCostSoul": 15806300
+	},
+	{
+		"incCostSoul": 2815,
+		"incCostGold": 4044.1999999999,
+		"initCostGold": 22695916,
+		"id": 1123,
+		"level": 11221,
+		"initCostSoul": 15834425
+	},
+	{
+		"incCostSoul": 2817.5,
+		"incCostGold": 4047.7999999999,
+		"initCostGold": 22736358,
+		"id": 1124,
+		"level": 11231,
+		"initCostSoul": 15862575
+	},
+	{
+		"incCostSoul": 2820,
+		"incCostGold": 4051.3999999999,
+		"initCostGold": 22776836,
+		"id": 1125,
+		"level": 11241,
+		"initCostSoul": 15890750
+	},
+	{
+		"incCostSoul": 2822.5,
+		"incCostGold": 4054.9999999999,
+		"initCostGold": 22817350,
+		"id": 1126,
+		"level": 11251,
+		"initCostSoul": 15918950
+	},
+	{
+		"incCostSoul": 2825,
+		"incCostGold": 4058.5999999999,
+		"initCostGold": 22857900,
+		"id": 1127,
+		"level": 11261,
+		"initCostSoul": 15947175
+	},
+	{
+		"incCostSoul": 2827.5,
+		"incCostGold": 4062.1999999999,
+		"initCostGold": 22898486,
+		"id": 1128,
+		"level": 11271,
+		"initCostSoul": 15975425
+	},
+	{
+		"incCostSoul": 2830,
+		"incCostGold": 4065.7999999999,
+		"initCostGold": 22939108,
+		"id": 1129,
+		"level": 11281,
+		"initCostSoul": 16003700
+	},
+	{
+		"incCostSoul": 2832.5,
+		"incCostGold": 4069.3999999999,
+		"initCostGold": 22979766,
+		"id": 1130,
+		"level": 11291,
+		"initCostSoul": 16032000
+	},
+	{
+		"incCostSoul": 2835,
+		"incCostGold": 4072.9999999999,
+		"initCostGold": 23020460,
+		"id": 1131,
+		"level": 11301,
+		"initCostSoul": 16060325
+	},
+	{
+		"incCostSoul": 2837.5,
+		"incCostGold": 4076.5999999999,
+		"initCostGold": 23061190,
+		"id": 1132,
+		"level": 11311,
+		"initCostSoul": 16088675
+	},
+	{
+		"incCostSoul": 2840,
+		"incCostGold": 4080.1999999999,
+		"initCostGold": 23101956,
+		"id": 1133,
+		"level": 11321,
+		"initCostSoul": 16117050
+	},
+	{
+		"incCostSoul": 2842.5,
+		"incCostGold": 4083.7999999999,
+		"initCostGold": 23142758,
+		"id": 1134,
+		"level": 11331,
+		"initCostSoul": 16145450
+	},
+	{
+		"incCostSoul": 2845,
+		"incCostGold": 4087.3999999999,
+		"initCostGold": 23183596,
+		"id": 1135,
+		"level": 11341,
+		"initCostSoul": 16173875
+	},
+	{
+		"incCostSoul": 2847.5,
+		"incCostGold": 4090.9999999999,
+		"initCostGold": 23224470,
+		"id": 1136,
+		"level": 11351,
+		"initCostSoul": 16202325
+	},
+	{
+		"incCostSoul": 2850,
+		"incCostGold": 4094.5999999999,
+		"initCostGold": 23265380,
+		"id": 1137,
+		"level": 11361,
+		"initCostSoul": 16230800
+	},
+	{
+		"incCostSoul": 2852.5,
+		"incCostGold": 4098.1999999999,
+		"initCostGold": 23306326,
+		"id": 1138,
+		"level": 11371,
+		"initCostSoul": 16259300
+	},
+	{
+		"incCostSoul": 2855,
+		"incCostGold": 4101.7999999999,
+		"initCostGold": 23347308,
+		"id": 1139,
+		"level": 11381,
+		"initCostSoul": 16287825
+	},
+	{
+		"incCostSoul": 2857.5,
+		"incCostGold": 4105.3999999999,
+		"initCostGold": 23388326,
+		"id": 1140,
+		"level": 11391,
+		"initCostSoul": 16316375
+	},
+	{
+		"incCostSoul": 2860,
+		"incCostGold": 4108.9999999999,
+		"initCostGold": 23429380,
+		"id": 1141,
+		"level": 11401,
+		"initCostSoul": 16344950
+	},
+	{
+		"incCostSoul": 2862.5,
+		"incCostGold": 4112.5999999999,
+		"initCostGold": 23470470,
+		"id": 1142,
+		"level": 11411,
+		"initCostSoul": 16373550
+	},
+	{
+		"incCostSoul": 2865,
+		"incCostGold": 4116.1999999999,
+		"initCostGold": 23511596,
+		"id": 1143,
+		"level": 11421,
+		"initCostSoul": 16402175
+	},
+	{
+		"incCostSoul": 2867.5,
+		"incCostGold": 4119.7999999999,
+		"initCostGold": 23552758,
+		"id": 1144,
+		"level": 11431,
+		"initCostSoul": 16430825
+	},
+	{
+		"incCostSoul": 2870,
+		"incCostGold": 4123.3999999999,
+		"initCostGold": 23593956,
+		"id": 1145,
+		"level": 11441,
+		"initCostSoul": 16459500
+	},
+	{
+		"incCostSoul": 2872.5,
+		"incCostGold": 4126.9999999999,
+		"initCostGold": 23635190,
+		"id": 1146,
+		"level": 11451,
+		"initCostSoul": 16488200
+	},
+	{
+		"incCostSoul": 2875,
+		"incCostGold": 4130.5999999999,
+		"initCostGold": 23676460,
+		"id": 1147,
+		"level": 11461,
+		"initCostSoul": 16516925
+	},
+	{
+		"incCostSoul": 2877.5,
+		"incCostGold": 4134.1999999999,
+		"initCostGold": 23717766,
+		"id": 1148,
+		"level": 11471,
+		"initCostSoul": 16545675
+	},
+	{
+		"incCostSoul": 2880,
+		"incCostGold": 4137.7999999999,
+		"initCostGold": 23759108,
+		"id": 1149,
+		"level": 11481,
+		"initCostSoul": 16574450
+	},
+	{
+		"incCostSoul": 2882.5,
+		"incCostGold": 4141.3999999999,
+		"initCostGold": 23800486,
+		"id": 1150,
+		"level": 11491,
+		"initCostSoul": 16603250
+	},
+	{
+		"incCostSoul": 2885,
+		"incCostGold": 4144.9999999999,
+		"initCostGold": 23841900,
+		"id": 1151,
+		"level": 11501,
+		"initCostSoul": 16632075
+	},
+	{
+		"incCostSoul": 2887.5,
+		"incCostGold": 4148.5999999999,
+		"initCostGold": 23883350,
+		"id": 1152,
+		"level": 11511,
+		"initCostSoul": 16660925
+	},
+	{
+		"incCostSoul": 2890,
+		"incCostGold": 4152.1999999999,
+		"initCostGold": 23924836,
+		"id": 1153,
+		"level": 11521,
+		"initCostSoul": 16689800
+	},
+	{
+		"incCostSoul": 2892.5,
+		"incCostGold": 4155.7999999999,
+		"initCostGold": 23966358,
+		"id": 1154,
+		"level": 11531,
+		"initCostSoul": 16718700
+	},
+	{
+		"incCostSoul": 2895,
+		"incCostGold": 4159.3999999999,
+		"initCostGold": 24007916,
+		"id": 1155,
+		"level": 11541,
+		"initCostSoul": 16747625
+	},
+	{
+		"incCostSoul": 2897.5,
+		"incCostGold": 4162.9999999999,
+		"initCostGold": 24049510,
+		"id": 1156,
+		"level": 11551,
+		"initCostSoul": 16776575
+	},
+	{
+		"incCostSoul": 2900,
+		"incCostGold": 4166.5999999999,
+		"initCostGold": 24091140,
+		"id": 1157,
+		"level": 11561,
+		"initCostSoul": 16805550
+	},
+	{
+		"incCostSoul": 2902.5,
+		"incCostGold": 4170.1999999999,
+		"initCostGold": 24132806,
+		"id": 1158,
+		"level": 11571,
+		"initCostSoul": 16834550
+	},
+	{
+		"incCostSoul": 2905,
+		"incCostGold": 4173.7999999999,
+		"initCostGold": 24174508,
+		"id": 1159,
+		"level": 11581,
+		"initCostSoul": 16863575
+	},
+	{
+		"incCostSoul": 2907.5,
+		"incCostGold": 4177.3999999999,
+		"initCostGold": 24216246,
+		"id": 1160,
+		"level": 11591,
+		"initCostSoul": 16892625
+	},
+	{
+		"incCostSoul": 2910,
+		"incCostGold": 4180.9999999999,
+		"initCostGold": 24258020,
+		"id": 1161,
+		"level": 11601,
+		"initCostSoul": 16921700
+	},
+	{
+		"incCostSoul": 2912.5,
+		"incCostGold": 4184.5999999999,
+		"initCostGold": 24299830,
+		"id": 1162,
+		"level": 11611,
+		"initCostSoul": 16950800
+	},
+	{
+		"incCostSoul": 2915,
+		"incCostGold": 4188.1999999999,
+		"initCostGold": 24341676,
+		"id": 1163,
+		"level": 11621,
+		"initCostSoul": 16979925
+	},
+	{
+		"incCostSoul": 2917.5,
+		"incCostGold": 4191.7999999999,
+		"initCostGold": 24383558,
+		"id": 1164,
+		"level": 11631,
+		"initCostSoul": 17009075
+	},
+	{
+		"incCostSoul": 2920,
+		"incCostGold": 4195.3999999999,
+		"initCostGold": 24425476,
+		"id": 1165,
+		"level": 11641,
+		"initCostSoul": 17038250
+	},
+	{
+		"incCostSoul": 2922.5,
+		"incCostGold": 4198.9999999999,
+		"initCostGold": 24467430,
+		"id": 1166,
+		"level": 11651,
+		"initCostSoul": 17067450
+	},
+	{
+		"incCostSoul": 2925,
+		"incCostGold": 4202.5999999999,
+		"initCostGold": 24509420,
+		"id": 1167,
+		"level": 11661,
+		"initCostSoul": 17096675
+	},
+	{
+		"incCostSoul": 2927.5,
+		"incCostGold": 4206.1999999999,
+		"initCostGold": 24551446,
+		"id": 1168,
+		"level": 11671,
+		"initCostSoul": 17125925
+	},
+	{
+		"incCostSoul": 2930,
+		"incCostGold": 4209.7999999999,
+		"initCostGold": 24593508,
+		"id": 1169,
+		"level": 11681,
+		"initCostSoul": 17155200
+	},
+	{
+		"incCostSoul": 2932.5,
+		"incCostGold": 4213.3999999999,
+		"initCostGold": 24635606,
+		"id": 1170,
+		"level": 11691,
+		"initCostSoul": 17184500
+	},
+	{
+		"incCostSoul": 2935,
+		"incCostGold": 4216.9999999999,
+		"initCostGold": 24677740,
+		"id": 1171,
+		"level": 11701,
+		"initCostSoul": 17213825
+	},
+	{
+		"incCostSoul": 2937.5,
+		"incCostGold": 4220.5999999999,
+		"initCostGold": 24719910,
+		"id": 1172,
+		"level": 11711,
+		"initCostSoul": 17243175
+	},
+	{
+		"incCostSoul": 2940,
+		"incCostGold": 4224.1999999999,
+		"initCostGold": 24762116,
+		"id": 1173,
+		"level": 11721,
+		"initCostSoul": 17272550
+	},
+	{
+		"incCostSoul": 2942.5,
+		"incCostGold": 4227.7999999999,
+		"initCostGold": 24804358,
+		"id": 1174,
+		"level": 11731,
+		"initCostSoul": 17301950
+	},
+	{
+		"incCostSoul": 2945,
+		"incCostGold": 4231.3999999999,
+		"initCostGold": 24846636,
+		"id": 1175,
+		"level": 11741,
+		"initCostSoul": 17331375
+	},
+	{
+		"incCostSoul": 2947.5,
+		"incCostGold": 4234.9999999999,
+		"initCostGold": 24888950,
+		"id": 1176,
+		"level": 11751,
+		"initCostSoul": 17360825
+	},
+	{
+		"incCostSoul": 2950,
+		"incCostGold": 4238.5999999999,
+		"initCostGold": 24931300,
+		"id": 1177,
+		"level": 11761,
+		"initCostSoul": 17390300
+	},
+	{
+		"incCostSoul": 2952.5,
+		"incCostGold": 4242.1999999999,
+		"initCostGold": 24973686,
+		"id": 1178,
+		"level": 11771,
+		"initCostSoul": 17419800
+	},
+	{
+		"incCostSoul": 2955,
+		"incCostGold": 4245.7999999999,
+		"initCostGold": 25016108,
+		"id": 1179,
+		"level": 11781,
+		"initCostSoul": 17449325
+	},
+	{
+		"incCostSoul": 2957.5,
+		"incCostGold": 4249.3999999999,
+		"initCostGold": 25058566,
+		"id": 1180,
+		"level": 11791,
+		"initCostSoul": 17478875
+	},
+	{
+		"incCostSoul": 2960,
+		"incCostGold": 4252.9999999999,
+		"initCostGold": 25101060,
+		"id": 1181,
+		"level": 11801,
+		"initCostSoul": 17508450
+	},
+	{
+		"incCostSoul": 2962.5,
+		"incCostGold": 4256.5999999999,
+		"initCostGold": 25143590,
+		"id": 1182,
+		"level": 11811,
+		"initCostSoul": 17538050
+	},
+	{
+		"incCostSoul": 2965,
+		"incCostGold": 4260.1999999999,
+		"initCostGold": 25186156,
+		"id": 1183,
+		"level": 11821,
+		"initCostSoul": 17567675
+	},
+	{
+		"incCostSoul": 2967.5,
+		"incCostGold": 4263.7999999999,
+		"initCostGold": 25228758,
+		"id": 1184,
+		"level": 11831,
+		"initCostSoul": 17597325
+	},
+	{
+		"incCostSoul": 2970,
+		"incCostGold": 4267.3999999999,
+		"initCostGold": 25271396,
+		"id": 1185,
+		"level": 11841,
+		"initCostSoul": 17627000
+	},
+	{
+		"incCostSoul": 2972.5,
+		"incCostGold": 4270.9999999999,
+		"initCostGold": 25314070,
+		"id": 1186,
+		"level": 11851,
+		"initCostSoul": 17656700
+	},
+	{
+		"incCostSoul": 2975,
+		"incCostGold": 4274.5999999999,
+		"initCostGold": 25356780,
+		"id": 1187,
+		"level": 11861,
+		"initCostSoul": 17686425
+	},
+	{
+		"incCostSoul": 2977.5,
+		"incCostGold": 4278.1999999999,
+		"initCostGold": 25399526,
+		"id": 1188,
+		"level": 11871,
+		"initCostSoul": 17716175
+	},
+	{
+		"incCostSoul": 2980,
+		"incCostGold": 4281.7999999999,
+		"initCostGold": 25442308,
+		"id": 1189,
+		"level": 11881,
+		"initCostSoul": 17745950
+	},
+	{
+		"incCostSoul": 2982.5,
+		"incCostGold": 4285.3999999999,
+		"initCostGold": 25485126,
+		"id": 1190,
+		"level": 11891,
+		"initCostSoul": 17775750
+	},
+	{
+		"incCostSoul": 2985,
+		"incCostGold": 4288.9999999999,
+		"initCostGold": 25527980,
+		"id": 1191,
+		"level": 11901,
+		"initCostSoul": 17805575
+	},
+	{
+		"incCostSoul": 2987.5,
+		"incCostGold": 4292.5999999999,
+		"initCostGold": 25570870,
+		"id": 1192,
+		"level": 11911,
+		"initCostSoul": 17835425
+	},
+	{
+		"incCostSoul": 2990,
+		"incCostGold": 4296.1999999999,
+		"initCostGold": 25613796,
+		"id": 1193,
+		"level": 11921,
+		"initCostSoul": 17865300
+	},
+	{
+		"incCostSoul": 2992.5,
+		"incCostGold": 4299.7999999999,
+		"initCostGold": 25656758,
+		"id": 1194,
+		"level": 11931,
+		"initCostSoul": 17895200
+	},
+	{
+		"incCostSoul": 2995,
+		"incCostGold": 4303.3999999999,
+		"initCostGold": 25699756,
+		"id": 1195,
+		"level": 11941,
+		"initCostSoul": 17925125
+	},
+	{
+		"incCostSoul": 2997.5,
+		"incCostGold": 4306.9999999999,
+		"initCostGold": 25742790,
+		"id": 1196,
+		"level": 11951,
+		"initCostSoul": 17955075
+	},
+	{
+		"incCostSoul": 3000,
+		"incCostGold": 4310.5999999999,
+		"initCostGold": 25785860,
+		"id": 1197,
+		"level": 11961,
+		"initCostSoul": 17985050
+	},
+	{
+		"incCostSoul": 3002.5,
+		"incCostGold": 4314.1999999999,
+		"initCostGold": 25828966,
+		"id": 1198,
+		"level": 11971,
+		"initCostSoul": 18015050
+	},
+	{
+		"incCostSoul": 3005,
+		"incCostGold": 4317.7999999999,
+		"initCostGold": 25872108,
+		"id": 1199,
+		"level": 11981,
+		"initCostSoul": 18045075
+	},
+	{
+		"incCostSoul": 3007.5,
+		"incCostGold": 4321.3999999999,
+		"initCostGold": 25915286,
+		"id": 1200,
+		"level": 11991,
+		"initCostSoul": 18075125
+	},
+	{
+		"incCostSoul": 3010,
+		"incCostGold": 4324.9999999999,
+		"initCostGold": 25958500,
+		"id": 1201,
+		"level": 12001,
+		"initCostSoul": 18105200
+	}
+]

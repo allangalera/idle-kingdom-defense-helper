@@ -1,4 +1,3 @@
-// import { A } from '@mobily/ts-belt';
 import heroListJson from '$lib/data/heroList.json';
 import tiersJson from '$lib/data/ranks.json';
 import classesListJson from '$lib/data/classes.json';

@@ -1,0 +1,252 @@
+[
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 100,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 1,
+		"id": 1
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 2,
+		"id": 2
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 3,
+		"id": 3
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 4,
+		"id": 4
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 1600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 5,
+		"id": 5
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 3200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 6,
+		"id": 6
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 6400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 7,
+		"id": 7
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 12800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 8,
+		"id": 8
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 25600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 9,
+		"id": 9
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 51200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 10,
+		"id": 10
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 102400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 11,
+		"id": 11
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 204800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 12,
+		"id": 12
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 409600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 13,
+		"id": 13
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 819200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 14,
+		"id": 14
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 1638400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 15,
+		"id": 15
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 3276800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 16,
+		"id": 16
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 6553600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 17,
+		"id": 17
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 13107200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 18,
+		"id": 18
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 26214400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 19,
+		"id": 19
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 52428800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 20,
+		"id": 20
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 104857600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 21,
+		"id": 21
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 209715200,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 22,
+		"id": 22
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 419430400,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 23,
+		"id": 23
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 838860800,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 24,
+		"id": 24
+	},
+	{
+		"getEffectType4": 0.1,
+		"getEffectType1": 0.1,
+		"getEffectType2": 0.1,
+		"cost": 1677721600,
+		"getNoneEffect": 0.6,
+		"getEffectType3": 0.1,
+		"grade": 25,
+		"id": 25
+	}
+]

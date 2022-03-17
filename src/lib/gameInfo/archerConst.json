@@ -1,0 +1,25 @@
+{
+	"INVENTORY": { "INIT": 100, "ADDSIZE": 10, "ADDCOST": 100 },
+	"CRAFT": { "QUALITY_RATES": [57, 30, 10, 3], "PROPERTY_RATE": 0.4 },
+	"ENCHANT_PROTECT": { "RATE_UP": 0.4 },
+	"ENCHANT_ARMOR_RATE": [
+		{ "shiny": [30, 40, 30], "lv": 0, "rate": 1 },
+		{ "shiny": [50, 30, 20], "lv": 4, "rate": 0.6 },
+		{ "shiny": [70, 20, 10], "lv": 7, "rate": 0.3 },
+		{ "shiny": [85, 10, 5], "lv": 10, "rate": 0.1 }
+	],
+	"PROMOTE": {
+		"MAXGRADE": 25,
+		"LIMIT_STAGE": [
+			50, 100, 200, 300, 450, 600, 750, 900, 1100, 1300, 1500, 1700, 2000, 2300, 2600, 2900, 3300,
+			3700, 4100, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8000, 8500, 9000
+		],
+		"LIMITENCHANT": 12
+	},
+	"ENCHANT_WEAPON_RATE": [
+		{ "shiny": [30, 40, 30], "lv": 0, "rate": 1 },
+		{ "shiny": [50, 30, 20], "lv": 4, "rate": 0.6 },
+		{ "shiny": [70, 20, 10], "lv": 7, "rate": 0.3 },
+		{ "shiny": [85, 10, 5], "lv": 10, "rate": 0.1 }
+	]
+}
