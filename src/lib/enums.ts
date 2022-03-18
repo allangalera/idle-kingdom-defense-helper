@@ -5,8 +5,8 @@ export const BaseGradeToTier = {
 	4: 'S',
 };
 export enum HeroTypes {
-	support = 'Support',
-	warrior = 'Warrior',
+	support = 'support',
+	warrior = 'warrior',
 }
 
 export const UnitTypeToHeroType = {

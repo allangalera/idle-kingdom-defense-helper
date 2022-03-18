@@ -1,35 +1,35 @@
-import { RarityEnum, HeroGearEquip, ArcherGearEquip, HeroTypes } from './enums';
+import type { RarityEnum, HeroGearEquip, ArcherGearEquip, HeroTypes } from './enums';
 
-type Rarity = keyof typeof RarityEnum;
+export type Rarity = keyof typeof RarityEnum;
 
-type UpgradeLevel = 1 | 2 | 3 | 4 | 5;
+export type UpgradeLevel = 1 | 2 | 3 | 4 | 5;
 
-type HeroType = keyof typeof HeroTypes;
+export type HeroType = keyof typeof HeroTypes;
 
-type HeroGear = {
+export type HeroGear = {
 	type: 'hero';
 	equip: 'all' | keyof typeof HeroGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
 
-type ArcherGear = {
+export type ArcherGear = {
 	type: 'archer';
 	equip: keyof typeof ArcherGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
 
-type Blueprint = {
+export type Blueprint = {
 	type: 'blueprint';
 	equip: 'all' | keyof typeof ArcherGearEquip;
 	rarity: Rarity;
 	level: UpgradeLevel;
 };
 
-type CardGearType = HeroGear | ArcherGear | Blueprint;
+export type CardGearType = HeroGear | ArcherGear | Blueprint;
 
-type BestGearType = {
+export type BestGearType = {
 	hero: {
 		full: `hero-${Rarity}-${UpgradeLevel}`;
 		rarity: Rarity;

@@ -6,7 +6,7 @@
 	export let hero;
 </script>
 
-<CardBorder heroType={UnitTypeToHeroType[hero.unitType]} rarity={1}>
+<CardBorder heroType={UnitTypeToHeroType[hero.unitType]} rarity={'common'} level={hero.baseGrade}>
 	<div class={styles.wrapper}>
 		<img class={styles.img} src={`images/heroes/${hero.name}.png`} alt="Helmet Gear" />
 	</div></CardBorder
