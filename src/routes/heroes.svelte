@@ -3,8 +3,6 @@
 	import { heroesGroupByTier } from '$lib/db/heroes';
 	import CardHero from '$lib/components/CardHero/index.svelte';
 	import { BaseGradeToTier } from '$lib/enums';
-
-	console.log(heroesGroupByTier);
 </script>
 
 <div class={styles.container}>
