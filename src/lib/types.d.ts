@@ -1,15 +1,10 @@
-import { RarityEnum, HeroGearEquip, ArcherGearEquip } from './enums';
+import { RarityEnum, HeroGearEquip, ArcherGearEquip, HeroTypes } from './enums';
 
 type Rarity = keyof typeof RarityEnum;
 
 type UpgradeLevel = 1 | 2 | 3 | 4 | 5;
 
-export enum Hero {
-	warrior = 'warrior',
-	support = 'support',
-}
-
-type HeroType = keyof typeof Hero;
+type HeroType = keyof typeof HeroTypes;
 
 type HeroGear = {
 	type: 'hero';

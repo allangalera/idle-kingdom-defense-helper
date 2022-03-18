@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { HeroTypes } from '$lib/enums';
+
 	import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
 
 	import * as styles from './index.css';
@@ -19,6 +21,9 @@
 		mythic: 6,
 	};
 	$: rankingLevels = level && new Array(level);
+
+	$: heroTypeImage =
+		heroType === HeroTypes.support ? 'iconClassSupporterRound' : 'iconClassWarriorRound';
 </script>
 
 <div
@@ -47,6 +52,13 @@
 						}),
 					].join(' ')}
 				>
+					{#if rarity}
+						<img
+							class={styles.rarityBackground}
+							src={`images/rarity/bgRarity${rarity}.png`}
+							alt="Rarity"
+						/>
+					{/if}
 					<slot />
 				</div>
 			</div>
@@ -54,11 +66,7 @@
 	</div>
 	{#if heroType}
 		<div class={styles.heroTypeBadge}>
-			<img
-				class={styles.badge}
-				src={`images/heroType/iconClassSupporterRound.png`}
-				alt="ranking icon"
-			/>
+			<img class={styles.badge} src={`images/heroType/${heroTypeImage}.png`} alt="ranking icon" />
 		</div>
 	{/if}
 	{#if level && rarity}

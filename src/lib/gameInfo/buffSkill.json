@@ -1,1 +1,93 @@
-[{"effectK":0.8,"id":1,"targetType":2,"desc":"HEROARCHER03_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_ARCHER03_BUFF","name":"HEROARCHER03_SKILL_NAME_1","effectType":2,"effectAssetId":"HERO_ARCHER03_BUFF","icon":"img/hero/sprHeroArcher03.png","soundFire":"HEROARCHER03"},{"effectK":0.4,"id":2,"targetType":3,"desc":"HEROARCHER04_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_ARCHER04_BUFF","name":"HEROARCHER04_SKILL_NAME_1","effectType":1,"effectAssetId":"HERO_ARCHER04_BUFF","icon":"img/hero/sprHeroArcher04.png","soundFire":"HEROARCHER04"},{"effectK":0.4,"id":3,"targetType":3,"desc":"HEROGUNNER01_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_GUNNER01_BUFF","name":"HEROGUNNER01_SKILL_NAME_1","effectType":2,"effectAssetId":"HERO_GUNNER01_BUFF","icon":"img/hero/sprHeroGunner01.png","soundFire":"HEROGUNNER01"},{"effectK":0.6,"id":4,"targetType":4,"desc":"HEROHORSEMAN02_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_HORSEMAN02_BUFF","name":"HEROHORSEMAN02_SKILL_NAME_1","effectType":5,"effectAssetId":"HERO_HORSEMAN02_BUFF","icon":"","soundFire":"HEROHORSEMAN02"},{"effectK":0.5,"id":5,"targetType":4,"desc":"HEROWIZARD01_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_WIZARD01_BUFF","name":"HEROWIZARD01_SKILL_NAME_1","effectType":51,"effectAssetId":"HERO_WIZARD01_BUFF","icon":"img/hero/sprHeroWizard01.png","soundFire":"HEROWIZARD01"},{"effectK":0.6,"id":6,"targetType":4,"desc":"HEROKNIGHT05_SKILL_DESC_1","effectDurTime":6,"assetId":"HERO_KNIGHT05_BUFF","name":"HEROKNIGHT05_SKILL_NAME_1","effectType":3,"effectAssetId":"HERO_KNIGHT05_BUFF","icon":"","soundFire":"HEROKNIGHT05"},{"effectK":0.1,"id":7,"targetType":8,"desc":"HEROWIZARD05_SKILL_DESC_1","effectDurTime":5,"assetId":"HERO_WIZARD05_BUFF","name":"HEROWIZARD05_SKILL_NAME_1","effectType":51,"effectAssetId":"HERO_WIZARD05_BUFF","icon":"img/hero/sprHeroWizard05.png","soundFire":"HEROWIZARD01"}]
+[
+	{
+		"effectK": 0.8,
+		"id": 1,
+		"targetType": 2,
+		"desc": "HEROARCHER03_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_ARCHER03_BUFF",
+		"name": "HEROARCHER03_SKILL_NAME_1",
+		"effectType": 2,
+		"effectAssetId": "HERO_ARCHER03_BUFF",
+		"icon": "img/hero/sprHeroArcher03.png",
+		"soundFire": "HEROARCHER03"
+	},
+	{
+		"effectK": 0.4,
+		"id": 2,
+		"targetType": 3,
+		"desc": "HEROARCHER04_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_ARCHER04_BUFF",
+		"name": "HEROARCHER04_SKILL_NAME_1",
+		"effectType": 1,
+		"effectAssetId": "HERO_ARCHER04_BUFF",
+		"icon": "img/hero/sprHeroArcher04.png",
+		"soundFire": "HEROARCHER04"
+	},
+	{
+		"effectK": 0.4,
+		"id": 3,
+		"targetType": 3,
+		"desc": "HEROGUNNER01_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_GUNNER01_BUFF",
+		"name": "HEROGUNNER01_SKILL_NAME_1",
+		"effectType": 2,
+		"effectAssetId": "HERO_GUNNER01_BUFF",
+		"icon": "img/hero/sprHeroGunner01.png",
+		"soundFire": "HEROGUNNER01"
+	},
+	{
+		"effectK": 0.6,
+		"id": 4,
+		"targetType": 4,
+		"desc": "HEROHORSEMAN02_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_HORSEMAN02_BUFF",
+		"name": "HEROHORSEMAN02_SKILL_NAME_1",
+		"effectType": 5,
+		"effectAssetId": "HERO_HORSEMAN02_BUFF",
+		"icon": "",
+		"soundFire": "HEROHORSEMAN02"
+	},
+	{
+		"effectK": 0.5,
+		"id": 5,
+		"targetType": 4,
+		"desc": "HEROWIZARD01_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_WIZARD01_BUFF",
+		"name": "HEROWIZARD01_SKILL_NAME_1",
+		"effectType": 51,
+		"effectAssetId": "HERO_WIZARD01_BUFF",
+		"icon": "img/hero/sprHeroWizard01.png",
+		"soundFire": "HEROWIZARD01"
+	},
+	{
+		"effectK": 0.6,
+		"id": 6,
+		"targetType": 4,
+		"desc": "HEROKNIGHT05_SKILL_DESC_1",
+		"effectDurTime": 6,
+		"assetId": "HERO_KNIGHT05_BUFF",
+		"name": "HEROKNIGHT05_SKILL_NAME_1",
+		"effectType": 3,
+		"effectAssetId": "HERO_KNIGHT05_BUFF",
+		"icon": "",
+		"soundFire": "HEROKNIGHT05"
+	},
+	{
+		"effectK": 0.1,
+		"id": 7,
+		"targetType": 8,
+		"desc": "HEROWIZARD05_SKILL_DESC_1",
+		"effectDurTime": 5,
+		"assetId": "HERO_WIZARD05_BUFF",
+		"name": "HEROWIZARD05_SKILL_NAME_1",
+		"effectType": 51,
+		"effectAssetId": "HERO_WIZARD05_BUFF",
+		"icon": "img/hero/sprHeroWizard05.png",
+		"soundFire": "HEROWIZARD01"
+	}
+]

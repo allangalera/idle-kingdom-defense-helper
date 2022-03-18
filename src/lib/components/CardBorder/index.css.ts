@@ -99,6 +99,14 @@ export const ranking = style({
 	alignItems: 'center',
 });
 
+export const rarityBackground = style({
+	position: 'absolute',
+	width: '100%',
+	height: '100%',
+	top: 0,
+	left: 0,
+});
+
 export const badge = style({
 	width: theme.sizes[6],
 });
