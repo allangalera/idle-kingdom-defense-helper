@@ -685,6 +685,12 @@
 		"asset": "csd/archer/popupBreakSelect",
 		"assetType": 1
 	},
+	"POPUP_PASS_HEROSELECT": {
+		"scale": 1,
+		"id": "POPUP_PASS_HEROSELECT",
+		"asset": "csd/pass/popupPassHeroSelect",
+		"assetType": 1
+	},
 	"HERO_KNIGHT09": {
 		"scale": 0.65,
 		"id": "HERO_KNIGHT09",

@@ -1,1 +1,23 @@
-[{"id":1,"level":1,"incCost":10,"initCost":100},{"id":2,"level":501,"incCost":20,"initCost":5100},{"id":3,"level":1001,"incCost":30,"initCost":15100},{"id":4,"level":1501,"incCost":40,"initCost":30100},{"id":5,"level":2001,"incCost":50,"initCost":50100},{"id":6,"level":2501,"incCost":60,"initCost":75100},{"id":7,"level":3001,"incCost":70,"initCost":105100},{"id":8,"level":3501,"incCost":80,"initCost":140100},{"id":9,"level":4001,"incCost":90,"initCost":180100},{"id":10,"level":4501,"incCost":100,"initCost":225100},{"id":11,"level":5001,"incCost":110,"initCost":275100},{"id":12,"level":5501,"incCost":120,"initCost":330100},{"id":13,"level":6001,"incCost":130,"initCost":390100},{"id":14,"level":6501,"incCost":140,"initCost":455100},{"id":15,"level":7001,"incCost":150,"initCost":525100},{"id":16,"level":7501,"incCost":160,"initCost":600100},{"id":17,"level":8001,"incCost":170,"initCost":680100},{"id":18,"level":8501,"incCost":180,"initCost":765100},{"id":19,"level":9001,"incCost":190,"initCost":855100},{"id":20,"level":9501,"incCost":200,"initCost":950100},{"id":21,"level":10001,"incCost":210,"initCost":1050100}]
+[
+	{ "id": 1, "level": 1, "incCost": 10, "initCost": 100 },
+	{ "id": 2, "level": 501, "incCost": 20, "initCost": 5100 },
+	{ "id": 3, "level": 1001, "incCost": 30, "initCost": 15100 },
+	{ "id": 4, "level": 1501, "incCost": 40, "initCost": 30100 },
+	{ "id": 5, "level": 2001, "incCost": 50, "initCost": 50100 },
+	{ "id": 6, "level": 2501, "incCost": 60, "initCost": 75100 },
+	{ "id": 7, "level": 3001, "incCost": 70, "initCost": 105100 },
+	{ "id": 8, "level": 3501, "incCost": 80, "initCost": 140100 },
+	{ "id": 9, "level": 4001, "incCost": 90, "initCost": 180100 },
+	{ "id": 10, "level": 4501, "incCost": 100, "initCost": 225100 },
+	{ "id": 11, "level": 5001, "incCost": 110, "initCost": 275100 },
+	{ "id": 12, "level": 5501, "incCost": 120, "initCost": 330100 },
+	{ "id": 13, "level": 6001, "incCost": 130, "initCost": 390100 },
+	{ "id": 14, "level": 6501, "incCost": 140, "initCost": 455100 },
+	{ "id": 15, "level": 7001, "incCost": 150, "initCost": 525100 },
+	{ "id": 16, "level": 7501, "incCost": 160, "initCost": 600100 },
+	{ "id": 17, "level": 8001, "incCost": 170, "initCost": 680100 },
+	{ "id": 18, "level": 8501, "incCost": 180, "initCost": 765100 },
+	{ "id": 19, "level": 9001, "incCost": 190, "initCost": 855100 },
+	{ "id": 20, "level": 9501, "incCost": 200, "initCost": 950100 },
+	{ "id": 21, "level": 10001, "incCost": 210, "initCost": 1050100 }
+]

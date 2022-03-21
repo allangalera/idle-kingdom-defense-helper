@@ -1,1 +1,209 @@
-[{"result":{"rates":[0.7,0.22,0.08],"grades":[1,2,3]},"costCash":25,"getExp":25,"id":1,"exp":0,"costScroll":25,"stage":220},{"result":{"rates":[0.7,0.22,0.08],"grades":[2,3,4]},"costCash":50,"getExp":50,"id":2,"exp":10000,"costScroll":50,"stage":350},{"result":{"rates":[0.7,0.22,0.08],"grades":[3,4,5]},"costCash":75,"getExp":75,"id":3,"exp":30000,"costScroll":75,"stage":500},{"result":{"rates":[0.7,0.22,0.08],"grades":[4,5,6]},"costCash":100,"getExp":100,"id":4,"exp":60000,"costScroll":100,"stage":700},{"result":{"rates":[0.7,0.22,0.08],"grades":[5,6,7]},"costCash":125,"getExp":125,"id":5,"exp":100000,"costScroll":125,"stage":1000},{"result":{"rates":[0.7,0.22,0.08],"grades":[6,7,8]},"costCash":150,"getExp":150,"id":6,"exp":150000,"costScroll":150,"stage":1350},{"result":{"rates":[0.7,0.22,0.08],"grades":[7,8,9]},"costCash":175,"getExp":175,"id":7,"exp":210000,"costScroll":175,"stage":1700},{"result":{"rates":[0.7,0.22,0.08],"grades":[8,9,10]},"costCash":200,"getExp":200,"id":8,"exp":280000,"costScroll":200,"stage":2200},{"result":{"rates":[0.7,0.22,0.08],"grades":[9,10,11]},"costCash":225,"getExp":225,"id":9,"exp":360000,"costScroll":225,"stage":2700},{"result":{"rates":[0.7,0.22,0.08],"grades":[10,11,12]},"costCash":250,"getExp":250,"id":10,"exp":450000,"costScroll":250,"stage":3200},{"result":{"rates":[0.7,0.22,0.08],"grades":[11,12,13]},"costCash":275,"getExp":275,"id":11,"exp":550000,"costScroll":275,"stage":3700},{"result":{"rates":[0.7,0.22,0.08],"grades":[12,13,14]},"costCash":300,"getExp":300,"id":12,"exp":660000,"costScroll":300,"stage":4400},{"result":{"rates":[0.7,0.22,0.08],"grades":[13,14,15]},"costCash":325,"getExp":325,"id":13,"exp":780000,"costScroll":325,"stage":5100},{"result":{"rates":[0.7,0.22,0.08],"grades":[14,15,16]},"costCash":350,"getExp":350,"id":14,"exp":910000,"costScroll":350,"stage":5800},{"result":{"rates":[0.7,0.22,0.08],"grades":[15,16,17]},"costCash":375,"getExp":375,"id":15,"exp":1050000,"costScroll":375,"stage":6500},{"result":{"rates":[0.7,0.22,0.08],"grades":[16,17,18]},"costCash":400,"getExp":400,"id":16,"exp":1200000,"costScroll":400,"stage":7200},{"result":{"rates":[0.7,0.22,0.08],"grades":[17,18,19]},"costCash":425,"getExp":425,"id":17,"exp":1360000,"costScroll":425,"stage":7900},{"result":{"rates":[0.7,0.22,0.08],"grades":[18,19,20]},"costCash":450,"getExp":450,"id":18,"exp":1530000,"costScroll":450,"stage":8600},{"result":{"rates":[0.7,0.22,0.08],"grades":[19,20,21]},"costCash":475,"getExp":475,"id":19,"exp":1710000,"costScroll":475,"stage":9300},{"result":{"rates":[0.7,0.22,0.08],"grades":[20,21,22]},"costCash":500,"getExp":500,"id":20,"exp":1900000,"costScroll":500,"stage":10000},{"result":{"rates":[0.7,0.22,0.08],"grades":[21,22,23]},"costCash":525,"getExp":525,"id":21,"exp":2100000,"costScroll":525,"stage":10700},{"result":{"rates":[0.7,0.22,0.08],"grades":[22,23,24]},"costCash":550,"getExp":550,"id":22,"exp":2310000,"costScroll":550,"stage":11400},{"result":{"rates":[0.7,0.22,0.08],"grades":[23,24,25]},"costCash":575,"getExp":575,"id":23,"exp":2530000,"costScroll":575,"stage":12100}]
+[
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [1, 2, 3] },
+		"costCash": 25,
+		"getExp": 25,
+		"id": 1,
+		"exp": 0,
+		"costScroll": 25,
+		"stage": 220
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [2, 3, 4] },
+		"costCash": 50,
+		"getExp": 50,
+		"id": 2,
+		"exp": 10000,
+		"costScroll": 50,
+		"stage": 350
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [3, 4, 5] },
+		"costCash": 75,
+		"getExp": 75,
+		"id": 3,
+		"exp": 30000,
+		"costScroll": 75,
+		"stage": 500
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [4, 5, 6] },
+		"costCash": 100,
+		"getExp": 100,
+		"id": 4,
+		"exp": 60000,
+		"costScroll": 100,
+		"stage": 700
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [5, 6, 7] },
+		"costCash": 125,
+		"getExp": 125,
+		"id": 5,
+		"exp": 100000,
+		"costScroll": 125,
+		"stage": 1000
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [6, 7, 8] },
+		"costCash": 150,
+		"getExp": 150,
+		"id": 6,
+		"exp": 150000,
+		"costScroll": 150,
+		"stage": 1350
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [7, 8, 9] },
+		"costCash": 175,
+		"getExp": 175,
+		"id": 7,
+		"exp": 210000,
+		"costScroll": 175,
+		"stage": 1700
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [8, 9, 10] },
+		"costCash": 200,
+		"getExp": 200,
+		"id": 8,
+		"exp": 280000,
+		"costScroll": 200,
+		"stage": 2200
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [9, 10, 11] },
+		"costCash": 225,
+		"getExp": 225,
+		"id": 9,
+		"exp": 360000,
+		"costScroll": 225,
+		"stage": 2700
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [10, 11, 12] },
+		"costCash": 250,
+		"getExp": 250,
+		"id": 10,
+		"exp": 450000,
+		"costScroll": 250,
+		"stage": 3200
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [11, 12, 13] },
+		"costCash": 275,
+		"getExp": 275,
+		"id": 11,
+		"exp": 550000,
+		"costScroll": 275,
+		"stage": 3700
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [12, 13, 14] },
+		"costCash": 300,
+		"getExp": 300,
+		"id": 12,
+		"exp": 660000,
+		"costScroll": 300,
+		"stage": 4400
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [13, 14, 15] },
+		"costCash": 325,
+		"getExp": 325,
+		"id": 13,
+		"exp": 780000,
+		"costScroll": 325,
+		"stage": 5100
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [14, 15, 16] },
+		"costCash": 350,
+		"getExp": 350,
+		"id": 14,
+		"exp": 910000,
+		"costScroll": 350,
+		"stage": 5800
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [15, 16, 17] },
+		"costCash": 375,
+		"getExp": 375,
+		"id": 15,
+		"exp": 1050000,
+		"costScroll": 375,
+		"stage": 6500
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [16, 17, 18] },
+		"costCash": 400,
+		"getExp": 400,
+		"id": 16,
+		"exp": 1200000,
+		"costScroll": 400,
+		"stage": 7200
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [17, 18, 19] },
+		"costCash": 425,
+		"getExp": 425,
+		"id": 17,
+		"exp": 1360000,
+		"costScroll": 425,
+		"stage": 7900
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [18, 19, 20] },
+		"costCash": 450,
+		"getExp": 450,
+		"id": 18,
+		"exp": 1530000,
+		"costScroll": 450,
+		"stage": 8600
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [19, 20, 21] },
+		"costCash": 475,
+		"getExp": 475,
+		"id": 19,
+		"exp": 1710000,
+		"costScroll": 475,
+		"stage": 9300
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [20, 21, 22] },
+		"costCash": 500,
+		"getExp": 500,
+		"id": 20,
+		"exp": 1900000,
+		"costScroll": 500,
+		"stage": 10000
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [21, 22, 23] },
+		"costCash": 525,
+		"getExp": 525,
+		"id": 21,
+		"exp": 2100000,
+		"costScroll": 525,
+		"stage": 10700
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [22, 23, 24] },
+		"costCash": 550,
+		"getExp": 550,
+		"id": 22,
+		"exp": 2310000,
+		"costScroll": 550,
+		"stage": 11400
+	},
+	{
+		"result": { "rates": [0.7, 0.22, 0.08], "grades": [23, 24, 25] },
+		"costCash": 575,
+		"getExp": 575,
+		"id": 23,
+		"exp": 2530000,
+		"costScroll": 575,
+		"stage": 12100
+	}
+]

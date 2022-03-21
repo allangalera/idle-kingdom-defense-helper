@@ -1,1 +1,2882 @@
-[{"unlockStage":1,"assetId":2,"difficultyStage":20,"id":1,"lv":1,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":30,"assetId":2,"difficultyStage":50,"id":2,"lv":2,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":60,"assetId":2,"difficultyStage":120,"id":3,"lv":3,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":120,"assetId":2,"difficultyStage":200,"id":4,"lv":4,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":200,"assetId":2,"difficultyStage":281,"id":5,"lv":5,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":281,"assetId":2,"difficultyStage":407,"id":6,"lv":6,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":407,"assetId":2,"difficultyStage":533,"id":7,"lv":7,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":533,"assetId":2,"difficultyStage":659,"id":8,"lv":8,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":659,"assetId":2,"difficultyStage":785,"id":9,"lv":9,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":785,"assetId":2,"difficultyStage":911,"id":10,"lv":10,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":911,"assetId":2,"difficultyStage":1037,"id":11,"lv":11,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1037,"assetId":2,"difficultyStage":1163,"id":12,"lv":12,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1163,"assetId":2,"difficultyStage":1289,"id":13,"lv":13,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1289,"assetId":2,"difficultyStage":1415,"id":14,"lv":14,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1415,"assetId":2,"difficultyStage":1541,"id":15,"lv":15,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1541,"assetId":2,"difficultyStage":1667,"id":16,"lv":16,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1667,"assetId":2,"difficultyStage":1793,"id":17,"lv":17,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1793,"assetId":2,"difficultyStage":1919,"id":18,"lv":18,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1919,"assetId":2,"difficultyStage":2045,"id":19,"lv":19,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2045,"assetId":2,"difficultyStage":2171,"id":20,"lv":20,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2171,"assetId":2,"difficultyStage":2297,"id":21,"lv":21,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2297,"assetId":2,"difficultyStage":2423,"id":22,"lv":22,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2423,"assetId":2,"difficultyStage":2549,"id":23,"lv":23,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2549,"assetId":2,"difficultyStage":2675,"id":24,"lv":24,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2675,"assetId":2,"difficultyStage":2801,"id":25,"lv":25,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2801,"assetId":2,"difficultyStage":2927,"id":26,"lv":26,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":2927,"assetId":2,"difficultyStage":3053,"id":27,"lv":27,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3053,"assetId":2,"difficultyStage":3179,"id":28,"lv":28,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3179,"assetId":2,"difficultyStage":3305,"id":29,"lv":29,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3305,"assetId":2,"difficultyStage":3431,"id":30,"lv":30,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3431,"assetId":2,"difficultyStage":3557,"id":31,"lv":31,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3557,"assetId":2,"difficultyStage":3683,"id":32,"lv":32,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3683,"assetId":2,"difficultyStage":3809,"id":33,"lv":33,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3809,"assetId":2,"difficultyStage":3935,"id":34,"lv":34,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":3935,"assetId":2,"difficultyStage":4061,"id":35,"lv":35,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4061,"assetId":2,"difficultyStage":4187,"id":36,"lv":36,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4187,"assetId":2,"difficultyStage":4313,"id":37,"lv":37,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4313,"assetId":2,"difficultyStage":4439,"id":38,"lv":38,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4439,"assetId":2,"difficultyStage":4565,"id":39,"lv":39,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4565,"assetId":2,"difficultyStage":4691,"id":40,"lv":40,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4691,"assetId":2,"difficultyStage":4817,"id":41,"lv":41,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4817,"assetId":2,"difficultyStage":4943,"id":42,"lv":42,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":4943,"assetId":2,"difficultyStage":5069,"id":43,"lv":43,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5069,"assetId":2,"difficultyStage":5195,"id":44,"lv":44,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5195,"assetId":2,"difficultyStage":5321,"id":45,"lv":45,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5321,"assetId":2,"difficultyStage":5447,"id":46,"lv":46,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5447,"assetId":2,"difficultyStage":5573,"id":47,"lv":47,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5573,"assetId":2,"difficultyStage":5699,"id":48,"lv":48,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5699,"assetId":2,"difficultyStage":5825,"id":49,"lv":49,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5825,"assetId":2,"difficultyStage":5951,"id":50,"lv":50,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":5951,"assetId":2,"difficultyStage":6077,"id":51,"lv":51,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6077,"assetId":2,"difficultyStage":6203,"id":52,"lv":52,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6203,"assetId":2,"difficultyStage":6329,"id":53,"lv":53,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6329,"assetId":2,"difficultyStage":6455,"id":54,"lv":54,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6455,"assetId":2,"difficultyStage":6581,"id":55,"lv":55,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6581,"assetId":2,"difficultyStage":6707,"id":56,"lv":56,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6707,"assetId":2,"difficultyStage":6833,"id":57,"lv":57,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6833,"assetId":2,"difficultyStage":6959,"id":58,"lv":58,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":6959,"assetId":2,"difficultyStage":7085,"id":59,"lv":59,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7085,"assetId":2,"difficultyStage":7211,"id":60,"lv":60,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7211,"assetId":2,"difficultyStage":7337,"id":61,"lv":61,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7337,"assetId":2,"difficultyStage":7463,"id":62,"lv":62,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7463,"assetId":2,"difficultyStage":7589,"id":63,"lv":63,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7589,"assetId":2,"difficultyStage":7715,"id":64,"lv":64,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7715,"assetId":2,"difficultyStage":7841,"id":65,"lv":65,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7841,"assetId":2,"difficultyStage":7967,"id":66,"lv":66,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":7967,"assetId":2,"difficultyStage":8093,"id":67,"lv":67,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8093,"assetId":2,"difficultyStage":8219,"id":68,"lv":68,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8219,"assetId":2,"difficultyStage":8345,"id":69,"lv":69,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8345,"assetId":2,"difficultyStage":8471,"id":70,"lv":70,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8471,"assetId":2,"difficultyStage":8597,"id":71,"lv":71,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8597,"assetId":2,"difficultyStage":8723,"id":72,"lv":72,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8723,"assetId":2,"difficultyStage":8849,"id":73,"lv":73,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8849,"assetId":2,"difficultyStage":8975,"id":74,"lv":74,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":8975,"assetId":2,"difficultyStage":9101,"id":75,"lv":75,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":9101,"assetId":2,"difficultyStage":9227,"id":76,"lv":76,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":9227,"assetId":2,"difficultyStage":9353,"id":77,"lv":77,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":9353,"assetId":2,"difficultyStage":9479,"id":78,"lv":78,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":9479,"assetId":2,"difficultyStage":9605,"id":79,"lv":79,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":9605,"assetId":2,"difficultyStage":9731,"id":80,"lv":80,"rewards":[{"t":102,"h":1},{"t":24,"h":0.5}],"dType":1},{"unlockStage":1,"assetId":3,"difficultyStage":30,"id":81,"lv":1,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":45,"assetId":3,"difficultyStage":65,"id":82,"lv":2,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":75,"assetId":3,"difficultyStage":135,"id":83,"lv":3,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":135,"assetId":3,"difficultyStage":215,"id":84,"lv":4,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":215,"assetId":3,"difficultyStage":296,"id":85,"lv":5,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":296,"assetId":3,"difficultyStage":422,"id":86,"lv":6,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":422,"assetId":3,"difficultyStage":548,"id":87,"lv":7,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":548,"assetId":3,"difficultyStage":674,"id":88,"lv":8,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":674,"assetId":3,"difficultyStage":800,"id":89,"lv":9,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":800,"assetId":3,"difficultyStage":926,"id":90,"lv":10,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":926,"assetId":3,"difficultyStage":1052,"id":91,"lv":11,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1052,"assetId":3,"difficultyStage":1178,"id":92,"lv":12,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1178,"assetId":3,"difficultyStage":1304,"id":93,"lv":13,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1304,"assetId":3,"difficultyStage":1430,"id":94,"lv":14,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1430,"assetId":3,"difficultyStage":1556,"id":95,"lv":15,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1556,"assetId":3,"difficultyStage":1682,"id":96,"lv":16,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1682,"assetId":3,"difficultyStage":1808,"id":97,"lv":17,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1808,"assetId":3,"difficultyStage":1934,"id":98,"lv":18,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1934,"assetId":3,"difficultyStage":2060,"id":99,"lv":19,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2060,"assetId":3,"difficultyStage":2186,"id":100,"lv":20,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2186,"assetId":3,"difficultyStage":2312,"id":101,"lv":21,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2312,"assetId":3,"difficultyStage":2438,"id":102,"lv":22,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2438,"assetId":3,"difficultyStage":2564,"id":103,"lv":23,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2564,"assetId":3,"difficultyStage":2690,"id":104,"lv":24,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2690,"assetId":3,"difficultyStage":2816,"id":105,"lv":25,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2816,"assetId":3,"difficultyStage":2942,"id":106,"lv":26,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":2942,"assetId":3,"difficultyStage":3068,"id":107,"lv":27,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3068,"assetId":3,"difficultyStage":3194,"id":108,"lv":28,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3194,"assetId":3,"difficultyStage":3320,"id":109,"lv":29,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3320,"assetId":3,"difficultyStage":3446,"id":110,"lv":30,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3446,"assetId":3,"difficultyStage":3572,"id":111,"lv":31,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3572,"assetId":3,"difficultyStage":3698,"id":112,"lv":32,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3698,"assetId":3,"difficultyStage":3824,"id":113,"lv":33,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3824,"assetId":3,"difficultyStage":3950,"id":114,"lv":34,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":3950,"assetId":3,"difficultyStage":4076,"id":115,"lv":35,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4076,"assetId":3,"difficultyStage":4202,"id":116,"lv":36,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4202,"assetId":3,"difficultyStage":4328,"id":117,"lv":37,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4328,"assetId":3,"difficultyStage":4454,"id":118,"lv":38,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4454,"assetId":3,"difficultyStage":4580,"id":119,"lv":39,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4580,"assetId":3,"difficultyStage":4706,"id":120,"lv":40,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4706,"assetId":3,"difficultyStage":4832,"id":121,"lv":41,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4832,"assetId":3,"difficultyStage":4958,"id":122,"lv":42,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":4958,"assetId":3,"difficultyStage":5084,"id":123,"lv":43,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5084,"assetId":3,"difficultyStage":5210,"id":124,"lv":44,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5210,"assetId":3,"difficultyStage":5336,"id":125,"lv":45,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5336,"assetId":3,"difficultyStage":5462,"id":126,"lv":46,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5462,"assetId":3,"difficultyStage":5588,"id":127,"lv":47,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5588,"assetId":3,"difficultyStage":5714,"id":128,"lv":48,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5714,"assetId":3,"difficultyStage":5840,"id":129,"lv":49,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5840,"assetId":3,"difficultyStage":5966,"id":130,"lv":50,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":5966,"assetId":3,"difficultyStage":6092,"id":131,"lv":51,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6092,"assetId":3,"difficultyStage":6218,"id":132,"lv":52,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6218,"assetId":3,"difficultyStage":6344,"id":133,"lv":53,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6344,"assetId":3,"difficultyStage":6470,"id":134,"lv":54,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6470,"assetId":3,"difficultyStage":6596,"id":135,"lv":55,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6596,"assetId":3,"difficultyStage":6722,"id":136,"lv":56,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6722,"assetId":3,"difficultyStage":6848,"id":137,"lv":57,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6848,"assetId":3,"difficultyStage":6974,"id":138,"lv":58,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":6974,"assetId":3,"difficultyStage":7100,"id":139,"lv":59,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7100,"assetId":3,"difficultyStage":7226,"id":140,"lv":60,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7226,"assetId":3,"difficultyStage":7352,"id":141,"lv":61,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7352,"assetId":3,"difficultyStage":7478,"id":142,"lv":62,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7478,"assetId":3,"difficultyStage":7604,"id":143,"lv":63,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7604,"assetId":3,"difficultyStage":7730,"id":144,"lv":64,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7730,"assetId":3,"difficultyStage":7856,"id":145,"lv":65,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7856,"assetId":3,"difficultyStage":7982,"id":146,"lv":66,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":7982,"assetId":3,"difficultyStage":8108,"id":147,"lv":67,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8108,"assetId":3,"difficultyStage":8234,"id":148,"lv":68,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8234,"assetId":3,"difficultyStage":8360,"id":149,"lv":69,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8360,"assetId":3,"difficultyStage":8486,"id":150,"lv":70,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8486,"assetId":3,"difficultyStage":8612,"id":151,"lv":71,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8612,"assetId":3,"difficultyStage":8738,"id":152,"lv":72,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8738,"assetId":3,"difficultyStage":8864,"id":153,"lv":73,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8864,"assetId":3,"difficultyStage":8990,"id":154,"lv":74,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":8990,"assetId":3,"difficultyStage":9116,"id":155,"lv":75,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":9116,"assetId":3,"difficultyStage":9242,"id":156,"lv":76,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":9242,"assetId":3,"difficultyStage":9368,"id":157,"lv":77,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":9368,"assetId":3,"difficultyStage":9494,"id":158,"lv":78,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":9494,"assetId":3,"difficultyStage":9620,"id":159,"lv":79,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":9620,"assetId":3,"difficultyStage":9746,"id":160,"lv":80,"rewards":[{"t":27,"h":1},{"t":24,"h":0.5}],"dType":2},{"unlockStage":1,"assetId":1,"difficultyStage":40,"id":161,"lv":1,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":1}],"dType":3},{"unlockStage":60,"assetId":1,"difficultyStage":85,"id":162,"lv":2,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":1}],"dType":3},{"unlockStage":90,"assetId":1,"difficultyStage":150,"id":163,"lv":3,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":1}],"dType":3},{"unlockStage":150,"assetId":1,"difficultyStage":230,"id":164,"lv":4,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":1}],"dType":3},{"unlockStage":230,"assetId":1,"difficultyStage":311,"id":165,"lv":5,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":1}],"dType":3},{"unlockStage":311,"assetId":1,"difficultyStage":437,"id":166,"lv":6,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":1}],"dType":3},{"unlockStage":437,"assetId":1,"difficultyStage":563,"id":167,"lv":7,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":1}],"dType":3},{"unlockStage":563,"assetId":1,"difficultyStage":689,"id":168,"lv":8,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":1}],"dType":3},{"unlockStage":689,"assetId":1,"difficultyStage":815,"id":169,"lv":9,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":1}],"dType":3},{"unlockStage":815,"assetId":1,"difficultyStage":941,"id":170,"lv":10,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":1}],"dType":3},{"unlockStage":941,"assetId":1,"difficultyStage":1067,"id":171,"lv":11,"rewards":[{"t":31,"h":0.25},{"t":201,"c":6,"gr":1}],"dType":3},{"unlockStage":1067,"assetId":1,"difficultyStage":1193,"id":172,"lv":12,"rewards":[{"t":31,"h":0.25},{"t":201,"c":6,"gr":1}],"dType":3},{"unlockStage":1193,"assetId":1,"difficultyStage":1319,"id":173,"lv":13,"rewards":[{"t":31,"h":0.25},{"t":201,"c":7,"gr":1}],"dType":3},{"unlockStage":1319,"assetId":1,"difficultyStage":1445,"id":174,"lv":14,"rewards":[{"t":31,"h":0.25},{"t":201,"c":7,"gr":1}],"dType":3},{"unlockStage":1445,"assetId":1,"difficultyStage":1571,"id":175,"lv":15,"rewards":[{"t":31,"h":0.25},{"t":201,"c":8,"gr":1}],"dType":3},{"unlockStage":1571,"assetId":1,"difficultyStage":1697,"id":176,"lv":16,"rewards":[{"t":31,"h":0.25},{"t":201,"c":8,"gr":1}],"dType":3},{"unlockStage":1697,"assetId":1,"difficultyStage":1823,"id":177,"lv":17,"rewards":[{"t":31,"h":0.25},{"t":201,"c":9,"gr":1}],"dType":3},{"unlockStage":1823,"assetId":1,"difficultyStage":1949,"id":178,"lv":18,"rewards":[{"t":31,"h":0.25},{"t":201,"c":9,"gr":1}],"dType":3},{"unlockStage":1949,"assetId":1,"difficultyStage":2075,"id":179,"lv":19,"rewards":[{"t":31,"h":0.25},{"t":201,"c":10,"gr":1}],"dType":3},{"unlockStage":2075,"assetId":1,"difficultyStage":2201,"id":180,"lv":20,"rewards":[{"t":31,"h":0.25},{"t":201,"c":10,"gr":1}],"dType":3},{"unlockStage":2201,"assetId":1,"difficultyStage":2327,"id":181,"lv":21,"rewards":[{"t":31,"h":0.25},{"t":201,"c":11,"gr":1}],"dType":3},{"unlockStage":2327,"assetId":1,"difficultyStage":2453,"id":182,"lv":22,"rewards":[{"t":31,"h":0.25},{"t":201,"c":11,"gr":1}],"dType":3},{"unlockStage":2453,"assetId":1,"difficultyStage":2579,"id":183,"lv":23,"rewards":[{"t":31,"h":0.25},{"t":201,"c":12,"gr":1}],"dType":3},{"unlockStage":2579,"assetId":1,"difficultyStage":2705,"id":184,"lv":24,"rewards":[{"t":31,"h":0.25},{"t":201,"c":12,"gr":1}],"dType":3},{"unlockStage":2705,"assetId":1,"difficultyStage":2831,"id":185,"lv":25,"rewards":[{"t":31,"h":0.25},{"t":201,"c":13,"gr":1}],"dType":3},{"unlockStage":2831,"assetId":1,"difficultyStage":2957,"id":186,"lv":26,"rewards":[{"t":31,"h":0.25},{"t":201,"c":13,"gr":1}],"dType":3},{"unlockStage":2957,"assetId":1,"difficultyStage":3083,"id":187,"lv":27,"rewards":[{"t":31,"h":0.25},{"t":201,"c":14,"gr":1}],"dType":3},{"unlockStage":3083,"assetId":1,"difficultyStage":3209,"id":188,"lv":28,"rewards":[{"t":31,"h":0.25},{"t":201,"c":14,"gr":1}],"dType":3},{"unlockStage":3209,"assetId":1,"difficultyStage":3335,"id":189,"lv":29,"rewards":[{"t":31,"h":0.25},{"t":201,"c":15,"gr":1}],"dType":3},{"unlockStage":3335,"assetId":1,"difficultyStage":3461,"id":190,"lv":30,"rewards":[{"t":31,"h":0.25},{"t":201,"c":15,"gr":1}],"dType":3},{"unlockStage":3461,"assetId":1,"difficultyStage":3587,"id":191,"lv":31,"rewards":[{"t":31,"h":0.25},{"t":201,"c":16,"gr":1}],"dType":3},{"unlockStage":3587,"assetId":1,"difficultyStage":3713,"id":192,"lv":32,"rewards":[{"t":31,"h":0.25},{"t":201,"c":16,"gr":1}],"dType":3},{"unlockStage":3713,"assetId":1,"difficultyStage":3839,"id":193,"lv":33,"rewards":[{"t":31,"h":0.25},{"t":201,"c":17,"gr":1}],"dType":3},{"unlockStage":3839,"assetId":1,"difficultyStage":3965,"id":194,"lv":34,"rewards":[{"t":31,"h":0.25},{"t":201,"c":17,"gr":1}],"dType":3},{"unlockStage":3965,"assetId":1,"difficultyStage":4091,"id":195,"lv":35,"rewards":[{"t":31,"h":0.25},{"t":201,"c":18,"gr":1}],"dType":3},{"unlockStage":4091,"assetId":1,"difficultyStage":4217,"id":196,"lv":36,"rewards":[{"t":31,"h":0.25},{"t":201,"c":18,"gr":1}],"dType":3},{"unlockStage":4217,"assetId":1,"difficultyStage":4343,"id":197,"lv":37,"rewards":[{"t":31,"h":0.25},{"t":201,"c":19,"gr":1}],"dType":3},{"unlockStage":4343,"assetId":1,"difficultyStage":4469,"id":198,"lv":38,"rewards":[{"t":31,"h":0.25},{"t":201,"c":19,"gr":1}],"dType":3},{"unlockStage":4469,"assetId":1,"difficultyStage":4595,"id":199,"lv":39,"rewards":[{"t":31,"h":0.25},{"t":201,"c":20,"gr":1}],"dType":3},{"unlockStage":4595,"assetId":1,"difficultyStage":4721,"id":200,"lv":40,"rewards":[{"t":31,"h":0.25},{"t":201,"c":20,"gr":1}],"dType":3},{"unlockStage":4721,"assetId":1,"difficultyStage":4847,"id":201,"lv":41,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":2}],"dType":3},{"unlockStage":4847,"assetId":1,"difficultyStage":4973,"id":202,"lv":42,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":2}],"dType":3},{"unlockStage":4973,"assetId":1,"difficultyStage":5099,"id":203,"lv":43,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":2}],"dType":3},{"unlockStage":5099,"assetId":1,"difficultyStage":5225,"id":204,"lv":44,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":2}],"dType":3},{"unlockStage":5225,"assetId":1,"difficultyStage":5351,"id":205,"lv":45,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":2}],"dType":3},{"unlockStage":5351,"assetId":1,"difficultyStage":5477,"id":206,"lv":46,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":2}],"dType":3},{"unlockStage":5477,"assetId":1,"difficultyStage":5603,"id":207,"lv":47,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":2}],"dType":3},{"unlockStage":5603,"assetId":1,"difficultyStage":5729,"id":208,"lv":48,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":2}],"dType":3},{"unlockStage":5729,"assetId":1,"difficultyStage":5855,"id":209,"lv":49,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":2}],"dType":3},{"unlockStage":5855,"assetId":1,"difficultyStage":5981,"id":210,"lv":50,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":2}],"dType":3},{"unlockStage":5981,"assetId":1,"difficultyStage":6107,"id":211,"lv":51,"rewards":[{"t":31,"h":0.25},{"t":201,"c":6,"gr":2}],"dType":3},{"unlockStage":6107,"assetId":1,"difficultyStage":6233,"id":212,"lv":52,"rewards":[{"t":31,"h":0.25},{"t":201,"c":6,"gr":2}],"dType":3},{"unlockStage":6233,"assetId":1,"difficultyStage":6359,"id":213,"lv":53,"rewards":[{"t":31,"h":0.25},{"t":201,"c":7,"gr":2}],"dType":3},{"unlockStage":6359,"assetId":1,"difficultyStage":6485,"id":214,"lv":54,"rewards":[{"t":31,"h":0.25},{"t":201,"c":7,"gr":2}],"dType":3},{"unlockStage":6485,"assetId":1,"difficultyStage":6611,"id":215,"lv":55,"rewards":[{"t":31,"h":0.25},{"t":201,"c":8,"gr":2}],"dType":3},{"unlockStage":6611,"assetId":1,"difficultyStage":6737,"id":216,"lv":56,"rewards":[{"t":31,"h":0.25},{"t":201,"c":8,"gr":2}],"dType":3},{"unlockStage":6737,"assetId":1,"difficultyStage":6863,"id":217,"lv":57,"rewards":[{"t":31,"h":0.25},{"t":201,"c":9,"gr":2}],"dType":3},{"unlockStage":6863,"assetId":1,"difficultyStage":6989,"id":218,"lv":58,"rewards":[{"t":31,"h":0.25},{"t":201,"c":9,"gr":2}],"dType":3},{"unlockStage":6989,"assetId":1,"difficultyStage":7115,"id":219,"lv":59,"rewards":[{"t":31,"h":0.25},{"t":201,"c":10,"gr":2}],"dType":3},{"unlockStage":7115,"assetId":1,"difficultyStage":7241,"id":220,"lv":60,"rewards":[{"t":31,"h":0.25},{"t":201,"c":10,"gr":2}],"dType":3},{"unlockStage":7241,"assetId":1,"difficultyStage":7367,"id":221,"lv":61,"rewards":[{"t":31,"h":0.25},{"t":201,"c":11,"gr":2}],"dType":3},{"unlockStage":7367,"assetId":1,"difficultyStage":7493,"id":222,"lv":62,"rewards":[{"t":31,"h":0.25},{"t":201,"c":11,"gr":2}],"dType":3},{"unlockStage":7493,"assetId":1,"difficultyStage":7619,"id":223,"lv":63,"rewards":[{"t":31,"h":0.25},{"t":201,"c":12,"gr":2}],"dType":3},{"unlockStage":7619,"assetId":1,"difficultyStage":7745,"id":224,"lv":64,"rewards":[{"t":31,"h":0.25},{"t":201,"c":12,"gr":2}],"dType":3},{"unlockStage":7745,"assetId":1,"difficultyStage":7871,"id":225,"lv":65,"rewards":[{"t":31,"h":0.25},{"t":201,"c":13,"gr":2}],"dType":3},{"unlockStage":7871,"assetId":1,"difficultyStage":7997,"id":226,"lv":66,"rewards":[{"t":31,"h":0.25},{"t":201,"c":13,"gr":2}],"dType":3},{"unlockStage":7997,"assetId":1,"difficultyStage":8123,"id":227,"lv":67,"rewards":[{"t":31,"h":0.25},{"t":201,"c":14,"gr":2}],"dType":3},{"unlockStage":8123,"assetId":1,"difficultyStage":8249,"id":228,"lv":68,"rewards":[{"t":31,"h":0.25},{"t":201,"c":14,"gr":2}],"dType":3},{"unlockStage":8249,"assetId":1,"difficultyStage":8375,"id":229,"lv":69,"rewards":[{"t":31,"h":0.25},{"t":201,"c":15,"gr":2}],"dType":3},{"unlockStage":8375,"assetId":1,"difficultyStage":8501,"id":230,"lv":70,"rewards":[{"t":31,"h":0.25},{"t":201,"c":15,"gr":2}],"dType":3},{"unlockStage":8501,"assetId":1,"difficultyStage":8627,"id":231,"lv":71,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":3}],"dType":3},{"unlockStage":8627,"assetId":1,"difficultyStage":8753,"id":232,"lv":72,"rewards":[{"t":31,"h":0.25},{"t":201,"c":1,"gr":3}],"dType":3},{"unlockStage":8753,"assetId":1,"difficultyStage":8879,"id":233,"lv":73,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":3}],"dType":3},{"unlockStage":8879,"assetId":1,"difficultyStage":9005,"id":234,"lv":74,"rewards":[{"t":31,"h":0.25},{"t":201,"c":2,"gr":3}],"dType":3},{"unlockStage":9005,"assetId":1,"difficultyStage":9131,"id":235,"lv":75,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":3}],"dType":3},{"unlockStage":9131,"assetId":1,"difficultyStage":9257,"id":236,"lv":76,"rewards":[{"t":31,"h":0.25},{"t":201,"c":3,"gr":3}],"dType":3},{"unlockStage":9257,"assetId":1,"difficultyStage":9383,"id":237,"lv":77,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":3}],"dType":3},{"unlockStage":9383,"assetId":1,"difficultyStage":9509,"id":238,"lv":78,"rewards":[{"t":31,"h":0.25},{"t":201,"c":4,"gr":3}],"dType":3},{"unlockStage":9509,"assetId":1,"difficultyStage":9635,"id":239,"lv":79,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":3}],"dType":3},{"unlockStage":9635,"assetId":1,"difficultyStage":9761,"id":240,"lv":80,"rewards":[{"t":31,"h":0.25},{"t":201,"c":5,"gr":3}],"dType":3}]
+[
+	{
+		"unlockStage": 1,
+		"assetId": 2,
+		"difficultyStage": 20,
+		"id": 1,
+		"lv": 1,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 30,
+		"assetId": 2,
+		"difficultyStage": 50,
+		"id": 2,
+		"lv": 2,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 60,
+		"assetId": 2,
+		"difficultyStage": 120,
+		"id": 3,
+		"lv": 3,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 120,
+		"assetId": 2,
+		"difficultyStage": 200,
+		"id": 4,
+		"lv": 4,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 200,
+		"assetId": 2,
+		"difficultyStage": 281,
+		"id": 5,
+		"lv": 5,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 281,
+		"assetId": 2,
+		"difficultyStage": 407,
+		"id": 6,
+		"lv": 6,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 407,
+		"assetId": 2,
+		"difficultyStage": 533,
+		"id": 7,
+		"lv": 7,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 533,
+		"assetId": 2,
+		"difficultyStage": 659,
+		"id": 8,
+		"lv": 8,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 659,
+		"assetId": 2,
+		"difficultyStage": 785,
+		"id": 9,
+		"lv": 9,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 785,
+		"assetId": 2,
+		"difficultyStage": 911,
+		"id": 10,
+		"lv": 10,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 911,
+		"assetId": 2,
+		"difficultyStage": 1037,
+		"id": 11,
+		"lv": 11,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1037,
+		"assetId": 2,
+		"difficultyStage": 1163,
+		"id": 12,
+		"lv": 12,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1163,
+		"assetId": 2,
+		"difficultyStage": 1289,
+		"id": 13,
+		"lv": 13,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1289,
+		"assetId": 2,
+		"difficultyStage": 1415,
+		"id": 14,
+		"lv": 14,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1415,
+		"assetId": 2,
+		"difficultyStage": 1541,
+		"id": 15,
+		"lv": 15,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1541,
+		"assetId": 2,
+		"difficultyStage": 1667,
+		"id": 16,
+		"lv": 16,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1667,
+		"assetId": 2,
+		"difficultyStage": 1793,
+		"id": 17,
+		"lv": 17,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1793,
+		"assetId": 2,
+		"difficultyStage": 1919,
+		"id": 18,
+		"lv": 18,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1919,
+		"assetId": 2,
+		"difficultyStage": 2045,
+		"id": 19,
+		"lv": 19,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2045,
+		"assetId": 2,
+		"difficultyStage": 2171,
+		"id": 20,
+		"lv": 20,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2171,
+		"assetId": 2,
+		"difficultyStage": 2297,
+		"id": 21,
+		"lv": 21,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2297,
+		"assetId": 2,
+		"difficultyStage": 2423,
+		"id": 22,
+		"lv": 22,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2423,
+		"assetId": 2,
+		"difficultyStage": 2549,
+		"id": 23,
+		"lv": 23,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2549,
+		"assetId": 2,
+		"difficultyStage": 2675,
+		"id": 24,
+		"lv": 24,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2675,
+		"assetId": 2,
+		"difficultyStage": 2801,
+		"id": 25,
+		"lv": 25,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2801,
+		"assetId": 2,
+		"difficultyStage": 2927,
+		"id": 26,
+		"lv": 26,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 2927,
+		"assetId": 2,
+		"difficultyStage": 3053,
+		"id": 27,
+		"lv": 27,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3053,
+		"assetId": 2,
+		"difficultyStage": 3179,
+		"id": 28,
+		"lv": 28,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3179,
+		"assetId": 2,
+		"difficultyStage": 3305,
+		"id": 29,
+		"lv": 29,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3305,
+		"assetId": 2,
+		"difficultyStage": 3431,
+		"id": 30,
+		"lv": 30,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3431,
+		"assetId": 2,
+		"difficultyStage": 3557,
+		"id": 31,
+		"lv": 31,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3557,
+		"assetId": 2,
+		"difficultyStage": 3683,
+		"id": 32,
+		"lv": 32,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3683,
+		"assetId": 2,
+		"difficultyStage": 3809,
+		"id": 33,
+		"lv": 33,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3809,
+		"assetId": 2,
+		"difficultyStage": 3935,
+		"id": 34,
+		"lv": 34,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 3935,
+		"assetId": 2,
+		"difficultyStage": 4061,
+		"id": 35,
+		"lv": 35,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4061,
+		"assetId": 2,
+		"difficultyStage": 4187,
+		"id": 36,
+		"lv": 36,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4187,
+		"assetId": 2,
+		"difficultyStage": 4313,
+		"id": 37,
+		"lv": 37,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4313,
+		"assetId": 2,
+		"difficultyStage": 4439,
+		"id": 38,
+		"lv": 38,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4439,
+		"assetId": 2,
+		"difficultyStage": 4565,
+		"id": 39,
+		"lv": 39,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4565,
+		"assetId": 2,
+		"difficultyStage": 4691,
+		"id": 40,
+		"lv": 40,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4691,
+		"assetId": 2,
+		"difficultyStage": 4817,
+		"id": 41,
+		"lv": 41,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4817,
+		"assetId": 2,
+		"difficultyStage": 4943,
+		"id": 42,
+		"lv": 42,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 4943,
+		"assetId": 2,
+		"difficultyStage": 5069,
+		"id": 43,
+		"lv": 43,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5069,
+		"assetId": 2,
+		"difficultyStage": 5195,
+		"id": 44,
+		"lv": 44,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5195,
+		"assetId": 2,
+		"difficultyStage": 5321,
+		"id": 45,
+		"lv": 45,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5321,
+		"assetId": 2,
+		"difficultyStage": 5447,
+		"id": 46,
+		"lv": 46,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5447,
+		"assetId": 2,
+		"difficultyStage": 5573,
+		"id": 47,
+		"lv": 47,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5573,
+		"assetId": 2,
+		"difficultyStage": 5699,
+		"id": 48,
+		"lv": 48,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5699,
+		"assetId": 2,
+		"difficultyStage": 5825,
+		"id": 49,
+		"lv": 49,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5825,
+		"assetId": 2,
+		"difficultyStage": 5951,
+		"id": 50,
+		"lv": 50,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 5951,
+		"assetId": 2,
+		"difficultyStage": 6077,
+		"id": 51,
+		"lv": 51,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6077,
+		"assetId": 2,
+		"difficultyStage": 6203,
+		"id": 52,
+		"lv": 52,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6203,
+		"assetId": 2,
+		"difficultyStage": 6329,
+		"id": 53,
+		"lv": 53,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6329,
+		"assetId": 2,
+		"difficultyStage": 6455,
+		"id": 54,
+		"lv": 54,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6455,
+		"assetId": 2,
+		"difficultyStage": 6581,
+		"id": 55,
+		"lv": 55,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6581,
+		"assetId": 2,
+		"difficultyStage": 6707,
+		"id": 56,
+		"lv": 56,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6707,
+		"assetId": 2,
+		"difficultyStage": 6833,
+		"id": 57,
+		"lv": 57,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6833,
+		"assetId": 2,
+		"difficultyStage": 6959,
+		"id": 58,
+		"lv": 58,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 6959,
+		"assetId": 2,
+		"difficultyStage": 7085,
+		"id": 59,
+		"lv": 59,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7085,
+		"assetId": 2,
+		"difficultyStage": 7211,
+		"id": 60,
+		"lv": 60,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7211,
+		"assetId": 2,
+		"difficultyStage": 7337,
+		"id": 61,
+		"lv": 61,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7337,
+		"assetId": 2,
+		"difficultyStage": 7463,
+		"id": 62,
+		"lv": 62,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7463,
+		"assetId": 2,
+		"difficultyStage": 7589,
+		"id": 63,
+		"lv": 63,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7589,
+		"assetId": 2,
+		"difficultyStage": 7715,
+		"id": 64,
+		"lv": 64,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7715,
+		"assetId": 2,
+		"difficultyStage": 7841,
+		"id": 65,
+		"lv": 65,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7841,
+		"assetId": 2,
+		"difficultyStage": 7967,
+		"id": 66,
+		"lv": 66,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 7967,
+		"assetId": 2,
+		"difficultyStage": 8093,
+		"id": 67,
+		"lv": 67,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8093,
+		"assetId": 2,
+		"difficultyStage": 8219,
+		"id": 68,
+		"lv": 68,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8219,
+		"assetId": 2,
+		"difficultyStage": 8345,
+		"id": 69,
+		"lv": 69,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8345,
+		"assetId": 2,
+		"difficultyStage": 8471,
+		"id": 70,
+		"lv": 70,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8471,
+		"assetId": 2,
+		"difficultyStage": 8597,
+		"id": 71,
+		"lv": 71,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8597,
+		"assetId": 2,
+		"difficultyStage": 8723,
+		"id": 72,
+		"lv": 72,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8723,
+		"assetId": 2,
+		"difficultyStage": 8849,
+		"id": 73,
+		"lv": 73,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8849,
+		"assetId": 2,
+		"difficultyStage": 8975,
+		"id": 74,
+		"lv": 74,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 8975,
+		"assetId": 2,
+		"difficultyStage": 9101,
+		"id": 75,
+		"lv": 75,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 9101,
+		"assetId": 2,
+		"difficultyStage": 9227,
+		"id": 76,
+		"lv": 76,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 9227,
+		"assetId": 2,
+		"difficultyStage": 9353,
+		"id": 77,
+		"lv": 77,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 9353,
+		"assetId": 2,
+		"difficultyStage": 9479,
+		"id": 78,
+		"lv": 78,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 9479,
+		"assetId": 2,
+		"difficultyStage": 9605,
+		"id": 79,
+		"lv": 79,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 9605,
+		"assetId": 2,
+		"difficultyStage": 9731,
+		"id": 80,
+		"lv": 80,
+		"rewards": [
+			{ "t": 102, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 1
+	},
+	{
+		"unlockStage": 1,
+		"assetId": 3,
+		"difficultyStage": 30,
+		"id": 81,
+		"lv": 1,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 45,
+		"assetId": 3,
+		"difficultyStage": 65,
+		"id": 82,
+		"lv": 2,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 75,
+		"assetId": 3,
+		"difficultyStage": 135,
+		"id": 83,
+		"lv": 3,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 135,
+		"assetId": 3,
+		"difficultyStage": 215,
+		"id": 84,
+		"lv": 4,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 215,
+		"assetId": 3,
+		"difficultyStage": 296,
+		"id": 85,
+		"lv": 5,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 296,
+		"assetId": 3,
+		"difficultyStage": 422,
+		"id": 86,
+		"lv": 6,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 422,
+		"assetId": 3,
+		"difficultyStage": 548,
+		"id": 87,
+		"lv": 7,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 548,
+		"assetId": 3,
+		"difficultyStage": 674,
+		"id": 88,
+		"lv": 8,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 674,
+		"assetId": 3,
+		"difficultyStage": 800,
+		"id": 89,
+		"lv": 9,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 800,
+		"assetId": 3,
+		"difficultyStage": 926,
+		"id": 90,
+		"lv": 10,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 926,
+		"assetId": 3,
+		"difficultyStage": 1052,
+		"id": 91,
+		"lv": 11,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1052,
+		"assetId": 3,
+		"difficultyStage": 1178,
+		"id": 92,
+		"lv": 12,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1178,
+		"assetId": 3,
+		"difficultyStage": 1304,
+		"id": 93,
+		"lv": 13,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1304,
+		"assetId": 3,
+		"difficultyStage": 1430,
+		"id": 94,
+		"lv": 14,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1430,
+		"assetId": 3,
+		"difficultyStage": 1556,
+		"id": 95,
+		"lv": 15,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1556,
+		"assetId": 3,
+		"difficultyStage": 1682,
+		"id": 96,
+		"lv": 16,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1682,
+		"assetId": 3,
+		"difficultyStage": 1808,
+		"id": 97,
+		"lv": 17,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1808,
+		"assetId": 3,
+		"difficultyStage": 1934,
+		"id": 98,
+		"lv": 18,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1934,
+		"assetId": 3,
+		"difficultyStage": 2060,
+		"id": 99,
+		"lv": 19,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2060,
+		"assetId": 3,
+		"difficultyStage": 2186,
+		"id": 100,
+		"lv": 20,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2186,
+		"assetId": 3,
+		"difficultyStage": 2312,
+		"id": 101,
+		"lv": 21,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2312,
+		"assetId": 3,
+		"difficultyStage": 2438,
+		"id": 102,
+		"lv": 22,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2438,
+		"assetId": 3,
+		"difficultyStage": 2564,
+		"id": 103,
+		"lv": 23,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2564,
+		"assetId": 3,
+		"difficultyStage": 2690,
+		"id": 104,
+		"lv": 24,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2690,
+		"assetId": 3,
+		"difficultyStage": 2816,
+		"id": 105,
+		"lv": 25,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2816,
+		"assetId": 3,
+		"difficultyStage": 2942,
+		"id": 106,
+		"lv": 26,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 2942,
+		"assetId": 3,
+		"difficultyStage": 3068,
+		"id": 107,
+		"lv": 27,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3068,
+		"assetId": 3,
+		"difficultyStage": 3194,
+		"id": 108,
+		"lv": 28,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3194,
+		"assetId": 3,
+		"difficultyStage": 3320,
+		"id": 109,
+		"lv": 29,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3320,
+		"assetId": 3,
+		"difficultyStage": 3446,
+		"id": 110,
+		"lv": 30,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3446,
+		"assetId": 3,
+		"difficultyStage": 3572,
+		"id": 111,
+		"lv": 31,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3572,
+		"assetId": 3,
+		"difficultyStage": 3698,
+		"id": 112,
+		"lv": 32,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3698,
+		"assetId": 3,
+		"difficultyStage": 3824,
+		"id": 113,
+		"lv": 33,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3824,
+		"assetId": 3,
+		"difficultyStage": 3950,
+		"id": 114,
+		"lv": 34,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 3950,
+		"assetId": 3,
+		"difficultyStage": 4076,
+		"id": 115,
+		"lv": 35,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4076,
+		"assetId": 3,
+		"difficultyStage": 4202,
+		"id": 116,
+		"lv": 36,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4202,
+		"assetId": 3,
+		"difficultyStage": 4328,
+		"id": 117,
+		"lv": 37,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4328,
+		"assetId": 3,
+		"difficultyStage": 4454,
+		"id": 118,
+		"lv": 38,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4454,
+		"assetId": 3,
+		"difficultyStage": 4580,
+		"id": 119,
+		"lv": 39,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4580,
+		"assetId": 3,
+		"difficultyStage": 4706,
+		"id": 120,
+		"lv": 40,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4706,
+		"assetId": 3,
+		"difficultyStage": 4832,
+		"id": 121,
+		"lv": 41,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4832,
+		"assetId": 3,
+		"difficultyStage": 4958,
+		"id": 122,
+		"lv": 42,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 4958,
+		"assetId": 3,
+		"difficultyStage": 5084,
+		"id": 123,
+		"lv": 43,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5084,
+		"assetId": 3,
+		"difficultyStage": 5210,
+		"id": 124,
+		"lv": 44,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5210,
+		"assetId": 3,
+		"difficultyStage": 5336,
+		"id": 125,
+		"lv": 45,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5336,
+		"assetId": 3,
+		"difficultyStage": 5462,
+		"id": 126,
+		"lv": 46,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5462,
+		"assetId": 3,
+		"difficultyStage": 5588,
+		"id": 127,
+		"lv": 47,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5588,
+		"assetId": 3,
+		"difficultyStage": 5714,
+		"id": 128,
+		"lv": 48,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5714,
+		"assetId": 3,
+		"difficultyStage": 5840,
+		"id": 129,
+		"lv": 49,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5840,
+		"assetId": 3,
+		"difficultyStage": 5966,
+		"id": 130,
+		"lv": 50,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 5966,
+		"assetId": 3,
+		"difficultyStage": 6092,
+		"id": 131,
+		"lv": 51,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6092,
+		"assetId": 3,
+		"difficultyStage": 6218,
+		"id": 132,
+		"lv": 52,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6218,
+		"assetId": 3,
+		"difficultyStage": 6344,
+		"id": 133,
+		"lv": 53,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6344,
+		"assetId": 3,
+		"difficultyStage": 6470,
+		"id": 134,
+		"lv": 54,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6470,
+		"assetId": 3,
+		"difficultyStage": 6596,
+		"id": 135,
+		"lv": 55,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6596,
+		"assetId": 3,
+		"difficultyStage": 6722,
+		"id": 136,
+		"lv": 56,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6722,
+		"assetId": 3,
+		"difficultyStage": 6848,
+		"id": 137,
+		"lv": 57,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6848,
+		"assetId": 3,
+		"difficultyStage": 6974,
+		"id": 138,
+		"lv": 58,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 6974,
+		"assetId": 3,
+		"difficultyStage": 7100,
+		"id": 139,
+		"lv": 59,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7100,
+		"assetId": 3,
+		"difficultyStage": 7226,
+		"id": 140,
+		"lv": 60,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7226,
+		"assetId": 3,
+		"difficultyStage": 7352,
+		"id": 141,
+		"lv": 61,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7352,
+		"assetId": 3,
+		"difficultyStage": 7478,
+		"id": 142,
+		"lv": 62,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7478,
+		"assetId": 3,
+		"difficultyStage": 7604,
+		"id": 143,
+		"lv": 63,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7604,
+		"assetId": 3,
+		"difficultyStage": 7730,
+		"id": 144,
+		"lv": 64,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7730,
+		"assetId": 3,
+		"difficultyStage": 7856,
+		"id": 145,
+		"lv": 65,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7856,
+		"assetId": 3,
+		"difficultyStage": 7982,
+		"id": 146,
+		"lv": 66,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 7982,
+		"assetId": 3,
+		"difficultyStage": 8108,
+		"id": 147,
+		"lv": 67,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8108,
+		"assetId": 3,
+		"difficultyStage": 8234,
+		"id": 148,
+		"lv": 68,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8234,
+		"assetId": 3,
+		"difficultyStage": 8360,
+		"id": 149,
+		"lv": 69,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8360,
+		"assetId": 3,
+		"difficultyStage": 8486,
+		"id": 150,
+		"lv": 70,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8486,
+		"assetId": 3,
+		"difficultyStage": 8612,
+		"id": 151,
+		"lv": 71,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8612,
+		"assetId": 3,
+		"difficultyStage": 8738,
+		"id": 152,
+		"lv": 72,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8738,
+		"assetId": 3,
+		"difficultyStage": 8864,
+		"id": 153,
+		"lv": 73,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8864,
+		"assetId": 3,
+		"difficultyStage": 8990,
+		"id": 154,
+		"lv": 74,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 8990,
+		"assetId": 3,
+		"difficultyStage": 9116,
+		"id": 155,
+		"lv": 75,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 9116,
+		"assetId": 3,
+		"difficultyStage": 9242,
+		"id": 156,
+		"lv": 76,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 9242,
+		"assetId": 3,
+		"difficultyStage": 9368,
+		"id": 157,
+		"lv": 77,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 9368,
+		"assetId": 3,
+		"difficultyStage": 9494,
+		"id": 158,
+		"lv": 78,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 9494,
+		"assetId": 3,
+		"difficultyStage": 9620,
+		"id": 159,
+		"lv": 79,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 9620,
+		"assetId": 3,
+		"difficultyStage": 9746,
+		"id": 160,
+		"lv": 80,
+		"rewards": [
+			{ "t": 27, "h": 1 },
+			{ "t": 24, "h": 0.5 }
+		],
+		"dType": 2
+	},
+	{
+		"unlockStage": 1,
+		"assetId": 1,
+		"difficultyStage": 40,
+		"id": 161,
+		"lv": 1,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 60,
+		"assetId": 1,
+		"difficultyStage": 85,
+		"id": 162,
+		"lv": 2,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 90,
+		"assetId": 1,
+		"difficultyStage": 150,
+		"id": 163,
+		"lv": 3,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 150,
+		"assetId": 1,
+		"difficultyStage": 230,
+		"id": 164,
+		"lv": 4,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 230,
+		"assetId": 1,
+		"difficultyStage": 311,
+		"id": 165,
+		"lv": 5,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 311,
+		"assetId": 1,
+		"difficultyStage": 437,
+		"id": 166,
+		"lv": 6,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 437,
+		"assetId": 1,
+		"difficultyStage": 563,
+		"id": 167,
+		"lv": 7,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 563,
+		"assetId": 1,
+		"difficultyStage": 689,
+		"id": 168,
+		"lv": 8,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 689,
+		"assetId": 1,
+		"difficultyStage": 815,
+		"id": 169,
+		"lv": 9,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 815,
+		"assetId": 1,
+		"difficultyStage": 941,
+		"id": 170,
+		"lv": 10,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 941,
+		"assetId": 1,
+		"difficultyStage": 1067,
+		"id": 171,
+		"lv": 11,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 6, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1067,
+		"assetId": 1,
+		"difficultyStage": 1193,
+		"id": 172,
+		"lv": 12,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 6, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1193,
+		"assetId": 1,
+		"difficultyStage": 1319,
+		"id": 173,
+		"lv": 13,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 7, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1319,
+		"assetId": 1,
+		"difficultyStage": 1445,
+		"id": 174,
+		"lv": 14,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 7, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1445,
+		"assetId": 1,
+		"difficultyStage": 1571,
+		"id": 175,
+		"lv": 15,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 8, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1571,
+		"assetId": 1,
+		"difficultyStage": 1697,
+		"id": 176,
+		"lv": 16,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 8, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1697,
+		"assetId": 1,
+		"difficultyStage": 1823,
+		"id": 177,
+		"lv": 17,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 9, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1823,
+		"assetId": 1,
+		"difficultyStage": 1949,
+		"id": 178,
+		"lv": 18,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 9, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 1949,
+		"assetId": 1,
+		"difficultyStage": 2075,
+		"id": 179,
+		"lv": 19,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 10, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2075,
+		"assetId": 1,
+		"difficultyStage": 2201,
+		"id": 180,
+		"lv": 20,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 10, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2201,
+		"assetId": 1,
+		"difficultyStage": 2327,
+		"id": 181,
+		"lv": 21,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 11, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2327,
+		"assetId": 1,
+		"difficultyStage": 2453,
+		"id": 182,
+		"lv": 22,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 11, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2453,
+		"assetId": 1,
+		"difficultyStage": 2579,
+		"id": 183,
+		"lv": 23,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 12, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2579,
+		"assetId": 1,
+		"difficultyStage": 2705,
+		"id": 184,
+		"lv": 24,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 12, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2705,
+		"assetId": 1,
+		"difficultyStage": 2831,
+		"id": 185,
+		"lv": 25,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 13, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2831,
+		"assetId": 1,
+		"difficultyStage": 2957,
+		"id": 186,
+		"lv": 26,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 13, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 2957,
+		"assetId": 1,
+		"difficultyStage": 3083,
+		"id": 187,
+		"lv": 27,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 14, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3083,
+		"assetId": 1,
+		"difficultyStage": 3209,
+		"id": 188,
+		"lv": 28,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 14, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3209,
+		"assetId": 1,
+		"difficultyStage": 3335,
+		"id": 189,
+		"lv": 29,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 15, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3335,
+		"assetId": 1,
+		"difficultyStage": 3461,
+		"id": 190,
+		"lv": 30,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 15, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3461,
+		"assetId": 1,
+		"difficultyStage": 3587,
+		"id": 191,
+		"lv": 31,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 16, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3587,
+		"assetId": 1,
+		"difficultyStage": 3713,
+		"id": 192,
+		"lv": 32,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 16, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3713,
+		"assetId": 1,
+		"difficultyStage": 3839,
+		"id": 193,
+		"lv": 33,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 17, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3839,
+		"assetId": 1,
+		"difficultyStage": 3965,
+		"id": 194,
+		"lv": 34,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 17, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 3965,
+		"assetId": 1,
+		"difficultyStage": 4091,
+		"id": 195,
+		"lv": 35,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 18, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4091,
+		"assetId": 1,
+		"difficultyStage": 4217,
+		"id": 196,
+		"lv": 36,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 18, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4217,
+		"assetId": 1,
+		"difficultyStage": 4343,
+		"id": 197,
+		"lv": 37,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 19, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4343,
+		"assetId": 1,
+		"difficultyStage": 4469,
+		"id": 198,
+		"lv": 38,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 19, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4469,
+		"assetId": 1,
+		"difficultyStage": 4595,
+		"id": 199,
+		"lv": 39,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 20, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4595,
+		"assetId": 1,
+		"difficultyStage": 4721,
+		"id": 200,
+		"lv": 40,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 20, "gr": 1 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4721,
+		"assetId": 1,
+		"difficultyStage": 4847,
+		"id": 201,
+		"lv": 41,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4847,
+		"assetId": 1,
+		"difficultyStage": 4973,
+		"id": 202,
+		"lv": 42,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 4973,
+		"assetId": 1,
+		"difficultyStage": 5099,
+		"id": 203,
+		"lv": 43,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5099,
+		"assetId": 1,
+		"difficultyStage": 5225,
+		"id": 204,
+		"lv": 44,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5225,
+		"assetId": 1,
+		"difficultyStage": 5351,
+		"id": 205,
+		"lv": 45,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5351,
+		"assetId": 1,
+		"difficultyStage": 5477,
+		"id": 206,
+		"lv": 46,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5477,
+		"assetId": 1,
+		"difficultyStage": 5603,
+		"id": 207,
+		"lv": 47,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5603,
+		"assetId": 1,
+		"difficultyStage": 5729,
+		"id": 208,
+		"lv": 48,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5729,
+		"assetId": 1,
+		"difficultyStage": 5855,
+		"id": 209,
+		"lv": 49,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5855,
+		"assetId": 1,
+		"difficultyStage": 5981,
+		"id": 210,
+		"lv": 50,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 5981,
+		"assetId": 1,
+		"difficultyStage": 6107,
+		"id": 211,
+		"lv": 51,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 6, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6107,
+		"assetId": 1,
+		"difficultyStage": 6233,
+		"id": 212,
+		"lv": 52,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 6, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6233,
+		"assetId": 1,
+		"difficultyStage": 6359,
+		"id": 213,
+		"lv": 53,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 7, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6359,
+		"assetId": 1,
+		"difficultyStage": 6485,
+		"id": 214,
+		"lv": 54,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 7, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6485,
+		"assetId": 1,
+		"difficultyStage": 6611,
+		"id": 215,
+		"lv": 55,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 8, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6611,
+		"assetId": 1,
+		"difficultyStage": 6737,
+		"id": 216,
+		"lv": 56,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 8, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6737,
+		"assetId": 1,
+		"difficultyStage": 6863,
+		"id": 217,
+		"lv": 57,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 9, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6863,
+		"assetId": 1,
+		"difficultyStage": 6989,
+		"id": 218,
+		"lv": 58,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 9, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 6989,
+		"assetId": 1,
+		"difficultyStage": 7115,
+		"id": 219,
+		"lv": 59,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 10, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7115,
+		"assetId": 1,
+		"difficultyStage": 7241,
+		"id": 220,
+		"lv": 60,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 10, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7241,
+		"assetId": 1,
+		"difficultyStage": 7367,
+		"id": 221,
+		"lv": 61,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 11, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7367,
+		"assetId": 1,
+		"difficultyStage": 7493,
+		"id": 222,
+		"lv": 62,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 11, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7493,
+		"assetId": 1,
+		"difficultyStage": 7619,
+		"id": 223,
+		"lv": 63,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 12, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7619,
+		"assetId": 1,
+		"difficultyStage": 7745,
+		"id": 224,
+		"lv": 64,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 12, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7745,
+		"assetId": 1,
+		"difficultyStage": 7871,
+		"id": 225,
+		"lv": 65,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 13, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7871,
+		"assetId": 1,
+		"difficultyStage": 7997,
+		"id": 226,
+		"lv": 66,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 13, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 7997,
+		"assetId": 1,
+		"difficultyStage": 8123,
+		"id": 227,
+		"lv": 67,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 14, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8123,
+		"assetId": 1,
+		"difficultyStage": 8249,
+		"id": 228,
+		"lv": 68,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 14, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8249,
+		"assetId": 1,
+		"difficultyStage": 8375,
+		"id": 229,
+		"lv": 69,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 15, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8375,
+		"assetId": 1,
+		"difficultyStage": 8501,
+		"id": 230,
+		"lv": 70,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 15, "gr": 2 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8501,
+		"assetId": 1,
+		"difficultyStage": 8627,
+		"id": 231,
+		"lv": 71,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8627,
+		"assetId": 1,
+		"difficultyStage": 8753,
+		"id": 232,
+		"lv": 72,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 1, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8753,
+		"assetId": 1,
+		"difficultyStage": 8879,
+		"id": 233,
+		"lv": 73,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 8879,
+		"assetId": 1,
+		"difficultyStage": 9005,
+		"id": 234,
+		"lv": 74,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 2, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9005,
+		"assetId": 1,
+		"difficultyStage": 9131,
+		"id": 235,
+		"lv": 75,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9131,
+		"assetId": 1,
+		"difficultyStage": 9257,
+		"id": 236,
+		"lv": 76,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 3, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9257,
+		"assetId": 1,
+		"difficultyStage": 9383,
+		"id": 237,
+		"lv": 77,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9383,
+		"assetId": 1,
+		"difficultyStage": 9509,
+		"id": 238,
+		"lv": 78,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 4, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9509,
+		"assetId": 1,
+		"difficultyStage": 9635,
+		"id": 239,
+		"lv": 79,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 3 }
+		],
+		"dType": 3
+	},
+	{
+		"unlockStage": 9635,
+		"assetId": 1,
+		"difficultyStage": 9761,
+		"id": 240,
+		"lv": 80,
+		"rewards": [
+			{ "t": 31, "h": 0.25 },
+			{ "t": 201, "c": 5, "gr": 3 }
+		],
+		"dType": 3
+	}
+]

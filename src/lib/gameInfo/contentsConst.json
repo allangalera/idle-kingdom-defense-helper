@@ -1,1 +1,63 @@
-{"CONNECT":{"REWARD":1000},"ALTER_REDUCETIME":{"MIN":600,"N":3},"DAYEVENT":[{"st":1,"t":22,"c":5,"gr":2},{"c":300,"t":101},{"c":500,"t":24},{"c":500,"t":101},{"st":1,"t":23,"c":5,"gr":2},{"c":1000,"t":101},{"id":10,"t":201,"c":60}],"ALTER":{"MAX_SUMMON":20},"ARCHER_SHOP":{"NORMAL_LIMIT":5,"SPECIAL_LIMIT":1,"SPECIAL_ITEMS":[{"st":1,"t":22,"c":1,"gr":2},{"st":2,"t":22,"c":1,"gr":2},{"st":1,"t":23,"c":1,"gr":2},{"st":2,"t":23,"c":1,"gr":2}]},"OPENINFO":[{"id":1,"guide":1,"lv":6,"reward":200},{"id":2,"guide":1,"lv":15,"reward":200},{"id":3,"guide":1,"lv":60,"reward":200},{"id":4,"guide":1,"lv":80,"reward":200},{"id":5,"guide":1,"lv":110,"reward":200},{"id":6,"guide":1,"lv":10,"reward":200},{"id":7,"guide":0,"lv":6,"reward":0},{"id":8,"guide":1,"lv":20,"reward":200},{"id":9,"guide":1,"lv":30,"reward":200},{"id":10,"guide":1,"lv":40,"reward":200},{"id":11,"guide":1,"lv":140,"reward":200},{"id":12,"guide":1,"lv":180,"reward":200},{"id":13,"guide":1,"lv":220,"reward":200},{"id":14,"guide":0,"lv":270,"reward":0},{"id":15,"guide":1,"lv":270,"reward":200}],"BATTLE_SPEEDUP":{"TIME":7200,"START_TIME":1800},"REVIEW":{"OPENSTAGE":31,"REWARD":500},"HSUMMON":{"ALTERTUTORIALSUMMON":1,"FIRSTSUMMON":8},"REPEATBATTLE":{"REWARD_TIC":1,"EXITTIME":2,"WAITTIME":3,"CHARGECNT":50},"CONST":{"INIT_PUSH_HOUR":10,"INIT_HOUR":5},"CONTENT_IDS":{"PORTAL":3,"RUIN_SWEEP":14,"EVENTD2":9,"RUIN":4,"MARKET":6,"ASTROLOGY":15,"EVENTD3":10,"RAID":5,"ARCHER":1,"EVENTD1":8,"CASTLE_ENGRAVE":11,"ALTER":2,"REPEATBATTLE":7,"CONQUEST":12,"SANCTUARY":13}}
+{
+	"CONNECT": { "REWARD": 1000 },
+	"ALTER_REDUCETIME": { "MIN": 600, "N": 3 },
+	"DAYEVENT": [
+		{ "st": 1, "t": 22, "c": 5, "gr": 2 },
+		{ "c": 300, "t": 101 },
+		{ "c": 500, "t": 24 },
+		{ "c": 500, "t": 101 },
+		{ "st": 1, "t": 23, "c": 5, "gr": 2 },
+		{ "c": 1000, "t": 101 },
+		{ "id": 10, "t": 201, "c": 60 }
+	],
+	"ALTER": { "MAX_SUMMON": 20 },
+	"ARCHER_SHOP": {
+		"NORMAL_LIMIT": 5,
+		"SPECIAL_LIMIT": 1,
+		"SPECIAL_ITEMS": [
+			{ "st": 1, "t": 22, "c": 1, "gr": 2 },
+			{ "st": 2, "t": 22, "c": 1, "gr": 2 },
+			{ "st": 1, "t": 23, "c": 1, "gr": 2 },
+			{ "st": 2, "t": 23, "c": 1, "gr": 2 }
+		]
+	},
+	"OPENINFO": [
+		{ "id": 1, "guide": 1, "lv": 6, "reward": 200 },
+		{ "id": 2, "guide": 1, "lv": 15, "reward": 200 },
+		{ "id": 3, "guide": 1, "lv": 60, "reward": 200 },
+		{ "id": 4, "guide": 1, "lv": 80, "reward": 200 },
+		{ "id": 5, "guide": 1, "lv": 110, "reward": 200 },
+		{ "id": 6, "guide": 1, "lv": 10, "reward": 200 },
+		{ "id": 7, "guide": 0, "lv": 6, "reward": 0 },
+		{ "id": 8, "guide": 1, "lv": 20, "reward": 200 },
+		{ "id": 9, "guide": 1, "lv": 30, "reward": 200 },
+		{ "id": 10, "guide": 1, "lv": 40, "reward": 200 },
+		{ "id": 11, "guide": 1, "lv": 140, "reward": 200 },
+		{ "id": 12, "guide": 1, "lv": 180, "reward": 200 },
+		{ "id": 13, "guide": 1, "lv": 220, "reward": 200 },
+		{ "id": 14, "guide": 0, "lv": 270, "reward": 0 },
+		{ "id": 15, "guide": 1, "lv": 270, "reward": 200 }
+	],
+	"BATTLE_SPEEDUP": { "START_TIME": 1800, "TIME": 7200, "COST": 300 },
+	"REVIEW": { "OPENSTAGE": 31, "REWARD": 500 },
+	"HSUMMON": { "ALTERTUTORIALSUMMON": 1, "FIRSTSUMMON": 8 },
+	"REPEATBATTLE": { "REWARD_TIC": 1, "EXITTIME": 2, "WAITTIME": 3, "CHARGECNT": 50 },
+	"CONST": { "INIT_PUSH_HOUR": 10, "INIT_HOUR": 5 },
+	"CONTENT_IDS": {
+		"PORTAL": 3,
+		"RUIN_SWEEP": 14,
+		"EVENTD2": 9,
+		"RUIN": 4,
+		"MARKET": 6,
+		"ASTROLOGY": 15,
+		"EVENTD3": 10,
+		"RAID": 5,
+		"ARCHER": 1,
+		"EVENTD1": 8,
+		"CASTLE_ENGRAVE": 11,
+		"ALTER": 2,
+		"REPEATBATTLE": 7,
+		"CONQUEST": 12,
+		"SANCTUARY": 13
+	}
+}
