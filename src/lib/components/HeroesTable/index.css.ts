@@ -4,7 +4,7 @@ import { style } from '@vanilla-extract/css';
 export const table = style({
 	display: 'grid',
 	gridTemplateColumns: 'repeat(1, 1fr)',
-	gap: theme.sizes[2],
+	gap: theme.sizes[6],
 	'@media': {
 		'screen and (min-width: 768px)': {
 			gridTemplateColumns: 'repeat(2, 1fr)',
