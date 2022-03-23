@@ -33,6 +33,11 @@ export const skill = style({
 	gap: theme.space[3],
 	gridTemplateColumns: 'auto 1fr',
 	gridTemplateRows: `${theme.space[20]} auto`,
+	'@media': {
+		'screen and (min-width: 768px)': {
+			gridTemplateRows: `auto auto`,
+		},
+	},
 });
 
 export const skillImage = style({
