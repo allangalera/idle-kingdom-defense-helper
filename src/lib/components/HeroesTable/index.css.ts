@@ -10,6 +10,9 @@ export const table = style({
 			gridTemplateColumns: 'repeat(2, 1fr)',
 		},
 		'screen and (min-width: 1024px)': {
+			gridTemplateColumns: 'repeat(3, 1fr)',
+		},
+		'screen and (min-width: 1280px)': {
 			gridTemplateColumns: 'repeat(4, 1fr)',
 		},
 	},
