@@ -47,6 +47,22 @@ function convertToJsonAndSaveToFile(filePath, table)
   end
 end
 
+local files = dirLookup('information-source/src/data')
+
+for i = table.maxn(files), 1, -1 do
+  print(files[i])
+  local variableName = readGetFirstLineAndReturnVariableName(files[i])
+  local filePath = files[i]:gsub(".lua", ""):gsub("/", ".")
+  local fileName = (outputDir .. files[i]:sub(files[i]:match'^.*()/')):gsub(".lua", ".json")
+  if variableName then
+    print(variableName)
+    print(fileName)
+    require(filePath)
+    convertToJsonAndSaveToFile(fileName, _G[variableName])
+  end
+  -- break
+end
+
 local files = dirLookup('information-source/src/lang/value')
 
 for i = table.maxn(files), 1, -1 do

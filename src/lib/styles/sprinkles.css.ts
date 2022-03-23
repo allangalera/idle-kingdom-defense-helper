@@ -51,6 +51,7 @@ const colorProperties = defineProperties({
 	properties: {
 		background: { ...theme.themeColors.baseColors, ...theme.colors },
 		color: { ...theme.themeColors.baseColors, ...theme.colors },
+		borderColor: { ...theme.themeColors.baseColors, ...theme.colors },
 	},
 });
 

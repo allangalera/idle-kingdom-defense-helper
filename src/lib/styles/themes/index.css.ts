@@ -166,6 +166,7 @@ export const root = createGlobalTheme(':root', {
 		cardBoarderTierLegendary: '#b28400',
 		cardBoarderTierMythic: '#d93429',
 		cardBackgroundDefault: '#41372e',
+		backgroundCommon: '#f7de09',
 	},
 	baseColor: {
 		white: '#ffffff',
@@ -225,6 +226,10 @@ export const themeColors = createThemeContract({
 		...radixColors.red,
 		...radixColors.green,
 		...radixColors.yellow,
+		...radixColors.blue,
+		...radixColors.plum,
+		...radixColors.amber,
+		...radixColors.orange,
 	},
 	text: {
 		default: '',

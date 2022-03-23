@@ -16,9 +16,11 @@ function getSummonSkill(hero) {
 	);
 
 	return {
+		...omit(['summonAssetId', 'desc', 'name', 'soundFire', 'icon'], summonSkill),
 		name: langJSON[summonSkill.name],
-		desc: langJSON[summonSkill.name],
+		desc: langJSON[summonSkill.desc],
 		coolTime: hero.skillCoolTime,
+		skillType: hero.skillType,
 		progression: [
 			{
 				units: summonSkill.summonN,
@@ -32,9 +34,11 @@ function getBuffSkill(hero) {
 	const buffSkill = buffSkillJSON.find((buffSkillItem) => buffSkillItem.id === hero.mainSkill);
 
 	return {
+		...omit(['effectAssetId', 'desc', 'name', 'assetId', 'soundFire', 'icon'], buffSkill),
 		name: langJSON[buffSkill.name],
-		desc: langJSON[buffSkill.name],
+		desc: langJSON[buffSkill.desc],
 		coolTime: hero.skillCoolTime,
+		skillType: hero.skillType,
 		progression: [
 			{
 				value: buffSkill.effectK,
@@ -60,9 +64,10 @@ function getMainSkill(hero) {
 			],
 			mainSkill
 		),
-		name: langJSON[mainSkill.name],
-		desc: langJSON[mainSkill.desc],
+		name: langJSON[`${hero.skillKey}NAME_1`],
+		desc: langJSON[`${hero.skillKey}DESC_1`],
 		coolTime: hero.skillCoolTime,
+		skillType: hero.skillType,
 		progression: [
 			{
 				value: mainSkill.atkK,
@@ -109,6 +114,8 @@ function getHeroSkills(hero: any, ascension: any) {
 			value: ascension[index].value,
 			durTime: ascension[index].durTime,
 			percentage: ascension[index].percentage,
+			effectType: ascension[index].effectType,
+			addType: ascension[index].addType,
 		});
 	}
 	return skills;

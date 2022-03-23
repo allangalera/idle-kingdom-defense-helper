@@ -38,3 +38,15 @@ export enum ArcherGearEquip {
 	gloves = 'gloves',
 	boots = 'boots',
 }
+
+export enum HeroesVisualizationModes {
+	compact = 'compact',
+	minimal = 'minimal',
+	detailed = 'detailed',
+}
+
+export enum HeroesSearchValues {
+	name = 'name',
+	skillName = 'skills.*.name',
+	skillDescription = 'skills.*.desc',
+}
