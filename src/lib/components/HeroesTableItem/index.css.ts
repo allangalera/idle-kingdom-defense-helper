@@ -32,10 +32,10 @@ export const skill = style({
 	display: 'grid',
 	gap: theme.space[3],
 	gridTemplateColumns: 'auto 1fr',
-	gridTemplateRows: `${theme.space[20]} auto`,
+	gridTemplateRows: `auto auto`,
 	'@media': {
 		'screen and (min-width: 768px)': {
-			gridTemplateRows: `auto auto`,
+			gridTemplateRows: `${theme.space[20]} auto`,
 		},
 	},
 });
@@ -59,6 +59,7 @@ export const skillProgression = style({
 	borderStyle: 'solid',
 	borderRadius: theme.border.radii.base,
 	position: 'relative',
+	width: '100%',
 });
 
 export const skillProgressionGrade = style({
@@ -74,13 +75,20 @@ export const skillProgressionGrade = style({
 
 export const tableItemRightMinimal = style({
 	padding: theme.sizes[2],
-	gap: theme.space[4],
+	gap: theme.space[2],
 	display: 'flex',
 	justifyContent: 'space-between',
+	'@media': {
+		'screen and (min-width: 768px)': {
+			gap: theme.space[4],
+		},
+	},
 });
 
 export const skillMinimal = style({
 	display: 'flex',
 	flexDirection: 'column',
+	alignItems: 'center',
 	gap: theme.space[4],
+	flex: 1,
 });

@@ -14,6 +14,7 @@ export const kingdomNameContainer = style({
 	justifyContent: 'center',
 	alignItems: 'center',
 });
+
 export const kingdomName = style({
 	borderStyle: 'solid',
 	borderWidth: theme.sizes.px,
