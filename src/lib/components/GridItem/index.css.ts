@@ -24,7 +24,6 @@ export const containerVariant = styleVariants({
 
 export const title = style({
 	padding: theme.space[2],
-	textAlign: 'center',
 	borderWidth: 0,
 	borderBottomWidth: theme.space.px,
 	borderColor: theme.themeColors.border.default,

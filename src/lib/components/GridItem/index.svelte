@@ -7,7 +7,7 @@
 
 <div class={styles.containerVariant[full ? 'full' : 'default']}>
 	<div class={styles.title}>
-		<Heading as="h2" fontSize="xl" fontWeight="semibold">{title}</Heading>
+		<Heading as="h2" fontSize="xl" fontWeight="semibold" textAlign="center">{title}</Heading>
 	</div>
 	<div class={styles.content}>
 		<slot />
