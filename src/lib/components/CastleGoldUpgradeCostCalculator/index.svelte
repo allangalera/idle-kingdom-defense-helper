@@ -18,6 +18,7 @@
 
 <div class={styles.container}>
 	<Input
+		textAlign="center"
 		label="Current Level"
 		bind:value={currentLevel}
 		maskOptions={{
@@ -27,6 +28,7 @@
 		}}
 	/>
 	<Input
+		textAlign="center"
 		label="Target Level"
 		bind:value={targetLevel}
 		maskOptions={{
