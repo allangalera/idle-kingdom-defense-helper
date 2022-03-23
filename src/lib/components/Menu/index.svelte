@@ -36,8 +36,8 @@
 			</div>
 		</div>
 		<div class={styles.menu}>
-			<Link href="/" fontSize="2xl">Home</Link>
-			<Link href="/heroes" fontSize="2xl">Heroes</Link>
+			<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
+			<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
 		</div>
 	</div>
 {/if}

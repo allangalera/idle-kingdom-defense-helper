@@ -14,4 +14,4 @@
 	].join(' ');
 </script>
 
-<a class={className} {href} {target} {rel}><slot /></a>
+<a class={className} on:click {href} {target} {rel}><slot /></a>
