@@ -1,7 +1,10 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import { kingdoms } from '$lib/db/conquest';
-	import { sortKingdomByAscensionStoneAndCoin } from '$lib/utils/conquest';
+	import {
+		sortKingdomByAscensionStoneAndCoin,
+		kingdomNameToRomanNumber,
+	} from '$lib/utils/conquest';
 	import Heading from '$lib/components/Heading/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
@@ -35,7 +38,9 @@
 					}),
 				].join(' ')}
 			>
-				<Text as="span" fontSize="sm">{kingdom.continent} {kingdom.id}</Text>
+				<Text as="span" fontSize="sm"
+					>{kingdom.continent} {kingdomNameToRomanNumber(kingdom.name)}</Text
+				>
 			</div>
 		</div>
 		<Text textAlign="center">{kingdom.rewardEvolve}</Text>

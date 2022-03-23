@@ -19,7 +19,7 @@ export const kingdomName = style({
 	borderWidth: theme.sizes.px,
 	borderRadius: theme.border.radii.base,
 	padding: theme.space[2],
-	width: theme.sizes[20],
+	width: theme.sizes[24],
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
