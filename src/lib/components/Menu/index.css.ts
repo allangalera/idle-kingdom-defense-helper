@@ -33,6 +33,7 @@ export const menuContainer = style({
 	display: 'flex',
 	flexDirection: 'column',
 	gap: theme.space[4],
+	zIndex: 1200,
 });
 
 export const menuHeader = style({
