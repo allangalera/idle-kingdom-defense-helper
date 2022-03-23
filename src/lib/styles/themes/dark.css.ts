@@ -9,6 +9,7 @@ import {
 	plumDark,
 	amberDark,
 	orangeDark,
+	brownDark,
 } from '@radix-ui/colors';
 
 export const darkTheme = createTheme(themeColors, {
@@ -21,6 +22,7 @@ export const darkTheme = createTheme(themeColors, {
 		...plumDark,
 		...amberDark,
 		...orangeDark,
+		...brownDark,
 	},
 	text: {
 		default: '#ffffff',

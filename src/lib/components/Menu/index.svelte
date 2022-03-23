@@ -36,6 +36,7 @@
 		<div class={styles.menu}>
 			<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
 			<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
+			<Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link>
 		</div>
 	</div>
 {/if}

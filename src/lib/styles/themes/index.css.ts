@@ -230,6 +230,7 @@ export const themeColors = createThemeContract({
 		...radixColors.plum,
 		...radixColors.amber,
 		...radixColors.orange,
+		...radixColors.brown,
 	},
 	text: {
 		default: '',

@@ -4,12 +4,14 @@
 	export let as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' = 'h1';
 	export let fontSize: Sprinkles['fontSize'] = 'lg';
 	export let fontWeight: Sprinkles['fontWeight'] = 'normal';
+	export let textAlign: Sprinkles['textAlign'] = 'left';
 
 	let className = [
 		styles.heading,
 		sprinkles({
 			fontSize: fontSize,
 			fontWeight: fontWeight,
+			textAlign: textAlign,
 			color: 'slate12',
 		}),
 	].join(' ');
