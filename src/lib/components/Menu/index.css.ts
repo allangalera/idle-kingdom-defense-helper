@@ -12,7 +12,10 @@ export const buttoContainer = style({
 	cursor: 'pointer',
 });
 
-export const menuIcon = style({});
+export const menuIcon = style({
+	width: theme.sizes[8],
+	height: theme.sizes[8],
+});
 export const iconContainer = style({
 	cursor: 'pointer',
 });

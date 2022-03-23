@@ -17,7 +17,6 @@
 		<Icon
 			className={styles.menuIcon}
 			src={RiSystemMenu3Line}
-			size={theme.sizes[8]}
 			color={theme.themeColors.baseColors.slate12}
 		/>
 	</div>
@@ -30,7 +29,6 @@
 				<Icon
 					className={styles.menuIcon}
 					src={RiSystemCloseFill}
-					size={theme.sizes[8]}
 					color={theme.themeColors.baseColors.slate12}
 				/>
 			</div>
