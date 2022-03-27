@@ -44,10 +44,10 @@
 	};
 
 	conquest.subscribe((value) => {
-		if (!value.kingdoms) return;
+		let userKingdoms = pathOr([], ['kingdoms'], value);
 		let sortedHeroes = sortWith([descend(prop('grade'))])(pathOr([], ['heroes'], $heroesStore));
 		userKingdomsAndHeroes = sortedKingdoms.map((kingdom) => {
-			const isKingdomAdded = value.kingdoms.some((item) => item === kingdom.id);
+			const isKingdomAdded = userKingdoms.some((item) => item === kingdom.id);
 			let heroSuggestion = null;
 			if (isKingdomAdded) {
 				heroSuggestion = sortedHeroes.shift();
