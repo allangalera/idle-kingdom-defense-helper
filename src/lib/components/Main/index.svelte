@@ -8,6 +8,10 @@
 		styles.container,
 		sprinkles({
 			background: 'slate1',
+			padding: {
+				mobile: 2,
+				tablet: 4,
+			},
 		}),
 	].join(' ')}
 >
