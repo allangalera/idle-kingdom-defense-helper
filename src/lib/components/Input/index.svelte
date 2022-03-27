@@ -7,6 +7,8 @@
 	export let value = '';
 	export let maskOptions = undefined;
 	export let textAlign: Sprinkles['textAlign'] = 'left';
+	export let disabled: boolean = false;
+	export let readonly: boolean = false;
 
 	function validate() {
 		if (maskOptions) {
@@ -19,7 +21,9 @@
 </script>
 
 <label class={styles.container}>
-	<Text {textAlign}>{label}</Text>
+	{#if label}
+		<Text {textAlign}>{label}</Text>
+	{/if}
 	<input
 		class={[
 			styles.input,
@@ -29,6 +33,8 @@
 		].join(' ')}
 		type="text"
 		{value}
+		{disabled}
+		{readonly}
 		on:input={(e) => (value = e.currentTarget.value)}
 	/>
 </label>

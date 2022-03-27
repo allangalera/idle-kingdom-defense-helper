@@ -2,6 +2,8 @@
 	import * as styles from './index.css';
 	import { pathOr } from 'ramda';
 
+	import { stage, updateStage } from '$lib/shared/stores/user/stage';
+
 	import CardToggle from '$lib/components/CardToggle/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
@@ -10,9 +12,10 @@
 	import { HeroGearEquip, ArcherGearEquip, RarityEnum } from '$lib/enums';
 	import { MAX_STAGE_LEVEL } from '$lib/constants';
 	import { calculateStage } from '$lib/utils/stage';
+	import { onDestroy } from 'svelte';
 
 	let timer;
-	let stage = '1';
+	let stageLevel = $stage?.stage?.toString() ?? '1';
 	let result = [];
 	let bestGear;
 	let gear = {
@@ -47,22 +50,33 @@
 		return wanted;
 	}
 
-	function debounce(stage, gear) {
+	function debounce(stageLevel, gear) {
 		clearTimeout(timer);
 		timer = setTimeout(() => {
-			const { stages, currentBestGear } = calculateStage(stage, returnGearsToFind(gear));
+			const { stages, currentBestGear } = calculateStage(stageLevel, returnGearsToFind(gear));
 			result = stages;
 			bestGear = currentBestGear;
 		}, 500);
 	}
 
-	$: debounce(stage, gear);
+	$: debounce(stageLevel, gear);
+	$: updateStage(+stageLevel);
+
+	const unsubscribe = stage.subscribe((value) => {
+		if (!value.stage) return;
+		if (value.stage === +stageLevel) return;
+		stageLevel = value.stage.toString();
+	});
+
+	onDestroy(() => {
+		unsubscribe();
+	});
 </script>
 
 <div class={styles.container}>
 	<Input
 		textAlign="center"
-		bind:value={stage}
+		bind:value={stageLevel}
 		maskOptions={{
 			mask: Number,
 			min: 0,

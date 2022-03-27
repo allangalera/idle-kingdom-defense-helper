@@ -32,6 +32,8 @@ const responsiveProperties = defineProperties({
 		lineHeight: theme.font.lineHeights,
 		letterSpacing: theme.font.letterSpacings,
 		textAlign: ['left', 'center', 'right', 'start', 'end'],
+		cursor: ['pointer', 'not-allowed'],
+		opacity: [0, 0.5, 1],
 	},
 	shorthands: {
 		padding: ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight'],

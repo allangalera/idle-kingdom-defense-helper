@@ -9,6 +9,7 @@
 	export let borderColor: Sprinkles['background'] = 'cardBorderDefault';
 	export let background: Sprinkles['background'] = 'cardBackgroundDefault';
 	export let width: Sprinkles['width'] = 24;
+	export let heroTypeBadgeWidth: Sprinkles['width'] = 6;
 	export let heroType: HeroType = null;
 	export let level: UpgradeLevel = null;
 	export let rarity: Rarity = null;
@@ -71,7 +72,13 @@
 	</div>
 	{#if heroType}
 		<div class={styles.heroTypeBadge}>
-			<img class={styles.badge} src={`images/heroType/${heroTypeImage}.png`} alt="ranking icon" />
+			<img
+				class={sprinkles({
+					width: heroTypeBadgeWidth,
+				})}
+				src={`images/heroType/${heroTypeImage}.png`}
+				alt="ranking icon"
+			/>
 		</div>
 	{/if}
 	{#if level && rarity}

@@ -4,9 +4,13 @@
 	import Text from '$lib/components/Text/index.svelte';
 	import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
 	import { HeroesVisualizationModes } from '$lib/enums';
+	import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
+	import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
 
 	export let hero;
+	let addModalOpen = false;
+	let userHero = $heroes?.heroes?.find((item) => item.id === hero.id);
 
 	const borderColorByGrade = {
 		0: 'yellow10',
@@ -53,12 +57,30 @@
 
 		return `${Math.round(value * 100)}%`;
 	}
+
+	const openAddModal = () => {
+		addModalOpen = true;
+	};
+
+	const onRemoveHero = () => {
+		removeHero(hero.id);
+	};
+
+	heroes.subscribe((data) => {
+		userHero = data?.heroes?.find((item) => item.id === hero.id) || null;
+	});
 </script>
 
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
 		<CardHero width={16} {hero} />
 		<Text fontSize="lg" fontWeight="bold">{hero.name}</Text>
+		{#if userHero}
+			<button type="button" on:click={openAddModal}>edit</button>
+			<button type="button" on:click={onRemoveHero}>rem</button>
+		{:else}
+			<button type="button" on:click={openAddModal}>add</button>
+		{/if}
 		<img src={`images/heroTier/iconGearQuality${hero.baseGrade}.png`} alt={`Tier icon`} />
 	</div>
 	{#if $heroesVisualization === HeroesVisualizationModes.minimal}
@@ -124,3 +146,12 @@
 		</div>
 	{/if}
 </div>
+
+<ModalAddHero
+	open={addModalOpen}
+	onClose={() => {
+		addModalOpen = false;
+	}}
+	{hero}
+	{userHero}
+/>

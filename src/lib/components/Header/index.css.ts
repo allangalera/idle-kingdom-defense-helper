@@ -13,7 +13,7 @@ export const container = style({
 	alignItems: 'center',
 	maxWidth: theme.breakpoints.xl,
 	margin: '0 auto',
-	padding: theme.space[8],
+	padding: theme.space[4],
 	position: 'relative',
 });
 

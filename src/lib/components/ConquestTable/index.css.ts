@@ -3,13 +3,14 @@ import { style } from '@vanilla-extract/css';
 
 export const container = style({
 	display: 'grid',
-	gridTemplateColumns: 'repeat(3, auto)',
+	gridTemplateColumns: 'repeat(5, 1fr)',
 	justifyContent: 'center',
 	alignItems: 'center',
-	gap: theme.space[4],
+	width: 'max-content',
+	margin: '0 auto',
 });
 
-export const kingdomNameContainer = style({
+export const centerFlex = style({
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
@@ -19,9 +20,14 @@ export const kingdomName = style({
 	borderStyle: 'solid',
 	borderWidth: theme.sizes.px,
 	borderRadius: theme.border.radii.base,
-	padding: theme.space[2],
-	width: theme.sizes[24],
+	padding: theme.space[1],
+	paddingLeft: theme.space[0.5],
+	paddingRight: theme.space[0.5],
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
+});
+
+export const ascensionIcon = style({
+	width: theme.sizes[6],
 });

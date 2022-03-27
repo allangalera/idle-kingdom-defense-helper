@@ -16,6 +16,7 @@ export const menuIcon = style({
 	width: theme.sizes[8],
 	height: theme.sizes[8],
 });
+
 export const iconContainer = style({
 	cursor: 'pointer',
 });
@@ -46,4 +47,5 @@ export const menu = style({
 	display: 'flex',
 	flexDirection: 'column',
 	gap: theme.space[4],
+	flex: 1,
 });

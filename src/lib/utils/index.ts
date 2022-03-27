@@ -1,4 +1,6 @@
 import { MAX_HERO_LEVEL } from '$lib/constants';
+import { RarityEnum } from '$lib/enums';
+import type { Grades, UpgradeLevel } from '$lib/types';
 import { nanoid } from 'nanoid';
 import { z } from 'zod';
 
@@ -101,4 +103,45 @@ export const romanize = (num: number) => {
 	let i = 3;
 	while (i--) roman = (key[+digits.pop() + i * 10] || '') + roman;
 	return Array(+digits.join('') + 1).join('M') + roman;
+};
+
+export const convertGradeToStarLevel = (
+	grade: Grades
+): { rarity: RarityEnum; level: UpgradeLevel } => {
+	const dividedBy5 = grade / 5;
+
+	const remainderToLevel = {
+		1: 1,
+		2: 2,
+		3: 3,
+		4: 4,
+		0: 5,
+	} as const;
+
+	if (dividedBy5 <= 1) {
+		return {
+			rarity: RarityEnum.common,
+			level: remainderToLevel[grade % 5],
+		};
+	} else if (dividedBy5 <= 2) {
+		return {
+			rarity: RarityEnum.uncommon,
+			level: remainderToLevel[grade % 5],
+		};
+	} else if (dividedBy5 <= 3) {
+		return {
+			rarity: RarityEnum.rare,
+			level: remainderToLevel[grade % 5],
+		};
+	} else if (dividedBy5 <= 4) {
+		return {
+			rarity: RarityEnum.epic,
+			level: remainderToLevel[grade % 5],
+		};
+	} else {
+		return {
+			rarity: RarityEnum.legendary,
+			level: remainderToLevel[grade % 5],
+		};
+	}
 };

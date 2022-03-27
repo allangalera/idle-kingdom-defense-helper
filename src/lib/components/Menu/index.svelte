@@ -1,8 +1,10 @@
 <script lang="ts">
 	import * as styles from './index.css';
+	import { user } from '$lib/shared/stores/user';
 	import Icon from 'svelte-icons-pack/Icon.svelte';
 	import RiSystemMenu3Line from 'svelte-icons-pack/ri/RiSystemMenu3Line';
 	import RiSystemCloseFill from 'svelte-icons-pack/ri/RiSystemCloseFill';
+	import Input from '$lib/components/Input/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
 	import Link from '$lib/components/Link/index.svelte';
 	import { theme } from '$lib/styles/themes/index.css';
@@ -12,8 +14,8 @@
 	}
 </script>
 
-<div class={styles.buttoContainer}>
-	<div on:click={toggleMenu}>
+<div class={styles.buttoContainer} on:click={toggleMenu}>
+	<div>
 		<Icon
 			className={styles.menuIcon}
 			src={RiSystemMenu3Line}
@@ -37,6 +39,9 @@
 			<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
 			<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
 			<Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link>
+		</div>
+		<div>
+			<Input label="Token" readonly value={$user} />
 		</div>
 	</div>
 {/if}

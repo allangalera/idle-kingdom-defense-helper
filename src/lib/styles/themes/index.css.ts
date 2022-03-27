@@ -157,8 +157,10 @@ export const root = createGlobalTheme(':root', {
 		},
 	},
 	colors: {
+		transparent: 'transparent',
 		white: '#ffffff',
 		black: '#353535',
+		blackBG: '#35353550',
 		cardBorderDefault: '#4c596b',
 		cardBoarderTierUncommon: '#69a619',
 		cardBoarderTierRare: '#2783ad',
