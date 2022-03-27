@@ -75,7 +75,12 @@
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
 		<CardHero width={16} {hero} />
-		<Text fontSize="lg" fontWeight="bold">{hero.name}</Text>
+		<div>
+			<Text textAlign="center" fontSize="lg" fontWeight="bold">{hero.name}</Text>
+			{#if hero.level}
+				<Text textAlign="center" fontSize="xs">Lv {hero.level}</Text>
+			{/if}
+		</div>
 		{#if hero.level}
 			<Button type="button" on:click={openAddModal}>
 				<Text color="white">edit</Text>
