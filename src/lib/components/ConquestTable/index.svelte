@@ -113,9 +113,9 @@
 		</div>
 		<div class={styles.centerFlex}>
 			{#if kingdom.heroSuggestion}
-				<CardHero hero={kingdom.heroSuggestion} width={12} heroTypeBadgeWidth={4} />
+				<CardHero hero={kingdom.heroSuggestion} width={12} heroTypeBadgeWidth={3.5} />
 			{:else}
-				<CardBorder width={12} heroTypeBadgeWidth={4} />
+				<CardBorder width={12} />
 			{/if}
 		</div>
 	{/each}

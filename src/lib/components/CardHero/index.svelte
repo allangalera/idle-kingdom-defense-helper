@@ -10,6 +10,8 @@
 	export let hero;
 
 	let heroGrade = convertGradeToStarLevel(hero.grade || hero.baseGrade);
+
+	$: heroGrade = convertGradeToStarLevel(hero.grade || hero.baseGrade);
 </script>
 
 <CardBorder
