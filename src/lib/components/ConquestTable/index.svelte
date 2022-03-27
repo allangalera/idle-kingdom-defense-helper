@@ -2,9 +2,10 @@
 	import * as styles from './index.css';
 	import { kingdoms } from '$lib/db/conquest';
 	import { clone, sortWith, prop, descend, pathOr, isNil } from 'ramda';
+	import * as R from 'remeda';
 	import { conquest, addKingdom, removeKingdom } from '$lib/shared/stores/user/conquest';
 	import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
-	import { heroes } from '$lib/db/heroes';
+	import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
 	import {
 		sortKingdomByAscensionStoneAndCoin,
 		kingdomNameToRomanNumber,
@@ -15,6 +16,7 @@
 	import Button from '$lib/components/Button/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
+	import type { Hero } from '$lib/types';
 
 	let sortedKingdoms = sortKingdomByAscensionStoneAndCoin(kingdoms);
 	let userKingdomsAndHeroes = [];
@@ -44,8 +46,10 @@
 	};
 
 	conquest.subscribe((value) => {
-		let userKingdoms = pathOr([], ['kingdoms'], value);
-		let sortedHeroes = sortWith([descend(prop('grade'))])(pathOr([], ['heroes'], $heroesStore));
+		let userKingdoms = R.pathOr(value, ['kingdoms'], []);
+		let sortedHeroes = defaultSortingHeroes(
+			R.pathOr($heroesStore, ['heroes'], []) as unknown as Hero[]
+		);
 		userKingdomsAndHeroes = sortedKingdoms.map((kingdom) => {
 			const isKingdomAdded = userKingdoms.some((item) => item === kingdom.id);
 			let heroSuggestion = null;

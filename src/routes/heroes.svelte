@@ -1,13 +1,14 @@
 <script lang="ts">
 	import * as styles from './heroes.css';
-	import { heroes } from '$lib/db/heroes';
+	import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
 	import Text from '$lib/components/Text/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import HeroesTable from '$lib/components/HeroesTable/index.svelte';
 	import { HeroesSearchValues, HeroesVisualizationModes } from '$lib/enums';
-	import { without } from 'ramda';
+	import { without, pathOr } from 'ramda';
 	import { matchSorter } from 'match-sorter';
 	import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
+	import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
 	let searchParameter;
 
 	let filteredHeroes = heroes;
@@ -30,12 +31,25 @@
 	}
 
 	function searchHero(input, keys) {
-		return matchSorter(heroes, input, {
+		let userHeroes = heroes.map((hero) => {
+			let userHero = pathOr([], ['heroes'], $heroesStore).find((userH) => userH.id === hero.id);
+			return {
+				...hero,
+				...userHero,
+			};
+		});
+		userHeroes = defaultSortingHeroes(userHeroes);
+		// console.log({ userHeroes });
+		return matchSorter(userHeroes, input, {
 			keys,
 			sorter: (rankedItems) => rankedItems,
 			threshold: matchSorter.rankings.CONTAINS,
 		});
 	}
+
+	heroesStore.subscribe(() => {
+		filteredHeroes = searchHero(searchParameter, searchKeys);
+	});
 
 	$: filteredHeroes = searchHero(searchParameter, searchKeys);
 </script>

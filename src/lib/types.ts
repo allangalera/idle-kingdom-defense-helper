@@ -76,3 +76,17 @@ export type BestGearType = {
 		level: UpgradeLevel;
 	};
 };
+
+export type Skill = {
+	progression: any[];
+};
+
+export type Hero = {
+	id: number;
+	name: string;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	skills: Skill[];
+	grade?: Grades;
+	level?: number;
+	baseGrade: number;
+};

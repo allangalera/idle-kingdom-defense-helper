@@ -74,8 +74,8 @@
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
 		<CardHero width={16} {hero} />
-		<Text fontSize="lg" fontWeight="bold">{hero.name}</Text>
-		{#if userHero}
+		<Text fontSize="lg" fontWeight="bold">{hero.name}-{hero.id}</Text>
+		{#if hero.level}
 			<button type="button" on:click={openAddModal}>edit</button>
 			<button type="button" on:click={onRemoveHero}>rem</button>
 		{:else}

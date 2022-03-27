@@ -5,7 +5,7 @@
 </script>
 
 <div class={styles.table}>
-	{#each heroes as hero}
+	{#each heroes as hero (hero.id)}
 		<HeroesTableItem {hero} />
 	{/each}
 </div>

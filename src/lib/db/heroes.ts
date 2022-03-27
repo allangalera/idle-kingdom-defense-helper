@@ -4,7 +4,8 @@ import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
 import langJSON from '$lib/gameInfo/lang.json';
-import { omit, sortWith, ascend, prop, groupBy } from 'ramda';
+import * as R from 'remeda';
+import type { Hero } from '$lib/types';
 
 function getHeroAscension(heroId: number) {
 	return heroGradesJSON.filter((heroGrade) => heroGrade.heroId === heroId);
@@ -16,7 +17,7 @@ function getSummonSkill(hero) {
 	);
 
 	return {
-		...omit(['summonAssetId', 'desc', 'name', 'soundFire', 'icon'], summonSkill),
+		...R.omit(summonSkill, ['summonAssetId', 'desc', 'name', 'soundFire', 'icon']),
 		name: langJSON[summonSkill.name],
 		desc: langJSON[summonSkill.desc],
 		coolTime: hero.skillCoolTime,
@@ -34,7 +35,7 @@ function getBuffSkill(hero) {
 	const buffSkill = buffSkillJSON.find((buffSkillItem) => buffSkillItem.id === hero.mainSkill);
 
 	return {
-		...omit(['effectAssetId', 'desc', 'name', 'assetId', 'soundFire', 'icon'], buffSkill),
+		...R.omit(buffSkill, ['effectAssetId', 'desc', 'name', 'assetId', 'soundFire', 'icon']),
 		name: langJSON[buffSkill.name],
 		desc: langJSON[buffSkill.desc],
 		coolTime: hero.skillCoolTime,
@@ -50,20 +51,16 @@ function getBuffSkill(hero) {
 function getMainSkill(hero) {
 	const mainSkill = mainSkillJSON.find((mainSkillItem) => mainSkillItem.id === hero.mainSkill);
 	return {
-		...omit(
-			[
-				'assetId',
-				'bottomAssetId',
-				'description',
-				'desc',
-				'icon',
-				'rangeAssetId',
-				'soundHit',
-				'soundFire',
-				'summonAssetId',
-			],
-			mainSkill
-		),
+		...R.omit(mainSkill, [
+			'assetId',
+			'bottomAssetId',
+			'desc',
+			'icon',
+			'rangeAssetId',
+			'soundHit',
+			'soundFire',
+			'summonAssetId',
+		]),
 		name: langJSON[`${hero.skillKey}NAME_1`],
 		desc: langJSON[`${hero.skillKey}DESC_1`],
 		coolTime: hero.skillCoolTime,
@@ -126,7 +123,7 @@ function generateHeroList() {
 		const ascension = getHeroAscension(hero.id);
 		const skills = getHeroSkills(hero, ascension);
 		return {
-			...omit(['skillKey', 'assetId', 'img', 'name'], hero),
+			...R.omit(hero, ['skillKey', 'assetId', 'img', 'name']),
 			name: langJSON[hero.name],
 			ascension,
 			skills,
@@ -135,10 +132,12 @@ function generateHeroList() {
 	return heroes;
 }
 
-const sortByBaseGradeAndName = sortWith([ascend(prop('baseGrade')), ascend(prop('name'))]);
+export const defaultSortingHeroes = (heroes: Hero[]) =>
+	R.sortBy(
+		heroes,
+		[(x) => x.grade || x.baseGrade, 'desc'],
+		[(x) => x.level || 1, 'desc'],
+		(x) => x.id
+	);
 
-const groupByTier = groupBy((hero) => hero.baseGrade);
-
-export const heroes = sortByBaseGradeAndName(generateHeroList());
-
-export const heroesGroupByTier = groupByTier(heroes);
+export const heroes = defaultSortingHeroes(generateHeroList());
