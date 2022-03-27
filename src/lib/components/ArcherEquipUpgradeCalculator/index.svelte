@@ -4,7 +4,7 @@
 	import Text from '$lib/components/Text/index.svelte';
 	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
-	import archerEquipUpgradeCostJson from '$lib/data/archerEquipUpgradeCost.json';
+	import { archerPromoteProgressionByGrade } from '$lib/db/archer';
 
 	let ascensionStartLevels = new Array(25).fill(false);
 	let ascensionEndLevels = new Array(25).fill(false);
@@ -42,9 +42,11 @@
 
 		if (startLevel >= endLevel) return;
 		for (let level = startLevel; level < endLevel; level++) {
-			steelCost += archerEquipUpgradeCostJson[level + 2].steel;
+			steelCost += archerPromoteProgressionByGrade[level + 1].iron;
 		}
 	}
+
+	console.log({ archerPromoteProgressionByGrade });
 
 	$: calculateCost(selectedStartLevel, selectedEndLevel);
 </script>
