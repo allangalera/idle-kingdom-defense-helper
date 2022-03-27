@@ -6,6 +6,7 @@
 	import { HeroesVisualizationModes } from '$lib/enums';
 	import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
 	import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
+	import Button from '$lib/components/Button/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
 
 	export let hero;
@@ -74,12 +75,18 @@
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
 		<CardHero width={16} {hero} />
-		<Text fontSize="lg" fontWeight="bold">{hero.name}-{hero.id}</Text>
+		<Text fontSize="lg" fontWeight="bold">{hero.name}</Text>
 		{#if hero.level}
-			<button type="button" on:click={openAddModal}>edit</button>
-			<button type="button" on:click={onRemoveHero}>rem</button>
+			<Button type="button" on:click={openAddModal}>
+				<Text color="white">edit</Text>
+			</Button>
+			<Button type="button" variant="danger" on:click={onRemoveHero}>
+				<Text color="white">rem</Text>
+			</Button>
 		{:else}
-			<button type="button" on:click={openAddModal}>add</button>
+			<Button type="button" variant="success" on:click={openAddModal}>
+				<Text color="white">add</Text>
+			</Button>
 		{/if}
 		<img src={`images/heroTier/iconGearQuality${hero.baseGrade}.png`} alt={`Tier icon`} />
 	</div>
