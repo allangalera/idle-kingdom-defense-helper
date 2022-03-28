@@ -49,37 +49,39 @@
 
 {#if open}
 	<Portal>
-		<Modal {onClose} footerJustifyContent="flex-end">
+		<Modal {onClose} footerJustifyContent="flex-end" shouldCloseOnOverlay={false}>
 			<slot slot="header">
-				<Heading textAlign="center">Add {hero.name}</Heading>
+				<Heading textAlign="center">{hero.name}</Heading>
 			</slot>
 			<slot slot="content">
-				<div class={styles.gradeContainer}>
-					<div on:click={subtractGrade} role="button">
-						<Icon
-							className={styles.icons}
-							src={RiSystemSubtractFill}
-							color={theme.themeColors.baseColors.slate12}
-						/>
+				<div class={styles.contentContainer}>
+					<div class={styles.gradeContainer}>
+						<Button on:click={subtractGrade}>
+							<Icon
+								className={styles.icons}
+								src={RiSystemSubtractFill}
+								color={theme.themeColors.baseColors.slate12}
+							/>
+						</Button>
+						<InputGrade grade={userHeroGrade} />
+						<Button on:click={addGrade}>
+							<Icon
+								className={styles.icons}
+								src={RiSystemAddFill}
+								color={theme.themeColors.baseColors.slate12}
+							/>
+						</Button>
 					</div>
-					<InputGrade grade={userHeroGrade} />
-					<div on:click={addGrade} role="button">
-						<Icon
-							className={styles.icons}
-							src={RiSystemAddFill}
-							color={theme.themeColors.baseColors.slate12}
-						/>
-					</div>
+					<Input
+						label="Level"
+						maskOptions={{
+							mask: Number,
+							min: 1,
+							max: MAX_HERO_LEVEL,
+						}}
+						bind:value={userHeroLevel}
+					/>
 				</div>
-				<Input
-					label="Level"
-					maskOptions={{
-						mask: Number,
-						min: 1,
-						max: MAX_HERO_LEVEL,
-					}}
-					bind:value={userHeroLevel}
-				/>
 			</slot>
 			<slot slot="footer">
 				<Button variant="danger" on:click={onClose}>

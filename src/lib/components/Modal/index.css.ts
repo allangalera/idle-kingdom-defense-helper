@@ -13,12 +13,14 @@ export const wrapper = style({
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
+	padding: theme.space[4],
 });
 
 export const container = style({
 	background: theme.themeColors.baseColors.slate1,
 	borderRadius: theme.border.radii.base,
 	minWidth: theme.sizes[80],
+	maxWidth: '100%',
 });
 
 export const header = style({
