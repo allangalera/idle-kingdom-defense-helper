@@ -6,4 +6,7 @@ export const container = style({
 	padding: theme.space[2],
 	borderWidth: theme.space.px,
 	borderStyle: 'solid',
+	display: 'flex',
+	justifyContent: 'center',
+	alignItems: 'center',
 });

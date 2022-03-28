@@ -41,12 +41,9 @@
 			darkMode: 'slate7',
 		},
 		secondary: 'slate10',
-		danger: {
-			darkMode: 'red4',
-			lightMode: 'red9',
-		},
+		danger: 'red9',
 		success: {
-			darkMode: 'green4',
+			darkMode: 'green9',
 			lightMode: 'green9',
 		},
 	} as const;
