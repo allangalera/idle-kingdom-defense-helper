@@ -1,16 +1,15 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import Input from '$lib/components/Input/index.svelte';
-	import Text from '$lib/components/Text/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
-	import goldIcon from '$lib/assets/gold_icon.png';
+	import { calculateCastleUpgradeCost } from '$lib/utils/castle-gold';
+	import { CASTLE_MAX_LEVEL } from '$lib/constants';
+
 	let currentLevel = '1';
 	let targetLevel = '2';
 	let goldNeeded = 0;
-	import { getIdleKingdomNumberFormat } from '$lib/utils';
-	import { calculateCastleUpgradeCostWithMap } from '$lib/utils/castle-gold';
-	import { CASTLE_MAX_LEVEL } from '$lib/constants';
-	$: goldNeeded = calculateCastleUpgradeCostWithMap({
+
+	$: goldNeeded = calculateCastleUpgradeCost({
 		currentLevel: +currentLevel,
 		targetLevel: +targetLevel,
 	});
