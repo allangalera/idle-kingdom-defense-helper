@@ -8,6 +8,7 @@ export const container = style({
 	alignItems: 'center',
 	width: 'max-content',
 	margin: '0 auto',
+	rowGap: theme.space[1],
 });
 
 export const centerFlex = style({

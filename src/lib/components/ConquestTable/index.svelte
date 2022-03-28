@@ -73,17 +73,16 @@
 
 <div class={styles.container}>
 	<!-- Heading -->
-	<Heading textAlign="center" fontSize="base">Capital</Heading>
+	<Heading textAlign="center" fontSize="xl">Capital</Heading>
 	<div class={styles.centerFlex}>
 		<img class={styles.ascensionIcon} src="images/icons/iconEvolveStone.png" alt="ascension icon" />
 	</div>
 	<div class={styles.centerFlex}>
 		<img class={styles.ascensionIcon} src="images/icons/iconGold.png" alt="gold icon" />
 	</div>
-	<Heading textAlign="center" fontSize="base">Action</Heading>
-	<Heading textAlign="center" fontSize="lg">Hero</Heading>
+	<Heading textAlign="center" fontSize="xl">Action</Heading>
+	<Heading textAlign="center" fontSize="xl">Hero</Heading>
 	<!-- Body -->
-
 	{#each userKingdomsAndHeroes as kingdom (kingdom.id)}
 		<div
 			class={[
@@ -117,9 +116,14 @@
 		</div>
 		<div class={styles.centerFlex}>
 			{#if kingdom.heroSuggestion}
-				<CardHero hero={kingdom.heroSuggestion} width={12} heroTypeBadgeWidth={3.5} />
+				<CardHero
+					hero={kingdom.heroSuggestion}
+					width={12}
+					heroTypeBadgeWidth={3.5}
+					borderWidth={0.5}
+				/>
 			{:else}
-				<CardBorder width={12} />
+				<CardBorder width={12} borderWidth={0.5} />
 			{/if}
 		</div>
 	{/each}

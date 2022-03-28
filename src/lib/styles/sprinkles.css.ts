@@ -27,6 +27,7 @@ const responsiveProperties = defineProperties({
 		paddingBottom: theme.space,
 		paddingLeft: theme.space,
 		paddingRight: theme.space,
+		borderWidth: theme.space,
 		fontSize: theme.font.fontSizes,
 		fontWeight: theme.font.fontWeights,
 		lineHeight: theme.font.lineHeights,

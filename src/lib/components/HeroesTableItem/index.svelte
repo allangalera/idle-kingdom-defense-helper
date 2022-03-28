@@ -74,7 +74,7 @@
 
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
-		<CardHero width={16} {hero} />
+		<CardHero width={16} hero={{ ...hero, ...userHero }} />
 		<div>
 			<Text textAlign="center" fontSize="lg" fontWeight="bold">{hero.name}</Text>
 			{#if hero.level}

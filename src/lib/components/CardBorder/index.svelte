@@ -8,6 +8,7 @@
 
 	export let borderColor: Sprinkles['background'] = 'cardBorderDefault';
 	export let background: Sprinkles['background'] = 'cardBackgroundDefault';
+	export let borderWidth: Sprinkles['padding'] = 1;
 	export let width: Sprinkles['width'] = 24;
 	export let heroTypeBadgeWidth: Sprinkles['width'] = 6;
 	export let heroType: HeroType = null;
@@ -27,6 +28,7 @@
 		[HeroTypes.support]: 'iconClassSupporterRound',
 		[HeroTypes.warrior]: 'iconClassWarriorRound',
 	};
+
 	$: rankingLevels = level && new Array(level);
 
 	$: heroTypeImage = heroTypeIcons[heroType];
@@ -46,6 +48,7 @@
 				styles.border,
 				sprinkles({
 					background: borderColor,
+					padding: borderWidth,
 				}),
 			].join(' ')}
 		>

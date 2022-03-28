@@ -3,6 +3,7 @@
 
 	import CardBorder from '$lib/components/CardBorder/index.svelte';
 	import type { Sprinkles } from '$lib/styles/sprinkles.css';
+	import type { CardGearType } from '$lib/types';
 
 	export let gearType: CardGearType;
 	export let width: Sprinkles['width'] = 24;

@@ -31,7 +31,6 @@ export const border = style({
 	position: 'relative',
 	width: '100%',
 	height: '100%',
-	padding: theme.space[1],
 	overflow: 'hidden',
 	boxShadow: `0px 0px 6px 7px rgb(0 0 0 / 100%)`,
 	clipPath: `polygon(
