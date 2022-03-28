@@ -1,16 +1,17 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import { createEventDispatcher } from 'svelte';
-	import start1 from '$lib/assets/iconStarBig1.png';
-	import start2 from '$lib/assets/iconStarBig2.png';
-	import start3 from '$lib/assets/iconStarBig3.png';
-	import start4 from '$lib/assets/iconStarBig4.png';
-	import start5 from '$lib/assets/iconStarBig5.png';
 
 	export let selected;
 	export let ascensionLevel = 0;
 
-	const startLevels = [start1, start2, start3, start4, start5];
+	const startLevels = [
+		'images/ranking/iconStarBig1.png',
+		'images/ranking/iconStarBig2.png',
+		'images/ranking/iconStarBig3.png',
+		'images/ranking/iconStarBig4.png',
+		'images/ranking/iconStarBig5.png',
+	];
 
 	const dispatch = createEventDispatcher();
 
