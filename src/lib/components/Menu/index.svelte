@@ -33,11 +33,7 @@
 
 <div class={styles.buttoContainer} on:click={toggleMenu}>
 	<Button>
-		<Icon
-			className={styles.menuIcon}
-			src={RiSystemMenu3Line}
-			color={theme.themeColors.baseColors.slate12}
-		/>
+		<Icon className={styles.menuIcon} src={RiSystemMenu3Line} color={theme.colors.white} />
 	</Button>
 </div>
 {#if menuOpen}
