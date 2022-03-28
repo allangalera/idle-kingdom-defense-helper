@@ -10,6 +10,10 @@
 		styles.anchor,
 		sprinkles({
 			fontSize: fontSize,
+			color: {
+				lightMode: 'green10',
+				darkMode: 'green11',
+			},
 		}),
 	].join(' ');
 </script>
