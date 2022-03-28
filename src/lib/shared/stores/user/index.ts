@@ -7,7 +7,7 @@ import { heroes } from './heroes';
 const stores = [stage, conquest, heroes];
 
 export const user = derived(stores, (values) => {
-	if (!browser) return values;
+	if (!browser) return 'no token';
 	const token = window.btoa(JSON.stringify(values));
 	return token;
 });

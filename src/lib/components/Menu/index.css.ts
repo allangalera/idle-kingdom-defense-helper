@@ -6,8 +6,6 @@ export const buttoContainer = style({
 	bottom: theme.space[4],
 	right: theme.space[4],
 	alignSelf: 'end',
-	borderRadius: theme.border.radii.base,
-	background: theme.themeColors.baseColors.slate6,
 	padding: theme.space[4],
 	cursor: 'pointer',
 });
@@ -48,4 +46,10 @@ export const menu = style({
 	flexDirection: 'column',
 	gap: theme.space[4],
 	flex: 1,
+});
+
+export const menuFooter = style({
+	display: 'flex',
+	flexDirection: 'column',
+	gap: theme.space[4],
 });

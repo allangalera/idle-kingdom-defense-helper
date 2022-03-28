@@ -7,7 +7,10 @@
 	export let variant: 'primary' | 'secondary' | 'danger' | 'success' = 'primary';
 
 	const backgroundColors = {
-		primary: 'slate7',
+		primary: {
+			lightMode: 'slate9',
+			darkMode: 'slate7',
+		},
 		secondary: 'transparent',
 		danger: 'red9',
 		success: {
@@ -17,7 +20,10 @@
 	} as const;
 
 	const backgroundDisabledColors = {
-		primary: 'slate7',
+		primary: {
+			lightMode: 'slate9',
+			darkMode: 'slate7',
+		},
 		secondary: 'transparent',
 		danger: {
 			darkMode: 'red4',
@@ -30,7 +36,10 @@
 	} as const;
 
 	const borderColors = {
-		primary: 'slate7',
+		primary: {
+			lightMode: 'slate9',
+			darkMode: 'slate7',
+		},
 		secondary: 'slate10',
 		danger: {
 			darkMode: 'red4',
@@ -42,7 +51,10 @@
 		},
 	} as const;
 	const borderDisabledColors = {
-		primary: 'slate7',
+		primary: {
+			lightMode: 'slate9',
+			darkMode: 'slate7',
+		},
 		secondary: 'slate10',
 		danger: {
 			darkMode: 'red4',

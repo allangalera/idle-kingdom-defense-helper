@@ -39,7 +39,7 @@
 			};
 		});
 		userHeroes = defaultSortingHeroes(userHeroes);
-		// console.log({ userHeroes });
+
 		return matchSorter(userHeroes, input, {
 			keys,
 			sorter: (rankedItems) => rankedItems,

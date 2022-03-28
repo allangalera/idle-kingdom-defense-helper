@@ -46,8 +46,6 @@
 		}
 	}
 
-	console.log({ archerPromoteProgressionByGrade });
-
 	$: calculateCost(selectedStartLevel, selectedEndLevel);
 </script>
 
