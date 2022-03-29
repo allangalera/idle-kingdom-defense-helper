@@ -1,7 +1,7 @@
 import { createTheme } from '@vanilla-extract/css';
 import { themeColors } from './index.css';
 import {
-	slateDark,
+	grayDark,
 	redDark,
 	greenDark,
 	yellowDark,
@@ -10,11 +10,13 @@ import {
 	amberDark,
 	orangeDark,
 	brownDark,
+	grayDarkA,
 } from '@radix-ui/colors';
 
 export const darkTheme = createTheme(themeColors, {
 	baseColors: {
-		...slateDark,
+		...grayDark,
+		...grayDarkA,
 		...redDark,
 		...greenDark,
 		...yellowDark,
@@ -36,8 +38,8 @@ export const darkTheme = createTheme(themeColors, {
 		default: '#0D0D0D',
 	},
 	border: {
-		default: '#404040',
-		hover: '#808080',
+		default: grayDark.gray7,
+		hover: grayDark.gray9,
 	},
 	accent: {
 		base: '#783cb7',

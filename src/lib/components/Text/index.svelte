@@ -4,7 +4,7 @@
 	export let as: 'p' | 'span' = 'p';
 	export let fontSize: Sprinkles['fontSize'] = 'base';
 	export let fontWeight: Sprinkles['fontWeight'] = 'normal';
-	export let color: Sprinkles['color'] = 'slate12';
+	export let color: Sprinkles['color'] = 'gray12';
 	export let textAlign: Sprinkles['textAlign'] = 'left';
 
 	let className = [

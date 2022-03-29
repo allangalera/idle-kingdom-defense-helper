@@ -8,8 +8,8 @@
 
 	const backgroundColors = {
 		primary: {
-			lightMode: 'slate9',
-			darkMode: 'slate7',
+			lightMode: 'gray9',
+			darkMode: 'gray7',
 		},
 		secondary: 'transparent',
 		danger: 'red9',
@@ -21,8 +21,8 @@
 
 	const backgroundDisabledColors = {
 		primary: {
-			lightMode: 'slate9',
-			darkMode: 'slate7',
+			lightMode: 'gray9',
+			darkMode: 'gray7',
 		},
 		secondary: 'transparent',
 		danger: {
@@ -37,10 +37,10 @@
 
 	const borderColors = {
 		primary: {
-			lightMode: 'slate9',
-			darkMode: 'slate7',
+			lightMode: 'gray9',
+			darkMode: 'gray7',
 		},
-		secondary: 'slate10',
+		secondary: 'gray10',
 		danger: 'red9',
 		success: {
 			darkMode: 'green9',
@@ -49,10 +49,10 @@
 	} as const;
 	const borderDisabledColors = {
 		primary: {
-			lightMode: 'slate9',
-			darkMode: 'slate7',
+			lightMode: 'gray9',
+			darkMode: 'gray7',
 		},
-		secondary: 'slate10',
+		secondary: 'gray10',
 		danger: {
 			darkMode: 'red4',
 			lightMode: 'red9',

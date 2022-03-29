@@ -67,7 +67,7 @@
 				<Icon
 					className={styles.menuIcon}
 					src={RiSystemCloseFill}
-					color={theme.themeColors.baseColors.slate12}
+					color={theme.themeColors.baseColors.gray12}
 				/>
 			</div>
 		</div>

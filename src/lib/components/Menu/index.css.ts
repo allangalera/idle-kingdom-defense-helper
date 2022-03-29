@@ -28,7 +28,7 @@ export const menuContainer = style({
 	height: '100vh',
 	minWidth: theme.sizes[56],
 	padding: theme.space[6],
-	background: theme.themeColors.baseColors.slate6,
+	background: theme.themeColors.baseColors.gray6,
 	display: 'flex',
 	flexDirection: 'column',
 	gap: theme.space[4],

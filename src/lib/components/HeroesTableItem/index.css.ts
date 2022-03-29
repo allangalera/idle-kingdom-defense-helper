@@ -1,3 +1,4 @@
+import { sprinkles } from '$lib/styles/sprinkles.css';
 import { theme } from '$lib/styles/themes/index.css';
 import { style, styleVariants } from '@vanilla-extract/css';
 import { calc } from '@vanilla-extract/css-utils';
@@ -15,7 +16,7 @@ export const tableItem = style({
 
 export const tableItemLeft = style({
 	display: 'flex',
-	background: theme.themeColors.baseColors.slate3,
+	background: theme.themeColors.baseColors.gray3,
 	justifyContent: 'space-between',
 	alignItems: 'center',
 });
@@ -75,7 +76,7 @@ export const actions = style({
 	display: 'flex',
 	flexDirection: 'column',
 	borderLeftWidth: theme.sizes.px,
-	borderLeftColor: theme.themeColors.baseColors.slate9,
+	borderColor: theme.themeColors.border.default,
 	borderLeftStyle: 'solid',
 	height: '100%',
 });
@@ -98,9 +99,12 @@ export const actionButtonVariant = styleVariants({
 	],
 	primary: [
 		actionButton,
-		{
-			background: theme.themeColors.baseColors.slate7,
-		},
+		sprinkles({
+			background: {
+				lightMode: 'gray9',
+				darkMode: 'gray7',
+			},
+		}),
 	],
 	danger: [
 		actionButton,

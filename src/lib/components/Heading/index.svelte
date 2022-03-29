@@ -12,7 +12,7 @@
 			fontSize: fontSize,
 			fontWeight: fontWeight,
 			textAlign: textAlign,
-			color: 'slate12',
+			color: 'gray12',
 		}),
 	].join(' ');
 </script>

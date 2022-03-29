@@ -9,7 +9,7 @@
 		styles.container,
 		theme,
 		sprinkles({
-			background: 'slate1',
+			background: 'gray1',
 		}),
 	].join(' ')}
 >

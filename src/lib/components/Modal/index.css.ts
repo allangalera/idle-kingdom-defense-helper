@@ -8,7 +8,7 @@ export const wrapper = style({
 	left: 0,
 	right: 0,
 	bottom: 0,
-	background: theme.colors.blackBG,
+	background: theme.colors.blackA10,
 	zIndex: 1100,
 	display: 'flex',
 	justifyContent: 'center',
@@ -17,7 +17,7 @@ export const wrapper = style({
 });
 
 export const container = style({
-	background: theme.themeColors.baseColors.slate1,
+	background: theme.themeColors.baseColors.gray1,
 	borderRadius: theme.border.radii.lg,
 	minWidth: theme.sizes[80],
 	maxWidth: '100%',

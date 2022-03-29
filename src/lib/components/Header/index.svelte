@@ -39,7 +39,7 @@
 	class={[
 		styles.header,
 		sprinkles({
-			background: 'slate1',
+			background: 'gray1',
 		}),
 	].join(' ')}
 >
