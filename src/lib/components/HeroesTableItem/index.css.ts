@@ -37,7 +37,6 @@ export const infoContainer = style({
 export const basicInfo = style({
 	display: 'flex',
 	flexDirection: 'column',
-	gap: theme.space[1],
 });
 
 export const heroNameAndTier = style({
