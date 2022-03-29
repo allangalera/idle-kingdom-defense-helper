@@ -123,7 +123,7 @@
 				<div class={styles.basicInfo}>
 					<div class={styles.heroNameAndTier}>
 						<Text fontSize="base" fontWeight="bold">{hero.name}</Text>
-						<img
+						<img loading="lazy"
 							class={styles.tierIcon}
 							src={`images/heroTier/iconGearQuality${hero.baseGrade}.png`}
 							alt={`Tier icon`}
@@ -133,15 +133,15 @@
 				</div>
 				<div class={styles.statsContainer}>
 					<div class={styles.stats}>
-						<img class={styles.statsIcons} src="images/icons/iconHp.png" alt="Heart icon" />
+						<img loading="lazy" class={styles.statsIcons} src="images/icons/iconHp.png" alt="Heart icon" />
 						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.hp)}</Text>
 					</div>
 					<div class={styles.stats}>
-						<img class={styles.statsIcons} src="images/icons/iconPower.png" alt="Heart icon" />
+						<img loading="lazy" class={styles.statsIcons} src="images/icons/iconPower.png" alt="Heart icon" />
 						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.atk)}</Text>
 					</div>
 					<div class={styles.stats}>
-						<img class={styles.statsIcons} src="images/icons/iconDef.png" alt="Heart icon" />
+						<img loading="lazy" class={styles.statsIcons} src="images/icons/iconDef.png" alt="Heart icon" />
 						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.def)}</Text>
 					</div>
 				</div>
@@ -170,7 +170,7 @@
 		<div class={styles.tableItemRightMinimal}>
 			{#each hero.skills as skill, i (skill.name)}
 				<div class={styles.skillMinimal}>
-					<img
+					<img loading="lazy"
 						class={styles.skillImage}
 						src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
 						alt={formatSkillName(skill.name)}
@@ -198,7 +198,7 @@
 		<div class={styles.tableItemRight}>
 			{#each hero.skills as skill, i (skill.name)}
 				<div class={styles.skill}>
-					<img
+					<img loading="lazy"
 						class={styles.skillImage}
 						src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
 						alt={formatSkillName(skill.name)}

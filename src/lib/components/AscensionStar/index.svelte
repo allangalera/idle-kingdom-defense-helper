@@ -24,8 +24,8 @@
 
 <div class={styles.button} role="button" on:click on:click={onChange}>
 	{#if selected}
-		<img src={startLevels[ascensionLevel]} alt="start level" />
+		<img loading="lazy" src={startLevels[ascensionLevel]} alt="start level" />
 	{:else}
-		<img class={styles.fade} src={startLevels[ascensionLevel]} alt="start level" />
+		<img loading="lazy" class={styles.fade} src={startLevels[ascensionLevel]} alt="start level" />
 	{/if}
 </div>

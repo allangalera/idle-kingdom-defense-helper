@@ -22,7 +22,7 @@
 
 <div>
 	{#each { length: 5 } as _, i}
-		<img
+		<img loading="lazy"
 			class={styles.imageVariant[convertedGrade.level > i ? 'default' : 'disabled']}
 			src={imagesByGrade[convertedGrade.rarity]}
 			alt="Grade star icon"

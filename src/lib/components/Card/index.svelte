@@ -16,13 +16,13 @@
 	<div class={styles.teste}>
 		<div class={styles.imgContainer}>
 			{#if cardType === 'ascension-stone'}
-				<img class={styles.img} src={ascensionStoneIcon} alt="Ascension Stone Icon" />
+				<img loading="lazy" class={styles.img} src={ascensionStoneIcon} alt="Ascension Stone Icon" />
 			{:else if cardType === 'coin'}
-				<img class={styles.img} src={goldCoinIcon} alt="Coin Icon" />
+				<img loading="lazy" class={styles.img} src={goldCoinIcon} alt="Coin Icon" />
 			{:else if cardType === 'soulstone'}
-				<img class={styles.img} src={soulstoneIcon} alt="Soulstone Icon" />
+				<img loading="lazy" class={styles.img} src={soulstoneIcon} alt="Soulstone Icon" />
 			{:else if cardType === 'steel'}
-				<img class={styles.img} src={steelIcon} alt="Steel Icon" />
+				<img loading="lazy" class={styles.img} src={steelIcon} alt="Steel Icon" />
 			{/if}
 		</div>
 		<div class={styles.textContainer}>

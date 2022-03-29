@@ -62,7 +62,7 @@
 					].join(' ')}
 				>
 					{#if rarity}
-						<img
+						<img loading="lazy"
 							class={styles.rarityBackground}
 							src={`images/rarity/bgRarity${gearRarity[rarity]}.png`}
 							alt="Rarity"
@@ -75,7 +75,7 @@
 	</div>
 	{#if heroType}
 		<div class={styles.heroTypeBadge}>
-			<img
+			<img loading="lazy"
 				class={sprinkles({
 					width: heroTypeBadgeWidth,
 				})}
@@ -87,7 +87,7 @@
 	{#if level && rarity}
 		<div class={styles.ranking}>
 			{#each rankingLevels as _}
-				<img
+				<img loading="lazy"
 					class={styles.star}
 					src={`images/ranking/iconStarSmall${gearRarity[rarity]}.png`}
 					alt="ranking icon"

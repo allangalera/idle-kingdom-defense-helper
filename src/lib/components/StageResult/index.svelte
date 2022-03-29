@@ -30,7 +30,7 @@
 		{#if shouldShowEnemies}
 			{#each stageData.enemy as unities}
 				{#if unities.unitCnt !== 1}
-					<img src={`images/enemies/enemy${unities.unitId}.png`} alt="enemy" />
+					<img loading="lazy" src={`images/enemies/enemy${unities.unitId}.png`} alt="enemy" />
 				{/if}
 			{/each}
 		{/if}

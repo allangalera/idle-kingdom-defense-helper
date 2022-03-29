@@ -78,10 +78,10 @@
 	<!-- Heading -->
 	<Heading textAlign="center" fontSize="xl">Capital</Heading>
 	<div class={styles.centerFlex}>
-		<img class={styles.ascensionIcon} src="images/icons/iconEvolveStone.png" alt="ascension icon" />
+		<img loading="lazy" class={styles.ascensionIcon} src="images/icons/iconEvolveStone.png" alt="ascension icon" />
 	</div>
 	<div class={styles.centerFlex}>
-		<img class={styles.ascensionIcon} src="images/icons/iconGold.png" alt="gold icon" />
+		<img loading="lazy" class={styles.ascensionIcon} src="images/icons/iconGold.png" alt="gold icon" />
 	</div>
 	<Heading textAlign="center" fontSize="xl">Action</Heading>
 	<Heading textAlign="center" fontSize="xl">Hero</Heading>

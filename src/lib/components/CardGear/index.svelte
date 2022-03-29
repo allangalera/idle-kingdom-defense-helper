@@ -87,6 +87,6 @@
 	rarity={gearType.rarity}
 >
 	<div class={styles.wrapper}>
-		<img class={styles.img} src={getGearImagePath(gearType)} alt="Helmet Gear" />
+		<img loading="lazy" class={styles.img} src={getGearImagePath(gearType)} alt="Helmet Gear" />
 	</div>
 </CardBorder>

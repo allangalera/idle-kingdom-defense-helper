@@ -34,6 +34,6 @@
 	level={heroGrade.level}
 >
 	<div class={styles.wrapper}>
-		<img class={styles.img} src={`images/heroes/${hero.name}.png`} alt="Helmet Gear" />
+		<img loading="lazy" class={styles.img} src={`images/heroes/${hero.name}.png`} alt="Helmet Gear" />
 	</div></CardBorder
 >
