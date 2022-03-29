@@ -60,16 +60,12 @@
 							<Icon
 								className={styles.icons}
 								src={RiSystemSubtractFill}
-								color={theme.themeColors.baseColors.gray12}
+								color={theme.colors.white}
 							/>
 						</Button>
 						<InputGrade grade={userHeroGrade} />
 						<Button on:click={addGrade}>
-							<Icon
-								className={styles.icons}
-								src={RiSystemAddFill}
-								color={theme.themeColors.baseColors.gray12}
-							/>
+							<Icon className={styles.icons} src={RiSystemAddFill} color={theme.colors.white} />
 						</Button>
 					</div>
 					<Input

@@ -43,12 +43,12 @@
 				<Heading textAlign="center" fontSize="2xl">Menu</Heading>
 			</slot>
 			<slot slot="content">
-				<div class={styles.menu}>
+				<nav class={styles.menu}>
 					<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
 					<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
 					<Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link
 					>
-				</div>
+				</nav>
 			</slot>
 			<slot slot="footer">
 				<div class={styles.menuFooter}>
@@ -60,29 +60,6 @@
 			</slot>
 		</Drawer>
 	</Portal>
-	<!-- <div class={styles.menuContainer}>
-		<div class={styles.menuHeader}>
-			<Heading fontSize="3xl">Menu</Heading>
-			<div class={styles.iconContainer} on:click={toggleMenu}>
-				<Icon
-					className={styles.menuIcon}
-					src={RiSystemCloseFill}
-					color={theme.themeColors.baseColors.gray12}
-				/>
-			</div>
-		</div>
-		<div class={styles.menu}>
-			<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
-			<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
-			<Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link>
-		</div>
-		<div class={styles.menuFooter}>
-			<Input label="Token" readonly value={$user} />
-			<Button on:click={onOpenModalLoadFromToken}
-				><Text color="white" textAlign="center">Load from token</Text></Button
-			>
-		</div>
-	</div> -->
 {/if}
 
 <ModalLoadFromToken
