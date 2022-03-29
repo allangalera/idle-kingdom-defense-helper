@@ -25,6 +25,7 @@ export const cardInfoContainer = style({
 	display: 'flex',
 	padding: theme.space[2],
 	gap: theme.space[2],
+	width: '100%',
 });
 
 export const infoContainer = style({
@@ -41,7 +42,7 @@ export const basicInfo = style({
 
 export const heroNameAndTier = style({
 	display: 'flex',
-	justifyContent: 'flex-start',
+	justifyContent: 'space-between',
 	alignItems: 'center',
 	gap: theme.space[2],
 });
