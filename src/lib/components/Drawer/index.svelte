@@ -1,7 +1,6 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import { onDestroy, onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
 	import { theme } from '$lib/styles/themes/index.css';
 	import Icon from 'svelte-icons-pack/Icon.svelte';
 	import RiSystemCloseFill from 'svelte-icons-pack/ri/RiSystemCloseFill';
@@ -19,11 +18,7 @@
 	});
 </script>
 
-<div
-	class={styles.wrapper}
-	on:click={shouldCloseOnOverlay && onClose}
-	transition:fade={{ duration: 120 }}
->
+<div class={styles.wrapper} on:click={shouldCloseOnOverlay && onClose}>
 	<div class={styles.container} on:click|preventDefault|stopPropagation>
 		<div class={styles.header}>
 			<div class={styles.headerContainer}>
