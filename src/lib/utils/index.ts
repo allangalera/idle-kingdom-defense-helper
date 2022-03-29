@@ -2,6 +2,7 @@ import { MAX_HERO_LEVEL } from '$lib/constants';
 import { RarityEnum } from '$lib/enums';
 import type { Grades, UpgradeLevel } from '$lib/types';
 import { nanoid } from 'nanoid';
+import { match } from 'oxide.ts';
 import { z } from 'zod';
 
 export const addIdToCollection = <T>(collection: T[]): (T & { id: string })[] => {
@@ -108,40 +109,15 @@ export const romanize = (num: number) => {
 export const convertGradeToStarLevel = (
 	grade: Grades
 ): { rarity: RarityEnum; level: UpgradeLevel } => {
-	const dividedBy5 = grade / 5;
+	const level = match(grade % 5, [[0, 5], (n) => n]) as UpgradeLevel;
 
-	const remainderToLevel = {
-		1: 1,
-		2: 2,
-		3: 3,
-		4: 4,
-		0: 5,
-	} as const;
+	const rarity = match(grade / 5, [
+		[(n) => n <= 1, RarityEnum.common],
+		[(n) => n <= 2, RarityEnum.uncommon],
+		[(n) => n <= 3, RarityEnum.rare],
+		[(n) => n <= 4, RarityEnum.epic],
+		() => RarityEnum.legendary,
+	]);
 
-	if (dividedBy5 <= 1) {
-		return {
-			rarity: RarityEnum.common,
-			level: remainderToLevel[grade % 5],
-		};
-	} else if (dividedBy5 <= 2) {
-		return {
-			rarity: RarityEnum.uncommon,
-			level: remainderToLevel[grade % 5],
-		};
-	} else if (dividedBy5 <= 3) {
-		return {
-			rarity: RarityEnum.rare,
-			level: remainderToLevel[grade % 5],
-		};
-	} else if (dividedBy5 <= 4) {
-		return {
-			rarity: RarityEnum.epic,
-			level: remainderToLevel[grade % 5],
-		};
-	} else {
-		return {
-			rarity: RarityEnum.legendary,
-			level: remainderToLevel[grade % 5],
-		};
-	}
+	return { rarity, level };
 };
