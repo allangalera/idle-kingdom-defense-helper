@@ -10,7 +10,6 @@
 	import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
 	import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
 	import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
-	import Button from '$lib/components/Button/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
 	import * as R from 'remeda';
 	import { getIdleKingdomNumberFormat } from '$lib/utils';

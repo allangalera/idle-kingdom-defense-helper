@@ -1,7 +1,6 @@
 <script lang="ts">
 	import * as styles from './index.css';
 	import { kingdoms } from '$lib/db/conquest';
-	import { clone, sortWith, prop, descend, pathOr, isNil } from 'ramda';
 	import * as R from 'remeda';
 	import { conquest, addKingdom, removeKingdom } from '$lib/shared/stores/user/conquest';
 	import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
@@ -10,12 +9,16 @@
 		sortKingdomByAscensionStoneAndCoin,
 		kingdomNameToRomanNumber,
 	} from '$lib/utils/conquest';
+	import Icon from 'svelte-icons-pack/Icon.svelte';
+	import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
+	import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
 	import Heading from '$lib/components/Heading/index.svelte';
 	import CardHero from '$lib/components/CardHero/index.svelte';
 	import CardBorder from '$lib/components/CardBorder/index.svelte';
 	import Button from '$lib/components/Button/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
+	import { theme } from '$lib/styles/themes/index.css';
 	import type { Hero } from '$lib/types';
 
 	let sortedKingdoms = sortKingdomByAscensionStoneAndCoin(kingdoms);
@@ -41,7 +44,7 @@
 	};
 
 	const getHeroById = (heroId) => {
-		if (isNil(heroId)) return false;
+		if (R.isNil(heroId)) return false;
 		return heroes.find((hero) => hero.id === heroId);
 	};
 
@@ -106,12 +109,16 @@
 		<div class={styles.centerFlex}>
 			{#if kingdom.isKingdomAdded}
 				<Button type="button" variant="danger" on:click={() => remove(kingdom.id)}>
-					<Text color="white" as="span">Rem</Text></Button
-				>
+					<Icon
+						className={styles.buttonIcon}
+						src={RiSystemDeleteBinFill}
+						color={theme.colors.white}
+					/>
+				</Button>
 			{:else}
 				<Button type="button" variant="success" on:click={() => add(kingdom.id)}>
-					<Text color="white" as="span">Add</Text></Button
-				>
+					<Icon className={styles.buttonIcon} src={RiSystemAddFill} color={theme.colors.white} />
+				</Button>
 			{/if}
 		</div>
 		<div class={styles.centerFlex}>

@@ -32,3 +32,8 @@ export const kingdomName = style({
 export const ascensionIcon = style({
 	width: theme.sizes[6],
 });
+
+export const buttonIcon = style({
+	width: theme.sizes[4],
+	height: theme.sizes[4],
+});
