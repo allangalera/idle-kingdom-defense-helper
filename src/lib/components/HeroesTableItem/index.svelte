@@ -5,13 +5,21 @@
 	import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
 	import { HeroesVisualizationModes } from '$lib/enums';
 	import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
+	import Icon from 'svelte-icons-pack/Icon.svelte';
+	import RiDesignEdit2Fill from 'svelte-icons-pack/ri/RiDesignEdit2Fill';
+	import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
+	import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
 	import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
 	import Button from '$lib/components/Button/index.svelte';
 	import { sprinkles } from '$lib/styles/sprinkles.css';
+	import * as R from 'remeda';
+	import { getIdleKingdomNumberFormat } from '$lib/utils';
+	import { theme } from '$lib/styles/themes/index.css';
 
 	export let hero;
 	let addModalOpen = false;
 	let userHero = $heroes?.heroes?.find((item) => item.id === hero.id);
+	let heroStats;
 
 	const borderColorByGrade = {
 		0: 'yellow10',
@@ -67,33 +75,97 @@
 		removeHero(hero.id);
 	};
 
+	const calculateHeroStats = (currhero, currUserHero) => {
+		let heroStats = R.pick(currhero, [
+			'atk',
+			'atkSpeed',
+			'cri',
+			'criDamage',
+			'criDamageResist',
+			'criResist',
+			'def',
+			'defPierce',
+			'dodge',
+			'hit',
+			'hp',
+			'incAtk',
+			'incDef',
+			'incHp',
+			'moveSpeed',
+		]);
+
+		const currentLevel = currUserHero?.level ?? 1;
+
+		const currentGrade = currUserHero?.grade ?? currhero.baseGrade;
+
+		const currentAscension = currhero.ascension.find((asc) => asc.grade === currentGrade);
+
+		heroStats.hp = (heroStats.hp + heroStats.incHp * (currentLevel - 1)) * currentAscension.incHp;
+		heroStats.def =
+			(heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
+		heroStats.atk =
+			(heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk + 20;
+
+		return heroStats;
+	};
+
 	heroes.subscribe((data) => {
 		userHero = data?.heroes?.find((item) => item.id === hero.id) || null;
 	});
+
+	$: heroStats = calculateHeroStats(hero, userHero);
 </script>
 
 <div class={styles.tableItem}>
 	<div class={styles.tableItemLeft}>
-		<CardHero width={16} hero={{ ...hero, ...userHero }} />
-		<div>
-			<Text textAlign="center" fontSize="lg" fontWeight="bold">{hero.name}</Text>
+		<div class={styles.cardInfoContainer}>
+			<CardHero width={14} heroTypeBadgeWidth={4} hero={{ ...hero, ...userHero }} />
+			<div class={styles.infoContainer}>
+				<div class={styles.basicInfo}>
+					<div class={styles.heroNameAndTier}>
+						<Text fontSize="base" fontWeight="bold">{hero.name}</Text>
+						<img
+							class={styles.tierIcon}
+							src={`images/heroTier/iconGearQuality${hero.baseGrade}.png`}
+							alt={`Tier icon`}
+						/>
+					</div>
+					<Text fontSize="xs">Lv {userHero?.level ?? 1}</Text>
+				</div>
+				<div class={styles.statsContainer}>
+					<div class={styles.stats}>
+						<img class={styles.statsIcons} src="images/icons/iconHp.png" alt="Heart icon" />
+						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.hp)}</Text>
+					</div>
+					<div class={styles.stats}>
+						<img class={styles.statsIcons} src="images/icons/iconPower.png" alt="Heart icon" />
+						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.atk)}</Text>
+					</div>
+					<div class={styles.stats}>
+						<img class={styles.statsIcons} src="images/icons/iconDef.png" alt="Heart icon" />
+						<Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.def)}</Text>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class={styles.actions}>
 			{#if hero.level}
-				<Text textAlign="center" fontSize="xs">Lv {hero.level}</Text>
+				<div class={styles.actionButtonVariant.primary} role="button" on:click={openAddModal}>
+					<Icon className={styles.buttonIcons} src={RiDesignEdit2Fill} color={theme.colors.white} />
+				</div>
+				<div class={styles.actionButtonVariant.danger} role="button" on:click={onRemoveHero}>
+					<Icon
+						className={styles.buttonIcons}
+						src={RiSystemDeleteBinFill}
+						color={theme.colors.white}
+					/>
+				</div>
+			{:else}
+				<div class={styles.actionButtonVariant.success} role="button" on:click={openAddModal}>
+					<Icon className={styles.buttonIcons} src={RiSystemAddFill} color={theme.colors.white} />
+				</div>
 			{/if}
 		</div>
-		{#if hero.level}
-			<Button type="button" on:click={openAddModal}>
-				<Text color="white">edit</Text>
-			</Button>
-			<Button type="button" variant="danger" on:click={onRemoveHero}>
-				<Text color="white">rem</Text>
-			</Button>
-		{:else}
-			<Button type="button" variant="success" on:click={openAddModal}>
-				<Text color="white">add</Text>
-			</Button>
-		{/if}
-		<img src={`images/heroTier/iconGearQuality${hero.baseGrade}.png`} alt={`Tier icon`} />
 	</div>
 	{#if $heroesVisualization === HeroesVisualizationModes.minimal}
 		<div class={styles.tableItemRightMinimal}>

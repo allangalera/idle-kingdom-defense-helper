@@ -5,7 +5,7 @@ export const container = style({
 	display: 'flex',
 	flexDirection: 'row',
 	background: '#202020',
-	borderRadius: [theme.border.radii.base],
+	borderRadius: [theme.border.radii.lg],
 	overflow: 'hidden',
 	maxWidth: '1250px',
 });

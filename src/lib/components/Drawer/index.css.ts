@@ -17,7 +17,7 @@ export const wrapper = style({
 
 export const container = style({
 	background: theme.themeColors.baseColors.slate1,
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	minWidth: theme.sizes[60],
 	height: '100%',
 	display: 'flex',

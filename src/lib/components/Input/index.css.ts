@@ -10,7 +10,7 @@ export const container = style({
 export const input = style({
 	fontFamily: theme.font.family.body,
 	fontSize: theme.font.fontSizes.lg,
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	color: theme.themeColors.text.default,
 	background: 'transparent',
 	borderWidth: theme.space.px,

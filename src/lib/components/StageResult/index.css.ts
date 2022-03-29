@@ -8,7 +8,7 @@ export const flex = style({
 	borderWidth: theme.sizes.px,
 	borderStyle: 'solid',
 	borderColor: theme.themeColors.border.default,
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	padding: theme.space[2],
 	justifyContent: 'center',
 	alignItems: 'center',

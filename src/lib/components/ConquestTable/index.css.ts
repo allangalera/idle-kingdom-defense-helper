@@ -20,7 +20,7 @@ export const centerFlex = style({
 export const kingdomName = style({
 	borderStyle: 'solid',
 	borderWidth: theme.sizes.px,
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	padding: theme.space[1],
 	paddingLeft: theme.space[0.5],
 	paddingRight: theme.space[0.5],

@@ -5,7 +5,7 @@ export const container = style({
 	borderWidth: theme.space.px,
 	borderStyle: 'solid',
 	borderColor: theme.themeColors.border.default,
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 });
 
 export const containerVariant = styleVariants({

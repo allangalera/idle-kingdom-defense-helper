@@ -30,7 +30,7 @@ export const createSortByListAndName = (tierList) => (array) => {
 };
 
 export const getIdleKingdomNumberFormat = (value: number): string => {
-	let formattedString = value.toString();
+	let formattedString = Math.floor(value).toString();
 	if (value >= 10000000000) {
 		formattedString = Math.floor(value / 1000000000).toString() + 'B';
 	} else if (value >= 10000000) {

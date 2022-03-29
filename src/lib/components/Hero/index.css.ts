@@ -2,7 +2,7 @@ import { style, styleVariants } from '@vanilla-extract/css';
 import { theme } from '$lib/styles/themes/index.css';
 
 export const outsideBorder = style({
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	borderColor: 'black',
 	borderWidth: theme.sizes.px,
 	borderStyle: 'solid',
@@ -18,7 +18,7 @@ export const outsideBorderVariant = styleVariants({
 export const hero = style({
 	display: 'flex',
 	flexDirection: 'column',
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	overflow: 'hidden',
 	borderWidth: theme.sizes[1],
 	position: 'relative',
@@ -58,7 +58,7 @@ export const heroVariant = styleVariants({
 });
 
 export const heroContainer = style({
-	borderRadius: theme.border.radii.base,
+	borderRadius: theme.border.radii.lg,
 	borderColor: 'black',
 	borderWidth: theme.sizes.px,
 	borderStyle: 'solid',
