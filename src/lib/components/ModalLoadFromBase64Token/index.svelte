@@ -6,7 +6,7 @@
 	import Button from '$lib/components/Button/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
-	import { loadFromZipson } from '$lib/shared/stores/user/index';
+	import { loadFromBase64 } from '$lib/shared/stores/user/index';
 
 	export let open = false;
 	export let onClose: VoidFunction;
@@ -16,7 +16,7 @@
 	const onSubmit = () => {
 		if (!tokenToLoad) return;
 
-		loadFromZipson(tokenToLoad);
+		loadFromBase64(tokenToLoad);
 
 		tokenToLoad = '';
 
@@ -28,7 +28,7 @@
 	<Portal>
 		<Modal {onClose} footerJustifyContent="flex-end">
 			<slot slot="header">
-				<Heading textAlign="center">Load from token</Heading>
+				<Heading textAlign="center">Load from Base 64 token</Heading>
 			</slot>
 			<slot slot="content">
 				<Input label="Token" bind:value={tokenToLoad} />

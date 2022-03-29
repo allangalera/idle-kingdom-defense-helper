@@ -7,6 +7,7 @@
 	import Text from '$lib/components/Text/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
+	import ModalLoadFromBase64Token from '$lib/components/ModalLoadFromBase64Token/index.svelte';
 	import ModalLoadFromToken from '$lib/components/ModalLoadFromToken/index.svelte';
 	import Link from '$lib/components/Link/index.svelte';
 	import Button from '$lib/components/Button/index.svelte';
@@ -15,6 +16,7 @@
 	import { theme } from '$lib/styles/themes/index.css';
 
 	let menuOpen = false;
+	let isModalLoadFromBase64Token = false;
 	let isModalLoadFromToken = false;
 
 	function toggleMenu() {
@@ -23,6 +25,11 @@
 
 	const onMenuClose = () => {
 		menuOpen = false;
+	};
+
+	const onOpenModalLoadFromBase64Token = () => {
+		menuOpen = false;
+		isModalLoadFromBase64Token = true;
 	};
 
 	const onOpenModalLoadFromToken = () => {
@@ -68,6 +75,9 @@
 							/></Button
 						>
 					</div>
+					<Button on:click={onOpenModalLoadFromBase64Token}
+						><Text color="white" textAlign="center">Load from old token</Text></Button
+					>
 					<Button on:click={onOpenModalLoadFromToken}
 						><Text color="white" textAlign="center">Load from token</Text></Button
 					>
@@ -77,6 +87,12 @@
 	</Portal>
 {/if}
 
+<ModalLoadFromBase64Token
+	open={isModalLoadFromBase64Token}
+	onClose={() => {
+		isModalLoadFromBase64Token = false;
+	}}
+/>
 <ModalLoadFromToken
 	open={isModalLoadFromToken}
 	onClose={() => {
