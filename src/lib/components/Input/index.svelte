@@ -7,6 +7,7 @@
 	export let value = '';
 	export let maskOptions = undefined;
 	export let textAlign: Sprinkles['textAlign'] = 'left';
+	export let id = undefined;
 	export let disabled: boolean = false;
 	export let readonly: boolean = false;
 
@@ -32,6 +33,7 @@
 			}),
 		].join(' ')}
 		type="text"
+		{id}
 		{value}
 		{disabled}
 		{readonly}

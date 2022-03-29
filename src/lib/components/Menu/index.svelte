@@ -3,7 +3,7 @@
 	import { user } from '$lib/shared/stores/user';
 	import Icon from 'svelte-icons-pack/Icon.svelte';
 	import RiSystemMenu3Line from 'svelte-icons-pack/ri/RiSystemMenu3Line';
-	import RiSystemCloseFill from 'svelte-icons-pack/ri/RiSystemCloseFill';
+	import RiDocumentFileCopyLine from 'svelte-icons-pack/ri/RiDocumentFileCopyLine';
 	import Text from '$lib/components/Text/index.svelte';
 	import Input from '$lib/components/Input/index.svelte';
 	import Heading from '$lib/components/Heading/index.svelte';
@@ -29,6 +29,12 @@
 		menuOpen = false;
 		isModalLoadFromToken = true;
 	};
+
+	const copyToClipboard = (str) => {
+		if (navigator && navigator.clipboard && navigator.clipboard.writeText)
+			return navigator.clipboard.writeText(str);
+		return Promise.reject('The Clipboard API is not available.');
+	};
 </script>
 
 <div class={styles.buttoContainer} on:click={toggleMenu}>
@@ -52,7 +58,16 @@
 			</slot>
 			<slot slot="footer">
 				<div class={styles.menuFooter}>
-					<Input label="Token" readonly value={$user} />
+					<div class={styles.tokenInputContainer}>
+						<Input label="Token" readonly value={$user} />
+						<Button on:click={() => copyToClipboard($user)}>
+							<Icon
+								className={styles.tokenCopyIcon}
+								src={RiDocumentFileCopyLine}
+								color={theme.colors.white}
+							/></Button
+						>
+					</div>
 					<Button on:click={onOpenModalLoadFromToken}
 						><Text color="white" textAlign="center">Load from token</Text></Button
 					>
