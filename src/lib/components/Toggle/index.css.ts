@@ -46,7 +46,7 @@ export const ballVariant = styleVariants({
 	right: [
 		ball,
 		{
-			transform: 'trangrayX(68%)',
+			transform: 'translate(68%)',
 		},
 	],
 });
