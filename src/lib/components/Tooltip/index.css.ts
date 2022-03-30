@@ -12,8 +12,9 @@ export const container = style({
 });
 
 export const tooltip = style({
-	background: theme.themeColors.baseColors.gray9,
+	background: theme.themeColors.baseColors.gray7,
 	padding: theme.space[2],
+	borderRadius: theme.border.radii.lg,
 });
 
 export const triangle = style({
@@ -21,7 +22,7 @@ export const triangle = style({
 	height: 0,
 	borderLeftColor: theme.colors.transparent,
 	borderRightColor: theme.colors.transparent,
-	borderTopColor: theme.themeColors.baseColors.gray9,
+	borderTopColor: theme.themeColors.baseColors.gray7,
 	borderLeftStyle: 'solid',
 	borderRightStyle: 'solid',
 	borderTopStyle: 'solid',
