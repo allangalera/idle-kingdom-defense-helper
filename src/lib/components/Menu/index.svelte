@@ -9,6 +9,7 @@
 	import Heading from '$lib/components/Heading/index.svelte';
 	import ModalLoadFromBase64Token from '$lib/components/ModalLoadFromBase64Token/index.svelte';
 	import ModalLoadFromToken from '$lib/components/ModalLoadFromToken/index.svelte';
+	import Tooltip from '$lib/components/Tooltip/index.svelte';
 	import Link from '$lib/components/Link/index.svelte';
 	import Button from '$lib/components/Button/index.svelte';
 	import Drawer from '$lib/components/Drawer/index.svelte';
@@ -18,6 +19,8 @@
 	let menuOpen = false;
 	let isModalLoadFromBase64Token = false;
 	let isModalLoadFromToken = false;
+
+	let tooltipText = 'Copy';
 
 	function toggleMenu() {
 		menuOpen = !menuOpen;
@@ -35,6 +38,12 @@
 	const onOpenModalLoadFromToken = () => {
 		menuOpen = false;
 		isModalLoadFromToken = true;
+	};
+
+	const onClickCopyToClipboard = () => {
+		copyToClipboard($user);
+		tooltipText = 'Copied!';
+		setTimeout(() => (tooltipText = 'Copy'), 2000);
 	};
 
 	const copyToClipboard = (str) => {
@@ -67,13 +76,15 @@
 				<div class={styles.menuFooter}>
 					<div class={styles.tokenInputContainer}>
 						<Input label="Token" readonly value={$user} />
-						<Button on:click={() => copyToClipboard($user)}>
-							<Icon
-								className={styles.tokenCopyIcon}
-								src={RiDocumentFileCopyLine}
-								color={theme.colors.white}
-							/></Button
-						>
+						<Tooltip text={tooltipText}>
+							<Button on:click={onClickCopyToClipboard}>
+								<Icon
+									className={styles.tokenCopyIcon}
+									src={RiDocumentFileCopyLine}
+									color={theme.colors.white}
+								/></Button
+							>
+						</Tooltip>
 					</div>
 					<Button on:click={onOpenModalLoadFromBase64Token}
 						><Text color="white" textAlign="center">Load from old token</Text></Button
