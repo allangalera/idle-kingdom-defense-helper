@@ -1,94 +1,59 @@
 <script lang="ts">
 	import * as styles from './index.css';
-	import AscensionStar from '$lib/components/AscensionStar/index.svelte';
+	import { heroGradeInfo } from '$lib/db/heroes';
+	import InputGrade from '$lib/components/InputGrade/index.svelte';
 	import Card from '$lib/components/Card/index.svelte';
 	import Text from '$lib/components/Text/index.svelte';
 	import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
-	import { ASCENSION } from '$lib/constants';
+	import type { Grades } from '$lib/types';
+	import { sprinkles } from '$lib/styles/sprinkles.css';
 
-	let ascensionStartLevels = new Array(25).fill(false);
-	let ascensionEndLevels = new Array(25).fill(false);
-	let selectedStartLevel = 0;
-	let selectedEndLevel = 1;
-
-	ascensionStartLevels[0] = true;
-	ascensionEndLevels[0] = true;
-	ascensionEndLevels[1] = true;
+	let selectedStartGrade: Grades = 1 as Grades;
+	let selectedEndGrade: Grades = 2 as Grades;
 
 	let shardsCost = 0;
 	let ascensionStonesCost = 0;
 
-	let ascensionGroups = [
-		[0, 0, 0, 0, 0],
-		[1, 1, 1, 1, 1],
-		[2, 2, 2, 2, 2],
-		[3, 3, 3, 3, 3],
-		[4, 4, 4, 4, 4],
-	];
-
-	function onAscencionStartClick(level) {
-		ascensionStartLevels = ascensionStartLevels.map((startLevel, index) =>
-			index >= level ? false : true
-		);
-		selectedStartLevel = level;
-	}
-
-	function onAscencionEndClick(level) {
-		ascensionEndLevels = ascensionEndLevels.map((startLevel, index) =>
-			index >= level ? false : true
-		);
-		selectedEndLevel = level;
-	}
-
-	function calculateCost(startLevel, endLevel) {
+	function calculateCost(startGrade, endGrade) {
 		shardsCost = 0;
 		ascensionStonesCost = 0;
-		let ascensionStonesCostLevel = 0;
-		if (startLevel >= endLevel) return;
-		for (let level = 1; level <= endLevel; level++) {
-			let ascensionIncrement = ASCENSION.ASCENSION_STONE_PER_5_LEVELS[Math.floor(level / 5)];
-			ascensionStonesCostLevel += ascensionIncrement;
-			if (level > startLevel) {
-				shardsCost += (level + 1) * ASCENSION.SHARD_PER_LEVEL;
-				ascensionStonesCost += ascensionStonesCostLevel;
+
+		if (startGrade === endGrade) return;
+
+		for (const gradeInfo of heroGradeInfo) {
+			if (gradeInfo.id >= startGrade && gradeInfo.id <= endGrade) {
+				shardsCost += gradeInfo.evolvePiece;
+				ascensionStonesCost += gradeInfo.stone;
 			}
 		}
 	}
 
-	$: calculateCost(selectedStartLevel, selectedEndLevel);
+	$: calculateCost(selectedStartGrade, selectedEndGrade);
 </script>
 
 <div class={styles.container}>
-	<div class={styles.innerContainer}>
-		<Text textAlign="center">From</Text>
-		<div class={styles.ascensionLevelContainer}>
-			{#each ascensionGroups as ascensionGroup, index1}
-				<div class={styles.ascensionLevel}>
-					{#each ascensionGroup as level, index2}
-						<AscensionStar
-							selected={ascensionStartLevels[index1 * 5 + index2]}
-							on:click={() => onAscencionStartClick(index1 * 5 + index2)}
-							ascensionLevel={index1}
-						/>
-					{/each}
-				</div>
-			{/each}
+	<div
+		class={sprinkles({
+			display: 'flex',
+			flexDirection: {
+				tablet: 'column',
+				desktop: 'row',
+			},
+			justifyContent: 'center',
+			alignItems: 'center',
+			gap: {
+				tablet: 6,
+				desktop: 10,
+			},
+		})}
+	>
+		<div class={styles.innerContainer}>
+			<Text textAlign="center">From</Text>
+			<InputGrade bind:grade={selectedStartGrade} />
 		</div>
-	</div>
-	<div class={styles.innerContainer}>
-		<Text textAlign="center">To</Text>
-		<div class={styles.ascensionLevelContainer}>
-			{#each ascensionGroups as ascensionGroup, index1}
-				<div class={styles.ascensionLevel}>
-					{#each ascensionGroup as level, index2}
-						<AscensionStar
-							selected={ascensionEndLevels[index1 * 5 + index2]}
-							on:click={() => onAscencionEndClick(index1 * 5 + index2)}
-							ascensionLevel={index1}
-						/>
-					{/each}
-				</div>
-			{/each}
+		<div class={styles.innerContainer}>
+			<Text textAlign="center">To</Text>
+			<InputGrade bind:grade={selectedEndGrade} />
 		</div>
 	</div>
 	<div class={styles.result}>

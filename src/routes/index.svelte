@@ -15,10 +15,10 @@
 	<GridItem title="Hero Upgrade Cost Calculator">
 		<HeroUpgradeCostCalculator />
 	</GridItem>
-	<GridItem title="Hero Ascension Calculator" full>
+	<GridItem title="Hero Ascension Calculator">
 		<HeroAscensionCalculator />
 	</GridItem>
-	<GridItem title="Archer Promote Cost Calculator" full>
+	<GridItem title="Archer Promote Cost Calculator">
 		<ArcherEquipUpgradeCalculator />
 	</GridItem>
 	<GridItem title="Stage to Farm Calculator" full>

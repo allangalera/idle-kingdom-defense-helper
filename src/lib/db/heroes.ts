@@ -3,6 +3,7 @@ import heroGradesJSON from '$lib/gameInfo/heroGrades.json';
 import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
+import heroGradeInfoJSON from '$lib/gameInfo/heroGradeInfo.json';
 import langJSON from '$lib/gameInfo/lang.json';
 import * as R from 'remeda';
 import type { Hero } from '$lib/types';
@@ -141,3 +142,5 @@ export const defaultSortingHeroes = (heroes: Hero[]) =>
 	);
 
 export const heroes = defaultSortingHeroes(generateHeroList());
+
+export const heroGradeInfo = heroGradeInfoJSON;

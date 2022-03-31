@@ -10,6 +10,7 @@ export const container = style({
 export const innerContainer = style({
 	display: 'flex',
 	flexDirection: 'column',
+	alignItems: 'center',
 	gap: theme.space[2],
 });
 
