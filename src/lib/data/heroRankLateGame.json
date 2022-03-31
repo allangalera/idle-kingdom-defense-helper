@@ -1,35 +1,47 @@
 [
 	{
-		"title": "Must Have",
-		"color": "red",
-		"heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian", "Harold"]
-	},
-	{
-		"title": "Must Have (less priority)",
-		"color": "orange",
-		"heroList": ["Adrian", "Anthony", "Julian", "Blake"]
-	},
-	{
-		"title": "Situational",
-		"color": "amber",
+		"title": "Best",
 		"heroList": [
-			"Aisha",
-			"Xavier",
+			"Evan",
+			"Camilla",
+			"Harold",
 			"Sophia",
-			"Rodrick",
-			"Daniel",
-			"Brian",
-			"Ryan",
-			"Lucas",
 			"Mason",
-			"Marcus",
+			"Tristan",
+			"Christian",
+			"Gabriel",
+			"Anthony",
+			"Ryan",
+			"Diego",
 			"Leonidas",
 			"Randolph"
 		]
 	},
 	{
-		"title": "Avoid",
-		"color": "yellow",
+		"title": "Replace the above if ascension is high enough.  Situational.",
+		"heroList": ["", "Marian", "", "", "", "", "", "", "Rodrick", "", "Anthony", "", "", ""]
+	},
+	{
+		"title": "Can swap Best units out with these to form farming team.  Warriors might not even be necessary.",
+
+		"heroList": [
+			"",
+			"",
+			"Luke",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Brian",
+			"Daniel",
+			"Rodrick",
+			"Raven",
+			"Vincent"
+		]
+	},
+	{
+		"title": "Should have enough Ancient Coin farm from Max Legendary Heroes.  If you got nothing else to ascend, ascend these for the conquest castle reward increase.",
 		"heroList": [
 			"Austin",
 			"Diego",

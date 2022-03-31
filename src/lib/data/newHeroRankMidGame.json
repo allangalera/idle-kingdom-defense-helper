@@ -1,0 +1,91 @@
+[
+	[
+		{ "value": "Best", "title": true },
+		"Evan",
+		"Camilla",
+		"Harold",
+		"Luke",
+		"Tristan",
+		"Xavier",
+		"Christian",
+		"Gabriel",
+		"Anthony",
+		"Ryan",
+		"Diego",
+		"Leonidas",
+		"Randolph"
+	],
+	[
+		{ "value": "Replace the above if ascension is high enough.", "title": true },
+		false,
+		"Mason",
+		"Marian",
+		false,
+		false,
+		"Adrian",
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	],
+	[
+		{
+			"value": "Might swap in depending on certain situations.",
+			"title": true
+		},
+		"Sophia",
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	],
+	[
+		{
+			"value": "Don't use now.  Keep for later.",
+			"title": true
+		},
+		"Lucas",
+		"Aisha",
+		"Marcus",
+		"Brian",
+		"Daniel",
+		"Julian",
+		"Rodrick",
+		"Blake",
+		"Vincent",
+		false,
+		false,
+		false,
+		false
+	],
+	[
+		{
+			"value": "Dismantle for Coins only if you need them. Use any extras from 5* Legendaries",
+			"title": true
+		},
+		"Ellie",
+		"Austin",
+		"Carlos",
+		"Logan",
+		"Miguel",
+		"Raven",
+		"Jackson",
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	]
+]

@@ -68,6 +68,8 @@
 				<nav class={styles.menu}>
 					<Link href="/" fontSize="2xl" on:click={toggleMenu}>Home</Link>
 					<Link href="/heroes" fontSize="2xl" on:click={toggleMenu}>Heroes</Link>
+					<Link href="/heroes/tier-list" fontSize="2xl" on:click={toggleMenu}>Heroes Tier List</Link
+					>
 					<Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link
 					>
 				</nav>

@@ -35,32 +35,35 @@ const titleContianerBase = style({
 	padding: '4px',
 	width: '112px',
 	minWidth: '112px',
+	wordBreak: 'break-word',
 });
 
 export const titleContainerVariant = styleVariants({
-	rank0: [titleContianerBase, { borderColor: theme.baseColor.tierList[0] }],
-	rank1: [titleContianerBase, { borderColor: theme.baseColor.tierList[1] }],
-	rank2: [titleContianerBase, { borderColor: theme.baseColor.tierList[2] }],
-	rank3: [titleContianerBase, { borderColor: theme.baseColor.tierList[3] }],
-	rank4: [titleContianerBase, { borderColor: theme.baseColor.tierList[4] }],
-	rank5: [titleContianerBase, { borderColor: theme.baseColor.tierList[5] }],
-	rank6: [titleContianerBase, { borderColor: theme.baseColor.tierList[6] }],
-	rank7: [titleContianerBase, { borderColor: theme.baseColor.tierList[7] }],
-	rank8: [titleContianerBase, { borderColor: theme.baseColor.tierList[8] }],
-	rank9: [titleContianerBase, { borderColor: theme.baseColor.tierList[9] }],
-	rank10: [titleContianerBase, { borderColor: theme.baseColor.tierList[10] }],
-	rank11: [titleContianerBase, { borderColor: theme.baseColor.tierList[11] }],
-	rank12: [titleContianerBase, { borderColor: theme.baseColor.tierList[12] }],
-	rank13: [titleContianerBase, { borderColor: theme.baseColor.tierList[13] }],
-	rank14: [titleContianerBase, { borderColor: theme.baseColor.tierList[14] }],
+	rank0: [titleContianerBase, { background: theme.baseColor.tierList[0] }],
+	rank1: [titleContianerBase, { background: theme.baseColor.tierList[1] }],
+	rank2: [titleContianerBase, { background: theme.baseColor.tierList[2] }],
+	rank3: [titleContianerBase, { background: theme.baseColor.tierList[3] }],
+	rank4: [titleContianerBase, { background: theme.baseColor.tierList[4] }],
+	rank5: [titleContianerBase, { background: theme.baseColor.tierList[5] }],
+	rank6: [titleContianerBase, { background: theme.baseColor.tierList[6] }],
+	rank7: [titleContianerBase, { background: theme.baseColor.tierList[7] }],
+	rank8: [titleContianerBase, { background: theme.baseColor.tierList[8] }],
+	rank9: [titleContianerBase, { background: theme.baseColor.tierList[9] }],
+	rank10: [titleContianerBase, { background: theme.baseColor.tierList[10] }],
+	rank11: [titleContianerBase, { background: theme.baseColor.tierList[11] }],
+	rank12: [titleContianerBase, { background: theme.baseColor.tierList[12] }],
+	rank13: [titleContianerBase, { background: theme.baseColor.tierList[13] }],
+	rank14: [titleContianerBase, { background: theme.baseColor.tierList[14] }],
 });
 
 export const heroesContainer = style({
-	display: 'flex',
-	flexDirection: 'row',
-	flexWrap: 'wrap',
+	display: 'grid',
+	gridTemplateColumns: `repeat(13, ${theme.sizes[24]})`,
 	gap: '4px',
 	padding: '4px',
+	justifyContent: 'flex-start',
+	alignItems: 'flex-start',
+	overflow: 'auto',
 });
 
 export const title = style({

@@ -62,9 +62,10 @@
 					].join(' ')}
 				>
 					{#if rarity}
-						<img loading="lazy"
+						<img
+							loading="lazy"
 							class={styles.rarityBackground}
-							src={`images/rarity/bgRarity${gearRarity[rarity]}.png`}
+							src={`/images/rarity/bgRarity${gearRarity[rarity]}.png`}
 							alt="Rarity"
 						/>
 					{/if}
@@ -75,11 +76,12 @@
 	</div>
 	{#if heroType}
 		<div class={styles.heroTypeBadge}>
-			<img loading="lazy"
+			<img
+				loading="lazy"
 				class={sprinkles({
 					width: heroTypeBadgeWidth,
 				})}
-				src={`images/heroType/${heroTypeImage}.png`}
+				src={`/images/heroType/${heroTypeImage}.png`}
 				alt="ranking icon"
 			/>
 		</div>
@@ -87,9 +89,10 @@
 	{#if level && rarity}
 		<div class={styles.ranking}>
 			{#each rankingLevels as _}
-				<img loading="lazy"
+				<img
+					loading="lazy"
 					class={styles.star}
-					src={`images/ranking/iconStarSmall${gearRarity[rarity]}.png`}
+					src={`/images/ranking/iconStarSmall${gearRarity[rarity]}.png`}
 					alt="ranking icon"
 				/>
 			{/each}
