@@ -11,7 +11,7 @@ export const contentContainer = style({
 
 export const gradeContainer = style({
 	display: 'flex',
-	justifyContent: 'space-between',
+	justifyContent: 'center',
 	gap: theme.space[2],
 	alignItems: 'center',
 });

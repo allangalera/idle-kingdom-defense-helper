@@ -56,17 +56,7 @@
 			<slot slot="content">
 				<div class={styles.contentContainer}>
 					<div class={styles.gradeContainer}>
-						<Button on:click={subtractGrade}>
-							<Icon
-								className={styles.icons}
-								src={RiSystemSubtractFill}
-								color={theme.colors.white}
-							/>
-						</Button>
-						<InputGrade grade={userHeroGrade} />
-						<Button on:click={addGrade}>
-							<Icon className={styles.icons} src={RiSystemAddFill} color={theme.colors.white} />
-						</Button>
+						<InputGrade bind:grade={userHeroGrade} />
 					</div>
 					<Input
 						label="Level"
