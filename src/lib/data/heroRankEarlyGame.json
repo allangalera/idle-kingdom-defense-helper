@@ -1,42 +1,42 @@
 [
-	{
-		"title": "Godlike",
-		"color": "red",
-		"heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian"]
-	},
-	{
-		"title": "Great",
-		"color": "orange",
-		"heroList": [
-			"Adrian",
-			"Xavier",
-			"Brian",
-			"Anthony",
-			"Julian",
-			"Lucas",
-			"Harold",
-			"Rodrick",
-			"Daniel"
-		]
-	},
-	{
-		"title": "Good",
-		"color": "amber",
-		"heroList": ["Aisha", "Blake", "Ryan", "Carlos", "Vincent", "Mason", "Marcus", "Raven"]
-	},
-	{
-		"title": "Try to Replace",
-		"color": "yellow",
-		"heroList": [
-			"Sophia",
-			"Austin",
-			"Diego",
-			"Ellie",
-			"Randolph",
-			"Jackson",
-			"Leonidas",
-			"Miguel",
-			"Logan"
-		]
-	}
+  {
+    "title": "Godlike",
+    "color": "red",
+    "heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian"]
+  },
+  {
+    "title": "Great",
+    "color": "orange",
+    "heroList": [
+      "Adrian",
+      "Xavier",
+      "Brian",
+      "Anthony",
+      "Julian",
+      "Lucas",
+      "Harold",
+      "Rodrick",
+      "Daniel"
+    ]
+  },
+  {
+    "title": "Good",
+    "color": "amber",
+    "heroList": ["Aisha", "Blake", "Ryan", "Carlos", "Vincent", "Mason", "Marcus", "Raven"]
+  },
+  {
+    "title": "Try to Replace",
+    "color": "yellow",
+    "heroList": [
+      "Sophia",
+      "Austin",
+      "Diego",
+      "Ellie",
+      "Randolph",
+      "Jackson",
+      "Leonidas",
+      "Miguel",
+      "Logan"
+    ]
+  }
 ]

@@ -1,14 +1,14 @@
 [
-	{
-		"title": "Must Have",
-		"heroList": ["Gabriel", "Sophia"]
-	},
-	{
-		"title": "Support with CC uptime rating",
-		"heroList": ["Christian", "Evan", "Camilla", "Mason", "Harold", "Austin", "Marcus"]
-	},
-	{
-		"title": "Warrior with CC uptime rating",
-		"heroList": ["Rodrick", "Ryan", "Anthony", "Randolph", "Leonidas", "Diego"]
-	}
+  {
+    "title": "Must Have",
+    "heroList": ["Gabriel", "Sophia"]
+  },
+  {
+    "title": "Support with CC uptime rating",
+    "heroList": ["Christian", "Evan", "Camilla", "Mason", "Harold", "Austin", "Marcus"]
+  },
+  {
+    "title": "Warrior with CC uptime rating",
+    "heroList": ["Rodrick", "Ryan", "Anthony", "Randolph", "Leonidas", "Diego"]
+  }
 ]

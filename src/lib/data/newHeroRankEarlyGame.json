@@ -1,113 +1,113 @@
 [
-	[
-		{ "value": "Best", "title": true },
-		"Evan",
-		"Camilla",
-		"Harold",
-		"Luke",
-		"Tristan",
-		"Xavier",
-		"Christian",
-		"Marian",
-		"Anthony",
-		"Ryan",
-		false,
-		false,
-		false
-	],
-	[
-		{
-			"value": "Great now.  But will fall off for better heroes late-game.  See *notes below.",
-			"title": true
-		},
-		"Marcus",
-		"Aisha",
-		"Adrian",
-		false,
-		false,
-		false,
-		false,
-		false,
-		"Daniel",
-		"Julian",
-		"Rodrick",
-		"Blake",
-		"Vincent"
-	],
-	[
-		{
-			"value": "Don't use now.  Keep for later.",
-			"title": true
-		},
-		"Sophia",
-		"Lucas",
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		"Brian",
-		false,
-		false,
-		false,
-		false
-	],
-	[
-		{
-			"value": "Weak now but will become important later.  You can still use these if you want.",
-			"title": true
-		},
-		"Gabriel",
-		"Mason",
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		"Diego",
-		"Leonidas",
-		"Randolph",
-		false,
-		false
-	],
-	[
-		{
-			"value": "Use if you can't get the ones above, otherwise trash.",
-			"title": true
-		},
-		false,
-		false,
-		"Austin",
-		false,
-		false,
-		"Carlos",
-		false,
-		false,
-		"Jackson",
-		false,
-		false,
-		false,
-		false
-	],
-	[
-		{
-			"value": "Trash. Dismantle for Ancient Coins",
-			"title": true
-		},
-		"Ellie",
-		false,
-		false,
-		false,
-		false,
-		"Logan",
-		false,
-		false,
-		"Miguel",
-		"Raven",
-		false,
-		false,
-		false
-	]
+  [
+    { "value": "Best", "title": true },
+    "Evan",
+    "Camilla",
+    "Harold",
+    "Luke",
+    "Tristan",
+    "Xavier",
+    "Christian",
+    "Marian",
+    "Anthony",
+    "Ryan",
+    false,
+    false,
+    false
+  ],
+  [
+    {
+      "value": "Great now.  But will fall off for better heroes late-game.  See *notes below.",
+      "title": true
+    },
+    "Marcus",
+    "Aisha",
+    "Adrian",
+    false,
+    false,
+    false,
+    false,
+    false,
+    "Daniel",
+    "Julian",
+    "Rodrick",
+    "Blake",
+    "Vincent"
+  ],
+  [
+    {
+      "value": "Don't use now.  Keep for later.",
+      "title": true
+    },
+    "Sophia",
+    "Lucas",
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    "Brian",
+    false,
+    false,
+    false,
+    false
+  ],
+  [
+    {
+      "value": "Weak now but will become important later.  You can still use these if you want.",
+      "title": true
+    },
+    "Gabriel",
+    "Mason",
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    "Diego",
+    "Leonidas",
+    "Randolph",
+    false,
+    false
+  ],
+  [
+    {
+      "value": "Use if you can't get the ones above, otherwise trash.",
+      "title": true
+    },
+    false,
+    false,
+    "Austin",
+    false,
+    false,
+    "Carlos",
+    false,
+    false,
+    "Jackson",
+    false,
+    false,
+    false,
+    false
+  ],
+  [
+    {
+      "value": "Trash. Dismantle for Ancient Coins",
+      "title": true
+    },
+    "Ellie",
+    false,
+    false,
+    false,
+    false,
+    "Logan",
+    false,
+    false,
+    "Miguel",
+    "Raven",
+    false,
+    false,
+    false
+  ]
 ]

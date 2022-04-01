@@ -1,14 +1,14 @@
 {
-	"cri": { "id": "cri", "value": 5 },
-	"atk": { "id": "atk", "value": 10 },
-	"def": { "id": "def", "value": 0 },
-	"moveSpeed": { "id": "moveSpeed", "value": 0 },
-	"criResist": { "id": "criResist", "value": 0 },
-	"hp": { "id": "hp", "value": 0 },
-	"defPierce": { "id": "defPierce", "value": 10 },
-	"hit": { "id": "hit", "value": 100 },
-	"atkSpeed": { "id": "atkSpeed", "value": 0.5 },
-	"dodge": { "id": "dodge", "value": 0 },
-	"criDamageResist": { "id": "criDamageResist", "value": 0 },
-	"criDamage": { "id": "criDamage", "value": 5 }
+  "cri": { "id": "cri", "value": 5 },
+  "atk": { "id": "atk", "value": 10 },
+  "def": { "id": "def", "value": 0 },
+  "moveSpeed": { "id": "moveSpeed", "value": 0 },
+  "criResist": { "id": "criResist", "value": 0 },
+  "hp": { "id": "hp", "value": 0 },
+  "defPierce": { "id": "defPierce", "value": 10 },
+  "hit": { "id": "hit", "value": 100 },
+  "atkSpeed": { "id": "atkSpeed", "value": 0.5 },
+  "dodge": { "id": "dodge", "value": 0 },
+  "criDamageResist": { "id": "criDamageResist", "value": 0 },
+  "criDamage": { "id": "criDamage", "value": 5 }
 }

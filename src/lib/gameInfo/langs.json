@@ -1,6 +1,6 @@
 [
-	{ "name": "English", "code": "en", "id": 1, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
-	{ "name": "Русский", "code": "ru", "id": 2, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
-	{ "name": "한국어", "code": "ko", "id": 3, "downMsg": "", "fontName": "ko.ttf", "downUrl": "" },
-	{ "name": "日本語", "code": "ja", "id": 4, "downMsg": "", "fontName": "ja.ttf", "downUrl": "" }
+  { "name": "English", "code": "en", "id": 1, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
+  { "name": "Русский", "code": "ru", "id": 2, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
+  { "name": "한국어", "code": "ko", "id": 3, "downMsg": "", "fontName": "ko.ttf", "downUrl": "" },
+  { "name": "日本語", "code": "ja", "id": 4, "downMsg": "", "fontName": "ja.ttf", "downUrl": "" }
 ]

@@ -2,38 +2,38 @@ import { theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
 export const container = style({
-	display: 'grid',
-	gridTemplateColumns: 'repeat(5, 1fr)',
-	justifyContent: 'center',
-	alignItems: 'center',
-	width: 'max-content',
-	margin: '0 auto',
-	rowGap: theme.space[1],
+  display: 'grid',
+  gridTemplateColumns: 'repeat(5, 1fr)',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: 'max-content',
+  margin: '0 auto',
+  rowGap: theme.space[1],
 });
 
 export const centerFlex = style({
-	display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 });
 
 export const kingdomName = style({
-	borderStyle: 'solid',
-	borderWidth: theme.sizes.px,
-	borderRadius: theme.border.radii.lg,
-	padding: theme.space[1],
-	paddingLeft: theme.space[0.5],
-	paddingRight: theme.space[0.5],
-	display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center',
+  borderStyle: 'solid',
+  borderWidth: theme.sizes.px,
+  borderRadius: theme.border.radii.lg,
+  padding: theme.space[1],
+  paddingLeft: theme.space[0.5],
+  paddingRight: theme.space[0.5],
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 });
 
 export const ascensionIcon = style({
-	width: theme.sizes[6],
+  width: theme.sizes[6],
 });
 
 export const buttonIcon = style({
-	width: theme.sizes[4],
-	height: theme.sizes[4],
+  width: theme.sizes[4],
+  height: theme.sizes[4],
 });

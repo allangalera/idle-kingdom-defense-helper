@@ -1,34 +1,34 @@
 [
-	{
-		"name": "Boost",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/04/TypeBoost.png"
-	},
-	{
-		"name": "Paralyze",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/09/TypeParalyze.png"
-	},
-	{
-		"name": "Poison",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/97/TypePoison.png"
-	},
-	{
-		"name": "Burn",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ea/TypeBurn.png"
-	},
-	{
-		"name": "Freeze",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/21/TypeFreeze.png"
-	},
-	{
-		"name": "Knock",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/08/TypeKnock.png"
-	},
-	{
-		"name": "Summon",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/60/TypeSummon.png"
-	},
-	{
-		"name": "Stun",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/a4/TypeStun.png"
-	}
+  {
+    "name": "Boost",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/04/TypeBoost.png"
+  },
+  {
+    "name": "Paralyze",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/09/TypeParalyze.png"
+  },
+  {
+    "name": "Poison",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/97/TypePoison.png"
+  },
+  {
+    "name": "Burn",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ea/TypeBurn.png"
+  },
+  {
+    "name": "Freeze",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/21/TypeFreeze.png"
+  },
+  {
+    "name": "Knock",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/08/TypeKnock.png"
+  },
+  {
+    "name": "Summon",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/60/TypeSummon.png"
+  },
+  {
+    "name": "Stun",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/a4/TypeStun.png"
+  }
 ]

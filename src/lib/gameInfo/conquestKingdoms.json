@@ -1,362 +1,362 @@
 [
-	{
-		"name": "CONQUEST_KINGDOM_NAME_1",
-		"difficultyStage": 1200,
-		"setId": 11,
-		"poolId": 7,
-		"id": 1,
-		"rewardEvolve": 2,
-		"rewardGold": 5700,
-		"fortressIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_2",
-		"difficultyStage": 1600,
-		"setId": 22,
-		"poolId": 7,
-		"id": 2,
-		"rewardEvolve": 2,
-		"rewardGold": 7700,
-		"fortressIds": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_3",
-		"difficultyStage": 2000,
-		"setId": 11,
-		"poolId": 7,
-		"id": 3,
-		"rewardEvolve": 2,
-		"rewardGold": 9500,
-		"fortressIds": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_4",
-		"difficultyStage": 2400,
-		"setId": 22,
-		"poolId": 7,
-		"id": 4,
-		"rewardEvolve": 3,
-		"rewardGold": 11600,
-		"fortressIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_5",
-		"difficultyStage": 2800,
-		"setId": 11,
-		"poolId": 7,
-		"id": 5,
-		"rewardEvolve": 3,
-		"rewardGold": 13400,
-		"fortressIds": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_6",
-		"difficultyStage": 3200,
-		"setId": 22,
-		"poolId": 7,
-		"id": 6,
-		"rewardEvolve": 3,
-		"rewardGold": 15400,
-		"fortressIds": [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_7",
-		"difficultyStage": 3600,
-		"setId": 11,
-		"poolId": 7,
-		"id": 7,
-		"rewardEvolve": 4,
-		"rewardGold": 17200,
-		"fortressIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_8",
-		"difficultyStage": 4000,
-		"setId": 22,
-		"poolId": 7,
-		"id": 8,
-		"rewardEvolve": 4,
-		"rewardGold": 19200,
-		"fortressIds": [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_9",
-		"difficultyStage": 4400,
-		"setId": 11,
-		"poolId": 7,
-		"id": 9,
-		"rewardEvolve": 4,
-		"rewardGold": 21000,
-		"fortressIds": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_10",
-		"difficultyStage": 4800,
-		"setId": 22,
-		"poolId": 7,
-		"id": 10,
-		"rewardEvolve": 5,
-		"rewardGold": 23000,
-		"fortressIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_11",
-		"difficultyStage": 5200,
-		"setId": 11,
-		"poolId": 7,
-		"id": 11,
-		"rewardEvolve": 5,
-		"rewardGold": 24900,
-		"fortressIds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_12",
-		"difficultyStage": 5600,
-		"setId": 22,
-		"poolId": 7,
-		"id": 12,
-		"rewardEvolve": 5,
-		"rewardGold": 26900,
-		"fortressIds": [111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_1",
-		"difficultyStage": 3500,
-		"setId": 22,
-		"poolId": 7,
-		"id": 13,
-		"rewardEvolve": 3,
-		"rewardGold": 16800,
-		"fortressIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_2",
-		"difficultyStage": 4100,
-		"setId": 11,
-		"poolId": 7,
-		"id": 14,
-		"rewardEvolve": 3,
-		"rewardGold": 19600,
-		"fortressIds": [131, 132, 133, 134, 135, 136, 137, 138, 139, 140]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_3",
-		"difficultyStage": 4700,
-		"setId": 22,
-		"poolId": 7,
-		"id": 15,
-		"rewardEvolve": 3,
-		"rewardGold": 22400,
-		"fortressIds": [141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_4",
-		"difficultyStage": 5300,
-		"setId": 11,
-		"poolId": 7,
-		"id": 16,
-		"rewardEvolve": 4,
-		"rewardGold": 25500,
-		"fortressIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_5",
-		"difficultyStage": 5900,
-		"setId": 22,
-		"poolId": 7,
-		"id": 17,
-		"rewardEvolve": 4,
-		"rewardGold": 28300,
-		"fortressIds": [161, 162, 163, 164, 165, 166, 167, 168, 169, 170]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_6",
-		"difficultyStage": 6500,
-		"setId": 11,
-		"poolId": 7,
-		"id": 18,
-		"rewardEvolve": 4,
-		"rewardGold": 31100,
-		"fortressIds": [171, 172, 173, 174, 175, 176, 177, 178, 179, 180]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_7",
-		"difficultyStage": 7100,
-		"setId": 22,
-		"poolId": 7,
-		"id": 19,
-		"rewardEvolve": 5,
-		"rewardGold": 34100,
-		"fortressIds": [181, 182, 183, 184, 185, 186, 187, 188, 189, 190]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_8",
-		"difficultyStage": 7700,
-		"setId": 11,
-		"poolId": 7,
-		"id": 20,
-		"rewardEvolve": 5,
-		"rewardGold": 37000,
-		"fortressIds": [191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_9",
-		"difficultyStage": 8300,
-		"setId": 22,
-		"poolId": 7,
-		"id": 21,
-		"rewardEvolve": 5,
-		"rewardGold": 39800,
-		"fortressIds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_10",
-		"difficultyStage": 8900,
-		"setId": 11,
-		"poolId": 7,
-		"id": 22,
-		"rewardEvolve": 6,
-		"rewardGold": 42600,
-		"fortressIds": [211, 212, 213, 214, 215, 216, 217, 218, 219, 220]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_11",
-		"difficultyStage": 9500,
-		"setId": 22,
-		"poolId": 7,
-		"id": 23,
-		"rewardEvolve": 6,
-		"rewardGold": 45600,
-		"fortressIds": [221, 222, 223, 224, 225, 226, 227, 228, 229, 230]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_12",
-		"difficultyStage": 10100,
-		"setId": 11,
-		"poolId": 7,
-		"id": 24,
-		"rewardEvolve": 6,
-		"rewardGold": 48400,
-		"fortressIds": [231, 232, 233, 234, 235, 236, 237, 238, 239, 240]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_1",
-		"difficultyStage": 4600,
-		"setId": 11,
-		"poolId": 7,
-		"id": 25,
-		"rewardEvolve": 4,
-		"rewardGold": 22000,
-		"fortressIds": [241, 242, 243, 244, 245, 246, 247, 248, 249, 250]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_2",
-		"difficultyStage": 5240,
-		"setId": 22,
-		"poolId": 7,
-		"id": 26,
-		"rewardEvolve": 4,
-		"rewardGold": 25100,
-		"fortressIds": [251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_3",
-		"difficultyStage": 5880,
-		"setId": 11,
-		"poolId": 7,
-		"id": 27,
-		"rewardEvolve": 4,
-		"rewardGold": 28100,
-		"fortressIds": [261, 262, 263, 264, 265, 266, 267, 268, 269, 270]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_4",
-		"difficultyStage": 6520,
-		"setId": 22,
-		"poolId": 7,
-		"id": 28,
-		"rewardEvolve": 5,
-		"rewardGold": 31300,
-		"fortressIds": [271, 272, 273, 274, 275, 276, 277, 278, 279, 280]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_5",
-		"difficultyStage": 7160,
-		"setId": 11,
-		"poolId": 7,
-		"id": 29,
-		"rewardEvolve": 5,
-		"rewardGold": 34300,
-		"fortressIds": [281, 282, 283, 284, 285, 286, 287, 288, 289, 290]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_6",
-		"difficultyStage": 7800,
-		"setId": 22,
-		"poolId": 7,
-		"id": 30,
-		"rewardEvolve": 5,
-		"rewardGold": 37400,
-		"fortressIds": [291, 292, 293, 294, 295, 296, 297, 298, 299, 300]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_7",
-		"difficultyStage": 8440,
-		"setId": 11,
-		"poolId": 7,
-		"id": 31,
-		"rewardEvolve": 6,
-		"rewardGold": 40400,
-		"fortressIds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_8",
-		"difficultyStage": 9080,
-		"setId": 22,
-		"poolId": 7,
-		"id": 32,
-		"rewardEvolve": 6,
-		"rewardGold": 43600,
-		"fortressIds": [311, 312, 313, 314, 315, 316, 317, 318, 319, 320]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_9",
-		"difficultyStage": 9720,
-		"setId": 11,
-		"poolId": 7,
-		"id": 33,
-		"rewardEvolve": 6,
-		"rewardGold": 46600,
-		"fortressIds": [321, 322, 323, 324, 325, 326, 327, 328, 329, 330]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_10",
-		"difficultyStage": 10360,
-		"setId": 22,
-		"poolId": 7,
-		"id": 34,
-		"rewardEvolve": 7,
-		"rewardGold": 49700,
-		"fortressIds": [331, 332, 333, 334, 335, 336, 337, 338, 339, 340]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_11",
-		"difficultyStage": 11000,
-		"setId": 11,
-		"poolId": 7,
-		"id": 35,
-		"rewardEvolve": 7,
-		"rewardGold": 52700,
-		"fortressIds": [341, 342, 343, 344, 345, 346, 347, 348, 349, 350]
-	},
-	{
-		"name": "CONQUEST_KINGDOM_NAME_12",
-		"difficultyStage": 11640,
-		"setId": 22,
-		"poolId": 7,
-		"id": 36,
-		"rewardEvolve": 7,
-		"rewardGold": 55900,
-		"fortressIds": [351, 352, 353, 354, 355, 356, 357, 358, 359, 360]
-	}
+  {
+    "name": "CONQUEST_KINGDOM_NAME_1",
+    "difficultyStage": 1200,
+    "setId": 11,
+    "poolId": 7,
+    "id": 1,
+    "rewardEvolve": 2,
+    "rewardGold": 5700,
+    "fortressIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_2",
+    "difficultyStage": 1600,
+    "setId": 22,
+    "poolId": 7,
+    "id": 2,
+    "rewardEvolve": 2,
+    "rewardGold": 7700,
+    "fortressIds": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_3",
+    "difficultyStage": 2000,
+    "setId": 11,
+    "poolId": 7,
+    "id": 3,
+    "rewardEvolve": 2,
+    "rewardGold": 9500,
+    "fortressIds": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_4",
+    "difficultyStage": 2400,
+    "setId": 22,
+    "poolId": 7,
+    "id": 4,
+    "rewardEvolve": 3,
+    "rewardGold": 11600,
+    "fortressIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_5",
+    "difficultyStage": 2800,
+    "setId": 11,
+    "poolId": 7,
+    "id": 5,
+    "rewardEvolve": 3,
+    "rewardGold": 13400,
+    "fortressIds": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_6",
+    "difficultyStage": 3200,
+    "setId": 22,
+    "poolId": 7,
+    "id": 6,
+    "rewardEvolve": 3,
+    "rewardGold": 15400,
+    "fortressIds": [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_7",
+    "difficultyStage": 3600,
+    "setId": 11,
+    "poolId": 7,
+    "id": 7,
+    "rewardEvolve": 4,
+    "rewardGold": 17200,
+    "fortressIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_8",
+    "difficultyStage": 4000,
+    "setId": 22,
+    "poolId": 7,
+    "id": 8,
+    "rewardEvolve": 4,
+    "rewardGold": 19200,
+    "fortressIds": [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_9",
+    "difficultyStage": 4400,
+    "setId": 11,
+    "poolId": 7,
+    "id": 9,
+    "rewardEvolve": 4,
+    "rewardGold": 21000,
+    "fortressIds": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_10",
+    "difficultyStage": 4800,
+    "setId": 22,
+    "poolId": 7,
+    "id": 10,
+    "rewardEvolve": 5,
+    "rewardGold": 23000,
+    "fortressIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_11",
+    "difficultyStage": 5200,
+    "setId": 11,
+    "poolId": 7,
+    "id": 11,
+    "rewardEvolve": 5,
+    "rewardGold": 24900,
+    "fortressIds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_12",
+    "difficultyStage": 5600,
+    "setId": 22,
+    "poolId": 7,
+    "id": 12,
+    "rewardEvolve": 5,
+    "rewardGold": 26900,
+    "fortressIds": [111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_1",
+    "difficultyStage": 3500,
+    "setId": 22,
+    "poolId": 7,
+    "id": 13,
+    "rewardEvolve": 3,
+    "rewardGold": 16800,
+    "fortressIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_2",
+    "difficultyStage": 4100,
+    "setId": 11,
+    "poolId": 7,
+    "id": 14,
+    "rewardEvolve": 3,
+    "rewardGold": 19600,
+    "fortressIds": [131, 132, 133, 134, 135, 136, 137, 138, 139, 140]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_3",
+    "difficultyStage": 4700,
+    "setId": 22,
+    "poolId": 7,
+    "id": 15,
+    "rewardEvolve": 3,
+    "rewardGold": 22400,
+    "fortressIds": [141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_4",
+    "difficultyStage": 5300,
+    "setId": 11,
+    "poolId": 7,
+    "id": 16,
+    "rewardEvolve": 4,
+    "rewardGold": 25500,
+    "fortressIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_5",
+    "difficultyStage": 5900,
+    "setId": 22,
+    "poolId": 7,
+    "id": 17,
+    "rewardEvolve": 4,
+    "rewardGold": 28300,
+    "fortressIds": [161, 162, 163, 164, 165, 166, 167, 168, 169, 170]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_6",
+    "difficultyStage": 6500,
+    "setId": 11,
+    "poolId": 7,
+    "id": 18,
+    "rewardEvolve": 4,
+    "rewardGold": 31100,
+    "fortressIds": [171, 172, 173, 174, 175, 176, 177, 178, 179, 180]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_7",
+    "difficultyStage": 7100,
+    "setId": 22,
+    "poolId": 7,
+    "id": 19,
+    "rewardEvolve": 5,
+    "rewardGold": 34100,
+    "fortressIds": [181, 182, 183, 184, 185, 186, 187, 188, 189, 190]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_8",
+    "difficultyStage": 7700,
+    "setId": 11,
+    "poolId": 7,
+    "id": 20,
+    "rewardEvolve": 5,
+    "rewardGold": 37000,
+    "fortressIds": [191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_9",
+    "difficultyStage": 8300,
+    "setId": 22,
+    "poolId": 7,
+    "id": 21,
+    "rewardEvolve": 5,
+    "rewardGold": 39800,
+    "fortressIds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_10",
+    "difficultyStage": 8900,
+    "setId": 11,
+    "poolId": 7,
+    "id": 22,
+    "rewardEvolve": 6,
+    "rewardGold": 42600,
+    "fortressIds": [211, 212, 213, 214, 215, 216, 217, 218, 219, 220]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_11",
+    "difficultyStage": 9500,
+    "setId": 22,
+    "poolId": 7,
+    "id": 23,
+    "rewardEvolve": 6,
+    "rewardGold": 45600,
+    "fortressIds": [221, 222, 223, 224, 225, 226, 227, 228, 229, 230]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_12",
+    "difficultyStage": 10100,
+    "setId": 11,
+    "poolId": 7,
+    "id": 24,
+    "rewardEvolve": 6,
+    "rewardGold": 48400,
+    "fortressIds": [231, 232, 233, 234, 235, 236, 237, 238, 239, 240]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_1",
+    "difficultyStage": 4600,
+    "setId": 11,
+    "poolId": 7,
+    "id": 25,
+    "rewardEvolve": 4,
+    "rewardGold": 22000,
+    "fortressIds": [241, 242, 243, 244, 245, 246, 247, 248, 249, 250]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_2",
+    "difficultyStage": 5240,
+    "setId": 22,
+    "poolId": 7,
+    "id": 26,
+    "rewardEvolve": 4,
+    "rewardGold": 25100,
+    "fortressIds": [251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_3",
+    "difficultyStage": 5880,
+    "setId": 11,
+    "poolId": 7,
+    "id": 27,
+    "rewardEvolve": 4,
+    "rewardGold": 28100,
+    "fortressIds": [261, 262, 263, 264, 265, 266, 267, 268, 269, 270]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_4",
+    "difficultyStage": 6520,
+    "setId": 22,
+    "poolId": 7,
+    "id": 28,
+    "rewardEvolve": 5,
+    "rewardGold": 31300,
+    "fortressIds": [271, 272, 273, 274, 275, 276, 277, 278, 279, 280]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_5",
+    "difficultyStage": 7160,
+    "setId": 11,
+    "poolId": 7,
+    "id": 29,
+    "rewardEvolve": 5,
+    "rewardGold": 34300,
+    "fortressIds": [281, 282, 283, 284, 285, 286, 287, 288, 289, 290]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_6",
+    "difficultyStage": 7800,
+    "setId": 22,
+    "poolId": 7,
+    "id": 30,
+    "rewardEvolve": 5,
+    "rewardGold": 37400,
+    "fortressIds": [291, 292, 293, 294, 295, 296, 297, 298, 299, 300]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_7",
+    "difficultyStage": 8440,
+    "setId": 11,
+    "poolId": 7,
+    "id": 31,
+    "rewardEvolve": 6,
+    "rewardGold": 40400,
+    "fortressIds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_8",
+    "difficultyStage": 9080,
+    "setId": 22,
+    "poolId": 7,
+    "id": 32,
+    "rewardEvolve": 6,
+    "rewardGold": 43600,
+    "fortressIds": [311, 312, 313, 314, 315, 316, 317, 318, 319, 320]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_9",
+    "difficultyStage": 9720,
+    "setId": 11,
+    "poolId": 7,
+    "id": 33,
+    "rewardEvolve": 6,
+    "rewardGold": 46600,
+    "fortressIds": [321, 322, 323, 324, 325, 326, 327, 328, 329, 330]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_10",
+    "difficultyStage": 10360,
+    "setId": 22,
+    "poolId": 7,
+    "id": 34,
+    "rewardEvolve": 7,
+    "rewardGold": 49700,
+    "fortressIds": [331, 332, 333, 334, 335, 336, 337, 338, 339, 340]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_11",
+    "difficultyStage": 11000,
+    "setId": 11,
+    "poolId": 7,
+    "id": 35,
+    "rewardEvolve": 7,
+    "rewardGold": 52700,
+    "fortressIds": [341, 342, 343, 344, 345, 346, 347, 348, 349, 350]
+  },
+  {
+    "name": "CONQUEST_KINGDOM_NAME_12",
+    "difficultyStage": 11640,
+    "setId": 22,
+    "poolId": 7,
+    "id": 36,
+    "rewardEvolve": 7,
+    "rewardGold": 55900,
+    "fortressIds": [351, 352, 353, 354, 355, 356, 357, 358, 359, 360]
+  }
 ]

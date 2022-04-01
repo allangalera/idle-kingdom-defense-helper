@@ -1,18 +1,18 @@
 [
-	{
-		"name": "C",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/20/HeroTierC.png"
-	},
-	{
-		"name": "B",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/4/46/HeroTierB.png"
-	},
-	{
-		"name": "A",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/57/HeroTierA.png"
-	},
-	{
-		"name": "S",
-		"image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/HeroTierS.png"
-	}
+  {
+    "name": "C",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/20/HeroTierC.png"
+  },
+  {
+    "name": "B",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/4/46/HeroTierB.png"
+  },
+  {
+    "name": "A",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/57/HeroTierA.png"
+  },
+  {
+    "name": "S",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/HeroTierS.png"
+  }
 ]

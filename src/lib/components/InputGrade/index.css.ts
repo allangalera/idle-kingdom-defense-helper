@@ -6,27 +6,27 @@ export const container = style({});
 export const starIcon = style({});
 
 export const imageVariant = styleVariants({
-	default: [starIcon, {}],
-	disabled: [
-		starIcon,
-		{
-			opacity: 0.15,
-		},
-	],
+  default: [starIcon, {}],
+  disabled: [
+    starIcon,
+    {
+      opacity: 0.15,
+    },
+  ],
 });
 
 export const button = style({
-	cursor: 'pointer',
+  cursor: 'pointer',
 });
 
 export const rarityContainer = style({
-	display: 'flex',
-	justifyContent: 'space-between',
-	gap: theme.space[2],
+  display: 'flex',
+  justifyContent: 'space-between',
+  gap: theme.space[2],
 });
 
 export const levelContainer = style({
-	display: 'flex',
-	justifyContent: 'space-between',
-	gap: theme.space[2],
+  display: 'flex',
+  justifyContent: 'space-between',
+  gap: theme.space[2],
 });
