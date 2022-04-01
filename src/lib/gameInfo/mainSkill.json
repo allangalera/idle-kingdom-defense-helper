@@ -1564,5 +1564,32 @@
     "effectAssetId": "",
     "summonAssetId": "",
     "hitType": 0
+  },
+  {
+    "effectK": 0,
+    "soundHit": "",
+    "summonTime": 0,
+    "targetType": 0,
+    "effectDurTime": 0,
+    "assetId": "",
+    "bottomAssetId": "",
+    "atkK": 3,
+    "icon": "",
+    "hitRange": 0,
+    "summonN": 0,
+    "effectType": 0,
+    "soundFire": "HEROHORSEMAN01",
+    "id": 59,
+    "speed": 0,
+    "summonUnitId": 0,
+    "desc": "HERO_SKILL_34_DESC_1",
+    "atkType": 3,
+    "hitActRotate": 0,
+    "name": "HERO_SKILL_34_NAME_1",
+    "rangeAssetId": "",
+    "rangeType": 4,
+    "effectAssetId": "",
+    "summonAssetId": "",
+    "hitType": 0
   }
 ]

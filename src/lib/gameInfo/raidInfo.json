@@ -25,11 +25,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 1,
-    "defPierce": 40,
-    "hit": 40,
+    "bossId": 1,
+    "defPierce": 15,
     "difficultyStage": 200,
+    "hit": 40,
+    "defPierceResist": 5,
     "dodge": 40,
     "criDamageResist": 40,
     "criDamage": 40
@@ -60,11 +61,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 2,
-    "defPierce": 80,
-    "hit": 80,
+    "bossId": 1,
+    "defPierce": 25,
     "difficultyStage": 450,
+    "hit": 80,
+    "defPierceResist": 8.33,
     "dodge": 80,
     "criDamageResist": 80,
     "criDamage": 80
@@ -95,11 +97,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 3,
-    "defPierce": 140,
-    "hit": 140,
+    "bossId": 1,
+    "defPierce": 35,
     "difficultyStage": 757,
+    "hit": 140,
+    "defPierceResist": 11.67,
     "dodge": 140,
     "criDamageResist": 140,
     "criDamage": 140
@@ -130,11 +133,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 4,
-    "defPierce": 180,
-    "hit": 180,
+    "bossId": 1,
+    "defPierce": 45,
     "difficultyStage": 1009,
+    "hit": 180,
+    "defPierceResist": 15,
     "dodge": 180,
     "criDamageResist": 180,
     "criDamage": 180
@@ -165,11 +169,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 5,
-    "defPierce": 220,
-    "hit": 220,
+    "bossId": 1,
+    "defPierce": 55,
     "difficultyStage": 1261,
+    "hit": 220,
+    "defPierceResist": 18.33,
     "dodge": 220,
     "criDamageResist": 220,
     "criDamage": 220
@@ -200,11 +205,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 6,
-    "defPierce": 260,
-    "hit": 260,
+    "bossId": 1,
+    "defPierce": 65,
     "difficultyStage": 1513,
+    "hit": 260,
+    "defPierceResist": 21.67,
     "dodge": 260,
     "criDamageResist": 260,
     "criDamage": 260
@@ -235,11 +241,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 7,
-    "defPierce": 300,
-    "hit": 300,
+    "bossId": 1,
+    "defPierce": 75,
     "difficultyStage": 1765,
+    "hit": 300,
+    "defPierceResist": 25,
     "dodge": 300,
     "criDamageResist": 300,
     "criDamage": 300
@@ -270,11 +277,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 8,
-    "defPierce": 340,
-    "hit": 340,
+    "bossId": 1,
+    "defPierce": 85,
     "difficultyStage": 2017,
+    "hit": 340,
+    "defPierceResist": 28.33,
     "dodge": 340,
     "criDamageResist": 340,
     "criDamage": 340
@@ -305,11 +313,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 9,
-    "defPierce": 380,
-    "hit": 380,
+    "bossId": 1,
+    "defPierce": 95,
     "difficultyStage": 2269,
+    "hit": 380,
+    "defPierceResist": 31.67,
     "dodge": 380,
     "criDamageResist": 380,
     "criDamage": 380
@@ -340,11 +349,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 10,
-    "defPierce": 420,
-    "hit": 420,
+    "bossId": 1,
+    "defPierce": 105,
     "difficultyStage": 2521,
+    "hit": 420,
+    "defPierceResist": 35,
     "dodge": 420,
     "criDamageResist": 420,
     "criDamage": 420
@@ -375,11 +385,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 11,
-    "defPierce": 460,
-    "hit": 460,
+    "bossId": 1,
+    "defPierce": 115,
     "difficultyStage": 2773,
+    "hit": 460,
+    "defPierceResist": 38.33,
     "dodge": 460,
     "criDamageResist": 460,
     "criDamage": 460
@@ -410,11 +421,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 12,
-    "defPierce": 500,
-    "hit": 500,
+    "bossId": 1,
+    "defPierce": 125,
     "difficultyStage": 3025,
+    "hit": 500,
+    "defPierceResist": 41.67,
     "dodge": 500,
     "criDamageResist": 500,
     "criDamage": 500
@@ -445,11 +457,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 13,
-    "defPierce": 540,
-    "hit": 540,
+    "bossId": 1,
+    "defPierce": 135,
     "difficultyStage": 3277,
+    "hit": 540,
+    "defPierceResist": 45,
     "dodge": 540,
     "criDamageResist": 540,
     "criDamage": 540
@@ -480,11 +493,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 14,
-    "defPierce": 580,
-    "hit": 580,
+    "bossId": 1,
+    "defPierce": 145,
     "difficultyStage": 3529,
+    "hit": 580,
+    "defPierceResist": 48.33,
     "dodge": 580,
     "criDamageResist": 580,
     "criDamage": 580
@@ -515,11 +529,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 15,
-    "defPierce": 620,
-    "hit": 620,
+    "bossId": 1,
+    "defPierce": 155,
     "difficultyStage": 3781,
+    "hit": 620,
+    "defPierceResist": 51.67,
     "dodge": 620,
     "criDamageResist": 620,
     "criDamage": 620
@@ -550,11 +565,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 16,
-    "defPierce": 660,
-    "hit": 660,
+    "bossId": 1,
+    "defPierce": 165,
     "difficultyStage": 4033,
+    "hit": 660,
+    "defPierceResist": 55,
     "dodge": 660,
     "criDamageResist": 660,
     "criDamage": 660
@@ -585,11 +601,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 17,
-    "defPierce": 700,
-    "hit": 700,
+    "bossId": 1,
+    "defPierce": 175,
     "difficultyStage": 4285,
+    "hit": 700,
+    "defPierceResist": 58.33,
     "dodge": 700,
     "criDamageResist": 700,
     "criDamage": 700
@@ -620,11 +637,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 18,
-    "defPierce": 740,
-    "hit": 740,
+    "bossId": 1,
+    "defPierce": 185,
     "difficultyStage": 4537,
+    "hit": 740,
+    "defPierceResist": 61.67,
     "dodge": 740,
     "criDamageResist": 740,
     "criDamage": 740
@@ -655,11 +673,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 19,
-    "defPierce": 780,
-    "hit": 780,
+    "bossId": 1,
+    "defPierce": 195,
     "difficultyStage": 4789,
+    "hit": 780,
+    "defPierceResist": 65,
     "dodge": 780,
     "criDamageResist": 780,
     "criDamage": 780
@@ -690,11 +709,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 20,
-    "defPierce": 820,
-    "hit": 820,
+    "bossId": 1,
+    "defPierce": 205,
     "difficultyStage": 5041,
+    "hit": 820,
+    "defPierceResist": 68.33,
     "dodge": 820,
     "criDamageResist": 820,
     "criDamage": 820
@@ -725,11 +745,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 21,
-    "defPierce": 860,
-    "hit": 860,
+    "bossId": 1,
+    "defPierce": 215,
     "difficultyStage": 5293,
+    "hit": 860,
+    "defPierceResist": 71.67,
     "dodge": 860,
     "criDamageResist": 860,
     "criDamage": 860
@@ -760,11 +781,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 22,
-    "defPierce": 900,
-    "hit": 900,
+    "bossId": 1,
+    "defPierce": 225,
     "difficultyStage": 5545,
+    "hit": 900,
+    "defPierceResist": 75,
     "dodge": 900,
     "criDamageResist": 900,
     "criDamage": 900
@@ -795,11 +817,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 23,
-    "defPierce": 940,
-    "hit": 940,
+    "bossId": 1,
+    "defPierce": 235,
     "difficultyStage": 5797,
+    "hit": 940,
+    "defPierceResist": 78.33,
     "dodge": 940,
     "criDamageResist": 940,
     "criDamage": 940
@@ -830,11 +853,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 24,
-    "defPierce": 980,
-    "hit": 980,
+    "bossId": 1,
+    "defPierce": 245,
     "difficultyStage": 6049,
+    "hit": 980,
+    "defPierceResist": 81.67,
     "dodge": 980,
     "criDamageResist": 980,
     "criDamage": 980
@@ -865,11 +889,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 25,
-    "defPierce": 1020,
-    "hit": 1020,
+    "bossId": 1,
+    "defPierce": 255,
     "difficultyStage": 6301,
+    "hit": 1020,
+    "defPierceResist": 85,
     "dodge": 1020,
     "criDamageResist": 1020,
     "criDamage": 1020
@@ -900,11 +925,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 26,
-    "defPierce": 1060,
-    "hit": 1060,
+    "bossId": 1,
+    "defPierce": 265,
     "difficultyStage": 6553,
+    "hit": 1060,
+    "defPierceResist": 88.33,
     "dodge": 1060,
     "criDamageResist": 1060,
     "criDamage": 1060
@@ -935,11 +961,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 27,
-    "defPierce": 1100,
-    "hit": 1100,
+    "bossId": 1,
+    "defPierce": 275,
     "difficultyStage": 6805,
+    "hit": 1100,
+    "defPierceResist": 91.67,
     "dodge": 1100,
     "criDamageResist": 1100,
     "criDamage": 1100
@@ -970,11 +997,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 28,
-    "defPierce": 1140,
-    "hit": 1140,
+    "bossId": 1,
+    "defPierce": 285,
     "difficultyStage": 7057,
+    "hit": 1140,
+    "defPierceResist": 95,
     "dodge": 1140,
     "criDamageResist": 1140,
     "criDamage": 1140
@@ -1005,11 +1033,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 29,
-    "defPierce": 1180,
-    "hit": 1180,
+    "bossId": 1,
+    "defPierce": 295,
     "difficultyStage": 7309,
+    "hit": 1180,
+    "defPierceResist": 98.33,
     "dodge": 1180,
     "criDamageResist": 1180,
     "criDamage": 1180
@@ -1040,11 +1069,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 30,
-    "defPierce": 1220,
-    "hit": 1220,
+    "bossId": 1,
+    "defPierce": 305,
     "difficultyStage": 7561,
+    "hit": 1220,
+    "defPierceResist": 101.67,
     "dodge": 1220,
     "criDamageResist": 1220,
     "criDamage": 1220
@@ -1075,11 +1105,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 31,
-    "defPierce": 1260,
-    "hit": 1260,
+    "bossId": 1,
+    "defPierce": 315,
     "difficultyStage": 7813,
+    "hit": 1260,
+    "defPierceResist": 105,
     "dodge": 1260,
     "criDamageResist": 1260,
     "criDamage": 1260
@@ -1110,11 +1141,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 32,
-    "defPierce": 1300,
-    "hit": 1300,
+    "bossId": 1,
+    "defPierce": 325,
     "difficultyStage": 8065,
+    "hit": 1300,
+    "defPierceResist": 108.33,
     "dodge": 1300,
     "criDamageResist": 1300,
     "criDamage": 1300
@@ -1145,11 +1177,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 33,
-    "defPierce": 1340,
-    "hit": 1340,
+    "bossId": 1,
+    "defPierce": 335,
     "difficultyStage": 8317,
+    "hit": 1340,
+    "defPierceResist": 111.67,
     "dodge": 1340,
     "criDamageResist": 1340,
     "criDamage": 1340
@@ -1180,11 +1213,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 34,
-    "defPierce": 1380,
-    "hit": 1380,
+    "bossId": 1,
+    "defPierce": 345,
     "difficultyStage": 8569,
+    "hit": 1380,
+    "defPierceResist": 115,
     "dodge": 1380,
     "criDamageResist": 1380,
     "criDamage": 1380
@@ -1215,11 +1249,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 35,
-    "defPierce": 1420,
-    "hit": 1420,
+    "bossId": 1,
+    "defPierce": 355,
     "difficultyStage": 8821,
+    "hit": 1420,
+    "defPierceResist": 118.33,
     "dodge": 1420,
     "criDamageResist": 1420,
     "criDamage": 1420
@@ -1250,11 +1285,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 36,
-    "defPierce": 1460,
-    "hit": 1460,
+    "bossId": 1,
+    "defPierce": 365,
     "difficultyStage": 9073,
+    "hit": 1460,
+    "defPierceResist": 121.67,
     "dodge": 1460,
     "criDamageResist": 1460,
     "criDamage": 1460
@@ -1285,11 +1321,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 37,
-    "defPierce": 1500,
-    "hit": 1500,
+    "bossId": 1,
+    "defPierce": 375,
     "difficultyStage": 9325,
+    "hit": 1500,
+    "defPierceResist": 125,
     "dodge": 1500,
     "criDamageResist": 1500,
     "criDamage": 1500
@@ -1320,11 +1357,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 38,
-    "defPierce": 1540,
-    "hit": 1540,
+    "bossId": 1,
+    "defPierce": 385,
     "difficultyStage": 9577,
+    "hit": 1540,
+    "defPierceResist": 128.33,
     "dodge": 1540,
     "criDamageResist": 1540,
     "criDamage": 1540
@@ -1355,11 +1393,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 39,
-    "defPierce": 1580,
-    "hit": 1580,
+    "bossId": 1,
+    "defPierce": 395,
     "difficultyStage": 9829,
+    "hit": 1580,
+    "defPierceResist": 131.67,
     "dodge": 1580,
     "criDamageResist": 1580,
     "criDamage": 1580
@@ -1390,11 +1429,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 1,
     "id": 40,
-    "defPierce": 1620,
-    "hit": 1620,
+    "bossId": 1,
+    "defPierce": 405,
     "difficultyStage": 10081,
+    "hit": 1620,
+    "defPierceResist": 135,
     "dodge": 1620,
     "criDamageResist": 1620,
     "criDamage": 1620
@@ -1425,11 +1465,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 41,
-    "defPierce": 40,
-    "hit": 40,
+    "bossId": 2,
+    "defPierce": 15,
     "difficultyStage": 200,
+    "hit": 40,
+    "defPierceResist": 5,
     "dodge": 40,
     "criDamageResist": 40,
     "criDamage": 40
@@ -1460,11 +1501,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 42,
-    "defPierce": 80,
-    "hit": 80,
+    "bossId": 2,
+    "defPierce": 25,
     "difficultyStage": 450,
+    "hit": 80,
+    "defPierceResist": 8.33,
     "dodge": 80,
     "criDamageResist": 80,
     "criDamage": 80
@@ -1495,11 +1537,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 43,
-    "defPierce": 140,
-    "hit": 140,
+    "bossId": 2,
+    "defPierce": 35,
     "difficultyStage": 757,
+    "hit": 140,
+    "defPierceResist": 11.67,
     "dodge": 140,
     "criDamageResist": 140,
     "criDamage": 140
@@ -1530,11 +1573,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 44,
-    "defPierce": 180,
-    "hit": 180,
+    "bossId": 2,
+    "defPierce": 45,
     "difficultyStage": 1009,
+    "hit": 180,
+    "defPierceResist": 15,
     "dodge": 180,
     "criDamageResist": 180,
     "criDamage": 180
@@ -1565,11 +1609,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 45,
-    "defPierce": 220,
-    "hit": 220,
+    "bossId": 2,
+    "defPierce": 55,
     "difficultyStage": 1261,
+    "hit": 220,
+    "defPierceResist": 18.33,
     "dodge": 220,
     "criDamageResist": 220,
     "criDamage": 220
@@ -1600,11 +1645,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 46,
-    "defPierce": 260,
-    "hit": 260,
+    "bossId": 2,
+    "defPierce": 65,
     "difficultyStage": 1513,
+    "hit": 260,
+    "defPierceResist": 21.67,
     "dodge": 260,
     "criDamageResist": 260,
     "criDamage": 260
@@ -1635,11 +1681,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 47,
-    "defPierce": 300,
-    "hit": 300,
+    "bossId": 2,
+    "defPierce": 75,
     "difficultyStage": 1765,
+    "hit": 300,
+    "defPierceResist": 25,
     "dodge": 300,
     "criDamageResist": 300,
     "criDamage": 300
@@ -1670,11 +1717,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 48,
-    "defPierce": 340,
-    "hit": 340,
+    "bossId": 2,
+    "defPierce": 85,
     "difficultyStage": 2017,
+    "hit": 340,
+    "defPierceResist": 28.33,
     "dodge": 340,
     "criDamageResist": 340,
     "criDamage": 340
@@ -1705,11 +1753,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 49,
-    "defPierce": 380,
-    "hit": 380,
+    "bossId": 2,
+    "defPierce": 95,
     "difficultyStage": 2269,
+    "hit": 380,
+    "defPierceResist": 31.67,
     "dodge": 380,
     "criDamageResist": 380,
     "criDamage": 380
@@ -1740,11 +1789,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 50,
-    "defPierce": 420,
-    "hit": 420,
+    "bossId": 2,
+    "defPierce": 105,
     "difficultyStage": 2521,
+    "hit": 420,
+    "defPierceResist": 35,
     "dodge": 420,
     "criDamageResist": 420,
     "criDamage": 420
@@ -1775,11 +1825,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 51,
-    "defPierce": 460,
-    "hit": 460,
+    "bossId": 2,
+    "defPierce": 115,
     "difficultyStage": 2773,
+    "hit": 460,
+    "defPierceResist": 38.33,
     "dodge": 460,
     "criDamageResist": 460,
     "criDamage": 460
@@ -1810,11 +1861,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 52,
-    "defPierce": 500,
-    "hit": 500,
+    "bossId": 2,
+    "defPierce": 125,
     "difficultyStage": 3025,
+    "hit": 500,
+    "defPierceResist": 41.67,
     "dodge": 500,
     "criDamageResist": 500,
     "criDamage": 500
@@ -1845,11 +1897,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 53,
-    "defPierce": 540,
-    "hit": 540,
+    "bossId": 2,
+    "defPierce": 135,
     "difficultyStage": 3277,
+    "hit": 540,
+    "defPierceResist": 45,
     "dodge": 540,
     "criDamageResist": 540,
     "criDamage": 540
@@ -1880,11 +1933,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 54,
-    "defPierce": 580,
-    "hit": 580,
+    "bossId": 2,
+    "defPierce": 145,
     "difficultyStage": 3529,
+    "hit": 580,
+    "defPierceResist": 48.33,
     "dodge": 580,
     "criDamageResist": 580,
     "criDamage": 580
@@ -1915,11 +1969,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 55,
-    "defPierce": 620,
-    "hit": 620,
+    "bossId": 2,
+    "defPierce": 155,
     "difficultyStage": 3781,
+    "hit": 620,
+    "defPierceResist": 51.67,
     "dodge": 620,
     "criDamageResist": 620,
     "criDamage": 620
@@ -1950,11 +2005,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 56,
-    "defPierce": 660,
-    "hit": 660,
+    "bossId": 2,
+    "defPierce": 165,
     "difficultyStage": 4033,
+    "hit": 660,
+    "defPierceResist": 55,
     "dodge": 660,
     "criDamageResist": 660,
     "criDamage": 660
@@ -1985,11 +2041,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 57,
-    "defPierce": 700,
-    "hit": 700,
+    "bossId": 2,
+    "defPierce": 175,
     "difficultyStage": 4285,
+    "hit": 700,
+    "defPierceResist": 58.33,
     "dodge": 700,
     "criDamageResist": 700,
     "criDamage": 700
@@ -2020,11 +2077,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 58,
-    "defPierce": 740,
-    "hit": 740,
+    "bossId": 2,
+    "defPierce": 185,
     "difficultyStage": 4537,
+    "hit": 740,
+    "defPierceResist": 61.67,
     "dodge": 740,
     "criDamageResist": 740,
     "criDamage": 740
@@ -2055,11 +2113,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 59,
-    "defPierce": 780,
-    "hit": 780,
+    "bossId": 2,
+    "defPierce": 195,
     "difficultyStage": 4789,
+    "hit": 780,
+    "defPierceResist": 65,
     "dodge": 780,
     "criDamageResist": 780,
     "criDamage": 780
@@ -2090,11 +2149,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 60,
-    "defPierce": 820,
-    "hit": 820,
+    "bossId": 2,
+    "defPierce": 205,
     "difficultyStage": 5041,
+    "hit": 820,
+    "defPierceResist": 68.33,
     "dodge": 820,
     "criDamageResist": 820,
     "criDamage": 820
@@ -2125,11 +2185,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 61,
-    "defPierce": 860,
-    "hit": 860,
+    "bossId": 2,
+    "defPierce": 215,
     "difficultyStage": 5293,
+    "hit": 860,
+    "defPierceResist": 71.67,
     "dodge": 860,
     "criDamageResist": 860,
     "criDamage": 860
@@ -2160,11 +2221,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 62,
-    "defPierce": 900,
-    "hit": 900,
+    "bossId": 2,
+    "defPierce": 225,
     "difficultyStage": 5545,
+    "hit": 900,
+    "defPierceResist": 75,
     "dodge": 900,
     "criDamageResist": 900,
     "criDamage": 900
@@ -2195,11 +2257,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 63,
-    "defPierce": 940,
-    "hit": 940,
+    "bossId": 2,
+    "defPierce": 235,
     "difficultyStage": 5797,
+    "hit": 940,
+    "defPierceResist": 78.33,
     "dodge": 940,
     "criDamageResist": 940,
     "criDamage": 940
@@ -2230,11 +2293,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 64,
-    "defPierce": 980,
-    "hit": 980,
+    "bossId": 2,
+    "defPierce": 245,
     "difficultyStage": 6049,
+    "hit": 980,
+    "defPierceResist": 81.67,
     "dodge": 980,
     "criDamageResist": 980,
     "criDamage": 980
@@ -2265,11 +2329,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 65,
-    "defPierce": 1020,
-    "hit": 1020,
+    "bossId": 2,
+    "defPierce": 255,
     "difficultyStage": 6301,
+    "hit": 1020,
+    "defPierceResist": 85,
     "dodge": 1020,
     "criDamageResist": 1020,
     "criDamage": 1020
@@ -2300,11 +2365,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 66,
-    "defPierce": 1060,
-    "hit": 1060,
+    "bossId": 2,
+    "defPierce": 265,
     "difficultyStage": 6553,
+    "hit": 1060,
+    "defPierceResist": 88.33,
     "dodge": 1060,
     "criDamageResist": 1060,
     "criDamage": 1060
@@ -2335,11 +2401,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 67,
-    "defPierce": 1100,
-    "hit": 1100,
+    "bossId": 2,
+    "defPierce": 275,
     "difficultyStage": 6805,
+    "hit": 1100,
+    "defPierceResist": 91.67,
     "dodge": 1100,
     "criDamageResist": 1100,
     "criDamage": 1100
@@ -2370,11 +2437,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 68,
-    "defPierce": 1140,
-    "hit": 1140,
+    "bossId": 2,
+    "defPierce": 285,
     "difficultyStage": 7057,
+    "hit": 1140,
+    "defPierceResist": 95,
     "dodge": 1140,
     "criDamageResist": 1140,
     "criDamage": 1140
@@ -2405,11 +2473,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 69,
-    "defPierce": 1180,
-    "hit": 1180,
+    "bossId": 2,
+    "defPierce": 295,
     "difficultyStage": 7309,
+    "hit": 1180,
+    "defPierceResist": 98.33,
     "dodge": 1180,
     "criDamageResist": 1180,
     "criDamage": 1180
@@ -2440,11 +2509,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 70,
-    "defPierce": 1220,
-    "hit": 1220,
+    "bossId": 2,
+    "defPierce": 305,
     "difficultyStage": 7561,
+    "hit": 1220,
+    "defPierceResist": 101.67,
     "dodge": 1220,
     "criDamageResist": 1220,
     "criDamage": 1220
@@ -2475,11 +2545,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 71,
-    "defPierce": 1260,
-    "hit": 1260,
+    "bossId": 2,
+    "defPierce": 315,
     "difficultyStage": 7813,
+    "hit": 1260,
+    "defPierceResist": 105,
     "dodge": 1260,
     "criDamageResist": 1260,
     "criDamage": 1260
@@ -2510,11 +2581,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 72,
-    "defPierce": 1300,
-    "hit": 1300,
+    "bossId": 2,
+    "defPierce": 325,
     "difficultyStage": 8065,
+    "hit": 1300,
+    "defPierceResist": 108.33,
     "dodge": 1300,
     "criDamageResist": 1300,
     "criDamage": 1300
@@ -2545,11 +2617,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 73,
-    "defPierce": 1340,
-    "hit": 1340,
+    "bossId": 2,
+    "defPierce": 335,
     "difficultyStage": 8317,
+    "hit": 1340,
+    "defPierceResist": 111.67,
     "dodge": 1340,
     "criDamageResist": 1340,
     "criDamage": 1340
@@ -2580,11 +2653,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 74,
-    "defPierce": 1380,
-    "hit": 1380,
+    "bossId": 2,
+    "defPierce": 345,
     "difficultyStage": 8569,
+    "hit": 1380,
+    "defPierceResist": 115,
     "dodge": 1380,
     "criDamageResist": 1380,
     "criDamage": 1380
@@ -2615,11 +2689,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 75,
-    "defPierce": 1420,
-    "hit": 1420,
+    "bossId": 2,
+    "defPierce": 355,
     "difficultyStage": 8821,
+    "hit": 1420,
+    "defPierceResist": 118.33,
     "dodge": 1420,
     "criDamageResist": 1420,
     "criDamage": 1420
@@ -2650,11 +2725,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 76,
-    "defPierce": 1460,
-    "hit": 1460,
+    "bossId": 2,
+    "defPierce": 365,
     "difficultyStage": 9073,
+    "hit": 1460,
+    "defPierceResist": 121.67,
     "dodge": 1460,
     "criDamageResist": 1460,
     "criDamage": 1460
@@ -2685,11 +2761,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 77,
-    "defPierce": 1500,
-    "hit": 1500,
+    "bossId": 2,
+    "defPierce": 375,
     "difficultyStage": 9325,
+    "hit": 1500,
+    "defPierceResist": 125,
     "dodge": 1500,
     "criDamageResist": 1500,
     "criDamage": 1500
@@ -2720,11 +2797,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 78,
-    "defPierce": 1540,
-    "hit": 1540,
+    "bossId": 2,
+    "defPierce": 385,
     "difficultyStage": 9577,
+    "hit": 1540,
+    "defPierceResist": 128.33,
     "dodge": 1540,
     "criDamageResist": 1540,
     "criDamage": 1540
@@ -2755,11 +2833,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 79,
-    "defPierce": 1580,
-    "hit": 1580,
+    "bossId": 2,
+    "defPierce": 395,
     "difficultyStage": 9829,
+    "hit": 1580,
+    "defPierceResist": 131.67,
     "dodge": 1580,
     "criDamageResist": 1580,
     "criDamage": 1580
@@ -2790,11 +2869,12 @@
         { "t": 201, "c": 5, "gr": 4 }
       ]
     },
-    "bossId": 2,
     "id": 80,
-    "defPierce": 1620,
-    "hit": 1620,
+    "bossId": 2,
+    "defPierce": 405,
     "difficultyStage": 10081,
+    "hit": 1620,
+    "defPierceResist": 135,
     "dodge": 1620,
     "criDamageResist": 1620,
     "criDamage": 1620

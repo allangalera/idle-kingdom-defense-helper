@@ -43,7 +43,7 @@
       { "id": 24, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 6,
+    "order": 7,
     "desc": "SHOP_GOODS_DESC_LIMIT42",
     "appstoreId": "com.stormx.castle.limit42",
     "playstoreId": "com.stormx.castle.limit42",
@@ -62,7 +62,7 @@
       { "id": 30, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 2,
+    "order": 3,
     "desc": "SHOP_GOODS_DESC_LIMIT52",
     "appstoreId": "com.stormx.castle.limit50",
     "playstoreId": "com.stormx.castle.limit50",
@@ -137,7 +137,7 @@
       { "id": 26, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 4,
+    "order": 5,
     "desc": "SHOP_GOODS_DESC_LIMIT48",
     "appstoreId": "com.stormx.castle.limit48",
     "playstoreId": "com.stormx.castle.limit48",
@@ -156,7 +156,7 @@
       { "id": 11, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 12,
+    "order": 13,
     "desc": "SHOP_GOODS_DESC_LIMIT45",
     "appstoreId": "com.stormx.castle.limit45",
     "playstoreId": "com.stormx.castle.limit45",
@@ -197,7 +197,7 @@
       { "id": 21, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 13,
+    "order": 14,
     "desc": "SHOP_GOODS_DESC_LIMIT46",
     "appstoreId": "com.stormx.castle.limit46",
     "playstoreId": "com.stormx.castle.limit46",
@@ -205,6 +205,25 @@
     "subDesc": "",
     "limitType": 1,
     "id": "limit_946",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_954": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      { "c": 500, "t": 101 },
+      { "id": 34, "t": 201, "c": 100 },
+      { "t": 24, "h": 2 }
+    ],
+    "order": 1,
+    "desc": "SHOP_GOODS_DESC_LIMIT54",
+    "appstoreId": "com.stormx.castle.limit54",
+    "playstoreId": "com.stormx.castle.limit54",
+    "name": "SHOP_GOODS_NAME_LIMIT54",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_954",
     "icon": "0",
     "appstoreConsumable": 1
   },
@@ -437,7 +456,7 @@
       { "id": 3, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 9,
+    "order": 10,
     "desc": "SHOP_GOODS_DESC_LIMIT6",
     "appstoreId": "com.stormx.castle.limit6",
     "playstoreId": "com.stormx.castle.limit6",
@@ -553,7 +572,7 @@
       { "id": 19, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 10,
+    "order": 11,
     "desc": "SHOP_GOODS_DESC_LIMIT8",
     "appstoreId": "com.stormx.castle.limit8",
     "playstoreId": "com.stormx.castle.limit8",
@@ -572,7 +591,7 @@
       { "id": 33, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 1,
+    "order": 2,
     "desc": "SHOP_GOODS_DESC_LIMIT53",
     "appstoreId": "com.stormx.castle.limit53",
     "playstoreId": "com.stormx.castle.limit53",
@@ -671,7 +690,7 @@
       { "id": 7, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 8,
+    "order": 9,
     "desc": "SHOP_GOODS_DESC_LIMIT1",
     "appstoreId": "com.stormx.castle.limit1",
     "playstoreId": "com.stormx.castle.limit1",
@@ -725,7 +744,7 @@
       { "id": 29, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 3,
+    "order": 4,
     "desc": "SHOP_GOODS_DESC_LIMIT51",
     "appstoreId": "com.stormx.castle.limit49",
     "playstoreId": "com.stormx.castle.limit49",
@@ -782,7 +801,7 @@
       { "id": 17, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 11,
+    "order": 12,
     "desc": "SHOP_GOODS_DESC_LIMIT44",
     "appstoreId": "com.stormx.castle.limit44",
     "playstoreId": "com.stormx.castle.limit44",
@@ -856,7 +875,7 @@
       { "id": 23, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 7,
+    "order": 8,
     "desc": "SHOP_GOODS_DESC_LIMIT43",
     "appstoreId": "com.stormx.castle.limit43",
     "playstoreId": "com.stormx.castle.limit43",
@@ -929,7 +948,7 @@
       { "id": 25, "t": 201, "c": 100 },
       { "t": 24, "h": 2 }
     ],
-    "order": 5,
+    "order": 6,
     "desc": "SHOP_GOODS_DESC_LIMIT47",
     "appstoreId": "com.stormx.castle.limit47",
     "playstoreId": "com.stormx.castle.limit47",

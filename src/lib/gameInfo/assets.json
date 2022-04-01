@@ -997,6 +997,12 @@
     "asset": "csd/archer/popupPromote",
     "assetType": 1
   },
+  "POPUP_HERO_EVOLVERESULT": {
+    "scale": 1,
+    "id": "POPUP_HERO_EVOLVERESULT",
+    "asset": "csd/hero/layerEvolve",
+    "assetType": 1
+  },
   "SCENE_SHOP_ITEM_CASH_AD": {
     "scale": 1,
     "id": "SCENE_SHOP_ITEM_CASH_AD",
@@ -1653,12 +1659,7 @@
     "asset": "csd/common/tooltipItemDesc",
     "assetType": 1
   },
-  "POPUP_HERO_EVOLVERESULT": {
-    "scale": 1,
-    "id": "POPUP_HERO_EVOLVERESULT",
-    "asset": "csd/hero/layerEvolve",
-    "assetType": 1
-  },
+  "HERO_34": { "scale": 0.65, "id": "HERO_34", "asset": "spine/heroBarbarian04", "assetType": 2 },
   "POPUP_SIGNOUT_CONFIRM": {
     "scale": 1,
     "id": "POPUP_SIGNOUT_CONFIRM",
