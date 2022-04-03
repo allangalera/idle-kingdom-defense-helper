@@ -23,7 +23,7 @@
     for (const gradeInfo of heroGradeInfo) {
       if (gradeInfo.id > startGrade && gradeInfo.id <= endGrade) {
         shardsCost += gradeInfo.evolvePiece;
-        ascensionStonesCost += gradeInfo.summonPiece;
+        ascensionStonesCost += gradeInfo.stone;
       }
     }
   }

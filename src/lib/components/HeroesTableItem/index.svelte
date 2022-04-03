@@ -61,6 +61,7 @@
     if (addType === 3 && effectType === 502) return `${Math.round(value * 100)}%`;
     if (addType === 3) return value;
     if (addType === 4 && effectType === 102) return `${Math.round(percentage * 100)}%`;
+    if (addType === 4 && effectType === 103) return `${Math.round(percentage * 100)}%`;
     if (units && time) return `${units}/${time}s`;
 
     return `${Math.round(value * 100)}%`;
