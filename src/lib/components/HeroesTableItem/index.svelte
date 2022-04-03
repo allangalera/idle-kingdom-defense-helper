@@ -2,6 +2,7 @@
   import * as styles from './index.css';
   import CardHero from '$lib/components/CardHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+  import { match } from 'oxide.ts';
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { HeroesVisualizationModes } from '$lib/enums';
   import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
@@ -43,28 +44,59 @@
   function formatSkillValue(progressionAttributes, skill) {
     const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
 
-    if (addType === 1 && effectType === 4) return `${value}/${durTime}s`;
-    if (addType === 1 && effectType === 3) return `${value}s`;
-    if (addType === 2 && effectType === 99 && durTime) return `${durTime}s`;
-    if (addType === 2 && effectType === 99 && value) return `${value * 100}%`;
-    if (addType === 2 && effectType === 99 && percentage) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 9) return `${durTime}s`;
-    if (addType === 2 && effectType === 21) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 22) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 23) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 24) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 101) return `${Math.round(percentage * 100)}%`;
-    if (addType === 2 && effectType === 102) return `${percentage * 100}%`;
-    if (addType === 2 && effectType === 103) return `${percentage * 100}%`;
-    if (addType === 3 && effectType === 1) return `${Math.round(value * 100)}%`;
-    if (addType === 3 && effectType === 501) return `${Math.round(value * 100)}%`;
-    if (addType === 3 && effectType === 502) return `${Math.round(value * 100)}%`;
-    if (addType === 3) return value;
-    if (addType === 4 && effectType === 102) return `${Math.round(percentage * 100)}%`;
-    if (addType === 4 && effectType === 103) return `${Math.round(percentage * 100)}%`;
-    if (units && time) return `${units}/${time}s`;
-
-    return `${Math.round(value * 100)}%`;
+    return match(addType, [
+      [
+        1,
+        match(effectType, [
+          [4, `${value}/${durTime}s`],
+          [3, `${value}s`],
+          () => `${Math.round(value * 100)}%`,
+        ]),
+      ],
+      [
+        2,
+        match(effectType, [
+          [9, `${durTime}s`],
+          [21, `${Math.round(percentage * 100)}%`],
+          [22, `${Math.round(percentage * 100)}%`],
+          [23, `${Math.round(percentage * 100)}%`],
+          [24, `${Math.round(percentage * 100)}%`],
+          [
+            99,
+            () => {
+              if (durTime) return `${durTime}s`;
+              if (percentage) return `${Math.round(percentage * 100)}%`;
+              return `${Math.round(value * 100)}%`;
+            },
+          ],
+          [101, `${Math.round(percentage * 100)}%`],
+          [102, `${Math.round(percentage * 100)}%`],
+          [103, `${Math.round(percentage * 100)}%`],
+          () => `${Math.round(value * 100)}%`,
+        ]),
+      ],
+      [
+        3,
+        match(effectType, [
+          [1, `${Math.round(value * 100)}%`],
+          [501, `${Math.round(value * 100)}%`],
+          [502, `${Math.round(value * 100)}%`],
+          () => value,
+        ]),
+      ],
+      [
+        4,
+        match(effectType, [
+          [102, `${Math.round(percentage * 100)}%`],
+          [103, `${Math.round(percentage * 100)}%`],
+          () => `${Math.round(value * 100)}%`,
+        ]),
+      ],
+      () => {
+        if (units && time) return `${units}/${time}s`;
+        return `${Math.round(value * 100)}%`;
+      },
+    ]);
   }
 
   const openAddModal = () => {
