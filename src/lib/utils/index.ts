@@ -1,36 +1,11 @@
 import { MAX_HERO_LEVEL } from '$lib/db/heroes';
 import { RarityEnum } from '$lib/enums';
 import type { Grades, UpgradeLevel } from '$lib/types';
-import { nanoid } from 'nanoid';
 import { match } from 'oxide.ts';
 import { z } from 'zod';
 
-export const addIdToCollection = <T>(collection: T[]): (T & { id: string })[] => {
-  return collection.map((item) => {
-    return {
-      ...item,
-      id: nanoid(),
-    };
-  });
-};
 
-export const createSortByListAndName = (tierList) => (array) => {
-  const clonedArray = array.slice();
-  const sortFunction = (prev, curr) => {
-    const prevTier = tierList.indexOf(prev.tier.name);
-    const currTier = tierList.indexOf(curr.tier.name);
-    if (prevTier > currTier) return 1;
-    if (prevTier < currTier) return -1;
-    if (prev.name > curr.name) return 1;
-    if (prev.name < curr.name) return -1;
-
-    return 0;
-  };
-
-  return clonedArray.sort(sortFunction);
-};
-
-export const genericRounding = (value, n) => {
+export const genericRounding = (value: number, n: number): number => {
   const d = Math.pow(10, n);
   return Math.round((value + Number.EPSILON) * d) / d;
 }
@@ -63,17 +38,6 @@ export const heroUpgradeCostCalculatorParameterSchema = z
   .refine((value) => value.currentLevel < value.targetLevel, {
     message: 'Current level need to be higher than Target level',
   });
-
-export const generateVariantOptionsFromObject = <T>(styleObject, style: string) => {
-  const finalStyle = {};
-  Object.keys(styleObject).forEach((item) => {
-    finalStyle[item] = {
-      [style]: styleObject[item],
-    };
-  });
-
-  return finalStyle as T;
-};
 
 export const romanize = (num: number) => {
   if (isNaN(num)) return NaN;
