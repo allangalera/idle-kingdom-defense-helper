@@ -1,6 +1,9 @@
 [
   [
-    { "value": "Best", "title": true },
+    {
+      "title": true,
+      "value": "Best"
+    },
     "Evan",
     "Camilla",
     "Harold",
@@ -16,7 +19,10 @@
     "Randolph"
   ],
   [
-    { "value": "Replace the above if ascension is high enough.  Situational.", "title": true },
+    {
+      "title": true,
+      "value": "Replace the above if ascension is high enough.  Situational."
+    },
     false,
     "Marian",
     false,
@@ -33,8 +39,8 @@
   ],
   [
     {
-      "value": "Can swap Best units out with these to form farming team.  Warriors might not even be necessary.",
-      "title": true
+      "title": true,
+      "value": "Can swap Best units out with these to form farming team.  Warriors might not even be necessary."
     },
     false,
     false,
@@ -52,9 +58,9 @@
   ],
   [
     {
-      "value": "Should have enough Ancient Coin farm from Max Legendary Heroes.  If you got nothing else to ascend, ascend these for the conquest castle reward increase.",
+      "double": true,
       "title": true,
-      "double": true
+      "value": "Should have enough Ancient Coin farm from Max Legendary Heroes.  If you got nothing else to ascend, ascend these for the conquest castle reward increase."
     },
     "Lucas",
     "Aisha",

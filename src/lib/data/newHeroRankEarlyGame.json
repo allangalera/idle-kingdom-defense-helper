@@ -1,6 +1,9 @@
 [
   [
-    { "value": "Best", "title": true },
+    {
+      "title": true,
+      "value": "Best"
+    },
     "Evan",
     "Camilla",
     "Harold",
@@ -17,8 +20,8 @@
   ],
   [
     {
-      "value": "Great now.  But will fall off for better heroes late-game.  See *notes below.",
-      "title": true
+      "title": true,
+      "value": "Great now.  But will fall off for better heroes late-game.  See *notes below."
     },
     "Marcus",
     "Aisha",
@@ -36,8 +39,8 @@
   ],
   [
     {
-      "value": "Don't use now.  Keep for later.",
-      "title": true
+      "title": true,
+      "value": "Don't use now.  Keep for later."
     },
     "Sophia",
     "Lucas",
@@ -55,8 +58,8 @@
   ],
   [
     {
-      "value": "Weak now but will become important later.  You can still use these if you want.",
-      "title": true
+      "title": true,
+      "value": "Weak now but will become important later.  You can still use these if you want."
     },
     "Gabriel",
     "Mason",
@@ -74,8 +77,8 @@
   ],
   [
     {
-      "value": "Use if you can't get the ones above, otherwise trash.",
-      "title": true
+      "title": true,
+      "value": "Use if you can't get the ones above, otherwise trash."
     },
     false,
     false,
@@ -93,8 +96,8 @@
   ],
   [
     {
-      "value": "Trash. Dismantle for Ancient Coins",
-      "title": true
+      "title": true,
+      "value": "Trash. Dismantle for Ancient Coins"
     },
     "Ellie",
     false,

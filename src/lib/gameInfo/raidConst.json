@@ -17,21 +17,21 @@
     "RUNDAYS": 1
   },
   "REWARDINFO": {
-    "TIC": 1440,
-    "REWARD": {
-      "RATES": [30, 30, 20, 10, 10],
-      "ITEM_TYPES": [102, 27, 24, 31, 32]
-    },
     "COST": [100, 500],
-    "SPECIALREWARD_RATES": [70, 30],
+    "REWARD": {
+      "ITEM_TYPES": [102, 27, 24, 31, 32],
+      "RATES": [30, 30, 20, 10, 10]
+    },
     "SPECIALREWARD_CNTS": [2, 3],
-    "TIC_ITEM": 24,
-    "SPECIALREWARD_PICK_RATE": 0.25
+    "SPECIALREWARD_PICK_RATE": 0.25,
+    "SPECIALREWARD_RATES": [70, 30],
+    "TIC": 1440,
+    "TIC_ITEM": 24
   },
   "TICKET": {
-    "INIT_CNT": 5,
     "BUY_DAY_LIMIT": 5,
     "BUY_TICKET_LIMIT": 5,
-    "COST": 100
+    "COST": 100,
+    "INIT_CNT": 5
   }
 }

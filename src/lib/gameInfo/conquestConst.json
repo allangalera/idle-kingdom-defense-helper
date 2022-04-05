@@ -1,14 +1,14 @@
 {
   "CAPITAL": {
-    "REWARD_MULTIPLE_PERGRADE": 0.04,
-    "TIC_TIME": 3600,
+    "CLEAR_REWARD_TIC": 12,
     "MAX_TIC": 12,
-    "CLEAR_REWARD_TIC": 12
+    "REWARD_MULTIPLE_PERGRADE": 0.04,
+    "TIC_TIME": 3600
   },
   "FORTRESS": {
+    "CLEAR_REWARD_TIC": 72,
     "MAX_LV": 10,
-    "TIC_TIME": 600,
     "MAX_TIC": 72,
-    "CLEAR_REWARD_TIC": 72
+    "TIC_TIME": 600
   }
 }

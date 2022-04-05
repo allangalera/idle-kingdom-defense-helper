@@ -1,1268 +1,1268 @@
 [
   {
-    "name": "Ellie",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/c9/EllieAnimated.gif",
-    "tier": "C",
-    "class": "Supporter",
-    "type": "Poison",
+    "name": "Ellie",
     "skills": [
       {
-        "name": "Fusillade",
+        "cooldown": 9,
         "description": "Fires 5 arrows in a selected area to deal 80% of ATK as damage",
-        "progression": ["80%", "160%", "240%", "320%", "400%"],
-        "cooldown": 9
+        "name": "Fusillade",
+        "progression": ["80%", "160%", "240%", "320%", "400%"]
       },
       {
-        "name": "Fatal Attack",
+        "cooldown": "passive",
         "description": "Own CRIT increases by 100",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Fatal Attack",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Poison Arrow",
+        "cooldown": "passive",
         "description": "Fusillade has 15% chance to poison the enemy. DEF of poisoned enemies will reduce by 15% for 4 secs.",
-        "progression": ["15%", "30%", "45%", "60%", "75%"],
-        "cooldown": "passive"
+        "name": "Poison Arrow",
+        "progression": ["15%", "30%", "45%", "60%", "75%"]
       },
       {
-        "name": "Enfeeble",
+        "cooldown": "passive",
         "description": "DEF of Enemy poisoned by Fusillade will decrease by an additional 15%.",
-        "progression": ["15%", "30%", "45%", "60%", "75%"],
-        "cooldown": "passive"
+        "name": "Enfeeble",
+        "progression": ["15%", "30%", "45%", "60%", "75%"]
       },
       {
-        "name": "Enhance Poison",
+        "cooldown": "passive",
         "description": "Poison duration from the Fusillade will increase by 2 secs.",
-        "progression": ["2s", "4s", "6s", "8s", "10s"],
-        "cooldown": "passive"
+        "name": "Enhance Poison",
+        "progression": ["2s", "4s", "6s", "8s", "10s"]
       }
-    ]
+    ],
+    "tier": "C",
+    "type": "Poison"
   },
   {
-    "name": "Luke",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/90/LukeAnimated.gif",
-    "tier": "C",
-    "class": "Supporter",
-    "type": "Boost",
+    "name": "Luke",
     "skills": [
       {
-        "name": "Command Battle",
+        "cooldown": 12,
         "description": "All Support Heroe's ATK increases by 40% for 6 secs.",
-        "progression": ["40%", "80%", "120%", "160%", "200%"],
-        "cooldown": 12
+        "name": "Command Battle",
+        "progression": ["40%", "80%", "120%", "160%", "200%"]
       },
       {
-        "name": "Eagle's Eye",
+        "cooldown": "passive",
         "description": "Own ACCURACY increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Eagle's Eye",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Enrage",
+        "cooldown": "passive",
         "description": "During the duration of Command Battle, all Support Heroes' CRIT increases by 20%.",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Enrage",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Steady Shot",
+        "cooldown": "passive",
         "description": "Own CRIT increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Steady Shot",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Leadership Qualities",
+        "cooldown": "passive",
         "description": "Duration of Command Battle increases by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Leadership Qualities",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "C",
+    "type": "Boost"
   },
   {
-    "name": "Logan",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/e7/LoganAnimated.gif",
-    "tier": "C",
     "class": "Supporter",
-    "type": "Summon",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/e7/LoganAnimated.gif",
+    "name": "Logan",
     "skills": [
       {
-        "name": "Summon Swordmans",
+        "cooldown": 20,
         "description": "Summon 4 Swordmans. Swordmans inherit the hero's own abilities and fights for up to 16 secs. Hero doesn't 'Normal Attack'.",
+        "name": "Summon Swordmans",
         "progression": [
           "4 units / 16s",
           "6 units / 17s",
           "8 units / 18s",
           "10 units / 19s",
           "12 units / 20s"
-        ],
-        "cooldown": 20
+        ]
       },
       {
-        "name": "Amplify Weapon Effect",
+        "cooldown": "passive",
         "description": "Swordmans' Stats will increase by an additional 20% of the Weapon's Stats",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Amplify Weapon Effect",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Amplify Helmet Effect",
+        "cooldown": "passive",
         "description": "Swordmans' Stats will increase by an additional 20% of the Helmet's Stats",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Amplify Helmet Effect",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Amplify Armor Effect",
+        "cooldown": "passive",
         "description": "Swordmans' Stats will increase by an additional 20% of the Armor's Stats",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Amplify Armor Effect",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Amplify Shoes Effect",
+        "cooldown": "passive",
         "description": "Swordmans' Stats will increase by an additional 20% of the Shoes' Stats",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Amplify Shoes Effect",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       }
-    ]
+    ],
+    "tier": "C",
+    "type": "Summon"
   },
   {
-    "name": "Mason",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/21/MasonAnimated.gif",
-    "tier": "C",
-    "class": "Supporter",
-    "type": "Paralyze",
+    "name": "Mason",
     "skills": [
       {
-        "name": "Thunderbolt",
+        "cooldown": 9,
         "description": "Rain down bolts of lightning in a selected area to deal damage of 150% of ATK.",
-        "progression": ["150%", "300%", "450%", "600%", "750%"],
-        "cooldown": 9
+        "name": "Thunderbolt",
+        "progression": ["150%", "300%", "450%", "600%", "750%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own CRIT DMG increases by 100.",
         "name": "Amplify Magic",
-        "description": "Own CRIT DMG increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Petrify",
+        "cooldown": "passive",
         "description": "50% chance to paralyze ennemy with Thunderbolt for 3 secs.",
-        "progression": ["50%", "60%", "70%", "80%", "90%"],
-        "cooldown": "passive"
+        "name": "Petrify",
+        "progression": ["50%", "60%", "70%", "80%", "90%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own CRIT increases by 100.",
         "name": "Power of Lightning",
-        "description": "Own CRIT increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Enhance Petrify",
+        "cooldown": "passive",
         "description": "Paralysis duration from the Thunderbolt will increase by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Enhance Petrify",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "C",
+    "type": "Paralyze"
   },
   {
-    "name": "Diego",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/96/DiegoAnimated.gif",
-    "tier": "C",
-    "class": "Warrior",
-    "type": "Stun",
+    "name": "Diego",
     "skills": [
       {
-        "name": "Shockwave",
+        "cooldown": 9,
         "description": "Swing the Axe in an area to deal damage of 150% of ATK.",
-        "progression": ["150%", "300%", "450%", "600%", "750%"],
-        "cooldown": 9
+        "name": "Shockwave",
+        "progression": ["150%", "300%", "450%", "600%", "750%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own CRIT Resist increases by 100.",
         "name": "Enhance Body",
-        "description": "Own CRIT Resist increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Push",
+        "cooldown": "passive",
         "description": "Shockwave has 20% to Stun the Ennemy for 3 secs.",
-        "progression": ["20%", "30%", "40%", "50%", "60%"],
-        "cooldown": "passive"
+        "name": "Push",
+        "progression": ["20%", "30%", "40%", "50%", "60%"]
       },
       {
-        "name": "Ancestral Power",
+        "cooldown": "passive",
         "description": "Own CRIT DMG increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Ancestral Power",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Enhance Shock",
+        "cooldown": "passive",
         "description": "Stun duration of Shockwave increases by 1 sec",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Enhance Shock",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
-  },
-  {
-    "name": "Brian",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/8/83/BrianAnimated.gif",
+    ],
     "tier": "C",
+    "type": "Stun"
+  },
+  {
     "class": "Warrior",
-    "type": "Boost",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/8/83/BrianAnimated.gif",
+    "name": "Brian",
     "skills": [
       {
-        "name": "Warrior's Will",
+        "cooldown": 12,
         "description": "All Warrior Heroes' DEF increases by 60% for 6 secs .",
-        "progression": ["60%", "120%", "180%", "240%", "300%"],
-        "cooldown": 12
+        "name": "Warrior's Will",
+        "progression": ["60%", "120%", "180%", "240%", "300%"]
       },
       {
-        "name": "Fortitude",
+        "cooldown": "passive",
         "description": "Own CRIT increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Fortitude",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Encourage",
+        "cooldown": "passive",
         "description": "During the duration of Warrior's Will, All Warrior Heroes' Attack Speed increases by 20%.",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Encourage",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Grace",
+        "cooldown": "passive",
         "description": "Own CRIT Resist increases by 100.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Grace",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Credo",
+        "cooldown": "passive",
         "description": "Duration of Warrior's Will increases by 2 secs.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Credo",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "C",
+    "type": "Boost"
   },
   {
-    "name": "Tristan",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/3f/TristanAnimated.gif",
-    "tier": "B",
-    "class": "Supporter",
-    "type": "Boost",
+    "name": "Tristan",
     "skills": [
       {
-        "name": "Whisper of Wind",
+        "cooldown": 12,
         "description": "All Support Heroes' Attack Speed increases by 40% for 6 secs.",
-        "progression": ["40%", "85%", "130%", "175%", "220%"],
-        "cooldown": 12
+        "name": "Whisper of Wind",
+        "progression": ["40%", "85%", "130%", "175%", "220%"]
       },
       {
-        "name": "Suppressive Fire",
+        "cooldown": "passive",
         "description": "Own DEF Penetration increases by 150.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Suppressive Fire",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Power of Storm",
+        "cooldown": "passive",
         "description": "During the duration of Whisper of Wind, all Support Heroes' CRIT increases by 20%.",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
+        "name": "Power of Storm",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
       },
       {
-        "name": "Enhance Ballista",
+        "cooldown": "passive",
         "description": "Own CRIT DMG increases by 150.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Enhance Ballista",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Fair Winds",
+        "cooldown": "passive",
         "description": "Duration of Whisper of Wind increases by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Fair Winds",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Boost"
   },
   {
-    "name": "Carlos",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ae/CarlosAnimated.gif",
-    "tier": "B",
     "class": "Supporter",
-    "type": "Summon",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ae/CarlosAnimated.gif",
+    "name": "Carlos",
     "skills": [
       {
-        "name": "Summon Barbarians",
+        "cooldown": 20,
         "description": "Summon 6 Barbarians. Barbarians inherit the hero's own abilities and fights for up to 16 secs. Hero doesn't 'Normal Attack'.",
+        "name": "Summon Barbarians",
         "progression": [
           "6 units / 16s",
           "8 units / 17s",
           "10 units / 18s",
           "12 units / 19s",
           "14 units / 20s"
-        ],
-        "cooldown": 20
+        ]
       },
       {
-        "name": "Amplify Weapon Effect",
+        "cooldown": "passive",
         "description": "Barbarians' Stats will increase by an additional 40% of the Weapon's Stats.",
-        "progression": ["40%", "60%", "80%", "100%", "120%"],
-        "cooldown": "passive"
+        "name": "Amplify Weapon Effect",
+        "progression": ["40%", "60%", "80%", "100%", "120%"]
       },
       {
-        "name": "Amplify Helmet Effect",
+        "cooldown": "passive",
         "description": "Barbarians' Stats will increase by an additional 40% of the Helmet's Stats.",
-        "progression": ["40%", "60%", "80%", "100%", "120%"],
-        "cooldown": "passive"
+        "name": "Amplify Helmet Effect",
+        "progression": ["40%", "60%", "80%", "100%", "120%"]
       },
       {
-        "name": "Amplify Armor Effect",
+        "cooldown": "passive",
         "description": "Barbarians' Stats will increase by an additional 40% of the Armor's Stats.",
-        "progression": ["40%", "60%", "80%", "100%", "120%"],
-        "cooldown": "passive"
+        "name": "Amplify Armor Effect",
+        "progression": ["40%", "60%", "80%", "100%", "120%"]
       },
       {
-        "name": "Amplify Shoes Effect",
+        "cooldown": "passive",
         "description": "Barbarians' Stats will increase by an additional 40% of the Shoes's Stats.",
-        "progression": ["40%", "60%", "80%", "100%", "120%"],
-        "cooldown": "passive"
+        "name": "Amplify Shoes Effect",
+        "progression": ["40%", "60%", "80%", "100%", "120%"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Summon"
   },
   {
-    "name": "Austin",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/6b/AustinAnimated.gif",
-    "tier": "B",
-    "class": "Supporter",
-    "type": "Stun",
+    "name": "Austin",
     "skills": [
       {
-        "name": "Throw Boulder",
+        "cooldown": 9,
         "description": "Thows a boulder in a selected area to deal damage of 150% of ATK.",
-        "progression": ["150%", "300%", "450%", "600%", "750%"],
-        "cooldown": 9
+        "name": "Throw Boulder",
+        "progression": ["150%", "300%", "450%", "600%", "750%"]
       },
       {
-        "name": "Enhance Strength",
+        "cooldown": "passive",
         "description": "Own ACCURACY increases by 150. Basic Attacks deal Area of effect damage.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Enhance Strength",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Big Impact",
+        "cooldown": "passive",
         "description": "Throw Boulder has 30% chance to stun enemies for 3 secs",
-        "progression": ["30%", "40%", "50%", "60%", "70%"],
-        "cooldown": "passive"
+        "name": "Big Impact",
+        "progression": ["30%", "40%", "50%", "60%", "70%"]
       },
       {
-        "name": "Sunder Armor",
+        "cooldown": "passive",
         "description": "Own DEF Penetration increases by 150.",
-        "progression": ["100", "200", "300", "400", "500"],
-        "cooldown": "passive"
+        "name": "Sunder Armor",
+        "progression": ["100", "200", "300", "400", "500"]
       },
       {
-        "name": "Concussion",
+        "cooldown": "passive",
         "description": "Stun duration from Throw Boulder will increase by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Concussion",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Stun"
   },
   {
-    "name": "Miguel",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/0/0f/MiguelAnimated.gif",
-    "tier": "B",
-    "class": "Warrior",
-    "type": "Knock",
+    "name": "Miguel",
     "skills": [
       {
-        "name": "Earth Shatter",
+        "cooldown": 9,
         "description": "Strike Hammer down in a area to deal damage of 200% of ATK.",
-        "progression": ["200%", "400%", "600%", "800%", "1000%"],
-        "cooldown": 9
+        "name": "Earth Shatter",
+        "progression": ["200%", "400%", "600%", "800%", "1000%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own ACCURACY increases by 150",
         "name": "Enhance Accuracy",
-        "description": "Own ACCURACY increases by 150",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
+        "progression": ["150", "300", "450", "600", "750"]
       },
       {
-        "name": "Reaction",
+        "cooldown": "passive",
         "description": "Earth Shatter has 60% chance to knock the Ennemy into the air for 1 sec.",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
+        "name": "Reaction",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own CRIT DMG Reduce increases by 150.",
         "name": "Patience",
-        "description": "Own CRIT DMG Reduce increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
+        "progression": ["150", "300", "450", "600", "750"]
       },
       {
-        "name": "Incredible Power",
+        "cooldown": "passive",
         "description": "Airborne duration of Earth Shatter increases by 0.6 secs.",
-        "progression": ["0.6s", "1.2s", "1.8s", "2.4s", "3s"],
-        "cooldown": "passive"
+        "name": "Incredible Power",
+        "progression": ["0.6s", "1.2s", "1.8s", "2.4s", "3s"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Knock"
   },
   {
-    "name": "Leonidas",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/36/LeonidasAnimated.gif",
-    "tier": "B",
-    "class": "Warrior",
-    "type": "Paralyze",
+    "name": "Leonidas",
     "skills": [
       {
-        "name": "Javelin",
+        "cooldown": 9,
         "description": "Throw the spear in a area to deal damage of 200% of ATK.",
-        "progression": ["200%", "400%", "600%", "800%", "1000%"],
-        "cooldown": 9
+        "name": "Javelin",
+        "progression": ["200%", "400%", "600%", "800%", "1000%"]
       },
       {
-        "name": "Ancient Martial Arts",
+        "cooldown": "passive",
         "description": "Own DODGE increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
+        "name": "Ancient Martial Arts",
+        "progression": ["150", "300", "450", "600", "750"]
       },
       {
-        "name": "Lightning Spear",
+        "cooldown": "passive",
         "description": "30% chance to paralyze ennemy with Javelin for 3 secs.",
-        "progression": ["30%", "40%", "50%", "60%", "70%"],
-        "cooldown": "passive"
+        "name": "Lightning Spear",
+        "progression": ["30%", "40%", "50%", "60%", "70%"]
       },
       {
-        "name": "Fusillade",
+        "cooldown": "passive",
         "description": "Own Attack Speed increases by 15%",
-        "progression": ["15%", "30%", "45%", "60%", "75%"],
-        "cooldown": "passive"
+        "name": "Fusillade",
+        "progression": ["15%", "30%", "45%", "60%", "75%"]
       },
       {
-        "name": "Enhance Lightning",
+        "cooldown": "passive",
         "description": "Paralysis duration from the Javelin will increase by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Enhance Lightning",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Paralyze"
   },
   {
-    "name": "Randolph",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/53/RandolphAnimated.gif",
-    "tier": "B",
-    "class": "Warrior",
-    "type": "Stun",
+    "name": "Randolph",
     "skills": [
       {
-        "name": "Pulse of Purification",
+        "cooldown": 9,
         "description": "Swing the axe in a selected area to deal damage of 200% of ATK",
-        "progression": ["200%", "400%", "600%", "800%", "1000%"],
-        "cooldown": 9
+        "name": "Pulse of Purification",
+        "progression": ["200%", "400%", "600%", "800%", "1000%"]
       },
       {
-        "name": "Super Strength",
+        "cooldown": "passive",
         "description": "Own CRIT DMG increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
+        "name": "Super Strength",
+        "progression": ["150", "300", "450", "600", "750"]
       },
       {
-        "name": "Soul Purification",
+        "cooldown": "passive",
         "description": "Pulse of Purification has a 30% chance to Stun the Enemy for 3 secs ",
-        "progression": ["30%", "40%", "50%", "60%", "70%"],
-        "cooldown": "passive"
+        "name": "Soul Purification",
+        "progression": ["30%", "40%", "50%", "60%", "70%"]
       },
       {
-        "name": "Way of Atonement",
+        "cooldown": "passive",
         "description": "Own CRIT Resist increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
+        "name": "Way of Atonement",
+        "progression": ["150", "300", "450", "600", "750"]
       },
       {
-        "name": "Enhance Pulse",
+        "cooldown": "passive",
         "description": "Stun Duration of Pulse of Purification increases by 1 sec",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
-      }
-    ]
-  },
-  {
-    "name": "Jackson",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/JacksonAnimated.gif",
-    "tier": "B",
-    "class": "Warrior",
-    "type": "Knock",
-    "skills": [
-      {
-        "name": "Penitential Blow",
-        "description": "Strike Scimitar down in a selected area to deal damage of 200% of ATK.",
-        "progression": ["200%", "400%", "600%", "800%", "1000%"],
-        "cooldown": 9
-      },
-      {
-        "name": "Ascetic",
-        "description": "Own CRIT DMG Reduce increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Huge Shock",
-        "description": "Penitential Blow has 60% chance to knock the Enemy into the air for 1 sec.",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Punishment",
-        "description": "Own ACCURACY increases by 150.",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Enhance Scimitar",
-        "description": "Airborne duration of Penitential Blow increases by 0.6 sec.",
-        "progression": ["0.6s", "1.2s", "1.8s", "2.4s", "3s"],
-        "cooldown": "passive"
-      }
-    ]
-  },
-  {
-    "name": "Evan",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ee/EvanAnimated.gif",
-    "tier": "A",
-    "class": "Supporter",
-    "type": "Freeze",
-    "skills": [
-      {
-        "name": "Frost Arrow",
-        "description": "Fires an arrow to a selected area to deal damage of 250% of ATK.",
-        "progression": ["250%", "400%", "600%", "800%", "1000%"],
-        "cooldown": 8
-      },
-      {
-        "name": "Enhance Bowstring",
-        "description": "Own CRIT DMG increases by 200",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Frost",
-        "description": "Frost Arrow has 50% chance to freeze the enemy. Speed of Frozen Enemy will decrease by 25% for 4 secs.",
-        "progression": ["50%", "60%", "70%", "80%", "90%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Extreme Cold",
-        "description": "Speed of enemy frozen by the Frost Arrow will decrease by an additional 15%",
-        "progression": ["15%", "30%", "45%", "60%", "74%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Enhance Frost",
-        "description": "Freeze duration of Frost Arrow will increase by 2 secs",
-        "progression": ["2s", "4s", "6s", "8s", "10s"],
-        "cooldown": "passive"
-      }
-    ]
-  },
-  {
-    "name": "Aisha",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ad/AishaAnimated.gif",
-    "tier": "A",
-    "class": "Supporter",
-    "type": "Boost",
-    "skills": [
-      {
-        "name": "Restorative Pulse",
-        "description": "All Warrior Heroes' HP will recover equal to 50% of own ATK every second for 6 secs.",
-        "progression": ["50%", "100%", "150%", "200%", "250%"],
-        "cooldown": 12
-      },
-      {
-        "name": "Sacred Power",
-        "description": "Own Attack Speed increases by 20%",
-        "progression": ["20%", "40%", "60%", "80%", "100%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "God's Protection",
-        "description": "During the duration of Restorative Pulse, increases DEF of Warrior Heroes by 40%.",
-        "progression": ["40%", "80%", "120%", "160%", "200%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Insight",
-        "description": "Own ACCURACY increases by 150",
-        "progression": ["150", "300", "450", "600", "750"],
-        "cooldown": "passive"
-      },
-      {
         "name": "Enhance Pulse",
-        "description": "Duration of Restorative Pulse increases by 2 secs",
-        "progression": ["2s", "4s", "6s", "8s", "10s"],
-        "cooldown": "passive"
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "B",
+    "type": "Stun"
   },
   {
-    "name": "Xavier",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/3f/XavierAnimated.gif",
-    "tier": "A",
-    "class": "Supporter",
-    "type": "Summon",
+    "class": "Warrior",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/JacksonAnimated.gif",
+    "name": "Jackson",
     "skills": [
       {
-        "name": "Summon Cavalries",
+        "cooldown": 9,
+        "description": "Strike Scimitar down in a selected area to deal damage of 200% of ATK.",
+        "name": "Penitential Blow",
+        "progression": ["200%", "400%", "600%", "800%", "1000%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own CRIT DMG Reduce increases by 150.",
+        "name": "Ascetic",
+        "progression": ["150", "300", "450", "600", "750"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Penitential Blow has 60% chance to knock the Enemy into the air for 1 sec.",
+        "name": "Huge Shock",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own ACCURACY increases by 150.",
+        "name": "Punishment",
+        "progression": ["150", "300", "450", "600", "750"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Airborne duration of Penitential Blow increases by 0.6 sec.",
+        "name": "Enhance Scimitar",
+        "progression": ["0.6s", "1.2s", "1.8s", "2.4s", "3s"]
+      }
+    ],
+    "tier": "B",
+    "type": "Knock"
+  },
+  {
+    "class": "Supporter",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ee/EvanAnimated.gif",
+    "name": "Evan",
+    "skills": [
+      {
+        "cooldown": 8,
+        "description": "Fires an arrow to a selected area to deal damage of 250% of ATK.",
+        "name": "Frost Arrow",
+        "progression": ["250%", "400%", "600%", "800%", "1000%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own CRIT DMG increases by 200",
+        "name": "Enhance Bowstring",
+        "progression": ["200", "400", "600", "800", "1000"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Frost Arrow has 50% chance to freeze the enemy. Speed of Frozen Enemy will decrease by 25% for 4 secs.",
+        "name": "Frost",
+        "progression": ["50%", "60%", "70%", "80%", "90%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Speed of enemy frozen by the Frost Arrow will decrease by an additional 15%",
+        "name": "Extreme Cold",
+        "progression": ["15%", "30%", "45%", "60%", "74%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Freeze duration of Frost Arrow will increase by 2 secs",
+        "name": "Enhance Frost",
+        "progression": ["2s", "4s", "6s", "8s", "10s"]
+      }
+    ],
+    "tier": "A",
+    "type": "Freeze"
+  },
+  {
+    "class": "Supporter",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/ad/AishaAnimated.gif",
+    "name": "Aisha",
+    "skills": [
+      {
+        "cooldown": 12,
+        "description": "All Warrior Heroes' HP will recover equal to 50% of own ATK every second for 6 secs.",
+        "name": "Restorative Pulse",
+        "progression": ["50%", "100%", "150%", "200%", "250%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own Attack Speed increases by 20%",
+        "name": "Sacred Power",
+        "progression": ["20%", "40%", "60%", "80%", "100%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "During the duration of Restorative Pulse, increases DEF of Warrior Heroes by 40%.",
+        "name": "God's Protection",
+        "progression": ["40%", "80%", "120%", "160%", "200%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own ACCURACY increases by 150",
+        "name": "Insight",
+        "progression": ["150", "300", "450", "600", "750"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Duration of Restorative Pulse increases by 2 secs",
+        "name": "Enhance Pulse",
+        "progression": ["2s", "4s", "6s", "8s", "10s"]
+      }
+    ],
+    "tier": "A",
+    "type": "Boost"
+  },
+  {
+    "class": "Supporter",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/3f/XavierAnimated.gif",
+    "name": "Xavier",
+    "skills": [
+      {
+        "cooldown": 20,
         "description": "Summon 8 Cavalries. Cavalries inherit the hero's own abilities and fights for up to 16 secs. Hero doesn't 'Normal Attack' .",
+        "name": "Summon Cavalries",
         "progression": [
           "8 units / 16s",
           "10 units / 17s",
           "12 units / 18s",
           "14 units / 19s",
           "16 units / 20s"
-        ],
-        "cooldown": 20
+        ]
       },
       {
-        "name": "Amplify Weapon Effect",
+        "cooldown": "passive",
         "description": "Cavalries' Stats will increase by an additional 60% of the Weapon's Stats",
-        "progression": ["60%", "80%", "100%", "120%", "140%"],
-        "cooldown": "passive"
+        "name": "Amplify Weapon Effect",
+        "progression": ["60%", "80%", "100%", "120%", "140%"]
       },
       {
-        "name": "Amplify Helmet Effect",
+        "cooldown": "passive",
         "description": "Cavalries' Stats will increase by an additional 60% of the Helmet's Stats",
-        "progression": ["60%", "80%", "100%", "120%", "140%"],
-        "cooldown": "passive"
+        "name": "Amplify Helmet Effect",
+        "progression": ["60%", "80%", "100%", "120%", "140%"]
       },
       {
-        "name": "Amplify Armor Effect",
+        "cooldown": "passive",
         "description": "Cavalries' Stats will increase by an additional 60% of the Armor's Stats.",
-        "progression": ["60%", "80%", "100%", "120%", "140%"],
-        "cooldown": "passive"
+        "name": "Amplify Armor Effect",
+        "progression": ["60%", "80%", "100%", "120%", "140%"]
       },
       {
-        "name": "Amplify Shoes Effect",
+        "cooldown": "passive",
         "description": "Cavalries' Stats will increase by an additional 60% of the Shoes' Stats",
-        "progression": ["60%", "80%", "100%", "120%", "140%"],
-        "cooldown": "passive"
+        "name": "Amplify Shoes Effect",
+        "progression": ["60%", "80%", "100%", "120%", "140%"]
       }
-    ]
+    ],
+    "tier": "A",
+    "type": "Summon"
   },
   {
-    "name": "Marcus",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/1/11/MarcusAnimated.gif",
-    "tier": "A",
-    "class": "Supporter",
-    "type": "Knock",
+    "name": "Marcus",
     "skills": [
       {
-        "name": "Sacred Spear",
+        "cooldown": 6,
         "description": "Slam the sacred spear vertically in a area to deal damage of 250% of ATK.",
-        "progression": ["250%", "500%", "750%", "1000%", "1250%"],
-        "cooldown": 6
+        "name": "Sacred Spear",
+        "progression": ["250%", "500%", "750%", "1000%", "1250%"]
       },
       {
-        "name": "Choosen One",
+        "cooldown": "passive",
         "description": "Own CRIT DMG increases by 200",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
+        "name": "Choosen One",
+        "progression": ["200", "400", "600", "800", "1000"]
       },
       {
-        "name": "Divine Shock",
+        "cooldown": "passive",
         "description": "Sacred Spear has 60% chance to knock the Enemy into the air for 1 sec ",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
+        "name": "Divine Shock",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
       },
       {
-        "name": "Blessing",
+        "cooldown": "passive",
         "description": "Own ACCURACY increases by 200.",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
+        "name": "Blessing",
+        "progression": ["200", "400", "600", "800", "1000"]
       },
       {
-        "name": "Blow Boost",
+        "cooldown": "passive",
         "description": "Airbone duration of Sacred Spear increases by 0.5 sec",
-        "progression": ["0.5s", "1s", "1.5s", "2s", "2.5s"],
-        "cooldown": "passive"
+        "name": "Blow Boost",
+        "progression": ["0.5s", "1s", "1.5s", "2s", "2.5s"]
       }
-    ]
+    ],
+    "tier": "A",
+    "type": "Knock"
   },
   {
-    "name": "Ryan",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/b/b8/RyanAnimated.gif",
-    "tier": "A",
-    "class": "Warrior",
-    "type": "Freeze",
+    "name": "Ryan",
     "skills": [
       {
-        "name": "Frost Pulse",
+        "cooldown": 8,
         "description": "Fire a Pulse in a area to deal damage of 250% of ATK",
-        "progression": ["250%", "500%", "750%", "1000%", "1250%"],
-        "cooldown": 8
+        "name": "Frost Pulse",
+        "progression": ["250%", "500%", "750%", "1000%", "1250%"]
       },
       {
+        "cooldown": "passive",
+        "description": "Own DODGE increases by 200",
         "name": "Deception",
-        "description": "Own DODGE increases by 200",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
+        "progression": ["200", "400", "600", "800", "1000"]
       },
       {
-        "name": "Freeze",
+        "cooldown": "passive",
         "description": "Frost Pulse has a 60% chance to freeze the enemy. Speed of Frozen Enemy will decrease by 25% for 3 secs.",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
+        "name": "Freeze",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
       },
       {
-        "name": "Extreme Cold",
+        "cooldown": "passive",
         "description": "Speed of enemies frozen by Frost Pulse will decrease by an additional 12%",
-        "progression": ["12%", "24%", "36%", "48%", "60%"],
-        "cooldown": "passive"
+        "name": "Extreme Cold",
+        "progression": ["12%", "24%", "36%", "48%", "60%"]
       },
       {
-        "name": "Enhance Pulse",
+        "cooldown": "passive",
         "description": "Freeze duration from Frost Pulse will increase by 1 sec.",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
-      }
-    ]
-  },
-  {
-    "name": "Blake",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/63/BlakeAnimated.gif",
-    "tier": "A",
-    "class": "Warrior",
-    "type": "Knock",
-    "skills": [
-      {
-        "name": "Knight's Coercion",
-        "description": "Strike down in a area to deal damage of 250% of ATK.",
-        "progression": ["250%", "500%", "750%", "1000%", "1250%"],
-        "cooldown": 8
-      },
-      {
-        "name": "Forbidden Magic",
-        "description": "Own CRIT increases by 200",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Abyssal Pulse",
-        "description": "Knight's Coercion has 60% chance to knock the Enemy into the air for 1 sec.",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
-      },
-      {
-        "name": "Agility",
-        "description": "Own Attack Speed increases by 20%",
-        "progression": ["60%", "70%", "80%", "90%", "100%"],
-        "cooldown": "passive"
-      },
-      {
         "name": "Enhance Pulse",
-        "description": "Airborne duration of Knight's Coercion increases by 0.5 sec",
-        "progression": ["0.5s", "1s", "1.5s", "2s", "2.5s"],
-        "cooldown": "passive"
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
-  },
-  {
-    "name": "Raven",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/7/7d/RavenAnimated.gif",
+    ],
     "tier": "A",
+    "type": "Freeze"
+  },
+  {
     "class": "Warrior",
-    "type": "Poison",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/63/BlakeAnimated.gif",
+    "name": "Blake",
     "skills": [
       {
-        "name": "Mana Explosion",
+        "cooldown": 8,
+        "description": "Strike down in a area to deal damage of 250% of ATK.",
+        "name": "Knight's Coercion",
+        "progression": ["250%", "500%", "750%", "1000%", "1250%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own CRIT increases by 200",
+        "name": "Forbidden Magic",
+        "progression": ["200", "400", "600", "800", "1000"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Knight's Coercion has 60% chance to knock the Enemy into the air for 1 sec.",
+        "name": "Abyssal Pulse",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Own Attack Speed increases by 20%",
+        "name": "Agility",
+        "progression": ["60%", "70%", "80%", "90%", "100%"]
+      },
+      {
+        "cooldown": "passive",
+        "description": "Airborne duration of Knight's Coercion increases by 0.5 sec",
+        "name": "Enhance Pulse",
+        "progression": ["0.5s", "1s", "1.5s", "2s", "2.5s"]
+      }
+    ],
+    "tier": "A",
+    "type": "Knock"
+  },
+  {
+    "class": "Warrior",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/7/7d/RavenAnimated.gif",
+    "name": "Raven",
+    "skills": [
+      {
+        "cooldown": 8,
         "description": "Explodes mana to deal damage of 250% of ATK in a area.",
-        "progression": ["250%", "500%", "750%", "1000%", "1250%"],
-        "cooldown": 8
+        "name": "Mana Explosion",
+        "progression": ["250%", "500%", "750%", "1000%", "1250%"]
       },
       {
-        "name": "Magic Shield",
+        "cooldown": "passive",
         "description": "Own DODGE increases by 200",
-        "progression": ["200", "400", "600", "800", "1000"],
-        "cooldown": "passive"
+        "name": "Magic Shield",
+        "progression": ["200", "400", "600", "800", "1000"]
       },
       {
-        "name": "Corrosion",
+        "cooldown": "passive",
         "description": "Mana Explosion has a 40% chance to poison the enemy. DEF of poisoned enemies will reduce by 15% for 2 secs ",
-        "progression": ["40%", "50%", "60%", "70%", "80%"],
-        "cooldown": "passive"
+        "name": "Corrosion",
+        "progression": ["40%", "50%", "60%", "70%", "80%"]
       },
       {
-        "name": "Violet Wand",
+        "cooldown": "passive",
         "description": "DEF of Enemy poisoned by Mana Explosion will decrease by an additional 15%",
-        "progression": ["15%", "30%", "45%", "60%", "75%"],
-        "cooldown": "passive"
+        "name": "Violet Wand",
+        "progression": ["15%", "30%", "45%", "60%", "75%"]
       },
       {
-        "name": "Nightmare",
+        "cooldown": "passive",
         "description": "Poison duration from the Mana Explosion will increase by 1 sec",
-        "progression": ["1s", "2s", "3s", "4s", "5s"],
-        "cooldown": "passive"
+        "name": "Nightmare",
+        "progression": ["1s", "2s", "3s", "4s", "5s"]
       }
-    ]
+    ],
+    "tier": "A",
+    "type": "Poison"
   },
   {
-    "name": "Gabriel",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/9/94/GabrielAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Boost",
+    "name": "Gabriel",
     "skills": [
       {
-        "name": "Phoenix's Protection",
+        "cooldown": "passive",
         "description": "Archer's ATK increases by 80% for 6 secs ",
-        "progression": ["80%", "160%", "240%", "320%", "400%"],
-        "cooldown": "passive"
+        "name": "Phoenix's Protection",
+        "progression": ["80%", "160%", "240%", "320%", "400%"]
       },
       {
-        "name": "Focus Mind",
+        "cooldown": "passive",
         "description": "Own ACCURACY increases by 250",
-        "progression": ["250", "500", "750", "1000", "1250"],
-        "cooldown": "passive"
+        "name": "Focus Mind",
+        "progression": ["250", "500", "750", "1000", "1250"]
       },
       {
-        "name": "Light Energy",
+        "cooldown": "passive",
         "description": "During the duration of Phoenix's Protection, Archer's CRIT increases by 100%.",
-        "progression": ["100%", "150%", "200%", "250%", "300%"],
-        "cooldown": "passive"
+        "name": "Light Energy",
+        "progression": ["100%", "150%", "200%", "250%", "300%"]
       },
       {
-        "name": "Desire",
+        "cooldown": "passive",
         "description": "Own CRIT increases by 250",
-        "progression": ["250", "500", "750", "1000", "1250"],
-        "cooldown": "passive"
+        "name": "Desire",
+        "progression": ["250", "500", "750", "1000", "1250"]
       },
       {
-        "name": "Devotion",
+        "cooldown": "passive",
         "description": "Duration of Phoenix's Protection increases by 2 secs",
-        "progression": ["2s", "4s", "6s", "8s", "10s"],
-        "cooldown": "passive"
+        "name": "Devotion",
+        "progression": ["2s", "4s", "6s", "8s", "10s"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Boost"
   },
   {
-    "name": "Christian",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/2/29/ChristianAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Burn",
+    "name": "Christian",
     "skills": [
       {
-        "name": "Barrage",
+        "cooldown": "passive",
         "description": "Fires 5 bombs in a selected area to deal 80% of ATK as damage.",
-        "progression": ["80%", "160%", "240%", "320%", "400%"],
-        "cooldown": "passive"
+        "name": "Barrage",
+        "progression": ["80%", "160%", "240%", "320%", "400%"]
       },
       {
-        "name": "Enhance Bullet",
+        "cooldown": "passive",
         "description": "Own CRIT increases by 250. Basic Attacks deals Area of effect damage",
-        "progression": ["250", "500", "750", "1000", "1250"],
-        "cooldown": "passive"
+        "name": "Enhance Bullet",
+        "progression": ["250", "500", "750", "1000", "1250"]
       },
       {
-        "name": "Incendiary Round",
+        "cooldown": "passive",
         "description": "Barrage has a 10% chance to Burn the enemies. ATK of Burned Enemies will decrease by 15% for 8 secs ",
-        "progression": ["10%", "20%", "30%", "40%", "50%"],
-        "cooldown": "passive"
+        "name": "Incendiary Round",
+        "progression": ["10%", "20%", "30%", "40%", "50%"]
       },
       {
-        "name": "Black Gunpowder",
+        "cooldown": "passive",
         "description": "ATK of enemies burned by Barrage will decrease by 15%",
-        "progression": ["15%", "30%", "45%", "60%", "75%"],
-        "cooldown": "passive"
+        "name": "Black Gunpowder",
+        "progression": ["15%", "30%", "45%", "60%", "75%"]
       },
       {
-        "name": "No Mercy",
+        "cooldown": "passive",
         "description": "Burn duration from Barrage will increase by 2 secs",
-        "progression": ["2s", "4s", "6s", "8s", "10s"],
-        "cooldown": "passive"
+        "name": "No Mercy",
+        "progression": ["2s", "4s", "6s", "8s", "10s"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Burn"
   },
   {
-    "name": "Adrian",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/e/ec/AdrianAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Summon",
+    "name": "Adrian",
     "skills": [
       {
-        "name": "Summon Golemns",
+        "cooldown": "passive",
         "description": "Summon 10 Golems. Golemns inherit the hero's own abilities and fights for up to 16 secs. Hero doesn't Normal Attack.",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "Summon Golemns",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Summon"
   },
   {
-    "name": "Lucas",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/32/LucasAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Knock",
+    "name": "Lucas",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Knock"
   },
   {
-    "name": "Sophia",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/5a/SophiaAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Boost",
+    "name": "Sophia",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Boost"
   },
   {
-    "name": "Camilla",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/4/4a/CamillaAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Burn",
+    "name": "Camilla",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Burn"
   },
   {
-    "name": "Harold",
+    "class": "Supporter",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/6/62/HaroldAnimated.gif",
-    "tier": "S",
-    "class": "Supporter",
-    "type": "Paralyze",
+    "name": "Harold",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Paralyze"
   },
   {
-    "name": "Daniel",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/3/38/DanielAnimated.gif",
-    "tier": "S",
-    "class": "Warrior",
-    "type": "Boost",
+    "name": "Daniel",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Boost"
   },
   {
-    "name": "Julian",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/ce/JulianAnimated.gif",
-    "tier": "S",
-    "class": "Warrior",
-    "type": "Stun",
+    "name": "Julian",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Stun"
   },
   {
-    "name": "Anthony",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/a/a2/AnthonyAnimated.gif",
-    "tier": "S",
-    "class": "Warrior",
-    "type": "Paralyze",
+    "name": "Anthony",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Paralyze"
   },
   {
-    "name": "Vincent",
+    "class": "Warrior",
     "image": "https://static.wikia.nocookie.net/idle-kingdom/images/5/5d/VincentAnimated.gif",
-    "tier": "S",
-    "class": "Warrior",
-    "type": "Poison",
+    "name": "Vincent",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Poison"
   },
   {
-    "name": "Rodrick",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/cb/RodrickAnimated.gif",
-    "tier": "S",
     "class": "Warrior",
-    "type": "Burn",
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/c/cb/RodrickAnimated.gif",
+    "name": "Rodrick",
     "skills": [
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       },
       {
-        "name": "skill_name",
+        "cooldown": "passive",
         "description": "skill_description",
-        "progression": ["prog", "prog", "prog", "prog", "prog"],
-        "cooldown": "passive"
+        "name": "skill_name",
+        "progression": ["prog", "prog", "prog", "prog", "prog"]
       }
-    ]
+    ],
+    "tier": "S",
+    "type": "Burn"
   }
 ]

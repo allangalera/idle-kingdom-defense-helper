@@ -1,2882 +1,5762 @@
 [
   {
-    "cri": 40,
-    "point": 40,
-    "criResist": 40,
-    "hp": 12150,
     "appearanceWave": 3,
     "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 1,
     "atk": 289,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 40,
+    "criDamage": 40,
+    "criDamageResist": 40,
+    "criResist": 40,
     "def": 74,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 5, "gr": 1 },
-        { "st": 1, "t": 22, "c": 1, "gr": 2 },
-        { "st": 1, "t": 23, "c": 2, "gr": 1 },
-        { "st": 1, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
+    "defPierce": 15,
+    "defPierceResist": 5,
+    "difficultyStage": 200,
+    "dodge": 40,
+    "hit": 40,
+    "hp": 12150,
     "id": 1,
-    "bossId": 1,
-    "defPierce": 15,
-    "difficultyStage": 200,
-    "hit": 40,
-    "defPierceResist": 5,
-    "dodge": 40,
-    "criDamageResist": 40,
-    "criDamage": 40
-  },
-  {
-    "cri": 80,
-    "point": 60,
-    "criResist": 80,
-    "hp": 32508,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 2,
-    "atk": 650,
-    "def": 163,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 5, "gr": 1 },
-        { "st": 1, "t": 22, "c": 1, "gr": 2 },
-        { "st": 1, "t": 23, "c": 2, "gr": 1 },
-        { "st": 1, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 2,
-    "bossId": 1,
-    "defPierce": 25,
-    "difficultyStage": 450,
-    "hit": 80,
-    "defPierceResist": 8.33,
-    "dodge": 80,
-    "criDamageResist": 80,
-    "criDamage": 80
-  },
-  {
-    "cri": 140,
-    "point": 80,
-    "criResist": 140,
-    "hp": 99585,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 3,
-    "atk": 1683,
-    "def": 419,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 6, "gr": 1 },
-        { "st": 1, "t": 22, "c": 2, "gr": 2 },
-        { "st": 1, "t": 23, "c": 3, "gr": 1 },
-        { "st": 1, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 3,
-    "bossId": 1,
-    "defPierce": 35,
-    "difficultyStage": 757,
-    "hit": 140,
-    "defPierceResist": 11.67,
-    "dodge": 140,
-    "criDamageResist": 140,
-    "criDamage": 140
-  },
-  {
-    "cri": 180,
-    "point": 100,
-    "criResist": 180,
-    "hp": 160425,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 4,
-    "atk": 2286,
-    "def": 567,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 6, "gr": 1 },
-        { "st": 1, "t": 22, "c": 2, "gr": 2 },
-        { "st": 1, "t": 23, "c": 3, "gr": 1 },
-        { "st": 1, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 4,
-    "bossId": 1,
-    "defPierce": 45,
-    "difficultyStage": 1009,
-    "hit": 180,
-    "defPierceResist": 15,
-    "dodge": 180,
-    "criDamageResist": 180,
-    "criDamage": 180
-  },
-  {
-    "cri": 220,
-    "point": 120,
-    "criResist": 220,
-    "hp": 242010,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 5,
-    "atk": 2889,
-    "def": 713,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 7, "gr": 1 },
-        { "st": 1, "t": 22, "c": 3, "gr": 2 },
-        { "st": 1, "t": 23, "c": 4, "gr": 1 },
-        { "st": 1, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 5,
-    "bossId": 1,
-    "defPierce": 55,
-    "difficultyStage": 1261,
-    "hit": 220,
-    "defPierceResist": 18.33,
-    "dodge": 220,
-    "criDamageResist": 220,
-    "criDamage": 220
-  },
-  {
-    "cri": 260,
-    "point": 140,
-    "criResist": 260,
-    "hp": 351315,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 6,
-    "atk": 3488,
-    "def": 862,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 7, "gr": 1 },
-        { "st": 1, "t": 22, "c": 3, "gr": 2 },
-        { "st": 1, "t": 23, "c": 4, "gr": 1 },
-        { "st": 1, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 6,
-    "bossId": 1,
-    "defPierce": 65,
-    "difficultyStage": 1513,
-    "hit": 260,
-    "defPierceResist": 21.67,
-    "dodge": 260,
-    "criDamageResist": 260,
-    "criDamage": 260
-  },
-  {
-    "cri": 300,
-    "point": 160,
-    "criResist": 300,
-    "hp": 497790,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 7,
-    "atk": 4091,
-    "def": 1008,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 8, "gr": 1 },
-        { "st": 1, "t": 22, "c": 4, "gr": 2 },
-        { "st": 1, "t": 23, "c": 5, "gr": 1 },
-        { "st": 1, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 7,
-    "bossId": 1,
-    "defPierce": 75,
-    "difficultyStage": 1765,
-    "hit": 300,
-    "defPierceResist": 25,
-    "dodge": 300,
-    "criDamageResist": 300,
-    "criDamage": 300
-  },
-  {
-    "cri": 340,
-    "point": 180,
-    "criResist": 340,
-    "hp": 694035,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 8,
-    "atk": 4689,
-    "def": 1157,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 8, "gr": 1 },
-        { "st": 1, "t": 22, "c": 4, "gr": 2 },
-        { "st": 1, "t": 23, "c": 5, "gr": 1 },
-        { "st": 1, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 8,
-    "bossId": 1,
-    "defPierce": 85,
-    "difficultyStage": 2017,
-    "hit": 340,
-    "defPierceResist": 28.33,
-    "dodge": 340,
-    "criDamageResist": 340,
-    "criDamage": 340
-  },
-  {
-    "cri": 380,
-    "point": 200,
-    "criResist": 380,
-    "hp": 957105,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 9,
-    "atk": 5292,
-    "def": 1303,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 9, "gr": 1 },
-        { "st": 1, "t": 22, "c": 5, "gr": 2 },
-        { "st": 1, "t": 23, "c": 6, "gr": 1 },
-        { "st": 1, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 9,
-    "bossId": 1,
-    "defPierce": 95,
-    "difficultyStage": 2269,
-    "hit": 380,
-    "defPierceResist": 31.67,
-    "dodge": 380,
-    "criDamageResist": 380,
-    "criDamage": 380
-  },
-  {
-    "cri": 420,
-    "point": 220,
-    "criResist": 420,
-    "hp": 1309590,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 10,
-    "atk": 5891,
-    "def": 1451,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 9, "gr": 1 },
-        { "st": 1, "t": 22, "c": 5, "gr": 2 },
-        { "st": 1, "t": 23, "c": 6, "gr": 1 },
-        { "st": 1, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 10,
-    "bossId": 1,
-    "defPierce": 105,
-    "difficultyStage": 2521,
-    "hit": 420,
-    "defPierceResist": 35,
-    "dodge": 420,
-    "criDamageResist": 420,
-    "criDamage": 420
-  },
-  {
-    "cri": 460,
-    "point": 240,
-    "criResist": 460,
-    "hp": 1782000,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 11,
-    "atk": 6494,
-    "def": 1598,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 10, "gr": 1 },
-        { "st": 1, "t": 22, "c": 6, "gr": 2 },
-        { "st": 1, "t": 23, "c": 7, "gr": 1 },
-        { "st": 1, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 11,
-    "bossId": 1,
-    "defPierce": 115,
-    "difficultyStage": 2773,
-    "hit": 460,
-    "defPierceResist": 38.33,
-    "dodge": 460,
-    "criDamageResist": 460,
-    "criDamage": 460
-  },
-  {
-    "cri": 500,
-    "point": 260,
-    "criResist": 500,
-    "hp": 2415015,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 12,
-    "atk": 7092,
-    "def": 1746,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 10, "gr": 1 },
-        { "st": 1, "t": 22, "c": 6, "gr": 2 },
-        { "st": 1, "t": 23, "c": 7, "gr": 1 },
-        { "st": 1, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 12,
-    "bossId": 1,
-    "defPierce": 125,
-    "difficultyStage": 3025,
-    "hit": 500,
-    "defPierceResist": 41.67,
-    "dodge": 500,
-    "criDamageResist": 500,
-    "criDamage": 500
-  },
-  {
-    "cri": 540,
-    "point": 280,
-    "criResist": 540,
-    "hp": 3263355,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 13,
-    "atk": 7695,
-    "def": 1892,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 11, "gr": 1 },
-        { "st": 1, "t": 22, "c": 7, "gr": 2 },
-        { "st": 1, "t": 23, "c": 8, "gr": 1 },
-        { "st": 1, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 13,
-    "bossId": 1,
-    "defPierce": 135,
-    "difficultyStage": 3277,
-    "hit": 540,
-    "defPierceResist": 45,
-    "dodge": 540,
-    "criDamageResist": 540,
-    "criDamage": 540
-  },
-  {
-    "cri": 580,
-    "point": 300,
-    "criResist": 580,
-    "hp": 4400190,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 14,
-    "atk": 8298,
-    "def": 2041,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 11, "gr": 1 },
-        { "st": 1, "t": 22, "c": 7, "gr": 2 },
-        { "st": 1, "t": 23, "c": 8, "gr": 1 },
-        { "st": 1, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 14,
-    "bossId": 1,
-    "defPierce": 145,
-    "difficultyStage": 3529,
-    "hit": 580,
-    "defPierceResist": 48.33,
-    "dodge": 580,
-    "criDamageResist": 580,
-    "criDamage": 580
-  },
-  {
-    "cri": 620,
-    "point": 320,
-    "criResist": 620,
-    "hp": 5923710,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 15,
-    "atk": 8897,
-    "def": 2187,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 12, "gr": 1 },
-        { "st": 1, "t": 22, "c": 8, "gr": 2 },
-        { "st": 1, "t": 23, "c": 9, "gr": 1 },
-        { "st": 1, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 15,
-    "bossId": 1,
-    "defPierce": 155,
-    "difficultyStage": 3781,
-    "hit": 620,
-    "defPierceResist": 51.67,
-    "dodge": 620,
-    "criDamageResist": 620,
-    "criDamage": 620
-  },
-  {
-    "cri": 660,
-    "point": 340,
-    "criResist": 660,
-    "hp": 7965315,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 16,
-    "atk": 9500,
-    "def": 2336,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 12, "gr": 1 },
-        { "st": 1, "t": 22, "c": 8, "gr": 2 },
-        { "st": 1, "t": 23, "c": 9, "gr": 1 },
-        { "st": 1, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 16,
-    "bossId": 1,
-    "defPierce": 165,
-    "difficultyStage": 4033,
-    "hit": 660,
-    "defPierceResist": 55,
-    "dodge": 660,
-    "criDamageResist": 660,
-    "criDamage": 660
-  },
-  {
-    "cri": 700,
-    "point": 360,
-    "criResist": 700,
-    "hp": 10701270,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 17,
-    "atk": 10098,
-    "def": 2482,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 13, "gr": 1 },
-        { "st": 1, "t": 22, "c": 9, "gr": 2 },
-        { "st": 1, "t": 23, "c": 10, "gr": 1 },
-        { "st": 1, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 17,
-    "bossId": 1,
-    "defPierce": 175,
-    "difficultyStage": 4285,
-    "hit": 700,
-    "defPierceResist": 58.33,
-    "dodge": 700,
-    "criDamageResist": 700,
-    "criDamage": 700
-  },
-  {
-    "cri": 740,
-    "point": 380,
-    "criResist": 740,
-    "hp": 14367735,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 18,
-    "atk": 10701,
-    "def": 2630,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 13, "gr": 1 },
-        { "st": 1, "t": 22, "c": 9, "gr": 2 },
-        { "st": 1, "t": 23, "c": 10, "gr": 1 },
-        { "st": 1, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 18,
-    "bossId": 1,
-    "defPierce": 185,
-    "difficultyStage": 4537,
-    "hit": 740,
-    "defPierceResist": 61.67,
-    "dodge": 740,
-    "criDamageResist": 740,
-    "criDamage": 740
-  },
-  {
-    "cri": 780,
-    "point": 400,
-    "criResist": 780,
-    "hp": 19281150,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 19,
-    "atk": 11300,
-    "def": 2777,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 14, "gr": 1 },
-        { "st": 1, "t": 22, "c": 10, "gr": 2 },
-        { "st": 1, "t": 23, "c": 11, "gr": 1 },
-        { "st": 1, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 19,
-    "bossId": 1,
-    "defPierce": 195,
-    "difficultyStage": 4789,
-    "hit": 780,
-    "defPierceResist": 65,
-    "dodge": 780,
-    "criDamageResist": 780,
-    "criDamage": 780
-  },
-  {
-    "cri": 820,
-    "point": 420,
-    "criResist": 820,
-    "hp": 25865550,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 20,
-    "atk": 11903,
-    "def": 2925,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 14, "gr": 1 },
-        { "st": 1, "t": 22, "c": 10, "gr": 2 },
-        { "st": 1, "t": 23, "c": 11, "gr": 1 },
-        { "st": 1, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 20,
-    "bossId": 1,
-    "defPierce": 205,
-    "difficultyStage": 5041,
-    "hit": 820,
-    "defPierceResist": 68.33,
-    "dodge": 820,
-    "criDamageResist": 820,
-    "criDamage": 820
-  },
-  {
-    "cri": 860,
-    "point": 440,
-    "criResist": 860,
-    "hp": 34689330,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 21,
-    "atk": 12506,
-    "def": 3071,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 15, "gr": 1 },
-        { "st": 1, "t": 22, "c": 11, "gr": 2 },
-        { "st": 1, "t": 23, "c": 12, "gr": 1 },
-        { "st": 1, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 21,
-    "bossId": 1,
-    "defPierce": 215,
-    "difficultyStage": 5293,
-    "hit": 860,
-    "defPierceResist": 71.67,
-    "dodge": 860,
-    "criDamageResist": 860,
-    "criDamage": 860
-  },
-  {
-    "cri": 900,
-    "point": 460,
-    "criResist": 900,
-    "hp": 46514025,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 22,
-    "atk": 13104,
-    "def": 3220,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 15, "gr": 1 },
-        { "st": 1, "t": 22, "c": 11, "gr": 2 },
-        { "st": 1, "t": 23, "c": 12, "gr": 1 },
-        { "st": 1, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 22,
-    "bossId": 1,
-    "defPierce": 225,
-    "difficultyStage": 5545,
-    "hit": 900,
-    "defPierceResist": 75,
-    "dodge": 900,
-    "criDamageResist": 900,
-    "criDamage": 900
-  },
-  {
-    "cri": 940,
-    "point": 480,
-    "criResist": 940,
-    "hp": 62360235,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 23,
-    "atk": 13707,
-    "def": 3366,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 16, "gr": 1 },
-        { "st": 1, "t": 22, "c": 12, "gr": 2 },
-        { "st": 1, "t": 23, "c": 13, "gr": 1 },
-        { "st": 1, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 23,
-    "bossId": 1,
-    "defPierce": 235,
-    "difficultyStage": 5797,
-    "hit": 940,
-    "defPierceResist": 78.33,
-    "dodge": 940,
-    "criDamageResist": 940,
-    "criDamage": 940
-  },
-  {
-    "cri": 980,
-    "point": 500,
-    "criResist": 980,
-    "hp": 83595645,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 24,
-    "atk": 14306,
-    "def": 3515,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 16, "gr": 1 },
-        { "st": 1, "t": 22, "c": 12, "gr": 2 },
-        { "st": 1, "t": 23, "c": 13, "gr": 1 },
-        { "st": 1, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 24,
-    "bossId": 1,
-    "defPierce": 245,
-    "difficultyStage": 6049,
-    "hit": 980,
-    "defPierceResist": 81.67,
-    "dodge": 980,
-    "criDamageResist": 980,
-    "criDamage": 980
-  },
-  {
-    "cri": 1020,
-    "point": 520,
-    "criResist": 1020,
-    "hp": 112053195,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 25,
-    "atk": 14909,
-    "def": 3663,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 17, "gr": 1 },
-        { "st": 1, "t": 22, "c": 13, "gr": 2 },
-        { "st": 1, "t": 23, "c": 14, "gr": 1 },
-        { "st": 1, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 25,
-    "bossId": 1,
-    "defPierce": 255,
-    "difficultyStage": 6301,
-    "hit": 1020,
-    "defPierceResist": 85,
-    "dodge": 1020,
-    "criDamageResist": 1020,
-    "criDamage": 1020
-  },
-  {
-    "cri": 1060,
-    "point": 540,
-    "criResist": 1060,
-    "hp": 150188985,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 26,
-    "atk": 15507,
-    "def": 3809,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 17, "gr": 1 },
-        { "st": 1, "t": 22, "c": 13, "gr": 2 },
-        { "st": 1, "t": 23, "c": 14, "gr": 1 },
-        { "st": 1, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 26,
-    "bossId": 1,
-    "defPierce": 265,
-    "difficultyStage": 6553,
-    "hit": 1060,
-    "defPierceResist": 88.33,
-    "dodge": 1060,
-    "criDamageResist": 1060,
-    "criDamage": 1060
-  },
-  {
-    "cri": 1100,
-    "point": 560,
-    "criResist": 1100,
-    "hp": 201294585,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 27,
-    "atk": 16110,
-    "def": 3958,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 18, "gr": 1 },
-        { "st": 1, "t": 22, "c": 14, "gr": 2 },
-        { "st": 1, "t": 23, "c": 15, "gr": 1 },
-        { "st": 1, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 27,
-    "bossId": 1,
-    "defPierce": 275,
-    "difficultyStage": 6805,
-    "hit": 1100,
-    "defPierceResist": 91.67,
-    "dodge": 1100,
-    "criDamageResist": 1100,
-    "criDamage": 1100
-  },
-  {
-    "cri": 1140,
-    "point": 580,
-    "criResist": 1140,
-    "hp": 269780985,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 28,
-    "atk": 16709,
-    "def": 4104,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 18, "gr": 1 },
-        { "st": 1, "t": 22, "c": 14, "gr": 2 },
-        { "st": 1, "t": 23, "c": 15, "gr": 1 },
-        { "st": 1, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 28,
-    "bossId": 1,
-    "defPierce": 285,
-    "difficultyStage": 7057,
-    "hit": 1140,
-    "defPierceResist": 95,
-    "dodge": 1140,
-    "criDamageResist": 1140,
-    "criDamage": 1140
-  },
-  {
-    "cri": 1180,
-    "point": 600,
-    "criResist": 1180,
-    "hp": 361559340,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 29,
-    "atk": 17312,
-    "def": 4253,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 19, "gr": 1 },
-        { "st": 1, "t": 22, "c": 15, "gr": 2 },
-        { "st": 1, "t": 23, "c": 16, "gr": 1 },
-        { "st": 1, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 29,
-    "bossId": 1,
-    "defPierce": 295,
-    "difficultyStage": 7309,
-    "hit": 1180,
-    "defPierceResist": 98.33,
-    "dodge": 1180,
-    "criDamageResist": 1180,
-    "criDamage": 1180
-  },
-  {
-    "cri": 1220,
-    "point": 620,
-    "criResist": 1220,
-    "hp": 484551090,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 30,
-    "atk": 17915,
-    "def": 4399,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 19, "gr": 1 },
-        { "st": 1, "t": 22, "c": 15, "gr": 2 },
-        { "st": 1, "t": 23, "c": 16, "gr": 1 },
-        { "st": 1, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 30,
-    "bossId": 1,
-    "defPierce": 305,
-    "difficultyStage": 7561,
-    "hit": 1220,
-    "defPierceResist": 101.67,
-    "dodge": 1220,
-    "criDamageResist": 1220,
-    "criDamage": 1220
-  },
-  {
-    "cri": 1260,
-    "point": 640,
-    "criResist": 1260,
-    "hp": 649371780,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 31,
-    "atk": 18513,
-    "def": 4547,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 20, "gr": 1 },
-        { "st": 1, "t": 22, "c": 16, "gr": 2 },
-        { "st": 1, "t": 23, "c": 17, "gr": 1 },
-        { "st": 1, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 31,
-    "bossId": 1,
-    "defPierce": 315,
-    "difficultyStage": 7813,
-    "hit": 1260,
-    "defPierceResist": 105,
-    "dodge": 1260,
-    "criDamageResist": 1260,
-    "criDamage": 1260
-  },
-  {
-    "cri": 1300,
-    "point": 660,
-    "criResist": 1300,
-    "hp": 870247305,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 32,
-    "atk": 19116,
-    "def": 4694,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 20, "gr": 1 },
-        { "st": 1, "t": 22, "c": 16, "gr": 2 },
-        { "st": 1, "t": 23, "c": 17, "gr": 1 },
-        { "st": 1, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 32,
-    "bossId": 1,
-    "defPierce": 325,
-    "difficultyStage": 8065,
-    "hit": 1300,
-    "defPierceResist": 108.33,
-    "dodge": 1300,
-    "criDamageResist": 1300,
-    "criDamage": 1300
-  },
-  {
-    "cri": 1340,
-    "point": 680,
-    "criResist": 1340,
-    "hp": 1166241645,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 33,
-    "atk": 19715,
-    "def": 4842,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 21, "gr": 1 },
-        { "st": 1, "t": 22, "c": 17, "gr": 2 },
-        { "st": 1, "t": 23, "c": 18, "gr": 1 },
-        { "st": 1, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 33,
-    "bossId": 1,
-    "defPierce": 335,
-    "difficultyStage": 8317,
-    "hit": 1340,
-    "defPierceResist": 111.67,
-    "dodge": 1340,
-    "criDamageResist": 1340,
-    "criDamage": 1340
-  },
-  {
-    "cri": 1380,
-    "point": 700,
-    "criResist": 1380,
-    "hp": 1562902335,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 34,
-    "atk": 20318,
-    "def": 4988,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 21, "gr": 1 },
-        { "st": 1, "t": 22, "c": 17, "gr": 2 },
-        { "st": 1, "t": 23, "c": 18, "gr": 1 },
-        { "st": 1, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 34,
-    "bossId": 1,
-    "defPierce": 345,
-    "difficultyStage": 8569,
-    "hit": 1380,
-    "defPierceResist": 115,
-    "dodge": 1380,
-    "criDamageResist": 1380,
-    "criDamage": 1380
-  },
-  {
-    "cri": 1420,
-    "point": 720,
-    "criResist": 1420,
-    "hp": 2094465600,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 35,
-    "atk": 20916,
-    "def": 5137,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 22, "gr": 1 },
-        { "st": 1, "t": 22, "c": 18, "gr": 2 },
-        { "st": 1, "t": 23, "c": 19, "gr": 1 },
-        { "st": 1, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 35,
-    "bossId": 1,
-    "defPierce": 355,
-    "difficultyStage": 8821,
-    "hit": 1420,
-    "defPierceResist": 118.33,
-    "dodge": 1420,
-    "criDamageResist": 1420,
-    "criDamage": 1420
-  },
-  {
-    "cri": 1460,
-    "point": 740,
-    "criResist": 1460,
-    "hp": 2806811190,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 36,
-    "atk": 21519,
-    "def": 5283,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 22, "gr": 1 },
-        { "st": 1, "t": 22, "c": 18, "gr": 2 },
-        { "st": 1, "t": 23, "c": 19, "gr": 1 },
-        { "st": 1, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 36,
-    "bossId": 1,
-    "defPierce": 365,
-    "difficultyStage": 9073,
-    "hit": 1460,
-    "defPierceResist": 121.67,
-    "dodge": 1460,
-    "criDamageResist": 1460,
-    "criDamage": 1460
-  },
-  {
-    "cri": 1500,
-    "point": 760,
-    "criResist": 1500,
-    "hp": 3761422470,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 37,
-    "atk": 22118,
-    "def": 5432,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 23, "gr": 1 },
-        { "st": 1, "t": 22, "c": 19, "gr": 2 },
-        { "st": 1, "t": 23, "c": 20, "gr": 1 },
-        { "st": 1, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 37,
-    "bossId": 1,
-    "defPierce": 375,
-    "difficultyStage": 9325,
-    "hit": 1500,
-    "defPierceResist": 125,
-    "dodge": 1500,
-    "criDamageResist": 1500,
-    "criDamage": 1500
-  },
-  {
-    "cri": 1540,
-    "point": 780,
-    "criResist": 1540,
-    "hp": 5040692820,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 38,
-    "atk": 22721,
-    "def": 5578,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 23, "gr": 1 },
-        { "st": 1, "t": 22, "c": 19, "gr": 2 },
-        { "st": 1, "t": 23, "c": 20, "gr": 1 },
-        { "st": 1, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 38,
-    "bossId": 1,
-    "defPierce": 385,
-    "difficultyStage": 9577,
-    "hit": 1540,
-    "defPierceResist": 128.33,
-    "dodge": 1540,
-    "criDamageResist": 1540,
-    "criDamage": 1540
-  },
-  {
-    "cri": 1580,
-    "point": 800,
-    "criResist": 1580,
-    "hp": 6755037480,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 39,
-    "atk": 23324,
-    "def": 5726,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 24, "gr": 1 },
-        { "st": 1, "t": 22, "c": 20, "gr": 2 },
-        { "st": 1, "t": 23, "c": 21, "gr": 1 },
-        { "st": 1, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 39,
-    "bossId": 1,
-    "defPierce": 395,
-    "difficultyStage": 9829,
-    "hit": 1580,
-    "defPierceResist": 131.67,
-    "dodge": 1580,
-    "criDamageResist": 1580,
-    "criDamage": 1580
-  },
-  {
-    "cri": 1620,
-    "point": 820,
-    "criResist": 1620,
-    "hp": 9052423290,
-    "appearanceWave": 3,
-    "assetId": 3,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 40,
-    "atk": 23922,
-    "def": 5873,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 1, "t": 22, "c": 24, "gr": 1 },
-        { "st": 1, "t": 22, "c": 20, "gr": 2 },
-        { "st": 1, "t": 23, "c": 21, "gr": 1 },
-        { "st": 1, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 40,
-    "bossId": 1,
-    "defPierce": 405,
-    "difficultyStage": 10081,
-    "hit": 1620,
-    "defPierceResist": 135,
-    "dodge": 1620,
-    "criDamageResist": 1620,
-    "criDamage": 1620
-  },
-  {
-    "cri": 40,
-    "point": 40,
-    "criResist": 40,
-    "hp": 12150,
-    "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
     "lv": 1,
-    "atk": 289,
-    "def": 74,
     "moveSpeed": 40,
+    "point": 40,
+    "poolId": 1,
     "rewardInfo": {
       "rates": [30, 5, 4, 1, 25, 20, 10, 5],
       "rewards": [
-        { "st": 2, "t": 22, "c": 5, "gr": 1 },
-        { "st": 2, "t": 22, "c": 1, "gr": 2 },
-        { "st": 2, "t": 23, "c": 2, "gr": 1 },
-        { "st": 2, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
       ]
-    },
-    "id": 41,
-    "bossId": 2,
-    "defPierce": 15,
-    "difficultyStage": 200,
-    "hit": 40,
-    "defPierceResist": 5,
-    "dodge": 40,
-    "criDamageResist": 40,
-    "criDamage": 40
+    }
   },
   {
-    "cri": 80,
-    "point": 60,
-    "criResist": 80,
-    "hp": 32508,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 2,
+    "assetId": 3,
     "atk": 650,
-    "def": 163,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 5, "gr": 1 },
-        { "st": 2, "t": 22, "c": 1, "gr": 2 },
-        { "st": 2, "t": 23, "c": 2, "gr": 1 },
-        { "st": 2, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 42,
-    "bossId": 2,
-    "defPierce": 25,
-    "difficultyStage": 450,
-    "hit": 80,
-    "defPierceResist": 8.33,
-    "dodge": 80,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 80,
+    "criDamage": 80,
     "criDamageResist": 80,
-    "criDamage": 80
+    "criResist": 80,
+    "def": 163,
+    "defPierce": 25,
+    "defPierceResist": 8.33,
+    "difficultyStage": 450,
+    "dodge": 80,
+    "hit": 80,
+    "hp": 32508,
+    "id": 2,
+    "lv": 2,
+    "moveSpeed": 40,
+    "point": 60,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 140,
-    "point": 80,
-    "criResist": 140,
-    "hp": 99585,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 3,
+    "assetId": 3,
     "atk": 1683,
-    "def": 419,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 6, "gr": 1 },
-        { "st": 2, "t": 22, "c": 2, "gr": 2 },
-        { "st": 2, "t": 23, "c": 3, "gr": 1 },
-        { "st": 2, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 43,
-    "bossId": 2,
-    "defPierce": 35,
-    "difficultyStage": 757,
-    "hit": 140,
-    "defPierceResist": 11.67,
-    "dodge": 140,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 140,
+    "criDamage": 140,
     "criDamageResist": 140,
-    "criDamage": 140
+    "criResist": 140,
+    "def": 419,
+    "defPierce": 35,
+    "defPierceResist": 11.67,
+    "difficultyStage": 757,
+    "dodge": 140,
+    "hit": 140,
+    "hp": 99585,
+    "id": 3,
+    "lv": 3,
+    "moveSpeed": 40,
+    "point": 80,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 180,
-    "point": 100,
-    "criResist": 180,
-    "hp": 160425,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 4,
+    "assetId": 3,
     "atk": 2286,
-    "def": 567,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 6, "gr": 1 },
-        { "st": 2, "t": 22, "c": 2, "gr": 2 },
-        { "st": 2, "t": 23, "c": 3, "gr": 1 },
-        { "st": 2, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 44,
-    "bossId": 2,
-    "defPierce": 45,
-    "difficultyStage": 1009,
-    "hit": 180,
-    "defPierceResist": 15,
-    "dodge": 180,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 180,
+    "criDamage": 180,
     "criDamageResist": 180,
-    "criDamage": 180
+    "criResist": 180,
+    "def": 567,
+    "defPierce": 45,
+    "defPierceResist": 15,
+    "difficultyStage": 1009,
+    "dodge": 180,
+    "hit": 180,
+    "hp": 160425,
+    "id": 4,
+    "lv": 4,
+    "moveSpeed": 40,
+    "point": 100,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 220,
-    "point": 120,
-    "criResist": 220,
-    "hp": 242010,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 5,
+    "assetId": 3,
     "atk": 2889,
-    "def": 713,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 7, "gr": 1 },
-        { "st": 2, "t": 22, "c": 3, "gr": 2 },
-        { "st": 2, "t": 23, "c": 4, "gr": 1 },
-        { "st": 2, "t": 23, "c": 1, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 45,
-    "bossId": 2,
-    "defPierce": 55,
-    "difficultyStage": 1261,
-    "hit": 220,
-    "defPierceResist": 18.33,
-    "dodge": 220,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 220,
+    "criDamage": 220,
     "criDamageResist": 220,
-    "criDamage": 220
+    "criResist": 220,
+    "def": 713,
+    "defPierce": 55,
+    "defPierceResist": 18.33,
+    "difficultyStage": 1261,
+    "dodge": 220,
+    "hit": 220,
+    "hp": 242010,
+    "id": 5,
+    "lv": 5,
+    "moveSpeed": 40,
+    "point": 120,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 260,
-    "point": 140,
-    "criResist": 260,
-    "hp": 351315,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 6,
+    "assetId": 3,
     "atk": 3488,
-    "def": 862,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 7, "gr": 1 },
-        { "st": 2, "t": 22, "c": 3, "gr": 2 },
-        { "st": 2, "t": 23, "c": 4, "gr": 1 },
-        { "st": 2, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 46,
-    "bossId": 2,
-    "defPierce": 65,
-    "difficultyStage": 1513,
-    "hit": 260,
-    "defPierceResist": 21.67,
-    "dodge": 260,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 260,
+    "criDamage": 260,
     "criDamageResist": 260,
-    "criDamage": 260
+    "criResist": 260,
+    "def": 862,
+    "defPierce": 65,
+    "defPierceResist": 21.67,
+    "difficultyStage": 1513,
+    "dodge": 260,
+    "hit": 260,
+    "hp": 351315,
+    "id": 6,
+    "lv": 6,
+    "moveSpeed": 40,
+    "point": 140,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 300,
-    "point": 160,
-    "criResist": 300,
-    "hp": 497790,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 7,
+    "assetId": 3,
     "atk": 4091,
-    "def": 1008,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 8, "gr": 1 },
-        { "st": 2, "t": 22, "c": 4, "gr": 2 },
-        { "st": 2, "t": 23, "c": 5, "gr": 1 },
-        { "st": 2, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 47,
-    "bossId": 2,
-    "defPierce": 75,
-    "difficultyStage": 1765,
-    "hit": 300,
-    "defPierceResist": 25,
-    "dodge": 300,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 300,
+    "criDamage": 300,
     "criDamageResist": 300,
-    "criDamage": 300
+    "criResist": 300,
+    "def": 1008,
+    "defPierce": 75,
+    "defPierceResist": 25,
+    "difficultyStage": 1765,
+    "dodge": 300,
+    "hit": 300,
+    "hp": 497790,
+    "id": 7,
+    "lv": 7,
+    "moveSpeed": 40,
+    "point": 160,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 340,
-    "point": 180,
-    "criResist": 340,
-    "hp": 694035,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 8,
+    "assetId": 3,
     "atk": 4689,
-    "def": 1157,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 8, "gr": 1 },
-        { "st": 2, "t": 22, "c": 4, "gr": 2 },
-        { "st": 2, "t": 23, "c": 5, "gr": 1 },
-        { "st": 2, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 48,
-    "bossId": 2,
-    "defPierce": 85,
-    "difficultyStage": 2017,
-    "hit": 340,
-    "defPierceResist": 28.33,
-    "dodge": 340,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 340,
+    "criDamage": 340,
     "criDamageResist": 340,
-    "criDamage": 340
+    "criResist": 340,
+    "def": 1157,
+    "defPierce": 85,
+    "defPierceResist": 28.33,
+    "difficultyStage": 2017,
+    "dodge": 340,
+    "hit": 340,
+    "hp": 694035,
+    "id": 8,
+    "lv": 8,
+    "moveSpeed": 40,
+    "point": 180,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 380,
-    "point": 200,
-    "criResist": 380,
-    "hp": 957105,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 9,
+    "assetId": 3,
     "atk": 5292,
-    "def": 1303,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 9, "gr": 1 },
-        { "st": 2, "t": 22, "c": 5, "gr": 2 },
-        { "st": 2, "t": 23, "c": 6, "gr": 1 },
-        { "st": 2, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 49,
-    "bossId": 2,
-    "defPierce": 95,
-    "difficultyStage": 2269,
-    "hit": 380,
-    "defPierceResist": 31.67,
-    "dodge": 380,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 380,
+    "criDamage": 380,
     "criDamageResist": 380,
-    "criDamage": 380
+    "criResist": 380,
+    "def": 1303,
+    "defPierce": 95,
+    "defPierceResist": 31.67,
+    "difficultyStage": 2269,
+    "dodge": 380,
+    "hit": 380,
+    "hp": 957105,
+    "id": 9,
+    "lv": 9,
+    "moveSpeed": 40,
+    "point": 200,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 420,
-    "point": 220,
-    "criResist": 420,
-    "hp": 1309590,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 10,
+    "assetId": 3,
     "atk": 5891,
-    "def": 1451,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 9, "gr": 1 },
-        { "st": 2, "t": 22, "c": 5, "gr": 2 },
-        { "st": 2, "t": 23, "c": 6, "gr": 1 },
-        { "st": 2, "t": 23, "c": 2, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 50,
-    "bossId": 2,
-    "defPierce": 105,
-    "difficultyStage": 2521,
-    "hit": 420,
-    "defPierceResist": 35,
-    "dodge": 420,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 420,
+    "criDamage": 420,
     "criDamageResist": 420,
-    "criDamage": 420
+    "criResist": 420,
+    "def": 1451,
+    "defPierce": 105,
+    "defPierceResist": 35,
+    "difficultyStage": 2521,
+    "dodge": 420,
+    "hit": 420,
+    "hp": 1309590,
+    "id": 10,
+    "lv": 10,
+    "moveSpeed": 40,
+    "point": 220,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 460,
-    "point": 240,
-    "criResist": 460,
-    "hp": 1782000,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 11,
+    "assetId": 3,
     "atk": 6494,
-    "def": 1598,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 10, "gr": 1 },
-        { "st": 2, "t": 22, "c": 6, "gr": 2 },
-        { "st": 2, "t": 23, "c": 7, "gr": 1 },
-        { "st": 2, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 51,
-    "bossId": 2,
-    "defPierce": 115,
-    "difficultyStage": 2773,
-    "hit": 460,
-    "defPierceResist": 38.33,
-    "dodge": 460,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 460,
+    "criDamage": 460,
     "criDamageResist": 460,
-    "criDamage": 460
+    "criResist": 460,
+    "def": 1598,
+    "defPierce": 115,
+    "defPierceResist": 38.33,
+    "difficultyStage": 2773,
+    "dodge": 460,
+    "hit": 460,
+    "hp": 1782000,
+    "id": 11,
+    "lv": 11,
+    "moveSpeed": 40,
+    "point": 240,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 500,
-    "point": 260,
-    "criResist": 500,
-    "hp": 2415015,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 12,
+    "assetId": 3,
     "atk": 7092,
-    "def": 1746,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 10, "gr": 1 },
-        { "st": 2, "t": 22, "c": 6, "gr": 2 },
-        { "st": 2, "t": 23, "c": 7, "gr": 1 },
-        { "st": 2, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 52,
-    "bossId": 2,
-    "defPierce": 125,
-    "difficultyStage": 3025,
-    "hit": 500,
-    "defPierceResist": 41.67,
-    "dodge": 500,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 500,
+    "criDamage": 500,
     "criDamageResist": 500,
-    "criDamage": 500
+    "criResist": 500,
+    "def": 1746,
+    "defPierce": 125,
+    "defPierceResist": 41.67,
+    "difficultyStage": 3025,
+    "dodge": 500,
+    "hit": 500,
+    "hp": 2415015,
+    "id": 12,
+    "lv": 12,
+    "moveSpeed": 40,
+    "point": 260,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 540,
-    "point": 280,
-    "criResist": 540,
-    "hp": 3263355,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 13,
+    "assetId": 3,
     "atk": 7695,
-    "def": 1892,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 11, "gr": 1 },
-        { "st": 2, "t": 22, "c": 7, "gr": 2 },
-        { "st": 2, "t": 23, "c": 8, "gr": 1 },
-        { "st": 2, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 53,
-    "bossId": 2,
-    "defPierce": 135,
-    "difficultyStage": 3277,
-    "hit": 540,
-    "defPierceResist": 45,
-    "dodge": 540,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 540,
+    "criDamage": 540,
     "criDamageResist": 540,
-    "criDamage": 540
+    "criResist": 540,
+    "def": 1892,
+    "defPierce": 135,
+    "defPierceResist": 45,
+    "difficultyStage": 3277,
+    "dodge": 540,
+    "hit": 540,
+    "hp": 3263355,
+    "id": 13,
+    "lv": 13,
+    "moveSpeed": 40,
+    "point": 280,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 580,
-    "point": 300,
-    "criResist": 580,
-    "hp": 4400190,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 14,
+    "assetId": 3,
     "atk": 8298,
-    "def": 2041,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 11, "gr": 1 },
-        { "st": 2, "t": 22, "c": 7, "gr": 2 },
-        { "st": 2, "t": 23, "c": 8, "gr": 1 },
-        { "st": 2, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 54,
-    "bossId": 2,
-    "defPierce": 145,
-    "difficultyStage": 3529,
-    "hit": 580,
-    "defPierceResist": 48.33,
-    "dodge": 580,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 580,
+    "criDamage": 580,
     "criDamageResist": 580,
-    "criDamage": 580
+    "criResist": 580,
+    "def": 2041,
+    "defPierce": 145,
+    "defPierceResist": 48.33,
+    "difficultyStage": 3529,
+    "dodge": 580,
+    "hit": 580,
+    "hp": 4400190,
+    "id": 14,
+    "lv": 14,
+    "moveSpeed": 40,
+    "point": 300,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 620,
-    "point": 320,
-    "criResist": 620,
-    "hp": 5923710,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 15,
+    "assetId": 3,
     "atk": 8897,
-    "def": 2187,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 12, "gr": 1 },
-        { "st": 2, "t": 22, "c": 8, "gr": 2 },
-        { "st": 2, "t": 23, "c": 9, "gr": 1 },
-        { "st": 2, "t": 23, "c": 3, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 55,
-    "bossId": 2,
-    "defPierce": 155,
-    "difficultyStage": 3781,
-    "hit": 620,
-    "defPierceResist": 51.67,
-    "dodge": 620,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 620,
+    "criDamage": 620,
     "criDamageResist": 620,
-    "criDamage": 620
+    "criResist": 620,
+    "def": 2187,
+    "defPierce": 155,
+    "defPierceResist": 51.67,
+    "difficultyStage": 3781,
+    "dodge": 620,
+    "hit": 620,
+    "hp": 5923710,
+    "id": 15,
+    "lv": 15,
+    "moveSpeed": 40,
+    "point": 320,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 660,
-    "point": 340,
-    "criResist": 660,
-    "hp": 7965315,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 16,
+    "assetId": 3,
     "atk": 9500,
-    "def": 2336,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 12, "gr": 1 },
-        { "st": 2, "t": 22, "c": 8, "gr": 2 },
-        { "st": 2, "t": 23, "c": 9, "gr": 1 },
-        { "st": 2, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 56,
-    "bossId": 2,
-    "defPierce": 165,
-    "difficultyStage": 4033,
-    "hit": 660,
-    "defPierceResist": 55,
-    "dodge": 660,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 660,
+    "criDamage": 660,
     "criDamageResist": 660,
-    "criDamage": 660
+    "criResist": 660,
+    "def": 2336,
+    "defPierce": 165,
+    "defPierceResist": 55,
+    "difficultyStage": 4033,
+    "dodge": 660,
+    "hit": 660,
+    "hp": 7965315,
+    "id": 16,
+    "lv": 16,
+    "moveSpeed": 40,
+    "point": 340,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 700,
-    "point": 360,
-    "criResist": 700,
-    "hp": 10701270,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 17,
+    "assetId": 3,
     "atk": 10098,
-    "def": 2482,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 13, "gr": 1 },
-        { "st": 2, "t": 22, "c": 9, "gr": 2 },
-        { "st": 2, "t": 23, "c": 10, "gr": 1 },
-        { "st": 2, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 57,
-    "bossId": 2,
-    "defPierce": 175,
-    "difficultyStage": 4285,
-    "hit": 700,
-    "defPierceResist": 58.33,
-    "dodge": 700,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 700,
+    "criDamage": 700,
     "criDamageResist": 700,
-    "criDamage": 700
+    "criResist": 700,
+    "def": 2482,
+    "defPierce": 175,
+    "defPierceResist": 58.33,
+    "difficultyStage": 4285,
+    "dodge": 700,
+    "hit": 700,
+    "hp": 10701270,
+    "id": 17,
+    "lv": 17,
+    "moveSpeed": 40,
+    "point": 360,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 740,
-    "point": 380,
-    "criResist": 740,
-    "hp": 14367735,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 18,
+    "assetId": 3,
     "atk": 10701,
-    "def": 2630,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 13, "gr": 1 },
-        { "st": 2, "t": 22, "c": 9, "gr": 2 },
-        { "st": 2, "t": 23, "c": 10, "gr": 1 },
-        { "st": 2, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 58,
-    "bossId": 2,
-    "defPierce": 185,
-    "difficultyStage": 4537,
-    "hit": 740,
-    "defPierceResist": 61.67,
-    "dodge": 740,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 740,
+    "criDamage": 740,
     "criDamageResist": 740,
-    "criDamage": 740
+    "criResist": 740,
+    "def": 2630,
+    "defPierce": 185,
+    "defPierceResist": 61.67,
+    "difficultyStage": 4537,
+    "dodge": 740,
+    "hit": 740,
+    "hp": 14367735,
+    "id": 18,
+    "lv": 18,
+    "moveSpeed": 40,
+    "point": 380,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 780,
-    "point": 400,
-    "criResist": 780,
-    "hp": 19281150,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 19,
+    "assetId": 3,
     "atk": 11300,
-    "def": 2777,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 14, "gr": 1 },
-        { "st": 2, "t": 22, "c": 10, "gr": 2 },
-        { "st": 2, "t": 23, "c": 11, "gr": 1 },
-        { "st": 2, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 59,
-    "bossId": 2,
-    "defPierce": 195,
-    "difficultyStage": 4789,
-    "hit": 780,
-    "defPierceResist": 65,
-    "dodge": 780,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 780,
+    "criDamage": 780,
     "criDamageResist": 780,
-    "criDamage": 780
+    "criResist": 780,
+    "def": 2777,
+    "defPierce": 195,
+    "defPierceResist": 65,
+    "difficultyStage": 4789,
+    "dodge": 780,
+    "hit": 780,
+    "hp": 19281150,
+    "id": 19,
+    "lv": 19,
+    "moveSpeed": 40,
+    "point": 400,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 820,
-    "point": 420,
-    "criResist": 820,
-    "hp": 25865550,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 20,
+    "assetId": 3,
     "atk": 11903,
-    "def": 2925,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 14, "gr": 1 },
-        { "st": 2, "t": 22, "c": 10, "gr": 2 },
-        { "st": 2, "t": 23, "c": 11, "gr": 1 },
-        { "st": 2, "t": 23, "c": 4, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 60,
-    "bossId": 2,
-    "defPierce": 205,
-    "difficultyStage": 5041,
-    "hit": 820,
-    "defPierceResist": 68.33,
-    "dodge": 820,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 820,
+    "criDamage": 820,
     "criDamageResist": 820,
-    "criDamage": 820
+    "criResist": 820,
+    "def": 2925,
+    "defPierce": 205,
+    "defPierceResist": 68.33,
+    "difficultyStage": 5041,
+    "dodge": 820,
+    "hit": 820,
+    "hp": 25865550,
+    "id": 20,
+    "lv": 20,
+    "moveSpeed": 40,
+    "point": 420,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 860,
-    "point": 440,
-    "criResist": 860,
-    "hp": 34689330,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 21,
+    "assetId": 3,
     "atk": 12506,
-    "def": 3071,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 15, "gr": 1 },
-        { "st": 2, "t": 22, "c": 11, "gr": 2 },
-        { "st": 2, "t": 23, "c": 12, "gr": 1 },
-        { "st": 2, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 61,
-    "bossId": 2,
-    "defPierce": 215,
-    "difficultyStage": 5293,
-    "hit": 860,
-    "defPierceResist": 71.67,
-    "dodge": 860,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 860,
+    "criDamage": 860,
     "criDamageResist": 860,
-    "criDamage": 860
+    "criResist": 860,
+    "def": 3071,
+    "defPierce": 215,
+    "defPierceResist": 71.67,
+    "difficultyStage": 5293,
+    "dodge": 860,
+    "hit": 860,
+    "hp": 34689330,
+    "id": 21,
+    "lv": 21,
+    "moveSpeed": 40,
+    "point": 440,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 900,
-    "point": 460,
-    "criResist": 900,
-    "hp": 46514025,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 22,
+    "assetId": 3,
     "atk": 13104,
-    "def": 3220,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 15, "gr": 1 },
-        { "st": 2, "t": 22, "c": 11, "gr": 2 },
-        { "st": 2, "t": 23, "c": 12, "gr": 1 },
-        { "st": 2, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 62,
-    "bossId": 2,
-    "defPierce": 225,
-    "difficultyStage": 5545,
-    "hit": 900,
-    "defPierceResist": 75,
-    "dodge": 900,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 900,
+    "criDamage": 900,
     "criDamageResist": 900,
-    "criDamage": 900
+    "criResist": 900,
+    "def": 3220,
+    "defPierce": 225,
+    "defPierceResist": 75,
+    "difficultyStage": 5545,
+    "dodge": 900,
+    "hit": 900,
+    "hp": 46514025,
+    "id": 22,
+    "lv": 22,
+    "moveSpeed": 40,
+    "point": 460,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 940,
-    "point": 480,
-    "criResist": 940,
-    "hp": 62360235,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 23,
+    "assetId": 3,
     "atk": 13707,
-    "def": 3366,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 16, "gr": 1 },
-        { "st": 2, "t": 22, "c": 12, "gr": 2 },
-        { "st": 2, "t": 23, "c": 13, "gr": 1 },
-        { "st": 2, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 63,
-    "bossId": 2,
-    "defPierce": 235,
-    "difficultyStage": 5797,
-    "hit": 940,
-    "defPierceResist": 78.33,
-    "dodge": 940,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 940,
+    "criDamage": 940,
     "criDamageResist": 940,
-    "criDamage": 940
+    "criResist": 940,
+    "def": 3366,
+    "defPierce": 235,
+    "defPierceResist": 78.33,
+    "difficultyStage": 5797,
+    "dodge": 940,
+    "hit": 940,
+    "hp": 62360235,
+    "id": 23,
+    "lv": 23,
+    "moveSpeed": 40,
+    "point": 480,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 980,
-    "point": 500,
-    "criResist": 980,
-    "hp": 83595645,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 24,
+    "assetId": 3,
     "atk": 14306,
-    "def": 3515,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 16, "gr": 1 },
-        { "st": 2, "t": 22, "c": 12, "gr": 2 },
-        { "st": 2, "t": 23, "c": 13, "gr": 1 },
-        { "st": 2, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 64,
-    "bossId": 2,
-    "defPierce": 245,
-    "difficultyStage": 6049,
-    "hit": 980,
-    "defPierceResist": 81.67,
-    "dodge": 980,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 980,
+    "criDamage": 980,
     "criDamageResist": 980,
-    "criDamage": 980
+    "criResist": 980,
+    "def": 3515,
+    "defPierce": 245,
+    "defPierceResist": 81.67,
+    "difficultyStage": 6049,
+    "dodge": 980,
+    "hit": 980,
+    "hp": 83595645,
+    "id": 24,
+    "lv": 24,
+    "moveSpeed": 40,
+    "point": 500,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1020,
-    "point": 520,
-    "criResist": 1020,
-    "hp": 112053195,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 25,
+    "assetId": 3,
     "atk": 14909,
-    "def": 3663,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 17, "gr": 1 },
-        { "st": 2, "t": 22, "c": 13, "gr": 2 },
-        { "st": 2, "t": 23, "c": 14, "gr": 1 },
-        { "st": 2, "t": 23, "c": 5, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 65,
-    "bossId": 2,
-    "defPierce": 255,
-    "difficultyStage": 6301,
-    "hit": 1020,
-    "defPierceResist": 85,
-    "dodge": 1020,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1020,
+    "criDamage": 1020,
     "criDamageResist": 1020,
-    "criDamage": 1020
+    "criResist": 1020,
+    "def": 3663,
+    "defPierce": 255,
+    "defPierceResist": 85,
+    "difficultyStage": 6301,
+    "dodge": 1020,
+    "hit": 1020,
+    "hp": 112053195,
+    "id": 25,
+    "lv": 25,
+    "moveSpeed": 40,
+    "point": 520,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1060,
-    "point": 540,
-    "criResist": 1060,
-    "hp": 150188985,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 26,
+    "assetId": 3,
     "atk": 15507,
-    "def": 3809,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 17, "gr": 1 },
-        { "st": 2, "t": 22, "c": 13, "gr": 2 },
-        { "st": 2, "t": 23, "c": 14, "gr": 1 },
-        { "st": 2, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 66,
-    "bossId": 2,
-    "defPierce": 265,
-    "difficultyStage": 6553,
-    "hit": 1060,
-    "defPierceResist": 88.33,
-    "dodge": 1060,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1060,
+    "criDamage": 1060,
     "criDamageResist": 1060,
-    "criDamage": 1060
+    "criResist": 1060,
+    "def": 3809,
+    "defPierce": 265,
+    "defPierceResist": 88.33,
+    "difficultyStage": 6553,
+    "dodge": 1060,
+    "hit": 1060,
+    "hp": 150188985,
+    "id": 26,
+    "lv": 26,
+    "moveSpeed": 40,
+    "point": 540,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1100,
-    "point": 560,
-    "criResist": 1100,
-    "hp": 201294585,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 27,
+    "assetId": 3,
     "atk": 16110,
-    "def": 3958,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 18, "gr": 1 },
-        { "st": 2, "t": 22, "c": 14, "gr": 2 },
-        { "st": 2, "t": 23, "c": 15, "gr": 1 },
-        { "st": 2, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 67,
-    "bossId": 2,
-    "defPierce": 275,
-    "difficultyStage": 6805,
-    "hit": 1100,
-    "defPierceResist": 91.67,
-    "dodge": 1100,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1100,
+    "criDamage": 1100,
     "criDamageResist": 1100,
-    "criDamage": 1100
+    "criResist": 1100,
+    "def": 3958,
+    "defPierce": 275,
+    "defPierceResist": 91.67,
+    "difficultyStage": 6805,
+    "dodge": 1100,
+    "hit": 1100,
+    "hp": 201294585,
+    "id": 27,
+    "lv": 27,
+    "moveSpeed": 40,
+    "point": 560,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1140,
-    "point": 580,
-    "criResist": 1140,
-    "hp": 269780985,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 28,
+    "assetId": 3,
     "atk": 16709,
-    "def": 4104,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 18, "gr": 1 },
-        { "st": 2, "t": 22, "c": 14, "gr": 2 },
-        { "st": 2, "t": 23, "c": 15, "gr": 1 },
-        { "st": 2, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 68,
-    "bossId": 2,
-    "defPierce": 285,
-    "difficultyStage": 7057,
-    "hit": 1140,
-    "defPierceResist": 95,
-    "dodge": 1140,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1140,
+    "criDamage": 1140,
     "criDamageResist": 1140,
-    "criDamage": 1140
+    "criResist": 1140,
+    "def": 4104,
+    "defPierce": 285,
+    "defPierceResist": 95,
+    "difficultyStage": 7057,
+    "dodge": 1140,
+    "hit": 1140,
+    "hp": 269780985,
+    "id": 28,
+    "lv": 28,
+    "moveSpeed": 40,
+    "point": 580,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1180,
-    "point": 600,
-    "criResist": 1180,
-    "hp": 361559340,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 29,
+    "assetId": 3,
     "atk": 17312,
-    "def": 4253,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 19, "gr": 1 },
-        { "st": 2, "t": 22, "c": 15, "gr": 2 },
-        { "st": 2, "t": 23, "c": 16, "gr": 1 },
-        { "st": 2, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 69,
-    "bossId": 2,
-    "defPierce": 295,
-    "difficultyStage": 7309,
-    "hit": 1180,
-    "defPierceResist": 98.33,
-    "dodge": 1180,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1180,
+    "criDamage": 1180,
     "criDamageResist": 1180,
-    "criDamage": 1180
+    "criResist": 1180,
+    "def": 4253,
+    "defPierce": 295,
+    "defPierceResist": 98.33,
+    "difficultyStage": 7309,
+    "dodge": 1180,
+    "hit": 1180,
+    "hp": 361559340,
+    "id": 29,
+    "lv": 29,
+    "moveSpeed": 40,
+    "point": 600,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1220,
-    "point": 620,
-    "criResist": 1220,
-    "hp": 484551090,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 30,
+    "assetId": 3,
     "atk": 17915,
-    "def": 4399,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 19, "gr": 1 },
-        { "st": 2, "t": 22, "c": 15, "gr": 2 },
-        { "st": 2, "t": 23, "c": 16, "gr": 1 },
-        { "st": 2, "t": 23, "c": 6, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 70,
-    "bossId": 2,
-    "defPierce": 305,
-    "difficultyStage": 7561,
-    "hit": 1220,
-    "defPierceResist": 101.67,
-    "dodge": 1220,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1220,
+    "criDamage": 1220,
     "criDamageResist": 1220,
-    "criDamage": 1220
+    "criResist": 1220,
+    "def": 4399,
+    "defPierce": 305,
+    "defPierceResist": 101.67,
+    "difficultyStage": 7561,
+    "dodge": 1220,
+    "hit": 1220,
+    "hp": 484551090,
+    "id": 30,
+    "lv": 30,
+    "moveSpeed": 40,
+    "point": 620,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1260,
-    "point": 640,
-    "criResist": 1260,
-    "hp": 649371780,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 31,
+    "assetId": 3,
     "atk": 18513,
-    "def": 4547,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 20, "gr": 1 },
-        { "st": 2, "t": 22, "c": 16, "gr": 2 },
-        { "st": 2, "t": 23, "c": 17, "gr": 1 },
-        { "st": 2, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 71,
-    "bossId": 2,
-    "defPierce": 315,
-    "difficultyStage": 7813,
-    "hit": 1260,
-    "defPierceResist": 105,
-    "dodge": 1260,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1260,
+    "criDamage": 1260,
     "criDamageResist": 1260,
-    "criDamage": 1260
+    "criResist": 1260,
+    "def": 4547,
+    "defPierce": 315,
+    "defPierceResist": 105,
+    "difficultyStage": 7813,
+    "dodge": 1260,
+    "hit": 1260,
+    "hp": 649371780,
+    "id": 31,
+    "lv": 31,
+    "moveSpeed": 40,
+    "point": 640,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1300,
-    "point": 660,
-    "criResist": 1300,
-    "hp": 870247305,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 32,
+    "assetId": 3,
     "atk": 19116,
-    "def": 4694,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 20, "gr": 1 },
-        { "st": 2, "t": 22, "c": 16, "gr": 2 },
-        { "st": 2, "t": 23, "c": 17, "gr": 1 },
-        { "st": 2, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 72,
-    "bossId": 2,
-    "defPierce": 325,
-    "difficultyStage": 8065,
-    "hit": 1300,
-    "defPierceResist": 108.33,
-    "dodge": 1300,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1300,
+    "criDamage": 1300,
     "criDamageResist": 1300,
-    "criDamage": 1300
+    "criResist": 1300,
+    "def": 4694,
+    "defPierce": 325,
+    "defPierceResist": 108.33,
+    "difficultyStage": 8065,
+    "dodge": 1300,
+    "hit": 1300,
+    "hp": 870247305,
+    "id": 32,
+    "lv": 32,
+    "moveSpeed": 40,
+    "point": 660,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1340,
-    "point": 680,
-    "criResist": 1340,
-    "hp": 1166241645,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 33,
+    "assetId": 3,
     "atk": 19715,
-    "def": 4842,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 21, "gr": 1 },
-        { "st": 2, "t": 22, "c": 17, "gr": 2 },
-        { "st": 2, "t": 23, "c": 18, "gr": 1 },
-        { "st": 2, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 73,
-    "bossId": 2,
-    "defPierce": 335,
-    "difficultyStage": 8317,
-    "hit": 1340,
-    "defPierceResist": 111.67,
-    "dodge": 1340,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1340,
+    "criDamage": 1340,
     "criDamageResist": 1340,
-    "criDamage": 1340
+    "criResist": 1340,
+    "def": 4842,
+    "defPierce": 335,
+    "defPierceResist": 111.67,
+    "difficultyStage": 8317,
+    "dodge": 1340,
+    "hit": 1340,
+    "hp": 1166241645,
+    "id": 33,
+    "lv": 33,
+    "moveSpeed": 40,
+    "point": 680,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1380,
-    "point": 700,
-    "criResist": 1380,
-    "hp": 1562902335,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 34,
+    "assetId": 3,
     "atk": 20318,
-    "def": 4988,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 21, "gr": 1 },
-        { "st": 2, "t": 22, "c": 17, "gr": 2 },
-        { "st": 2, "t": 23, "c": 18, "gr": 1 },
-        { "st": 2, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 74,
-    "bossId": 2,
-    "defPierce": 345,
-    "difficultyStage": 8569,
-    "hit": 1380,
-    "defPierceResist": 115,
-    "dodge": 1380,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1380,
+    "criDamage": 1380,
     "criDamageResist": 1380,
-    "criDamage": 1380
+    "criResist": 1380,
+    "def": 4988,
+    "defPierce": 345,
+    "defPierceResist": 115,
+    "difficultyStage": 8569,
+    "dodge": 1380,
+    "hit": 1380,
+    "hp": 1562902335,
+    "id": 34,
+    "lv": 34,
+    "moveSpeed": 40,
+    "point": 700,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1420,
-    "point": 720,
-    "criResist": 1420,
-    "hp": 2094465600,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 35,
+    "assetId": 3,
     "atk": 20916,
-    "def": 5137,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 22, "gr": 1 },
-        { "st": 2, "t": 22, "c": 18, "gr": 2 },
-        { "st": 2, "t": 23, "c": 19, "gr": 1 },
-        { "st": 2, "t": 23, "c": 7, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 75,
-    "bossId": 2,
-    "defPierce": 355,
-    "difficultyStage": 8821,
-    "hit": 1420,
-    "defPierceResist": 118.33,
-    "dodge": 1420,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1420,
+    "criDamage": 1420,
     "criDamageResist": 1420,
-    "criDamage": 1420
+    "criResist": 1420,
+    "def": 5137,
+    "defPierce": 355,
+    "defPierceResist": 118.33,
+    "difficultyStage": 8821,
+    "dodge": 1420,
+    "hit": 1420,
+    "hp": 2094465600,
+    "id": 35,
+    "lv": 35,
+    "moveSpeed": 40,
+    "point": 720,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 22,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1460,
-    "point": 740,
-    "criResist": 1460,
-    "hp": 2806811190,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 36,
+    "assetId": 3,
     "atk": 21519,
-    "def": 5283,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 22, "gr": 1 },
-        { "st": 2, "t": 22, "c": 18, "gr": 2 },
-        { "st": 2, "t": 23, "c": 19, "gr": 1 },
-        { "st": 2, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 76,
-    "bossId": 2,
-    "defPierce": 365,
-    "difficultyStage": 9073,
-    "hit": 1460,
-    "defPierceResist": 121.67,
-    "dodge": 1460,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1460,
+    "criDamage": 1460,
     "criDamageResist": 1460,
-    "criDamage": 1460
+    "criResist": 1460,
+    "def": 5283,
+    "defPierce": 365,
+    "defPierceResist": 121.67,
+    "difficultyStage": 9073,
+    "dodge": 1460,
+    "hit": 1460,
+    "hp": 2806811190,
+    "id": 36,
+    "lv": 36,
+    "moveSpeed": 40,
+    "point": 740,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 22,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   },
   {
-    "cri": 1500,
-    "point": 760,
-    "criResist": 1500,
-    "hp": 3761422470,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 37,
+    "assetId": 3,
     "atk": 22118,
-    "def": 5432,
-    "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 23, "gr": 1 },
-        { "st": 2, "t": 22, "c": 19, "gr": 2 },
-        { "st": 2, "t": 23, "c": 20, "gr": 1 },
-        { "st": 2, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 77,
-    "bossId": 2,
-    "defPierce": 375,
-    "difficultyStage": 9325,
-    "hit": 1500,
-    "defPierceResist": 125,
-    "dodge": 1500,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1500,
+    "criDamage": 1500,
     "criDamageResist": 1500,
-    "criDamage": 1500
-  },
-  {
-    "cri": 1540,
-    "point": 780,
-    "criResist": 1540,
-    "hp": 5040692820,
-    "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
-    "atkSpeed": 0.2,
-    "lv": 38,
-    "atk": 22721,
-    "def": 5578,
+    "criResist": 1500,
+    "def": 5432,
+    "defPierce": 375,
+    "defPierceResist": 125,
+    "difficultyStage": 9325,
+    "dodge": 1500,
+    "hit": 1500,
+    "hp": 3761422470,
+    "id": 37,
+    "lv": 37,
     "moveSpeed": 40,
-    "rewardInfo": {
-      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
-      "rewards": [
-        { "st": 2, "t": 22, "c": 23, "gr": 1 },
-        { "st": 2, "t": 22, "c": 19, "gr": 2 },
-        { "st": 2, "t": 23, "c": 20, "gr": 1 },
-        { "st": 2, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
-      ]
-    },
-    "id": 78,
-    "bossId": 2,
-    "defPierce": 385,
-    "difficultyStage": 9577,
-    "hit": 1540,
-    "defPierceResist": 128.33,
-    "dodge": 1540,
-    "criDamageResist": 1540,
-    "criDamage": 1540
-  },
-  {
-    "cri": 1580,
-    "point": 800,
-    "criResist": 1580,
-    "hp": 6755037480,
-    "appearanceWave": 3,
-    "assetId": 4,
+    "point": 760,
     "poolId": 1,
-    "atkSpeed": 0.2,
-    "lv": 39,
-    "atk": 23324,
-    "def": 5726,
-    "moveSpeed": 40,
     "rewardInfo": {
       "rates": [30, 5, 4, 1, 25, 20, 10, 5],
       "rewards": [
-        { "st": 2, "t": 22, "c": 24, "gr": 1 },
-        { "st": 2, "t": 22, "c": 20, "gr": 2 },
-        { "st": 2, "t": 23, "c": 21, "gr": 1 },
-        { "st": 2, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
+        {
+          "c": 23,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
       ]
-    },
-    "id": 79,
-    "bossId": 2,
-    "defPierce": 395,
-    "difficultyStage": 9829,
-    "hit": 1580,
-    "defPierceResist": 131.67,
-    "dodge": 1580,
-    "criDamageResist": 1580,
-    "criDamage": 1580
+    }
   },
   {
-    "cri": 1620,
-    "point": 820,
-    "criResist": 1620,
-    "hp": 9052423290,
     "appearanceWave": 3,
-    "assetId": 4,
-    "poolId": 2,
+    "assetId": 3,
+    "atk": 22721,
     "atkSpeed": 0.2,
-    "lv": 40,
-    "atk": 23922,
-    "def": 5873,
+    "bossId": 1,
+    "cri": 1540,
+    "criDamage": 1540,
+    "criDamageResist": 1540,
+    "criResist": 1540,
+    "def": 5578,
+    "defPierce": 385,
+    "defPierceResist": 128.33,
+    "difficultyStage": 9577,
+    "dodge": 1540,
+    "hit": 1540,
+    "hp": 5040692820,
+    "id": 38,
+    "lv": 38,
     "moveSpeed": 40,
+    "point": 780,
+    "poolId": 2,
     "rewardInfo": {
       "rates": [30, 5, 4, 1, 25, 20, 10, 5],
       "rewards": [
-        { "st": 2, "t": 22, "c": 24, "gr": 1 },
-        { "st": 2, "t": 22, "c": 20, "gr": 2 },
-        { "st": 2, "t": 23, "c": 21, "gr": 1 },
-        { "st": 2, "t": 23, "c": 8, "gr": 2 },
-        { "t": 201, "c": 20, "gr": 1 },
-        { "t": 201, "c": 15, "gr": 2 },
-        { "t": 201, "c": 10, "gr": 3 },
-        { "t": 201, "c": 5, "gr": 4 }
+        {
+          "c": 23,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
       ]
-    },
-    "id": 80,
-    "bossId": 2,
-    "defPierce": 405,
-    "difficultyStage": 10081,
-    "hit": 1620,
-    "defPierceResist": 135,
-    "dodge": 1620,
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 3,
+    "atk": 23324,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1580,
+    "criDamage": 1580,
+    "criDamageResist": 1580,
+    "criResist": 1580,
+    "def": 5726,
+    "defPierce": 395,
+    "defPierceResist": 131.67,
+    "difficultyStage": 9829,
+    "dodge": 1580,
+    "hit": 1580,
+    "hp": 6755037480,
+    "id": 39,
+    "lv": 39,
+    "moveSpeed": 40,
+    "point": 800,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 24,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 3,
+    "atk": 23922,
+    "atkSpeed": 0.2,
+    "bossId": 1,
+    "cri": 1620,
+    "criDamage": 1620,
     "criDamageResist": 1620,
-    "criDamage": 1620
+    "criResist": 1620,
+    "def": 5873,
+    "defPierce": 405,
+    "defPierceResist": 135,
+    "difficultyStage": 10081,
+    "dodge": 1620,
+    "hit": 1620,
+    "hp": 9052423290,
+    "id": 40,
+    "lv": 40,
+    "moveSpeed": 40,
+    "point": 820,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 24,
+          "gr": 1,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 2,
+          "st": 1,
+          "t": 22
+        },
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 1,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 289,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 40,
+    "criDamage": 40,
+    "criDamageResist": 40,
+    "criResist": 40,
+    "def": 74,
+    "defPierce": 15,
+    "defPierceResist": 5,
+    "difficultyStage": 200,
+    "dodge": 40,
+    "hit": 40,
+    "hp": 12150,
+    "id": 41,
+    "lv": 1,
+    "moveSpeed": 40,
+    "point": 40,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 650,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 80,
+    "criDamage": 80,
+    "criDamageResist": 80,
+    "criResist": 80,
+    "def": 163,
+    "defPierce": 25,
+    "defPierceResist": 8.33,
+    "difficultyStage": 450,
+    "dodge": 80,
+    "hit": 80,
+    "hp": 32508,
+    "id": 42,
+    "lv": 2,
+    "moveSpeed": 40,
+    "point": 60,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 1683,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 140,
+    "criDamage": 140,
+    "criDamageResist": 140,
+    "criResist": 140,
+    "def": 419,
+    "defPierce": 35,
+    "defPierceResist": 11.67,
+    "difficultyStage": 757,
+    "dodge": 140,
+    "hit": 140,
+    "hp": 99585,
+    "id": 43,
+    "lv": 3,
+    "moveSpeed": 40,
+    "point": 80,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 2286,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 180,
+    "criDamage": 180,
+    "criDamageResist": 180,
+    "criResist": 180,
+    "def": 567,
+    "defPierce": 45,
+    "defPierceResist": 15,
+    "difficultyStage": 1009,
+    "dodge": 180,
+    "hit": 180,
+    "hp": 160425,
+    "id": 44,
+    "lv": 4,
+    "moveSpeed": 40,
+    "point": 100,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 2889,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 220,
+    "criDamage": 220,
+    "criDamageResist": 220,
+    "criResist": 220,
+    "def": 713,
+    "defPierce": 55,
+    "defPierceResist": 18.33,
+    "difficultyStage": 1261,
+    "dodge": 220,
+    "hit": 220,
+    "hp": 242010,
+    "id": 45,
+    "lv": 5,
+    "moveSpeed": 40,
+    "point": 120,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 1,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 3488,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 260,
+    "criDamage": 260,
+    "criDamageResist": 260,
+    "criResist": 260,
+    "def": 862,
+    "defPierce": 65,
+    "defPierceResist": 21.67,
+    "difficultyStage": 1513,
+    "dodge": 260,
+    "hit": 260,
+    "hp": 351315,
+    "id": 46,
+    "lv": 6,
+    "moveSpeed": 40,
+    "point": 140,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 4091,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 300,
+    "criDamage": 300,
+    "criDamageResist": 300,
+    "criResist": 300,
+    "def": 1008,
+    "defPierce": 75,
+    "defPierceResist": 25,
+    "difficultyStage": 1765,
+    "dodge": 300,
+    "hit": 300,
+    "hp": 497790,
+    "id": 47,
+    "lv": 7,
+    "moveSpeed": 40,
+    "point": 160,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 4689,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 340,
+    "criDamage": 340,
+    "criDamageResist": 340,
+    "criResist": 340,
+    "def": 1157,
+    "defPierce": 85,
+    "defPierceResist": 28.33,
+    "difficultyStage": 2017,
+    "dodge": 340,
+    "hit": 340,
+    "hp": 694035,
+    "id": 48,
+    "lv": 8,
+    "moveSpeed": 40,
+    "point": 180,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 5292,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 380,
+    "criDamage": 380,
+    "criDamageResist": 380,
+    "criResist": 380,
+    "def": 1303,
+    "defPierce": 95,
+    "defPierceResist": 31.67,
+    "difficultyStage": 2269,
+    "dodge": 380,
+    "hit": 380,
+    "hp": 957105,
+    "id": 49,
+    "lv": 9,
+    "moveSpeed": 40,
+    "point": 200,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 5891,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 420,
+    "criDamage": 420,
+    "criDamageResist": 420,
+    "criResist": 420,
+    "def": 1451,
+    "defPierce": 105,
+    "defPierceResist": 35,
+    "difficultyStage": 2521,
+    "dodge": 420,
+    "hit": 420,
+    "hp": 1309590,
+    "id": 50,
+    "lv": 10,
+    "moveSpeed": 40,
+    "point": 220,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 2,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 6494,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 460,
+    "criDamage": 460,
+    "criDamageResist": 460,
+    "criResist": 460,
+    "def": 1598,
+    "defPierce": 115,
+    "defPierceResist": 38.33,
+    "difficultyStage": 2773,
+    "dodge": 460,
+    "hit": 460,
+    "hp": 1782000,
+    "id": 51,
+    "lv": 11,
+    "moveSpeed": 40,
+    "point": 240,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 7092,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 500,
+    "criDamage": 500,
+    "criDamageResist": 500,
+    "criResist": 500,
+    "def": 1746,
+    "defPierce": 125,
+    "defPierceResist": 41.67,
+    "difficultyStage": 3025,
+    "dodge": 500,
+    "hit": 500,
+    "hp": 2415015,
+    "id": 52,
+    "lv": 12,
+    "moveSpeed": 40,
+    "point": 260,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 7695,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 540,
+    "criDamage": 540,
+    "criDamageResist": 540,
+    "criResist": 540,
+    "def": 1892,
+    "defPierce": 135,
+    "defPierceResist": 45,
+    "difficultyStage": 3277,
+    "dodge": 540,
+    "hit": 540,
+    "hp": 3263355,
+    "id": 53,
+    "lv": 13,
+    "moveSpeed": 40,
+    "point": 280,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 8298,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 580,
+    "criDamage": 580,
+    "criDamageResist": 580,
+    "criResist": 580,
+    "def": 2041,
+    "defPierce": 145,
+    "defPierceResist": 48.33,
+    "difficultyStage": 3529,
+    "dodge": 580,
+    "hit": 580,
+    "hp": 4400190,
+    "id": 54,
+    "lv": 14,
+    "moveSpeed": 40,
+    "point": 300,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 8897,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 620,
+    "criDamage": 620,
+    "criDamageResist": 620,
+    "criResist": 620,
+    "def": 2187,
+    "defPierce": 155,
+    "defPierceResist": 51.67,
+    "difficultyStage": 3781,
+    "dodge": 620,
+    "hit": 620,
+    "hp": 5923710,
+    "id": 55,
+    "lv": 15,
+    "moveSpeed": 40,
+    "point": 320,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 3,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 9500,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 660,
+    "criDamage": 660,
+    "criDamageResist": 660,
+    "criResist": 660,
+    "def": 2336,
+    "defPierce": 165,
+    "defPierceResist": 55,
+    "difficultyStage": 4033,
+    "dodge": 660,
+    "hit": 660,
+    "hp": 7965315,
+    "id": 56,
+    "lv": 16,
+    "moveSpeed": 40,
+    "point": 340,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 10098,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 700,
+    "criDamage": 700,
+    "criDamageResist": 700,
+    "criResist": 700,
+    "def": 2482,
+    "defPierce": 175,
+    "defPierceResist": 58.33,
+    "difficultyStage": 4285,
+    "dodge": 700,
+    "hit": 700,
+    "hp": 10701270,
+    "id": 57,
+    "lv": 17,
+    "moveSpeed": 40,
+    "point": 360,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 10701,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 740,
+    "criDamage": 740,
+    "criDamageResist": 740,
+    "criResist": 740,
+    "def": 2630,
+    "defPierce": 185,
+    "defPierceResist": 61.67,
+    "difficultyStage": 4537,
+    "dodge": 740,
+    "hit": 740,
+    "hp": 14367735,
+    "id": 58,
+    "lv": 18,
+    "moveSpeed": 40,
+    "point": 380,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 9,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 11300,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 780,
+    "criDamage": 780,
+    "criDamageResist": 780,
+    "criResist": 780,
+    "def": 2777,
+    "defPierce": 195,
+    "defPierceResist": 65,
+    "difficultyStage": 4789,
+    "dodge": 780,
+    "hit": 780,
+    "hp": 19281150,
+    "id": 59,
+    "lv": 19,
+    "moveSpeed": 40,
+    "point": 400,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 11903,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 820,
+    "criDamage": 820,
+    "criDamageResist": 820,
+    "criResist": 820,
+    "def": 2925,
+    "defPierce": 205,
+    "defPierceResist": 68.33,
+    "difficultyStage": 5041,
+    "dodge": 820,
+    "hit": 820,
+    "hp": 25865550,
+    "id": 60,
+    "lv": 20,
+    "moveSpeed": 40,
+    "point": 420,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 10,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 4,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 12506,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 860,
+    "criDamage": 860,
+    "criDamageResist": 860,
+    "criResist": 860,
+    "def": 3071,
+    "defPierce": 215,
+    "defPierceResist": 71.67,
+    "difficultyStage": 5293,
+    "dodge": 860,
+    "hit": 860,
+    "hp": 34689330,
+    "id": 61,
+    "lv": 21,
+    "moveSpeed": 40,
+    "point": 440,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 13104,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 900,
+    "criDamage": 900,
+    "criDamageResist": 900,
+    "criResist": 900,
+    "def": 3220,
+    "defPierce": 225,
+    "defPierceResist": 75,
+    "difficultyStage": 5545,
+    "dodge": 900,
+    "hit": 900,
+    "hp": 46514025,
+    "id": 62,
+    "lv": 22,
+    "moveSpeed": 40,
+    "point": 460,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 11,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 13707,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 940,
+    "criDamage": 940,
+    "criDamageResist": 940,
+    "criResist": 940,
+    "def": 3366,
+    "defPierce": 235,
+    "defPierceResist": 78.33,
+    "difficultyStage": 5797,
+    "dodge": 940,
+    "hit": 940,
+    "hp": 62360235,
+    "id": 63,
+    "lv": 23,
+    "moveSpeed": 40,
+    "point": 480,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 14306,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 980,
+    "criDamage": 980,
+    "criDamageResist": 980,
+    "criResist": 980,
+    "def": 3515,
+    "defPierce": 245,
+    "defPierceResist": 81.67,
+    "difficultyStage": 6049,
+    "dodge": 980,
+    "hit": 980,
+    "hp": 83595645,
+    "id": 64,
+    "lv": 24,
+    "moveSpeed": 40,
+    "point": 500,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 12,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 14909,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1020,
+    "criDamage": 1020,
+    "criDamageResist": 1020,
+    "criResist": 1020,
+    "def": 3663,
+    "defPierce": 255,
+    "defPierceResist": 85,
+    "difficultyStage": 6301,
+    "dodge": 1020,
+    "hit": 1020,
+    "hp": 112053195,
+    "id": 65,
+    "lv": 25,
+    "moveSpeed": 40,
+    "point": 520,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 5,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 15507,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1060,
+    "criDamage": 1060,
+    "criDamageResist": 1060,
+    "criResist": 1060,
+    "def": 3809,
+    "defPierce": 265,
+    "defPierceResist": 88.33,
+    "difficultyStage": 6553,
+    "dodge": 1060,
+    "hit": 1060,
+    "hp": 150188985,
+    "id": 66,
+    "lv": 26,
+    "moveSpeed": 40,
+    "point": 540,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 13,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 16110,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1100,
+    "criDamage": 1100,
+    "criDamageResist": 1100,
+    "criResist": 1100,
+    "def": 3958,
+    "defPierce": 275,
+    "defPierceResist": 91.67,
+    "difficultyStage": 6805,
+    "dodge": 1100,
+    "hit": 1100,
+    "hp": 201294585,
+    "id": 67,
+    "lv": 27,
+    "moveSpeed": 40,
+    "point": 560,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 16709,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1140,
+    "criDamage": 1140,
+    "criDamageResist": 1140,
+    "criResist": 1140,
+    "def": 4104,
+    "defPierce": 285,
+    "defPierceResist": 95,
+    "difficultyStage": 7057,
+    "dodge": 1140,
+    "hit": 1140,
+    "hp": 269780985,
+    "id": 68,
+    "lv": 28,
+    "moveSpeed": 40,
+    "point": 580,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 14,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 17312,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1180,
+    "criDamage": 1180,
+    "criDamageResist": 1180,
+    "criResist": 1180,
+    "def": 4253,
+    "defPierce": 295,
+    "defPierceResist": 98.33,
+    "difficultyStage": 7309,
+    "dodge": 1180,
+    "hit": 1180,
+    "hp": 361559340,
+    "id": 69,
+    "lv": 29,
+    "moveSpeed": 40,
+    "point": 600,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 17915,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1220,
+    "criDamage": 1220,
+    "criDamageResist": 1220,
+    "criResist": 1220,
+    "def": 4399,
+    "defPierce": 305,
+    "defPierceResist": 101.67,
+    "difficultyStage": 7561,
+    "dodge": 1220,
+    "hit": 1220,
+    "hp": 484551090,
+    "id": 70,
+    "lv": 30,
+    "moveSpeed": 40,
+    "point": 620,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 6,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 18513,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1260,
+    "criDamage": 1260,
+    "criDamageResist": 1260,
+    "criResist": 1260,
+    "def": 4547,
+    "defPierce": 315,
+    "defPierceResist": 105,
+    "difficultyStage": 7813,
+    "dodge": 1260,
+    "hit": 1260,
+    "hp": 649371780,
+    "id": 71,
+    "lv": 31,
+    "moveSpeed": 40,
+    "point": 640,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 19116,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1300,
+    "criDamage": 1300,
+    "criDamageResist": 1300,
+    "criResist": 1300,
+    "def": 4694,
+    "defPierce": 325,
+    "defPierceResist": 108.33,
+    "difficultyStage": 8065,
+    "dodge": 1300,
+    "hit": 1300,
+    "hp": 870247305,
+    "id": 72,
+    "lv": 32,
+    "moveSpeed": 40,
+    "point": 660,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 16,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 19715,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1340,
+    "criDamage": 1340,
+    "criDamageResist": 1340,
+    "criResist": 1340,
+    "def": 4842,
+    "defPierce": 335,
+    "defPierceResist": 111.67,
+    "difficultyStage": 8317,
+    "dodge": 1340,
+    "hit": 1340,
+    "hp": 1166241645,
+    "id": 73,
+    "lv": 33,
+    "moveSpeed": 40,
+    "point": 680,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 20318,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1380,
+    "criDamage": 1380,
+    "criDamageResist": 1380,
+    "criResist": 1380,
+    "def": 4988,
+    "defPierce": 345,
+    "defPierceResist": 115,
+    "difficultyStage": 8569,
+    "dodge": 1380,
+    "hit": 1380,
+    "hp": 1562902335,
+    "id": 74,
+    "lv": 34,
+    "moveSpeed": 40,
+    "point": 700,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 17,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 20916,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1420,
+    "criDamage": 1420,
+    "criDamageResist": 1420,
+    "criResist": 1420,
+    "def": 5137,
+    "defPierce": 355,
+    "defPierceResist": 118.33,
+    "difficultyStage": 8821,
+    "dodge": 1420,
+    "hit": 1420,
+    "hp": 2094465600,
+    "id": 75,
+    "lv": 35,
+    "moveSpeed": 40,
+    "point": 720,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 22,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 7,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 21519,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1460,
+    "criDamage": 1460,
+    "criDamageResist": 1460,
+    "criResist": 1460,
+    "def": 5283,
+    "defPierce": 365,
+    "defPierceResist": 121.67,
+    "difficultyStage": 9073,
+    "dodge": 1460,
+    "hit": 1460,
+    "hp": 2806811190,
+    "id": 76,
+    "lv": 36,
+    "moveSpeed": 40,
+    "point": 740,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 22,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 18,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 22118,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1500,
+    "criDamage": 1500,
+    "criDamageResist": 1500,
+    "criResist": 1500,
+    "def": 5432,
+    "defPierce": 375,
+    "defPierceResist": 125,
+    "difficultyStage": 9325,
+    "dodge": 1500,
+    "hit": 1500,
+    "hp": 3761422470,
+    "id": 77,
+    "lv": 37,
+    "moveSpeed": 40,
+    "point": 760,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 23,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 22721,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1540,
+    "criDamage": 1540,
+    "criDamageResist": 1540,
+    "criResist": 1540,
+    "def": 5578,
+    "defPierce": 385,
+    "defPierceResist": 128.33,
+    "difficultyStage": 9577,
+    "dodge": 1540,
+    "hit": 1540,
+    "hp": 5040692820,
+    "id": 78,
+    "lv": 38,
+    "moveSpeed": 40,
+    "point": 780,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 23,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 19,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 23324,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1580,
+    "criDamage": 1580,
+    "criDamageResist": 1580,
+    "criResist": 1580,
+    "def": 5726,
+    "defPierce": 395,
+    "defPierceResist": 131.67,
+    "difficultyStage": 9829,
+    "dodge": 1580,
+    "hit": 1580,
+    "hp": 6755037480,
+    "id": 79,
+    "lv": 39,
+    "moveSpeed": 40,
+    "point": 800,
+    "poolId": 1,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 24,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
+  },
+  {
+    "appearanceWave": 3,
+    "assetId": 4,
+    "atk": 23922,
+    "atkSpeed": 0.2,
+    "bossId": 2,
+    "cri": 1620,
+    "criDamage": 1620,
+    "criDamageResist": 1620,
+    "criResist": 1620,
+    "def": 5873,
+    "defPierce": 405,
+    "defPierceResist": 135,
+    "difficultyStage": 10081,
+    "dodge": 1620,
+    "hit": 1620,
+    "hp": 9052423290,
+    "id": 80,
+    "lv": 40,
+    "moveSpeed": 40,
+    "point": 820,
+    "poolId": 2,
+    "rewardInfo": {
+      "rates": [30, 5, 4, 1, 25, 20, 10, 5],
+      "rewards": [
+        {
+          "c": 24,
+          "gr": 1,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 20,
+          "gr": 2,
+          "st": 2,
+          "t": 22
+        },
+        {
+          "c": 21,
+          "gr": 1,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 8,
+          "gr": 2,
+          "st": 2,
+          "t": 23
+        },
+        {
+          "c": 20,
+          "gr": 1,
+          "t": 201
+        },
+        {
+          "c": 15,
+          "gr": 2,
+          "t": 201
+        },
+        {
+          "c": 10,
+          "gr": 3,
+          "t": 201
+        },
+        {
+          "c": 5,
+          "gr": 4,
+          "t": 201
+        }
+      ]
+    }
   }
 ]

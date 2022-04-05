@@ -1,27 +1,177 @@
 [
-  { "maxLv": 200, "evolvePiece": 10, "id": 1, "summonPiece": 10, "stone": 0 },
-  { "maxLv": 350, "evolvePiece": 20, "id": 2, "summonPiece": 30, "stone": 80 },
-  { "maxLv": 500, "evolvePiece": 30, "id": 3, "summonPiece": 60, "stone": 160 },
-  { "maxLv": 700, "evolvePiece": 40, "id": 4, "summonPiece": 100, "stone": 240 },
-  { "maxLv": 900, "evolvePiece": 50, "id": 5, "summonPiece": 150, "stone": 320 },
-  { "maxLv": 1150, "evolvePiece": 60, "id": 6, "summonPiece": 210, "stone": 480 },
-  { "maxLv": 1400, "evolvePiece": 70, "id": 7, "summonPiece": 280, "stone": 640 },
-  { "maxLv": 1700, "evolvePiece": 80, "id": 8, "summonPiece": 360, "stone": 800 },
-  { "maxLv": 2000, "evolvePiece": 90, "id": 9, "summonPiece": 450, "stone": 960 },
-  { "maxLv": 2350, "evolvePiece": 100, "id": 10, "summonPiece": 550, "stone": 1120 },
-  { "maxLv": 2700, "evolvePiece": 110, "id": 11, "summonPiece": 660, "stone": 1440 },
-  { "maxLv": 3100, "evolvePiece": 120, "id": 12, "summonPiece": 780, "stone": 1760 },
-  { "maxLv": 3500, "evolvePiece": 130, "id": 13, "summonPiece": 910, "stone": 2080 },
-  { "maxLv": 3950, "evolvePiece": 140, "id": 14, "summonPiece": 1050, "stone": 2400 },
-  { "maxLv": 4400, "evolvePiece": 150, "id": 15, "summonPiece": 1200, "stone": 2720 },
-  { "maxLv": 4900, "evolvePiece": 160, "id": 16, "summonPiece": 1360, "stone": 3360 },
-  { "maxLv": 5400, "evolvePiece": 170, "id": 17, "summonPiece": 1530, "stone": 4000 },
-  { "maxLv": 5900, "evolvePiece": 180, "id": 18, "summonPiece": 1710, "stone": 4640 },
-  { "maxLv": 6450, "evolvePiece": 190, "id": 19, "summonPiece": 1900, "stone": 5280 },
-  { "maxLv": 7000, "evolvePiece": 200, "id": 20, "summonPiece": 2100, "stone": 5920 },
-  { "maxLv": 7600, "evolvePiece": 210, "id": 21, "summonPiece": 2310, "stone": 7200 },
-  { "maxLv": 8200, "evolvePiece": 220, "id": 22, "summonPiece": 2530, "stone": 8480 },
-  { "maxLv": 8800, "evolvePiece": 230, "id": 23, "summonPiece": 2760, "stone": 9760 },
-  { "maxLv": 9400, "evolvePiece": 240, "id": 24, "summonPiece": 3000, "stone": 11040 },
-  { "maxLv": 12000, "evolvePiece": 250, "id": 25, "summonPiece": 3250, "stone": 12320 }
+  {
+    "evolvePiece": 10,
+    "id": 1,
+    "maxLv": 200,
+    "stone": 0,
+    "summonPiece": 10
+  },
+  {
+    "evolvePiece": 20,
+    "id": 2,
+    "maxLv": 350,
+    "stone": 80,
+    "summonPiece": 30
+  },
+  {
+    "evolvePiece": 30,
+    "id": 3,
+    "maxLv": 500,
+    "stone": 160,
+    "summonPiece": 60
+  },
+  {
+    "evolvePiece": 40,
+    "id": 4,
+    "maxLv": 700,
+    "stone": 240,
+    "summonPiece": 100
+  },
+  {
+    "evolvePiece": 50,
+    "id": 5,
+    "maxLv": 900,
+    "stone": 320,
+    "summonPiece": 150
+  },
+  {
+    "evolvePiece": 60,
+    "id": 6,
+    "maxLv": 1150,
+    "stone": 480,
+    "summonPiece": 210
+  },
+  {
+    "evolvePiece": 70,
+    "id": 7,
+    "maxLv": 1400,
+    "stone": 640,
+    "summonPiece": 280
+  },
+  {
+    "evolvePiece": 80,
+    "id": 8,
+    "maxLv": 1700,
+    "stone": 800,
+    "summonPiece": 360
+  },
+  {
+    "evolvePiece": 90,
+    "id": 9,
+    "maxLv": 2000,
+    "stone": 960,
+    "summonPiece": 450
+  },
+  {
+    "evolvePiece": 100,
+    "id": 10,
+    "maxLv": 2350,
+    "stone": 1120,
+    "summonPiece": 550
+  },
+  {
+    "evolvePiece": 110,
+    "id": 11,
+    "maxLv": 2700,
+    "stone": 1440,
+    "summonPiece": 660
+  },
+  {
+    "evolvePiece": 120,
+    "id": 12,
+    "maxLv": 3100,
+    "stone": 1760,
+    "summonPiece": 780
+  },
+  {
+    "evolvePiece": 130,
+    "id": 13,
+    "maxLv": 3500,
+    "stone": 2080,
+    "summonPiece": 910
+  },
+  {
+    "evolvePiece": 140,
+    "id": 14,
+    "maxLv": 3950,
+    "stone": 2400,
+    "summonPiece": 1050
+  },
+  {
+    "evolvePiece": 150,
+    "id": 15,
+    "maxLv": 4400,
+    "stone": 2720,
+    "summonPiece": 1200
+  },
+  {
+    "evolvePiece": 160,
+    "id": 16,
+    "maxLv": 4900,
+    "stone": 3360,
+    "summonPiece": 1360
+  },
+  {
+    "evolvePiece": 170,
+    "id": 17,
+    "maxLv": 5400,
+    "stone": 4000,
+    "summonPiece": 1530
+  },
+  {
+    "evolvePiece": 180,
+    "id": 18,
+    "maxLv": 5900,
+    "stone": 4640,
+    "summonPiece": 1710
+  },
+  {
+    "evolvePiece": 190,
+    "id": 19,
+    "maxLv": 6450,
+    "stone": 5280,
+    "summonPiece": 1900
+  },
+  {
+    "evolvePiece": 200,
+    "id": 20,
+    "maxLv": 7000,
+    "stone": 5920,
+    "summonPiece": 2100
+  },
+  {
+    "evolvePiece": 210,
+    "id": 21,
+    "maxLv": 7600,
+    "stone": 7200,
+    "summonPiece": 2310
+  },
+  {
+    "evolvePiece": 220,
+    "id": 22,
+    "maxLv": 8200,
+    "stone": 8480,
+    "summonPiece": 2530
+  },
+  {
+    "evolvePiece": 230,
+    "id": 23,
+    "maxLv": 8800,
+    "stone": 9760,
+    "summonPiece": 2760
+  },
+  {
+    "evolvePiece": 240,
+    "id": 24,
+    "maxLv": 9400,
+    "stone": 11040,
+    "summonPiece": 3000
+  },
+  {
+    "evolvePiece": 250,
+    "id": 25,
+    "maxLv": 12000,
+    "stone": 12320,
+    "summonPiece": 3250
+  }
 ]

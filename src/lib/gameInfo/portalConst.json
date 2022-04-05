@@ -19,9 +19,9 @@
     }
   ],
   "TICKET": {
-    "INIT_CNT": 5,
     "BUY_DAY_LIMIT": 5,
     "BUY_TICKET_LIMIT": 10,
-    "COST": 100
+    "COST": 100,
+    "INIT_CNT": 5
   }
 }

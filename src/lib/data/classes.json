@@ -1,10 +1,10 @@
 [
   {
-    "name": "Supporter",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/d/dd/ClassSupporter.png"
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/d/dd/ClassSupporter.png",
+    "name": "Supporter"
   },
   {
-    "name": "Warrior",
-    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/1/17/ClassWarrior.png"
+    "image": "https://static.wikia.nocookie.net/idle-kingdom/images/1/17/ClassWarrior.png",
+    "name": "Warrior"
   }
 ]

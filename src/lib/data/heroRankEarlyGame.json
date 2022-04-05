@@ -1,11 +1,10 @@
 [
   {
-    "title": "Godlike",
     "color": "red",
-    "heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian"]
+    "heroList": ["Tristan", "Luke", "Gabriel", "Camilla", "Evan", "Christian"],
+    "title": "Godlike"
   },
   {
-    "title": "Great",
     "color": "orange",
     "heroList": [
       "Adrian",
@@ -17,15 +16,15 @@
       "Harold",
       "Rodrick",
       "Daniel"
-    ]
+    ],
+    "title": "Great"
   },
   {
-    "title": "Good",
     "color": "amber",
-    "heroList": ["Aisha", "Blake", "Ryan", "Carlos", "Vincent", "Mason", "Marcus", "Raven"]
+    "heroList": ["Aisha", "Blake", "Ryan", "Carlos", "Vincent", "Mason", "Marcus", "Raven"],
+    "title": "Good"
   },
   {
-    "title": "Try to Replace",
     "color": "yellow",
     "heroList": [
       "Sophia",
@@ -37,6 +36,7 @@
       "Leonidas",
       "Miguel",
       "Logan"
-    ]
+    ],
+    "title": "Try to Replace"
   }
 ]

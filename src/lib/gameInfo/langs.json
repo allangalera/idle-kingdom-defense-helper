@@ -1,8 +1,50 @@
 [
-  { "name": "English", "code": "en", "id": 1, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
-  { "name": "Русский", "code": "ru", "id": 2, "downMsg": "", "fontName": "en.ttf", "downUrl": "" },
-  { "name": "Deutsch", "code": "de", "id": 3, "downMsg": "", "fontName": "ko.ttf", "downUrl": "" },
-  { "name": "español", "code": "es", "id": 4, "downMsg": "", "fontName": "ko.ttf", "downUrl": "" },
-  { "name": "한국어", "code": "ko", "id": 5, "downMsg": "", "fontName": "ko.ttf", "downUrl": "" },
-  { "name": "日本語", "code": "ja", "id": 6, "downMsg": "", "fontName": "ja.ttf", "downUrl": "" }
+  {
+    "code": "en",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "en.ttf",
+    "id": 1,
+    "name": "English"
+  },
+  {
+    "code": "ru",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "en.ttf",
+    "id": 2,
+    "name": "Русский"
+  },
+  {
+    "code": "de",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 3,
+    "name": "Deutsch"
+  },
+  {
+    "code": "es",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 4,
+    "name": "español"
+  },
+  {
+    "code": "ko",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 5,
+    "name": "한국어"
+  },
+  {
+    "code": "ja",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ja.ttf",
+    "id": 6,
+    "name": "日本語"
+  }
 ]

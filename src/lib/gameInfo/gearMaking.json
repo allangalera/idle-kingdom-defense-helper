@@ -1,1287 +1,1401 @@
 [
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 1,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 20,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 1,
-    "result": { "rates": [1], "grades": [1] },
+    "result": {
+      "grades": [1],
+      "rates": [1]
+    },
     "step": 1
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 2,
-    "reqScroll": 40,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 40,
     "reqStage": 155,
-    "result": { "rates": [0.01, 0.99], "grades": [2, 1] },
+    "result": {
+      "grades": [2, 1],
+      "rates": [0.01, 0.99]
+    },
     "step": 2
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 3,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 60,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 365,
-    "result": { "rates": [0.005, 0.015, 0.98], "grades": [3, 2, 1] },
+    "result": {
+      "grades": [3, 2, 1],
+      "rates": [0.005, 0.015, 0.98]
+    },
     "step": 3
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 4,
-    "reqScroll": 80,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 80,
     "reqStage": 701,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.935], "grades": [4, 3, 2, 1] },
+    "result": {
+      "grades": [4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.935]
+    },
     "step": 4
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 5,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 100,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 1037,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.8], "grades": [5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.8]
+    },
     "step": 5
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 6,
-    "reqScroll": 120,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 120,
     "reqStage": 1373,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [6, 5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [6, 5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 6
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 7,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 140,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 1709,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [7, 6, 5, 4, 3, 2] },
+    "result": {
+      "grades": [7, 6, 5, 4, 3, 2],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 7
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 8,
-    "reqScroll": 160,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 160,
     "reqStage": 2213,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [8, 7, 6, 5, 4, 3] },
+    "result": {
+      "grades": [8, 7, 6, 5, 4, 3],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 8
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 9,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 180,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 2717,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [9, 8, 7, 6, 5, 4] },
+    "result": {
+      "grades": [9, 8, 7, 6, 5, 4],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 9
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 10,
-    "reqScroll": 200,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 200,
     "reqStage": 3221,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [10, 9, 8, 7, 6, 5] },
+    "result": {
+      "grades": [10, 9, 8, 7, 6, 5],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 10
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 11,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 220,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 3725,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [11, 10, 9, 8, 7, 6] },
+    "result": {
+      "grades": [11, 10, 9, 8, 7, 6],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 11
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 12,
-    "reqScroll": 240,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 240,
     "reqStage": 4397,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [12, 11, 10, 9, 8, 7]
+      "grades": [12, 11, 10, 9, 8, 7],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 12
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 13,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 260,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 5069,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [13, 12, 11, 10, 9, 8]
+      "grades": [13, 12, 11, 10, 9, 8],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 13
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 14,
-    "reqScroll": 280,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 280,
     "reqStage": 5741,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [14, 13, 12, 11, 10, 9]
+      "grades": [14, 13, 12, 11, 10, 9],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 14
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 15,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 300,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 6413,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [15, 14, 13, 12, 11, 10]
+      "grades": [15, 14, 13, 12, 11, 10],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 15
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 16,
-    "reqScroll": 320,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 320,
     "reqStage": 7085,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [16, 15, 14, 13, 12, 11]
+      "grades": [16, 15, 14, 13, 12, 11],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 16
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 17,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 340,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 7757,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [17, 16, 15, 14, 13, 12]
+      "grades": [17, 16, 15, 14, 13, 12],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 17
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 18,
-    "reqScroll": 360,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 360,
     "reqStage": 8429,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [18, 17, 16, 15, 14, 13]
+      "grades": [18, 17, 16, 15, 14, 13],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 18
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 19,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 380,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 9101,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [19, 18, 17, 16, 15, 14]
+      "grades": [19, 18, 17, 16, 15, 14],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 19
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 20,
-    "reqScroll": 400,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 400,
     "reqStage": 9773,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [20, 19, 18, 17, 16, 15]
+      "grades": [20, 19, 18, 17, 16, 15],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 20
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 21,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 420,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 10500,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [21, 20, 19, 18, 17, 16]
+      "grades": [21, 20, 19, 18, 17, 16],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 21
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 22,
-    "reqScroll": 440,
     "makingGrade": 1,
-    "costCash": 200,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 440,
     "reqStage": 11200,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [22, 21, 20, 19, 18, 17]
+      "grades": [22, 21, 20, 19, 18, 17],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 22
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 23,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
     "reqScroll": 460,
-    "makingGrade": 1,
-    "costCash": 200,
     "reqStage": 11900,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [23, 22, 21, 20, 19, 18]
+      "grades": [23, 22, 21, 20, 19, 18],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 23
   },
   {
-    "maxCnt": 2,
-    "minCnt": 1,
+    "costCash": 200,
     "id": 24,
-    "reqScroll": 480,
     "makingGrade": 1,
-    "costCash": 200,
-    "reqStage": 12600,
-    "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [24, 23, 22, 21, 20, 19]
-    },
-    "step": 24
-  },
-  {
     "maxCnt": 2,
     "minCnt": 1,
-    "id": 25,
-    "reqScroll": 500,
-    "makingGrade": 1,
+    "reqScroll": 480,
+    "reqStage": 12600,
+    "result": {
+      "grades": [24, 23, 22, 21, 20, 19],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
+    "step": 24
+  },
+  {
     "costCash": 200,
+    "id": 25,
+    "makingGrade": 1,
+    "maxCnt": 2,
+    "minCnt": 1,
+    "reqScroll": 500,
     "reqStage": 13300,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [25, 24, 23, 22, 21, 20]
+      "grades": [25, 24, 23, 22, 21, 20],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 25
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 26,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 40,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 1,
-    "result": { "rates": [0.02, 0.98], "grades": [2, 1] },
+    "result": {
+      "grades": [2, 1],
+      "rates": [0.02, 0.98]
+    },
     "step": 1
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 27,
-    "reqScroll": 80,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 80,
     "reqStage": 155,
-    "result": { "rates": [0.01, 0.03, 0.96], "grades": [3, 2, 1] },
+    "result": {
+      "grades": [3, 2, 1],
+      "rates": [0.01, 0.03, 0.96]
+    },
     "step": 2
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 28,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 120,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 365,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.935], "grades": [4, 3, 2, 1] },
+    "result": {
+      "grades": [4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.935]
+    },
     "step": 3
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 29,
-    "reqScroll": 160,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 160,
     "reqStage": 701,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.8], "grades": [5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.8]
+    },
     "step": 4
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 30,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 200,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 1037,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [6, 5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [6, 5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 5
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 31,
-    "reqScroll": 240,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 240,
     "reqStage": 1373,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [7, 6, 5, 4, 3, 2] },
+    "result": {
+      "grades": [7, 6, 5, 4, 3, 2],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 6
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 32,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 280,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 1709,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [8, 7, 6, 5, 4, 3] },
+    "result": {
+      "grades": [8, 7, 6, 5, 4, 3],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 7
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 33,
-    "reqScroll": 320,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 320,
     "reqStage": 2213,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [9, 8, 7, 6, 5, 4] },
+    "result": {
+      "grades": [9, 8, 7, 6, 5, 4],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 8
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 34,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 360,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 2717,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [10, 9, 8, 7, 6, 5] },
+    "result": {
+      "grades": [10, 9, 8, 7, 6, 5],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 9
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 35,
-    "reqScroll": 400,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 400,
     "reqStage": 3221,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [11, 10, 9, 8, 7, 6] },
+    "result": {
+      "grades": [11, 10, 9, 8, 7, 6],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 10
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 36,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 440,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 3725,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [12, 11, 10, 9, 8, 7]
+      "grades": [12, 11, 10, 9, 8, 7],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 11
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 37,
-    "reqScroll": 480,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 480,
     "reqStage": 4397,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [13, 12, 11, 10, 9, 8]
+      "grades": [13, 12, 11, 10, 9, 8],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 12
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 38,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 520,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 5069,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [14, 13, 12, 11, 10, 9]
+      "grades": [14, 13, 12, 11, 10, 9],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 13
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 39,
-    "reqScroll": 560,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 560,
     "reqStage": 5741,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [15, 14, 13, 12, 11, 10]
+      "grades": [15, 14, 13, 12, 11, 10],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 14
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 40,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 600,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 6413,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [16, 15, 14, 13, 12, 11]
+      "grades": [16, 15, 14, 13, 12, 11],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 15
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 41,
-    "reqScroll": 640,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 640,
     "reqStage": 7085,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [17, 16, 15, 14, 13, 12]
+      "grades": [17, 16, 15, 14, 13, 12],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 16
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 42,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 680,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 7757,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [18, 17, 16, 15, 14, 13]
+      "grades": [18, 17, 16, 15, 14, 13],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 17
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 43,
-    "reqScroll": 720,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 720,
     "reqStage": 8429,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [19, 18, 17, 16, 15, 14]
+      "grades": [19, 18, 17, 16, 15, 14],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 18
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 44,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 760,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 9101,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [20, 19, 18, 17, 16, 15]
+      "grades": [20, 19, 18, 17, 16, 15],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 19
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 45,
-    "reqScroll": 800,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 800,
     "reqStage": 9773,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [21, 20, 19, 18, 17, 16]
+      "grades": [21, 20, 19, 18, 17, 16],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 20
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 46,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 840,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 10500,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [22, 21, 20, 19, 18, 17]
+      "grades": [22, 21, 20, 19, 18, 17],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 21
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 47,
-    "reqScroll": 880,
     "makingGrade": 2,
-    "costCash": 400,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 880,
     "reqStage": 11200,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [23, 22, 21, 20, 19, 18]
+      "grades": [23, 22, 21, 20, 19, 18],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 22
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 48,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
     "reqScroll": 920,
-    "makingGrade": 2,
-    "costCash": 400,
     "reqStage": 11900,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [24, 23, 22, 21, 20, 19]
+      "grades": [24, 23, 22, 21, 20, 19],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 23
   },
   {
-    "maxCnt": 4,
-    "minCnt": 2,
+    "costCash": 400,
     "id": 49,
-    "reqScroll": 960,
     "makingGrade": 2,
-    "costCash": 400,
-    "reqStage": 12600,
-    "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [25, 24, 23, 22, 21, 20]
-    },
-    "step": 24
-  },
-  {
     "maxCnt": 4,
     "minCnt": 2,
-    "id": 50,
-    "reqScroll": 1000,
-    "makingGrade": 2,
+    "reqScroll": 960,
+    "reqStage": 12600,
+    "result": {
+      "grades": [25, 24, 23, 22, 21, 20],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
+    "step": 24
+  },
+  {
     "costCash": 400,
+    "id": 50,
+    "makingGrade": 2,
+    "maxCnt": 4,
+    "minCnt": 2,
+    "reqScroll": 1000,
     "reqStage": 13300,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [26, 25, 24, 23, 22, 21]
+      "grades": [26, 25, 24, 23, 22, 21],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 25
   },
   {
-    "maxCnt": 6,
-    "minCnt": 3,
+    "costCash": 800,
     "id": 51,
-    "reqScroll": 80,
     "makingGrade": 3,
-    "costCash": 800,
+    "maxCnt": 6,
+    "minCnt": 3,
+    "reqScroll": 80,
     "reqStage": 1,
-    "result": { "rates": [0.02, 0.06, 0.92], "grades": [3, 2, 1] },
+    "result": {
+      "grades": [3, 2, 1],
+      "rates": [0.02, 0.06, 0.92]
+    },
     "step": 1
   },
   {
+    "costCash": 800,
+    "id": 52,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 52,
     "reqScroll": 160,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 155,
-    "result": { "rates": [0.01, 0.03, 0.18, 0.78], "grades": [4, 3, 2, 1] },
+    "result": {
+      "grades": [4, 3, 2, 1],
+      "rates": [0.01, 0.03, 0.18, 0.78]
+    },
     "step": 2
   },
   {
+    "costCash": 800,
+    "id": 53,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 53,
     "reqScroll": 240,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 365,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.8], "grades": [5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.8]
+    },
     "step": 3
   },
   {
+    "costCash": 800,
+    "id": 54,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 54,
     "reqScroll": 320,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 701,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [6, 5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [6, 5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 4
   },
   {
+    "costCash": 800,
+    "id": 55,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 55,
     "reqScroll": 400,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 1037,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [7, 6, 5, 4, 3, 2] },
+    "result": {
+      "grades": [7, 6, 5, 4, 3, 2],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 5
   },
   {
+    "costCash": 800,
+    "id": 56,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 56,
     "reqScroll": 480,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 1373,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [8, 7, 6, 5, 4, 3] },
+    "result": {
+      "grades": [8, 7, 6, 5, 4, 3],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 6
   },
   {
+    "costCash": 800,
+    "id": 57,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 57,
     "reqScroll": 560,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 1709,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [9, 8, 7, 6, 5, 4] },
+    "result": {
+      "grades": [9, 8, 7, 6, 5, 4],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 7
   },
   {
+    "costCash": 800,
+    "id": 58,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 58,
     "reqScroll": 640,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 2213,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [10, 9, 8, 7, 6, 5] },
+    "result": {
+      "grades": [10, 9, 8, 7, 6, 5],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 8
   },
   {
+    "costCash": 800,
+    "id": 59,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 59,
     "reqScroll": 720,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 2717,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [11, 10, 9, 8, 7, 6] },
+    "result": {
+      "grades": [11, 10, 9, 8, 7, 6],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 9
   },
   {
+    "costCash": 800,
+    "id": 60,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 60,
     "reqScroll": 800,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 3221,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [12, 11, 10, 9, 8, 7]
+      "grades": [12, 11, 10, 9, 8, 7],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 10
   },
   {
+    "costCash": 800,
+    "id": 61,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 61,
     "reqScroll": 880,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 3725,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [13, 12, 11, 10, 9, 8]
+      "grades": [13, 12, 11, 10, 9, 8],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 11
   },
   {
+    "costCash": 800,
+    "id": 62,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 62,
     "reqScroll": 960,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 4397,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [14, 13, 12, 11, 10, 9]
+      "grades": [14, 13, 12, 11, 10, 9],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 12
   },
   {
+    "costCash": 800,
+    "id": 63,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 63,
     "reqScroll": 1040,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 5069,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [15, 14, 13, 12, 11, 10]
+      "grades": [15, 14, 13, 12, 11, 10],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 13
   },
   {
+    "costCash": 800,
+    "id": 64,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 64,
     "reqScroll": 1120,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 5741,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [16, 15, 14, 13, 12, 11]
+      "grades": [16, 15, 14, 13, 12, 11],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 14
   },
   {
+    "costCash": 800,
+    "id": 65,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 65,
     "reqScroll": 1200,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 6413,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [17, 16, 15, 14, 13, 12]
+      "grades": [17, 16, 15, 14, 13, 12],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 15
   },
   {
+    "costCash": 800,
+    "id": 66,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 66,
     "reqScroll": 1280,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 7085,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [18, 17, 16, 15, 14, 13]
+      "grades": [18, 17, 16, 15, 14, 13],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 16
   },
   {
+    "costCash": 800,
+    "id": 67,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 67,
     "reqScroll": 1360,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 7757,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [19, 18, 17, 16, 15, 14]
+      "grades": [19, 18, 17, 16, 15, 14],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 17
   },
   {
+    "costCash": 800,
+    "id": 68,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 68,
     "reqScroll": 1440,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 8429,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [20, 19, 18, 17, 16, 15]
+      "grades": [20, 19, 18, 17, 16, 15],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 18
   },
   {
+    "costCash": 800,
+    "id": 69,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 69,
     "reqScroll": 1520,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 9101,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [21, 20, 19, 18, 17, 16]
+      "grades": [21, 20, 19, 18, 17, 16],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 19
   },
   {
+    "costCash": 800,
+    "id": 70,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 70,
     "reqScroll": 1600,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 9773,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [22, 21, 20, 19, 18, 17]
+      "grades": [22, 21, 20, 19, 18, 17],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 20
   },
   {
+    "costCash": 800,
+    "id": 71,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 71,
     "reqScroll": 1680,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 10500,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [23, 22, 21, 20, 19, 18]
+      "grades": [23, 22, 21, 20, 19, 18],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 21
   },
   {
+    "costCash": 800,
+    "id": 72,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 72,
     "reqScroll": 1760,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 11200,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [24, 23, 22, 21, 20, 19]
+      "grades": [24, 23, 22, 21, 20, 19],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 22
   },
   {
+    "costCash": 800,
+    "id": 73,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 73,
     "reqScroll": 1840,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 11900,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [25, 24, 23, 22, 21, 20]
+      "grades": [25, 24, 23, 22, 21, 20],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 23
   },
   {
+    "costCash": 800,
+    "id": 74,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 74,
     "reqScroll": 1920,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 12600,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [26, 25, 24, 23, 22, 21]
+      "grades": [26, 25, 24, 23, 22, 21],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 24
   },
   {
+    "costCash": 800,
+    "id": 75,
+    "makingGrade": 3,
     "maxCnt": 6,
     "minCnt": 3,
-    "id": 75,
     "reqScroll": 2000,
-    "makingGrade": 3,
-    "costCash": 800,
     "reqStage": 13300,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [27, 26, 25, 24, 23, 22]
+      "grades": [27, 26, 25, 24, 23, 22],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 25
   },
   {
+    "costCash": 1600,
+    "id": 76,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 76,
     "reqScroll": 160,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 1,
-    "result": { "rates": [0.02, 0.06, 0.18, 0.74], "grades": [4, 3, 2, 1] },
+    "result": {
+      "grades": [4, 3, 2, 1],
+      "rates": [0.02, 0.06, 0.18, 0.74]
+    },
     "step": 1
   },
   {
+    "costCash": 1600,
+    "id": 77,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 77,
     "reqScroll": 320,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 155,
-    "result": { "rates": [0.01, 0.03, 0.09, 0.27, 0.6], "grades": [5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [5, 4, 3, 2, 1],
+      "rates": [0.01, 0.03, 0.09, 0.27, 0.6]
+    },
     "step": 2
   },
   {
+    "costCash": 1600,
+    "id": 78,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 78,
     "reqScroll": 480,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 365,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [6, 5, 4, 3, 2, 1] },
+    "result": {
+      "grades": [6, 5, 4, 3, 2, 1],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 3
   },
   {
+    "costCash": 1600,
+    "id": 79,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 79,
     "reqScroll": 640,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 701,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [7, 6, 5, 4, 3, 2] },
+    "result": {
+      "grades": [7, 6, 5, 4, 3, 2],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 4
   },
   {
+    "costCash": 1600,
+    "id": 80,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 80,
     "reqScroll": 800,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 1037,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [8, 7, 6, 5, 4, 3] },
+    "result": {
+      "grades": [8, 7, 6, 5, 4, 3],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 5
   },
   {
+    "costCash": 1600,
+    "id": 81,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 81,
     "reqScroll": 960,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 1373,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [9, 8, 7, 6, 5, 4] },
+    "result": {
+      "grades": [9, 8, 7, 6, 5, 4],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 6
   },
   {
+    "costCash": 1600,
+    "id": 82,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 82,
     "reqScroll": 1120,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 1709,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [10, 9, 8, 7, 6, 5] },
+    "result": {
+      "grades": [10, 9, 8, 7, 6, 5],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 7
   },
   {
+    "costCash": 1600,
+    "id": 83,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 83,
     "reqScroll": 1280,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 2213,
-    "result": { "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53], "grades": [11, 10, 9, 8, 7, 6] },
+    "result": {
+      "grades": [11, 10, 9, 8, 7, 6],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
+    },
     "step": 8
   },
   {
+    "costCash": 1600,
+    "id": 84,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 84,
     "reqScroll": 1440,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 2717,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [12, 11, 10, 9, 8, 7]
+      "grades": [12, 11, 10, 9, 8, 7],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 9
   },
   {
+    "costCash": 1600,
+    "id": 85,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 85,
     "reqScroll": 1600,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 3221,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [13, 12, 11, 10, 9, 8]
+      "grades": [13, 12, 11, 10, 9, 8],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 10
   },
   {
+    "costCash": 1600,
+    "id": 86,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 86,
     "reqScroll": 1760,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 3725,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [14, 13, 12, 11, 10, 9]
+      "grades": [14, 13, 12, 11, 10, 9],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 11
   },
   {
+    "costCash": 1600,
+    "id": 87,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 87,
     "reqScroll": 1920,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 4397,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [15, 14, 13, 12, 11, 10]
+      "grades": [15, 14, 13, 12, 11, 10],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 12
   },
   {
+    "costCash": 1600,
+    "id": 88,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 88,
     "reqScroll": 2080,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 5069,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [16, 15, 14, 13, 12, 11]
+      "grades": [16, 15, 14, 13, 12, 11],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 13
   },
   {
+    "costCash": 1600,
+    "id": 89,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 89,
     "reqScroll": 2240,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 5741,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [17, 16, 15, 14, 13, 12]
+      "grades": [17, 16, 15, 14, 13, 12],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 14
   },
   {
+    "costCash": 1600,
+    "id": 90,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 90,
     "reqScroll": 2400,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 6413,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [18, 17, 16, 15, 14, 13]
+      "grades": [18, 17, 16, 15, 14, 13],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 15
   },
   {
+    "costCash": 1600,
+    "id": 91,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 91,
     "reqScroll": 2560,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 7085,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [19, 18, 17, 16, 15, 14]
+      "grades": [19, 18, 17, 16, 15, 14],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 16
   },
   {
+    "costCash": 1600,
+    "id": 92,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 92,
     "reqScroll": 2720,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 7757,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [20, 19, 18, 17, 16, 15]
+      "grades": [20, 19, 18, 17, 16, 15],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 17
   },
   {
+    "costCash": 1600,
+    "id": 93,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 93,
     "reqScroll": 2880,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 8429,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [21, 20, 19, 18, 17, 16]
+      "grades": [21, 20, 19, 18, 17, 16],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 18
   },
   {
+    "costCash": 1600,
+    "id": 94,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 94,
     "reqScroll": 3040,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 9101,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [22, 21, 20, 19, 18, 17]
+      "grades": [22, 21, 20, 19, 18, 17],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 19
   },
   {
+    "costCash": 1600,
+    "id": 95,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 95,
     "reqScroll": 3200,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 9773,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [23, 22, 21, 20, 19, 18]
+      "grades": [23, 22, 21, 20, 19, 18],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 20
   },
   {
+    "costCash": 1600,
+    "id": 96,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 96,
     "reqScroll": 3360,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 10500,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [24, 23, 22, 21, 20, 19]
+      "grades": [24, 23, 22, 21, 20, 19],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 21
   },
   {
+    "costCash": 1600,
+    "id": 97,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 97,
     "reqScroll": 3520,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 11200,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [25, 24, 23, 22, 21, 20]
+      "grades": [25, 24, 23, 22, 21, 20],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 22
   },
   {
+    "costCash": 1600,
+    "id": 98,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 98,
     "reqScroll": 3680,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 11900,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [26, 25, 24, 23, 22, 21]
+      "grades": [26, 25, 24, 23, 22, 21],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 23
   },
   {
+    "costCash": 1600,
+    "id": 99,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 99,
     "reqScroll": 3840,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 12600,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [27, 26, 25, 24, 23, 22]
+      "grades": [27, 26, 25, 24, 23, 22],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 24
   },
   {
+    "costCash": 1600,
+    "id": 100,
+    "makingGrade": 4,
     "maxCnt": 8,
     "minCnt": 4,
-    "id": 100,
     "reqScroll": 4000,
-    "makingGrade": 4,
-    "costCash": 1600,
     "reqStage": 13300,
     "result": {
-      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53],
-      "grades": [28, 27, 26, 25, 24, 23]
+      "grades": [28, 27, 26, 25, 24, 23],
+      "rates": [0.005, 0.015, 0.045, 0.135, 0.27, 0.53]
     },
     "step": 25
   }

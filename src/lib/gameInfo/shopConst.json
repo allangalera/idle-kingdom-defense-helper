@@ -7,42 +7,42 @@
   "EFFECTOR_DATA_PORTALTICKET": [1, 2, 3, 4, 5],
   "EFFECTOR_DATA_RAIDTICKET": [1, 2, 3, 4, 5],
   "EFFECTOR_TYPE": {
-    "EVENTDTICKET_1": 6,
-    "PORTALTICKET": 5,
-    "RAIDTICKET": 4,
-    "IDLE_TIME": 1,
-    "EVENTDTICKET_3": 8,
-    "EVENTDTICKET_2": 7,
     "AUTOREPEATTICKET": 9,
+    "EVENTDTICKET_1": 6,
+    "EVENTDTICKET_2": 7,
+    "EVENTDTICKET_3": 8,
     "IDLE_GOLD": 2,
-    "IDLE_SOUL": 3
+    "IDLE_SOUL": 3,
+    "IDLE_TIME": 1,
+    "PORTALTICKET": 5,
+    "RAIDTICKET": 4
   },
   "INFO": {
     "RUNDAYS": 1
   },
   "LIMIT_INFO": {
-    "HGEAR_PLUSGRADE": 1,
-    "DESIGN_PLUSGRADE": 1,
     "DESIGN_MINGRADE": 3,
-    "HGEAR_MINGRADE": 3
+    "DESIGN_PLUSGRADE": 1,
+    "HGEAR_MINGRADE": 3,
+    "HGEAR_PLUSGRADE": 1
   },
   "LIMIT_TYPE": {
     "DAILY": 1,
-    "WEEKLY": 2,
-    "NONE": 0,
     "MONTHLY": 3,
-    "ONLYONE": 4
+    "NONE": 0,
+    "ONLYONE": 4,
+    "WEEKLY": 2
   },
   "SUMMON": {
-    "TYPE_RUNE": 2,
-    "TYPE_HERO": 1
+    "TYPE_HERO": 1,
+    "TYPE_RUNE": 2
   },
   "TYPE": {
+    "CASH": 4,
     "ETC": 6,
-    "HERO_LIMIT": 2,
     "GIFT": 5,
-    "MONTHLY": 3,
+    "HERO_LIMIT": 2,
     "LIMIT": 1,
-    "CASH": 4
+    "MONTHLY": 3
   }
 }
