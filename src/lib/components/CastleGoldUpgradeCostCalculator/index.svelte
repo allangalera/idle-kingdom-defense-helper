@@ -37,6 +37,6 @@
     }}
   />
   <div class={styles.result}>
-    <Card cardType="coin" value={goldNeeded} />
+    <Card cardType="coin" value={goldNeeded} decimalNumbers={2} />
   </div>
 </div>
