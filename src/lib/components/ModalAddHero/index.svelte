@@ -13,7 +13,7 @@
   import { theme } from '$lib/styles/themes/index.css';
   import { addOrUpdateHero } from '$lib/shared/stores/user/heroes';
 
-  import { MAX_HERO_LEVEL } from '$lib/constants';
+  import { MAX_HERO_LEVEL } from '$lib/db/heroes';
   import type { Grades } from '$lib/types';
   export let open = false;
   export let onClose: VoidFunction;

@@ -144,3 +144,5 @@ export const defaultSortingHeroes = (heroes: Hero[]) =>
 export const heroes = defaultSortingHeroes(generateHeroList());
 
 export const heroGradeInfo = heroGradeInfoJSON;
+
+export const MAX_HERO_LEVEL = heroGradeInfoJSON.slice(-1)[0].maxLv

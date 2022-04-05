@@ -19,7 +19,7 @@
   const incSoulstones = [2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
   import { heroUpgradeCostCalculatorParameterSchema } from '$lib/utils';
   import { onMount } from 'svelte';
-  import { MAX_HERO_LEVEL } from '$lib/constants';
+  import { MAX_HERO_LEVEL } from '$lib/db/heroes';
 
   onMount(() => {
     dataSoulStones = [];

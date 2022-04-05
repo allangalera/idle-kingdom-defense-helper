@@ -1,4 +1,4 @@
-import { MAX_HERO_LEVEL } from '$lib/constants';
+import { MAX_HERO_LEVEL } from '$lib/db/heroes';
 import { RarityEnum } from '$lib/enums';
 import type { Grades, UpgradeLevel } from '$lib/types';
 import { nanoid } from 'nanoid';
