@@ -4,25 +4,24 @@ import type { Grades, UpgradeLevel } from '$lib/types';
 import { match } from 'oxide.ts';
 import { z } from 'zod';
 
-
 export const genericRounding = (value: number, n: number): number => {
   const d = Math.pow(10, n);
   return Math.round((value + Number.EPSILON) * d) / d;
-}
+};
 
-type GetIdleKingdomNumberFormat = (
-  value: number,
-  decimalNumbers?: number
-) => string
+type GetIdleKingdomNumberFormat = (value: number, decimalNumbers?: number) => string;
 
-export const getIdleKingdomNumberFormat: GetIdleKingdomNumberFormat = (value, decimalNumbers = 0): string => {
+export const getIdleKingdomNumberFormat: GetIdleKingdomNumberFormat = (
+  value,
+  decimalNumbers = 0
+): string => {
   let formattedString = genericRounding(value, decimalNumbers).toString();
   if (value >= 10000000000) {
-    formattedString = genericRounding(value/1000000000, decimalNumbers).toString() + 'B';
+    formattedString = genericRounding(value / 1000000000, decimalNumbers).toString() + 'B';
   } else if (value >= 10000000) {
-    formattedString = genericRounding(value/1000000, decimalNumbers).toString() + 'M';
+    formattedString = genericRounding(value / 1000000, decimalNumbers).toString() + 'M';
   } else if (value >= 100000) {
-    formattedString = genericRounding(value/1000, decimalNumbers).toString() + 'K';
+    formattedString = genericRounding(value / 1000, decimalNumbers).toString() + 'K';
   }
 
   return formattedString;
