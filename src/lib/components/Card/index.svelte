@@ -10,6 +10,7 @@
   export let width: Sprinkles['width'] = 24;
   export let value: number = 0;
   export let cardType: CardType;
+  export let decimalNumbers: number = 0;
 </script>
 
 <CardBorder {width}>
@@ -31,7 +32,7 @@
       {/if}
     </div>
     <div class={styles.textContainer}>
-      <span>{getIdleKingdomNumberFormat(value)}</span>
+      <span>{getIdleKingdomNumberFormat(value, decimalNumbers)}</span>
     </div>
   </div>
 </CardBorder>

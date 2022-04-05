@@ -122,10 +122,10 @@
   />
   <div class={styles.result}>
     <div class={styles.goldResult}>
-      <Card cardType="coin" value={result.coins} />
+      <Card cardType="coin" value={result.coins} decimalNumbers={2} />
     </div>
     <div class={styles.soulResult}>
-      <Card cardType="soulstone" value={result.souls} />
+      <Card cardType="soulstone" value={result.souls} decimalNumbers={2} />
     </div>
   </div>
 </div>

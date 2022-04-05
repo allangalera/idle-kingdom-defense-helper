@@ -30,14 +30,24 @@ export const createSortByListAndName = (tierList) => (array) => {
   return clonedArray.sort(sortFunction);
 };
 
-export const getIdleKingdomNumberFormat = (value: number): string => {
-  let formattedString = Math.floor(value).toString();
+export const genericRounding = (value, n) => {
+  const d = Math.pow(10, n);
+  return Math.round((value + Number.EPSILON) * d) / d;
+}
+
+type GetIdleKingdomNumberFormat = (
+  value: number,
+  decimalNumbers?: number
+) => string
+
+export const getIdleKingdomNumberFormat: GetIdleKingdomNumberFormat = (value, decimalNumbers = 0): string => {
+  let formattedString = genericRounding(value, decimalNumbers).toString();
   if (value >= 10000000000) {
-    formattedString = Math.floor(value / 1000000000).toString() + 'B';
+    formattedString = genericRounding(value/1000000000, decimalNumbers).toString() + 'B';
   } else if (value >= 10000000) {
-    formattedString = Math.floor(value / 1000000).toString() + 'M';
+    formattedString = genericRounding(value/1000000, decimalNumbers).toString() + 'M';
   } else if (value >= 100000) {
-    formattedString = Math.floor(value / 1000).toString() + 'K';
+    formattedString = genericRounding(value/1000, decimalNumbers).toString() + 'K';
   }
 
   return formattedString;
