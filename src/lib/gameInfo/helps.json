@@ -1,20 +1,74 @@
 {
-  "PORTAL": { "message": "HELP_MSG_PORTAL", "title": "HELP_TITLE_PORTAL" },
-  "TOWN": { "message": "HELP_MSG_TOWN", "title": "HELP_TITLE_TOWN" },
-  "FORMATION": { "message": "HELP_MSG_FORMATION", "title": "HELP_TITLE_FORMATION" },
-  "CASTLE": { "message": "HELP_MSG_CASTLE", "title": "HELP_TITLE_CASTLE" },
-  "ARCHER": { "message": "HELP_MSG_ARCHER", "title": "HELP_TITLE_ARCHER" },
-  "HEROLIST": { "message": "HELP_MSG_HEROLIST", "title": "HELP_TITLE_HEROLIST" },
-  "SHOP": { "message": "HELP_MSG_SHOP", "title": "HELP_TITLE_SHOP" },
-  "CONQUEST": { "message": "HELP_MSG_CONQUEST", "title": "HELP_TITLE_CONQUEST" },
-  "HERO": { "message": "HELP_MSG_HERO", "title": "HELP_TITLE_HERO" },
-  "ADSHOP": { "message": "HELP_MSG_ADSHOP", "title": "HELP_TITLE_ADSHOP" },
-  "FIELD": { "message": "HELP_MSG_FIELD", "title": "HELP_TITLE_FIELD" },
-  "ASTROLOGY": { "message": "HELP_MSG_ASTROLOTY", "title": "HELP_TITLE_ASTROLOTY" },
-  "MARKET": { "message": "HELP_MSG_MARKET", "title": "HELP_TITLE_MARKET" },
-  "RAID": { "message": "HELP_MSG_RAID", "title": "HELP_TITLE_RAID" },
-  "SANCTUARY": { "message": "HELP_MSG_SANCTUARY", "title": "HELP_TITLE_SANCTUARY" },
-  "RUIN": { "message": "HELP_MSG_RUIN", "title": "HELP_TITLE_RUIN" },
-  "ALTER": { "message": "HELP_MSG_ALTER", "title": "HELP_TITLE_ALTER" },
-  "FORGE": { "message": "HELP_MSG_FORGE", "title": "HELP_TITLE_FORGE" }
+  "ADSHOP": {
+    "message": "HELP_MSG_ADSHOP",
+    "title": "HELP_TITLE_ADSHOP"
+  },
+  "ALTER": {
+    "message": "HELP_MSG_ALTER",
+    "title": "HELP_TITLE_ALTER"
+  },
+  "ARCHER": {
+    "message": "HELP_MSG_ARCHER",
+    "title": "HELP_TITLE_ARCHER"
+  },
+  "ASTROLOGY": {
+    "message": "HELP_MSG_ASTROLOTY",
+    "title": "HELP_TITLE_ASTROLOTY"
+  },
+  "CASTLE": {
+    "message": "HELP_MSG_CASTLE",
+    "title": "HELP_TITLE_CASTLE"
+  },
+  "CONQUEST": {
+    "message": "HELP_MSG_CONQUEST",
+    "title": "HELP_TITLE_CONQUEST"
+  },
+  "FIELD": {
+    "message": "HELP_MSG_FIELD",
+    "title": "HELP_TITLE_FIELD"
+  },
+  "FORGE": {
+    "message": "HELP_MSG_FORGE",
+    "title": "HELP_TITLE_FORGE"
+  },
+  "FORMATION": {
+    "message": "HELP_MSG_FORMATION",
+    "title": "HELP_TITLE_FORMATION"
+  },
+  "HERO": {
+    "message": "HELP_MSG_HERO",
+    "title": "HELP_TITLE_HERO"
+  },
+  "HEROLIST": {
+    "message": "HELP_MSG_HEROLIST",
+    "title": "HELP_TITLE_HEROLIST"
+  },
+  "MARKET": {
+    "message": "HELP_MSG_MARKET",
+    "title": "HELP_TITLE_MARKET"
+  },
+  "PORTAL": {
+    "message": "HELP_MSG_PORTAL",
+    "title": "HELP_TITLE_PORTAL"
+  },
+  "RAID": {
+    "message": "HELP_MSG_RAID",
+    "title": "HELP_TITLE_RAID"
+  },
+  "RUIN": {
+    "message": "HELP_MSG_RUIN",
+    "title": "HELP_TITLE_RUIN"
+  },
+  "SANCTUARY": {
+    "message": "HELP_MSG_SANCTUARY",
+    "title": "HELP_TITLE_SANCTUARY"
+  },
+  "SHOP": {
+    "message": "HELP_MSG_SHOP",
+    "title": "HELP_TITLE_SHOP"
+  },
+  "TOWN": {
+    "message": "HELP_MSG_TOWN",
+    "title": "HELP_TITLE_TOWN"
+  }
 }

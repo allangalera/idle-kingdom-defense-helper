@@ -1,257 +1,26 @@
 {
-  "FORGE_NODEBREAK": {
+  "ALTER_NODEPIECESELL": {
     "scale": 1,
-    "id": "FORGE_NODEBREAK",
-    "asset": "csd/forge/nodeBreak",
+    "id": "ALTER_NODEPIECESELL",
+    "asset": "csd/alter/nodePieceSell",
     "assetType": 1
   },
-  "TOP_COIN_40": {
+  "BATTLE_HPBAR_ALIGN": {
     "scale": 1,
-    "id": "TOP_COIN_40",
-    "asset": "csd/common/topPortalCoin",
+    "id": "BATTLE_HPBAR_ALIGN",
+    "asset": "csd/battle/layerAlignHp",
     "assetType": 1
   },
-  "HERO_GUNNER02_ATK": {
+  "BATTLE_HPBAR_BOSS": {
     "scale": 1,
-    "id": "HERO_GUNNER02_ATK",
-    "asset": "csd/unit/weapon/heroGunner02_atk",
+    "id": "BATTLE_HPBAR_BOSS",
+    "asset": "csd/battle/layerBossHp",
     "assetType": 1
   },
-  "NODEANICRAFT": {
+  "BATTLE_HPBAR_ENEMY": {
     "scale": 1,
-    "id": "NODEANICRAFT",
-    "asset": "csd/archer/nodeAniCraft",
-    "assetType": 1
-  },
-  "POPUP_AGREE": {
-    "scale": 1,
-    "id": "POPUP_AGREE",
-    "asset": "csd/setting/popupAgree",
-    "assetType": 1
-  },
-  "HERO_LEVELUP_EFFECT": {
-    "scale": 1,
-    "id": "HERO_LEVELUP_EFFECT",
-    "asset": "csd/hero/nodeHeroLevelUp",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_3": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_3",
-    "asset": "csd/cashShop/ruby/3",
-    "assetType": 1
-  },
-  "PORTAL_FORMATION3": {
-    "scale": 1,
-    "id": "PORTAL_FORMATION3",
-    "asset": "csd/portal/nodeFormation3",
-    "assetType": 1
-  },
-  "HERO_ARCHER03_ATK": {
-    "scale": 1,
-    "id": "HERO_ARCHER03_ATK",
-    "asset": "csd/unit/weapon/heroArcher03_atk",
-    "assetType": 1
-  },
-  "SCENE_ALTER": {
-    "scale": 1,
-    "id": "SCENE_ALTER",
-    "asset": "csd/scene/AlterScene",
-    "assetType": 1
-  },
-  "HERO_GUNNER02": {
-    "scale": 0.65,
-    "id": "HERO_GUNNER02",
-    "asset": "spine/heroGunner02",
-    "assetType": 2
-  },
-  "UNIT_CASTLEARCHER": {
-    "scale": 0.65,
-    "id": "UNIT_CASTLEARCHER",
-    "asset": "spine/castleArcher",
-    "assetType": 2
-  },
-  "UNIT_HEROWIZARD01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROWIZARD01_EVIL",
-    "asset": "spine/heroWizard01_evil",
-    "assetType": 2
-  },
-  "BATTLE_NODESTAGEBAR": {
-    "scale": 1,
-    "id": "BATTLE_NODESTAGEBAR",
-    "asset": "csd/battle/nodeStageBar",
-    "assetType": 1
-  },
-  "UNIT_ENEMYARCHER_ATK": {
-    "scale": 1,
-    "id": "UNIT_ENEMYARCHER_ATK",
-    "asset": "csd/unit/weaponEnemy/enemyArcher_atk",
-    "assetType": 1
-  },
-  "GUIDE_CASTLE": {
-    "scale": 1,
-    "id": "GUIDE_CASTLE",
-    "asset": "csd/field/GuideCastle",
-    "assetType": 1
-  },
-  "SCENE_RAID": { "scale": 1, "id": "SCENE_RAID", "asset": "csd/scene/RaidScene", "assetType": 1 },
-  "POPUP_PASS_WIDGET_LV": {
-    "scale": 1,
-    "id": "POPUP_PASS_WIDGET_LV",
-    "asset": "csd/pass/layerPassTree",
-    "assetType": 1
-  },
-  "HERO_BABARIAN03_SKILL_BTM": {
-    "scale": 0.65,
-    "id": "HERO_BABARIAN03_SKILL_BTM",
-    "asset": "spine/heroBarbarian03_btm",
-    "assetType": 2
-  },
-  "UNIT_ENEMYARCHER": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYARCHER",
-    "asset": "spine/enemyArcher",
-    "assetType": 2
-  },
-  "SCENE_CONQUEST": {
-    "scale": 1,
-    "id": "SCENE_CONQUEST",
-    "asset": "csd/scene/ConquestScene",
-    "assetType": 1
-  },
-  "UNIT_BOSS_WOLF": {
-    "scale": 0.65,
-    "id": "UNIT_BOSS_WOLF",
-    "asset": "spine/bossWolf",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_PACKAGE": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_PACKAGE",
-    "asset": "csd/cashShop/layerPackage",
-    "assetType": 1
-  },
-  "CONQUEST_MAP_3": {
-    "scale": 1,
-    "id": "CONQUEST_MAP_3",
-    "asset": "csd/conquest/continent/3",
-    "assetType": 1
-  },
-  "HERO_HORSEMAN02": {
-    "scale": 0.65,
-    "id": "HERO_HORSEMAN02",
-    "asset": "spine/heroHorseman02",
-    "assetType": 2
-  },
-  "POPUP_ENCHANT_RESULT": {
-    "scale": 1,
-    "id": "POPUP_ENCHANT_RESULT",
-    "asset": "csd/forge/layerEnchant",
-    "assetType": 1
-  },
-  "UNIT_SOLDIERGOLEM": {
-    "scale": 0.65,
-    "id": "UNIT_SOLDIERGOLEM",
-    "asset": "spine/soldierGolem",
-    "assetType": 2
-  },
-  "POPUP_PASS": { "scale": 1, "id": "POPUP_PASS", "asset": "csd/pass/popupPass", "assetType": 1 },
-  "CONTENTS_NODE_1": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_1",
-    "asset": "csd/town/nodeArcher",
-    "assetType": 1
-  },
-  "UNIT_HEROWIZARD02_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROWIZARD02_EVIL",
-    "asset": "spine/heroWizard02_evil",
-    "assetType": 2
-  },
-  "PORTAL_FORMATION5": {
-    "scale": 1,
-    "id": "PORTAL_FORMATION5",
-    "asset": "csd/portal/nodeFormation5",
-    "assetType": 1
-  },
-  "HERO_ARCHER02_ATK": {
-    "scale": 1,
-    "id": "HERO_ARCHER02_ATK",
-    "asset": "csd/unit/weapon/heroArcher02_atk",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_9": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_9",
-    "asset": "csd/town/nodeEventDungeon2",
-    "assetType": 1
-  },
-  "POPUP_STAGE_INFO": {
-    "scale": 1,
-    "id": "POPUP_STAGE_INFO",
-    "asset": "csd/field/popupStageInfo",
-    "assetType": 1
-  },
-  "POPUP_REPEATBATTLEINFO": {
-    "scale": 1,
-    "id": "POPUP_REPEATBATTLEINFO",
-    "asset": "csd/field/popupRepeatBattleInfo",
-    "assetType": 1
-  },
-  "UNIT_ENEMYSPEAR": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYSPEAR",
-    "asset": "spine/enemySpear",
-    "assetType": 2
-  },
-  "UNIT_CATAPULT": {
-    "scale": 0.65,
-    "id": "UNIT_CATAPULT",
-    "asset": "spine/enemyCatapult",
-    "assetType": 2
-  },
-  "HERO_GUNNER01_BUFF": {
-    "scale": 1,
-    "id": "HERO_GUNNER01_BUFF",
-    "asset": "csd/unit/ability/heroGunner01_buff",
-    "assetType": 1
-  },
-  "HERO_WIZARD08": {
-    "scale": 0.65,
-    "id": "HERO_WIZARD08",
-    "asset": "spine/heroWizard08",
-    "assetType": 2
-  },
-  "UNIT_HORSEMAN": {
-    "scale": 0.65,
-    "id": "UNIT_HORSEMAN",
-    "asset": "spine/soldierHorseman",
-    "assetType": 2
-  },
-  "HERO_33_SKILL": {
-    "scale": 1,
-    "id": "HERO_33_SKILL",
-    "asset": "csd/unit/weapon/heroArcher05_skill",
-    "assetType": 1
-  },
-  "HERO_KNIGHT10_SKILL": {
-    "scale": 1,
-    "id": "HERO_KNIGHT10_SKILL",
-    "asset": "csd/unit/weapon/heroKnight10_skill",
-    "assetType": 1
-  },
-  "HERO_33": { "scale": 0.65, "id": "HERO_33", "asset": "spine/heroArcher05", "assetType": 2 },
-  "HERO_WIZARD01_BUFF": {
-    "scale": 1,
-    "id": "HERO_WIZARD01_BUFF",
-    "asset": "csd/unit/ability/heroWizard01_buff",
-    "assetType": 1
-  },
-  "POPUP_ARCHERSHOP": {
-    "scale": 1,
-    "id": "POPUP_ARCHERSHOP",
-    "asset": "csd/archer/popupArcherShop",
+    "id": "BATTLE_HPBAR_ENEMY",
+    "asset": "csd/battle/layerEnemyHp",
     "assetType": 1
   },
   "BATTLE_HPBAR_HERO": {
@@ -260,131 +29,22 @@
     "asset": "csd/battle/layerHeroHp",
     "assetType": 1
   },
-  "NODE_REWARDGLOW3": {
+  "BATTLE_HP_WARNING": {
     "scale": 1,
-    "id": "NODE_REWARDGLOW3",
-    "asset": "csd/common/nodeRewardGlow3",
+    "id": "BATTLE_HP_WARNING",
+    "asset": "csd/battle/layerRedFrame",
     "assetType": 1
   },
-  "BATTLE_TEXT": {
+  "BATTLE_NODEALERT": {
     "scale": 1,
-    "id": "BATTLE_TEXT",
-    "asset": "csd/battle/nodeBattleText",
+    "id": "BATTLE_NODEALERT",
+    "asset": "csd/battle/nodeAlert",
     "assetType": 1
   },
-  "HERO_WIZARD06_SKILL_BTM": {
+  "BATTLE_NODEAUTOSPIN": {
     "scale": 1,
-    "id": "HERO_WIZARD06_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroWizard06_skill_btm",
-    "assetType": 1
-  },
-  "UNIT_ENEMYWIZARD": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYWIZARD",
-    "asset": "spine/enemyWizard",
-    "assetType": 2
-  },
-  "UNIT_COMMANDER": {
-    "scale": 0.65,
-    "id": "UNIT_COMMANDER",
-    "asset": "spine/enemySlime",
-    "assetType": 2
-  },
-  "HERO_THROWER_RANGE": {
-    "scale": 1,
-    "id": "HERO_THROWER_RANGE",
-    "asset": "csd/unit/weapon/heroThrower_range",
-    "assetType": 1
-  },
-  "UNIT_CANNON": {
-    "scale": 0.65,
-    "id": "UNIT_CANNON",
-    "asset": "spine/enemyCannon",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_4": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_4",
-    "asset": "csd/cashShop/ruby/4",
-    "assetType": 1
-  },
-  "POPUP_HERO_SUMMON": {
-    "scale": 1,
-    "id": "POPUP_HERO_SUMMON",
-    "asset": "csd/hero/layerSummon",
-    "assetType": 1
-  },
-  "HERO_WIZARD05_BUFF": {
-    "scale": 1,
-    "id": "HERO_WIZARD05_BUFF",
-    "asset": "csd/unit/ability/heroWizard05_buff",
-    "assetType": 1
-  },
-  "UNIT_SLIME": { "scale": 0.65, "id": "UNIT_SLIME", "asset": "spine/enemySlime", "assetType": 2 },
-  "UNIT_CATAPULT_ATK": {
-    "scale": 1,
-    "id": "UNIT_CATAPULT_ATK",
-    "asset": "csd/unit/weaponEnemy/enemyCatapult_atk",
-    "assetType": 1
-  },
-  "HERO_GUNNER01": {
-    "scale": 0.65,
-    "id": "HERO_GUNNER01",
-    "asset": "spine/heroGunner01",
-    "assetType": 2
-  },
-  "UNIT_ENEMYARCHER03": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYARCHER03",
-    "asset": "spine/enemyArcher03",
-    "assetType": 2
-  },
-  "SCENE_ARCHER": {
-    "scale": 1,
-    "id": "SCENE_ARCHER",
-    "asset": "csd/scene/ArcherScene",
-    "assetType": 1
-  },
-  "HERO_WIZARD03_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD03_ATK",
-    "asset": "csd/unit/weapon/heroWizard03_atk",
-    "assetType": 1
-  },
-  "SCENE_HEROLIST": {
-    "scale": 1,
-    "id": "SCENE_HEROLIST",
-    "asset": "csd/scene/HeroListScene",
-    "assetType": 1
-  },
-  "POPUP_BATTLE_LOSE": {
-    "scale": 1,
-    "id": "POPUP_BATTLE_LOSE",
-    "asset": "csd/common/popupLose",
-    "assetType": 1
-  },
-  "HERO_HORSEMAN01": {
-    "scale": 0.65,
-    "id": "HERO_HORSEMAN01",
-    "asset": "spine/heroHorseman01",
-    "assetType": 2
-  },
-  "POPUP_SHOP_SPECIAL": {
-    "scale": 1,
-    "id": "POPUP_SHOP_SPECIAL",
-    "asset": "csd/cashShop/popupSpecial",
-    "assetType": 1
-  },
-  "HERO_WIZARD04": {
-    "scale": 0.65,
-    "id": "HERO_WIZARD04",
-    "asset": "spine/heroWizard04",
-    "assetType": 2
-  },
-  "POPUP_EVENTDUNGEON_STAGEITEM": {
-    "scale": 1,
-    "id": "POPUP_EVENTDUNGEON_STAGEITEM",
-    "asset": "csd/event/widgetStageItem",
+    "id": "BATTLE_NODEAUTOSPIN",
+    "asset": "csd/battle/nodeAutoSpin",
     "assetType": 1
   },
   "BATTLE_NODESKILLBTN": {
@@ -393,10 +53,274 @@
     "asset": "csd/battle/nodeSkillBtn",
     "assetType": 1
   },
-  "POPUP_BATTLE_WIN_STAGE": {
+  "BATTLE_NODESTAGEBAR": {
     "scale": 1,
-    "id": "POPUP_BATTLE_WIN_STAGE",
-    "asset": "csd/common/popupWinStage",
+    "id": "BATTLE_NODESTAGEBAR",
+    "asset": "csd/battle/nodeStageBar",
+    "assetType": 1
+  },
+  "BATTLE_TEXT": {
+    "scale": 1,
+    "id": "BATTLE_TEXT",
+    "asset": "csd/battle/nodeBattleText",
+    "assetType": 1
+  },
+  "CASTLE_BOUNCE": {
+    "scale": 1,
+    "id": "CASTLE_BOUNCE",
+    "asset": "csd/castle/nodeCastleBounce",
+    "assetType": 1
+  },
+  "CASTLE_NODEENGRAVE": {
+    "scale": 1,
+    "id": "CASTLE_NODEENGRAVE",
+    "asset": "csd/castle/nodeEngraveCastle",
+    "assetType": 1
+  },
+  "CASTLE_NODEINCARCHER": {
+    "scale": 1,
+    "id": "CASTLE_NODEINCARCHER",
+    "asset": "csd/castle/nodeIncArcher",
+    "assetType": 1
+  },
+  "CASTLE_NODEINCPARTS": {
+    "scale": 1,
+    "id": "CASTLE_NODEINCPARTS",
+    "asset": "csd/castle/nodeIncParts",
+    "assetType": 1
+  },
+  "CASTLE_NODEINCSLOT": {
+    "scale": 1,
+    "id": "CASTLE_NODEINCSLOT",
+    "asset": "csd/castle/nodeIncSlot",
+    "assetType": 1
+  },
+  "COMMON_ATTACKEDEFFECT": {
+    "scale": 1,
+    "id": "COMMON_ATTACKEDEFFECT",
+    "asset": "csd/common/attackedEffect",
+    "assetType": 1
+  },
+  "COMMON_ATTACKEDEFFECT_CASTLE": {
+    "scale": 1,
+    "id": "COMMON_ATTACKEDEFFECT_CASTLE",
+    "asset": "csd/common/attackedEffectCastle",
+    "assetType": 1
+  },
+  "COMMON_NODENOTI": {
+    "scale": 1,
+    "id": "COMMON_NODENOTI",
+    "asset": "csd/common/nodeNoti",
+    "assetType": 1
+  },
+  "COMMON_NODENOTIGET": {
+    "scale": 1,
+    "id": "COMMON_NODENOTIGET",
+    "asset": "csd/common/nodeNotiGet",
+    "assetType": 1
+  },
+  "COMMON_NODENOTI_SUCC": {
+    "scale": 1,
+    "id": "COMMON_NODENOTI_SUCC",
+    "asset": "csd/common/nodeNotiSuccess",
+    "assetType": 1
+  },
+  "COMMON_NODEQUESTNOTI": {
+    "scale": 1,
+    "id": "COMMON_NODEQUESTNOTI",
+    "asset": "csd/common/nodeQuestNotice",
+    "assetType": 1
+  },
+  "CONQUEST_MAP_1": {
+    "scale": 1,
+    "id": "CONQUEST_MAP_1",
+    "asset": "csd/conquest/continent/1",
+    "assetType": 1
+  },
+  "CONQUEST_MAP_2": {
+    "scale": 1,
+    "id": "CONQUEST_MAP_2",
+    "asset": "csd/conquest/continent/2",
+    "assetType": 1
+  },
+  "CONQUEST_MAP_3": {
+    "scale": 1,
+    "id": "CONQUEST_MAP_3",
+    "asset": "csd/conquest/continent/3",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_1": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_1",
+    "asset": "csd/town/nodeArcher",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_10": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_10",
+    "asset": "csd/town/nodeEventDungeon3",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_11": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_11",
+    "asset": "csd/town/nodeEngrave",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_12": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_12",
+    "asset": "csd/town/nodeConquest",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_13": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_13",
+    "asset": "csd/town/nodeSanctuary",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_15": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_15",
+    "asset": "csd/town/nodeAstrology",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_2": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_2",
+    "asset": "csd/town/nodeFountain",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_3": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_3",
+    "asset": "csd/town/nodePortal",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_4": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_4",
+    "asset": "csd/town/nodeStatue",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_5": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_5",
+    "asset": "csd/town/nodeDungeon",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_6": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_6",
+    "asset": "csd/town/nodeShop",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_8": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_8",
+    "asset": "csd/town/nodeEventDungeon1",
+    "assetType": 1
+  },
+  "CONTENTS_NODE_9": {
+    "scale": 1,
+    "id": "CONTENTS_NODE_9",
+    "asset": "csd/town/nodeEventDungeon2",
+    "assetType": 1
+  },
+  "FORGE_NODEBREAK": {
+    "scale": 1,
+    "id": "FORGE_NODEBREAK",
+    "asset": "csd/forge/nodeBreak",
+    "assetType": 1
+  },
+  "FORMATION_LISTHERO": {
+    "scale": 1,
+    "id": "FORMATION_LISTHERO",
+    "asset": "csd/formation/layerFormListHero",
+    "assetType": 1
+  },
+  "FORMATION_TOOLTIP": {
+    "scale": 1,
+    "id": "FORMATION_TOOLTIP",
+    "asset": "csd/formation/tooltipFormSlot",
+    "assetType": 1
+  },
+  "GUIDE_CASTLE": {
+    "scale": 1,
+    "id": "GUIDE_CASTLE",
+    "asset": "csd/field/GuideCastle",
+    "assetType": 1
+  },
+  "HEROLIST_LAYERGALLARY": {
+    "scale": 1,
+    "id": "HEROLIST_LAYERGALLARY",
+    "asset": "csd/hero/layerGallary",
+    "assetType": 1
+  },
+  "HEROLIST_LAYERHERO": {
+    "scale": 1,
+    "id": "HEROLIST_LAYERHERO",
+    "asset": "csd/hero/layerHero",
+    "assetType": 1
+  },
+  "HERO_33": {
+    "scale": 0.65,
+    "id": "HERO_33",
+    "asset": "spine/heroArcher05",
+    "assetType": 2
+  },
+  "HERO_33_SKILL": {
+    "scale": 1,
+    "id": "HERO_33_SKILL",
+    "asset": "csd/unit/weapon/heroArcher05_skill",
+    "assetType": 1
+  },
+  "HERO_33_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_33_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroArcher05_skill_btm",
+    "assetType": 1
+  },
+  "HERO_33_SKILL_RANGE": {
+    "scale": 1,
+    "id": "HERO_33_SKILL_RANGE",
+    "asset": "csd/unit/weapon/heroArcher05_range",
+    "assetType": 1
+  },
+  "HERO_34": {
+    "scale": 0.65,
+    "id": "HERO_34",
+    "asset": "spine/heroBarbarian04",
+    "assetType": 2
+  },
+  "HERO_ARCHER01": {
+    "scale": 0.65,
+    "id": "HERO_ARCHER01",
+    "asset": "spine/heroArcher01",
+    "assetType": 2
+  },
+  "HERO_ARCHER01_ATK": {
+    "scale": 1,
+    "id": "HERO_ARCHER01_ATK",
+    "asset": "csd/unit/weapon/heroArcher01_atk",
+    "assetType": 1
+  },
+  "HERO_ARCHER01_RANGE": {
+    "scale": 1,
+    "id": "HERO_ARCHER01_RANGE",
+    "asset": "csd/unit/weapon/heroArcher01_range",
+    "assetType": 1
+  },
+  "HERO_ARCHER01_SKILL": {
+    "scale": 1,
+    "id": "HERO_ARCHER01_SKILL",
+    "asset": "csd/unit/weapon/heroArcher01_skill",
+    "assetType": 1
+  },
+  "HERO_ARCHER01_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_ARCHER01_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroArcher01_skill_btm",
     "assetType": 1
   },
   "HERO_ARCHER02": {
@@ -405,17 +329,1577 @@
     "asset": "spine/heroArcher02",
     "assetType": 2
   },
+  "HERO_ARCHER02_ATK": {
+    "scale": 1,
+    "id": "HERO_ARCHER02_ATK",
+    "asset": "csd/unit/weapon/heroArcher02_atk",
+    "assetType": 1
+  },
+  "HERO_ARCHER02_RANGE": {
+    "scale": 1,
+    "id": "HERO_ARCHER02_RANGE",
+    "asset": "csd/unit/weapon/heroArcher02_range",
+    "assetType": 1
+  },
+  "HERO_ARCHER02_SKILL": {
+    "scale": 1,
+    "id": "HERO_ARCHER02_SKILL",
+    "asset": "csd/unit/weapon/heroArcher02_skill",
+    "assetType": 1
+  },
+  "HERO_ARCHER02_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_ARCHER02_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroArcher02_skill_btm",
+    "assetType": 1
+  },
+  "HERO_ARCHER03": {
+    "scale": 0.65,
+    "id": "HERO_ARCHER03",
+    "asset": "spine/heroArcher03",
+    "assetType": 2
+  },
+  "HERO_ARCHER03_ATK": {
+    "scale": 1,
+    "id": "HERO_ARCHER03_ATK",
+    "asset": "csd/unit/weapon/heroArcher03_atk",
+    "assetType": 1
+  },
+  "HERO_ARCHER03_BUFF": {
+    "scale": 1,
+    "id": "HERO_ARCHER03_BUFF",
+    "asset": "csd/unit/ability/heroArcher03_buff",
+    "assetType": 1
+  },
+  "HERO_ARCHER04": {
+    "scale": 0.65,
+    "id": "HERO_ARCHER04",
+    "asset": "spine/heroArcher04",
+    "assetType": 2
+  },
+  "HERO_ARCHER04_ATK": {
+    "scale": 1,
+    "id": "HERO_ARCHER04_ATK",
+    "asset": "csd/unit/weapon/heroArcher04_atk",
+    "assetType": 1
+  },
+  "HERO_ARCHER04_BUFF": {
+    "scale": 1,
+    "id": "HERO_ARCHER04_BUFF",
+    "asset": "csd/unit/ability/heroArcher04_buff",
+    "assetType": 1
+  },
+  "HERO_ARCHER05_ATK": {
+    "scale": 1,
+    "id": "HERO_ARCHER05_ATK",
+    "asset": "csd/unit/weapon/heroArcher05_atk",
+    "assetType": 1
+  },
+  "HERO_BABARIAN01": {
+    "scale": 0.65,
+    "id": "HERO_BABARIAN01",
+    "asset": "spine/heroBarbarian01",
+    "assetType": 2
+  },
+  "HERO_BABARIAN01_SUMMON": {
+    "scale": 1,
+    "id": "HERO_BABARIAN01_SUMMON",
+    "asset": "csd/unit/ability/heroBarbarian01_summon",
+    "assetType": 1
+  },
+  "HERO_BABARIAN02": {
+    "scale": 0.65,
+    "id": "HERO_BABARIAN02",
+    "asset": "spine/heroBarbarian02",
+    "assetType": 2
+  },
+  "HERO_BABARIAN03": {
+    "scale": 0.65,
+    "id": "HERO_BABARIAN03",
+    "asset": "spine/heroBarbarian03",
+    "assetType": 2
+  },
+  "HERO_BABARIAN03_SKILL_BTM": {
+    "scale": 0.65,
+    "id": "HERO_BABARIAN03_SKILL_BTM",
+    "asset": "spine/heroBarbarian03_btm",
+    "assetType": 2
+  },
+  "HERO_GUNNER01": {
+    "scale": 0.65,
+    "id": "HERO_GUNNER01",
+    "asset": "spine/heroGunner01",
+    "assetType": 2
+  },
+  "HERO_GUNNER01_BUFF": {
+    "scale": 1,
+    "id": "HERO_GUNNER01_BUFF",
+    "asset": "csd/unit/ability/heroGunner01_buff",
+    "assetType": 1
+  },
+  "HERO_GUNNER02": {
+    "scale": 0.65,
+    "id": "HERO_GUNNER02",
+    "asset": "spine/heroGunner02",
+    "assetType": 2
+  },
+  "HERO_GUNNER02_ATK": {
+    "scale": 1,
+    "id": "HERO_GUNNER02_ATK",
+    "asset": "csd/unit/weapon/heroGunner02_atk",
+    "assetType": 1
+  },
+  "HERO_GUNNER02_RANGE": {
+    "scale": 1,
+    "id": "HERO_GUNNER02_RANGE",
+    "asset": "csd/unit/weapon/heroGunner02_range",
+    "assetType": 1
+  },
+  "HERO_GUNNER02_SKILL": {
+    "scale": 1,
+    "id": "HERO_GUNNER02_SKILL",
+    "asset": "csd/unit/weapon/heroGunner02_skill",
+    "assetType": 1
+  },
+  "HERO_GUNNER02_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_GUNNER02_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroGunner02_skill_btm",
+    "assetType": 1
+  },
+  "HERO_HORSEMAN01": {
+    "scale": 0.65,
+    "id": "HERO_HORSEMAN01",
+    "asset": "spine/heroHorseman01",
+    "assetType": 2
+  },
+  "HERO_HORSEMAN02": {
+    "scale": 0.65,
+    "id": "HERO_HORSEMAN02",
+    "asset": "spine/heroHorseman02",
+    "assetType": 2
+  },
+  "HERO_HORSEMAN02_BUFF": {
+    "scale": 1,
+    "id": "HERO_HORSEMAN02_BUFF",
+    "asset": "csd/unit/ability/heroHorseman02_buff",
+    "assetType": 1
+  },
+  "HERO_HORSEMAN03": {
+    "scale": 0.65,
+    "id": "HERO_HORSEMAN03",
+    "asset": "spine/heroHorseman03",
+    "assetType": 2
+  },
+  "HERO_HORSEMAN03_SKILL_BTM": {
+    "scale": 0.65,
+    "id": "HERO_HORSEMAN03_SKILL_BTM",
+    "asset": "spine/heroHorseman03_btm",
+    "assetType": 2
+  },
+  "HERO_HORSEMAN04": {
+    "scale": 0.65,
+    "id": "HERO_HORSEMAN04",
+    "asset": "spine/heroHorseman04",
+    "assetType": 2
+  },
+  "HERO_KNIGHT01": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT01",
+    "asset": "spine/heroKnight01",
+    "assetType": 2
+  },
+  "HERO_KNIGHT01_SUMMON": {
+    "scale": 1,
+    "id": "HERO_KNIGHT01_SUMMON",
+    "asset": "csd/unit/ability/heroKnight01_summon",
+    "assetType": 1
+  },
+  "HERO_KNIGHT02": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT02",
+    "asset": "spine/heroKnight02",
+    "assetType": 2
+  },
+  "HERO_KNIGHT03": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT03",
+    "asset": "spine/heroKnight03",
+    "assetType": 2
+  },
+  "HERO_KNIGHT04": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT04",
+    "asset": "spine/heroKnight04",
+    "assetType": 2
+  },
+  "HERO_KNIGHT04_SKILL_BTM": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT04_SKILL_BTM",
+    "asset": "spine/heroKnight04_btm",
+    "assetType": 2
+  },
+  "HERO_KNIGHT05": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT05",
+    "asset": "spine/heroKnight05",
+    "assetType": 2
+  },
+  "HERO_KNIGHT05_BUFF": {
+    "scale": 1,
+    "id": "HERO_KNIGHT05_BUFF",
+    "asset": "csd/unit/ability/heroKnight05_buff",
+    "assetType": 1
+  },
+  "HERO_KNIGHT06": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT06",
+    "asset": "spine/heroKnight06",
+    "assetType": 2
+  },
+  "HERO_KNIGHT06_ATK": {
+    "scale": 1,
+    "id": "HERO_KNIGHT06_ATK",
+    "asset": "csd/unit/weapon/heroKnight06_atk",
+    "assetType": 1
+  },
+  "HERO_KNIGHT06_SKILL": {
+    "scale": 1,
+    "id": "HERO_KNIGHT06_SKILL",
+    "asset": "csd/unit/weapon/heroKnight06_skill",
+    "assetType": 1
+  },
   "HERO_KNIGHT07": {
     "scale": 0.65,
     "id": "HERO_KNIGHT07",
     "asset": "spine/heroKnight07",
     "assetType": 2
   },
-  "BATTLE_NODEAUTOSPIN": {
+  "HERO_KNIGHT08": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT08",
+    "asset": "spine/heroKnight08",
+    "assetType": 2
+  },
+  "HERO_KNIGHT09": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT09",
+    "asset": "spine/heroKnight09",
+    "assetType": 2
+  },
+  "HERO_KNIGHT09_SKILL_BTM": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT09_SKILL_BTM",
+    "asset": "spine/heroKnight09_btm",
+    "assetType": 2
+  },
+  "HERO_KNIGHT10": {
+    "scale": 0.65,
+    "id": "HERO_KNIGHT10",
+    "asset": "spine/heroKnight10",
+    "assetType": 2
+  },
+  "HERO_KNIGHT10_ATK": {
     "scale": 1,
-    "id": "BATTLE_NODEAUTOSPIN",
-    "asset": "csd/battle/nodeAutoSpin",
+    "id": "HERO_KNIGHT10_ATK",
+    "asset": "csd/unit/weapon/heroKnight10_atk",
     "assetType": 1
+  },
+  "HERO_KNIGHT10_RANGE": {
+    "scale": 1,
+    "id": "HERO_KNIGHT10_RANGE",
+    "asset": "csd/unit/weapon/heroKnight10_range",
+    "assetType": 1
+  },
+  "HERO_KNIGHT10_SKILL": {
+    "scale": 1,
+    "id": "HERO_KNIGHT10_SKILL",
+    "asset": "csd/unit/weapon/heroKnight10_skill",
+    "assetType": 1
+  },
+  "HERO_KNIGHT10_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_KNIGHT10_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroKnight10_skill_btm",
+    "assetType": 1
+  },
+  "HERO_LEVELUP_EFFECT": {
+    "scale": 1,
+    "id": "HERO_LEVELUP_EFFECT",
+    "asset": "csd/hero/nodeHeroLevelUp",
+    "assetType": 1
+  },
+  "HERO_STSCHANGE_EFFECT": {
+    "scale": 1,
+    "id": "HERO_STSCHANGE_EFFECT",
+    "asset": "csd/hero/nodeStatusChange",
+    "assetType": 1
+  },
+  "HERO_THROWER": {
+    "scale": 0.65,
+    "id": "HERO_THROWER",
+    "asset": "spine/heroThrower",
+    "assetType": 2
+  },
+  "HERO_THROWER_ATK": {
+    "scale": 1,
+    "id": "HERO_THROWER_ATK",
+    "asset": "csd/unit/weapon/heroThrower_atk",
+    "assetType": 1
+  },
+  "HERO_THROWER_RANGE": {
+    "scale": 1,
+    "id": "HERO_THROWER_RANGE",
+    "asset": "csd/unit/weapon/heroThrower_range",
+    "assetType": 1
+  },
+  "HERO_THROWER_SKILL": {
+    "scale": 1,
+    "id": "HERO_THROWER_SKILL",
+    "asset": "csd/unit/weapon/heroThrower_skill",
+    "assetType": 1
+  },
+  "HERO_THROWER_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_THROWER_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroThrower_skill_btm",
+    "assetType": 1
+  },
+  "HERO_WIZARD01": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD01",
+    "asset": "spine/heroWizard01",
+    "assetType": 2
+  },
+  "HERO_WIZARD01_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD01_ATK",
+    "asset": "csd/unit/weapon/heroWizard01_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD01_BUFF": {
+    "scale": 1,
+    "id": "HERO_WIZARD01_BUFF",
+    "asset": "csd/unit/ability/heroWizard01_buff",
+    "assetType": 1
+  },
+  "HERO_WIZARD02": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD02",
+    "asset": "spine/heroWizard02",
+    "assetType": 2
+  },
+  "HERO_WIZARD02_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD02_ATK",
+    "asset": "csd/unit/weapon/heroWizard02_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD02_SUMMON": {
+    "scale": 1,
+    "id": "HERO_WIZARD02_SUMMON",
+    "asset": "csd/unit/ability/heroWizard02_summon",
+    "assetType": 1
+  },
+  "HERO_WIZARD03": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD03",
+    "asset": "spine/heroWizard03",
+    "assetType": 2
+  },
+  "HERO_WIZARD03_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD03_ATK",
+    "asset": "csd/unit/weapon/heroWizard03_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD03_RANGE": {
+    "scale": 1,
+    "id": "HERO_WIZARD03_RANGE",
+    "asset": "csd/unit/weapon/heroWizard03_range",
+    "assetType": 1
+  },
+  "HERO_WIZARD03_SKILL": {
+    "scale": 1,
+    "id": "HERO_WIZARD03_SKILL",
+    "asset": "csd/unit/weapon/heroWizard03_skill",
+    "assetType": 1
+  },
+  "HERO_WIZARD04": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD04",
+    "asset": "spine/heroWizard04",
+    "assetType": 2
+  },
+  "HERO_WIZARD04_SUMMON": {
+    "scale": 1,
+    "id": "HERO_WIZARD04_SUMMON",
+    "asset": "csd/unit/ability/heroWizard04_summon",
+    "assetType": 1
+  },
+  "HERO_WIZARD05": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD05",
+    "asset": "spine/heroWizard05",
+    "assetType": 2
+  },
+  "HERO_WIZARD05_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD05_ATK",
+    "asset": "csd/unit/weapon/heroWizard05_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD05_BUFF": {
+    "scale": 1,
+    "id": "HERO_WIZARD05_BUFF",
+    "asset": "csd/unit/ability/heroWizard05_buff",
+    "assetType": 1
+  },
+  "HERO_WIZARD06": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD06",
+    "asset": "spine/heroWizard06",
+    "assetType": 2
+  },
+  "HERO_WIZARD06_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD06_ATK",
+    "asset": "csd/unit/weapon/heroWizard06_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD06_RANGE": {
+    "scale": 1,
+    "id": "HERO_WIZARD06_RANGE",
+    "asset": "csd/unit/weapon/heroWizard06_range",
+    "assetType": 1
+  },
+  "HERO_WIZARD06_SKILL": {
+    "scale": 1,
+    "id": "HERO_WIZARD06_SKILL",
+    "asset": "csd/unit/weapon/heroWizard06_skill",
+    "assetType": 1
+  },
+  "HERO_WIZARD06_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_WIZARD06_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroWizard06_skill_btm",
+    "assetType": 1
+  },
+  "HERO_WIZARD07": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD07",
+    "asset": "spine/heroWizard07",
+    "assetType": 2
+  },
+  "HERO_WIZARD07_ATK": {
+    "scale": 1,
+    "id": "HERO_WIZARD07_ATK",
+    "asset": "csd/unit/weapon/heroWizard07_atk",
+    "assetType": 1
+  },
+  "HERO_WIZARD07_RANGE": {
+    "scale": 1,
+    "id": "HERO_WIZARD07_RANGE",
+    "asset": "csd/unit/weapon/heroWizard07_range",
+    "assetType": 1
+  },
+  "HERO_WIZARD07_SKILL": {
+    "scale": 1,
+    "id": "HERO_WIZARD07_SKILL",
+    "asset": "csd/unit/weapon/heroWizard07_skill",
+    "assetType": 1
+  },
+  "HERO_WIZARD07_SKILL_BTM": {
+    "scale": 1,
+    "id": "HERO_WIZARD07_SKILL_BTM",
+    "asset": "csd/unit/weapon/heroWizard07_skill_btm",
+    "assetType": 1
+  },
+  "HERO_WIZARD08": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD08",
+    "asset": "spine/heroWizard08",
+    "assetType": 2
+  },
+  "HERO_WIZARD08_SKILL_BTM": {
+    "scale": 0.65,
+    "id": "HERO_WIZARD08_SKILL_BTM",
+    "asset": "spine/heroWizard08_btm",
+    "assetType": 2
+  },
+  "LISTITEM_ARCHERITEM": {
+    "scale": 1,
+    "id": "LISTITEM_ARCHERITEM",
+    "asset": "csd/layerList/layerListGear",
+    "assetType": 1
+  },
+  "LISTITEM_HGEARITEM": {
+    "scale": 1,
+    "id": "LISTITEM_HGEARITEM",
+    "asset": "csd/layerList/layerListHGear",
+    "assetType": 1
+  },
+  "LISTITEM_PIECEITEM": {
+    "scale": 1,
+    "id": "LISTITEM_PIECEITEM",
+    "asset": "csd/layerList/layerPiece",
+    "assetType": 1
+  },
+  "LISTITEM_REWARDITEM": {
+    "scale": 1,
+    "id": "LISTITEM_REWARDITEM",
+    "asset": "csd/layerList/layerListReward",
+    "assetType": 1
+  },
+  "LISTITEM_RUNE": {
+    "scale": 1,
+    "id": "LISTITEM_RUNE",
+    "asset": "csd/hero/layerRunePiece",
+    "assetType": 1
+  },
+  "NODEANICRAFT": {
+    "scale": 1,
+    "id": "NODEANICRAFT",
+    "asset": "csd/archer/nodeAniCraft",
+    "assetType": 1
+  },
+  "NODE_DESIGN": {
+    "scale": 1,
+    "id": "NODE_DESIGN",
+    "asset": "csd/archer/nodeRecipe",
+    "assetType": 1
+  },
+  "NODE_GEAR": {
+    "scale": 1,
+    "id": "NODE_GEAR",
+    "asset": "csd/archer/nodeGear",
+    "assetType": 1
+  },
+  "NODE_HEROPIECE": {
+    "scale": 1,
+    "id": "NODE_HEROPIECE",
+    "asset": "csd/alter/nodePiece",
+    "assetType": 1
+  },
+  "NODE_HGEAR": {
+    "scale": 1,
+    "id": "NODE_HGEAR",
+    "asset": "csd/alter/nodeHGear",
+    "assetType": 1
+  },
+  "NODE_REWARDETC": {
+    "scale": 1,
+    "id": "NODE_REWARDETC",
+    "asset": "csd/common/nodeRewardEtc",
+    "assetType": 1
+  },
+  "NODE_REWARDGLOW": {
+    "scale": 1,
+    "id": "NODE_REWARDGLOW",
+    "asset": "csd/common/nodeRewardGlow",
+    "assetType": 1
+  },
+  "NODE_REWARDGLOW2": {
+    "scale": 1,
+    "id": "NODE_REWARDGLOW2",
+    "asset": "csd/common/nodeRewardGlow2",
+    "assetType": 1
+  },
+  "NODE_REWARDGLOW3": {
+    "scale": 1,
+    "id": "NODE_REWARDGLOW3",
+    "asset": "csd/common/nodeRewardGlow3",
+    "assetType": 1
+  },
+  "NODE_USERLEVELUP": {
+    "scale": 1,
+    "id": "NODE_USERLEVELUP",
+    "asset": "csd/common/nodeUserLevelUp",
+    "assetType": 1
+  },
+  "NOTI_RUNESUMMONOPEN": {
+    "scale": 1,
+    "id": "NOTI_RUNESUMMONOPEN",
+    "asset": "csd/hero/nodeRuneSummonGradeOpen",
+    "assetType": 1
+  },
+  "POPUP_AGREE": {
+    "scale": 1,
+    "id": "POPUP_AGREE",
+    "asset": "csd/setting/popupAgree",
+    "assetType": 1
+  },
+  "POPUP_ARCHERGEAR_QUALITYLAYER": {
+    "scale": 1,
+    "id": "POPUP_ARCHERGEAR_QUALITYLAYER",
+    "asset": "csd/archer/layerQualityInfo",
+    "assetType": 1
+  },
+  "POPUP_ARCHERSHOP": {
+    "scale": 1,
+    "id": "POPUP_ARCHERSHOP",
+    "asset": "csd/archer/popupArcherShop",
+    "assetType": 1
+  },
+  "POPUP_ARCHERSHOPBUY": {
+    "scale": 1,
+    "id": "POPUP_ARCHERSHOPBUY",
+    "asset": "csd/archer/popupArcherShopBuy",
+    "assetType": 1
+  },
+  "POPUP_ARCHERSHOP_ITEM": {
+    "scale": 1,
+    "id": "POPUP_ARCHERSHOP_ITEM",
+    "asset": "csd/archer/shopItem",
+    "assetType": 1
+  },
+  "POPUP_AUTOCOMBINE": {
+    "scale": 1,
+    "id": "POPUP_AUTOCOMBINE",
+    "asset": "csd/forge/popupAutoCombine",
+    "assetType": 1
+  },
+  "POPUP_BATTLE_LOSE": {
+    "scale": 1,
+    "id": "POPUP_BATTLE_LOSE",
+    "asset": "csd/common/popupLose",
+    "assetType": 1
+  },
+  "POPUP_BATTLE_PAUSE": {
+    "scale": 1,
+    "id": "POPUP_BATTLE_PAUSE",
+    "asset": "csd/battle/popupPause",
+    "assetType": 1
+  },
+  "POPUP_BATTLE_WIN": {
+    "scale": 1,
+    "id": "POPUP_BATTLE_WIN",
+    "asset": "csd/common/popupWin",
+    "assetType": 1
+  },
+  "POPUP_BATTLE_WIN_STAGE": {
+    "scale": 1,
+    "id": "POPUP_BATTLE_WIN_STAGE",
+    "asset": "csd/common/popupWinStage",
+    "assetType": 1
+  },
+  "POPUP_BREAK": {
+    "scale": 1,
+    "id": "POPUP_BREAK",
+    "asset": "csd/archer/popupBreak",
+    "assetType": 1
+  },
+  "POPUP_CAPITALINFO": {
+    "scale": 1,
+    "id": "POPUP_CAPITALINFO",
+    "asset": "csd/conquest/popupCapital",
+    "assetType": 1
+  },
+  "POPUP_CAPITALINFO_LAYERHERO": {
+    "scale": 1,
+    "id": "POPUP_CAPITALINFO_LAYERHERO",
+    "asset": "csd/conquest/layerHeroConquest",
+    "assetType": 1
+  },
+  "POPUP_CONFIRM": {
+    "scale": 1,
+    "id": "POPUP_CONFIRM",
+    "asset": "csd/common/popupConfirm",
+    "assetType": 1
+  },
+  "POPUP_CRAFT": {
+    "scale": 1,
+    "id": "POPUP_CRAFT",
+    "asset": "csd/archer/popupCraft",
+    "assetType": 1
+  },
+  "POPUP_DAYEVENT": {
+    "scale": 1,
+    "id": "POPUP_DAYEVENT",
+    "asset": "csd/event/popupSevenDays",
+    "assetType": 1
+  },
+  "POPUP_ENCHANT": {
+    "scale": 1,
+    "id": "POPUP_ENCHANT",
+    "asset": "csd/archer/popupEnchant",
+    "assetType": 1
+  },
+  "POPUP_ENCHANT_RESULT": {
+    "scale": 1,
+    "id": "POPUP_ENCHANT_RESULT",
+    "asset": "csd/forge/layerEnchant",
+    "assetType": 1
+  },
+  "POPUP_EVENTDUNGEON_LIST": {
+    "scale": 1,
+    "id": "POPUP_EVENTDUNGEON_LIST",
+    "asset": "csd/event/PopupEventDungeonList",
+    "assetType": 1
+  },
+  "POPUP_EVENTDUNGEON_SELECT": {
+    "scale": 1,
+    "id": "POPUP_EVENTDUNGEON_SELECT",
+    "asset": "csd/event/PopupEventDungeonSelect",
+    "assetType": 1
+  },
+  "POPUP_EVENTDUNGEON_STAGEITEM": {
+    "scale": 1,
+    "id": "POPUP_EVENTDUNGEON_STAGEITEM",
+    "asset": "csd/event/widgetStageItem",
+    "assetType": 1
+  },
+  "POPUP_FIELD_LOOT": {
+    "scale": 1,
+    "id": "POPUP_FIELD_LOOT",
+    "asset": "csd/field/popupLoot",
+    "assetType": 1
+  },
+  "POPUP_FONTDOWN": {
+    "scale": 1,
+    "id": "POPUP_FONTDOWN",
+    "asset": "csd/setting/popupFontDown",
+    "assetType": 1
+  },
+  "POPUP_FORGE_BREAKSELECT": {
+    "scale": 1,
+    "id": "POPUP_FORGE_BREAKSELECT",
+    "asset": "csd/archer/popupBreakSelect",
+    "assetType": 1
+  },
+  "POPUP_FORGE_BUYGEAR": {
+    "scale": 1,
+    "id": "POPUP_FORGE_BUYGEAR",
+    "asset": "csd/forge/popupBuyGear",
+    "assetType": 1
+  },
+  "POPUP_FORTRESSINFO": {
+    "scale": 1,
+    "id": "POPUP_FORTRESSINFO",
+    "asset": "csd/conquest/popupFortress",
+    "assetType": 1
+  },
+  "POPUP_GOLDBUY": {
+    "scale": 1,
+    "id": "POPUP_GOLDBUY",
+    "asset": "csd/common/popupGoldBuy",
+    "assetType": 1
+  },
+  "POPUP_HELP": {
+    "scale": 1,
+    "id": "POPUP_HELP",
+    "asset": "csd/common/popupHelp",
+    "assetType": 1
+  },
+  "POPUP_HEROSUMMONRESULT": {
+    "scale": 1,
+    "id": "POPUP_HEROSUMMONRESULT",
+    "asset": "csd/common/nodeRewardBig",
+    "assetType": 1
+  },
+  "POPUP_HERO_EVOLVE": {
+    "scale": 1,
+    "id": "POPUP_HERO_EVOLVE",
+    "asset": "csd/hero/popupEvolve",
+    "assetType": 1
+  },
+  "POPUP_HERO_EVOLVERESULT": {
+    "scale": 1,
+    "id": "POPUP_HERO_EVOLVERESULT",
+    "asset": "csd/hero/layerEvolve",
+    "assetType": 1
+  },
+  "POPUP_HERO_SUMMON": {
+    "scale": 1,
+    "id": "POPUP_HERO_SUMMON",
+    "asset": "csd/hero/layerSummon",
+    "assetType": 1
+  },
+  "POPUP_LANG": {
+    "scale": 1,
+    "id": "POPUP_LANG",
+    "asset": "csd/setting/popupLanguage",
+    "assetType": 1
+  },
+  "POPUP_LANG_BTN": {
+    "scale": 1,
+    "id": "POPUP_LANG_BTN",
+    "asset": "csd/setting/layerLanguage",
+    "assetType": 1
+  },
+  "POPUP_LOADING": {
+    "scale": 1,
+    "id": "POPUP_LOADING",
+    "asset": "csd/common/nodeLoading",
+    "assetType": 1
+  },
+  "POPUP_MAIL": {
+    "scale": 1,
+    "id": "POPUP_MAIL",
+    "asset": "csd/setting/popupMail",
+    "assetType": 1
+  },
+  "POPUP_MAILDETAIL": {
+    "scale": 1,
+    "id": "POPUP_MAILDETAIL",
+    "asset": "csd/setting/popupMailDetail",
+    "assetType": 1
+  },
+  "POPUP_MAIL_ITEM": {
+    "scale": 1,
+    "id": "POPUP_MAIL_ITEM",
+    "asset": "csd/setting/layerMail",
+    "assetType": 1
+  },
+  "POPUP_MARKETGET": {
+    "scale": 1,
+    "id": "POPUP_MARKETGET",
+    "asset": "csd/common/nodeNotiGetMarket",
+    "assetType": 1
+  },
+  "POPUP_NEWCONTENT": {
+    "scale": 1,
+    "id": "POPUP_NEWCONTENT",
+    "asset": "csd/town/nodeNotiOpen",
+    "assetType": 1
+  },
+  "POPUP_NOTICE": {
+    "scale": 1,
+    "id": "POPUP_NOTICE",
+    "asset": "csd/common/popupNotice",
+    "assetType": 1
+  },
+  "POPUP_NOTIGET_PIECE": {
+    "scale": 1,
+    "id": "POPUP_NOTIGET_PIECE",
+    "asset": "csd/alter/nodeNotiGetPiece",
+    "assetType": 1
+  },
+  "POPUP_NOTIGET_RUNE": {
+    "scale": 1,
+    "id": "POPUP_NOTIGET_RUNE",
+    "asset": "csd/alter/nodeNotiGetRune",
+    "assetType": 1
+  },
+  "POPUP_NOTIGET_SELL": {
+    "scale": 1,
+    "id": "POPUP_NOTIGET_SELL",
+    "asset": "csd/alter/nodeNotiGetSell",
+    "assetType": 1
+  },
+  "POPUP_PASS": {
+    "scale": 1,
+    "id": "POPUP_PASS",
+    "asset": "csd/pass/popupPass",
+    "assetType": 1
+  },
+  "POPUP_PASS_HEROSELECT": {
+    "scale": 1,
+    "id": "POPUP_PASS_HEROSELECT",
+    "asset": "csd/pass/popupPassHeroSelect",
+    "assetType": 1
+  },
+  "POPUP_PASS_WIDGET_CHECK": {
+    "scale": 1,
+    "id": "POPUP_PASS_WIDGET_CHECK",
+    "asset": "csd/pass/nodePassCheck",
+    "assetType": 1
+  },
+  "POPUP_PASS_WIDGET_LV": {
+    "scale": 1,
+    "id": "POPUP_PASS_WIDGET_LV",
+    "asset": "csd/pass/layerPassTree",
+    "assetType": 1
+  },
+  "POPUP_PASS_WIDGET_REFRESH": {
+    "scale": 1,
+    "id": "POPUP_PASS_WIDGET_REFRESH",
+    "asset": "csd/pass/layerPassEnd",
+    "assetType": 1
+  },
+  "POPUP_PATCH": {
+    "scale": 1,
+    "id": "POPUP_PATCH",
+    "asset": "csd/setting/patch/popupPatch",
+    "assetType": 1
+  },
+  "POPUP_POWERSAVING": {
+    "scale": 1,
+    "id": "POPUP_POWERSAVING",
+    "asset": "csd/battle/layerPowerSaving",
+    "assetType": 1
+  },
+  "POPUP_PROMOTE": {
+    "scale": 1,
+    "id": "POPUP_PROMOTE",
+    "asset": "csd/archer/popupPromote",
+    "assetType": 1
+  },
+  "POPUP_QUEST": {
+    "scale": 1,
+    "id": "POPUP_QUEST",
+    "asset": "csd/quest/popupQuest",
+    "assetType": 1
+  },
+  "POPUP_QUEST_BAR_MAIN": {
+    "scale": 1,
+    "id": "POPUP_QUEST_BAR_MAIN",
+    "asset": "csd/quest/layerQuestBarMain",
+    "assetType": 1
+  },
+  "POPUP_QUEST_BAR_TIME": {
+    "scale": 1,
+    "id": "POPUP_QUEST_BAR_TIME",
+    "asset": "csd/quest/layerQuestBar",
+    "assetType": 1
+  },
+  "POPUP_QUEST_TOOLTIPBOX": {
+    "scale": 1,
+    "id": "POPUP_QUEST_TOOLTIPBOX",
+    "asset": "csd/quest/tooltipQuestBox",
+    "assetType": 1
+  },
+  "POPUP_QUEST_TOOLTIPBOX_CHK": {
+    "scale": 1,
+    "id": "POPUP_QUEST_TOOLTIPBOX_CHK",
+    "asset": "csd/quest/nodeQuestBoxCheck",
+    "assetType": 1
+  },
+  "POPUP_RAIDWIN": {
+    "scale": 1,
+    "id": "POPUP_RAIDWIN",
+    "asset": "csd/raid/layerRaidWin",
+    "assetType": 1
+  },
+  "POPUP_REPEATBATTLE": {
+    "scale": 1,
+    "id": "POPUP_REPEATBATTLE",
+    "asset": "csd/field/popupRepeatBattle",
+    "assetType": 1
+  },
+  "POPUP_REPEATBATTLEINFO": {
+    "scale": 1,
+    "id": "POPUP_REPEATBATTLEINFO",
+    "asset": "csd/field/popupRepeatBattleInfo",
+    "assetType": 1
+  },
+  "POPUP_RESTOREDATA": {
+    "scale": 1,
+    "id": "POPUP_RESTOREDATA",
+    "asset": "csd/setting/popupCloud",
+    "assetType": 1
+  },
+  "POPUP_RESTOREDATA_CONFIRM": {
+    "scale": 1,
+    "id": "POPUP_RESTOREDATA_CONFIRM",
+    "asset": "csd/setting/popupDataConfirm",
+    "assetType": 1
+  },
+  "POPUP_REVIEW": {
+    "scale": 1,
+    "id": "POPUP_REVIEW",
+    "asset": "csd/common/popupReview",
+    "assetType": 1
+  },
+  "POPUP_REWARD": {
+    "scale": 1,
+    "id": "POPUP_REWARD",
+    "asset": "csd/common/nodeReward",
+    "assetType": 1
+  },
+  "POPUP_RUIN": {
+    "scale": 1,
+    "id": "POPUP_RUIN",
+    "asset": "csd/ruin/popupRuin",
+    "assetType": 1
+  },
+  "POPUP_RUINWIN": {
+    "scale": 1,
+    "id": "POPUP_RUINWIN",
+    "asset": "csd/ruin/nodeRuinWin",
+    "assetType": 1
+  },
+  "POPUP_RUIN_BUFF": {
+    "scale": 1,
+    "id": "POPUP_RUIN_BUFF",
+    "asset": "csd/ruin/popupBuffBuy",
+    "assetType": 1
+  },
+  "POPUP_RUNE_BREAKSELECT": {
+    "scale": 1,
+    "id": "POPUP_RUNE_BREAKSELECT",
+    "asset": "csd/sanctuary/popupBreakSelect",
+    "assetType": 1
+  },
+  "POPUP_RUNE_ENCHANT": {
+    "scale": 1,
+    "id": "POPUP_RUNE_ENCHANT",
+    "asset": "csd/hero/popupRuneEnchant",
+    "assetType": 1
+  },
+  "POPUP_RUNE_REFINE": {
+    "scale": 1,
+    "id": "POPUP_RUNE_REFINE",
+    "asset": "csd/hero/popupRuneRefine",
+    "assetType": 1
+  },
+  "POPUP_SETTING": {
+    "scale": 1,
+    "id": "POPUP_SETTING",
+    "asset": "csd/setting/popupSetting",
+    "assetType": 1
+  },
+  "POPUP_SHOP_PACKAGE": {
+    "scale": 1,
+    "id": "POPUP_SHOP_PACKAGE",
+    "asset": "csd/cashShop/popupPackage",
+    "assetType": 1
+  },
+  "POPUP_SHOP_SPECIAL": {
+    "scale": 1,
+    "id": "POPUP_SHOP_SPECIAL",
+    "asset": "csd/cashShop/popupSpecial",
+    "assetType": 1
+  },
+  "POPUP_SIGNOUT_CONFIRM": {
+    "scale": 1,
+    "id": "POPUP_SIGNOUT_CONFIRM",
+    "asset": "csd/setting/popupLogoutConfirm",
+    "assetType": 1
+  },
+  "POPUP_SPEEDUP": {
+    "scale": 1,
+    "id": "POPUP_SPEEDUP",
+    "asset": "csd/battle/popupSpeedUp",
+    "assetType": 1
+  },
+  "POPUP_STAGE_INFO": {
+    "scale": 1,
+    "id": "POPUP_STAGE_INFO",
+    "asset": "csd/field/popupStageInfo",
+    "assetType": 1
+  },
+  "POPUP_SUMMONINFO": {
+    "scale": 1,
+    "id": "POPUP_SUMMONINFO",
+    "asset": "csd/alter/popupSummontInfo",
+    "assetType": 1
+  },
+  "POPUP_SUMMONINFO_WIDGET_GEAR": {
+    "scale": 1,
+    "id": "POPUP_SUMMONINFO_WIDGET_GEAR",
+    "asset": "csd/alter/layerSummonGear",
+    "assetType": 1
+  },
+  "POPUP_SUMMONINFO_WIDGET_HERO": {
+    "scale": 1,
+    "id": "POPUP_SUMMONINFO_WIDGET_HERO",
+    "asset": "csd/alter/layerSummonHero",
+    "assetType": 1
+  },
+  "POPUP_TOOLTIP_ITEMDESC": {
+    "scale": 1,
+    "id": "POPUP_TOOLTIP_ITEMDESC",
+    "asset": "csd/common/tooltipItemDesc",
+    "assetType": 1
+  },
+  "POPUP_TUTORIAL": {
+    "scale": 1,
+    "id": "POPUP_TUTORIAL",
+    "asset": "csd/tutorial/layerTutorial",
+    "assetType": 1
+  },
+  "POPUP_TUTORIAL_ARROW": {
+    "scale": 1,
+    "id": "POPUP_TUTORIAL_ARROW",
+    "asset": "csd/tutorial/nodeTutorialArrow",
+    "assetType": 1
+  },
+  "POPUP_TUTORIAL_BOX": {
+    "scale": 1,
+    "id": "POPUP_TUTORIAL_BOX",
+    "asset": "csd/tutorial/nodeTutorialBox",
+    "assetType": 1
+  },
+  "POPUP_UPDATE": {
+    "scale": 1,
+    "id": "POPUP_UPDATE",
+    "asset": "csd/setting/patch/popupUpdate",
+    "assetType": 1
+  },
+  "PORTAL_FORMATION1": {
+    "scale": 1,
+    "id": "PORTAL_FORMATION1",
+    "asset": "csd/portal/nodeFormation1",
+    "assetType": 1
+  },
+  "PORTAL_FORMATION2": {
+    "scale": 1,
+    "id": "PORTAL_FORMATION2",
+    "asset": "csd/portal/nodeFormation2",
+    "assetType": 1
+  },
+  "PORTAL_FORMATION3": {
+    "scale": 1,
+    "id": "PORTAL_FORMATION3",
+    "asset": "csd/portal/nodeFormation3",
+    "assetType": 1
+  },
+  "PORTAL_FORMATION4": {
+    "scale": 1,
+    "id": "PORTAL_FORMATION4",
+    "asset": "csd/portal/nodeFormation4",
+    "assetType": 1
+  },
+  "PORTAL_FORMATION5": {
+    "scale": 1,
+    "id": "PORTAL_FORMATION5",
+    "asset": "csd/portal/nodeFormation5",
+    "assetType": 1
+  },
+  "SCENE_ADSHOP": {
+    "scale": 1,
+    "id": "SCENE_ADSHOP",
+    "asset": "csd/scene/AdShopScene",
+    "assetType": 1
+  },
+  "SCENE_ALTER": {
+    "scale": 1,
+    "id": "SCENE_ALTER",
+    "asset": "csd/scene/AlterScene",
+    "assetType": 1
+  },
+  "SCENE_ALTER_POPUP_PIECESELECT": {
+    "scale": 1,
+    "id": "SCENE_ALTER_POPUP_PIECESELECT",
+    "asset": "csd/alter/popupPieceSelect",
+    "assetType": 1
+  },
+  "SCENE_ARCHER": {
+    "scale": 1,
+    "id": "SCENE_ARCHER",
+    "asset": "csd/scene/ArcherScene",
+    "assetType": 1
+  },
+  "SCENE_ASTROLOGY": {
+    "scale": 1,
+    "id": "SCENE_ASTROLOGY",
+    "asset": "csd/scene/AstrologyScene",
+    "assetType": 1
+  },
+  "SCENE_BATTLE": {
+    "scale": 1,
+    "id": "SCENE_BATTLE",
+    "asset": "csd/scene/BattleScene",
+    "assetType": 1
+  },
+  "SCENE_CASTLE": {
+    "scale": 1,
+    "id": "SCENE_CASTLE",
+    "asset": "csd/scene/CastleScene",
+    "assetType": 1
+  },
+  "SCENE_CHANGE": {
+    "scale": 1,
+    "id": "SCENE_CHANGE",
+    "asset": "csd/common/layerSceneChange",
+    "assetType": 1
+  },
+  "SCENE_CONQUEST": {
+    "scale": 1,
+    "id": "SCENE_CONQUEST",
+    "asset": "csd/scene/ConquestScene",
+    "assetType": 1
+  },
+  "SCENE_CONQUEST_CONTINENTBTN": {
+    "scale": 1,
+    "id": "SCENE_CONQUEST_CONTINENTBTN",
+    "asset": "csd/conquest/layerContinentBtn",
+    "assetType": 1
+  },
+  "SCENE_FIELD": {
+    "scale": 1,
+    "id": "SCENE_FIELD",
+    "asset": "csd/scene/FieldScene",
+    "assetType": 1
+  },
+  "SCENE_FORGE": {
+    "scale": 1,
+    "id": "SCENE_FORGE",
+    "asset": "csd/scene/ForgeScene",
+    "assetType": 1
+  },
+  "SCENE_FORMATION": {
+    "scale": 1,
+    "id": "SCENE_FORMATION",
+    "asset": "csd/scene/FormationScene",
+    "assetType": 1
+  },
+  "SCENE_HERO": {
+    "scale": 1,
+    "id": "SCENE_HERO",
+    "asset": "csd/scene/HeroScene",
+    "assetType": 1
+  },
+  "SCENE_HEROLIST": {
+    "scale": 1,
+    "id": "SCENE_HEROLIST",
+    "asset": "csd/scene/HeroListScene",
+    "assetType": 1
+  },
+  "SCENE_LOADINGBATTLE": {
+    "scale": 1,
+    "id": "SCENE_LOADINGBATTLE",
+    "asset": "csd/battle/layerLoading",
+    "assetType": 1
+  },
+  "SCENE_MARKET": {
+    "scale": 1,
+    "id": "SCENE_MARKET",
+    "asset": "csd/scene/MarketScene",
+    "assetType": 1
+  },
+  "SCENE_PORTAL": {
+    "scale": 1,
+    "id": "SCENE_PORTAL",
+    "asset": "csd/scene/PortalScene",
+    "assetType": 1
+  },
+  "SCENE_RAID": {
+    "scale": 1,
+    "id": "SCENE_RAID",
+    "asset": "csd/scene/RaidScene",
+    "assetType": 1
+  },
+  "SCENE_RUIN": {
+    "scale": 1,
+    "id": "SCENE_RUIN",
+    "asset": "csd/scene/RuinScene",
+    "assetType": 1
+  },
+  "SCENE_SANCTUARY": {
+    "scale": 1,
+    "id": "SCENE_SANCTUARY",
+    "asset": "csd/scene/SanctuaryScene",
+    "assetType": 1
+  },
+  "SCENE_SHOP": {
+    "scale": 1,
+    "id": "SCENE_SHOP",
+    "asset": "csd/scene/CashShopScene",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH",
+    "asset": "csd/cashShop/layerRuby",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_AD": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_AD",
+    "asset": "csd/cashShop/layerRubyRandom",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_1": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_1",
+    "asset": "csd/cashShop/ruby/1",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_2": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_2",
+    "asset": "csd/cashShop/ruby/2",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_3": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_3",
+    "asset": "csd/cashShop/ruby/3",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_4": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_4",
+    "asset": "csd/cashShop/ruby/4",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_5": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_5",
+    "asset": "csd/cashShop/ruby/5",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_CASH_NODE_6": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_CASH_NODE_6",
+    "asset": "csd/cashShop/ruby/6",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT",
+    "asset": "csd/cashShop/layerSpecial",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_1": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_1",
+    "asset": "csd/cashShop/special/1",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_2": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_2",
+    "asset": "csd/cashShop/special/2",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_3": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_3",
+    "asset": "csd/cashShop/special/3",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_4": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_4",
+    "asset": "csd/cashShop/special/4",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_5": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_5",
+    "asset": "csd/cashShop/special/5",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_6": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_6",
+    "asset": "csd/cashShop/special/6",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_7": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_7",
+    "asset": "csd/cashShop/special/7",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_8": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_8",
+    "asset": "csd/cashShop/special/8",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_GIFT_NODE_9": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_GIFT_NODE_9",
+    "asset": "csd/cashShop/special/9",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_MONTHLY": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_MONTHLY",
+    "asset": "csd/cashShop/layerMonthly",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_PACKAGE": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_PACKAGE",
+    "asset": "csd/cashShop/layerPackage",
+    "assetType": 1
+  },
+  "SCENE_SHOP_ITEM_SUMMON": {
+    "scale": 1,
+    "id": "SCENE_SHOP_ITEM_SUMMON",
+    "asset": "csd/cashShop/layerSummon",
+    "assetType": 1
+  },
+  "SCENE_TOWN": {
+    "scale": 1,
+    "id": "SCENE_TOWN",
+    "asset": "csd/scene/TownScene",
+    "assetType": 1
+  },
+  "TOOLTIP_HEROPIECE": {
+    "scale": 1,
+    "id": "TOOLTIP_HEROPIECE",
+    "asset": "csd/common/tooltipHeroPiece",
+    "assetType": 1
+  },
+  "TOP_COIN_40": {
+    "scale": 1,
+    "id": "TOP_COIN_40",
+    "asset": "csd/common/topPortalCoin",
+    "assetType": 1
+  },
+  "TOP_COIN_50": {
+    "scale": 1,
+    "id": "TOP_COIN_50",
+    "asset": "csd/common/topRuinCoin",
+    "assetType": 1
+  },
+  "TOP_COIN_60": {
+    "scale": 1,
+    "id": "TOP_COIN_60",
+    "asset": "csd/common/topRaidCoin",
+    "assetType": 1
+  },
+  "UNIT_BOMB": {
+    "scale": 0.65,
+    "id": "UNIT_BOMB",
+    "asset": "spine/enemySlime",
+    "assetType": 2
+  },
+  "UNIT_BOSS_DRAGON": {
+    "scale": 0.65,
+    "id": "UNIT_BOSS_DRAGON",
+    "asset": "spine/bossDragon",
+    "assetType": 2
+  },
+  "UNIT_BOSS_WOLF": {
+    "scale": 0.65,
+    "id": "UNIT_BOSS_WOLF",
+    "asset": "spine/bossWolf",
+    "assetType": 2
+  },
+  "UNIT_CANNON": {
+    "scale": 0.65,
+    "id": "UNIT_CANNON",
+    "asset": "spine/enemyCannon",
+    "assetType": 2
+  },
+  "UNIT_CANNON_ATK": {
+    "scale": 1,
+    "id": "UNIT_CANNON_ATK",
+    "asset": "csd/unit/weaponEnemy/enemyCannon_atk",
+    "assetType": 1
+  },
+  "UNIT_CASTLEARCHER": {
+    "scale": 0.65,
+    "id": "UNIT_CASTLEARCHER",
+    "asset": "spine/castleArcher",
+    "assetType": 2
+  },
+  "UNIT_CATAPULT": {
+    "scale": 0.65,
+    "id": "UNIT_CATAPULT",
+    "asset": "spine/enemyCatapult",
+    "assetType": 2
+  },
+  "UNIT_CATAPULT_ATK": {
+    "scale": 1,
+    "id": "UNIT_CATAPULT_ATK",
+    "asset": "csd/unit/weaponEnemy/enemyCatapult_atk",
+    "assetType": 1
+  },
+  "UNIT_COMMANDER": {
+    "scale": 0.65,
+    "id": "UNIT_COMMANDER",
+    "asset": "spine/enemySlime",
+    "assetType": 2
+  },
+  "UNIT_ENEMYARCHER": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYARCHER",
+    "asset": "spine/enemyArcher",
+    "assetType": 2
+  },
+  "UNIT_ENEMYARCHER02": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYARCHER02",
+    "asset": "spine/enemyArcher02",
+    "assetType": 2
+  },
+  "UNIT_ENEMYARCHER03": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYARCHER03",
+    "asset": "spine/enemyArcher03",
+    "assetType": 2
+  },
+  "UNIT_ENEMYARCHER_ATK": {
+    "scale": 1,
+    "id": "UNIT_ENEMYARCHER_ATK",
+    "asset": "csd/unit/weaponEnemy/enemyArcher_atk",
+    "assetType": 1
+  },
+  "UNIT_ENEMYAXE": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYAXE",
+    "asset": "spine/enemyAxe",
+    "assetType": 2
+  },
+  "UNIT_ENEMYAXE02": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYAXE02",
+    "asset": "spine/enemyAxe02",
+    "assetType": 2
+  },
+  "UNIT_ENEMYBALLISTA": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYBALLISTA",
+    "asset": "spine/enemyBallista",
+    "assetType": 2
+  },
+  "UNIT_ENEMYBALLISTA_ATK": {
+    "scale": 1,
+    "id": "UNIT_ENEMYBALLISTA_ATK",
+    "asset": "csd/unit/weaponEnemy/enemyBallista_atk",
+    "assetType": 1
+  },
+  "UNIT_ENEMYDOG": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYDOG",
+    "asset": "spine/enemyDog",
+    "assetType": 2
+  },
+  "UNIT_ENEMYHAMMERMAN": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYHAMMERMAN",
+    "asset": "spine/enemyHammerMan",
+    "assetType": 2
+  },
+  "UNIT_ENEMYHORSEMAN": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYHORSEMAN",
+    "asset": "spine/enemyHorseman",
+    "assetType": 2
+  },
+  "UNIT_ENEMYIRONROBOT": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYIRONROBOT",
+    "asset": "spine/enemyIronRobot",
+    "assetType": 2
+  },
+  "UNIT_ENEMYORC01": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYORC01",
+    "asset": "spine/enemyOrc01",
+    "assetType": 2
+  },
+  "UNIT_ENEMYORC02": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYORC02",
+    "asset": "spine/enemyOrc02",
+    "assetType": 2
+  },
+  "UNIT_ENEMYORC03": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYORC03",
+    "asset": "spine/enemyOrc03",
+    "assetType": 2
+  },
+  "UNIT_ENEMYORC04": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYORC04",
+    "asset": "spine/enemyOrc04",
+    "assetType": 2
+  },
+  "UNIT_ENEMYSKELETON01": {
+    "scale": 0.65,
+    "id": "UNIT_ENEMYSKELETON01",
+    "asset": "spine/enemySkeleton01",
+    "assetType": 2
   },
   "UNIT_ENEMYSKELETON02": {
     "scale": 0.65,
@@ -429,736 +1913,17 @@
     "asset": "spine/enemySkeleton03",
     "assetType": 2
   },
-  "POPUP_LANG": {
-    "scale": 1,
-    "id": "POPUP_LANG",
-    "asset": "csd/setting/popupLanguage",
-    "assetType": 1
-  },
-  "LISTITEM_HGEARITEM": {
-    "scale": 1,
-    "id": "LISTITEM_HGEARITEM",
-    "asset": "csd/layerList/layerListHGear",
-    "assetType": 1
-  },
-  "POPUP_REVIEW": {
-    "scale": 1,
-    "id": "POPUP_REVIEW",
-    "asset": "csd/common/popupReview",
-    "assetType": 1
-  },
-  "UNIT_ENEMYSWORD": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYSWORD",
-    "asset": "spine/enemySword",
-    "assetType": 2
-  },
-  "HEROLIST_LAYERGALLARY": {
-    "scale": 1,
-    "id": "HEROLIST_LAYERGALLARY",
-    "asset": "csd/hero/layerGallary",
-    "assetType": 1
-  },
   "UNIT_ENEMYSKELETON03_ATK": {
     "scale": 1,
     "id": "UNIT_ENEMYSKELETON03_ATK",
     "asset": "csd/unit/weaponEnemy/enemySkeleton03_atk",
     "assetType": 1
   },
-  "POPUP_NOTIGET_PIECE": {
-    "scale": 1,
-    "id": "POPUP_NOTIGET_PIECE",
-    "asset": "csd/alter/nodeNotiGetPiece",
-    "assetType": 1
-  },
-  "UNIT_SOLDIERBARBARIAN": {
+  "UNIT_ENEMYSPEAR": {
     "scale": 0.65,
-    "id": "UNIT_SOLDIERBARBARIAN",
-    "asset": "spine/soldierBarbarian",
+    "id": "UNIT_ENEMYSPEAR",
+    "asset": "spine/enemySpear",
     "assetType": 2
-  },
-  "UNIT_ENEMYAXE02": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYAXE02",
-    "asset": "spine/enemyAxe02",
-    "assetType": 2
-  },
-  "SCENE_RUIN": { "scale": 1, "id": "SCENE_RUIN", "asset": "csd/scene/RuinScene", "assetType": 1 },
-  "HERO_HORSEMAN03_SKILL_BTM": {
-    "scale": 0.65,
-    "id": "HERO_HORSEMAN03_SKILL_BTM",
-    "asset": "spine/heroHorseman03_btm",
-    "assetType": 2
-  },
-  "POPUP_FONTDOWN": {
-    "scale": 1,
-    "id": "POPUP_FONTDOWN",
-    "asset": "csd/setting/popupFontDown",
-    "assetType": 1
-  },
-  "HERO_ARCHER04": {
-    "scale": 0.65,
-    "id": "HERO_ARCHER04",
-    "asset": "spine/heroArcher04",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_2": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_2",
-    "asset": "csd/cashShop/ruby/2",
-    "assetType": 1
-  },
-  "POPUP_LOADING": {
-    "scale": 1,
-    "id": "POPUP_LOADING",
-    "asset": "csd/common/nodeLoading",
-    "assetType": 1
-  },
-  "POPUP_CAPITALINFO_LAYERHERO": {
-    "scale": 1,
-    "id": "POPUP_CAPITALINFO_LAYERHERO",
-    "asset": "csd/conquest/layerHeroConquest",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_13": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_13",
-    "asset": "csd/town/nodeSanctuary",
-    "assetType": 1
-  },
-  "SCENE_TOWN": { "scale": 1, "id": "SCENE_TOWN", "asset": "csd/scene/TownScene", "assetType": 1 },
-  "HERO_WIZARD05_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD05_ATK",
-    "asset": "csd/unit/weapon/heroWizard05_atk",
-    "assetType": 1
-  },
-  "BATTLE_NODEALERT": {
-    "scale": 1,
-    "id": "BATTLE_NODEALERT",
-    "asset": "csd/battle/nodeAlert",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_3": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_3",
-    "asset": "csd/town/nodePortal",
-    "assetType": 1
-  },
-  "SCENE_FORMATION": {
-    "scale": 1,
-    "id": "SCENE_FORMATION",
-    "asset": "csd/scene/FormationScene",
-    "assetType": 1
-  },
-  "UNIT_ENEMYSKELETON01": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYSKELETON01",
-    "asset": "spine/enemySkeleton01",
-    "assetType": 2
-  },
-  "POPUP_EVENTDUNGEON_SELECT": {
-    "scale": 1,
-    "id": "POPUP_EVENTDUNGEON_SELECT",
-    "asset": "csd/event/PopupEventDungeonSelect",
-    "assetType": 1
-  },
-  "POPUP_NOTIGET_SELL": {
-    "scale": 1,
-    "id": "POPUP_NOTIGET_SELL",
-    "asset": "csd/alter/nodeNotiGetSell",
-    "assetType": 1
-  },
-  "UNIT_HEROGUNNER02_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROGUNNER02_EVIL",
-    "asset": "spine/heroGunner02_evil",
-    "assetType": 2
-  },
-  "POPUP_CRAFT": {
-    "scale": 1,
-    "id": "POPUP_CRAFT",
-    "asset": "csd/archer/popupCraft",
-    "assetType": 1
-  },
-  "POPUP_RUNE_REFINE": {
-    "scale": 1,
-    "id": "POPUP_RUNE_REFINE",
-    "asset": "csd/hero/popupRuneRefine",
-    "assetType": 1
-  },
-  "UNIT_HEROKNIGHT03_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROKNIGHT03_EVIL",
-    "asset": "spine/heroKnight03_evil",
-    "assetType": 2
-  },
-  "POPUP_HEROSUMMONRESULT": {
-    "scale": 1,
-    "id": "POPUP_HEROSUMMONRESULT",
-    "asset": "csd/common/nodeRewardBig",
-    "assetType": 1
-  },
-  "UNIT_ENEMYTHIEF": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYTHIEF",
-    "asset": "spine/enemySlime",
-    "assetType": 2
-  },
-  "SCENE_HERO": { "scale": 1, "id": "SCENE_HERO", "asset": "csd/scene/HeroScene", "assetType": 1 },
-  "UNIT_ENEMYIRONROBOT": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYIRONROBOT",
-    "asset": "spine/enemyIronRobot",
-    "assetType": 2
-  },
-  "COMMON_NODENOTI": {
-    "scale": 1,
-    "id": "COMMON_NODENOTI",
-    "asset": "csd/common/nodeNoti",
-    "assetType": 1
-  },
-  "CONQUEST_MAP_1": {
-    "scale": 1,
-    "id": "CONQUEST_MAP_1",
-    "asset": "csd/conquest/continent/1",
-    "assetType": 1
-  },
-  "UNIT_HEROHORSEMAN01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROHORSEMAN01_EVIL",
-    "asset": "spine/heroHorseman01_evil",
-    "assetType": 2
-  },
-  "BATTLE_HP_WARNING": {
-    "scale": 1,
-    "id": "BATTLE_HP_WARNING",
-    "asset": "csd/battle/layerRedFrame",
-    "assetType": 1
-  },
-  "HERO_KNIGHT03": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT03",
-    "asset": "spine/heroKnight03",
-    "assetType": 2
-  },
-  "HERO_GUNNER02_RANGE": {
-    "scale": 1,
-    "id": "HERO_GUNNER02_RANGE",
-    "asset": "csd/unit/weapon/heroGunner02_range",
-    "assetType": 1
-  },
-  "POPUP_REWARD": {
-    "scale": 1,
-    "id": "POPUP_REWARD",
-    "asset": "csd/common/nodeReward",
-    "assetType": 1
-  },
-  "HERO_KNIGHT08": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT08",
-    "asset": "spine/heroKnight08",
-    "assetType": 2
-  },
-  "POPUP_TUTORIAL_BOX": {
-    "scale": 1,
-    "id": "POPUP_TUTORIAL_BOX",
-    "asset": "csd/tutorial/nodeTutorialBox",
-    "assetType": 1
-  },
-  "UNIT_BOMB": { "scale": 0.65, "id": "UNIT_BOMB", "asset": "spine/enemySlime", "assetType": 2 },
-  "SCENE_SANCTUARY": {
-    "scale": 1,
-    "id": "SCENE_SANCTUARY",
-    "asset": "csd/scene/SanctuaryScene",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_MONTHLY": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_MONTHLY",
-    "asset": "csd/cashShop/layerMonthly",
-    "assetType": 1
-  },
-  "POPUP_FORGE_BREAKSELECT": {
-    "scale": 1,
-    "id": "POPUP_FORGE_BREAKSELECT",
-    "asset": "csd/archer/popupBreakSelect",
-    "assetType": 1
-  },
-  "POPUP_PASS_HEROSELECT": {
-    "scale": 1,
-    "id": "POPUP_PASS_HEROSELECT",
-    "asset": "csd/pass/popupPassHeroSelect",
-    "assetType": 1
-  },
-  "HERO_KNIGHT09": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT09",
-    "asset": "spine/heroKnight09",
-    "assetType": 2
-  },
-  "HERO_KNIGHT04_SKILL_BTM": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT04_SKILL_BTM",
-    "asset": "spine/heroKnight04_btm",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_1": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_1",
-    "asset": "csd/cashShop/special/1",
-    "assetType": 1
-  },
-  "UNIT_HEROKNIGHT01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROKNIGHT01_EVIL",
-    "asset": "spine/heroKnight01_evil",
-    "assetType": 2
-  },
-  "HERO_HORSEMAN02_BUFF": {
-    "scale": 1,
-    "id": "HERO_HORSEMAN02_BUFF",
-    "asset": "csd/unit/ability/heroHorseman02_buff",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_6": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_6",
-    "asset": "csd/town/nodeShop",
-    "assetType": 1
-  },
-  "UNIT_ENEMYBALLISTA_ATK": {
-    "scale": 1,
-    "id": "UNIT_ENEMYBALLISTA_ATK",
-    "asset": "csd/unit/weaponEnemy/enemyBallista_atk",
-    "assetType": 1
-  },
-  "POPUP_FORTRESSINFO": {
-    "scale": 1,
-    "id": "POPUP_FORTRESSINFO",
-    "asset": "csd/conquest/popupFortress",
-    "assetType": 1
-  },
-  "POPUP_RAIDWIN": {
-    "scale": 1,
-    "id": "POPUP_RAIDWIN",
-    "asset": "csd/raid/layerRaidWin",
-    "assetType": 1
-  },
-  "UNIT_ENEMYBALLISTA": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYBALLISTA",
-    "asset": "spine/enemyBallista",
-    "assetType": 2
-  },
-  "HERO_KNIGHT02": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT02",
-    "asset": "spine/heroKnight02",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_8": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_8",
-    "asset": "csd/cashShop/special/8",
-    "assetType": 1
-  },
-  "SCENE_CASTLE": {
-    "scale": 1,
-    "id": "SCENE_CASTLE",
-    "asset": "csd/scene/CastleScene",
-    "assetType": 1
-  },
-  "BATTLE_HPBAR_BOSS": {
-    "scale": 1,
-    "id": "BATTLE_HPBAR_BOSS",
-    "asset": "csd/battle/layerBossHp",
-    "assetType": 1
-  },
-  "HERO_ARCHER02_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_ARCHER02_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroArcher02_skill_btm",
-    "assetType": 1
-  },
-  "HERO_WIZARD03": {
-    "scale": 0.65,
-    "id": "HERO_WIZARD03",
-    "asset": "spine/heroWizard03",
-    "assetType": 2
-  },
-  "HERO_WIZARD07_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_WIZARD07_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroWizard07_skill_btm",
-    "assetType": 1
-  },
-  "SCENE_BATTLE": {
-    "scale": 1,
-    "id": "SCENE_BATTLE",
-    "asset": "csd/scene/BattleScene",
-    "assetType": 1
-  },
-  "HERO_GUNNER02_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_GUNNER02_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroGunner02_skill_btm",
-    "assetType": 1
-  },
-  "UNIT_SWORDMAN": {
-    "scale": 0.65,
-    "id": "UNIT_SWORDMAN",
-    "asset": "spine/soldierSword",
-    "assetType": 2
-  },
-  "HERO_KNIGHT01": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT01",
-    "asset": "spine/heroKnight01",
-    "assetType": 2
-  },
-  "POPUP_ARCHERSHOP_ITEM": {
-    "scale": 1,
-    "id": "POPUP_ARCHERSHOP_ITEM",
-    "asset": "csd/archer/shopItem",
-    "assetType": 1
-  },
-  "POPUP_SPEEDUP": {
-    "scale": 1,
-    "id": "POPUP_SPEEDUP",
-    "asset": "csd/battle/popupSpeedUp",
-    "assetType": 1
-  },
-  "HERO_KNIGHT05_BUFF": {
-    "scale": 1,
-    "id": "HERO_KNIGHT05_BUFF",
-    "asset": "csd/unit/ability/heroKnight05_buff",
-    "assetType": 1
-  },
-  "COMMON_ATTACKEDEFFECT": {
-    "scale": 1,
-    "id": "COMMON_ATTACKEDEFFECT",
-    "asset": "csd/common/attackedEffect",
-    "assetType": 1
-  },
-  "UNIT_ENEMYWIZARD_ATK": {
-    "scale": 1,
-    "id": "UNIT_ENEMYWIZARD_ATK",
-    "asset": "csd/unit/weaponEnemy/enemyWizard_atk",
-    "assetType": 1
-  },
-  "UNIT_ENEMYZOMBIE02": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYZOMBIE02",
-    "asset": "spine/enemyZombie02",
-    "assetType": 2
-  },
-  "SCENE_SHOP_ITEM_SUMMON": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_SUMMON",
-    "asset": "csd/cashShop/layerSummon",
-    "assetType": 1
-  },
-  "SCENE_SHOP": {
-    "scale": 1,
-    "id": "SCENE_SHOP",
-    "asset": "csd/scene/CashShopScene",
-    "assetType": 1
-  },
-  "HERO_ARCHER02_SKILL": {
-    "scale": 1,
-    "id": "HERO_ARCHER02_SKILL",
-    "asset": "csd/unit/weapon/heroArcher02_skill",
-    "assetType": 1
-  },
-  "UNIT_HEROWIZARD03_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROWIZARD03_EVIL",
-    "asset": "spine/heroWizard03_evil",
-    "assetType": 2
-  },
-  "POPUP_BATTLE_PAUSE": {
-    "scale": 1,
-    "id": "POPUP_BATTLE_PAUSE",
-    "asset": "csd/battle/popupPause",
-    "assetType": 1
-  },
-  "POPUP_RUINWIN": {
-    "scale": 1,
-    "id": "POPUP_RUINWIN",
-    "asset": "csd/ruin/nodeRuinWin",
-    "assetType": 1
-  },
-  "UNIT_ENEMYORC04": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYORC04",
-    "asset": "spine/enemyOrc04",
-    "assetType": 2
-  },
-  "BATTLE_HPBAR_ENEMY": {
-    "scale": 1,
-    "id": "BATTLE_HPBAR_ENEMY",
-    "asset": "csd/battle/layerEnemyHp",
-    "assetType": 1
-  },
-  "UNIT_ENEMYZOMBIE01": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYZOMBIE01",
-    "asset": "spine/enemyZombie01",
-    "assetType": 2
-  },
-  "HERO_KNIGHT06_ATK": {
-    "scale": 1,
-    "id": "HERO_KNIGHT06_ATK",
-    "asset": "csd/unit/weapon/heroKnight06_atk",
-    "assetType": 1
-  },
-  "FORMATION_LISTHERO": {
-    "scale": 1,
-    "id": "FORMATION_LISTHERO",
-    "asset": "csd/formation/layerFormListHero",
-    "assetType": 1
-  },
-  "HERO_WIZARD03_RANGE": {
-    "scale": 1,
-    "id": "HERO_WIZARD03_RANGE",
-    "asset": "csd/unit/weapon/heroWizard03_range",
-    "assetType": 1
-  },
-  "POPUP_DAYEVENT": {
-    "scale": 1,
-    "id": "POPUP_DAYEVENT",
-    "asset": "csd/event/popupSevenDays",
-    "assetType": 1
-  },
-  "HERO_ARCHER01_SKILL": {
-    "scale": 1,
-    "id": "HERO_ARCHER01_SKILL",
-    "asset": "csd/unit/weapon/heroArcher01_skill",
-    "assetType": 1
-  },
-  "POPUP_CONFIRM": {
-    "scale": 1,
-    "id": "POPUP_CONFIRM",
-    "asset": "csd/common/popupConfirm",
-    "assetType": 1
-  },
-  "NODE_USERLEVELUP": {
-    "scale": 1,
-    "id": "NODE_USERLEVELUP",
-    "asset": "csd/common/nodeUserLevelUp",
-    "assetType": 1
-  },
-  "HERO_WIZARD06_RANGE": {
-    "scale": 1,
-    "id": "HERO_WIZARD06_RANGE",
-    "asset": "csd/unit/weapon/heroWizard06_range",
-    "assetType": 1
-  },
-  "HERO_WIZARD08_SKILL_BTM": {
-    "scale": 0.65,
-    "id": "HERO_WIZARD08_SKILL_BTM",
-    "asset": "spine/heroWizard08_btm",
-    "assetType": 2
-  },
-  "SCENE_MARKET": {
-    "scale": 1,
-    "id": "SCENE_MARKET",
-    "asset": "csd/scene/MarketScene",
-    "assetType": 1
-  },
-  "POPUP_SUMMONINFO_WIDGET_HERO": {
-    "scale": 1,
-    "id": "POPUP_SUMMONINFO_WIDGET_HERO",
-    "asset": "csd/alter/layerSummonHero",
-    "assetType": 1
-  },
-  "HERO_KNIGHT05": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT05",
-    "asset": "spine/heroKnight05",
-    "assetType": 2
-  },
-  "UNIT_HEROGUNNER01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROGUNNER01_EVIL",
-    "asset": "spine/heroGunner01_evil",
-    "assetType": 2
-  },
-  "POPUP_ARCHERGEAR_QUALITYLAYER": {
-    "scale": 1,
-    "id": "POPUP_ARCHERGEAR_QUALITYLAYER",
-    "asset": "csd/archer/layerQualityInfo",
-    "assetType": 1
-  },
-  "POPUP_PROMOTE": {
-    "scale": 1,
-    "id": "POPUP_PROMOTE",
-    "asset": "csd/archer/popupPromote",
-    "assetType": 1
-  },
-  "POPUP_HERO_EVOLVERESULT": {
-    "scale": 1,
-    "id": "POPUP_HERO_EVOLVERESULT",
-    "asset": "csd/hero/layerEvolve",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH_AD": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_AD",
-    "asset": "csd/cashShop/layerRubyRandom",
-    "assetType": 1
-  },
-  "HERO_ARCHER05_ATK": {
-    "scale": 1,
-    "id": "HERO_ARCHER05_ATK",
-    "asset": "csd/unit/weapon/heroArcher05_atk",
-    "assetType": 1
-  },
-  "HERO_33_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_33_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroArcher05_skill_btm",
-    "assetType": 1
-  },
-  "UNIT_ENEMYDOG": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYDOG",
-    "asset": "spine/enemyDog",
-    "assetType": 2
-  },
-  "NODE_GEAR": { "scale": 1, "id": "NODE_GEAR", "asset": "csd/archer/nodeGear", "assetType": 1 },
-  "HERO_33_SKILL_RANGE": {
-    "scale": 1,
-    "id": "HERO_33_SKILL_RANGE",
-    "asset": "csd/unit/weapon/heroArcher05_range",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_15": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_15",
-    "asset": "csd/town/nodeAstrology",
-    "assetType": 1
-  },
-  "HERO_ARCHER04_BUFF": {
-    "scale": 1,
-    "id": "HERO_ARCHER04_BUFF",
-    "asset": "csd/unit/ability/heroArcher04_buff",
-    "assetType": 1
-  },
-  "SCENE_ASTROLOGY": {
-    "scale": 1,
-    "id": "SCENE_ASTROLOGY",
-    "asset": "csd/scene/AstrologyScene",
-    "assetType": 1
-  },
-  "UNIT_HEROARCHER01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROARCHER01_EVIL",
-    "asset": "spine/heroArcher01_evil",
-    "assetType": 2
-  },
-  "POPUP_RESTOREDATA_CONFIRM": {
-    "scale": 1,
-    "id": "POPUP_RESTOREDATA_CONFIRM",
-    "asset": "csd/setting/popupDataConfirm",
-    "assetType": 1
-  },
-  "TOOLTIP_HEROPIECE": {
-    "scale": 1,
-    "id": "TOOLTIP_HEROPIECE",
-    "asset": "csd/common/tooltipHeroPiece",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_8": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_8",
-    "asset": "csd/town/nodeEventDungeon1",
-    "assetType": 1
-  },
-  "HERO_ARCHER01_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_ARCHER01_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroArcher01_skill_btm",
-    "assetType": 1
-  },
-  "POPUP_PASS_WIDGET_REFRESH": {
-    "scale": 1,
-    "id": "POPUP_PASS_WIDGET_REFRESH",
-    "asset": "csd/pass/layerPassEnd",
-    "assetType": 1
-  },
-  "CASTLE_NODEINCSLOT": {
-    "scale": 1,
-    "id": "CASTLE_NODEINCSLOT",
-    "asset": "csd/castle/nodeIncSlot",
-    "assetType": 1
-  },
-  "CONTENTS_NODE_2": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_2",
-    "asset": "csd/town/nodeFountain",
-    "assetType": 1
-  },
-  "UNIT_ENEMYAXE": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYAXE",
-    "asset": "spine/enemyAxe",
-    "assetType": 2
-  },
-  "HERO_KNIGHT10_RANGE": {
-    "scale": 1,
-    "id": "HERO_KNIGHT10_RANGE",
-    "asset": "csd/unit/weapon/heroKnight10_range",
-    "assetType": 1
-  },
-  "HERO_KNIGHT10_ATK": {
-    "scale": 1,
-    "id": "HERO_KNIGHT10_ATK",
-    "asset": "csd/unit/weapon/heroKnight10_atk",
-    "assetType": 1
-  },
-  "HERO_KNIGHT10": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT10",
-    "asset": "spine/heroKnight10",
-    "assetType": 2
-  },
-  "CONTENTS_NODE_10": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_10",
-    "asset": "csd/town/nodeEventDungeon3",
-    "assetType": 1
-  },
-  "HERO_BABARIAN01_SUMMON": {
-    "scale": 1,
-    "id": "HERO_BABARIAN01_SUMMON",
-    "asset": "csd/unit/ability/heroBarbarian01_summon",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_1": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_1",
-    "asset": "csd/cashShop/ruby/1",
-    "assetType": 1
-  },
-  "HERO_WIZARD07_SKILL": {
-    "scale": 1,
-    "id": "HERO_WIZARD07_SKILL",
-    "asset": "csd/unit/weapon/heroWizard07_skill",
-    "assetType": 1
-  },
-  "HERO_WIZARD07_RANGE": {
-    "scale": 1,
-    "id": "HERO_WIZARD07_RANGE",
-    "asset": "csd/unit/weapon/heroWizard07_range",
-    "assetType": 1
-  },
-  "HERO_WIZARD07_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD07_ATK",
-    "asset": "csd/unit/weapon/heroWizard07_atk",
-    "assetType": 1
   },
   "UNIT_ENEMYSPEAR02": {
     "scale": 0.65,
@@ -1166,64 +1931,10 @@
     "asset": "spine/enemySpear02",
     "assetType": 2
   },
-  "PORTAL_FORMATION4": {
-    "scale": 1,
-    "id": "PORTAL_FORMATION4",
-    "asset": "csd/portal/nodeFormation4",
-    "assetType": 1
-  },
-  "UNIT_BOSS_DRAGON": {
+  "UNIT_ENEMYSWORD": {
     "scale": 0.65,
-    "id": "UNIT_BOSS_DRAGON",
-    "asset": "spine/bossDragon",
-    "assetType": 2
-  },
-  "HERO_HORSEMAN03": {
-    "scale": 0.65,
-    "id": "HERO_HORSEMAN03",
-    "asset": "spine/heroHorseman03",
-    "assetType": 2
-  },
-  "UNIT_ENEMYHORSEMAN": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYHORSEMAN",
-    "asset": "spine/enemyHorseman",
-    "assetType": 2
-  },
-  "FORMATION_TOOLTIP": {
-    "scale": 1,
-    "id": "FORMATION_TOOLTIP",
-    "asset": "csd/formation/tooltipFormSlot",
-    "assetType": 1
-  },
-  "HERO_HORSEMAN04": {
-    "scale": 0.65,
-    "id": "HERO_HORSEMAN04",
-    "asset": "spine/heroHorseman04",
-    "assetType": 2
-  },
-  "COMMON_NODENOTIGET": {
-    "scale": 1,
-    "id": "COMMON_NODENOTIGET",
-    "asset": "csd/common/nodeNotiGet",
-    "assetType": 1
-  },
-  "HERO_KNIGHT09_SKILL_BTM": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT09_SKILL_BTM",
-    "asset": "spine/heroKnight09_btm",
-    "assetType": 2
-  },
-  "SCENE_FORGE": {
-    "scale": 1,
-    "id": "SCENE_FORGE",
-    "asset": "csd/scene/ForgeScene",
-    "assetType": 1
-  },
-  "UNIT_HEROKNIGHT02_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROKNIGHT02_EVIL",
-    "asset": "spine/heroKnight02_evil",
+    "id": "UNIT_ENEMYSWORD",
+    "asset": "spine/enemySword",
     "assetType": 2
   },
   "UNIT_ENEMYTANK": {
@@ -1232,407 +1943,41 @@
     "asset": "spine/enemyTank",
     "assetType": 2
   },
-  "POPUP_RUNE_ENCHANT": {
-    "scale": 1,
-    "id": "POPUP_RUNE_ENCHANT",
-    "asset": "csd/hero/popupRuneEnchant",
-    "assetType": 1
-  },
-  "PORTAL_FORMATION2": {
-    "scale": 1,
-    "id": "PORTAL_FORMATION2",
-    "asset": "csd/portal/nodeFormation2",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_7": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_7",
-    "asset": "csd/cashShop/special/7",
-    "assetType": 1
-  },
-  "POPUP_RUNE_BREAKSELECT": {
-    "scale": 1,
-    "id": "POPUP_RUNE_BREAKSELECT",
-    "asset": "csd/sanctuary/popupBreakSelect",
-    "assetType": 1
-  },
-  "HERO_ARCHER01_ATK": {
-    "scale": 1,
-    "id": "HERO_ARCHER01_ATK",
-    "asset": "csd/unit/weapon/heroArcher01_atk",
-    "assetType": 1
-  },
-  "LISTITEM_RUNE": {
-    "scale": 1,
-    "id": "LISTITEM_RUNE",
-    "asset": "csd/hero/layerRunePiece",
-    "assetType": 1
-  },
-  "NODE_REWARDGLOW2": {
-    "scale": 1,
-    "id": "NODE_REWARDGLOW2",
-    "asset": "csd/common/nodeRewardGlow2",
-    "assetType": 1
-  },
-  "POPUP_SUMMONINFO": {
-    "scale": 1,
-    "id": "POPUP_SUMMONINFO",
-    "asset": "csd/alter/popupSummontInfo",
-    "assetType": 1
-  },
-  "CONQUEST_MAP_2": {
-    "scale": 1,
-    "id": "CONQUEST_MAP_2",
-    "asset": "csd/conquest/continent/2",
-    "assetType": 1
-  },
-  "PORTAL_FORMATION1": {
-    "scale": 1,
-    "id": "PORTAL_FORMATION1",
-    "asset": "csd/portal/nodeFormation1",
-    "assetType": 1
-  },
-  "HERO_BABARIAN03": {
+  "UNIT_ENEMYTHIEF": {
     "scale": 0.65,
-    "id": "HERO_BABARIAN03",
-    "asset": "spine/heroBarbarian03",
+    "id": "UNIT_ENEMYTHIEF",
+    "asset": "spine/enemySlime",
     "assetType": 2
   },
-  "HERO_WIZARD05": {
+  "UNIT_ENEMYWIZARD": {
     "scale": 0.65,
-    "id": "HERO_WIZARD05",
-    "asset": "spine/heroWizard05",
+    "id": "UNIT_ENEMYWIZARD",
+    "asset": "spine/enemyWizard",
     "assetType": 2
   },
-  "CONTENTS_NODE_5": {
+  "UNIT_ENEMYWIZARD_ATK": {
     "scale": 1,
-    "id": "CONTENTS_NODE_5",
-    "asset": "csd/town/nodeDungeon",
+    "id": "UNIT_ENEMYWIZARD_ATK",
+    "asset": "csd/unit/weaponEnemy/enemyWizard_atk",
     "assetType": 1
   },
-  "COMMON_ATTACKEDEFFECT_CASTLE": {
-    "scale": 1,
-    "id": "COMMON_ATTACKEDEFFECT_CASTLE",
-    "asset": "csd/common/attackedEffectCastle",
-    "assetType": 1
-  },
-  "HERO_WIZARD06": {
+  "UNIT_ENEMYZOMBIE01": {
     "scale": 0.65,
-    "id": "HERO_WIZARD06",
-    "asset": "spine/heroWizard06",
+    "id": "UNIT_ENEMYZOMBIE01",
+    "asset": "spine/enemyZombie01",
     "assetType": 2
   },
-  "POPUP_AUTOCOMBINE": {
-    "scale": 1,
-    "id": "POPUP_AUTOCOMBINE",
-    "asset": "csd/forge/popupAutoCombine",
-    "assetType": 1
-  },
-  "UNIT_ENEMYARCHER02": {
+  "UNIT_ENEMYZOMBIE02": {
     "scale": 0.65,
-    "id": "UNIT_ENEMYARCHER02",
-    "asset": "spine/enemyArcher02",
+    "id": "UNIT_ENEMYZOMBIE02",
+    "asset": "spine/enemyZombie02",
     "assetType": 2
   },
-  "HERO_WIZARD02_SUMMON": {
-    "scale": 1,
-    "id": "HERO_WIZARD02_SUMMON",
-    "asset": "csd/unit/ability/heroWizard02_summon",
-    "assetType": 1
-  },
-  "HERO_WIZARD01_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD01_ATK",
-    "asset": "csd/unit/weapon/heroWizard01_atk",
-    "assetType": 1
-  },
-  "HERO_WIZARD07": {
+  "UNIT_HEROARCHER01_EVIL": {
     "scale": 0.65,
-    "id": "HERO_WIZARD07",
-    "asset": "spine/heroWizard07",
+    "id": "UNIT_HEROARCHER01_EVIL",
+    "asset": "spine/heroArcher01_evil",
     "assetType": 2
-  },
-  "POPUP_GOLDBUY": {
-    "scale": 1,
-    "id": "POPUP_GOLDBUY",
-    "asset": "csd/common/popupGoldBuy",
-    "assetType": 1
-  },
-  "UNIT_ENEMYHAMMERMAN": {
-    "scale": 0.65,
-    "id": "UNIT_ENEMYHAMMERMAN",
-    "asset": "spine/enemyHammerMan",
-    "assetType": 2
-  },
-  "HERO_WIZARD01": {
-    "scale": 0.65,
-    "id": "HERO_WIZARD01",
-    "asset": "spine/heroWizard01",
-    "assetType": 2
-  },
-  "POPUP_CAPITALINFO": {
-    "scale": 1,
-    "id": "POPUP_CAPITALINFO",
-    "asset": "csd/conquest/popupCapital",
-    "assetType": 1
-  },
-  "POPUP_NOTIGET_RUNE": {
-    "scale": 1,
-    "id": "POPUP_NOTIGET_RUNE",
-    "asset": "csd/alter/nodeNotiGetRune",
-    "assetType": 1
-  },
-  "POPUP_QUEST_BAR_MAIN": {
-    "scale": 1,
-    "id": "POPUP_QUEST_BAR_MAIN",
-    "asset": "csd/quest/layerQuestBarMain",
-    "assetType": 1
-  },
-  "HERO_WIZARD06_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD06_ATK",
-    "asset": "csd/unit/weapon/heroWizard06_atk",
-    "assetType": 1
-  },
-  "HERO_KNIGHT06_SKILL": {
-    "scale": 1,
-    "id": "HERO_KNIGHT06_SKILL",
-    "asset": "csd/unit/weapon/heroKnight06_skill",
-    "assetType": 1
-  },
-  "HERO_KNIGHT06": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT06",
-    "asset": "spine/heroKnight06",
-    "assetType": 2
-  },
-  "CASTLE_BOUNCE": {
-    "scale": 1,
-    "id": "CASTLE_BOUNCE",
-    "asset": "csd/castle/nodeCastleBounce",
-    "assetType": 1
-  },
-  "POPUP_PATCH": {
-    "scale": 1,
-    "id": "POPUP_PATCH",
-    "asset": "csd/setting/patch/popupPatch",
-    "assetType": 1
-  },
-  "POPUP_RESTOREDATA": {
-    "scale": 1,
-    "id": "POPUP_RESTOREDATA",
-    "asset": "csd/setting/popupCloud",
-    "assetType": 1
-  },
-  "UNIT_HEROARCHER04_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROARCHER04_EVIL",
-    "asset": "spine/heroArcher04_evil",
-    "assetType": 2
-  },
-  "POPUP_UPDATE": {
-    "scale": 1,
-    "id": "POPUP_UPDATE",
-    "asset": "csd/setting/patch/popupUpdate",
-    "assetType": 1
-  },
-  "UNIT_HEROBARBARIAN02_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROBARBARIAN02_EVIL",
-    "asset": "spine/heroBarbarian02_evil",
-    "assetType": 2
-  },
-  "POPUP_MAIL_ITEM": {
-    "scale": 1,
-    "id": "POPUP_MAIL_ITEM",
-    "asset": "csd/setting/layerMail",
-    "assetType": 1
-  },
-  "HERO_WIZARD04_SUMMON": {
-    "scale": 1,
-    "id": "HERO_WIZARD04_SUMMON",
-    "asset": "csd/unit/ability/heroWizard04_summon",
-    "assetType": 1
-  },
-  "POPUP_MAILDETAIL": {
-    "scale": 1,
-    "id": "POPUP_MAILDETAIL",
-    "asset": "csd/setting/popupMailDetail",
-    "assetType": 1
-  },
-  "POPUP_MAIL": {
-    "scale": 1,
-    "id": "POPUP_MAIL",
-    "asset": "csd/setting/popupMail",
-    "assetType": 1
-  },
-  "HERO_KNIGHT10_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_KNIGHT10_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroKnight10_skill_btm",
-    "assetType": 1
-  },
-  "POPUP_ENCHANT": {
-    "scale": 1,
-    "id": "POPUP_ENCHANT",
-    "asset": "csd/archer/popupEnchant",
-    "assetType": 1
-  },
-  "SCENE_ADSHOP": {
-    "scale": 1,
-    "id": "SCENE_ADSHOP",
-    "asset": "csd/scene/AdShopScene",
-    "assetType": 1
-  },
-  "POPUP_BREAK": {
-    "scale": 1,
-    "id": "POPUP_BREAK",
-    "asset": "csd/archer/popupBreak",
-    "assetType": 1
-  },
-  "HERO_KNIGHT01_SUMMON": {
-    "scale": 1,
-    "id": "HERO_KNIGHT01_SUMMON",
-    "asset": "csd/unit/ability/heroKnight01_summon",
-    "assetType": 1
-  },
-  "LISTITEM_REWARDITEM": {
-    "scale": 1,
-    "id": "LISTITEM_REWARDITEM",
-    "asset": "csd/layerList/layerListReward",
-    "assetType": 1
-  },
-  "UNIT_HEROHORSEMAN03_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROHORSEMAN03_EVIL",
-    "asset": "spine/heroHorseman03_evil",
-    "assetType": 2
-  },
-  "UNIT_HEROTHROWER_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROTHROWER_EVIL",
-    "asset": "spine/heroThrower_evil",
-    "assetType": 2
-  },
-  "HERO_THROWER": {
-    "scale": 0.65,
-    "id": "HERO_THROWER",
-    "asset": "spine/heroThrower",
-    "assetType": 2
-  },
-  "UNIT_HEROKNIGHT05_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROKNIGHT05_EVIL",
-    "asset": "spine/heroKnight05_evil",
-    "assetType": 2
-  },
-  "HERO_WIZARD03_SKILL": {
-    "scale": 1,
-    "id": "HERO_WIZARD03_SKILL",
-    "asset": "csd/unit/weapon/heroWizard03_skill",
-    "assetType": 1
-  },
-  "HERO_WIZARD02_ATK": {
-    "scale": 1,
-    "id": "HERO_WIZARD02_ATK",
-    "asset": "csd/unit/weapon/heroWizard02_atk",
-    "assetType": 1
-  },
-  "HERO_GUNNER02_SKILL": {
-    "scale": 1,
-    "id": "HERO_GUNNER02_SKILL",
-    "asset": "csd/unit/weapon/heroGunner02_skill",
-    "assetType": 1
-  },
-  "UNIT_HEROKNIGHT04_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROKNIGHT04_EVIL",
-    "asset": "spine/heroKnight04_evil",
-    "assetType": 2
-  },
-  "NOTI_RUNESUMMONOPEN": {
-    "scale": 1,
-    "id": "NOTI_RUNESUMMONOPEN",
-    "asset": "csd/hero/nodeRuneSummonGradeOpen",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT",
-    "asset": "csd/cashShop/layerSpecial",
-    "assetType": 1
-  },
-  "UNIT_HEROWIZARD04_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROWIZARD04_EVIL",
-    "asset": "spine/heroWizard04_evil",
-    "assetType": 2
-  },
-  "BATTLE_HPBAR_ALIGN": {
-    "scale": 1,
-    "id": "BATTLE_HPBAR_ALIGN",
-    "asset": "csd/battle/layerAlignHp",
-    "assetType": 1
-  },
-  "POPUP_EVENTDUNGEON_LIST": {
-    "scale": 1,
-    "id": "POPUP_EVENTDUNGEON_LIST",
-    "asset": "csd/event/PopupEventDungeonList",
-    "assetType": 1
-  },
-  "HERO_BABARIAN02": {
-    "scale": 0.65,
-    "id": "HERO_BABARIAN02",
-    "asset": "spine/heroBarbarian02",
-    "assetType": 2
-  },
-  "HERO_KNIGHT04": {
-    "scale": 0.65,
-    "id": "HERO_KNIGHT04",
-    "asset": "spine/heroKnight04",
-    "assetType": 2
-  },
-  "UNIT_HEROBARBARIAN03_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROBARBARIAN03_EVIL",
-    "asset": "spine/heroBarbarian03_evil",
-    "assetType": 2
-  },
-  "NODE_REWARDETC": {
-    "scale": 1,
-    "id": "NODE_REWARDETC",
-    "asset": "csd/common/nodeRewardEtc",
-    "assetType": 1
-  },
-  "UNIT_HEROBARBARIAN01_EVIL": {
-    "scale": 0.65,
-    "id": "UNIT_HEROBARBARIAN01_EVIL",
-    "asset": "spine/heroBarbarian01_evil",
-    "assetType": 2
-  },
-  "HERO_THROWER_SKILL": {
-    "scale": 1,
-    "id": "HERO_THROWER_SKILL",
-    "asset": "csd/unit/weapon/heroThrower_skill",
-    "assetType": 1
-  },
-  "CASTLE_NODEINCPARTS": {
-    "scale": 1,
-    "id": "CASTLE_NODEINCPARTS",
-    "asset": "csd/castle/nodeIncParts",
-    "assetType": 1
-  },
-  "COMMON_NODEQUESTNOTI": {
-    "scale": 1,
-    "id": "COMMON_NODEQUESTNOTI",
-    "asset": "csd/common/nodeQuestNotice",
-    "assetType": 1
-  },
-  "HERO_ARCHER02_RANGE": {
-    "scale": 1,
-    "id": "HERO_ARCHER02_RANGE",
-    "asset": "csd/unit/weapon/heroArcher02_range",
-    "assetType": 1
   },
   "UNIT_HEROARCHER02_EVIL": {
     "scale": 0.65,
@@ -1646,241 +1991,47 @@
     "asset": "spine/heroArcher03_evil",
     "assetType": 2
   },
-  "POPUP_REPEATBATTLE": {
-    "scale": 1,
-    "id": "POPUP_REPEATBATTLE",
-    "asset": "csd/field/popupRepeatBattle",
-    "assetType": 1
-  },
-  "POPUP_HELP": { "scale": 1, "id": "POPUP_HELP", "asset": "csd/common/popupHelp", "assetType": 1 },
-  "POPUP_TOOLTIP_ITEMDESC": {
-    "scale": 1,
-    "id": "POPUP_TOOLTIP_ITEMDESC",
-    "asset": "csd/common/tooltipItemDesc",
-    "assetType": 1
-  },
-  "HERO_34": { "scale": 0.65, "id": "HERO_34", "asset": "spine/heroBarbarian04", "assetType": 2 },
-  "POPUP_SIGNOUT_CONFIRM": {
-    "scale": 1,
-    "id": "POPUP_SIGNOUT_CONFIRM",
-    "asset": "csd/setting/popupLogoutConfirm",
-    "assetType": 1
-  },
-  "POPUP_SETTING": {
-    "scale": 1,
-    "id": "POPUP_SETTING",
-    "asset": "csd/setting/popupSetting",
-    "assetType": 1
-  },
-  "POPUP_MARKETGET": {
-    "scale": 1,
-    "id": "POPUP_MARKETGET",
-    "asset": "csd/common/nodeNotiGetMarket",
-    "assetType": 1
-  },
-  "POPUP_SUMMONINFO_WIDGET_GEAR": {
-    "scale": 1,
-    "id": "POPUP_SUMMONINFO_WIDGET_GEAR",
-    "asset": "csd/alter/layerSummonGear",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_9": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_9",
-    "asset": "csd/cashShop/special/9",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_6": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_6",
-    "asset": "csd/cashShop/special/6",
-    "assetType": 1
-  },
-  "HERO_THROWER_ATK": {
-    "scale": 1,
-    "id": "HERO_THROWER_ATK",
-    "asset": "csd/unit/weapon/heroThrower_atk",
-    "assetType": 1
-  },
-  "POPUP_HERO_EVOLVE": {
-    "scale": 1,
-    "id": "POPUP_HERO_EVOLVE",
-    "asset": "csd/hero/popupEvolve",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_4": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_4",
-    "asset": "csd/cashShop/special/4",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_3": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_3",
-    "asset": "csd/cashShop/special/3",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_2": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_2",
-    "asset": "csd/cashShop/special/2",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_6": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_6",
-    "asset": "csd/cashShop/ruby/6",
-    "assetType": 1
-  },
-  "POPUP_NEWCONTENT": {
-    "scale": 1,
-    "id": "POPUP_NEWCONTENT",
-    "asset": "csd/town/nodeNotiOpen",
-    "assetType": 1
-  },
-  "COMMON_NODENOTI_SUCC": {
-    "scale": 1,
-    "id": "COMMON_NODENOTI_SUCC",
-    "asset": "csd/common/nodeNotiSuccess",
-    "assetType": 1
-  },
-  "POPUP_PASS_WIDGET_CHECK": {
-    "scale": 1,
-    "id": "POPUP_PASS_WIDGET_CHECK",
-    "asset": "csd/pass/nodePassCheck",
-    "assetType": 1
-  },
-  "POPUP_FORGE_BUYGEAR": {
-    "scale": 1,
-    "id": "POPUP_FORGE_BUYGEAR",
-    "asset": "csd/forge/popupBuyGear",
-    "assetType": 1
-  },
-  "UNIT_ENEMYORC02": {
+  "UNIT_HEROARCHER04_EVIL": {
     "scale": 0.65,
-    "id": "UNIT_ENEMYORC02",
-    "asset": "spine/enemyOrc02",
+    "id": "UNIT_HEROARCHER04_EVIL",
+    "asset": "spine/heroArcher04_evil",
     "assetType": 2
   },
-  "HERO_ARCHER03_BUFF": {
-    "scale": 1,
-    "id": "HERO_ARCHER03_BUFF",
-    "asset": "csd/unit/ability/heroArcher03_buff",
-    "assetType": 1
-  },
-  "CASTLE_NODEENGRAVE": {
-    "scale": 1,
-    "id": "CASTLE_NODEENGRAVE",
-    "asset": "csd/castle/nodeEngraveCastle",
-    "assetType": 1
-  },
-  "HERO_ARCHER03": {
+  "UNIT_HEROBARBARIAN01_EVIL": {
     "scale": 0.65,
-    "id": "HERO_ARCHER03",
-    "asset": "spine/heroArcher03",
+    "id": "UNIT_HEROBARBARIAN01_EVIL",
+    "asset": "spine/heroBarbarian01_evil",
     "assetType": 2
   },
-  "UNIT_WEAPON_ARROW": {
-    "scale": 1,
-    "id": "UNIT_WEAPON_ARROW",
-    "asset": "csd/unit/weapon/arrow",
-    "assetType": 1
+  "UNIT_HEROBARBARIAN02_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROBARBARIAN02_EVIL",
+    "asset": "spine/heroBarbarian02_evil",
+    "assetType": 2
   },
-  "CONTENTS_NODE_12": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_12",
-    "asset": "csd/town/nodeConquest",
-    "assetType": 1
+  "UNIT_HEROBARBARIAN03_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROBARBARIAN03_EVIL",
+    "asset": "spine/heroBarbarian03_evil",
+    "assetType": 2
   },
-  "CONTENTS_NODE_4": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_4",
-    "asset": "csd/town/nodeStatue",
-    "assetType": 1
+  "UNIT_HEROGUNNER01_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROGUNNER01_EVIL",
+    "asset": "spine/heroGunner01_evil",
+    "assetType": 2
   },
-  "CONTENTS_NODE_11": {
-    "scale": 1,
-    "id": "CONTENTS_NODE_11",
-    "asset": "csd/town/nodeEngrave",
-    "assetType": 1
+  "UNIT_HEROGUNNER02_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROGUNNER02_EVIL",
+    "asset": "spine/heroGunner02_evil",
+    "assetType": 2
   },
-  "POPUP_ARCHERSHOPBUY": {
-    "scale": 1,
-    "id": "POPUP_ARCHERSHOPBUY",
-    "asset": "csd/archer/popupArcherShopBuy",
-    "assetType": 1
-  },
-  "POPUP_SHOP_PACKAGE": {
-    "scale": 1,
-    "id": "POPUP_SHOP_PACKAGE",
-    "asset": "csd/cashShop/popupPackage",
-    "assetType": 1
-  },
-  "HERO_ARCHER04_ATK": {
-    "scale": 1,
-    "id": "HERO_ARCHER04_ATK",
-    "asset": "csd/unit/weapon/heroArcher04_atk",
-    "assetType": 1
-  },
-  "POPUP_QUEST": {
-    "scale": 1,
-    "id": "POPUP_QUEST",
-    "asset": "csd/quest/popupQuest",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH",
-    "asset": "csd/cashShop/layerRuby",
-    "assetType": 1
-  },
-  "HERO_ARCHER01_RANGE": {
-    "scale": 1,
-    "id": "HERO_ARCHER01_RANGE",
-    "asset": "csd/unit/weapon/heroArcher01_range",
-    "assetType": 1
-  },
-  "POPUP_QUEST_TOOLTIPBOX_CHK": {
-    "scale": 1,
-    "id": "POPUP_QUEST_TOOLTIPBOX_CHK",
-    "asset": "csd/quest/nodeQuestBoxCheck",
-    "assetType": 1
-  },
-  "POPUP_QUEST_TOOLTIPBOX": {
-    "scale": 1,
-    "id": "POPUP_QUEST_TOOLTIPBOX",
-    "asset": "csd/quest/tooltipQuestBox",
-    "assetType": 1
-  },
-  "SCENE_CONQUEST_CONTINENTBTN": {
-    "scale": 1,
-    "id": "SCENE_CONQUEST_CONTINENTBTN",
-    "asset": "csd/conquest/layerContinentBtn",
-    "assetType": 1
-  },
-  "POPUP_QUEST_BAR_TIME": {
-    "scale": 1,
-    "id": "POPUP_QUEST_BAR_TIME",
-    "asset": "csd/quest/layerQuestBar",
-    "assetType": 1
-  },
-  "LISTITEM_ARCHERITEM": {
-    "scale": 1,
-    "id": "LISTITEM_ARCHERITEM",
-    "asset": "csd/layerList/layerListGear",
-    "assetType": 1
-  },
-  "TOP_COIN_50": {
-    "scale": 1,
-    "id": "TOP_COIN_50",
-    "asset": "csd/common/topRuinCoin",
-    "assetType": 1
-  },
-  "NODE_DESIGN": {
-    "scale": 1,
-    "id": "NODE_DESIGN",
-    "asset": "csd/archer/nodeRecipe",
-    "assetType": 1
+  "UNIT_HEROHORSEMAN01_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROHORSEMAN01_EVIL",
+    "asset": "spine/heroHorseman01_evil",
+    "assetType": 2
   },
   "UNIT_HEROHORSEMAN02_EVIL": {
     "scale": 0.65,
@@ -1888,192 +2039,106 @@
     "asset": "spine/heroHorseman02_evil",
     "assetType": 2
   },
-  "POPUP_TUTORIAL_ARROW": {
-    "scale": 1,
-    "id": "POPUP_TUTORIAL_ARROW",
-    "asset": "csd/tutorial/nodeTutorialArrow",
-    "assetType": 1
-  },
-  "POPUP_NOTICE": {
-    "scale": 1,
-    "id": "POPUP_NOTICE",
-    "asset": "csd/common/popupNotice",
-    "assetType": 1
-  },
-  "UNIT_ENEMYORC01": {
+  "UNIT_HEROHORSEMAN03_EVIL": {
     "scale": 0.65,
-    "id": "UNIT_ENEMYORC01",
-    "asset": "spine/enemyOrc01",
+    "id": "UNIT_HEROHORSEMAN03_EVIL",
+    "asset": "spine/heroHorseman03_evil",
     "assetType": 2
   },
-  "HERO_WIZARD06_SKILL": {
-    "scale": 1,
-    "id": "HERO_WIZARD06_SKILL",
-    "asset": "csd/unit/weapon/heroWizard06_skill",
-    "assetType": 1
-  },
-  "SCENE_LOADINGBATTLE": {
-    "scale": 1,
-    "id": "SCENE_LOADINGBATTLE",
-    "asset": "csd/battle/layerLoading",
-    "assetType": 1
-  },
-  "SCENE_PORTAL": {
-    "scale": 1,
-    "id": "SCENE_PORTAL",
-    "asset": "csd/scene/PortalScene",
-    "assetType": 1
-  },
-  "SCENE_CHANGE": {
-    "scale": 1,
-    "id": "SCENE_CHANGE",
-    "asset": "csd/common/layerSceneChange",
-    "assetType": 1
-  },
-  "UNIT_CANNON_ATK": {
-    "scale": 1,
-    "id": "UNIT_CANNON_ATK",
-    "asset": "csd/unit/weaponEnemy/enemyCannon_atk",
-    "assetType": 1
-  },
-  "POPUP_RUIN_BUFF": {
-    "scale": 1,
-    "id": "POPUP_RUIN_BUFF",
-    "asset": "csd/ruin/popupBuffBuy",
-    "assetType": 1
-  },
-  "POPUP_TUTORIAL": {
-    "scale": 1,
-    "id": "POPUP_TUTORIAL",
-    "asset": "csd/tutorial/layerTutorial",
-    "assetType": 1
-  },
-  "HEROLIST_LAYERHERO": {
-    "scale": 1,
-    "id": "HEROLIST_LAYERHERO",
-    "asset": "csd/hero/layerHero",
-    "assetType": 1
-  },
-  "CASTLE_NODEINCARCHER": {
-    "scale": 1,
-    "id": "CASTLE_NODEINCARCHER",
-    "asset": "csd/castle/nodeIncArcher",
-    "assetType": 1
-  },
-  "ALTER_NODEPIECESELL": {
-    "scale": 1,
-    "id": "ALTER_NODEPIECESELL",
-    "asset": "csd/alter/nodePieceSell",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_CASH_NODE_5": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_CASH_NODE_5",
-    "asset": "csd/cashShop/ruby/5",
-    "assetType": 1
-  },
-  "POPUP_POWERSAVING": {
-    "scale": 1,
-    "id": "POPUP_POWERSAVING",
-    "asset": "csd/battle/layerPowerSaving",
-    "assetType": 1
-  },
-  "SCENE_FIELD": {
-    "scale": 1,
-    "id": "SCENE_FIELD",
-    "asset": "csd/scene/FieldScene",
-    "assetType": 1
-  },
-  "NODE_HGEAR": { "scale": 1, "id": "NODE_HGEAR", "asset": "csd/alter/nodeHGear", "assetType": 1 },
-  "NODE_HEROPIECE": {
-    "scale": 1,
-    "id": "NODE_HEROPIECE",
-    "asset": "csd/alter/nodePiece",
-    "assetType": 1
-  },
-  "NODE_REWARDGLOW": {
-    "scale": 1,
-    "id": "NODE_REWARDGLOW",
-    "asset": "csd/common/nodeRewardGlow",
-    "assetType": 1
-  },
-  "SCENE_SHOP_ITEM_GIFT_NODE_5": {
-    "scale": 1,
-    "id": "SCENE_SHOP_ITEM_GIFT_NODE_5",
-    "asset": "csd/cashShop/special/5",
-    "assetType": 1
-  },
-  "POPUP_LANG_BTN": {
-    "scale": 1,
-    "id": "POPUP_LANG_BTN",
-    "asset": "csd/setting/layerLanguage",
-    "assetType": 1
-  },
-  "HERO_STSCHANGE_EFFECT": {
-    "scale": 1,
-    "id": "HERO_STSCHANGE_EFFECT",
-    "asset": "csd/hero/nodeStatusChange",
-    "assetType": 1
-  },
-  "POPUP_FIELD_LOOT": {
-    "scale": 1,
-    "id": "POPUP_FIELD_LOOT",
-    "asset": "csd/field/popupLoot",
-    "assetType": 1
-  },
-  "POPUP_BATTLE_WIN": {
-    "scale": 1,
-    "id": "POPUP_BATTLE_WIN",
-    "asset": "csd/common/popupWin",
-    "assetType": 1
-  },
-  "UNIT_ENEMYORC03": {
+  "UNIT_HEROKNIGHT01_EVIL": {
     "scale": 0.65,
-    "id": "UNIT_ENEMYORC03",
-    "asset": "spine/enemyOrc03",
+    "id": "UNIT_HEROKNIGHT01_EVIL",
+    "asset": "spine/heroKnight01_evil",
     "assetType": 2
   },
-  "SCENE_ALTER_POPUP_PIECESELECT": {
-    "scale": 1,
-    "id": "SCENE_ALTER_POPUP_PIECESELECT",
-    "asset": "csd/alter/popupPieceSelect",
-    "assetType": 1
-  },
-  "TOP_COIN_60": {
-    "scale": 1,
-    "id": "TOP_COIN_60",
-    "asset": "csd/common/topRaidCoin",
-    "assetType": 1
-  },
-  "HERO_ARCHER01": {
+  "UNIT_HEROKNIGHT02_EVIL": {
     "scale": 0.65,
-    "id": "HERO_ARCHER01",
-    "asset": "spine/heroArcher01",
+    "id": "UNIT_HEROKNIGHT02_EVIL",
+    "asset": "spine/heroKnight02_evil",
     "assetType": 2
   },
-  "LISTITEM_PIECEITEM": {
-    "scale": 1,
-    "id": "LISTITEM_PIECEITEM",
-    "asset": "csd/layerList/layerPiece",
-    "assetType": 1
-  },
-  "HERO_WIZARD02": {
+  "UNIT_HEROKNIGHT03_EVIL": {
     "scale": 0.65,
-    "id": "HERO_WIZARD02",
-    "asset": "spine/heroWizard02",
+    "id": "UNIT_HEROKNIGHT03_EVIL",
+    "asset": "spine/heroKnight03_evil",
     "assetType": 2
   },
-  "HERO_THROWER_SKILL_BTM": {
-    "scale": 1,
-    "id": "HERO_THROWER_SKILL_BTM",
-    "asset": "csd/unit/weapon/heroThrower_skill_btm",
-    "assetType": 1
-  },
-  "POPUP_RUIN": { "scale": 1, "id": "POPUP_RUIN", "asset": "csd/ruin/popupRuin", "assetType": 1 },
-  "HERO_BABARIAN01": {
+  "UNIT_HEROKNIGHT04_EVIL": {
     "scale": 0.65,
-    "id": "HERO_BABARIAN01",
-    "asset": "spine/heroBarbarian01",
+    "id": "UNIT_HEROKNIGHT04_EVIL",
+    "asset": "spine/heroKnight04_evil",
     "assetType": 2
+  },
+  "UNIT_HEROKNIGHT05_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROKNIGHT05_EVIL",
+    "asset": "spine/heroKnight05_evil",
+    "assetType": 2
+  },
+  "UNIT_HEROTHROWER_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROTHROWER_EVIL",
+    "asset": "spine/heroThrower_evil",
+    "assetType": 2
+  },
+  "UNIT_HEROWIZARD01_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROWIZARD01_EVIL",
+    "asset": "spine/heroWizard01_evil",
+    "assetType": 2
+  },
+  "UNIT_HEROWIZARD02_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROWIZARD02_EVIL",
+    "asset": "spine/heroWizard02_evil",
+    "assetType": 2
+  },
+  "UNIT_HEROWIZARD03_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROWIZARD03_EVIL",
+    "asset": "spine/heroWizard03_evil",
+    "assetType": 2
+  },
+  "UNIT_HEROWIZARD04_EVIL": {
+    "scale": 0.65,
+    "id": "UNIT_HEROWIZARD04_EVIL",
+    "asset": "spine/heroWizard04_evil",
+    "assetType": 2
+  },
+  "UNIT_HORSEMAN": {
+    "scale": 0.65,
+    "id": "UNIT_HORSEMAN",
+    "asset": "spine/soldierHorseman",
+    "assetType": 2
+  },
+  "UNIT_SLIME": {
+    "scale": 0.65,
+    "id": "UNIT_SLIME",
+    "asset": "spine/enemySlime",
+    "assetType": 2
+  },
+  "UNIT_SOLDIERBARBARIAN": {
+    "scale": 0.65,
+    "id": "UNIT_SOLDIERBARBARIAN",
+    "asset": "spine/soldierBarbarian",
+    "assetType": 2
+  },
+  "UNIT_SOLDIERGOLEM": {
+    "scale": 0.65,
+    "id": "UNIT_SOLDIERGOLEM",
+    "asset": "spine/soldierGolem",
+    "assetType": 2
+  },
+  "UNIT_SWORDMAN": {
+    "scale": 0.65,
+    "id": "UNIT_SWORDMAN",
+    "asset": "spine/soldierSword",
+    "assetType": 2
+  },
+  "UNIT_WEAPON_ARROW": {
+    "scale": 1,
+    "id": "UNIT_WEAPON_ARROW",
+    "asset": "csd/unit/weapon/arrow",
+    "assetType": 1
   }
 }

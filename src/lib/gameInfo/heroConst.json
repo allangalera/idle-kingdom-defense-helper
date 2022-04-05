@@ -1,19 +1,5 @@
 {
-  "INVENTORY": { "INIT": 100, "ADDSIZE": 5, "ADDCOST": 50 },
   "ALTER_HERO_PIECE_CNT": [3, 6, 9, 12],
-  "RUNESUMMON_SLOTOPEN_INFOS": [
-    { "COST": 100, "LV": 1 },
-    { "COST": 300, "LV": 30 },
-    { "COST": 600, "LV": 60 },
-    { "COST": 1200, "LV": 120 }
-  ],
-  "HEROSHOP_RATE": [59, 30, 10, 1],
-  "HEROSUMMON_SLOTOPEN_INFOS": [
-    { "COST": 100, "LV": 1 },
-    { "COST": 200, "LV": 20 },
-    { "COST": 500, "LV": 50 },
-    { "COST": 1000, "LV": 100 }
-  ],
   "HEROSHOP": {
     "PIECE_MAX": 5,
     "REFRESH_COST_INC": 10,
@@ -22,5 +8,47 @@
     "INITREFRESHCNT": 20,
     "PIECE_MIN": 1
   },
-  "REFINE_RATE": [100, 80, 70, 60, 50, 40, 30, 20, 10, 5]
+  "HEROSHOP_RATE": [59, 30, 10, 1],
+  "HEROSUMMON_SLOTOPEN_INFOS": [
+    {
+      "COST": 100,
+      "LV": 1
+    },
+    {
+      "COST": 200,
+      "LV": 20
+    },
+    {
+      "COST": 500,
+      "LV": 50
+    },
+    {
+      "COST": 1000,
+      "LV": 100
+    }
+  ],
+  "INVENTORY": {
+    "INIT": 100,
+    "ADDSIZE": 5,
+    "ADDCOST": 50
+  },
+  "REFINE_RATE": [100, 80, 70, 60, 50, 40, 30, 20, 10, 5],
+  "RUNESUMMON_SLOTOPEN_INFOS": [
+    {
+      "COST": 100,
+      "LV": 1
+    },
+    {
+      "COST": 300,
+      "LV": 30
+    },
+    {
+      "COST": 600,
+      "LV": 60
+    },
+    {
+      "COST": 1200,
+      "LV": 120
+    }
+  ]
 }

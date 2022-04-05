@@ -1,10 +1,27 @@
 {
   "DURDAY": 1,
-  "TICKET": { "INIT_CNT": 5, "BUY_DAY_LIMIT": 5, "BUY_TICKET_LIMIT": 10, "COST": 100 },
   "SKILLS": [
-    { "effectType": 200, "v": 0.3 },
-    { "effectType": 201, "v": 0.3 },
-    { "effectType": 300, "v": 0.3 },
-    { "effectType": 400, "v": 1 }
-  ]
+    {
+      "effectType": 200,
+      "v": 0.3
+    },
+    {
+      "effectType": 201,
+      "v": 0.3
+    },
+    {
+      "effectType": 300,
+      "v": 0.3
+    },
+    {
+      "effectType": 400,
+      "v": 1
+    }
+  ],
+  "TICKET": {
+    "INIT_CNT": 5,
+    "BUY_DAY_LIMIT": 5,
+    "BUY_TICKET_LIMIT": 10,
+    "COST": 100
+  }
 }

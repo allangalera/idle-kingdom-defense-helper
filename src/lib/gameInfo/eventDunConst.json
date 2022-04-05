@@ -1,1 +1,6 @@
-{ "INIT": { "TICKET_CNT": 2, "HOUR": 5 } }
+{
+  "INIT": {
+    "TICKET_CNT": 2,
+    "HOUR": 5
+  }
+}

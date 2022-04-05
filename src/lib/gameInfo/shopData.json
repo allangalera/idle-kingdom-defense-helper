@@ -1,29 +1,33 @@
 {
-  "limit_33": {
-    "shopType": 1,
-    "price": "$9.99",
+  "cash_1": {
+    "shopType": 4,
+    "price": "$1.99",
     "items": [
-      { "c": 1200, "t": 101 },
-      { "st": 1, "t": 70, "c": 8, "gr": 1 },
-      { "st": 1, "t": 70, "c": 4, "gr": 2 },
-      { "st": 1, "t": 70, "c": 2, "gr": 3 },
-      { "st": 1, "t": 70, "c": 1, "gr": 4 }
+      {
+        "c": 180,
+        "t": 101
+      }
     ],
-    "order": 12,
-    "desc": "SHOP_GOODS_DESC_LIMIT33",
-    "appstoreId": "com.stormx.castle.limit33",
-    "playstoreId": "com.stormx.castle.limit33",
-    "name": "SHOP_GOODS_NAME_LIMIT33",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_33",
-    "icon": "img/cashShop/sprPackageHeroSummon3.png",
+    "order": 1,
+    "desc": "SHOP_GOODS_DESC_CASH1",
+    "appstoreId": "com.stormx.castle.cash1",
+    "playstoreId": "com.stormx.castle.cash1",
+    "name": "SHOP_GOODS_NAME_CASH1",
+    "subDesc": "SHOP_GOODS_SUBDESC_CASH1",
+    "limitType": 0,
+    "id": "cash_1",
+    "icon": "",
     "appstoreConsumable": 1
   },
   "cash_2": {
     "shopType": 4,
     "price": "$4.99",
-    "items": [{ "c": 500, "t": 101 }],
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      }
+    ],
     "order": 3,
     "desc": "SHOP_GOODS_DESC_CASH2",
     "appstoreId": "com.stormx.castle.cash2",
@@ -35,69 +39,35 @@
     "icon": "",
     "appstoreConsumable": 1
   },
-  "limit_942": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 24, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 7,
-    "desc": "SHOP_GOODS_DESC_LIMIT42",
-    "appstoreId": "com.stormx.castle.limit42",
-    "playstoreId": "com.stormx.castle.limit42",
-    "name": "SHOP_GOODS_NAME_LIMIT42",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_942",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "limit_952": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 30, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 3,
-    "desc": "SHOP_GOODS_DESC_LIMIT52",
-    "appstoreId": "com.stormx.castle.limit50",
-    "playstoreId": "com.stormx.castle.limit50",
-    "name": "SHOP_GOODS_NAME_LIMIT52",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_952",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "limit_38": {
-    "shopType": 1,
+  "cash_3": {
+    "shopType": 4,
     "price": "$9.99",
     "items": [
-      { "c": 1200, "t": 101 },
-      { "st": 2, "t": 70, "c": 8, "gr": 1 },
-      { "st": 2, "t": 70, "c": 4, "gr": 2 },
-      { "st": 2, "t": 70, "c": 2, "gr": 3 },
-      { "st": 2, "t": 70, "c": 1, "gr": 4 }
+      {
+        "c": 1200,
+        "t": 101
+      }
     ],
-    "order": 17,
-    "desc": "SHOP_GOODS_DESC_LIMIT38",
-    "appstoreId": "com.stormx.castle.limit38",
-    "playstoreId": "com.stormx.castle.limit38",
-    "name": "SHOP_GOODS_NAME_LIMIT38",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_38",
-    "icon": "img/cashShop/sprPackageHeroGearSummon3.png",
+    "order": 5,
+    "desc": "SHOP_GOODS_DESC_CASH3",
+    "appstoreId": "com.stormx.castle.cash3",
+    "playstoreId": "com.stormx.castle.cash3",
+    "name": "SHOP_GOODS_NAME_CASH3",
+    "subDesc": "SHOP_GOODS_SUBDESC_CASH3",
+    "limitType": 0,
+    "id": "cash_3",
+    "icon": "",
     "appstoreConsumable": 1
   },
   "cash_4": {
     "shopType": 4,
     "price": "$24.99",
-    "items": [{ "c": 3100, "t": 101 }],
+    "items": [
+      {
+        "c": 3100,
+        "t": 101
+      }
+    ],
     "order": 2,
     "desc": "SHOP_GOODS_DESC_CASH4",
     "appstoreId": "com.stormx.castle.cash4",
@@ -109,74 +79,248 @@
     "icon": "",
     "appstoreConsumable": 1
   },
-  "limit_32": {
-    "shopType": 1,
-    "price": "$4.99",
+  "cash_5": {
+    "shopType": 4,
+    "price": "$49.99",
     "items": [
-      { "c": 500, "t": 101 },
-      { "st": 1, "t": 70, "c": 6, "gr": 1 },
-      { "st": 1, "t": 70, "c": 2, "gr": 2 },
-      { "st": 1, "t": 70, "c": 1, "gr": 3 }
+      {
+        "c": 6500,
+        "t": 101
+      }
     ],
-    "order": 10,
-    "desc": "SHOP_GOODS_DESC_LIMIT32",
-    "appstoreId": "com.stormx.castle.limit32",
-    "playstoreId": "com.stormx.castle.limit32",
-    "name": "SHOP_GOODS_NAME_LIMIT32",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_32",
-    "icon": "img/cashShop/sprPackageHeroSummon2.png",
+    "order": 4,
+    "desc": "SHOP_GOODS_DESC_CASH5",
+    "appstoreId": "com.stormx.castle.cash5",
+    "playstoreId": "com.stormx.castle.cash5",
+    "name": "SHOP_GOODS_NAME_CASH5",
+    "subDesc": "SHOP_GOODS_SUBDESC_CASH5",
+    "limitType": 0,
+    "id": "cash_5",
+    "icon": "",
     "appstoreConsumable": 1
   },
-  "limit_948": {
-    "shopType": 2,
-    "price": "$4.99",
+  "cash_6": {
+    "shopType": 4,
+    "price": "$99.99",
     "items": [
-      { "c": 500, "t": 101 },
-      { "id": 26, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
+      {
+        "c": 14000,
+        "t": 101
+      }
     ],
+    "order": 6,
+    "desc": "SHOP_GOODS_DESC_CASH6",
+    "appstoreId": "com.stormx.castle.cash6",
+    "playstoreId": "com.stormx.castle.cash6",
+    "name": "SHOP_GOODS_NAME_CASH6",
+    "subDesc": "SHOP_GOODS_SUBDESC_CASH6",
+    "limitType": 0,
+    "id": "cash_6",
+    "icon": "",
+    "appstoreConsumable": 1
+  },
+  "gift_1": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 1,
+      "t": 301
+    },
+    "order": 1,
+    "desc": "SHOP_GOODS_DESC_GIFT1",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT1",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_1",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_2": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 2,
+      "t": 301
+    },
+    "order": 3,
+    "desc": "SHOP_GOODS_DESC_GIFT2",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT2",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_2",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_3": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 3,
+      "t": 301
+    },
     "order": 5,
-    "desc": "SHOP_GOODS_DESC_LIMIT48",
-    "appstoreId": "com.stormx.castle.limit48",
-    "playstoreId": "com.stormx.castle.limit48",
-    "name": "SHOP_GOODS_NAME_LIMIT48",
+    "desc": "SHOP_GOODS_DESC_GIFT3",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT3",
     "subDesc": "",
-    "limitType": 1,
-    "id": "limit_948",
-    "icon": "0",
-    "appstoreConsumable": 1
+    "limitType": 0,
+    "id": "gift_3",
+    "icon": "",
+    "appstoreConsumable": 0
   },
-  "limit_945": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 11, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 13,
-    "desc": "SHOP_GOODS_DESC_LIMIT45",
-    "appstoreId": "com.stormx.castle.limit45",
-    "playstoreId": "com.stormx.castle.limit45",
-    "name": "SHOP_GOODS_NAME_LIMIT45",
+  "gift_4": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 4,
+      "t": 301
+    },
+    "order": 8,
+    "desc": "SHOP_GOODS_DESC_GIFT4",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT4",
     "subDesc": "",
-    "limitType": 1,
-    "id": "limit_945",
-    "icon": "0",
-    "appstoreConsumable": 1
+    "limitType": 0,
+    "id": "gift_4",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_5": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 5,
+      "t": 301
+    },
+    "order": 9,
+    "desc": "SHOP_GOODS_DESC_GIFT5",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT5",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_5",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_6": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 6,
+      "t": 301
+    },
+    "order": 2,
+    "desc": "SHOP_GOODS_DESC_GIFT6",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT6",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_6",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_7": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 7,
+      "t": 301
+    },
+    "order": 4,
+    "desc": "SHOP_GOODS_DESC_GIFT7",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT7",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_7",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_8": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 8,
+      "t": 301
+    },
+    "order": 6,
+    "desc": "SHOP_GOODS_DESC_GIFT8",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT8",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_8",
+    "icon": "",
+    "appstoreConsumable": 0
+  },
+  "gift_9": {
+    "shopType": 5,
+    "price": "1500",
+    "items": {
+      "st": 9,
+      "t": 301
+    },
+    "order": 7,
+    "desc": "SHOP_GOODS_DESC_GIFT9",
+    "appstoreId": "",
+    "playstoreId": "",
+    "name": "SHOP_GOODS_NAME_GIFT9",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "gift_9",
+    "icon": "",
+    "appstoreConsumable": 0
   },
   "limit_10": {
     "shopType": 1,
     "price": "$4.99",
     "items": [
-      { "st": 1, "t": 21, "c": 1, "gr": 0 },
-      { "st": 2, "t": 21, "c": 1, "gr": 0 },
-      { "st": 3, "t": 21, "c": 1, "gr": 0 },
-      { "st": 4, "t": 21, "c": 1, "gr": 0 },
-      { "st": 5, "t": 21, "c": 1, "gr": 0 },
-      { "st": 6, "t": 21, "c": 1, "gr": 0 }
+      {
+        "st": 1,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 2,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 3,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 4,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 5,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 6,
+        "t": 21,
+        "c": 1,
+        "gr": 0
+      }
     ],
     "order": 1,
     "desc": "SHOP_GOODS_DESC_LIMIT10",
@@ -189,124 +333,34 @@
     "icon": "img/cashShop/sprPackageArcherDesign.png",
     "appstoreConsumable": 1
   },
-  "limit_946": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 21, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 14,
-    "desc": "SHOP_GOODS_DESC_LIMIT46",
-    "appstoreId": "com.stormx.castle.limit46",
-    "playstoreId": "com.stormx.castle.limit46",
-    "name": "SHOP_GOODS_NAME_LIMIT46",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_946",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "limit_954": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 34, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 1,
-    "desc": "SHOP_GOODS_DESC_LIMIT54",
-    "appstoreId": "com.stormx.castle.limit54",
-    "playstoreId": "com.stormx.castle.limit54",
-    "name": "SHOP_GOODS_NAME_LIMIT54",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_954",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "gift_7": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 7, "t": 301 },
-    "order": 4,
-    "desc": "SHOP_GOODS_DESC_GIFT7",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT7",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_7",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "limit_4": {
-    "shopType": 1,
-    "price": "$2.99",
-    "items": [
-      { "c": 300, "t": 101 },
-      { "t": 24, "h": 8 }
-    ],
-    "order": 2,
-    "desc": "SHOP_GOODS_DESC_LIMIT4",
-    "appstoreId": "com.stormx.castle.limit4",
-    "playstoreId": "com.stormx.castle.limit4",
-    "name": "SHOP_GOODS_NAME_LIMIT4",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_4",
-    "icon": "img/cashShop/sprPackageEvolveStone.png",
-    "appstoreConsumable": 1
-  },
-  "limit_15": {
-    "shopType": 1,
-    "price": "$1.99",
-    "items": [
-      { "c": 180, "t": 101 },
-      { "st": 1, "t": 70, "c": 3, "gr": 1 },
-      { "st": 1, "t": 70, "c": 1, "gr": 2 }
-    ],
-    "order": 8,
-    "desc": "SHOP_GOODS_DESC_LIMIT15",
-    "appstoreId": "com.stormx.castle.limit15",
-    "playstoreId": "com.stormx.castle.limit15",
-    "name": "SHOP_GOODS_NAME_LIMIT15",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_15",
-    "icon": "img/cashShop/sprPackageHeroSummon1.png",
-    "appstoreConsumable": 1
-  },
-  "limit_22": {
-    "shopType": 1,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "t": 103, "n": 3 },
-      { "st": 1, "t": 22, "c": 3, "gr": 2 },
-      { "st": 1, "t": 23, "c": 3, "gr": 2 }
-    ],
-    "order": 16,
-    "desc": "SHOP_GOODS_DESC_LIMIT22",
-    "appstoreId": "com.stormx.castle.limit22",
-    "playstoreId": "com.stormx.castle.limit22",
-    "name": "SHOP_GOODS_NAME_LIMIT22",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_22",
-    "icon": "img/cashShop/sprPackageArcherWeaponEnchant2.png",
-    "appstoreConsumable": 1
-  },
   "limit_11": {
     "shopType": 1,
     "price": "$4.99",
     "items": [
-      { "st": 1, "t": 7, "c": 1, "gr": 0 },
-      { "st": 2, "t": 7, "c": 1, "gr": 0 },
-      { "st": 3, "t": 7, "c": 1, "gr": 0 },
-      { "st": 4, "t": 7, "c": 1, "gr": 0 }
+      {
+        "st": 1,
+        "t": 7,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 2,
+        "t": 7,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 3,
+        "t": 7,
+        "c": 1,
+        "gr": 0
+      },
+      {
+        "st": 4,
+        "t": 7,
+        "c": 1,
+        "gr": 0
+      }
     ],
     "order": 3,
     "desc": "SHOP_GOODS_DESC_LIMIT11",
@@ -319,449 +373,22 @@
     "icon": "img/cashShop/sprPackageHeroGear.png",
     "appstoreConsumable": 1
   },
-  "gift_5": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 5, "t": 301 },
-    "order": 9,
-    "desc": "SHOP_GOODS_DESC_GIFT5",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT5",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_5",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "cash_3": {
-    "shopType": 4,
-    "price": "$9.99",
-    "items": [{ "c": 1200, "t": 101 }],
-    "order": 5,
-    "desc": "SHOP_GOODS_DESC_CASH3",
-    "appstoreId": "com.stormx.castle.cash3",
-    "playstoreId": "com.stormx.castle.cash3",
-    "name": "SHOP_GOODS_NAME_CASH3",
-    "subDesc": "SHOP_GOODS_SUBDESC_CASH3",
-    "limitType": 0,
-    "id": "cash_3",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_9": {
-    "shopType": 1,
-    "price": "$14.99",
-    "items": [{ "c": 1, "t": 302 }],
-    "order": 4,
-    "desc": "SHOP_GOODS_DESC_LIMIT9",
-    "appstoreId": "com.stormx.castle.limit9",
-    "playstoreId": "com.stormx.castle.limit9",
-    "name": "SHOP_GOODS_NAME_LIMIT9",
-    "subDesc": "",
-    "limitType": 4,
-    "id": "limit_9",
-    "icon": "img/cashShop/sprNoAdsBig.png",
-    "appstoreConsumable": 0
-  },
-  "monthly_1": {
-    "shopType": 3,
-    "price": "$0.99",
-    "items": { "fcash": 300, "d": 30, "dcash": 30 },
-    "order": 1,
-    "desc": "SHOP_GOODS_DESC_MONTHLY",
-    "appstoreId": "com.stormx.castle.monthly1",
-    "playstoreId": "com.stormx.castle.monthly1",
-    "name": "SHOP_GOODS_NAME_MONTHLY1",
-    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
-    "limitType": 0,
-    "id": "monthly_1",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_2": {
-    "shopType": 1,
-    "price": "$0.99",
-    "items": [
-      { "c": 100, "t": 101 },
-      { "st": 1, "t": 22, "c": 10, "gr": 2 },
-      { "st": 1, "t": 22, "c": 30, "gr": 1 }
-    ],
-    "order": 20,
-    "desc": "SHOP_GOODS_DESC_LIMIT2",
-    "appstoreId": "com.stormx.castle.limit2",
-    "playstoreId": "com.stormx.castle.limit2",
-    "name": "SHOP_GOODS_NAME_LIMIT2",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_2",
-    "icon": "img/cashShop/sprPackageEnchantWeapon.png",
-    "appstoreConsumable": 1
-  },
-  "gift_6": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 6, "t": 301 },
-    "order": 2,
-    "desc": "SHOP_GOODS_DESC_GIFT6",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT6",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_6",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "limit_13": {
-    "shopType": 1,
-    "price": "$1.99",
-    "items": [
-      { "c": 180, "t": 101 },
-      { "t": 103, "n": 1 },
-      { "st": 1, "t": 22, "c": 1, "gr": 2 },
-      { "st": 1, "t": 23, "c": 1, "gr": 2 }
-    ],
-    "order": 14,
-    "desc": "SHOP_GOODS_DESC_LIMIT13",
-    "appstoreId": "com.stormx.castle.limit13",
-    "playstoreId": "com.stormx.castle.limit13",
-    "name": "SHOP_GOODS_NAME_LIMIT13",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_13",
-    "icon": "img/cashShop/sprPackageArcherWeaponEnchant1.png",
-    "appstoreConsumable": 1
-  },
-  "pass_premium": {
-    "shopType": 6,
-    "price": "$4.99",
-    "items": [{ "t": 303 }],
-    "order": 0,
-    "desc": "",
-    "appstoreId": "com.stormx.castle.premiumpass",
-    "playstoreId": "com.stormx.castle.premiumpass",
-    "name": "POPUP_PASS_PREMIUM_REWARD",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "pass_premium",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_906": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 3, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 10,
-    "desc": "SHOP_GOODS_DESC_LIMIT6",
-    "appstoreId": "com.stormx.castle.limit6",
-    "playstoreId": "com.stormx.castle.limit6",
-    "name": "SHOP_GOODS_NAME_LIMIT6",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_906",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "gift_9": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 9, "t": 301 },
-    "order": 7,
-    "desc": "SHOP_GOODS_DESC_GIFT9",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT9",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_9",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "gift_8": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 8, "t": 301 },
-    "order": 6,
-    "desc": "SHOP_GOODS_DESC_GIFT8",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT8",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_8",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "gift_4": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 4, "t": 301 },
-    "order": 8,
-    "desc": "SHOP_GOODS_DESC_GIFT4",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT4",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_4",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "gift_3": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 3, "t": 301 },
-    "order": 5,
-    "desc": "SHOP_GOODS_DESC_GIFT3",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT3",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_3",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "limit_949": {
-    "shopType": 1,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "c": 2000, "t": 29 }
-    ],
-    "order": 5,
-    "desc": "SHOP_GOODS_DESC_LIMIT49",
-    "appstoreId": "com.stormx.castle.limit949",
-    "playstoreId": "com.stormx.castle.limit949",
-    "name": "SHOP_GOODS_NAME_LIMIT49",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_949",
-    "icon": "img/cashShop/sprPackageSanctuaryScroll.png",
-    "appstoreConsumable": 1
-  },
-  "limit_16": {
-    "shopType": 1,
-    "price": "$1.99",
-    "items": [
-      { "c": 180, "t": 101 },
-      { "st": 2, "t": 70, "c": 3, "gr": 1 },
-      { "st": 2, "t": 70, "c": 1, "gr": 2 }
-    ],
-    "order": 13,
-    "desc": "SHOP_GOODS_DESC_LIMIT16",
-    "appstoreId": "com.stormx.castle.limit16",
-    "playstoreId": "com.stormx.castle.limit16",
-    "name": "SHOP_GOODS_NAME_LIMIT16",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_16",
-    "icon": "img/cashShop/sprPackageHeroGearSummon1.png",
-    "appstoreConsumable": 1
-  },
-  "limit_908": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 19, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 11,
-    "desc": "SHOP_GOODS_DESC_LIMIT8",
-    "appstoreId": "com.stormx.castle.limit8",
-    "playstoreId": "com.stormx.castle.limit8",
-    "name": "SHOP_GOODS_NAME_LIMIT8",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_908",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "limit_953": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 33, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 2,
-    "desc": "SHOP_GOODS_DESC_LIMIT53",
-    "appstoreId": "com.stormx.castle.limit53",
-    "playstoreId": "com.stormx.castle.limit53",
-    "name": "SHOP_GOODS_NAME_LIMIT53",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_953",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "gift_2": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 2, "t": 301 },
-    "order": 3,
-    "desc": "SHOP_GOODS_DESC_GIFT2",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT2",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_2",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "monthly_3": {
-    "shopType": 3,
-    "price": "$24.99",
-    "items": { "fcash": 3000, "d": 30, "dcash": 300 },
-    "order": 3,
-    "desc": "SHOP_GOODS_DESC_MONTHLY",
-    "appstoreId": "com.stormx.castle.monthly3",
-    "playstoreId": "com.stormx.castle.monthly3",
-    "name": "SHOP_GOODS_NAME_MONTHLY3",
-    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
-    "limitType": 0,
-    "id": "monthly_3",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_28": {
-    "shopType": 1,
-    "price": "$9.99",
-    "items": [
-      { "c": 1200, "t": 101 },
-      { "t": 103, "n": 8 },
-      { "st": 2, "t": 22, "c": 8, "gr": 2 },
-      { "st": 2, "t": 23, "c": 8, "gr": 2 }
-    ],
-    "order": 23,
-    "desc": "SHOP_GOODS_DESC_LIMIT28",
-    "appstoreId": "com.stormx.castle.limit28",
-    "playstoreId": "com.stormx.castle.limit28",
-    "name": "SHOP_GOODS_NAME_LIMIT28",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_28",
-    "icon": "img/cashShop/sprPackageArcherArmorEnchant3.png",
-    "appstoreConsumable": 1
-  },
-  "gift_1": {
-    "shopType": 5,
-    "price": "1500",
-    "items": { "st": 1, "t": 301 },
-    "order": 1,
-    "desc": "SHOP_GOODS_DESC_GIFT1",
-    "appstoreId": "",
-    "playstoreId": "",
-    "name": "SHOP_GOODS_NAME_GIFT1",
-    "subDesc": "",
-    "limitType": 0,
-    "id": "gift_1",
-    "icon": "",
-    "appstoreConsumable": 0
-  },
-  "cash_6": {
-    "shopType": 4,
-    "price": "$99.99",
-    "items": [{ "c": 14000, "t": 101 }],
-    "order": 6,
-    "desc": "SHOP_GOODS_DESC_CASH6",
-    "appstoreId": "com.stormx.castle.cash6",
-    "playstoreId": "com.stormx.castle.cash6",
-    "name": "SHOP_GOODS_NAME_CASH6",
-    "subDesc": "SHOP_GOODS_SUBDESC_CASH6",
-    "limitType": 0,
-    "id": "cash_6",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_901": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 7, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 9,
-    "desc": "SHOP_GOODS_DESC_LIMIT1",
-    "appstoreId": "com.stormx.castle.limit1",
-    "playstoreId": "com.stormx.castle.limit1",
-    "name": "SHOP_GOODS_NAME_LIMIT1",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_901",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
-  "cash_1": {
-    "shopType": 4,
-    "price": "$1.99",
-    "items": [{ "c": 180, "t": 101 }],
-    "order": 1,
-    "desc": "SHOP_GOODS_DESC_CASH1",
-    "appstoreId": "com.stormx.castle.cash1",
-    "playstoreId": "com.stormx.castle.cash1",
-    "name": "SHOP_GOODS_NAME_CASH1",
-    "subDesc": "SHOP_GOODS_SUBDESC_CASH1",
-    "limitType": 0,
-    "id": "cash_1",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_37": {
-    "shopType": 1,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "st": 2, "t": 70, "c": 6, "gr": 1 },
-      { "st": 2, "t": 70, "c": 2, "gr": 2 },
-      { "st": 2, "t": 70, "c": 1, "gr": 3 }
-    ],
-    "order": 15,
-    "desc": "SHOP_GOODS_DESC_LIMIT37",
-    "appstoreId": "com.stormx.castle.limit37",
-    "playstoreId": "com.stormx.castle.limit37",
-    "name": "SHOP_GOODS_NAME_LIMIT37",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_37",
-    "icon": "img/cashShop/sprPackageHeroGearSummon2.png",
-    "appstoreConsumable": 1
-  },
-  "limit_951": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 29, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 4,
-    "desc": "SHOP_GOODS_DESC_LIMIT51",
-    "appstoreId": "com.stormx.castle.limit49",
-    "playstoreId": "com.stormx.castle.limit49",
-    "name": "SHOP_GOODS_NAME_LIMIT51",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_951",
-    "icon": "0",
-    "appstoreConsumable": 1
-  },
   "limit_12": {
     "shopType": 1,
     "price": "$1.99",
     "items": [
-      { "c": 180, "t": 101 },
-      { "t": 102, "h": 1 },
-      { "t": 27, "h": 1 }
+      {
+        "c": 180,
+        "t": 101
+      },
+      {
+        "t": 102,
+        "h": 1
+      },
+      {
+        "t": 27,
+        "h": 1
+      }
     ],
     "order": 7,
     "desc": "SHOP_GOODS_DESC_LIMIT12",
@@ -774,52 +401,66 @@
     "icon": "img/cashShop/sprPackageHeroGrow1.png",
     "appstoreConsumable": 1
   },
-  "limit_3": {
+  "limit_13": {
     "shopType": 1,
-    "price": "$0.99",
+    "price": "$1.99",
     "items": [
-      { "c": 100, "t": 101 },
-      { "st": 2, "t": 22, "c": 10, "gr": 2 },
-      { "st": 2, "t": 22, "c": 30, "gr": 1 }
+      {
+        "c": 180,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 1
+      },
+      {
+        "st": 1,
+        "t": 22,
+        "c": 1,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 23,
+        "c": 1,
+        "gr": 2
+      }
     ],
-    "order": 22,
-    "desc": "SHOP_GOODS_DESC_LIMIT3",
-    "appstoreId": "com.stormx.castle.limit3",
-    "playstoreId": "com.stormx.castle.limit3",
-    "name": "SHOP_GOODS_NAME_LIMIT3",
+    "order": 14,
+    "desc": "SHOP_GOODS_DESC_LIMIT13",
+    "appstoreId": "com.stormx.castle.limit13",
+    "playstoreId": "com.stormx.castle.limit13",
+    "name": "SHOP_GOODS_NAME_LIMIT13",
     "subDesc": "",
     "limitType": 1,
-    "id": "limit_3",
-    "icon": "img/cashShop/sprPackageEnchantArmor.png",
-    "appstoreConsumable": 1
-  },
-  "limit_944": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 17, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 12,
-    "desc": "SHOP_GOODS_DESC_LIMIT44",
-    "appstoreId": "com.stormx.castle.limit44",
-    "playstoreId": "com.stormx.castle.limit44",
-    "name": "SHOP_GOODS_NAME_LIMIT44",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_944",
-    "icon": "0",
+    "id": "limit_13",
+    "icon": "img/cashShop/sprPackageArcherWeaponEnchant1.png",
     "appstoreConsumable": 1
   },
   "limit_14": {
     "shopType": 1,
     "price": "$1.99",
     "items": [
-      { "c": 180, "t": 101 },
-      { "t": 103, "n": 1 },
-      { "st": 2, "t": 22, "c": 1, "gr": 2 },
-      { "st": 2, "t": 23, "c": 1, "gr": 2 }
+      {
+        "c": 180,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 1
+      },
+      {
+        "st": 2,
+        "t": 22,
+        "c": 1,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 23,
+        "c": 1,
+        "gr": 2
+      }
     ],
     "order": 19,
     "desc": "SHOP_GOODS_DESC_LIMIT14",
@@ -832,140 +473,86 @@
     "icon": "img/cashShop/sprPackageArcherArmorEnchant1.png",
     "appstoreConsumable": 1
   },
-  "limit_27": {
+  "limit_15": {
     "shopType": 1,
-    "price": "$4.99",
+    "price": "$1.99",
     "items": [
-      { "c": 500, "t": 101 },
-      { "t": 103, "n": 3 },
-      { "st": 2, "t": 22, "c": 3, "gr": 2 },
-      { "st": 2, "t": 23, "c": 3, "gr": 2 }
-    ],
-    "order": 21,
-    "desc": "SHOP_GOODS_DESC_LIMIT27",
-    "appstoreId": "com.stormx.castle.limit27",
-    "playstoreId": "com.stormx.castle.limit27",
-    "name": "SHOP_GOODS_NAME_LIMIT27",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_27",
-    "icon": "img/cashShop/sprPackageArcherArmorEnchant2.png",
-    "appstoreConsumable": 1
-  },
-  "cash_5": {
-    "shopType": 4,
-    "price": "$49.99",
-    "items": [{ "c": 6500, "t": 101 }],
-    "order": 4,
-    "desc": "SHOP_GOODS_DESC_CASH5",
-    "appstoreId": "com.stormx.castle.cash5",
-    "playstoreId": "com.stormx.castle.cash5",
-    "name": "SHOP_GOODS_NAME_CASH5",
-    "subDesc": "SHOP_GOODS_SUBDESC_CASH5",
-    "limitType": 0,
-    "id": "cash_5",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_943": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 23, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
+      {
+        "c": 180,
+        "t": 101
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 3,
+        "gr": 1
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 1,
+        "gr": 2
+      }
     ],
     "order": 8,
-    "desc": "SHOP_GOODS_DESC_LIMIT43",
-    "appstoreId": "com.stormx.castle.limit43",
-    "playstoreId": "com.stormx.castle.limit43",
-    "name": "SHOP_GOODS_NAME_LIMIT43",
+    "desc": "SHOP_GOODS_DESC_LIMIT15",
+    "appstoreId": "com.stormx.castle.limit15",
+    "playstoreId": "com.stormx.castle.limit15",
+    "name": "SHOP_GOODS_NAME_LIMIT15",
     "subDesc": "",
     "limitType": 1,
-    "id": "limit_943",
-    "icon": "0",
+    "id": "limit_15",
+    "icon": "img/cashShop/sprPackageHeroSummon1.png",
     "appstoreConsumable": 1
   },
-  "limit_18": {
+  "limit_16": {
     "shopType": 1,
-    "price": "$9.99",
+    "price": "$1.99",
     "items": [
-      { "c": 1200, "t": 101 },
-      { "t": 102, "h": 8 },
-      { "t": 27, "h": 8 }
+      {
+        "c": 180,
+        "t": 101
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 3,
+        "gr": 1
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 1,
+        "gr": 2
+      }
     ],
-    "order": 11,
-    "desc": "SHOP_GOODS_DESC_LIMIT18",
-    "appstoreId": "com.stormx.castle.limit18",
-    "playstoreId": "com.stormx.castle.limit18",
-    "name": "SHOP_GOODS_NAME_LIMIT18",
+    "order": 13,
+    "desc": "SHOP_GOODS_DESC_LIMIT16",
+    "appstoreId": "com.stormx.castle.limit16",
+    "playstoreId": "com.stormx.castle.limit16",
+    "name": "SHOP_GOODS_NAME_LIMIT16",
     "subDesc": "",
     "limitType": 1,
-    "id": "limit_18",
-    "icon": "img/cashShop/sprPackageHeroGrow3.png",
-    "appstoreConsumable": 1
-  },
-  "limit_23": {
-    "shopType": 1,
-    "price": "$9.99",
-    "items": [
-      { "c": 1200, "t": 101 },
-      { "t": 103, "n": 8 },
-      { "st": 1, "t": 22, "c": 8, "gr": 2 },
-      { "st": 1, "t": 23, "c": 8, "gr": 2 }
-    ],
-    "order": 18,
-    "desc": "SHOP_GOODS_DESC_LIMIT23",
-    "appstoreId": "com.stormx.castle.limit23",
-    "playstoreId": "com.stormx.castle.limit23",
-    "name": "SHOP_GOODS_NAME_LIMIT23",
-    "subDesc": "",
-    "limitType": 2,
-    "id": "limit_23",
-    "icon": "img/cashShop/sprPackageArcherWeaponEnchant3.png",
-    "appstoreConsumable": 1
-  },
-  "monthly_2": {
-    "shopType": 3,
-    "price": "$9.99",
-    "items": { "fcash": 1000, "d": 30, "dcash": 100 },
-    "order": 2,
-    "desc": "SHOP_GOODS_DESC_MONTHLY",
-    "appstoreId": "com.stormx.castle.monthly2",
-    "playstoreId": "com.stormx.castle.monthly2",
-    "name": "SHOP_GOODS_NAME_MONTHLY2",
-    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
-    "limitType": 0,
-    "id": "monthly_2",
-    "icon": "",
-    "appstoreConsumable": 1
-  },
-  "limit_947": {
-    "shopType": 2,
-    "price": "$4.99",
-    "items": [
-      { "c": 500, "t": 101 },
-      { "id": 25, "t": 201, "c": 100 },
-      { "t": 24, "h": 2 }
-    ],
-    "order": 6,
-    "desc": "SHOP_GOODS_DESC_LIMIT47",
-    "appstoreId": "com.stormx.castle.limit47",
-    "playstoreId": "com.stormx.castle.limit47",
-    "name": "SHOP_GOODS_NAME_LIMIT47",
-    "subDesc": "",
-    "limitType": 1,
-    "id": "limit_947",
-    "icon": "0",
+    "id": "limit_16",
+    "icon": "img/cashShop/sprPackageHeroGearSummon1.png",
     "appstoreConsumable": 1
   },
   "limit_17": {
     "shopType": 1,
     "price": "$4.99",
     "items": [
-      { "c": 500, "t": 101 },
-      { "t": 102, "h": 3 },
-      { "t": 27, "h": 3 }
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "t": 102,
+        "h": 3
+      },
+      {
+        "t": 27,
+        "h": 3
+      }
     ],
     "order": 9,
     "desc": "SHOP_GOODS_DESC_LIMIT17",
@@ -978,12 +565,776 @@
     "icon": "img/cashShop/sprPackageHeroGrow2.png",
     "appstoreConsumable": 1
   },
+  "limit_18": {
+    "shopType": 1,
+    "price": "$9.99",
+    "items": [
+      {
+        "c": 1200,
+        "t": 101
+      },
+      {
+        "t": 102,
+        "h": 8
+      },
+      {
+        "t": 27,
+        "h": 8
+      }
+    ],
+    "order": 11,
+    "desc": "SHOP_GOODS_DESC_LIMIT18",
+    "appstoreId": "com.stormx.castle.limit18",
+    "playstoreId": "com.stormx.castle.limit18",
+    "name": "SHOP_GOODS_NAME_LIMIT18",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_18",
+    "icon": "img/cashShop/sprPackageHeroGrow3.png",
+    "appstoreConsumable": 1
+  },
+  "limit_2": {
+    "shopType": 1,
+    "price": "$0.99",
+    "items": [
+      {
+        "c": 100,
+        "t": 101
+      },
+      {
+        "st": 1,
+        "t": 22,
+        "c": 10,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 22,
+        "c": 30,
+        "gr": 1
+      }
+    ],
+    "order": 20,
+    "desc": "SHOP_GOODS_DESC_LIMIT2",
+    "appstoreId": "com.stormx.castle.limit2",
+    "playstoreId": "com.stormx.castle.limit2",
+    "name": "SHOP_GOODS_NAME_LIMIT2",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_2",
+    "icon": "img/cashShop/sprPackageEnchantWeapon.png",
+    "appstoreConsumable": 1
+  },
+  "limit_22": {
+    "shopType": 1,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 3
+      },
+      {
+        "st": 1,
+        "t": 22,
+        "c": 3,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 23,
+        "c": 3,
+        "gr": 2
+      }
+    ],
+    "order": 16,
+    "desc": "SHOP_GOODS_DESC_LIMIT22",
+    "appstoreId": "com.stormx.castle.limit22",
+    "playstoreId": "com.stormx.castle.limit22",
+    "name": "SHOP_GOODS_NAME_LIMIT22",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_22",
+    "icon": "img/cashShop/sprPackageArcherWeaponEnchant2.png",
+    "appstoreConsumable": 1
+  },
+  "limit_23": {
+    "shopType": 1,
+    "price": "$9.99",
+    "items": [
+      {
+        "c": 1200,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 8
+      },
+      {
+        "st": 1,
+        "t": 22,
+        "c": 8,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 23,
+        "c": 8,
+        "gr": 2
+      }
+    ],
+    "order": 18,
+    "desc": "SHOP_GOODS_DESC_LIMIT23",
+    "appstoreId": "com.stormx.castle.limit23",
+    "playstoreId": "com.stormx.castle.limit23",
+    "name": "SHOP_GOODS_NAME_LIMIT23",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_23",
+    "icon": "img/cashShop/sprPackageArcherWeaponEnchant3.png",
+    "appstoreConsumable": 1
+  },
+  "limit_27": {
+    "shopType": 1,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 3
+      },
+      {
+        "st": 2,
+        "t": 22,
+        "c": 3,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 23,
+        "c": 3,
+        "gr": 2
+      }
+    ],
+    "order": 21,
+    "desc": "SHOP_GOODS_DESC_LIMIT27",
+    "appstoreId": "com.stormx.castle.limit27",
+    "playstoreId": "com.stormx.castle.limit27",
+    "name": "SHOP_GOODS_NAME_LIMIT27",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_27",
+    "icon": "img/cashShop/sprPackageArcherArmorEnchant2.png",
+    "appstoreConsumable": 1
+  },
+  "limit_28": {
+    "shopType": 1,
+    "price": "$9.99",
+    "items": [
+      {
+        "c": 1200,
+        "t": 101
+      },
+      {
+        "t": 103,
+        "n": 8
+      },
+      {
+        "st": 2,
+        "t": 22,
+        "c": 8,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 23,
+        "c": 8,
+        "gr": 2
+      }
+    ],
+    "order": 23,
+    "desc": "SHOP_GOODS_DESC_LIMIT28",
+    "appstoreId": "com.stormx.castle.limit28",
+    "playstoreId": "com.stormx.castle.limit28",
+    "name": "SHOP_GOODS_NAME_LIMIT28",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_28",
+    "icon": "img/cashShop/sprPackageArcherArmorEnchant3.png",
+    "appstoreConsumable": 1
+  },
+  "limit_3": {
+    "shopType": 1,
+    "price": "$0.99",
+    "items": [
+      {
+        "c": 100,
+        "t": 101
+      },
+      {
+        "st": 2,
+        "t": 22,
+        "c": 10,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 22,
+        "c": 30,
+        "gr": 1
+      }
+    ],
+    "order": 22,
+    "desc": "SHOP_GOODS_DESC_LIMIT3",
+    "appstoreId": "com.stormx.castle.limit3",
+    "playstoreId": "com.stormx.castle.limit3",
+    "name": "SHOP_GOODS_NAME_LIMIT3",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_3",
+    "icon": "img/cashShop/sprPackageEnchantArmor.png",
+    "appstoreConsumable": 1
+  },
+  "limit_32": {
+    "shopType": 1,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 6,
+        "gr": 1
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 2,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 1,
+        "gr": 3
+      }
+    ],
+    "order": 10,
+    "desc": "SHOP_GOODS_DESC_LIMIT32",
+    "appstoreId": "com.stormx.castle.limit32",
+    "playstoreId": "com.stormx.castle.limit32",
+    "name": "SHOP_GOODS_NAME_LIMIT32",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_32",
+    "icon": "img/cashShop/sprPackageHeroSummon2.png",
+    "appstoreConsumable": 1
+  },
+  "limit_33": {
+    "shopType": 1,
+    "price": "$9.99",
+    "items": [
+      {
+        "c": 1200,
+        "t": 101
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 8,
+        "gr": 1
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 4,
+        "gr": 2
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 2,
+        "gr": 3
+      },
+      {
+        "st": 1,
+        "t": 70,
+        "c": 1,
+        "gr": 4
+      }
+    ],
+    "order": 12,
+    "desc": "SHOP_GOODS_DESC_LIMIT33",
+    "appstoreId": "com.stormx.castle.limit33",
+    "playstoreId": "com.stormx.castle.limit33",
+    "name": "SHOP_GOODS_NAME_LIMIT33",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_33",
+    "icon": "img/cashShop/sprPackageHeroSummon3.png",
+    "appstoreConsumable": 1
+  },
+  "limit_37": {
+    "shopType": 1,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 6,
+        "gr": 1
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 2,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 1,
+        "gr": 3
+      }
+    ],
+    "order": 15,
+    "desc": "SHOP_GOODS_DESC_LIMIT37",
+    "appstoreId": "com.stormx.castle.limit37",
+    "playstoreId": "com.stormx.castle.limit37",
+    "name": "SHOP_GOODS_NAME_LIMIT37",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_37",
+    "icon": "img/cashShop/sprPackageHeroGearSummon2.png",
+    "appstoreConsumable": 1
+  },
+  "limit_38": {
+    "shopType": 1,
+    "price": "$9.99",
+    "items": [
+      {
+        "c": 1200,
+        "t": 101
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 8,
+        "gr": 1
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 4,
+        "gr": 2
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 2,
+        "gr": 3
+      },
+      {
+        "st": 2,
+        "t": 70,
+        "c": 1,
+        "gr": 4
+      }
+    ],
+    "order": 17,
+    "desc": "SHOP_GOODS_DESC_LIMIT38",
+    "appstoreId": "com.stormx.castle.limit38",
+    "playstoreId": "com.stormx.castle.limit38",
+    "name": "SHOP_GOODS_NAME_LIMIT38",
+    "subDesc": "",
+    "limitType": 2,
+    "id": "limit_38",
+    "icon": "img/cashShop/sprPackageHeroGearSummon3.png",
+    "appstoreConsumable": 1
+  },
+  "limit_4": {
+    "shopType": 1,
+    "price": "$2.99",
+    "items": [
+      {
+        "c": 300,
+        "t": 101
+      },
+      {
+        "t": 24,
+        "h": 8
+      }
+    ],
+    "order": 2,
+    "desc": "SHOP_GOODS_DESC_LIMIT4",
+    "appstoreId": "com.stormx.castle.limit4",
+    "playstoreId": "com.stormx.castle.limit4",
+    "name": "SHOP_GOODS_NAME_LIMIT4",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_4",
+    "icon": "img/cashShop/sprPackageEvolveStone.png",
+    "appstoreConsumable": 1
+  },
+  "limit_9": {
+    "shopType": 1,
+    "price": "$14.99",
+    "items": [
+      {
+        "c": 1,
+        "t": 302
+      }
+    ],
+    "order": 4,
+    "desc": "SHOP_GOODS_DESC_LIMIT9",
+    "appstoreId": "com.stormx.castle.limit9",
+    "playstoreId": "com.stormx.castle.limit9",
+    "name": "SHOP_GOODS_NAME_LIMIT9",
+    "subDesc": "",
+    "limitType": 4,
+    "id": "limit_9",
+    "icon": "img/cashShop/sprNoAdsBig.png",
+    "appstoreConsumable": 0
+  },
+  "limit_901": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 7,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 9,
+    "desc": "SHOP_GOODS_DESC_LIMIT1",
+    "appstoreId": "com.stormx.castle.limit1",
+    "playstoreId": "com.stormx.castle.limit1",
+    "name": "SHOP_GOODS_NAME_LIMIT1",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_901",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_906": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 3,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 10,
+    "desc": "SHOP_GOODS_DESC_LIMIT6",
+    "appstoreId": "com.stormx.castle.limit6",
+    "playstoreId": "com.stormx.castle.limit6",
+    "name": "SHOP_GOODS_NAME_LIMIT6",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_906",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_908": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 19,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 11,
+    "desc": "SHOP_GOODS_DESC_LIMIT8",
+    "appstoreId": "com.stormx.castle.limit8",
+    "playstoreId": "com.stormx.castle.limit8",
+    "name": "SHOP_GOODS_NAME_LIMIT8",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_908",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_942": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 24,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 7,
+    "desc": "SHOP_GOODS_DESC_LIMIT42",
+    "appstoreId": "com.stormx.castle.limit42",
+    "playstoreId": "com.stormx.castle.limit42",
+    "name": "SHOP_GOODS_NAME_LIMIT42",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_942",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_943": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 23,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 8,
+    "desc": "SHOP_GOODS_DESC_LIMIT43",
+    "appstoreId": "com.stormx.castle.limit43",
+    "playstoreId": "com.stormx.castle.limit43",
+    "name": "SHOP_GOODS_NAME_LIMIT43",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_943",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_944": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 17,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 12,
+    "desc": "SHOP_GOODS_DESC_LIMIT44",
+    "appstoreId": "com.stormx.castle.limit44",
+    "playstoreId": "com.stormx.castle.limit44",
+    "name": "SHOP_GOODS_NAME_LIMIT44",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_944",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_945": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 11,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 13,
+    "desc": "SHOP_GOODS_DESC_LIMIT45",
+    "appstoreId": "com.stormx.castle.limit45",
+    "playstoreId": "com.stormx.castle.limit45",
+    "name": "SHOP_GOODS_NAME_LIMIT45",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_945",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_946": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 21,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 14,
+    "desc": "SHOP_GOODS_DESC_LIMIT46",
+    "appstoreId": "com.stormx.castle.limit46",
+    "playstoreId": "com.stormx.castle.limit46",
+    "name": "SHOP_GOODS_NAME_LIMIT46",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_946",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_947": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 25,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 6,
+    "desc": "SHOP_GOODS_DESC_LIMIT47",
+    "appstoreId": "com.stormx.castle.limit47",
+    "playstoreId": "com.stormx.castle.limit47",
+    "name": "SHOP_GOODS_NAME_LIMIT47",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_947",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_948": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 26,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 5,
+    "desc": "SHOP_GOODS_DESC_LIMIT48",
+    "appstoreId": "com.stormx.castle.limit48",
+    "playstoreId": "com.stormx.castle.limit48",
+    "name": "SHOP_GOODS_NAME_LIMIT48",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_948",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_949": {
+    "shopType": 1,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "c": 2000,
+        "t": 29
+      }
+    ],
+    "order": 5,
+    "desc": "SHOP_GOODS_DESC_LIMIT49",
+    "appstoreId": "com.stormx.castle.limit949",
+    "playstoreId": "com.stormx.castle.limit949",
+    "name": "SHOP_GOODS_NAME_LIMIT49",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_949",
+    "icon": "img/cashShop/sprPackageSanctuaryScroll.png",
+    "appstoreConsumable": 1
+  },
   "limit_950": {
     "shopType": 1,
     "price": "$4.99",
     "items": [
-      { "c": 500, "t": 101 },
-      { "c": 2400, "t": 28 }
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "c": 2400,
+        "t": 28
+      }
     ],
     "order": 6,
     "desc": "SHOP_GOODS_DESC_LIMIT50",
@@ -994,6 +1345,198 @@
     "limitType": 1,
     "id": "limit_950",
     "icon": "img/cashShop/sprPackageMagicDust.png",
+    "appstoreConsumable": 1
+  },
+  "limit_951": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 29,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 4,
+    "desc": "SHOP_GOODS_DESC_LIMIT51",
+    "appstoreId": "com.stormx.castle.limit49",
+    "playstoreId": "com.stormx.castle.limit49",
+    "name": "SHOP_GOODS_NAME_LIMIT51",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_951",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_952": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 30,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 3,
+    "desc": "SHOP_GOODS_DESC_LIMIT52",
+    "appstoreId": "com.stormx.castle.limit50",
+    "playstoreId": "com.stormx.castle.limit50",
+    "name": "SHOP_GOODS_NAME_LIMIT52",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_952",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_953": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 33,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 2,
+    "desc": "SHOP_GOODS_DESC_LIMIT53",
+    "appstoreId": "com.stormx.castle.limit53",
+    "playstoreId": "com.stormx.castle.limit53",
+    "name": "SHOP_GOODS_NAME_LIMIT53",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_953",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "limit_954": {
+    "shopType": 2,
+    "price": "$4.99",
+    "items": [
+      {
+        "c": 500,
+        "t": 101
+      },
+      {
+        "id": 34,
+        "t": 201,
+        "c": 100
+      },
+      {
+        "t": 24,
+        "h": 2
+      }
+    ],
+    "order": 1,
+    "desc": "SHOP_GOODS_DESC_LIMIT54",
+    "appstoreId": "com.stormx.castle.limit54",
+    "playstoreId": "com.stormx.castle.limit54",
+    "name": "SHOP_GOODS_NAME_LIMIT54",
+    "subDesc": "",
+    "limitType": 1,
+    "id": "limit_954",
+    "icon": "0",
+    "appstoreConsumable": 1
+  },
+  "monthly_1": {
+    "shopType": 3,
+    "price": "$0.99",
+    "items": {
+      "fcash": 300,
+      "d": 30,
+      "dcash": 30
+    },
+    "order": 1,
+    "desc": "SHOP_GOODS_DESC_MONTHLY",
+    "appstoreId": "com.stormx.castle.monthly1",
+    "playstoreId": "com.stormx.castle.monthly1",
+    "name": "SHOP_GOODS_NAME_MONTHLY1",
+    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
+    "limitType": 0,
+    "id": "monthly_1",
+    "icon": "",
+    "appstoreConsumable": 1
+  },
+  "monthly_2": {
+    "shopType": 3,
+    "price": "$9.99",
+    "items": {
+      "fcash": 1000,
+      "d": 30,
+      "dcash": 100
+    },
+    "order": 2,
+    "desc": "SHOP_GOODS_DESC_MONTHLY",
+    "appstoreId": "com.stormx.castle.monthly2",
+    "playstoreId": "com.stormx.castle.monthly2",
+    "name": "SHOP_GOODS_NAME_MONTHLY2",
+    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
+    "limitType": 0,
+    "id": "monthly_2",
+    "icon": "",
+    "appstoreConsumable": 1
+  },
+  "monthly_3": {
+    "shopType": 3,
+    "price": "$24.99",
+    "items": {
+      "fcash": 3000,
+      "d": 30,
+      "dcash": 300
+    },
+    "order": 3,
+    "desc": "SHOP_GOODS_DESC_MONTHLY",
+    "appstoreId": "com.stormx.castle.monthly3",
+    "playstoreId": "com.stormx.castle.monthly3",
+    "name": "SHOP_GOODS_NAME_MONTHLY3",
+    "subDesc": "SHOP_GOODS_SUBDESC_MONTHLY",
+    "limitType": 0,
+    "id": "monthly_3",
+    "icon": "",
+    "appstoreConsumable": 1
+  },
+  "pass_premium": {
+    "shopType": 6,
+    "price": "$4.99",
+    "items": [
+      {
+        "t": 303
+      }
+    ],
+    "order": 0,
+    "desc": "",
+    "appstoreId": "com.stormx.castle.premiumpass",
+    "playstoreId": "com.stormx.castle.premiumpass",
+    "name": "POPUP_PASS_PREMIUM_REWARD",
+    "subDesc": "",
+    "limitType": 0,
+    "id": "pass_premium",
+    "icon": "",
     "appstoreConsumable": 1
   }
 }

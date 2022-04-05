@@ -23,7 +23,7 @@
     "buyPieceCost": 100,
     "skillKey": "HEROARCHER01_SKILL_",
     "criDamage": 10,
-    " ": 20,
+    "defPierceResist": 20,
     "name": "HEROARCHER01_NAME",
     "hit": 10,
     "criResist": 10,
