@@ -167,6 +167,12 @@ export const skillProgressionGrade = style({
   marginTop: calc(theme.space[2]).negate().toString(),
 });
 
+export const heroStats = style({
+  paddingRight: theme.sizes[2],
+  paddingLeft: theme.sizes[2],
+  columnCount: 2,
+})
+
 export const tableItemRightMinimal = style({
   padding: theme.sizes[2],
   gap: theme.space[2],

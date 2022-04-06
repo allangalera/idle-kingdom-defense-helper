@@ -15,6 +15,7 @@
   import * as R from 'remeda';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
   import { theme } from '$lib/styles/themes/index.css';
+import { compact } from 'remeda';
 
   export let hero;
   let addModalOpen = false;
@@ -141,6 +142,14 @@
     return heroStats;
   };
 
+  const calculateDPS = (stats) => {
+    const criRatio = stats.cri / 100;
+    const criDamageRatio = stats.criDamage / 100;
+    const normalDamage = stats.atk * stats.atkSpeed
+    const criticalDamage = stats.atk * stats.atkSpeed * criDamageRatio
+    return getIdleKingdomNumberFormat((1 - criRatio) * normalDamage + criticalDamage * criRatio, 2)
+  }
+
   heroes.subscribe((data) => {
     userHero = data?.heroes?.find((item) => item.id === hero.id) || null;
   });
@@ -215,6 +224,14 @@
       {/if}
     </div>
   </div>
+  {#if $heroesVisualization !== HeroesVisualizationModes.compact}
+  <div class={styles.heroStats}>
+    {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
+      <Text>{stats}: {heroStats[stats]}</Text>
+    {/each}
+    <Text>DPS: {calculateDPS(heroStats)}</Text>
+  </div>
+  {/if}
   {#if $heroesVisualization === HeroesVisualizationModes.minimal}
     <div class={styles.tableItemRightMinimal}>
       {#each hero.skills as skill, i (skill.name)}

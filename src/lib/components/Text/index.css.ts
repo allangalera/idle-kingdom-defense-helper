@@ -3,6 +3,7 @@ import { style } from '@vanilla-extract/css';
 
 export const paragraph = style({
   fontFamily: theme.font.family.body,
+  wordBreak: 'break-word',
   margin: 0,
   '::selection': {
     background: theme.themeColors.accent.base,
