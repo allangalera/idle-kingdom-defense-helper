@@ -138,7 +138,8 @@ import { compact } from 'remeda';
       (heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
     heroStats.atk =
       (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk + 20;
-
+    // add Base Rune damage as well
+    heroStats.criDamage += 3
     return heroStats;
   };
 
@@ -147,7 +148,9 @@ import { compact } from 'remeda';
     const criDamageRatio = stats.criDamage / 100;
     const normalDamage = stats.atk * stats.atkSpeed
     const criticalDamage = stats.atk * stats.atkSpeed * criDamageRatio
-    return getIdleKingdomNumberFormat((1 - criRatio) * normalDamage + criticalDamage * criRatio, 2)
+    const normalDamageRatio = Math.max(1-  criRatio, 0);
+    const criticalDamageRatio = Math.min(criRatio, 1);
+    return getIdleKingdomNumberFormat(normalDamageRatio * normalDamage + criticalDamage * criticalDamageRatio, 2)
   }
 
   heroes.subscribe((data) => {
