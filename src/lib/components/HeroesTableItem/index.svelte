@@ -2,6 +2,7 @@
   import * as styles from './index.css';
   import CardHero from '$lib/components/CardHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import { match } from 'oxide.ts';
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { HeroesVisualizationModes } from '$lib/enums';
@@ -15,7 +16,6 @@
   import * as R from 'remeda';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
   import { theme } from '$lib/styles/themes/index.css';
-import { compact } from 'remeda';
 
   export let hero;
   let addModalOpen = false;
@@ -232,7 +232,7 @@ import { compact } from 'remeda';
     {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
       <Text>{stats}: {heroStats[stats]}</Text>
     {/each}
-    <Text>DPS: {calculateDPS(heroStats)}</Text>
+    <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>: {calculateDPS(heroStats)}</Text>
   </div>
   {/if}
   {#if $heroesVisualization === HeroesVisualizationModes.minimal}

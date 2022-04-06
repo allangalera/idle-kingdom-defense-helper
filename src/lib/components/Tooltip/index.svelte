@@ -38,7 +38,7 @@
   };
 </script>
 
-<div
+<span
   on:mouseover={onMouseOver}
   on:mouseleave={onMouseLeave}
   on:focus={onFocus}
@@ -46,7 +46,7 @@
   bind:this={el}
 >
   <slot />
-</div>
+</span>
 {#if open}
   <Portal>
     <div class={styles.container} style="top: {y}px; left: {x}px">
