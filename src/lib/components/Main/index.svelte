@@ -9,8 +9,8 @@
     sprinkles({
       background: 'gray1',
       padding: {
-        mobile: 4,
-        tablet: 6,
+        sm: 4,
+        md: 6,
       },
     }),
   ].join(' ')}

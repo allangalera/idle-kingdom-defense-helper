@@ -1,7 +1,7 @@
 <script>
   import '@fontsource/roboto';
   import '@fontsource/roboto-slab';
-  import '@fontsource/roboto-mono';
+  import "@fontsource/fira-mono"
   import '$lib/styles/styles.css';
   import { theme, ThemeOptions } from '$lib/shared/stores/theme';
   import { lightTheme } from '$lib/styles/themes/light.css';

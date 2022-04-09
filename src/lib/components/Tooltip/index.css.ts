@@ -2,13 +2,14 @@ import { theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
 export const container = style({
-  position: 'absolute',
+  position: 'fixed',
   zIndex: 1200,
   transform: 'translate(-50%, -100%)',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
+  minWidth: theme.sizes.max
 });
 
 export const tooltip = style({

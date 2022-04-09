@@ -53,14 +53,24 @@ export const fontSizes = {
   '9xl': '8rem',
 };
 
+export const sizings = {
+  sm: 'sm',
+  md: 'md',
+  lg: 'lg',
+  xl: 'xl',
+  '2xl': '2xl',
+}
+
+export const breakpoints = {
+  sm: '30em',
+  md: '48em',
+  lg: '62em',
+  xl: '80em',
+  '2xl': '96em',
+}
+
 export const root = createGlobalTheme(':root', {
-  breakpoints: {
-    sm: '30em',
-    md: '48em',
-    lg: '62em',
-    xl: '80em',
-    '2xl': '96em',
-  },
+  breakpoints: breakpoints,
   space: space,
   sizes: {
     ...space,
@@ -86,7 +96,7 @@ export const root = createGlobalTheme(':root', {
     family: {
       heading: 'Roboto Slab',
       body: 'Roboto',
-      mono: 'Roboto Mono',
+      mono: '"Fira Mono", monospace',
     },
     fontSizes: {
       xs: '0.75rem',

@@ -44,7 +44,7 @@
 
   function formatSkillValue(progressionAttributes, skill) {
     const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
-    if (skill.name.includes('Amplify Weapon Effect')) console.log(progressionAttributes)
+
     return match(addType, [
       [
         1,
@@ -247,7 +247,7 @@
                 }),
               ].join(' ')}
             >
-              <Text textAlign="center" fontWeight="bold" fontSize="xs"
+              <Text textAlign="center" fontWeight="bold" fontSize="xs" fontFamily="mono"
                 >{formatSkillValue(step, skill)}</Text
               >
             </div>
@@ -259,9 +259,15 @@
   {#if $heroesVisualization === HeroesVisualizationModes.detailed}
   <div class={styles.heroStats}>
     {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
-      <Text>{stats}: {heroStats[stats]}</Text>
+    <div class={styles.heroStat}>
+      <Text>{stats}:</Text>
+      <Text>{heroStats[stats]}</Text>
+    </div>
     {/each}
-    <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>: {calculateDPS(heroStats)}</Text>
+    <div class={styles.heroStat}>
+      <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>:</Text>
+      <Text>{calculateDPS(heroStats)}</Text>
+    </div>
   </div>
     <div class={styles.tableItemRight}>
       {#each hero.skills as skill, i (skill.name)}
@@ -287,7 +293,7 @@
                   }),
                 ].join(' ')}
               >
-                <Text textAlign="center" fontWeight="bold" fontSize="xs"
+                <Text textAlign="center" fontWeight="bold" fontSize="xs" fontFamily="mono"
                   >{formatSkillValue(step, skill)}</Text
                 >
               </div>

@@ -45,7 +45,7 @@
 >
   <div class={styles.container}>
     <div class={styles.middle}>
-      <Heading fontSize={{ mobile: '2xl', tablet: '4xl' }}>IKD Helper</Heading>
+      <Heading fontSize={{ sm: '2xl', md: '4xl' }}>IKD Helper</Heading>
     </div>
     <div class={styles.right}>
       <Icon src={FiSun} color={theme.themeColors.text.default} />

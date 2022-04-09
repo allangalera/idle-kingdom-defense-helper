@@ -104,13 +104,13 @@
           background: backgroundByContinent[kingdom.continentId],
           borderColor: borderColorByContinent[kingdom.continentId],
           width: {
-            mobile: 16,
-            tablet: 24,
+            sm: 16,
+            md: 24,
           },
         }),
       ].join(' ')}
     >
-      <Text as="span" fontSize={{ mobile: 'xs', tablet: 'sm' }} textAlign="center"
+      <Text as="span" fontSize={{ sm: 'xs', md: 'sm' }} textAlign="center"
         >{kingdom.continent} {kingdomNameToRomanNumber(kingdom.name)}</Text
       >
     </div>

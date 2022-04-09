@@ -116,8 +116,8 @@ export const actionButtonVariant = styleVariants({
 
 export const tableItemRight = style({
   flex: 1,
-  padding: theme.sizes[2],
-  gap: theme.space[1],
+  padding: theme.sizes[1.5],
+  gap: theme.space[6],
   display: 'flex',
   flexDirection: 'column',
 });
@@ -129,7 +129,7 @@ export const skill = style({
   gridTemplateRows: `auto auto`,
   '@media': {
     'screen and (min-width: 768px)': {
-      gridTemplateRows: `${theme.space[20]} auto`,
+      gridTemplateRows: `${theme.space[16]} auto`,
     },
   },
 });
@@ -170,7 +170,14 @@ export const skillProgressionGrade = style({
 export const heroStats = style({
   paddingRight: theme.sizes[2],
   paddingLeft: theme.sizes[2],
-  columnCount: 2,
+  display: 'grid',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  columnGap: theme.space[4]
+})
+
+export const heroStat = style({
+  display: 'flex',
+  justifyContent: 'space-between'
 })
 
 export const tableItemRightMinimal = style({

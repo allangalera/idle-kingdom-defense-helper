@@ -1,14 +1,16 @@
 import { createSprinkles, defineProperties } from '@vanilla-extract/sprinkles';
-import { theme } from './themes/index.css';
+import { theme, breakpoints, sizings } from './themes/index.css';
 import { darkTheme } from './themes/dark.css';
 
 const responsiveProperties = defineProperties({
   conditions: {
-    mobile: {},
-    tablet: { '@media': 'screen and (min-width: 768px)' },
-    desktop: { '@media': 'screen and (min-width: 1024px)' },
+    [sizings.sm]: {},
+    [sizings.md]: { '@media': `screen and (min-width: ${breakpoints.md})` },
+    [sizings.lg]: { '@media': `screen and (min-width: ${breakpoints.lg})` },
+    [sizings.xl]: { '@media': `screen and (min-width: ${breakpoints.xl})` },
+    [sizings['2xl']]: { '@media': `screen and (min-width: ${breakpoints['2xl']})` },
   },
-  defaultCondition: 'mobile',
+  defaultCondition: 'sm',
   properties: {
     display: ['none', 'flex', 'block', 'inline'],
     flexDirection: ['row', 'column'],
@@ -34,6 +36,7 @@ const responsiveProperties = defineProperties({
     fontSize: theme.font.fontSizes,
     fontWeight: theme.font.fontWeights,
     lineHeight: theme.font.lineHeights,
+    fontFamily: theme.font.family,
     letterSpacing: theme.font.letterSpacings,
     textAlign: ['left', 'center', 'right', 'start', 'end'],
     cursor: ['pointer', 'not-allowed'],

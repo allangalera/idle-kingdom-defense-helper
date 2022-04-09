@@ -36,14 +36,14 @@
     class={sprinkles({
       display: 'flex',
       flexDirection: {
-        mobile: 'column',
-        desktop: 'row',
+        sm: 'column',
+        xl: 'row',
       },
       justifyContent: 'center',
       alignItems: 'center',
       gap: {
-        mobile: 6,
-        desktop: 10,
+        sm: 6,
+        xl: 10,
       },
     })}
   >
