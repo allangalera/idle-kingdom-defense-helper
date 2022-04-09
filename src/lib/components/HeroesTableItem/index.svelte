@@ -44,12 +44,12 @@
 
   function formatSkillValue(progressionAttributes, skill) {
     const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
-
+    if (skill.name.includes('Amplify Weapon Effect')) console.log(progressionAttributes)
     return match(addType, [
       [
         1,
         match(effectType, [
-          [4, `${value}/${durTime}s`],
+          [4, `${value}|${durTime}s`],
           [3, `${value}s`],
           () => `${Math.round(value * 100)}%`,
         ]),
@@ -89,12 +89,12 @@
         4,
         match(effectType, [
           [102, `${Math.round(percentage * 100)}%`],
-          [103, `${Math.round(percentage * 100)}%/${durTime}s`],
+          [103, `${Math.round(percentage * 100)}%|${durTime}s`],
           () => `${Math.round(value * 100)}%`,
         ]),
       ],
       () => {
-        if (units && time) return `${units}/${time}s`;
+        if (units && time) return `${units}|${time}s`;
         return `${Math.round(value * 100)}%`;
       },
     ]);
