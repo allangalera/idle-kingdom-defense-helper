@@ -227,14 +227,6 @@
       {/if}
     </div>
   </div>
-  {#if $heroesVisualization !== HeroesVisualizationModes.compact}
-  <div class={styles.heroStats}>
-    {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
-      <Text>{stats}: {heroStats[stats]}</Text>
-    {/each}
-    <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>: {calculateDPS(heroStats)}</Text>
-  </div>
-  {/if}
   {#if $heroesVisualization === HeroesVisualizationModes.minimal}
     <div class={styles.tableItemRightMinimal}>
       {#each hero.skills as skill, i (skill.name)}
@@ -265,6 +257,12 @@
     </div>
   {/if}
   {#if $heroesVisualization === HeroesVisualizationModes.detailed}
+  <div class={styles.heroStats}>
+    {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
+      <Text>{stats}: {heroStats[stats]}</Text>
+    {/each}
+    <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>: {calculateDPS(heroStats)}</Text>
+  </div>
     <div class={styles.tableItemRight}>
       {#each hero.skills as skill, i (skill.name)}
         <div class={styles.skill}>
