@@ -117,7 +117,7 @@ export const actionButtonVariant = styleVariants({
 export const tableItemRight = style({
   flex: 1,
   padding: theme.sizes[2],
-  gap: theme.space[4],
+  gap: theme.space[1],
   display: 'flex',
   flexDirection: 'column',
 });
@@ -143,7 +143,7 @@ export const skillDescription = style({
   gridColumn: '1 / span 2',
   display: 'flex',
   justifyContent: 'space-between',
-  gap: theme.space[2],
+  gap: theme.space[1],
 });
 
 export const skillProgression = style({
@@ -180,7 +180,7 @@ export const tableItemRightMinimal = style({
   justifyContent: 'space-between',
   '@media': {
     'screen and (min-width: 768px)': {
-      gap: theme.space[4],
+      gap: theme.space[1],
     },
   },
 });

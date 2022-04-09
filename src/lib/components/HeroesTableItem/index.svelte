@@ -89,7 +89,7 @@
         4,
         match(effectType, [
           [102, `${Math.round(percentage * 100)}%`],
-          [103, `${Math.round(percentage * 100)}%`],
+          [103, `${Math.round(percentage * 100)}%/${durTime}s`],
           () => `${Math.round(value * 100)}%`,
         ]),
       ],

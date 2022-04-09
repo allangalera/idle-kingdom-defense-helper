@@ -6,4 +6,6 @@ export const container = style({
   margin: '0 auto',
   maxWidth: theme.breakpoints.xl,
   flex: 1,
+  display: 'flex',
+  flexDirection: 'column',
 });
