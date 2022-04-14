@@ -17,3 +17,8 @@ export const flex = style({
   justifyContent: 'center',
   alignItems: 'center',
 });
+
+export const menuIcon = style({
+  width: theme.sizes[8],
+  height: theme.sizes[8],
+});

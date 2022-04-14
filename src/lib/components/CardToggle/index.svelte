@@ -2,6 +2,7 @@
   import * as styles from './index.css';
   import { createEventDispatcher } from 'svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
+  import type { CardGearType } from '$lib/types';
   const dispatch = createEventDispatcher();
 
   export let checked = false;
@@ -36,6 +37,6 @@
     on:keyup={onKeyUp}
     on:keydown={onKeyDown}
   >
-    <CardGear {gearType} width={20} />
+    <CardGear {gearType} width={16} />
   </div>
 </label>

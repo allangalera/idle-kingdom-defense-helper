@@ -70,21 +70,14 @@ export const returnItemLevelDropFromStage = (stage) => {
 
 export const calculateStage = (stage: string, wantedGear) => {
   const parsedStage = +stage || 1;
-
-  let currentBestGear = returnItemLevelDropFromStage(parsedStage);
+  const items_per_page = 20;
 
   const stages = [];
   let stageGear;
+  let latestStageSearched = parsedStage
 
   for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
     stageGear = returnItemLevelDropFromStage(currentStage);
-    const validate = validateIfGearIsValid(currentBestGear, stageGear, wantedGear);
-
-    if (!validate && stages.length === 0) {
-      currentBestGear = stageGear;
-    } else if (!validate) {
-      break;
-    }
 
     const heroDropFromStage = calculateHeroDropFromStage(currentStage);
     const archerDropFromStage = calculateArcherDropFromStage(currentStage);
@@ -156,10 +149,12 @@ export const calculateStage = (stage: string, wantedGear) => {
         }
         break;
     }
+    latestStageSearched = currentStage
+    if (stages.length === items_per_page) break;
   }
 
   return {
     stages,
-    currentBestGear,
+    latestStageSearched,
   };
 };

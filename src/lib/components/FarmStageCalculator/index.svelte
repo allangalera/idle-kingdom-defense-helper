@@ -3,20 +3,33 @@
   import { pathOr } from 'ramda';
 
   import { stage, updateStage } from '$lib/shared/stores/user/stage';
+  import Icon from 'svelte-icons-pack/Icon.svelte';
+  import RiSystemAddFill from "svelte-icons-pack/ri/RiSystemAddFill";
+  import RiSystemSubtractFill from "svelte-icons-pack/ri/RiSystemSubtractFill";
 
   import CardToggle from '$lib/components/CardToggle/index.svelte';
+  import Button from '$lib/components/Button/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import StageResult from '$lib/components/StageResult/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import { HeroGearEquip, ArcherGearEquip, RarityEnum } from '$lib/enums';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
-  import { calculateStage } from '$lib/utils/stage';
+  import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
   import { onDestroy } from 'svelte';
+  import { match } from 'oxide.ts';
+  import { theme } from '$lib/styles/themes/index.css';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
 
   let timer;
   let stageLevel = $stage?.stage?.toString() ?? '1';
-  let result = [];
+  let results = {};
+  let result = {
+    stages: [],
+    latestStageSearched: 0,
+  };
+  let page = 1;
+  let latestStageSearched = 0;
   let bestGear;
   let gear = {
     hero: {
@@ -34,8 +47,19 @@
       boots: false,
     },
   };
+  let gearsToFind = {
+    hero: [],
+    archer: []
+  };
+  let stageSelected = stageLevel;
 
   function returnGearsToFind(gears) {
+    page = 1
+    results = {};
+    result = {
+    stages: [],
+    latestStageSearched: 0,
+  };
     let wanted = {
       hero: [],
       archer: [],
@@ -50,16 +74,50 @@
     return wanted;
   }
 
-  function debounce(stageLevel, gear) {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      const { stages, currentBestGear } = calculateStage(stageLevel, returnGearsToFind(gear));
-      result = stages;
-      bestGear = currentBestGear;
-    }, 500);
+  function changeStageLevel(stage) {
+    page = 1
+    results = {};
+    result = {
+    stages: [],
+    latestStageSearched: 0,
+  };
+    return stage
   }
 
-  $: debounce(stageLevel, gear);
+  function goBackPage() {
+    page = Math.max(page - 1, 1)
+  }
+
+  function goForwardPage() {
+    if (result.stages.length < 20)  return
+    page = page + 1
+  }
+
+  function debounce(stageLevel, gear, currentPage) {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      if (results[currentPage]) {
+        result = results[currentPage]
+        return
+      }
+      let stageToCalculate = match(currentPage, [
+        [1, stageLevel],
+        () => latestStageSearched,
+      ])
+      const { stages, latestStageSearched: lss } = calculateStage(stageToCalculate, gear);
+      result = {
+        stages,
+        latestStageSearched: lss,
+      };
+      results[currentPage] = result;
+      bestGear = returnItemLevelDropFromStage(+stageLevel);
+      latestStageSearched = lss
+    }, 0);
+  }
+
+  $: gearsToFind = returnGearsToFind(gear)
+  $: stageSelected = changeStageLevel(stageLevel)
+  $: debounce(stageSelected, gearsToFind, page);
   $: updateStage(+stageLevel);
 
   const unsubscribe = stage.subscribe((value) => {
@@ -180,12 +238,23 @@
       bind:checked={gear.archer.boots}
     />
   </div>
-  {#if result.length > 0}
+  {#if result.stages.length > 0}
     <Heading>Results</Heading>
     <div class={styles.flex}>
-      {#each result as stageData (stageData.stage)}
+      {#each result.stages as stageData (stageData.stage)}
         <StageResult {stageData} />
       {/each}
     </div>
   {/if}
+  <div class={sprinkles({
+    display: 'flex',
+    gap: 4
+  })}>
+    <Button variant="primary" on:click={goBackPage} disabled={page === 1}>
+      <Icon className={styles.menuIcon} src={RiSystemSubtractFill} color={theme.colors.white} />
+    </Button>
+    <Button on:click={goForwardPage} disabled={result.stages.length < 20}>
+      <Icon className={styles.menuIcon} src={RiSystemAddFill} color={theme.colors.white} />
+    </Button>
+  </div>
 </div>

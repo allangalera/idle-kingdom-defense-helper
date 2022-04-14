@@ -9,7 +9,7 @@
   const backgroundColors = {
     primary: {
       lightMode: 'gray9',
-      darkMode: 'gray7',
+      darkMode: 'gray9',
     },
     secondary: 'transparent',
     danger: 'red9',

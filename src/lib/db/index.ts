@@ -22,6 +22,26 @@ export const generateGStagePool = () => {
 
 const _gStagePool = generateGStagePool();
 
+export const getEnemyStagePool = (stage: number) => {
+  if (stage === 0) return;
+  const gStageJsonLength = gStageJson.length;
+
+  let stageData = gStageJson[0];
+  for (let i = 1; i < gStageJsonLength; i++) {
+    const currentStageData = gStageJson[i];
+    if (currentStageData.lv <= stage) {
+      stageData = currentStageData;
+    } else {
+      break;
+    }
+  }
+
+  if (!stageData) return;
+  const dLv = stage - stageData.lv;
+  const stagePool = _gStagePool[stageData.poolId];
+  return stagePool
+}
+
 export const getEnemyIdFromStage = (stage: number) => {
   if (stage === 0) return;
   const gStageJsonLength = gStageJson.length;
