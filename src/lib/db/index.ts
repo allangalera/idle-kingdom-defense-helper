@@ -35,7 +35,6 @@ export const generateUniqueStagePools = () => {
       });
     });
   });
-  console.log(uniqueEnemies);
   return R.sort(Array.from(uniqueEnemies.values()), (a, b) => a - b);
 };
 

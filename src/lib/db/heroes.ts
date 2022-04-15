@@ -1,5 +1,6 @@
 import heroesJSON from '$lib/gameInfo/heroes.json';
 import heroGradesJSON from '$lib/gameInfo/heroGrades.json';
+import heroLvCostJSON from '$lib/gameInfo/heroLvCost.json';
 import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
@@ -144,5 +145,7 @@ export const defaultSortingHeroes = (heroes: Hero[]) =>
 export const heroes = defaultSortingHeroes(generateHeroList());
 
 export const heroGradeInfo = heroGradeInfoJSON;
+
+export const heroLvCost = heroLvCostJSON;
 
 export const MAX_HERO_LEVEL = heroGradeInfoJSON.slice(-1)[0].maxLv;

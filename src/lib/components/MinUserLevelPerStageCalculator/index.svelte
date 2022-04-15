@@ -31,7 +31,6 @@
       }
       userLevel = user.id;
     }
-    console.log(sumExp, userLevel);
     result = userLevel.toString();
   };
 
