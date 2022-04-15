@@ -46,7 +46,7 @@
   </div>
   <div class={styles.details}>
     {#each enemies as enemy}
-      {#if enemy.unitCnt !== 1}
+      {#if enemy.unitType === 5}
         <img loading="lazy" src={`images/enemies/enemy${enemy.unitId}.png`} alt="enemy" />
       {/if}
     {/each}

@@ -68,7 +68,7 @@ export const returnItemLevelDropFromStage = (stage) => {
   return { archer, hero };
 };
 
-export const calculateStage = (stage: string, wantedGear) => {
+export const calculateStage = (stage: string, wantedGear, enemies) => {
   const parsedStage = +stage || 1;
   const items_per_page = 20;
 
@@ -82,6 +82,14 @@ export const calculateStage = (stage: string, wantedGear) => {
     const heroDropFromStage = calculateHeroDropFromStage(currentStage);
     const archerDropFromStage = calculateArcherDropFromStage(currentStage);
     const { stageData, selectedStageSet: enemyType } = getEnemyIdFromStage(currentStage);
+    const hasEnemy =
+      enemies.length === 0
+        ? true
+        : enemies.some((enemy) =>
+            enemyType.some((enemyTypeItem) => enemy === enemyTypeItem.unitId)
+          );
+
+    if (!hasEnemy) continue;
 
     const currentStageData = {
       stage: currentStage,
@@ -101,7 +109,7 @@ export const calculateStage = (stage: string, wantedGear) => {
 
     switch (condition) {
       case '0-0':
-        if (heroDropFromStage === 'all' && archerDropFromStage === 'all') {
+        if ((heroDropFromStage === 'all' && archerDropFromStage === 'all') || hasEnemy) {
           stages.push(currentStageData);
         }
         break;

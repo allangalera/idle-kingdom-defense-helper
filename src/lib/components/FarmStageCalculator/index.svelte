@@ -8,6 +8,7 @@
   import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
 
   import CardToggle from '$lib/components/CardToggle/index.svelte';
+  import EnemyToggle from '$lib/components/EnemyToggle/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -53,14 +54,19 @@
     archer: [],
   };
   let stageSelected = stageLevel;
+  let enemiesSelected = new Map();
 
-  function returnGearsToFind(gears) {
+  function reset() {
     page = 1;
     results = {};
     result = {
       stages: [],
       latestStageSearched: 0,
     };
+  }
+
+  function returnGearsToFind(gears) {
+    reset();
     let wanted = {
       hero: [],
       archer: [],
@@ -76,13 +82,15 @@
   }
 
   function changeStageLevel(stage) {
-    page = 1;
-    results = {};
-    result = {
-      stages: [],
-      latestStageSearched: 0,
-    };
+    reset();
     return stage;
+  }
+
+  function changeEnemiesSelected(enemy, event) {
+    reset();
+    if (event.target.checked) enemiesSelected.set(enemy, enemy);
+    else enemiesSelected.delete(enemy);
+    enemiesSelected = new Map(enemiesSelected);
   }
 
   function goBackPage() {
@@ -94,7 +102,8 @@
     page = page + 1;
   }
 
-  function debounce(stageLevel, gear, currentPage) {
+  function debounce(stageLevel, gear, enemies, currentPage) {
+    const myEnemies = Array.from(enemies.values());
     clearTimeout(timer);
     timer = setTimeout(() => {
       if (results[currentPage]) {
@@ -102,7 +111,11 @@
         return;
       }
       let stageToCalculate = match(currentPage, [[1, stageLevel], () => latestStageSearched]);
-      const { stages, latestStageSearched: lss } = calculateStage(stageToCalculate, gear);
+      const { stages, latestStageSearched: lss } = calculateStage(
+        stageToCalculate,
+        gear,
+        myEnemies
+      );
       result = {
         stages,
         latestStageSearched: lss,
@@ -115,7 +128,7 @@
 
   $: gearsToFind = returnGearsToFind(gear);
   $: stageSelected = changeStageLevel(stageLevel);
-  $: debounce(stageSelected, gearsToFind, page);
+  $: debounce(stageSelected, gearsToFind, enemiesSelected, page);
   $: updateStage(+stageLevel);
 
   const unsubscribe = stage.subscribe((value) => {
@@ -235,6 +248,14 @@
       }}
       bind:checked={gear.archer.boots}
     />
+  </div>
+  <Text>Enemy</Text>
+  <div class={styles.flex}>
+    {#each uniqueEnemies as enemyId}
+      {#if enemyId < 50}
+        <EnemyToggle {enemyId} on:change={(event) => changeEnemiesSelected(enemyId, event)} />
+      {/if}
+    {/each}
   </div>
   {#if result.stages.length > 0}
     <Heading>Results</Heading>
