@@ -1,11 +1,10 @@
 <script lang="ts">
   import * as styles from './index.css';
   import Text from '$lib/components/Text/index.svelte';
-  import Tooltip from '$lib/components/Tooltip/index.svelte';
+  import Card from '$lib/components/Card/index.svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
   import { units } from '$lib/db/units';
-  import { getIdleKingdomNumberFormat } from '$lib/utils';
-
+  import { returnRewardDataByStage } from '$lib/utils/stage';
   import * as R from 'remeda';
 
   export let stageData: {
@@ -18,6 +17,8 @@
     drop: any;
     bestGear: any;
   };
+
+  let rewardData = returnRewardDataByStage(stageData.stage);
 
   let enemies = R.pathOr(stageData, ['enemy'], []).map((enemy) => {
     const unit = units.find((unit) => unit.id === enemy.unitId);
@@ -92,6 +93,13 @@
           }}
         />
       {/if}
+      <Card
+        cardType="ascension-stone"
+        width={14}
+        value={Math.floor(
+          rewardData.evolve.init + rewardData.evolve.inc * (stageData.stage - rewardData.lv)
+        )}
+      />
     </div>
   </div>
 </div>

@@ -2,6 +2,7 @@ import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
 import { equals } from 'ramda';
 import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
 import { getEnemyIdFromStage } from '$lib/db';
+import { stageIdleReward } from '$lib/db/stage';
 
 export const calculateHeroDropFromStage = (stage) => {
   const stageDrops = [
@@ -165,4 +166,17 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
     stages,
     latestStageSearched,
   };
+};
+
+export const returnRewardDataByStage = (stage: number) => {
+  let rewardData;
+  for (const idleReward of stageIdleReward) {
+    if (idleReward.lv <= stage) {
+      rewardData = idleReward;
+    } else {
+      break;
+    }
+  }
+
+  return rewardData;
 };
