@@ -89,7 +89,8 @@ export const convertGradeToStarLevel = (
     [(n) => n <= 2, RarityEnum.uncommon],
     [(n) => n <= 3, RarityEnum.rare],
     [(n) => n <= 4, RarityEnum.epic],
-    () => RarityEnum.legendary,
+    [(n) => n <= 5, RarityEnum.legendary],
+    () => RarityEnum.mythic,
   ]);
 
   return { rarity, level };

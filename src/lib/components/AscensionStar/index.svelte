@@ -6,11 +6,12 @@
   export let ascensionLevel = 0;
 
   const startLevels = [
-    'images/ranking/iconStarBig1.png',
-    'images/ranking/iconStarBig2.png',
-    'images/ranking/iconStarBig3.png',
-    'images/ranking/iconStarBig4.png',
-    'images/ranking/iconStarBig5.png',
+    'images/icons/iconStarBig1.png',
+    'images/icons/iconStarBig2.png',
+    'images/icons/iconStarBig3.png',
+    'images/icons/iconStarBig4.png',
+    'images/icons/iconStarBig5.png',
+    'images/icons/iconStarBig6.png',
   ];
 
   const dispatch = createEventDispatcher();

@@ -13,11 +13,12 @@
   let selectedLevel = convertedGrade.level - 1;
 
   const imagesByGrade = {
-    [RarityEnum.common]: 'images/ranking/iconStarBig1.png',
-    [RarityEnum.uncommon]: 'images/ranking/iconStarBig2.png',
-    [RarityEnum.rare]: 'images/ranking/iconStarBig3.png',
-    [RarityEnum.epic]: 'images/ranking/iconStarBig4.png',
-    [RarityEnum.legendary]: 'images/ranking/iconStarBig5.png',
+    [RarityEnum.common]: 'images/icons/iconStarBig1.png',
+    [RarityEnum.uncommon]: 'images/icons/iconStarBig2.png',
+    [RarityEnum.rare]: 'images/icons/iconStarBig3.png',
+    [RarityEnum.epic]: 'images/icons/iconStarBig4.png',
+    [RarityEnum.legendary]: 'images/icons/iconStarBig5.png',
+    [RarityEnum.mythic]: 'images/icons/iconStarBig6.png',
   };
 
   const getRarityGrade = (rarity: RarityEnum) => {
@@ -27,6 +28,7 @@
       [RarityEnum.rare, 11],
       [RarityEnum.epic, 16],
       [RarityEnum.legendary, 21],
+      [RarityEnum.mythic, 26],
     ]);
   };
 
@@ -87,6 +89,14 @@
           selectedRarity === RarityEnum.legendary ? 'default' : 'disabled'
         ]}
         src={imagesByGrade[RarityEnum.legendary]}
+        alt="Common grade star icon"
+      />
+    </div>
+    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.mythic)}>
+      <img
+        loading="lazy"
+        class={styles.imageVariant[selectedRarity === RarityEnum.mythic ? 'default' : 'disabled']}
+        src={imagesByGrade[RarityEnum.mythic]}
         alt="Common grade star icon"
       />
     </div>
