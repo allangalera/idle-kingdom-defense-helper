@@ -100,6 +100,27 @@
           rewardData.evolve.init + rewardData.evolve.inc * (stageData.stage - rewardData.lv)
         )}
       />
+      <Card
+        cardType="hero-seal"
+        width={14}
+        value={Math.floor(
+          rewardData.hscroll.init + rewardData.hscroll.inc * (stageData.stage - rewardData.lv)
+        )}
+      />
+      <Card
+        cardType="gear-seal"
+        width={14}
+        value={Math.floor(
+          rewardData.rscroll.init + rewardData.rscroll.inc * (stageData.stage - rewardData.lv)
+        )}
+      />
+      <Card
+        cardType="rune-seal"
+        width={14}
+        value={Math.floor(
+          rewardData.runescroll.init + rewardData.runescroll.inc * (stageData.stage - rewardData.lv)
+        )}
+      />
     </div>
   </div>
 </div>
