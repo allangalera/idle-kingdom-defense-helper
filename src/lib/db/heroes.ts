@@ -1,4 +1,5 @@
 import heroesJSON from '$lib/gameInfo/heroes.json';
+import heroConstJSON from '$lib/gameInfo/heroConst.json';
 import heroGradesJSON from '$lib/gameInfo/heroGrades.json';
 import heroLvCostJSON from '$lib/gameInfo/heroLvCost.json';
 import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
@@ -148,4 +149,4 @@ export const heroGradeInfo = heroGradeInfoJSON;
 
 export const heroLvCost = heroLvCostJSON;
 
-export const MAX_HERO_LEVEL = heroGradeInfoJSON.slice(-1)[0].maxLv;
+export const MAX_HERO_LEVEL = heroConstJSON.HERO.MAX_GRADE;
