@@ -72,6 +72,9 @@
           >
           <Link href="/conquest-rewards" fontSize="2xl" on:click={toggleMenu}>Conquest rewards</Link
           >
+          <Link href="/information-and-requirements" fontSize="2xl" on:click={toggleMenu}
+            >Info & Requirements</Link
+          >
         </nav>
       </slot>
       <slot slot="footer">

@@ -149,4 +149,6 @@ export const heroGradeInfo = heroGradeInfoJSON;
 
 export const heroLvCost = heroLvCostJSON;
 
-export const MAX_HERO_LEVEL = heroConstJSON.HERO.MAX_GRADE;
+export const MAX_HERO_LEVEL = heroGradeInfoJSON.slice(-1)[0].maxLv;
+
+export const MAX_HERO_GRADE = heroConstJSON.HERO.MAX_GRADE;

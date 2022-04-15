@@ -1,4 +1,4 @@
-import { theme } from '$lib/styles/themes/index.css';
+import { breakpoints, theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
 export const grid = style({
@@ -7,7 +7,7 @@ export const grid = style({
   gridTemplateColumns: '1fr',
   gap: theme.space[8],
   '@media': {
-    'screen and (min-width: 768px)': {
+    [`screen and (min-width: ${breakpoints.md})`]: {
       gridTemplateColumns: '1fr 1fr',
     },
   },
