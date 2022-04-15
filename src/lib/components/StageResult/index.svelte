@@ -1,8 +1,10 @@
 <script lang="ts">
   import * as styles from './index.css';
   import Text from '$lib/components/Text/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
   import { units } from '$lib/db/units';
+  import { getIdleKingdomNumberFormat } from '$lib/utils';
 
   import * as R from 'remeda';
 
@@ -24,7 +26,9 @@
       ...unit,
       hp:
         unit.hp *
-        (stageData.data.hp + stageData.data.hp_inc * (stageData.stage - stageData.data.lv)),
+        (stageData.data[`${enemy.unitType === 6 ? 'b_' : ''}hp`] +
+          stageData.data[`${enemy.unitType === 6 ? 'b_' : ''}hp_inc`] *
+            (stageData.stage - stageData.data.lv)),
       atk:
         unit.atk *
         (stageData.data.atk + stageData.data.atk_inc * (stageData.stage - stageData.data.lv)),
@@ -41,8 +45,23 @@
 </script>
 
 <div class={styles.flex}>
-  <div>
-    <Text fontSize="2xl">{stageData.stage}</Text>
+  <div class={styles.info}>
+    <Text fontSize="2xl" textAlign="center">{stageData.stage}</Text>
+    <div class={styles.stat}>
+      <Tooltip text="Enemies total HP">
+        <img
+          loading="lazy"
+          class={styles.statsIcons}
+          src="images/icons/iconHp.png"
+          alt="Heart icon"
+        /></Tooltip
+      >
+      <Text>
+        {getIdleKingdomNumberFormat(
+          enemies.reduce((curr, prev) => (curr += prev.hp * prev.unitCnt), 0)
+        )}</Text
+      >
+    </div>
   </div>
   <div class={styles.details}>
     {#each enemies as enemy}

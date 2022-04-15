@@ -13,6 +13,24 @@ export const flex = style({
   justifyContent: 'center',
   alignItems: 'center',
 });
+
+export const info = style({
+  display: 'flex',
+  flexDirection: 'column',
+  gap: theme.space[2],
+});
+
+export const stat = style({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+});
+
+export const statsIcons = style({
+  width: theme.sizes[5],
+  height: theme.sizes[5],
+});
+
 export const details = style({
   display: 'flex',
   flexWrap: 'wrap',

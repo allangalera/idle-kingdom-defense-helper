@@ -61,17 +61,17 @@
     results = {};
   }
 
-  function returnGearsToFind(gears) {
+  function returnGearsToFind(inputGear) {
     reset();
     let wanted = {
       hero: [],
       archer: [],
     };
-    for (const heroGear of Object.keys(gear.hero)) {
-      if (gear.hero[heroGear]) wanted.hero.push(heroGear);
+    for (const heroGear of Object.keys(inputGear.hero)) {
+      if (inputGear.hero[heroGear]) wanted.hero.push(heroGear);
     }
-    for (const archerGear of Object.keys(gear.archer)) {
-      if (gear.archer[archerGear]) wanted.archer.push(archerGear);
+    for (const archerGear of Object.keys(inputGear.archer)) {
+      if (inputGear.archer[archerGear]) wanted.archer.push(archerGear);
     }
 
     return wanted;
