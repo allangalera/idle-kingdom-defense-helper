@@ -274,5 +274,125 @@
       "rates": [0.7, 0.22, 0.08]
     },
     "stage": 12100
+  },
+  {
+    "costCash": 600,
+    "costScroll": 600,
+    "exp": 2760000,
+    "getExp": 600,
+    "id": 24,
+    "result": {
+      "grades": [24, 25, 26],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 13100
+  },
+  {
+    "costCash": 625,
+    "costScroll": 625,
+    "exp": 3000000,
+    "getExp": 625,
+    "id": 25,
+    "result": {
+      "grades": [25, 26, 27],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 14100
+  },
+  {
+    "costCash": 650,
+    "costScroll": 650,
+    "exp": 3250000,
+    "getExp": 650,
+    "id": 26,
+    "result": {
+      "grades": [26, 27, 28],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 15100
+  },
+  {
+    "costCash": 675,
+    "costScroll": 675,
+    "exp": 3510000,
+    "getExp": 675,
+    "id": 27,
+    "result": {
+      "grades": [27, 28, 29],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 16100
+  },
+  {
+    "costCash": 700,
+    "costScroll": 700,
+    "exp": 3780000,
+    "getExp": 700,
+    "id": 28,
+    "result": {
+      "grades": [28, 29, 30],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 17100
+  },
+  {
+    "costCash": 725,
+    "costScroll": 725,
+    "exp": 4060000,
+    "getExp": 725,
+    "id": 29,
+    "result": {
+      "grades": [29, 30, 31],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 999999
+  },
+  {
+    "costCash": 750,
+    "costScroll": 750,
+    "exp": 4350000,
+    "getExp": 750,
+    "id": 30,
+    "result": {
+      "grades": [30, 31, 32],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 999999
+  },
+  {
+    "costCash": 775,
+    "costScroll": 775,
+    "exp": 4650000,
+    "getExp": 775,
+    "id": 31,
+    "result": {
+      "grades": [31, 32, 33],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 999999
+  },
+  {
+    "costCash": 800,
+    "costScroll": 800,
+    "exp": 4960000,
+    "getExp": 800,
+    "id": 32,
+    "result": {
+      "grades": [32, 33, 34],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 999999
+  },
+  {
+    "costCash": 825,
+    "costScroll": 825,
+    "exp": 5280000,
+    "getExp": 825,
+    "id": 33,
+    "result": {
+      "grades": [33, 34, 35],
+      "rates": [0.7, 0.22, 0.08]
+    },
+    "stage": 999999
   }
 ]

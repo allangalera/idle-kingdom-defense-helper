@@ -173,5 +173,40 @@
     "maxLv": 12000,
     "stone": 12320,
     "summonPiece": 3250
+  },
+  {
+    "evolvePiece": 265,
+    "id": 26,
+    "maxLv": 13500,
+    "stone": 14000,
+    "summonPiece": 3515
+  },
+  {
+    "evolvePiece": 280,
+    "id": 27,
+    "maxLv": 15000,
+    "stone": 16000,
+    "summonPiece": 3795
+  },
+  {
+    "evolvePiece": 295,
+    "id": 28,
+    "maxLv": 16500,
+    "stone": 18000,
+    "summonPiece": 4090
+  },
+  {
+    "evolvePiece": 310,
+    "id": 29,
+    "maxLv": 18000,
+    "stone": 20000,
+    "summonPiece": 4400
+  },
+  {
+    "evolvePiece": 325,
+    "id": 30,
+    "maxLv": 20000,
+    "stone": 22000,
+    "summonPiece": 4725
   }
 ]

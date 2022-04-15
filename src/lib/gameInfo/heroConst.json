@@ -1,5 +1,8 @@
 {
   "ALTER_HERO_PIECE_CNT": [3, 6, 9, 12],
+  "HERO": {
+    "MAX_GRADE": 30
+  },
   "HEROSHOP": {
     "INITREFRESHCNT": 20,
     "ITEMCNT": 8,

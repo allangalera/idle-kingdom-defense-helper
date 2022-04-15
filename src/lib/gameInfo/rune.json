@@ -588,10 +588,10 @@
     }
   },
   {
-    "abilityIncMax": 57,
-    "abilityIncMin": 11,
-    "abilityInitMax": 107,
-    "abilityInitMin": 85,
+    "abilityIncMax": 80,
+    "abilityIncMin": 16,
+    "abilityInitMax": 260,
+    "abilityInitMin": 130,
     "abilityType": 9,
     "grade": 26,
     "id": 43,
@@ -602,10 +602,10 @@
     }
   },
   {
-    "abilityIncMax": 1370,
-    "abilityIncMin": 274,
-    "abilityInitMax": 4110,
-    "abilityInitMin": 2055,
+    "abilityIncMax": 5400,
+    "abilityIncMin": 1080,
+    "abilityInitMax": 12200,
+    "abilityInitMin": 6100,
     "abilityType": 2,
     "grade": 27,
     "id": 44,
@@ -616,10 +616,10 @@
     }
   },
   {
-    "abilityIncMax": 82,
-    "abilityIncMin": 16,
-    "abilityInitMax": 246,
-    "abilityInitMin": 123,
+    "abilityIncMax": 125,
+    "abilityIncMin": 25,
+    "abilityInitMax": 380,
+    "abilityInitMin": 190,
     "abilityType": 8,
     "grade": 27,
     "id": 45,
@@ -630,10 +630,10 @@
     }
   },
   {
-    "abilityIncMax": 45,
-    "abilityIncMin": 9,
-    "abilityInitMax": 133,
-    "abilityInitMin": 67,
+    "abilityIncMax": 65,
+    "abilityIncMin": 13,
+    "abilityInitMax": 200,
+    "abilityInitMin": 100,
     "abilityType": 6,
     "grade": 28,
     "id": 46,
@@ -644,10 +644,10 @@
     }
   },
   {
-    "abilityIncMax": 82,
-    "abilityIncMin": 16,
-    "abilityInitMax": 246,
-    "abilityInitMin": 123,
+    "abilityIncMax": 150,
+    "abilityIncMin": 30,
+    "abilityInitMax": 430,
+    "abilityInitMin": 220,
     "abilityType": 8,
     "grade": 29,
     "id": 47,
@@ -658,10 +658,10 @@
     }
   },
   {
-    "abilityIncMax": 16,
-    "abilityIncMin": 3.2,
-    "abilityInitMax": 48,
-    "abilityInitMin": 24,
+    "abilityIncMax": 30,
+    "abilityIncMin": 6,
+    "abilityInitMax": 80,
+    "abilityInitMin": 40,
     "abilityType": 4,
     "grade": 29,
     "id": 48,
@@ -672,10 +672,10 @@
     }
   },
   {
-    "abilityIncMax": 1370,
-    "abilityIncMin": 274,
-    "abilityInitMax": 4110,
-    "abilityInitMin": 2055,
+    "abilityIncMax": 8100,
+    "abilityIncMin": 1620,
+    "abilityInitMax": 16600,
+    "abilityInitMin": 8300,
     "abilityType": 2,
     "grade": 30,
     "id": 49,
@@ -686,10 +686,10 @@
     }
   },
   {
-    "abilityIncMax": 45,
-    "abilityIncMin": 9,
-    "abilityInitMax": 133,
-    "abilityInitMin": 67,
+    "abilityIncMax": 75,
+    "abilityIncMin": 15,
+    "abilityInitMax": 230,
+    "abilityInitMin": 120,
     "abilityType": 6,
     "grade": 30,
     "id": 50,
