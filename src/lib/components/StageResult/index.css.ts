@@ -1,4 +1,4 @@
-import { theme } from '$lib/styles/themes/index.css';
+import { breakpoints, theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
 export const flex = style({
@@ -18,11 +18,16 @@ export const info = style({
   display: 'flex',
   flexDirection: 'column',
   gap: theme.space[2],
+  // '@media': {
+  //   [`screen and (min-width: ${breakpoints.sm})`]: {
+  //     flexDirection: 'row',
+  //   },
+  // },
 });
 
 export const stat = style({
   display: 'flex',
-  justifyContent: 'center',
+  justifyContent: 'flex-start',
   alignItems: 'center',
 });
 

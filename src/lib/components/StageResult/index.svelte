@@ -46,8 +46,8 @@
 
 <div class={styles.flex}>
   <div class={styles.info}>
-    <Text fontSize="2xl" textAlign="center">{stageData.stage}</Text>
-    <div class={styles.stat}>
+    <Text fontSize="2xl">{stageData.stage}</Text>
+    <!-- <div class={styles.stat}>
       <Tooltip text="Enemies total HP">
         <img
           loading="lazy"
@@ -61,7 +61,7 @@
           enemies.reduce((curr, prev) => (curr += prev.hp * prev.unitCnt), 0)
         )}</Text
       >
-    </div>
+    </div> -->
   </div>
   <div class={styles.details}>
     {#each enemies as enemy}
