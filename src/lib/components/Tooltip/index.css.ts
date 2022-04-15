@@ -9,7 +9,7 @@ export const container = style({
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  minWidth: theme.sizes.max
+  width: theme.sizes.full,
 });
 
 export const tooltip = style({
