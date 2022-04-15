@@ -19,4 +19,28 @@ const getDesignStageUnlock = () => {
   return rewards;
 };
 
+const getHeroGearStageUnlock = () => {
+  const rewards = {};
+  for (const idleReward of stageIdleRewardJSON) {
+    const currentLevelMaxGrade = Math.max(...idleReward.gear.grades);
+    if (!currentLevelMaxGrade) continue;
+    if (rewards[currentLevelMaxGrade]) continue;
+    rewards[currentLevelMaxGrade] = idleReward.lv;
+  }
+  return rewards;
+};
+
+const getEnemyCCResist = () => {
+  const resist = {};
+  for (const stage of stageJSON) {
+    const currentPercentage = Math.floor(stage.debuffResist[0].percentage * 100);
+    if (!currentPercentage) continue;
+    if (resist[currentPercentage]) continue;
+    resist[currentPercentage] = stage.lv;
+  }
+  return resist;
+};
+
 export const designStageUnlock = getDesignStageUnlock();
+export const heroGearStageUnlock = getHeroGearStageUnlock();
+export const enemyCCResist = getEnemyCCResist();

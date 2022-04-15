@@ -26,6 +26,29 @@ export const table = style({
   },
 });
 
+export const table3Columns = style({
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr 1fr',
+  justifyContent: 'center',
+  alignItems: 'center',
+  selectors: {
+    '&:nth-child(4n+1)': {
+      background: theme.themeColors.baseColors.gray1,
+    },
+  },
+});
+export const table4Columns = style({
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr 1fr 1fr',
+  justifyContent: 'center',
+  alignItems: 'center',
+  selectors: {
+    '&:nth-child(4n+1)': {
+      background: theme.themeColors.baseColors.gray1,
+    },
+  },
+});
+
 export const tableItem = style({
   display: 'flex',
   justifyContent: 'center',
