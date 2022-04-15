@@ -18,7 +18,7 @@
       <Heading textAlign="center" fontSize="xl">Stage</Heading>
       {#each Object.keys(designStageUnlock) as item}
         <div class={styles.tableItem}>
-          <GradeStars grade={+item} size={5} />
+          <GradeStars grade={+item} size={4} />
         </div>
         <div class={styles.tableItem}>
           <Text textAlign="center">{designStageUnlock[item]}</Text>
@@ -32,7 +32,7 @@
       <Heading textAlign="center" fontSize="xl">Stage</Heading>
       {#each Object.keys(archerPromoteStageRequirements) as item}
         <div class={styles.tableItem}>
-          <GradeStars grade={+item} size={5} />
+          <GradeStars grade={+item} size={4} />
         </div>
         <div class={styles.tableItem}>
           <Text textAlign="center">{archerPromoteStageRequirements[item]}</Text>
@@ -46,7 +46,7 @@
       <Heading textAlign="center" fontSize="xl">Stage</Heading>
       {#each Object.keys(heroGearStageUnlock) as item}
         <div class={styles.tableItem}>
-          <GradeStars grade={+item} size={5} />
+          <GradeStars grade={+item} size={4} />
         </div>
         <div class={styles.tableItem}>
           <Text textAlign="center">{heroGearStageUnlock[item]}</Text>
@@ -78,7 +78,7 @@
           <Text>{item}</Text>
         </div>
         <div class={styles.tableItem}>
-          <GradeStars grade={ultraSummonStageUnlockGrades[item].grade} size={5} />
+          <GradeStars grade={ultraSummonStageUnlockGrades[item].grade} size={4} />
         </div>
         <div class={styles.tableItem}>
           <Text>{ultraSummonStageUnlockGrades[item].stage}</Text>
