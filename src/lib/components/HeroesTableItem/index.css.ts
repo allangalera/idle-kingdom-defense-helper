@@ -172,13 +172,13 @@ export const heroStats = style({
   paddingLeft: theme.sizes[2],
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
-  columnGap: theme.space[4]
-})
+  columnGap: theme.space[4],
+});
 
 export const heroStat = style({
   display: 'flex',
-  justifyContent: 'space-between'
-})
+  justifyContent: 'space-between',
+});
 
 export const tableItemRightMinimal = style({
   padding: theme.sizes[2],

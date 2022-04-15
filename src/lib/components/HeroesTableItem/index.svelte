@@ -139,19 +139,22 @@
     heroStats.atk =
       (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk + 20;
     // add Base Rune damage as well
-    heroStats.criDamage += 3
+    heroStats.criDamage += 3;
     return heroStats;
   };
 
   const calculateDPS = (stats) => {
     const criRatio = stats.cri / 100;
     const criDamageRatio = stats.criDamage / 100;
-    const normalDamage = stats.atk * stats.atkSpeed
-    const criticalDamage = stats.atk * stats.atkSpeed * criDamageRatio
-    const normalDamageRatio = Math.max(1-  criRatio, 0);
+    const normalDamage = stats.atk * stats.atkSpeed;
+    const criticalDamage = stats.atk * stats.atkSpeed * criDamageRatio;
+    const normalDamageRatio = Math.max(1 - criRatio, 0);
     const criticalDamageRatio = Math.min(criRatio, 1);
-    return getIdleKingdomNumberFormat(normalDamageRatio * normalDamage + criticalDamage * criticalDamageRatio, 2)
-  }
+    return getIdleKingdomNumberFormat(
+      normalDamageRatio * normalDamage + criticalDamage * criticalDamageRatio,
+      2
+    );
+  };
 
   heroes.subscribe((data) => {
     userHero = data?.heroes?.find((item) => item.id === hero.id) || null;
@@ -247,7 +250,7 @@
                 }),
               ].join(' ')}
             >
-              <Text textAlign="center" fontWeight="bold" fontSize="xs" fontFamily="mono"
+              <Text textAlign="center" fontSize="xs" fontFamily="mono"
                 >{formatSkillValue(step, skill)}</Text
               >
             </div>
@@ -257,18 +260,21 @@
     </div>
   {/if}
   {#if $heroesVisualization === HeroesVisualizationModes.detailed}
-  <div class={styles.heroStats}>
-    {#each Object.keys(R.omit(heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'])) as stats}
-    <div class={styles.heroStat}>
-      <Text>{stats}:</Text>
-      <Text>{heroStats[stats]}</Text>
+    <div class={styles.heroStats}>
+      {#each Object.keys(R.omit( heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'] )) as stats}
+        <div class={styles.heroStat}>
+          <Text>{stats}:</Text>
+          <Text>{heroStats[stats]}</Text>
+        </div>
+      {/each}
+      <div class={styles.heroStat}>
+        <Text
+          ><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip
+          >:</Text
+        >
+        <Text>{calculateDPS(heroStats)}</Text>
+      </div>
     </div>
-    {/each}
-    <div class={styles.heroStat}>
-      <Text><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip>:</Text>
-      <Text>{calculateDPS(heroStats)}</Text>
-    </div>
-  </div>
     <div class={styles.tableItemRight}>
       {#each hero.skills as skill, i (skill.name)}
         <div class={styles.skill}>
@@ -293,7 +299,7 @@
                   }),
                 ].join(' ')}
               >
-                <Text textAlign="center" fontWeight="bold" fontSize="xs" fontFamily="mono"
+                <Text textAlign="center" fontSize="xs" fontFamily="mono"
                   >{formatSkillValue(step, skill)}</Text
                 >
               </div>
