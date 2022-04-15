@@ -92,7 +92,7 @@
         <img
           loading="lazy"
           class={styles.star}
-          src={`/images/ranking/iconStarSmall${gearRarity[rarity]}.png`}
+          src={`/images/icons/iconStarBig${gearRarity[rarity]}.png`}
           alt="ranking icon"
         />
       {/each}
