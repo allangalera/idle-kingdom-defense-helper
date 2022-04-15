@@ -59,10 +59,6 @@
   function reset() {
     page = 1;
     results = {};
-    result = {
-      stages: [],
-      latestStageSearched: 0,
-    };
   }
 
   function returnGearsToFind(gears) {
