@@ -59,7 +59,7 @@ export const sizings = {
   lg: 'lg',
   xl: 'xl',
   '2xl': '2xl',
-}
+};
 
 export const breakpoints = {
   sm: '30em',
@@ -67,7 +67,7 @@ export const breakpoints = {
   lg: '62em',
   xl: '80em',
   '2xl': '96em',
-}
+};
 
 export const root = createGlobalTheme(':root', {
   breakpoints: breakpoints,

@@ -4,8 +4,8 @@
 
   import { stage, updateStage } from '$lib/shared/stores/user/stage';
   import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemAddFill from "svelte-icons-pack/ri/RiSystemAddFill";
-  import RiSystemSubtractFill from "svelte-icons-pack/ri/RiSystemSubtractFill";
+  import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
+  import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
 
   import CardToggle from '$lib/components/CardToggle/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
@@ -16,6 +16,7 @@
   import { HeroGearEquip, ArcherGearEquip, RarityEnum } from '$lib/enums';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
   import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
+  import { uniqueEnemies } from '$lib/db';
   import { onDestroy } from 'svelte';
   import { match } from 'oxide.ts';
   import { theme } from '$lib/styles/themes/index.css';
@@ -49,17 +50,17 @@
   };
   let gearsToFind = {
     hero: [],
-    archer: []
+    archer: [],
   };
   let stageSelected = stageLevel;
 
   function returnGearsToFind(gears) {
-    page = 1
+    page = 1;
     results = {};
     result = {
-    stages: [],
-    latestStageSearched: 0,
-  };
+      stages: [],
+      latestStageSearched: 0,
+    };
     let wanted = {
       hero: [],
       archer: [],
@@ -75,35 +76,32 @@
   }
 
   function changeStageLevel(stage) {
-    page = 1
+    page = 1;
     results = {};
     result = {
-    stages: [],
-    latestStageSearched: 0,
-  };
-    return stage
+      stages: [],
+      latestStageSearched: 0,
+    };
+    return stage;
   }
 
   function goBackPage() {
-    page = Math.max(page - 1, 1)
+    page = Math.max(page - 1, 1);
   }
 
   function goForwardPage() {
-    if (result.stages.length < 20)  return
-    page = page + 1
+    if (result.stages.length < 20) return;
+    page = page + 1;
   }
 
   function debounce(stageLevel, gear, currentPage) {
     clearTimeout(timer);
     timer = setTimeout(() => {
       if (results[currentPage]) {
-        result = results[currentPage]
-        return
+        result = results[currentPage];
+        return;
       }
-      let stageToCalculate = match(currentPage, [
-        [1, stageLevel],
-        () => latestStageSearched,
-      ])
+      let stageToCalculate = match(currentPage, [[1, stageLevel], () => latestStageSearched]);
       const { stages, latestStageSearched: lss } = calculateStage(stageToCalculate, gear);
       result = {
         stages,
@@ -111,12 +109,12 @@
       };
       results[currentPage] = result;
       bestGear = returnItemLevelDropFromStage(+stageLevel);
-      latestStageSearched = lss
+      latestStageSearched = lss;
     }, 0);
   }
 
-  $: gearsToFind = returnGearsToFind(gear)
-  $: stageSelected = changeStageLevel(stageLevel)
+  $: gearsToFind = returnGearsToFind(gear);
+  $: stageSelected = changeStageLevel(stageLevel);
   $: debounce(stageSelected, gearsToFind, page);
   $: updateStage(+stageLevel);
 
@@ -246,10 +244,12 @@
       {/each}
     </div>
   {/if}
-  <div class={sprinkles({
-    display: 'flex',
-    gap: 4
-  })}>
+  <div
+    class={sprinkles({
+      display: 'flex',
+      gap: 4,
+    })}
+  >
     <Button variant="primary" on:click={goBackPage} disabled={page === 1}>
       <Icon className={styles.menuIcon} src={RiSystemSubtractFill} color={theme.colors.white} />
     </Button>

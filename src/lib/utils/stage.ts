@@ -74,7 +74,7 @@ export const calculateStage = (stage: string, wantedGear) => {
 
   const stages = [];
   let stageGear;
-  let latestStageSearched = parsedStage
+  let latestStageSearched = parsedStage;
 
   for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
     stageGear = returnItemLevelDropFromStage(currentStage);
@@ -149,7 +149,7 @@ export const calculateStage = (stage: string, wantedGear) => {
         }
         break;
     }
-    latestStageSearched = currentStage
+    latestStageSearched = currentStage;
     if (stages.length === items_per_page) break;
   }
 
