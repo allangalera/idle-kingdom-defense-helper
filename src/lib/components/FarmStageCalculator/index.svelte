@@ -4,8 +4,8 @@
 
   import { stage, updateStage } from '$lib/shared/stores/user/stage';
   import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
-  import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
+  import RiSystemArrowRightSLine from 'svelte-icons-pack/ri/RiSystemArrowRightSLine';
+  import RiSystemArrowLeftSLine from 'svelte-icons-pack/ri/RiSystemArrowLeftSLine';
 
   import CardToggle from '$lib/components/CardToggle/index.svelte';
   import EnemyToggle from '$lib/components/EnemyToggle/index.svelte';
@@ -268,10 +268,10 @@
     })}
   >
     <Button variant="primary" on:click={goBackPage} disabled={page === 1}>
-      <Icon className={styles.menuIcon} src={RiSystemSubtractFill} color={theme.colors.white} />
+      <Icon className={styles.menuIcon} src={RiSystemArrowLeftSLine} color={theme.colors.white} />
     </Button>
     <Button on:click={goForwardPage} disabled={result.stages.length < 20}>
-      <Icon className={styles.menuIcon} src={RiSystemAddFill} color={theme.colors.white} />
+      <Icon className={styles.menuIcon} src={RiSystemArrowRightSLine} color={theme.colors.white} />
     </Button>
   </div>
 </div>

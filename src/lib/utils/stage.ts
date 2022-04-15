@@ -85,7 +85,7 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
     const hasEnemy =
       enemies.length === 0
         ? true
-        : enemies.some((enemy) =>
+        : enemies.every((enemy) =>
             enemyType.some((enemyTypeItem) => enemy === enemyTypeItem.unitId)
           );
 
