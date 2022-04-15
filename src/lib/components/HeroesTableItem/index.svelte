@@ -28,6 +28,7 @@
     2: 'blue10',
     3: 'plum10',
     4: 'orange10',
+    5: 'red10',
   };
 
   const backgroundColorByGrade = {
@@ -36,6 +37,7 @@
     2: 'blue3',
     3: 'plum3',
     4: 'orange3',
+    5: 'red3',
   };
 
   function formatSkillName(name) {
