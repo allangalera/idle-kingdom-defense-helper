@@ -97,28 +97,32 @@
         cardType="ascension-stone"
         width={14}
         value={Math.floor(
-          rewardData.evolve.init + rewardData.evolve.inc * (stageData.stage - rewardData.lv)
+          rewardData.idle.evolve.init +
+            rewardData.idle.evolve.inc * (stageData.stage - rewardData.idle.lv)
         )}
       />
       <Card
         cardType="hero-seal"
         width={14}
         value={Math.floor(
-          rewardData.hscroll.init + rewardData.hscroll.inc * (stageData.stage - rewardData.lv)
+          rewardData.idle.hscroll.init +
+            rewardData.idle.hscroll.inc * (stageData.stage - rewardData.idle.lv)
         )}
       />
       <Card
         cardType="gear-seal"
         width={14}
         value={Math.floor(
-          rewardData.rscroll.init + rewardData.rscroll.inc * (stageData.stage - rewardData.lv)
+          rewardData.idle.rscroll.init +
+            rewardData.idle.rscroll.inc * (stageData.stage - rewardData.idle.lv)
         )}
       />
       <Card
         cardType="rune-seal"
         width={14}
         value={Math.floor(
-          rewardData.runescroll.init + rewardData.runescroll.inc * (stageData.stage - rewardData.lv)
+          rewardData.idle.runescroll.init +
+            rewardData.idle.runescroll.inc * (stageData.stage - rewardData.idle.lv)
         )}
       />
     </div>

@@ -3,6 +3,7 @@ import { equals } from 'ramda';
 import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
 import { getEnemyIdFromStage } from '$lib/db';
 import { stageIdleReward } from '$lib/db/stage';
+import { stageClearReward } from '$lib/db/stage';
 
 export const calculateHeroDropFromStage = (stage) => {
   const stageDrops = [
@@ -170,13 +171,24 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
 
 export const returnRewardDataByStage = (stage: number) => {
   let rewardData;
-  for (const idleReward of stageIdleReward) {
-    if (idleReward.lv <= stage) {
-      rewardData = idleReward;
+  for (const reward of stageIdleReward) {
+    if (reward.lv <= stage) {
+      rewardData = reward;
+    } else {
+      break;
+    }
+  }
+  let clearReward;
+  for (const reward of stageClearReward) {
+    if (reward.lv <= stage) {
+      clearReward = reward;
     } else {
       break;
     }
   }
 
-  return rewardData;
+  return {
+    idle: rewardData,
+    clear: clearReward,
+  };
 };
