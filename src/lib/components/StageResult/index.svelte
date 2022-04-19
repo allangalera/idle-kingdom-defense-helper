@@ -6,6 +6,7 @@
   import { units } from '$lib/db/units';
   import { returnRewardDataByStage } from '$lib/utils/stage';
   import * as R from 'remeda';
+  import { convertGradeToStarLevel } from '$lib/utils';
 
   export let stageData: {
     stage: number;
@@ -39,10 +40,12 @@
     };
   });
 
-  let shouldShowHeroGear =
-    Boolean(stageData?.bestGear?.hero?.full) && Boolean(stageData?.drop?.hero);
-  let shouldShowArcherGear =
-    Boolean(stageData?.bestGear?.archer?.full) && Boolean(stageData?.drop?.archer);
+  let bestArcherGear =
+    stageData?.bestGear.archer && convertGradeToStarLevel(stageData?.bestGear.archer);
+  let bestHeroGear = stageData?.bestGear.hero && convertGradeToStarLevel(stageData?.bestGear.hero);
+
+  let shouldShowHeroGear = Boolean(bestHeroGear);
+  let shouldShowArcherGear = Boolean(bestArcherGear);
 </script>
 
 <div class={styles.flex}>
@@ -77,8 +80,8 @@
           gearType={{
             type: 'hero',
             equip: stageData.drop.hero,
-            rarity: stageData.bestGear.hero.rarity,
-            level: stageData.bestGear.hero.level,
+            rarity: bestHeroGear.rarity,
+            level: bestHeroGear.level,
           }}
         />
       {/if}
@@ -88,8 +91,8 @@
           gearType={{
             type: 'blueprint',
             equip: stageData.drop.archer,
-            rarity: stageData.bestGear.archer.rarity,
-            level: stageData.bestGear.archer.level,
+            rarity: bestArcherGear.rarity,
+            level: bestArcherGear.level,
           }}
         />
       {/if}

@@ -1,9 +1,12 @@
 import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
 import { equals } from 'ramda';
-import gearUnlockLevelsJson from '$lib/data/gearUnlockLevels.json';
 import { getEnemyIdFromStage } from '$lib/db';
-import { stageIdleReward } from '$lib/db/stage';
-import { stageClearReward } from '$lib/db/stage';
+import {
+  stageIdleReward,
+  stageClearReward,
+  designStageUnlock,
+  heroGearStageUnlock,
+} from '$lib/db/stage';
 
 export const calculateHeroDropFromStage = (stage) => {
   const stageDrops = [
@@ -49,22 +52,15 @@ export const validateIfGearIsValid = (currentBestGear, stageGear, wanted) => {
 };
 
 export const returnItemLevelDropFromStage = (stage) => {
-  const archer = {};
-  const hero = {};
-  for (const level of Object.keys(gearUnlockLevelsJson)) {
-    if (level > stage) break;
-    const archerDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('archer'));
-    if (archerDrop.length) {
-      archer['full'] = archerDrop[0];
-      archer['rarity'] = archerDrop[0].split('-')[1];
-      archer['level'] = +archerDrop[0].split('-')[2];
-    }
-    const heroDrop = gearUnlockLevelsJson[level].filter((item) => item.includes('hero'));
-    if (heroDrop.length) {
-      hero['full'] = heroDrop[0];
-      hero['rarity'] = heroDrop[0].split('-')[1];
-      hero['level'] = +heroDrop[0].split('-')[2];
-    }
+  let archer = 0;
+  let hero = 0;
+  for (const grade of Object.keys(designStageUnlock)) {
+    if (designStageUnlock[grade] > stage) break;
+    archer = +grade;
+  }
+  for (const grade of Object.keys(heroGearStageUnlock)) {
+    if (heroGearStageUnlock[grade] > stage) break;
+    hero = +grade;
   }
 
   return { archer, hero };
@@ -81,8 +77,8 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
   for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
     stageGear = returnItemLevelDropFromStage(currentStage);
 
-    const heroDropFromStage = calculateHeroDropFromStage(currentStage);
-    const archerDropFromStage = calculateArcherDropFromStage(currentStage);
+    const heroDropFromStage = stageGear.hero && calculateHeroDropFromStage(currentStage);
+    const archerDropFromStage = stageGear.archer && calculateArcherDropFromStage(currentStage);
     const { stageData, selectedStageSet: enemyType } = getEnemyIdFromStage(currentStage);
     const hasEnemy =
       enemies.length === 0
@@ -170,10 +166,10 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
 };
 
 export const returnRewardDataByStage = (stage: number) => {
-  let rewardData;
+  let idleReward;
   for (const reward of stageIdleReward) {
     if (reward.lv <= stage) {
-      rewardData = reward;
+      idleReward = reward;
     } else {
       break;
     }
@@ -188,7 +184,7 @@ export const returnRewardDataByStage = (stage: number) => {
   }
 
   return {
-    idle: rewardData,
+    idle: idleReward,
     clear: clearReward,
   };
 };
