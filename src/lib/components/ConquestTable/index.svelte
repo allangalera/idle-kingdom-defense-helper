@@ -1,6 +1,6 @@
 <script lang="ts">
   import * as styles from './index.css';
-  import { kingdoms } from '$lib/db/conquest';
+  import { kingdoms, CONQUEST_REWARD_MULTIPLE_PERGRADE } from '$lib/db/conquest';
   import * as R from 'remeda';
   import { conquest, addKingdom, removeKingdom } from '$lib/shared/stores/user/conquest';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
@@ -21,6 +21,7 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
   import type { Hero } from '$lib/types';
+  import { getIdleKingdomNumberFormat } from '$lib/utils';
 
   enum SortModes {
     byReward = 'by-reward',
@@ -29,6 +30,11 @@
   let sortMode = {
     [SortModes.byReward]: sortKingdomByAscensionStoneAndCoin,
     [SortModes.byKingdom]: sortKingdomById,
+  };
+  let rewards = {
+    gold: 0,
+    soulstone: 0,
+    evolve: 0,
   };
   let userKingdomsAndHeroes = [];
   let selectedSortMode = SortModes.byReward;
@@ -64,12 +70,12 @@
     return heroes.find((hero) => hero.id === heroId);
   };
 
-  const generateTableItems = (uKingdoms, sSortMode) => {
+  const generateKingdomsAndHeroes = (uKingdoms) => {
     let sortedHeroes = defaultSortingHeroes(
       R.pathOr($heroesStore, ['heroes'], []) as unknown as Hero[]
     );
     let tempKingdoms = sortKingdomByAscensionStoneAndCoin(kingdoms);
-    let tempUserKingdomsAndHeroes = tempKingdoms.map((kingdom) => {
+    return tempKingdoms.map((kingdom) => {
       const isKingdomAdded = uKingdoms.some((item) => item === kingdom.id);
       let heroSuggestion = null;
       if (isKingdomAdded) {
@@ -87,7 +93,33 @@
         heroSuggestion,
       };
     });
+  };
+
+  const generateTableItems = (uKingdoms, sSortMode) => {
+    let tempUserKingdomsAndHeroes = generateKingdomsAndHeroes(uKingdoms);
     userKingdomsAndHeroes = sortMode[sSortMode](tempUserKingdomsAndHeroes);
+  };
+
+  const generateAcumulatedRewardsInfo = (uKingdoms) => {
+    let tempRewards = {
+      gold: 0,
+      soulstone: 0,
+      evolve: 0,
+    };
+    let tempUserKingdomsAndHeroes = generateKingdomsAndHeroes(uKingdoms);
+
+    tempUserKingdomsAndHeroes.forEach((kingdom) => {
+      if (kingdom.isKingdomAdded) {
+        tempRewards.gold +=
+          kingdom.rewardGold *
+          (1 + kingdom.heroSuggestion.grade * CONQUEST_REWARD_MULTIPLE_PERGRADE);
+        tempRewards.evolve +=
+          kingdom.rewardEvolve *
+          (1 + kingdom.heroSuggestion.grade * CONQUEST_REWARD_MULTIPLE_PERGRADE);
+      }
+    });
+
+    rewards = tempRewards;
   };
 
   conquest.subscribe((value) => {
@@ -95,8 +127,68 @@
   });
 
   $: generateTableItems(userKingdoms, selectedSortMode);
+  $: generateAcumulatedRewardsInfo(userKingdoms);
 </script>
 
+<div class={styles.rewardsContainer}>
+  <Heading>Total rewards</Heading>
+  <div class={styles.rewardsTable}>
+    <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.evolve)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconEvolveStone.png"
+        alt="ascension icon"
+      /><Text as="span">/h</Text>
+    </div>
+    <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.gold)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconGold.png"
+        alt="gold icon"
+      /><Text as="span">/h</Text>
+    </div>
+    <!-- <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconGold.png"
+        alt="gold icon"
+      /><Text as="span">/h</Text>
+    </div> -->
+    <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.evolve * 12)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconEvolveStone.png"
+        alt="ascension icon"
+      /><Text as="span">/12h</Text>
+    </div>
+    <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.gold * 12)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconGold.png"
+        alt="gold icon"
+      /><Text as="span">/12h</Text>
+    </div>
+    <!-- <div class={styles.rewardsValues}>
+      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone * 12)}</Text>
+      <img
+        loading="lazy"
+        class={styles.ascensionIcon}
+        src="images/icons/iconGold.png"
+        alt="gold icon"
+      /><Text as="span">/12h</Text>
+    </div> -->
+  </div>
+</div>
 <div class={styles.sortContainer}>
   <Text fontWeight="bold">Sort by:</Text>
   <label class={styles.input}>

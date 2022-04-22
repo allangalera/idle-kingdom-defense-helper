@@ -1,4 +1,5 @@
 import conquestKingdomsJSON from '$lib/gameInfo/conquestKingdoms.json';
+import conquestConstJSON from '$lib/gameInfo/conquestConst.json';
 import langJSON from '$lib/gameInfo/lang.json';
 
 const getContinentId = (kingdomId: number) => {
@@ -27,3 +28,5 @@ const generateKingdoms = () => {
 };
 
 export const kingdoms = generateKingdoms();
+
+export const CONQUEST_REWARD_MULTIPLE_PERGRADE = conquestConstJSON.CAPITAL.REWARD_MULTIPLE_PERGRADE;

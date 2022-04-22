@@ -49,3 +49,25 @@ export const sortContainer = style({
   gap: theme.space[4],
   marginBottom: theme.space[12],
 });
+
+export const rewardsContainer = style({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  gap: theme.space[8],
+  marginBottom: theme.space[12],
+});
+
+export const rewardsTable = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  gap: theme.space[4],
+});
+
+export const rewardsValues = style({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  gap: theme.space[2],
+});
