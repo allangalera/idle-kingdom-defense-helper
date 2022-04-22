@@ -129,6 +129,24 @@
             rewardData.idle.runescroll.inc * (stageData.stage - rewardData.idle.lv)
         )}
       />
+      <Card
+        cardType="coin"
+        width={14}
+        value={Math.floor(
+          (rewardData.idle.goldInit +
+            rewardData.idle.goldInc * (stageData.stage - rewardData.idle.lv)) *
+            60
+        )}
+      />
+      <Card
+        cardType="soulstone"
+        width={14}
+        value={Math.floor(
+          (rewardData.idle.soulInit +
+            rewardData.idle.soulInc * (stageData.stage - rewardData.idle.lv)) *
+            60
+        )}
+      />
     </div>
   </div>
 </div>
