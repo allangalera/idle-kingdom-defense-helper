@@ -1,8 +1,8 @@
 <script lang="ts">
-  import * as styles from './indes.css';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import type { Grades } from '$lib/types';
   import { convertGradeToStarLevel } from '$lib/utils';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
 
   export let grade: number;
   export let size: Sprinkles['width'] = 8;

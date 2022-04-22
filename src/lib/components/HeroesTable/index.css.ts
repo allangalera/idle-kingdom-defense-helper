@@ -1,4 +1,4 @@
-import { theme, breakpoints } from '$lib/styles/themes/index.css';
+import { breakpoints, theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
 export const table = style({

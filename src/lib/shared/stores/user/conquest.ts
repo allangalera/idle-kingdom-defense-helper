@@ -1,5 +1,5 @@
 import { browser } from '$app/env';
-import { mergeDeepRight, is, append, hasPath, pathOr, filter } from 'ramda';
+import { append, filter, hasPath, is, mergeDeepRight, pathOr } from 'ramda';
 import { writable } from 'svelte/store';
 
 type ConquestStore = {

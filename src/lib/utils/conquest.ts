@@ -1,4 +1,4 @@
-import { sortWith, descend, prop, ascend } from 'ramda';
+import { ascend, descend, prop, sortWith } from 'ramda';
 
 import { romanize } from './index';
 

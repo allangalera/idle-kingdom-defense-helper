@@ -1,0 +1,14 @@
+# COPIED FROM GITIGNORE
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+/information-source
+
+# NEW IGNORE CONFIGURATIONS
+src/app.d.ts
+src/global.d.ts

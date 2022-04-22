@@ -1,16 +1,16 @@
 import { browser } from '$app/env';
 import {
-  mergeDeepRight,
-  is,
-  hasPath,
-  or,
-  isNil,
-  find,
-  propEq,
-  pathOr,
   append,
-  filter,
   clone,
+  filter,
+  find,
+  hasPath,
+  is,
+  isNil,
+  mergeDeepRight,
+  or,
+  pathOr,
+  propEq,
 } from 'ramda';
 import { writable } from 'svelte/store';
 

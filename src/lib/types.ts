@@ -1,9 +1,9 @@
 import type {
-  RarityEnum,
-  HeroGearEquip,
   ArcherGearEquip,
+  HeroGearEquip,
   HeroTypes,
   HeroesVisualizationModes,
+  RarityEnum,
 } from './enums';
 
 export type HeroesVisualizationMode = keyof typeof HeroesVisualizationModes;

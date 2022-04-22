@@ -1,6 +1,9 @@
 <script lang="ts">
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
+
   import * as styles from './index.css';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+
   export let as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' = 'h1';
   export let fontSize: Sprinkles['fontSize'] = 'lg';
   export let fontWeight: Sprinkles['fontWeight'] = 'normal';

@@ -1,9 +1,9 @@
 import { getEnemyIdFromStage } from '$lib/db';
 import {
-  stageIdleReward,
-  stageClearReward,
   designStageUnlock,
   heroGearStageUnlock,
+  stageClearReward,
+  stageIdleReward,
 } from '$lib/db/stage';
 import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
 import { equals } from 'ramda';

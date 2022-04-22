@@ -4,17 +4,17 @@
   import CardHero from '$lib/components/CardHero/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { kingdoms, CONQUEST_REWARD_MULTIPLE_PERGRADE } from '$lib/db/conquest';
-  import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
-  import { conquest, addKingdom, removeKingdom } from '$lib/shared/stores/user/conquest';
+  import { CONQUEST_REWARD_MULTIPLE_PERGRADE, kingdoms } from '$lib/db/conquest';
+  import { defaultSortingHeroes, heroes } from '$lib/db/heroes';
+  import { addKingdom, conquest, removeKingdom } from '$lib/shared/stores/user/conquest';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
   import type { Hero } from '$lib/types';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
   import {
-    sortKingdomByAscensionStoneAndCoin,
     kingdomNameToRomanNumber,
+    sortKingdomByAscensionStoneAndCoin,
     sortKingdomById,
   } from '$lib/utils/conquest';
   import * as R from 'remeda';

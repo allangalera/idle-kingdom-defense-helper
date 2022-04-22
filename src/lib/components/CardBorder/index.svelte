@@ -1,7 +1,7 @@
 <script lang="ts">
   import { HeroTypes } from '$lib/enums';
-
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import type { HeroType, Rarity, UpgradeLevel } from '$lib/types';
 
   import * as styles from './index.css';

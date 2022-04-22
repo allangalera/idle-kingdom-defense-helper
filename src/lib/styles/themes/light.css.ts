@@ -1,14 +1,14 @@
 import {
-  gray,
-  red,
-  green,
-  yellow,
-  blue,
-  plum,
   amber,
-  orange,
+  blue,
   brown,
+  gray,
   grayA,
+  green,
+  orange,
+  plum,
+  red,
+  yellow,
 } from '@radix-ui/colors';
 import { createTheme } from '@vanilla-extract/css';
 

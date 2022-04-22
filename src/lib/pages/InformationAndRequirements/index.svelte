@@ -5,7 +5,7 @@
   import Text from '$lib/components/Text/index.svelte';
   import { archerPromoteStageRequirements } from '$lib/db/archer';
   import { runesSummonStageUnlock } from '$lib/db/runes';
-  import { designStageUnlock, heroGearStageUnlock, enemyCCResist } from '$lib/db/stage';
+  import { designStageUnlock, enemyCCResist, heroGearStageUnlock } from '$lib/db/stage';
   import { ultraSummonStageUnlockGrades } from '$lib/db/summon';
 
   import * as styles from './index.css';

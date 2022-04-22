@@ -1,8 +1,11 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import Text from '$lib/components/Text/index.svelte';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import IMask from 'imask';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+
+  import * as styles from './index.css';
+
   export let label;
   export let value = '';
   export let maskOptions = undefined;

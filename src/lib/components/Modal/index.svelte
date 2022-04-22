@@ -1,11 +1,14 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import { onDestroy, onMount } from 'svelte';
-  import { fade } from 'svelte/transition';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
+  import { onDestroy, onMount } from 'svelte';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiSystemCloseFill from 'svelte-icons-pack/ri/RiSystemCloseFill';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+  import { fade } from 'svelte/transition';
+
+  import * as styles from './index.css';
+
   export let footerJustifyContent: Sprinkles['justifyContent'] = 'flex-start';
   export let onClose: VoidFunction = () => {};
   export let shouldCloseOnOverlay = true;

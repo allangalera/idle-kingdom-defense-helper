@@ -1,5 +1,5 @@
 import { browser } from '$app/env';
-import { mergeDeepRight, is } from 'ramda';
+import { is, mergeDeepRight } from 'ramda';
 import { writable } from 'svelte/store';
 
 type StageStore = {

@@ -1,6 +1,9 @@
 <script lang="ts">
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
+
   import * as styles from './index.css';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+
   export let as: 'p' | 'span' = 'p';
   export let fontSize: Sprinkles['fontSize'] = 'base';
   export let fontWeight: Sprinkles['fontWeight'] = 'normal';
