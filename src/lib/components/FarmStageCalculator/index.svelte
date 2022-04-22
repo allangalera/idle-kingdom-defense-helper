@@ -22,6 +22,8 @@
   import { match } from 'oxide.ts';
   import { theme } from '$lib/styles/themes/index.css';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import * as R from 'remeda';
+  import { convertGradeToStarLevel } from '$lib/utils';
 
   let timer;
   let stageLevel = $stage?.stage?.toString() ?? '1';
@@ -32,7 +34,9 @@
   };
   let page = 1;
   let latestStageSearched = 0;
-  let bestGear;
+  let bestGearGrade;
+  let bestArcherGearRarityAndLevel;
+  let bestHeroGearRarityAndLevel;
   let gear = {
     hero: {
       weapon: false,
@@ -117,11 +121,13 @@
         latestStageSearched: lss,
       };
       results[currentPage] = result;
-      bestGear = returnItemLevelDropFromStage(+stageLevel);
+      bestGearGrade = returnItemLevelDropFromStage(+stageLevel);
       latestStageSearched = lss;
     }, 0);
   }
 
+  $: bestArcherGearRarityAndLevel = convertGradeToStarLevel(R.pathOr(bestGearGrade, ['archer'], 1));
+  $: bestHeroGearRarityAndLevel = convertGradeToStarLevel(R.pathOr(bestGearGrade, ['hero'], 1));
   $: gearsToFind = returnGearsToFind(gear);
   $: stageSelected = changeStageLevel(stageLevel);
   $: debounce(stageSelected, gearsToFind, enemiesSelected, page);
@@ -155,8 +161,8 @@
       gearType={{
         type: 'hero',
         equip: HeroGearEquip.weapon,
-        rarity: pathOr(RarityEnum.common, ['hero', 'rarity'], bestGear),
-        level: pathOr(1, ['hero', 'level'], bestGear),
+        rarity: bestHeroGearRarityAndLevel.rarity,
+        level: bestHeroGearRarityAndLevel.level,
       }}
       bind:checked={gear.hero.weapon}
     />
@@ -164,8 +170,8 @@
       gearType={{
         type: 'hero',
         equip: HeroGearEquip.helmet,
-        rarity: pathOr(RarityEnum.common, ['hero', 'rarity'], bestGear),
-        level: pathOr(1, ['hero', 'level'], bestGear),
+        rarity: bestHeroGearRarityAndLevel.rarity,
+        level: bestHeroGearRarityAndLevel.level,
       }}
       bind:checked={gear.hero.helmet}
     />
@@ -173,8 +179,8 @@
       gearType={{
         type: 'hero',
         equip: HeroGearEquip.chest,
-        rarity: pathOr(RarityEnum.common, ['hero', 'rarity'], bestGear),
-        level: pathOr(1, ['hero', 'level'], bestGear),
+        rarity: bestHeroGearRarityAndLevel.rarity,
+        level: bestHeroGearRarityAndLevel.level,
       }}
       bind:checked={gear.hero.chest}
     />
@@ -182,8 +188,8 @@
       gearType={{
         type: 'hero',
         equip: HeroGearEquip.boots,
-        rarity: pathOr(RarityEnum.common, ['hero', 'rarity'], bestGear),
-        level: pathOr(1, ['hero', 'level'], bestGear),
+        rarity: bestHeroGearRarityAndLevel.rarity,
+        level: bestHeroGearRarityAndLevel.level,
       }}
       bind:checked={gear.hero.boots}
     />
@@ -194,8 +200,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.bow,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.bow}
     />
@@ -203,8 +209,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.arrow,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.arrow}
     />
@@ -212,8 +218,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.helmet,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.helmet}
     />
@@ -221,8 +227,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.chest,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.chest}
     />
@@ -230,8 +236,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.gloves,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.gloves}
     />
@@ -239,8 +245,8 @@
       gearType={{
         type: 'blueprint',
         equip: ArcherGearEquip.boots,
-        rarity: pathOr(RarityEnum.common, ['archer', 'rarity'], bestGear),
-        level: pathOr(1, ['archer', 'level'], bestGear),
+        rarity: bestArcherGearRarityAndLevel.rarity,
+        level: bestArcherGearRarityAndLevel.level,
       }}
       bind:checked={gear.archer.boots}
     />
