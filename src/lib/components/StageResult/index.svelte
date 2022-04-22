@@ -1,12 +1,13 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Text from '$lib/components/Text/index.svelte';
   import Card from '$lib/components/Card/index.svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { units } from '$lib/db/units';
+  import { convertGradeToStarLevel } from '$lib/utils';
   import { returnRewardDataByStage } from '$lib/utils/stage';
   import * as R from 'remeda';
-  import { convertGradeToStarLevel } from '$lib/utils';
+
+  import * as styles from './index.css';
 
   export let stageData: {
     stage: number;

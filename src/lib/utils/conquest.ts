@@ -1,4 +1,5 @@
 import { sortWith, descend, prop, ascend } from 'ramda';
+
 import { romanize } from './index';
 
 export const sortKingdomByAscensionStoneAndCoin = sortWith([

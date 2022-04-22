@@ -1,6 +1,8 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import HeroesTableItem from '$lib/components/HeroesTableItem/index.svelte';
+
+  import * as styles from './index.css';
+
   export let heroes;
 </script>
 

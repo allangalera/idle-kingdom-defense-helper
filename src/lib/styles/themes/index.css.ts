@@ -1,5 +1,5 @@
-import { createGlobalTheme, createThemeContract } from '@vanilla-extract/css';
 import radixColors from '@radix-ui/colors';
+import { createGlobalTheme, createThemeContract } from '@vanilla-extract/css';
 
 const space = {
   px: '1px',

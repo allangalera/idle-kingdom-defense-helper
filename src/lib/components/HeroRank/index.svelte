@@ -1,9 +1,11 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Text from '$lib/components/Text/index.svelte';
   import CardHero from '$lib/components/CardHero/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { heroes } from '$lib/db/heroes';
   import * as R from 'remeda';
+
+  import * as styles from './index.css';
+
   export let heroRank;
 
   const getHeroData = (heroName: string) => {

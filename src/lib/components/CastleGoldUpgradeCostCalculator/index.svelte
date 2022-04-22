@@ -1,9 +1,10 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Input from '$lib/components/Input/index.svelte';
   import Card from '$lib/components/Card/index.svelte';
-  import { calculateCastleUpgradeCost } from '$lib/utils/castle-gold';
+  import Input from '$lib/components/Input/index.svelte';
   import { CASTLE_MAX_LEVEL } from '$lib/constants';
+  import { calculateCastleUpgradeCost } from '$lib/utils/castle-gold';
+
+  import * as styles from './index.css';
 
   let currentLevel = '1';
   let targetLevel = '2';

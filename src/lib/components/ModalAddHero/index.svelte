@@ -1,20 +1,21 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Portal from '$lib/components/Portal/index.svelte';
-  import Modal from '$lib/components/Modal/index.svelte';
-  import Heading from '$lib/components/Heading/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
+  import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import InputGrade from '$lib/components/InputGrade/index.svelte';
+  import Modal from '$lib/components/Modal/index.svelte';
+  import Portal from '$lib/components/Portal/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
+  import { MAX_HERO_LEVEL } from '$lib/db/heroes';
+  import { addOrUpdateHero } from '$lib/shared/stores/user/heroes';
+  import { theme } from '$lib/styles/themes/index.css';
+  import type { Grades } from '$lib/types';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
   import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
-  import { theme } from '$lib/styles/themes/index.css';
-  import { addOrUpdateHero } from '$lib/shared/stores/user/heroes';
 
-  import { MAX_HERO_LEVEL } from '$lib/db/heroes';
-  import type { Grades } from '$lib/types';
+  import * as styles from './index.css';
+
   export let open = false;
   export let onClose: VoidFunction;
   export let hero;

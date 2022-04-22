@@ -1,26 +1,25 @@
 <script lang="ts">
-  import * as R from 'remeda';
-  import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemArrowRightSLine from 'svelte-icons-pack/ri/RiSystemArrowRightSLine';
-  import RiSystemArrowLeftSLine from 'svelte-icons-pack/ri/RiSystemArrowLeftSLine';
-  import { onDestroy } from 'svelte';
-  import { match } from 'oxide.ts';
-
-  import { stage, updateStage } from '$lib/shared/stores/user/stage';
+  import Button from '$lib/components/Button/index.svelte';
   import CardToggle from '$lib/components/CardToggle/index.svelte';
   import EnemyToggle from '$lib/components/EnemyToggle/index.svelte';
-  import Button from '$lib/components/Button/index.svelte';
-  import Input from '$lib/components/Input/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
-  import StageResult from '$lib/components/StageResult/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
-  import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
+  import Input from '$lib/components/Input/index.svelte';
+  import StageResult from '$lib/components/StageResult/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
-  import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
   import { uniqueEnemies } from '$lib/db';
-  import { theme } from '$lib/styles/themes/index.css';
+  import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
+  import { stage, updateStage } from '$lib/shared/stores/user/stage';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import { theme } from '$lib/styles/themes/index.css';
   import { convertGradeToStarLevel } from '$lib/utils';
+  import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
+  import { match } from 'oxide.ts';
+  import * as R from 'remeda';
+  import { onDestroy } from 'svelte';
+  import Icon from 'svelte-icons-pack/Icon.svelte';
+  import RiSystemArrowLeftSLine from 'svelte-icons-pack/ri/RiSystemArrowLeftSLine';
+  import RiSystemArrowRightSLine from 'svelte-icons-pack/ri/RiSystemArrowRightSLine';
 
   import * as styles from './index.css';
 

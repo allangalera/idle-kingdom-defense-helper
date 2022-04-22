@@ -1,11 +1,11 @@
 <script lang="ts">
-  import * as styles from './index.css';
+  import Input from '$lib/components/Input/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { stageClearReward } from '$lib/db/stage';
   import { userLv } from '$lib/db/user';
   import * as R from 'remeda';
 
-  import Input from '$lib/components/Input/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
+  import * as styles from './index.css';
 
   let stage = '1';
   let result = '';

@@ -1,12 +1,13 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Portal from '$lib/components/Portal/index.svelte';
-  import Modal from '$lib/components/Modal/index.svelte';
-  import Heading from '$lib/components/Heading/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
+  import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
+  import Modal from '$lib/components/Modal/index.svelte';
+  import Portal from '$lib/components/Portal/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { loadFromBase64 } from '$lib/shared/stores/user/index';
+
+  import * as styles from './index.css';
 
   export let open = false;
   export let onClose: VoidFunction;

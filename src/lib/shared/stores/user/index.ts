@@ -1,9 +1,10 @@
-import { derived } from 'svelte/store';
 import { browser } from '$app/env';
-import { stage } from './stage';
+import { derived } from 'svelte/store';
+import * as zipson from 'zipson';
+
 import { conquest } from './conquest';
 import { heroes } from './heroes';
-import * as zipson from 'zipson';
+import { stage } from './stage';
 
 const stores = [stage, conquest, heroes];
 

@@ -1,13 +1,14 @@
 <script lang="ts">
-  import * as styles from './index.css';
+  import GradeStars from '$lib/components/GradeStars/index.svelte';
   import GridItem from '$lib/components/GridItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import GradeStars from '$lib/components/GradeStars/index.svelte';
-  import { designStageUnlock, heroGearStageUnlock, enemyCCResist } from '$lib/db/stage';
   import { archerPromoteStageRequirements } from '$lib/db/archer';
-  import { ultraSummonStageUnlockGrades } from '$lib/db/summon';
   import { runesSummonStageUnlock } from '$lib/db/runes';
+  import { designStageUnlock, heroGearStageUnlock, enemyCCResist } from '$lib/db/stage';
+  import { ultraSummonStageUnlockGrades } from '$lib/db/summon';
+
+  import * as styles from './index.css';
 </script>
 
 <Heading textAlign="center" fontSize="xl">Information and Requirements</Heading>

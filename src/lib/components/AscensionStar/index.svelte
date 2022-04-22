@@ -1,6 +1,7 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import { createEventDispatcher } from 'svelte';
+
+  import * as styles from './index.css';
 
   export let selected;
   export let ascensionLevel = 0;

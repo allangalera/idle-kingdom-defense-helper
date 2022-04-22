@@ -1,6 +1,6 @@
-import langJSON from '$lib/gameInfo/lang.json';
-import archerItemJSON from '$lib/gameInfo/archerItem.json';
 import archerConstJSON from '$lib/gameInfo/archerConst.json';
+import archerItemJSON from '$lib/gameInfo/archerItem.json';
+import langJSON from '$lib/gameInfo/lang.json';
 import * as R from 'remeda';
 
 export const archerItems = archerItemJSON.map((item) => {

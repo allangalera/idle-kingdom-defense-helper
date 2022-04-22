@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Text from '$lib/components/Text/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
 </script>
 

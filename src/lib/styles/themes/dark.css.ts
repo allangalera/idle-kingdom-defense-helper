@@ -1,5 +1,3 @@
-import { createTheme } from '@vanilla-extract/css';
-import { themeColors } from './index.css';
 import {
   grayDark,
   redDark,
@@ -12,6 +10,9 @@ import {
   brownDark,
   grayDarkA,
 } from '@radix-ui/colors';
+import { createTheme } from '@vanilla-extract/css';
+
+import { themeColors } from './index.css';
 
 export const darkTheme = createTheme(themeColors, {
   baseColors: {

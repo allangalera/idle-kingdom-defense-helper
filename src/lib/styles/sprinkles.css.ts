@@ -1,6 +1,7 @@
 import { createSprinkles, defineProperties } from '@vanilla-extract/sprinkles';
-import { theme, breakpoints, sizings } from './themes/index.css';
+
 import { darkTheme } from './themes/dark.css';
+import { theme, breakpoints, sizings } from './themes/index.css';
 
 const responsiveProperties = defineProperties({
   conditions: {

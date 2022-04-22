@@ -1,10 +1,10 @@
 <script lang="ts">
-  import * as styles from './index.css';
-
-  import type { Grades } from '$lib/types';
-  import { match } from 'oxide.ts';
-  import { convertGradeToStarLevel } from '$lib/utils';
   import { RarityEnum } from '$lib/enums';
+  import type { Grades } from '$lib/types';
+  import { convertGradeToStarLevel } from '$lib/utils';
+  import { match } from 'oxide.ts';
+
+  import * as styles from './index.css';
 
   export let grade: Grades = 1;
 

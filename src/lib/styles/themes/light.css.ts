@@ -1,5 +1,3 @@
-import { createTheme } from '@vanilla-extract/css';
-import { themeColors } from './index.css';
 import {
   gray,
   red,
@@ -12,6 +10,9 @@ import {
   brown,
   grayA,
 } from '@radix-ui/colors';
+import { createTheme } from '@vanilla-extract/css';
+
+import { themeColors } from './index.css';
 
 export const lightTheme = createTheme(themeColors, {
   baseColors: {

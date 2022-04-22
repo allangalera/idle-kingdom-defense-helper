@@ -1,5 +1,5 @@
-import conquestKingdomsJSON from '$lib/gameInfo/conquestKingdoms.json';
 import conquestConstJSON from '$lib/gameInfo/conquestConst.json';
+import conquestKingdomsJSON from '$lib/gameInfo/conquestKingdoms.json';
 import langJSON from '$lib/gameInfo/lang.json';
 
 const getContinentId = (kingdomId: number) => {

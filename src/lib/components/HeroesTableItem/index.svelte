@@ -1,21 +1,22 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import CardHero from '$lib/components/CardHero/index.svelte';
+  import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Tooltip from '$lib/components/Tooltip/index.svelte';
-  import { match } from 'oxide.ts';
-  import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { HeroesVisualizationModes } from '$lib/enums';
+  import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import { theme } from '$lib/styles/themes/index.css';
+  import { getIdleKingdomNumberFormat } from '$lib/utils';
+  import { match } from 'oxide.ts';
+  import * as R from 'remeda';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiDesignEdit2Fill from 'svelte-icons-pack/ri/RiDesignEdit2Fill';
-  import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
-  import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
-  import { sprinkles } from '$lib/styles/sprinkles.css';
-  import * as R from 'remeda';
-  import { getIdleKingdomNumberFormat } from '$lib/utils';
-  import { theme } from '$lib/styles/themes/index.css';
+  import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
+
+  import * as styles from './index.css';
 
   export let hero;
   let addModalOpen = false;

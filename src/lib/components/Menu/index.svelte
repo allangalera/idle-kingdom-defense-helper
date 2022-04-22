@@ -1,20 +1,21 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import { user } from '$lib/shared/stores/user';
-  import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemMenu3Line from 'svelte-icons-pack/ri/RiSystemMenu3Line';
-  import RiDocumentFileCopyLine from 'svelte-icons-pack/ri/RiDocumentFileCopyLine';
-  import Text from '$lib/components/Text/index.svelte';
-  import Input from '$lib/components/Input/index.svelte';
-  import Heading from '$lib/components/Heading/index.svelte';
-  import ModalLoadFromBase64Token from '$lib/components/ModalLoadFromBase64Token/index.svelte';
-  import ModalLoadFromToken from '$lib/components/ModalLoadFromToken/index.svelte';
-  import Tooltip from '$lib/components/Tooltip/index.svelte';
-  import Link from '$lib/components/Link/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
   import Drawer from '$lib/components/Drawer/index.svelte';
+  import Heading from '$lib/components/Heading/index.svelte';
+  import Input from '$lib/components/Input/index.svelte';
+  import Link from '$lib/components/Link/index.svelte';
+  import ModalLoadFromBase64Token from '$lib/components/ModalLoadFromBase64Token/index.svelte';
+  import ModalLoadFromToken from '$lib/components/ModalLoadFromToken/index.svelte';
   import Portal from '$lib/components/Portal/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
+  import { user } from '$lib/shared/stores/user';
   import { theme } from '$lib/styles/themes/index.css';
+  import Icon from 'svelte-icons-pack/Icon.svelte';
+  import RiDocumentFileCopyLine from 'svelte-icons-pack/ri/RiDocumentFileCopyLine';
+  import RiSystemMenu3Line from 'svelte-icons-pack/ri/RiSystemMenu3Line';
+
+  import * as styles from './index.css';
 
   let menuOpen = false;
   let isModalLoadFromBase64Token = false;

@@ -1,14 +1,14 @@
-import heroesJSON from '$lib/gameInfo/heroes.json';
+import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import heroConstJSON from '$lib/gameInfo/heroConst.json';
+import heroGradeInfoJSON from '$lib/gameInfo/heroGradeInfo.json';
 import heroGradesJSON from '$lib/gameInfo/heroGrades.json';
 import heroLvCostJSON from '$lib/gameInfo/heroLvCost.json';
-import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
-import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
-import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
-import heroGradeInfoJSON from '$lib/gameInfo/heroGradeInfo.json';
+import heroesJSON from '$lib/gameInfo/heroes.json';
 import langJSON from '$lib/gameInfo/lang.json';
-import * as R from 'remeda';
+import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
+import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
 import type { Hero } from '$lib/types';
+import * as R from 'remeda';
 
 function getHeroAscension(heroId: number) {
   return heroGradesJSON.filter((heroGrade) => heroGrade.heroId === heroId);

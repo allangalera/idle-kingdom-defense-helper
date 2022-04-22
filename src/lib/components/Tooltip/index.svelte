@@ -1,7 +1,8 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import Portal from '$lib/components/Portal/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+
+  import * as styles from './index.css';
 
   export let text;
 

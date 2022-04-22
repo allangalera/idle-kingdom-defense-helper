@@ -1,10 +1,11 @@
 <script lang="ts">
-  import * as styles from './index.css';
-
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import { UnitTypeToHeroType } from '$lib/enums';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { convertGradeToStarLevel } from '$lib/utils';
+
+  import * as styles from './index.css';
+
   export let width: Sprinkles['width'] = 24;
   export let borderWidth: Sprinkles['padding'] = 1;
   export let heroTypeBadgeWidth: Sprinkles['width'] = 6;

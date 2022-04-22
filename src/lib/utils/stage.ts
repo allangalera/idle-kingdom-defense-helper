@@ -1,5 +1,3 @@
-import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
-import { equals } from 'ramda';
 import { getEnemyIdFromStage } from '$lib/db';
 import {
   stageIdleReward,
@@ -7,6 +5,8 @@ import {
   designStageUnlock,
   heroGearStageUnlock,
 } from '$lib/db/stage';
+import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
+import { equals } from 'ramda';
 
 export const calculateHeroDropFromStage = (stage) => {
   const stageDrops = [

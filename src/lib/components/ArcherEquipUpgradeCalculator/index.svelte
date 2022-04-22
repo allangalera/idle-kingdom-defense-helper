@@ -1,12 +1,12 @@
 <script lang="ts">
-  import * as styles from './index.css';
-
-  import Text from '$lib/components/Text/index.svelte';
-  import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Card from '$lib/components/Card/index.svelte';
+  import InputGrade from '$lib/components/InputGrade/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { archerPromoteProgressionByGrade } from '$lib/db/archer';
-  import type { Grades } from '$lib/types';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Grades } from '$lib/types';
+
+  import * as styles from './index.css';
 
   let selectedStartLevel: Grades = 1 as Grades;
   let selectedEndLevel: Grades = 2 as Grades;

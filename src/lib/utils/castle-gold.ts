@@ -1,7 +1,7 @@
 import { CASTLE_MAX_LEVEL } from '$lib/constants';
 import { castleCost } from '$lib/db/castle';
-import { z } from 'zod';
 import * as R from 'remeda';
+import { z } from 'zod';
 
 export const calculateCastleUpgradeCostWithMapParameterSchema = z
   .object({

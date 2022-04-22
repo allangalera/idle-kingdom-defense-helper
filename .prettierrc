@@ -1,4 +1,6 @@
 {
+  "importOrder": ["^$lib/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
   "printWidth": 100,
   "singleQuote": true,
   "trailingComma": "es5",

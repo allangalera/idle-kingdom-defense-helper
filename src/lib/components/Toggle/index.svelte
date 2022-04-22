@@ -1,6 +1,8 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import { createEventDispatcher } from 'svelte';
+
+  import * as styles from './index.css';
+
   const dispatch = createEventDispatcher();
 
   export let checked = false;

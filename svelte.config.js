@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
+import preprocess from 'svelte-preprocess';
+
 // import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */

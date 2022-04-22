@@ -1,9 +1,10 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import Input from '$lib/components/Input/index.svelte';
   import Card from '$lib/components/Card/index.svelte';
-  import { calculateLevelUpCost } from '$lib/utils/hero';
+  import Input from '$lib/components/Input/index.svelte';
   import { MAX_HERO_LEVEL } from '$lib/db/heroes';
+  import { calculateLevelUpCost } from '$lib/utils/hero';
+
+  import * as styles from './index.css';
 
   let currentLevel = '1';
   let targetLevel = '2';

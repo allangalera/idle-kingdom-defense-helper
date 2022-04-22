@@ -1,14 +1,16 @@
 <script lang="ts">
-  import * as styles from './heroes.css';
-  import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
-  import Text from '$lib/components/Text/index.svelte';
-  import Input from '$lib/components/Input/index.svelte';
   import HeroesTable from '$lib/components/HeroesTable/index.svelte';
+  import Input from '$lib/components/Input/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
+  import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
   import { HeroesSearchValues, HeroesVisualizationModes } from '$lib/enums';
-  import { without, pathOr } from 'ramda';
-  import { matchSorter } from 'match-sorter';
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
+  import { matchSorter } from 'match-sorter';
+  import { without, pathOr } from 'ramda';
+
+  import * as styles from './heroes.css';
+
   let searchParameter;
 
   let filteredHeroes = heroes;

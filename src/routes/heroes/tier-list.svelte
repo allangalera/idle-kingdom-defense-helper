@@ -1,11 +1,11 @@
 <script lang="ts">
-  import HeroRank from '$lib/components/HeroRank/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
+  import HeroRank from '$lib/components/HeroRank/index.svelte';
   import Link from '$lib/components/Link/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import heroRankEarlyGame from '$lib/data/newHeroRankEarlyGame.json';
-  import heroRankMidGame from '$lib/data/newHeroRankMidGame.json';
   import heroRankLateGame from '$lib/data/newHeroRankLateGame.json';
+  import heroRankMidGame from '$lib/data/newHeroRankMidGame.json';
   import { sprinkles } from '$lib/styles/sprinkles.css';
 </script>
 

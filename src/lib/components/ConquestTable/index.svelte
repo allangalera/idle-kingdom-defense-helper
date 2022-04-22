@@ -1,27 +1,28 @@
 <script lang="ts">
-  import * as styles from './index.css';
+  import Button from '$lib/components/Button/index.svelte';
+  import CardBorder from '$lib/components/CardBorder/index.svelte';
+  import CardHero from '$lib/components/CardHero/index.svelte';
+  import Heading from '$lib/components/Heading/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { kingdoms, CONQUEST_REWARD_MULTIPLE_PERGRADE } from '$lib/db/conquest';
-  import * as R from 'remeda';
+  import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
   import { conquest, addKingdom, removeKingdom } from '$lib/shared/stores/user/conquest';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
-  import { heroes, defaultSortingHeroes } from '$lib/db/heroes';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import { theme } from '$lib/styles/themes/index.css';
+  import type { Hero } from '$lib/types';
+  import { getIdleKingdomNumberFormat } from '$lib/utils';
   import {
     sortKingdomByAscensionStoneAndCoin,
     kingdomNameToRomanNumber,
     sortKingdomById,
   } from '$lib/utils/conquest';
+  import * as R from 'remeda';
   import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
-  import Heading from '$lib/components/Heading/index.svelte';
-  import CardHero from '$lib/components/CardHero/index.svelte';
-  import CardBorder from '$lib/components/CardBorder/index.svelte';
-  import Button from '$lib/components/Button/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
-  import { sprinkles } from '$lib/styles/sprinkles.css';
-  import { theme } from '$lib/styles/themes/index.css';
-  import type { Hero } from '$lib/types';
-  import { getIdleKingdomNumberFormat } from '$lib/utils';
+  import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
+
+  import * as styles from './index.css';
 
   enum SortModes {
     byReward = 'by-reward',

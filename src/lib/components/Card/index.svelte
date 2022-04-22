@@ -1,9 +1,11 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import CardBorder from '$lib/components/CardBorder/index.svelte';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
   import { match } from 'oxide.ts';
+
+  import * as styles from './index.css';
+
   export let width: Sprinkles['width'] = 24;
   export let value: number = 0;
   export let cardType: CardType;

@@ -2,6 +2,7 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
 
   import * as styles from './index.css';
+
   export let type = 'click';
   export let disabled: boolean = false;
   export let variant: 'primary' | 'secondary' | 'danger' | 'success' = 'primary';

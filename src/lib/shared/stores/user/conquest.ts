@@ -1,6 +1,6 @@
-import { writable } from 'svelte/store';
-import { mergeDeepRight, is, append, hasPath, pathOr, filter } from 'ramda';
 import { browser } from '$app/env';
+import { mergeDeepRight, is, append, hasPath, pathOr, filter } from 'ramda';
+import { writable } from 'svelte/store';
 
 type ConquestStore = {
   kingdoms: number[];

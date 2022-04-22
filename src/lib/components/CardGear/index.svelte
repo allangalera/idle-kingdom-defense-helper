@@ -1,9 +1,9 @@
 <script lang="ts">
-  import * as styles from './index.css';
-
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import type { CardGearType } from '$lib/types';
+
+  import * as styles from './index.css';
 
   export let gearType: CardGearType;
   export let width: Sprinkles['width'] = 24;

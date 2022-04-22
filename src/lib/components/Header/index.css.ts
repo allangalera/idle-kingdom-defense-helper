@@ -1,5 +1,5 @@
-import { style } from '@vanilla-extract/css';
 import { theme } from '$lib/styles/themes/index.css';
+import { style } from '@vanilla-extract/css';
 
 export const header = style({
   position: 'sticky',

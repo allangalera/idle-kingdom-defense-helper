@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import { browser } from '$app/env';
 import {
   mergeDeepRight,
   is,
@@ -12,7 +12,7 @@ import {
   filter,
   clone,
 } from 'ramda';
-import { browser } from '$app/env';
+import { writable } from 'svelte/store';
 
 type Hero = {
   id: number;

@@ -1,12 +1,13 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import { heroGradeInfo } from '$lib/db/heroes';
-  import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Card from '$lib/components/Card/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
   import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
-  import type { Grades } from '$lib/types';
+  import InputGrade from '$lib/components/InputGrade/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
+  import { heroGradeInfo } from '$lib/db/heroes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Grades } from '$lib/types';
+
+  import * as styles from './index.css';
 
   let selectedStartGrade: Grades = 1 as Grades;
   let selectedEndGrade: Grades = 2 as Grades;

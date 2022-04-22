@@ -1,8 +1,8 @@
 <script lang="ts">
-  import * as styles from './index.css';
-
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+
+  import * as styles from './index.css';
 
   export let value: number;
 </script>

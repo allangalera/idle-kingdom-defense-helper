@@ -1,8 +1,10 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import { createEventDispatcher } from 'svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
   import type { CardGearType } from '$lib/types';
+  import { createEventDispatcher } from 'svelte';
+
+  import * as styles from './index.css';
+
   const dispatch = createEventDispatcher();
 
   export let checked = false;

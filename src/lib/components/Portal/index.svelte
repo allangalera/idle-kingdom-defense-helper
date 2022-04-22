@@ -1,6 +1,8 @@
 <script lang="ts">
-  import * as styles from './index.css';
   import { onMount, onDestroy } from 'svelte';
+
+  import * as styles from './index.css';
+
   let ref;
   let portal;
   const mainDiv = document.querySelector('body > div');
