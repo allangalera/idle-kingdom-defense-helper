@@ -1,4 +1,4 @@
-type CardType =
+export type CardType =
   | 'ascension-stone'
   | 'coin'
   | 'soulstone'

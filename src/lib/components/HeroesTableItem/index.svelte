@@ -45,7 +45,7 @@
     return name ? name.replace('{0}', '').trim() : name;
   }
 
-  function formatSkillValue(progressionAttributes, skill) {
+  function formatSkillValue(progressionAttributes) {
     const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
 
     return match(addType, [
@@ -254,7 +254,7 @@
               ].join(' ')}
             >
               <Text textAlign="center" fontSize="xs" fontFamily="mono"
-                >{formatSkillValue(step, skill)}</Text
+                >{formatSkillValue(step)}</Text
               >
             </div>
           {/each}
@@ -303,7 +303,7 @@
                 ].join(' ')}
               >
                 <Text textAlign="center" fontSize="xs" fontFamily="mono"
-                  >{formatSkillValue(step, skill)}</Text
+                  >{formatSkillValue(step)}</Text
                 >
               </div>
             {/each}

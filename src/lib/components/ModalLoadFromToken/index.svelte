@@ -7,10 +7,8 @@
   import Text from '$lib/components/Text/index.svelte';
   import { loadFromZipson } from '$lib/shared/stores/user/index';
 
-  import * as styles from './index.css';
-
   export let open = false;
-  export let onClose: VoidFunction;
+  export let onClose: () => void;
 
   let tokenToLoad;
 

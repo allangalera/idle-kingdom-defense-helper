@@ -10,7 +10,7 @@
   import * as styles from './index.css';
 
   export let footerJustifyContent: Sprinkles['justifyContent'] = 'flex-start';
-  export let onClose: VoidFunction = () => {};
+  export let onClose: () => void = () => void 0;
   export let shouldCloseOnOverlay = true;
 
   onMount(() => {

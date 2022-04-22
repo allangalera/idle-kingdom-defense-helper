@@ -11,8 +11,8 @@
   export let maskOptions = undefined;
   export let textAlign: Sprinkles['textAlign'] = 'left';
   export let id = undefined;
-  export let disabled: boolean = false;
-  export let readonly: boolean = false;
+  export let disabled = false;
+  export let readonly = false;
 
   function validate() {
     if (maskOptions) {

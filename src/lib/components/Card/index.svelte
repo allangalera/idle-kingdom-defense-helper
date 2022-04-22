@@ -4,12 +4,13 @@
   import { getIdleKingdomNumberFormat } from '$lib/utils';
   import { match } from 'oxide.ts';
 
+  import type { CardType } from './card';
   import * as styles from './index.css';
 
   export let width: Sprinkles['width'] = 24;
-  export let value: number = 0;
+  export let value = 0;
   export let cardType: CardType;
-  export let decimalNumbers: number = 0;
+  export let decimalNumbers = 0;
 
   let imageInfo = match(cardType, [
     ['coin', { src: 'images/icons/iconGold.png', alt: 'Gold Coin Icon' }],

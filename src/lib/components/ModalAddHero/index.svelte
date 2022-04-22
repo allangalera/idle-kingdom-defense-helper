@@ -8,28 +8,17 @@
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_HERO_LEVEL } from '$lib/db/heroes';
   import { addOrUpdateHero } from '$lib/shared/stores/user/heroes';
-  import { theme } from '$lib/styles/themes/index.css';
   import type { Grades } from '$lib/types';
-  import Icon from 'svelte-icons-pack/Icon.svelte';
-  import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
-  import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
 
   import * as styles from './index.css';
 
   export let open = false;
-  export let onClose: VoidFunction;
+  export let onClose: () => void;
   export let hero;
   export let userHero = null;
 
   let userHeroGrade: Grades = userHero?.grade || hero.baseGrade;
   let userHeroLevel: string = userHero?.level?.toString() || '1';
-
-  const subtractGrade = () => {
-    userHeroGrade = Math.max(userHeroGrade - 1, hero.baseGrade) as Grades;
-  };
-  const addGrade = () => {
-    userHeroGrade = Math.min(userHeroGrade + 1, 25) as Grades;
-  };
 
   const onSubmit = () => {
     addOrUpdateHero({

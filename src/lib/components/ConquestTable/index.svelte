@@ -39,7 +39,6 @@
   };
   let userKingdomsAndHeroes = [];
   let selectedSortMode = SortModes.byReward;
-  let sortedKingdoms = sortMode[selectedSortMode](kingdoms);
   let userKingdoms = $conquest.kingdoms;
 
   const borderColorByContinent = {

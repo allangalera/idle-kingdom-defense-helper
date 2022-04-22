@@ -4,7 +4,7 @@
   import * as styles from './index.css';
 
   export let type = 'click';
-  export let disabled: boolean = false;
+  export let disabled = false;
   export let variant: 'primary' | 'secondary' | 'danger' | 'success' = 'primary';
 
   const backgroundColors = {
