@@ -8,6 +8,7 @@
   import {
     sortKingdomByAscensionStoneAndCoin,
     kingdomNameToRomanNumber,
+    sortKingdomById,
   } from '$lib/utils/conquest';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
@@ -21,8 +22,18 @@
   import { theme } from '$lib/styles/themes/index.css';
   import type { Hero } from '$lib/types';
 
-  let sortedKingdoms = sortKingdomByAscensionStoneAndCoin(kingdoms);
+  enum SortModes {
+    byReward = 'by-reward',
+    byKingdom = 'by-kingdom',
+  }
+  let sortMode = {
+    [SortModes.byReward]: sortKingdomByAscensionStoneAndCoin,
+    [SortModes.byKingdom]: sortKingdomById,
+  };
   let userKingdomsAndHeroes = [];
+  let selectedSortMode = SortModes.byReward;
+  let sortedKingdoms = sortMode[selectedSortMode](kingdoms);
+  let userKingdoms = $conquest.kingdoms;
 
   const borderColorByContinent = {
     1: 'green9',
@@ -34,6 +45,11 @@
     2: 'blue3',
     3: 'brown3',
   };
+
+  function onChangeSortMode(event) {
+    const { value } = event.target;
+    selectedSortMode = value;
+  }
 
   const add = (kingdomId) => {
     addKingdom(kingdomId);
@@ -48,13 +64,13 @@
     return heroes.find((hero) => hero.id === heroId);
   };
 
-  conquest.subscribe((value) => {
-    let userKingdoms = R.pathOr(value, ['kingdoms'], []);
+  const generateTableItems = (uKingdoms, sSortMode) => {
     let sortedHeroes = defaultSortingHeroes(
       R.pathOr($heroesStore, ['heroes'], []) as unknown as Hero[]
     );
-    userKingdomsAndHeroes = sortedKingdoms.map((kingdom) => {
-      const isKingdomAdded = userKingdoms.some((item) => item === kingdom.id);
+    let tempKingdoms = sortKingdomByAscensionStoneAndCoin(kingdoms);
+    let tempUserKingdomsAndHeroes = tempKingdoms.map((kingdom) => {
+      const isKingdomAdded = uKingdoms.some((item) => item === kingdom.id);
       let heroSuggestion = null;
       if (isKingdomAdded) {
         heroSuggestion = sortedHeroes.shift();
@@ -71,9 +87,39 @@
         heroSuggestion,
       };
     });
+    userKingdomsAndHeroes = sortMode[sSortMode](tempUserKingdomsAndHeroes);
+  };
+
+  conquest.subscribe((value) => {
+    userKingdoms = R.pathOr(value, ['kingdoms'], []);
   });
+
+  $: generateTableItems(userKingdoms, selectedSortMode);
 </script>
 
+<div class={styles.sortContainer}>
+  <Text fontWeight="bold">Sort by:</Text>
+  <label class={styles.input}>
+    <input
+      type="radio"
+      name="sort-mode"
+      value={SortModes.byReward}
+      checked={selectedSortMode === SortModes.byReward}
+      on:change={onChangeSortMode}
+    />
+    <Text>by Reward</Text>
+  </label>
+  <label class={styles.input}>
+    <input
+      type="radio"
+      name="sort-mode"
+      value={SortModes.byKingdom}
+      checked={selectedSortMode === SortModes.byKingdom}
+      on:change={onChangeSortMode}
+    />
+    <Text>by Kingdom</Text>
+  </label>
+</div>
 <div class={styles.container}>
   <!-- Heading -->
   <Heading textAlign="center" fontSize="xl">Capital</Heading>

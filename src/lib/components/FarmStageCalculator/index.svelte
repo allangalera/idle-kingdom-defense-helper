@@ -1,12 +1,12 @@
 <script lang="ts">
-  import * as styles from './index.css';
-  import { pathOr } from 'ramda';
-
-  import { stage, updateStage } from '$lib/shared/stores/user/stage';
+  import * as R from 'remeda';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiSystemArrowRightSLine from 'svelte-icons-pack/ri/RiSystemArrowRightSLine';
   import RiSystemArrowLeftSLine from 'svelte-icons-pack/ri/RiSystemArrowLeftSLine';
+  import { onDestroy } from 'svelte';
+  import { match } from 'oxide.ts';
 
+  import { stage, updateStage } from '$lib/shared/stores/user/stage';
   import CardToggle from '$lib/components/CardToggle/index.svelte';
   import EnemyToggle from '$lib/components/EnemyToggle/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
@@ -14,16 +14,15 @@
   import Text from '$lib/components/Text/index.svelte';
   import StageResult from '$lib/components/StageResult/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
-  import { HeroGearEquip, ArcherGearEquip, RarityEnum } from '$lib/enums';
+  import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
   import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
   import { uniqueEnemies } from '$lib/db';
-  import { onDestroy } from 'svelte';
-  import { match } from 'oxide.ts';
   import { theme } from '$lib/styles/themes/index.css';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import * as R from 'remeda';
   import { convertGradeToStarLevel } from '$lib/utils';
+
+  import * as styles from './index.css';
 
   let timer;
   let stageLevel = $stage?.stage?.toString() ?? '1';

@@ -37,3 +37,15 @@ export const buttonIcon = style({
   width: theme.sizes[4],
   height: theme.sizes[4],
 });
+
+export const input = style({
+  display: 'flex',
+});
+
+export const sortContainer = style({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  gap: theme.space[4],
+  marginBottom: theme.space[12],
+});
