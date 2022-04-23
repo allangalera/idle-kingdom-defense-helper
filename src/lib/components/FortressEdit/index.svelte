@@ -78,7 +78,7 @@
   </div>
   <div class={styles.centerVariant[userFortressData ? 'show' : 'hide']}>
     <div class={styles.rewards}>
-      {#if imgSrc === 'none'}
+      {#if imgSrc !== 'none'}
         <img class={styles.icon} src={imgSrc} alt="Coin Icon" />
       {/if}
       <Text fontSize="xs">{getIdleKingdomNumberFormat(reward)}/10m</Text>

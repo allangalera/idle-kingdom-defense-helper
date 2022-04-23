@@ -24,6 +24,8 @@ export const container = style({
   maxWidth: '100%',
   maxHeight: '100%',
   overflow: 'auto',
+  display: 'flex',
+  flexDirection: 'column',
 });
 
 export const header = style({
@@ -54,6 +56,8 @@ export const headerCloseIcon = style({
 
 export const content = style({
   padding: theme.space[4],
+  flex: 1,
+  overflow: 'auto',
 });
 export const footer = style({
   padding: theme.space[4],

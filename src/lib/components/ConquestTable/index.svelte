@@ -20,6 +20,7 @@
   } from '$lib/utils/conquest';
   import * as R from 'remeda';
   import Icon from 'svelte-icons-pack/Icon.svelte';
+  import FaBrandsFortAwesome from 'svelte-icons-pack/fa/FaBrandsFortAwesome';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
   import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
 
@@ -167,58 +168,130 @@
   <Heading>Total rewards</Heading>
   <div class={styles.rewardsTable}>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.evolve)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.evolve)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconEvolveStone.png"
         alt="ascension icon"
-      /><Text as="span">/h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/h</Text
+      >
     </div>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.gold)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.gold)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconGold.png"
         alt="gold icon"
-      /><Text as="span">/h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/h</Text
+      >
     </div>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.soulstone)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconSoul.png"
         alt="gold icon"
-      /><Text as="span">/h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/h</Text
+      >
     </div>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.evolve * 12)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.evolve * 12)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconEvolveStone.png"
         alt="ascension icon"
-      /><Text as="span">/12h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/12h</Text
+      >
     </div>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.gold * 12)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.gold * 12)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconGold.png"
         alt="gold icon"
-      /><Text as="span">/12h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/12h</Text
+      >
     </div>
     <div class={styles.rewardsValues}>
-      <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone * 12)}</Text>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.soulstone * 12)}</Text
+      >
       <img
         loading="lazy"
-        class={styles.ascensionIcon}
+        class={styles.rewardsIcon}
         src="images/icons/iconSoul.png"
         alt="gold icon"
-      /><Text as="span">/12h</Text>
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/12h</Text
+      >
     </div>
   </div>
 </div>
@@ -280,7 +353,6 @@
           },
         }),
       ].join(' ')}
-      on:click={() => onSelectKingdomToEditFortres(kingdom)}
     >
       <Text as="span" fontSize={{ sm: 'xs', md: 'sm' }} textAlign="center"
         >{kingdom.continent} {kingdomNameToRomanNumber(kingdom.name)}</Text
@@ -288,7 +360,17 @@
     </div>
     <Text textAlign="center">{kingdom.rewardEvolve}</Text>
     <Text textAlign="center">{kingdom.rewardGold.toLocaleString()}</Text>
-    <div class={styles.centerFlex}>
+    <div
+      class={[
+        styles.centerFlex,
+        sprinkles({
+          gap: 2,
+        }),
+      ].join(' ')}
+    >
+      <Button type="button" on:click={() => onSelectKingdomToEditFortres(kingdom)}>
+        <Icon className={styles.buttonIcon} src={FaBrandsFortAwesome} color={theme.colors.white} />
+      </Button>
       {#if kingdom.isKingdomAdded}
         <Button type="button" variant="danger" on:click={() => remove(kingdom.id)}>
           <Icon

@@ -1,6 +1,5 @@
 import { browser } from '$app/env';
 import { CONQUEST_FORTRESS_MAX_LEVEL } from '$lib/db/conquest';
-import { append, filter, hasPath, is, mergeDeepRight, pathOr } from 'ramda';
 import * as R from 'remeda';
 import { writable } from 'svelte/store';
 import { z } from 'zod';
@@ -24,25 +23,24 @@ const initialState = browser
 export const conquest = writable<ConquestStore>(initialState);
 
 export const addKingdom = (kingdomId: number) => {
-  if (!is(Number, kingdomId)) return false;
+  if (!R.isNumber(kingdomId)) return false;
   conquest.update((currentData) => {
-    if (hasPath(['kingdoms'], currentData) && currentData.kingdoms.includes(kingdomId))
-      return currentData;
-    return mergeDeepRight(currentData, {
-      kingdoms: append(kingdomId, pathOr([], ['kingdoms'], currentData)),
+    if (currentData?.kingdoms && currentData.kingdoms.includes(kingdomId)) return currentData;
+    return R.merge(currentData, {
+      kingdoms: R.concat(currentData?.kingdoms ?? [], [kingdomId]),
     });
   });
   return true;
 };
 
 export const removeKingdom = (kingdomId: number) => {
-  if (!is(Number, kingdomId)) return false;
+  if (!R.isNumber(kingdomId)) return false;
   conquest.update((currentData) => {
-    if (!hasPath(['kingdoms'], currentData)) return currentData;
+    if (!currentData?.kingdoms) return currentData;
     if (!currentData.kingdoms.includes(kingdomId)) return currentData;
 
-    return mergeDeepRight(currentData, {
-      kingdoms: filter((item) => item !== kingdomId, currentData.kingdoms),
+    return R.merge(currentData, {
+      kingdoms: currentData.kingdoms.filter((item) => item !== kingdomId),
     });
   });
   return true;
@@ -67,7 +65,7 @@ export const removeFortress = (fortressId: number) => {
   if (!R.isNumber(fortressId)) return false;
 
   conquest.update((currentData) => {
-    if (!Boolean(currentData?.fortress)) return currentData;
+    if (!currentData?.fortress) return currentData;
 
     return R.merge(currentData, {
       fortress: currentData.fortress.filter((item) => item.id !== fortressId),
@@ -88,7 +86,7 @@ export const updateFortressLevel = (fortressId: number, level: number) => {
   if (!levelValidation.success) return false;
 
   conquest.update((currentData) => {
-    if (!Boolean(currentData?.fortress)) return currentData;
+    if (!currentData?.fortress) return currentData;
 
     return R.merge(currentData, {
       fortress: currentData.fortress.map((item) => {
