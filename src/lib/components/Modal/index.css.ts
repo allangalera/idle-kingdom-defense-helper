@@ -14,6 +14,7 @@ export const wrapper = style({
   justifyContent: 'center',
   alignItems: 'center',
   padding: theme.space[4],
+  maxHeight: '100vh',
 });
 
 export const container = style({
@@ -21,6 +22,8 @@ export const container = style({
   borderRadius: theme.border.radii.lg,
   minWidth: theme.sizes[80],
   maxWidth: '100%',
+  maxHeight: '100%',
+  overflow: 'auto',
 });
 
 export const header = style({
