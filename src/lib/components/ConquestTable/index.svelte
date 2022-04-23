@@ -91,7 +91,7 @@
     return tempKingdoms.map((kingdom) => {
       const isKingdomAdded = uKingdoms.some((item) => item === kingdom.id);
       let heroSuggestion = null;
-      if (isKingdomAdded) {
+      if (isKingdomAdded && sortedHeroes.length !== 0) {
         heroSuggestion = sortedHeroes.shift();
       }
       if (heroSuggestion) {
