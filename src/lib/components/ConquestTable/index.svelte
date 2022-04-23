@@ -125,10 +125,12 @@
       if (kingdom.isKingdomAdded) {
         tempRewards.gold +=
           kingdom.rewardGold *
-          (1 + kingdom.heroSuggestion.grade * CONQUEST_REWARD_MULTIPLE_PERGRADE);
+          (1 +
+            R.pathOr(kingdom, ['heroSuggestion', 'grade'], 0) * CONQUEST_REWARD_MULTIPLE_PERGRADE);
         tempRewards.evolve +=
           kingdom.rewardEvolve *
-          (1 + kingdom.heroSuggestion.grade * CONQUEST_REWARD_MULTIPLE_PERGRADE);
+          (1 +
+            R.pathOr(kingdom, ['heroSuggestion', 'grade'], 0) * CONQUEST_REWARD_MULTIPLE_PERGRADE);
       }
     });
 

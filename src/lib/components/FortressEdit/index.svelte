@@ -25,7 +25,7 @@
   let fortressData;
   let userFortressData;
 
-  let imgSrc = 'none';
+  let imgSrc: string | false = false;
   let reward;
 
   const onAddFortress = () => {
@@ -55,7 +55,7 @@
     imgSrc = match(fortressData.rewardType, [
       [102, 'images/icons/iconGold.png'],
       [27, 'images/icons/iconSoul.png'],
-      () => 'none',
+      () => false,
     ]);
 
     reward = match(fortressData.rewardType, [
@@ -78,7 +78,9 @@
   </div>
   <div class={styles.centerVariant[userFortressData ? 'show' : 'hide']}>
     <div class={styles.rewards}>
-      <img class={styles.icon} src={imgSrc} alt="Coin Icon" />
+      {#if imgSrc}
+        <img class={styles.icon} src={imgSrc} alt="Coin Icon" />
+      {/if}
       <Text fontSize="xs">{getIdleKingdomNumberFormat(reward)}/10m</Text>
     </div>
     <div class={styles.level}>
