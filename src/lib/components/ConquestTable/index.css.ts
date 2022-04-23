@@ -61,7 +61,7 @@ export const rewardsContainer = style({
 
 export const rewardsTable = style({
   display: 'grid',
-  gridTemplateColumns: 'repeat(2, 1fr)',
+  gridTemplateColumns: 'repeat(3, 1fr)',
   gap: theme.space[4],
 });
 

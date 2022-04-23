@@ -14,15 +14,11 @@
   export let shouldCloseOnOverlay = true;
 
   onMount(() => {
-    document.body.style.overflowX = 'hidden';
-    document.body.style.overflowY = 'scroll';
-    document.body.style.position = 'fixed';
+    document.body.style.overflow = 'hidden';
   });
 
   onDestroy(() => {
-    document.body.style.overflowX = '';
-    document.body.style.overflowY = '';
-    document.body.style.position = '';
+    document.body.style.overflow = '';
   });
 </script>
 

@@ -1,4 +1,5 @@
 import conquestConstJSON from '$lib/gameInfo/conquestConst.json';
+import conquestFortressJSON from '$lib/gameInfo/conquestFortress.json';
 import conquestKingdomsJSON from '$lib/gameInfo/conquestKingdoms.json';
 import langJSON from '$lib/gameInfo/lang.json';
 
@@ -29,4 +30,7 @@ const generateKingdoms = () => {
 
 export const kingdoms = generateKingdoms();
 
+export const fortress = conquestFortressJSON;
+
 export const CONQUEST_REWARD_MULTIPLE_PERGRADE = conquestConstJSON.CAPITAL.REWARD_MULTIPLE_PERGRADE;
+export const CONQUEST_FORTRESS_MAX_LEVEL = conquestConstJSON.FORTRESS.MAX_LV;

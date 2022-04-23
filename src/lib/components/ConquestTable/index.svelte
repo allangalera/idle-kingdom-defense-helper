@@ -3,8 +3,9 @@
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import CardHero from '$lib/components/CardHero/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
+  import ModalEditKingdomFortress from '$lib/components/ModalEditKingdomFortress/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { CONQUEST_REWARD_MULTIPLE_PERGRADE, kingdoms } from '$lib/db/conquest';
+  import { CONQUEST_REWARD_MULTIPLE_PERGRADE, fortress, kingdoms } from '$lib/db/conquest';
   import { defaultSortingHeroes, heroes } from '$lib/db/heroes';
   import { addKingdom, conquest, removeKingdom } from '$lib/shared/stores/user/conquest';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
@@ -40,6 +41,9 @@
   let userKingdomsAndHeroes = [];
   let selectedSortMode = SortModes.byReward;
   let userKingdoms = $conquest.kingdoms;
+  let userFortress = $conquest.fortress;
+  let selectedKingdomId;
+  let isModalEditKingdomFortresOpen = false;
 
   const borderColorByContinent = {
     1: 'green9',
@@ -56,6 +60,15 @@
     const { value } = event.target;
     selectedSortMode = value;
   }
+
+  const onSelectKingdomToEditFortres = (id) => {
+    selectedKingdomId = R.clone(id);
+    isModalEditKingdomFortresOpen = true;
+  };
+
+  const onCloseModalEditKingdomFortress = () => {
+    isModalEditKingdomFortresOpen = false;
+  };
 
   const add = (kingdomId) => {
     addKingdom(kingdomId);
@@ -119,11 +132,29 @@
       }
     });
 
+    userFortress.forEach((currentFortress) => {
+      const fortressData = fortress.find((item) => item.id === currentFortress.id);
+
+      if (!fortressData) return;
+      if (fortressData.rewardType === 102) {
+        tempRewards.gold +=
+          (fortressData.rewardGoldInit + fortressData.rewardGoldInc * (currentFortress.level - 1)) *
+          6;
+      }
+
+      if (fortressData.rewardType === 27) {
+        tempRewards.soulstone +=
+          (fortressData.rewardSoulInit + fortressData.rewardSoulInc * (currentFortress.level - 1)) *
+          6;
+      }
+    });
+
     rewards = tempRewards;
   };
 
   conquest.subscribe((value) => {
-    userKingdoms = R.pathOr(value, ['kingdoms'], []);
+    userKingdoms = value?.kingdoms ?? [];
+    userFortress = value?.fortress ?? [];
   });
 
   $: generateTableItems(userKingdoms, selectedSortMode);
@@ -151,15 +182,15 @@
         alt="gold icon"
       /><Text as="span">/h</Text>
     </div>
-    <!-- <div class={styles.rewardsValues}>
+    <div class={styles.rewardsValues}>
       <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone)}</Text>
       <img
         loading="lazy"
         class={styles.ascensionIcon}
-        src="images/icons/iconGold.png"
+        src="images/icons/iconSoul.png"
         alt="gold icon"
       /><Text as="span">/h</Text>
-    </div> -->
+    </div>
     <div class={styles.rewardsValues}>
       <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.evolve * 12)}</Text>
       <img
@@ -178,15 +209,15 @@
         alt="gold icon"
       /><Text as="span">/12h</Text>
     </div>
-    <!-- <div class={styles.rewardsValues}>
+    <div class={styles.rewardsValues}>
       <Text textAlign="center">{getIdleKingdomNumberFormat(rewards.soulstone * 12)}</Text>
       <img
         loading="lazy"
         class={styles.ascensionIcon}
-        src="images/icons/iconGold.png"
+        src="images/icons/iconSoul.png"
         alt="gold icon"
       /><Text as="span">/12h</Text>
-    </div> -->
+    </div>
   </div>
 </div>
 <div class={styles.sortContainer}>
@@ -247,6 +278,7 @@
           },
         }),
       ].join(' ')}
+      on:click={() => onSelectKingdomToEditFortres(kingdom)}
     >
       <Text as="span" fontSize={{ sm: 'xs', md: 'sm' }} textAlign="center"
         >{kingdom.continent} {kingdomNameToRomanNumber(kingdom.name)}</Text
@@ -283,3 +315,9 @@
     </div>
   {/each}
 </div>
+
+<ModalEditKingdomFortress
+  open={isModalEditKingdomFortresOpen}
+  kingdom={selectedKingdomId}
+  onClose={onCloseModalEditKingdomFortress}
+/>

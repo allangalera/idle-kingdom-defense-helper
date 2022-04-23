@@ -4,7 +4,6 @@
   import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Link from '$lib/components/Link/index.svelte';
-  import ModalLoadFromBase64Token from '$lib/components/ModalLoadFromBase64Token/index.svelte';
   import ModalLoadFromToken from '$lib/components/ModalLoadFromToken/index.svelte';
   import Portal from '$lib/components/Portal/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -18,7 +17,6 @@
   import * as styles from './index.css';
 
   let menuOpen = false;
-  let isModalLoadFromBase64Token = false;
   let isModalLoadFromToken = false;
 
   let tooltipText = 'Copy';
@@ -29,11 +27,6 @@
 
   const onMenuClose = () => {
     menuOpen = false;
-  };
-
-  const onOpenModalLoadFromBase64Token = () => {
-    menuOpen = false;
-    isModalLoadFromBase64Token = true;
   };
 
   const onOpenModalLoadFromToken = () => {
@@ -92,9 +85,6 @@
               >
             </Tooltip>
           </div>
-          <Button on:click={onOpenModalLoadFromBase64Token}
-            ><Text color="white" textAlign="center">Load from old token</Text></Button
-          >
           <Button on:click={onOpenModalLoadFromToken}
             ><Text color="white" textAlign="center">Load from token</Text></Button
           >
@@ -104,12 +94,6 @@
   </Portal>
 {/if}
 
-<ModalLoadFromBase64Token
-  open={isModalLoadFromBase64Token}
-  onClose={() => {
-    isModalLoadFromBase64Token = false;
-  }}
-/>
 <ModalLoadFromToken
   open={isModalLoadFromToken}
   onClose={() => {
