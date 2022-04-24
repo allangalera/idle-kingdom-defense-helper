@@ -1,5 +1,4 @@
-import { archerItemType, archerItems } from '$lib/db/archer';
-import { MAX_HERO_GRADE } from '$lib/db/heroes';
+import { ARCHER_EQUIP_MAX_GRADE, archerItemType, archerItems } from '$lib/db/archer';
 import { ArcherGearEquip } from '$lib/enums';
 import langJSON from '$lib/gameInfo/lang.json';
 import type { Grades } from '$lib/types';
@@ -8,7 +7,7 @@ import { z } from 'zod';
 export const getEquipData = (equip: ArcherGearEquip, grade: Grades, tier) => {
   const schema = z.object({
     equip: z.nativeEnum(ArcherGearEquip),
-    grade: z.number().gte(1).lte(MAX_HERO_GRADE),
+    grade: z.number().gte(1).lte(ARCHER_EQUIP_MAX_GRADE),
     tier: z.number().gte(0).lte(3),
   });
 

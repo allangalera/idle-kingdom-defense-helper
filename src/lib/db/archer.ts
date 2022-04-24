@@ -40,3 +40,4 @@ const generateArcherPromoteStageRequirements = () => {
 };
 
 export const archerPromoteStageRequirements = generateArcherPromoteStageRequirements();
+export const ARCHER_EQUIP_MAX_GRADE = archerConstJSON.PROMOTE.MAXGRADE;
