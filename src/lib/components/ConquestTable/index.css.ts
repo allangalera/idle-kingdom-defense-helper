@@ -1,6 +1,13 @@
 import { breakpoints, theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
+export const itemsContainer = style({
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: theme.space[2],
+});
+
 export const container = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(5, max-content)',

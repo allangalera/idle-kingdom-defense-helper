@@ -5,7 +5,7 @@ import { z } from 'zod';
 
 export const calculateCastleUpgradeCostWithMapParameterSchema = z
   .object({
-    currentLevel: z.number().gte(0),
+    currentLevel: z.number().gt(0),
   })
   .extend({
     targetLevel: z.number().lte(CASTLE_MAX_LEVEL),

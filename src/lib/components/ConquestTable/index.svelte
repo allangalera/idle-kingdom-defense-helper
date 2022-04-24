@@ -2,6 +2,7 @@
   import Button from '$lib/components/Button/index.svelte';
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import CardHero from '$lib/components/CardHero/index.svelte';
+  import ConquestTableItem from '$lib/components/ConquestTableItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import ModalEditKingdomFortress from '$lib/components/ModalEditKingdomFortress/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -317,6 +318,11 @@
     />
     <Text>by Kingdom</Text>
   </label>
+</div>
+<div class={styles.itemsContainer}>
+  {#each userKingdomsAndHeroes as kingdom (kingdom.id)}
+    <ConquestTableItem kingdomId={kingdom.id} heroSuggestion={kingdom.heroSuggestion} />
+  {/each}
 </div>
 <div class={styles.container}>
   <!-- Heading -->

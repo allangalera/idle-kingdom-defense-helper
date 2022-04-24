@@ -8,7 +8,6 @@ export const container = style({
   borderColor: theme.themeColors.border.default,
   borderRadius: theme.border.radii.lg,
   display: 'flex',
-  // alignItems: 'center',
   gap: theme.sizes[4],
   overflow: 'hidden',
   background: theme.themeColors.baseColors.gray3,
