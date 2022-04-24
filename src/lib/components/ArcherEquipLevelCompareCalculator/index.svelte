@@ -148,13 +148,13 @@
       display: 'flex',
       flexDirection: {
         sm: 'column',
-        xl: 'row',
+        md: 'row',
       },
       justifyContent: 'center',
       alignItems: 'center',
       gap: {
         sm: 6,
-        xl: 10,
+        md: 10,
       },
     })}
   >
@@ -316,13 +316,13 @@
       display: 'flex',
       flexDirection: {
         sm: 'column',
-        xl: 'row',
+        md: 'row',
       },
       justifyContent: 'center',
       alignItems: 'center',
       gap: {
         sm: 6,
-        xl: 10,
+        md: 10,
       },
     })}
   >
