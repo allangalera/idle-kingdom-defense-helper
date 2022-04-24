@@ -6,6 +6,7 @@
   import HeroAscensionCalculator from '$lib/components/HeroAscensionCalculator/index.svelte';
   import FarmStageCalculator from '$lib/components/FarmStageCalculator/index.svelte';
   import ArcherEquipUpgradeCalculator from '$lib/components/ArcherEquipUpgradeCalculator/index.svelte';
+  import ArcherEquipLevelCompareCalculator from '$lib/components/ArcherEquipLevelCompareCalculator/index.svelte';
 </script>
 
 <div class={styles.grid}>
@@ -20,6 +21,9 @@
   </GridItem>
   <GridItem title="Archer Promote Cost Calculator">
     <ArcherEquipUpgradeCalculator />
+  </GridItem>
+  <GridItem title="Archer Equip Compare Calculator" full>
+    <ArcherEquipLevelCompareCalculator />
   </GridItem>
   <GridItem title="Stage to Farm Calculator" full>
     <FarmStageCalculator />
