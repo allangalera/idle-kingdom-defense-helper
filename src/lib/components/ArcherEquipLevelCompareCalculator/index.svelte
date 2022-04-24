@@ -40,13 +40,21 @@
   };
 
   const onEquipsUpdate = () => {
-    if (selectedStartLevel === selectedEndLevel && startEnhanceLevel === endEnhanceLevel) return;
+    if (
+      selectedStartLevel === selectedEndLevel &&
+      +startEnhanceLevel === +endEnhanceLevel &&
+      selectedTierStart === selectedTierEnd
+    ) {
+      fromEquip = null;
+      toEquip = null;
+      return;
+    }
     fromEquip = getEquipData(selectedEquip, selectedStartLevel, +selectedTierStart);
     toEquip = getEquipData(selectedEquip, selectedEndLevel, +selectedTierEnd);
   };
 
   const calculateStats = () => {
-    if (!fromEquip && !toEquip) {
+    if (!fromEquip || !toEquip) {
       fromStats = null;
       toStats = null;
       return;
@@ -328,14 +336,14 @@
   >
     <div class={styles.innerContainer}>
       <Text textAlign="center">From</Text>
-      {#if fromStats}
+      {#if fromEquip && fromStats}
         <Text textAlign="center">{fromEquip.statTypeName}: {fromStats.statType}</Text>
         <Text textAlign="center">{fromEquip.statSubName}: {fromStats.statSub}</Text>
       {/if}
     </div>
     <div class={styles.innerContainer}>
       <Text textAlign="center">To</Text>
-      {#if toStats}
+      {#if toEquip && toStats}
         <Text textAlign="center">{toEquip.statTypeName}: {toStats.statType}</Text>
         <Text textAlign="center">{toEquip.statSubName}: {toStats.statSub}</Text>
       {/if}
