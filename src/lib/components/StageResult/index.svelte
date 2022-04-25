@@ -52,21 +52,6 @@
 <div class={styles.flex}>
   <div class={styles.info}>
     <Text fontSize="2xl">{stageData.stage}</Text>
-    <!-- <div class={styles.stat}>
-      <Tooltip text="Enemies total HP">
-        <img
-          loading="lazy"
-          class={styles.statsIcons}
-          src="images/icons/iconHp.png"
-          alt="Heart icon"
-        /></Tooltip
-      >
-      <Text>
-        {getIdleKingdomNumberFormat(
-          enemies.reduce((curr, prev) => (curr += prev.hp * prev.unitCnt), 0)
-        )}</Text
-      >
-    </div> -->
   </div>
   <div class={styles.details}>
     {#each enemies as enemy}
@@ -100,52 +85,40 @@
       <Card
         cardType="ascension-stone"
         width={14}
-        value={Math.floor(
-          rewardData.idle.evolve.init +
-            rewardData.idle.evolve.inc * (stageData.stage - rewardData.idle.lv)
-        )}
+        value={rewardData.idle.evolve.init +
+          rewardData.idle.evolve.inc * (stageData.stage - rewardData.idle.lv)}
       />
       <Card
         cardType="hero-seal"
         width={14}
-        value={Math.floor(
-          rewardData.idle.hscroll.init +
-            rewardData.idle.hscroll.inc * (stageData.stage - rewardData.idle.lv)
-        )}
+        value={rewardData.idle.hscroll.init +
+          rewardData.idle.hscroll.inc * (stageData.stage - rewardData.idle.lv)}
       />
       <Card
         cardType="gear-seal"
         width={14}
-        value={Math.floor(
-          rewardData.idle.rscroll.init +
-            rewardData.idle.rscroll.inc * (stageData.stage - rewardData.idle.lv)
-        )}
+        value={rewardData.idle.rscroll.init +
+          rewardData.idle.rscroll.inc * (stageData.stage - rewardData.idle.lv)}
       />
       <Card
         cardType="rune-seal"
         width={14}
-        value={Math.floor(
-          rewardData.idle.runescroll.init +
-            rewardData.idle.runescroll.inc * (stageData.stage - rewardData.idle.lv)
-        )}
+        value={rewardData.idle.runescroll.init +
+          rewardData.idle.runescroll.inc * (stageData.stage - rewardData.idle.lv)}
       />
       <Card
         cardType="coin"
         width={14}
-        value={Math.floor(
-          (rewardData.idle.goldInit +
-            rewardData.idle.goldInc * (stageData.stage - rewardData.idle.lv)) *
-            60
-        )}
+        value={(rewardData.idle.goldInit +
+          rewardData.idle.goldInc * (stageData.stage - rewardData.idle.lv)) *
+          60}
       />
       <Card
         cardType="soulstone"
         width={14}
-        value={Math.floor(
-          (rewardData.idle.soulInit +
-            rewardData.idle.soulInc * (stageData.stage - rewardData.idle.lv)) *
-            60
-        )}
+        value={(rewardData.idle.soulInit +
+          rewardData.idle.soulInc * (stageData.stage - rewardData.idle.lv)) *
+          60}
       />
     </div>
   </div>
