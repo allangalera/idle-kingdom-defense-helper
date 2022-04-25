@@ -170,6 +170,7 @@ const DIGITS_NUMBER = 1000;
 const DIGITS_COUNT = Math.floor(Math.log10(DIGITS_NUMBER));
 
 export const genericRounding = (value: number, fixed: number): string => {
+  if (!value) return '0';
   const re = new RegExp('^-?\\d+(?:.\\d{0,' + (fixed || -1) + '})?');
   return value.toString().match(re)[0];
 };
