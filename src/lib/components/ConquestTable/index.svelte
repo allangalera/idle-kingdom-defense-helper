@@ -294,6 +294,69 @@
         }}>/12h</Text
       >
     </div>
+    <div class={styles.rewardsValues}>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.evolve * 24)}</Text
+      >
+      <img
+        loading="lazy"
+        class={styles.rewardsIcon}
+        src="images/icons/iconEvolveStone.png"
+        alt="ascension icon"
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/24h</Text
+      >
+    </div>
+    <div class={styles.rewardsValues}>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.gold * 24)}</Text
+      >
+      <img
+        loading="lazy"
+        class={styles.rewardsIcon}
+        src="images/icons/iconGold.png"
+        alt="gold icon"
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/24h</Text
+      >
+    </div>
+    <div class={styles.rewardsValues}>
+      <Text
+        textAlign="center"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>{getIdleKingdomNumberFormat(rewards.soulstone * 24)}</Text
+      >
+      <img
+        loading="lazy"
+        class={styles.rewardsIcon}
+        src="images/icons/iconSoul.png"
+        alt="gold icon"
+      /><Text
+        as="span"
+        fontSize={{
+          sm: 'sm',
+          md: 'base',
+        }}>/24h</Text
+      >
+    </div>
   </div>
 </div>
 <div class={styles.sortContainer}>
