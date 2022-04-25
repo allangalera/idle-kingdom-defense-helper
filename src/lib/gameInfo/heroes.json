@@ -730,7 +730,7 @@
     "normalSkill": 43,
     "sellPieceCost": 100,
     "size": 15,
-    "skillCoolTime": 20,
+    "skillCoolTime": 25,
     "skillKey": "HEROKNIGHT06_SKILL_",
     "skillType": 1,
     "unitType": 1

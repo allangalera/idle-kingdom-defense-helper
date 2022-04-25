@@ -78,5 +78,37 @@
     "fontName": "ja.ttf",
     "id": 10,
     "name": "日本語"
+  },
+  {
+    "code": "th",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "th.ttf",
+    "id": 11,
+    "name": "ภาษาไทย"
+  },
+  {
+    "code": "vi",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 12,
+    "name": "Tiếng Việt"
+  },
+  {
+    "code": "id",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 13,
+    "name": "Indonesia"
+  },
+  {
+    "code": "tl",
+    "downMsg": "",
+    "downUrl": "",
+    "fontName": "ko.ttf",
+    "id": 14,
+    "name": "Filipino"
   }
 ]

@@ -1162,7 +1162,7 @@
   },
   {
     "assetId": "HERO_KNIGHT06_SKILL",
-    "atkK": 0.4,
+    "atkK": 1.6,
     "atkType": 3,
     "bottomAssetId": "",
     "desc": "",
