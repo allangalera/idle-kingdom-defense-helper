@@ -8,6 +8,7 @@ export const buttoContainer = style({
   alignSelf: 'end',
   padding: theme.space[4],
   cursor: 'pointer',
+  zIndex: 100,
 });
 
 export const menuIcon = style({
