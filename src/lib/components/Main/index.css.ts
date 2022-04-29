@@ -3,9 +3,15 @@ import { style } from '@vanilla-extract/css';
 
 export const container = style({
   width: '100%',
-  margin: '0 auto',
-  maxWidth: theme.breakpoints['2xl'],
   flex: 1,
   display: 'flex',
   flexDirection: 'column',
+  overflowY: 'auto',
+  gridArea: 'main',
+});
+
+export const wrapper = style({
+  width: '100%',
+  maxWidth: theme.breakpoints['2xl'],
+  margin: '0 auto',
 });

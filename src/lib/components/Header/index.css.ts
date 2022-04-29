@@ -5,6 +5,7 @@ export const header = style({
   position: 'sticky',
   top: 0,
   zIndex: 1000,
+  gridArea: 'header',
 });
 
 export const container = style({

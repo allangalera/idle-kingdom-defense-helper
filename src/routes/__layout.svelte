@@ -9,8 +9,7 @@
   import Layout from '$lib/components/Layout/index.svelte';
   import Header from '$lib/components/Header/index.svelte';
   import Main from '$lib/components/Main/index.svelte';
-  import Footer from '$lib/components/Footer/index.svelte';
-  import Menu from '$lib/components/Menu/index.svelte';
+  import Menu from '$lib/modules/menu/index.svelte';
   import { browser } from '$app/env';
   import lazyload from 'vanilla-lazyload';
   import { onMount } from 'svelte';
@@ -57,9 +56,8 @@
 
 <Layout theme={currentTheme}>
   <Header />
+  <Menu />
   <Main>
     <slot />
   </Main>
-  <Footer />
-  <Menu />
 </Layout>

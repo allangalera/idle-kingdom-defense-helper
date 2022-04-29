@@ -38,13 +38,13 @@
       display: 'flex',
       flexDirection: {
         sm: 'column',
-        xl: 'row',
+        ['2xl']: 'row',
       },
       justifyContent: 'center',
       alignItems: 'center',
       gap: {
         sm: 6,
-        xl: 10,
+        ['2xl']: 10,
       },
     })}
   >

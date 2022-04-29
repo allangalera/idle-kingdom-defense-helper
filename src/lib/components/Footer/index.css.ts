@@ -8,6 +8,7 @@ export const container = style({
   alignItems: 'center',
   padding: theme.space[4],
   gap: theme.space[2],
+  gridArea: 'footer',
 });
 
 export const socialIconsContainer = style({

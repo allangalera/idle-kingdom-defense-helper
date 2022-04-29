@@ -1,6 +1,8 @@
-<script>
-  import * as styles from './index.css';
+<script lang="ts">
+  import Footer from '$lib/components/Footer/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+
+  import * as styles from './index.css';
 </script>
 
 <main
@@ -12,8 +14,12 @@
         sm: 4,
         md: 6,
       },
+      flex: 1,
     }),
   ].join(' ')}
 >
-  <slot />
+  <div class={styles.wrapper}>
+    <slot />
+    <Footer />
+  </div>
 </main>
