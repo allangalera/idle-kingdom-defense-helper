@@ -3,7 +3,7 @@
   import GridItem from '$lib/components/GridItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { archerPromoteStageRequirements } from '$lib/db/archer';
+  import { archerPromoteStageRequirements, craft } from '$lib/db/archer';
   import { runesSummonStageUnlock } from '$lib/db/runes';
   import { designStageUnlock, enemyCCResist, heroGearStageUnlock } from '$lib/db/stage';
   import { ultraSummonStageUnlockGrades } from '$lib/db/summon';
@@ -105,6 +105,82 @@
         </div>
         <div class={styles.tableItem}>
           <Text>{runesSummonStageUnlock[item].exp}</Text>
+        </div>
+      {/each}
+    </div>
+  </GridItem>
+  <GridItem title="Archer Quality/Property Craft Rates">
+    <div class={styles.archerDropRateTable}>
+      <div class={styles.center} />
+      <div class={styles.center} />
+      <div class={styles.center}>
+        <img class={styles.propertyIcons} src="/images/icons/iconGearQuality1.png" alt="Tier C" />
+      </div>
+      <div class={styles.center}>
+        <img class={styles.propertyIcons} src="/images/icons/iconGearQuality2.png" alt="Tier C" />
+      </div>
+      <div class={styles.center}>
+        <img class={styles.propertyIcons} src="/images/icons/iconGearQuality3.png" alt="Tier C" />
+      </div>
+      <div class={styles.center}>
+        <img class={styles.propertyIcons} src="/images/icons/iconGearQuality4.png" alt="Tier C" />
+      </div>
+      <div class={styles.tableItem} />
+      <div class={styles.tableItem} />
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}><Text>{quality.toFixed(1)}%</Text></div>
+      {/each}
+      <div class={styles.tableItem}><Text>None</Text></div>
+      <div class={styles.tableItem}>
+        <Text>{((1 - craft.PROPERTY_RATE) * 100).toFixed(1)}%</Text>
+      </div>
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}>
+          <Text>{((1 - craft.PROPERTY_RATE) * quality).toFixed(1)}%</Text>
+        </div>
+      {/each}
+      <div class={styles.tableItem}>
+        <img class={styles.propertyIcons} src="/images/icons/iconIce.png" alt="Property Ice" />
+      </div>
+      <div class={styles.tableItem}>
+        <Text>{((craft.PROPERTY_RATE / 4) * 100).toFixed(1)}%</Text>
+      </div>
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}>
+          <Text>{((craft.PROPERTY_RATE / 4) * quality).toFixed(1)}%</Text>
+        </div>
+      {/each}
+      <div class={styles.tableItem}>
+        <img class={styles.propertyIcons} src="/images/icons/iconElectric.png" alt="Property Ice" />
+      </div>
+      <div class={styles.tableItem}>
+        <Text>{((craft.PROPERTY_RATE / 4) * 100).toFixed(1)}%</Text>
+      </div>
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}>
+          <Text>{((craft.PROPERTY_RATE / 4) * quality).toFixed(1)}%</Text>
+        </div>
+      {/each}
+      <div class={styles.tableItem}>
+        <img class={styles.propertyIcons} src="/images/icons/iconPoison.png" alt="Property Ice" />
+      </div>
+      <div class={styles.tableItem}>
+        <Text>{((craft.PROPERTY_RATE / 4) * 100).toFixed(1)}%</Text>
+      </div>
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}>
+          <Text>{((craft.PROPERTY_RATE / 4) * quality).toFixed(1)}%</Text>
+        </div>
+      {/each}
+      <div class={styles.tableItem}>
+        <img class={styles.propertyIcons} src="/images/icons/iconFire.png" alt="Property Ice" />
+      </div>
+      <div class={styles.tableItem}>
+        <Text>{((craft.PROPERTY_RATE / 4) * 100).toFixed(1)}%</Text>
+      </div>
+      {#each craft.QUALITY_RATES as quality}
+        <div class={styles.tableItem}>
+          <Text>{((craft.PROPERTY_RATE / 4) * quality).toFixed(1)}%</Text>
         </div>
       {/each}
     </div>
