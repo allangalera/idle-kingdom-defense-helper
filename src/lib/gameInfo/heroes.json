@@ -657,7 +657,7 @@
     "hp": 640,
     "id": 21,
     "img": "img/hero/sprHeroKnight04.png",
-    "incAtk": 1.5,
+    "incAtk": 1.8,
     "incDef": 1.5,
     "incHp": 30,
     "mainSkill": 23,

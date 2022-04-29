@@ -541,7 +541,7 @@
   },
   {
     "assetId": "",
-    "atkK": 3,
+    "atkK": 3.5,
     "atkType": 3,
     "bottomAssetId": "",
     "desc": "HEROKNIGHT02_SKILL_DESC_1",
@@ -595,7 +595,7 @@
   },
   {
     "assetId": "",
-    "atkK": 3,
+    "atkK": 4.5,
     "atkType": 3,
     "bottomAssetId": "HERO_KNIGHT04_SKILL_BTM",
     "desc": "HEROKNIGHT04_SKILL_DESC_1",
