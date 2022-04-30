@@ -9,7 +9,7 @@
   export let fontWeight: Sprinkles['fontWeight'] = 'normal';
   export let color: Sprinkles['color'] = 'gray12';
   export let textAlign: Sprinkles['textAlign'] = 'left';
-  export let fontFamily: Sprinkles['fontFamily'] = 'body';
+  export let fontFamily: Sprinkles['fontFamily'] = 'heading';
 
   let className = [
     styles.paragraph,

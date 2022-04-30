@@ -246,7 +246,7 @@ export const romanize = (num: number) => {
 };
 
 export const convertGradeToStarLevel = (
-  grade: Grades
+  grade: number
 ): { rarity: RarityEnum; level: UpgradeLevel } => {
   const level = match(grade % 5, [[0, 5], (n) => n]) as UpgradeLevel;
 

@@ -17,7 +17,6 @@
   const addStageToCompare = () => {
     if (!stage || !seconds) return;
     let reward = returnRewardDataByStage(+stage);
-    console.log(reward);
     stages = [
       ...stages,
       {

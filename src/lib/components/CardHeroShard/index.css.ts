@@ -15,7 +15,6 @@ export const iconShard = style({
   position: 'absolute',
   top: '50%',
   left: theme.space[1],
-  width: theme.sizes[4],
   transform: 'translateY(-50%)',
   maxWidth: '100%',
   maxHeight: '100%',
@@ -34,12 +33,11 @@ export const question = style({
 
 export const counter = style({
   position: 'absolute',
-  bottom: 0,
-  left: 0,
+  top: 0,
   width: '100%',
-  right: theme.space[1],
+  right: theme.space[0.5],
   display: 'flex',
-  justifyContent: 'center',
+  justifyContent: 'flex-end',
   alignItems: 'center',
   textShadow: '1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000',
 });
