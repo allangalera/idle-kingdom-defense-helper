@@ -12,8 +12,6 @@ export const container = style({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  maxWidth: theme.breakpoints.xl,
-  margin: '0 auto',
   padding: theme.space[4],
   position: 'relative',
 });
