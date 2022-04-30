@@ -1,5 +1,5 @@
 <script lang="ts">
-  import EventDungeonsPage from '$lib/pages/eventDungeons/index.svelte';
+  import EventDungeons from '$lib/modules/eventDungeons/index.svelte';
 </script>
 
-<EventDungeonsPage />
+<EventDungeons />

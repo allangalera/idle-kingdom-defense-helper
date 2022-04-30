@@ -1,5 +1,5 @@
 <script lang="ts">
-  import InformationAndRequirements from '$lib/pages/InformationAndRequirements/index.svelte';
+  import InformationAndRequirements from '$lib/modules/InformationAndRequirements/index.svelte';
 </script>
 
 <InformationAndRequirements />

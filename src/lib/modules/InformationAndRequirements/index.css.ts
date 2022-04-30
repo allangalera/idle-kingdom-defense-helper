@@ -8,8 +8,8 @@ export const grid = style({
   paddingTop: theme.space[16],
   gap: theme.space[8],
   '@media': {
-    [`screen and (min-width: ${breakpoints.lg})`]: {
-      gridTemplateColumns: '1fr 1fr 1fr',
+    [`screen and (min-width: ${breakpoints.md})`]: {
+      gridTemplateColumns: '1fr 1fr',
     },
   },
 });

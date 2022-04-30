@@ -7,6 +7,7 @@
   import { eventDungeons } from '$lib/db/event-dungeons';
   import { stage } from '$lib/shared/stores/user/stage';
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import * as tableStyles from '$lib/styles/table.css';
   import { returnRewardDataByStage } from '$lib/utils/stage';
   import { match } from 'oxide.ts';
 
@@ -93,27 +94,31 @@
 <div class={styles.grid}>
   {#each Object.keys(eventDungeons) as dungeon}
     <GridItem title={dungeon}>
-      <div class={styles.table3Columns}>
-        <div class={styles.tableRow}>
-          <div class={styles.tableHeaderItem}>
+      <div class={tableStyles.table3Columns}>
+        <div class={tableStyles.tableRow}>
+          <div class={tableStyles.tableHeaderItem}>
             <Heading textAlign="center">Level</Heading>
           </div>
-          <div class={styles.tableHeaderItem}>
+          <div class={tableStyles.tableHeaderItem}>
             <Heading textAlign="center">Stage Unlock</Heading>
           </div>
-          <div class={styles.tableHeaderItem}>
+          <div class={tableStyles.tableHeaderItem}>
             <Heading textAlign="center">Reward</Heading>
           </div>
         </div>
         {#each eventDungeons[dungeon] as item, i}
-          <div class={styles.tableRowVariant[getRowStyling(i, highlightedLv[dungeon] === item.lv)]}>
-            <div class={styles.tableItem}>
+          <div
+            class={tableStyles.tableRowVariant[
+              getRowStyling(i, highlightedLv[dungeon] === item.lv)
+            ]}
+          >
+            <div class={tableStyles.tableItem}>
               <Text textAlign="center">{item.lv}</Text>
             </div>
-            <div class={styles.tableItem}>
+            <div class={tableStyles.tableItem}>
               <Text textAlign="center">{item.unlockStage}</Text>
             </div>
-            <div class={styles.tableItem}>
+            <div class={tableStyles.tableItem}>
               <div
                 class={sprinkles({
                   display: 'flex',
