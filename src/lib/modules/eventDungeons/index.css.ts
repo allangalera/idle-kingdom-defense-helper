@@ -1,5 +1,5 @@
 import { breakpoints, theme } from '$lib/styles/themes/index.css';
-import { style } from '@vanilla-extract/css';
+import { style, styleVariants } from '@vanilla-extract/css';
 
 export const grid = style({
   width: '100%',
@@ -17,7 +17,44 @@ export const grid = style({
 export const table3Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(3, 1fr)',
-  gap: theme.space[2],
+  // gap: theme.space[2],
+  // justifyContent: 'center',
+  // alignItems: 'center',
+});
+
+export const tableRow = style({
+  display: 'contents',
+});
+
+export const tableOtherRow = style({});
+
+export const tableRowHighLight = style({});
+
+export const tableRowVariant = styleVariants({
+  row: [tableRow],
+  otherRow: [tableRow, tableOtherRow],
+  highlight: [tableRow, tableRowHighLight],
+});
+
+export const tableHeaderItem = style({
+  display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
+  paddingBottom: theme.space[4],
+});
+
+export const tableItem = style({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  paddingTop: theme.space[1],
+  paddingBottom: theme.space[1],
+  selectors: {
+    [`${tableOtherRow} &`]: {
+      background: theme.themeColors.baseColors.gray5,
+    },
+    [`${tableRowHighLight} &`]: {
+      background: theme.themeColors.baseColors.green10,
+    },
+  },
 });
