@@ -1,29 +1,15 @@
 <script lang="ts">
-  import Button from '$lib/components/Button/index.svelte';
-  import CardBorder from '$lib/components/CardBorder/index.svelte';
-  import CardHero from '$lib/components/CardHero/index.svelte';
   import ConquestTableItem from '$lib/components/ConquestTableItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
-  import ModalEditKingdomFortress from '$lib/components/ModalEditKingdomFortress/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { CONQUEST_REWARD_MULTIPLE_PERGRADE, fortress, kingdoms } from '$lib/db/conquest';
   import { defaultSortingHeroes, heroes } from '$lib/db/heroes';
-  import { addKingdom, conquest, removeKingdom } from '$lib/shared/stores/user/conquest';
+  import { conquest } from '$lib/shared/stores/user/conquest';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
-  import { sprinkles } from '$lib/styles/sprinkles.css';
-  import { theme } from '$lib/styles/themes/index.css';
   import type { Hero } from '$lib/types';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
-  import {
-    kingdomNameToRomanNumber,
-    sortKingdomByAscensionStoneAndCoin,
-    sortKingdomById,
-  } from '$lib/utils/conquest';
+  import { sortKingdomByAscensionStoneAndCoin, sortKingdomById } from '$lib/utils/conquest';
   import * as R from 'remeda';
-  import Icon from 'svelte-icons-pack/Icon.svelte';
-  import FaBrandsFortAwesome from 'svelte-icons-pack/fa/FaBrandsFortAwesome';
-  import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
-  import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
 
   import * as styles from './index.css';
 
@@ -44,41 +30,11 @@
   let selectedSortMode = SortModes.byReward;
   let userKingdoms = $conquest.kingdoms;
   let userFortress = $conquest.fortress;
-  let selectedKingdomId;
-  let isModalEditKingdomFortresOpen = false;
-
-  const borderColorByContinent = {
-    1: 'green9',
-    2: 'blue9',
-    3: 'brown9',
-  };
-  const backgroundByContinent = {
-    1: 'green3',
-    2: 'blue3',
-    3: 'brown3',
-  };
 
   function onChangeSortMode(event) {
     const { value } = event.target;
     selectedSortMode = value;
   }
-
-  const onSelectKingdomToEditFortres = (id) => {
-    selectedKingdomId = R.clone(id);
-    isModalEditKingdomFortresOpen = true;
-  };
-
-  const onCloseModalEditKingdomFortress = () => {
-    isModalEditKingdomFortresOpen = false;
-  };
-
-  const add = (kingdomId) => {
-    addKingdom(kingdomId);
-  };
-
-  const remove = (kingdomId) => {
-    removeKingdom(kingdomId);
-  };
 
   const getHeroById = (heroId) => {
     if (R.isNil(heroId)) return false;
@@ -165,6 +121,7 @@
   $: generateAcumulatedRewardsInfo(userKingdoms);
 </script>
 
+<Heading textAlign="center" fontSize="3xl">Conquest Rewards</Heading>
 <div class={styles.rewardsContainer}>
   <Heading>Total rewards</Heading>
   <div class={styles.rewardsTable}>

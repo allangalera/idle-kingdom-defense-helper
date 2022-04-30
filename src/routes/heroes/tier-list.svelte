@@ -9,7 +9,7 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
 </script>
 
-<Heading textAlign="center" fontSize="4xl">Hero tier list</Heading>
+<Heading textAlign="center" fontSize="3xl">Hero tier list</Heading>
 <div
   class={sprinkles({
     display: 'flex',

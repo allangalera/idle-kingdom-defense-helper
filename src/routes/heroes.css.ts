@@ -6,6 +6,7 @@ export const container = style({
   display: 'flex',
   flexDirection: 'column',
   gap: theme.space[8],
+  marginTop: theme.space[8],
 });
 
 export const formContainer = style({

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Heading from '$lib/components/Heading/index.svelte';
   import HeroesTable from '$lib/components/HeroesTable/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -56,6 +57,7 @@
   $: filteredHeroes = searchHero(searchParameter, searchKeys);
 </script>
 
+<Heading textAlign="center" fontSize="3xl">Heroes</Heading>
 <div class={styles.container}>
   <div class={styles.formContainer}>
     <Input label="Search" bind:value={searchParameter} />

@@ -80,6 +80,7 @@ export const rewardsContainer = style({
   justifyContent: 'center',
   alignItems: 'center',
   gap: theme.space[4],
+  marginTop: theme.space[8],
   marginBottom: theme.space[12],
 });
 

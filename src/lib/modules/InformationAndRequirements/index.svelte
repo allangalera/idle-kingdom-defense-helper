@@ -11,7 +11,7 @@
   import * as styles from './index.css';
 </script>
 
-<Heading textAlign="center" fontSize="xl">Information and Requirements</Heading>
+<Heading textAlign="center" fontSize="3xl">Information and Requirements</Heading>
 <div class={styles.grid}>
   <ArcherBlueprint />
   <ArcherPromote />
