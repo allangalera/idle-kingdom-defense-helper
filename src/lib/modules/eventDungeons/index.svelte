@@ -66,6 +66,9 @@
 </script>
 
 <Heading fontSize="3xl" textAlign="center">Event Dungeon Rewards</Heading>
+<Text textAlign="center"
+  >All data considers the max bonus from Ruby Shop that influences gold and soulsone values</Text
+>
 
 <div class={styles.grid}>
   {#each Object.keys(eventDungeons) as dungeon}
