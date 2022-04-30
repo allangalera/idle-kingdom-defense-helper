@@ -14,4 +14,11 @@ export const wrapper = style({
   width: '100%',
   maxWidth: theme.breakpoints['2xl'],
   margin: '0 auto',
+  display: 'flex',
+  flexDirection: 'column',
+  flex: 1,
+});
+
+export const mainContentContainer = style({
+  flex: 1,
 });

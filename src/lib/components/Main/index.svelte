@@ -19,7 +19,9 @@
   ].join(' ')}
 >
   <div class={styles.wrapper}>
-    <slot />
+    <div class={styles.mainContentContainer}>
+      <slot />
+    </div>
     <Footer />
   </div>
 </main>

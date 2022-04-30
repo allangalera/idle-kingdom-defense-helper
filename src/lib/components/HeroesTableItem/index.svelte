@@ -147,10 +147,10 @@
   };
 
   const calculateDPS = (stats) => {
-    const criRatio = stats.cri / 100;
-    const criDamageRatio = stats.criDamage / 100;
+    const criRatio = stats.cri / 10000;
+    const criDamageRatio = stats.criDamage / 10000;
     const normalDamage = stats.atk * stats.atkSpeed;
-    const criticalDamage = stats.atk * stats.atkSpeed * criDamageRatio;
+    const criticalDamage = stats.atk * stats.atkSpeed * (1 + criDamageRatio);
     const normalDamageRatio = Math.max(1 - criRatio, 0);
     const criticalDamageRatio = Math.min(criRatio, 1);
     return getIdleKingdomNumberFormat(
