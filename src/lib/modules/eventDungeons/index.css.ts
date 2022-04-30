@@ -54,7 +54,7 @@ export const tableItem = style({
       background: theme.themeColors.baseColors.gray5,
     },
     [`${tableRowHighLight} &`]: {
-      background: theme.themeColors.baseColors.green10,
+      background: theme.themeColors.baseColors.green8,
     },
   },
 });
