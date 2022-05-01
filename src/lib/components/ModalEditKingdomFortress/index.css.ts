@@ -16,6 +16,7 @@ export const buttonIcon = style({
 export const bulkEditContainer = style({
   display: 'flex',
   flexDirection: 'column',
+  alignItems: 'center',
   gap: theme.space[4],
   marginBottom: theme.space[6],
 });

@@ -69,7 +69,7 @@
     userFortressData = value?.fortress?.find((item) => item.id === fortressId);
   });
 
-  $: fortressId && userFortressData && getFortressData();
+  $: (fortressId || userFortressData) && getFortressData();
 </script>
 
 <div class={styles.container}>
@@ -81,7 +81,7 @@
       {#if imgSrc !== 'none'}
         <img class={styles.icon} src={imgSrc} alt="Coin Icon" />
       {/if}
-      <Text fontSize="xs">{getIdleKingdomNumberFormat(reward)}/10m</Text>
+      <Text fontSize="xs">{getIdleKingdomNumberFormat(reward ?? 0)}/10m</Text>
     </div>
     <div class={styles.level}>
       <Button on:click={onDecrementLevel}>
@@ -91,7 +91,9 @@
           color={theme.colors.white}
         />
       </Button>
-      <Text>Lv {currentLevel}</Text>
+      <div class={styles.levelText}>
+        <Text textAlign="center">Lv {currentLevel}</Text>
+      </div>
       <Button on:click={onIncrementLevel}>
         <Icon className={styles.buttonIcons} src={RiSystemAddFill} color={theme.colors.white} />
       </Button>

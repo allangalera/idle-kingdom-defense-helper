@@ -12,6 +12,7 @@ export const container = style({
   overflow: 'hidden',
   background: theme.themeColors.baseColors.gray3,
   justifyContent: 'space-between',
+  paddingLeft: theme.space[2],
 });
 
 export const actionContainer = style({
@@ -57,7 +58,6 @@ export const buttonIcons = style({
 });
 
 export const name = style({
-  paddingLeft: theme.space[2],
   alignSelf: 'center',
 });
 
@@ -90,12 +90,16 @@ export const rewards = style({
   display: 'flex',
   alignItems: 'center',
   gap: theme.space[1],
+  minWidth: theme.sizes.max,
 });
 
 export const level = style({
   flex: 1,
   display: 'flex',
   alignItems: 'center',
-  minWidth: 'max-content',
   gap: theme.space[2],
+});
+
+export const levelText = style({
+  width: '5ch',
 });

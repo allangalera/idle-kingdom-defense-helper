@@ -20,10 +20,9 @@ export const wrapper = style({
 export const container = style({
   background: theme.themeColors.baseColors.gray1,
   borderRadius: theme.border.radii.lg,
-  minWidth: theme.sizes[80],
+  minWidth: theme.sizes[88],
   maxWidth: '100%',
   maxHeight: '100%',
-  overflow: 'auto',
   display: 'flex',
   flexDirection: 'column',
 });
@@ -57,8 +56,9 @@ export const headerCloseIcon = style({
 export const content = style({
   padding: theme.space[4],
   flex: 1,
-  overflow: 'auto',
+  overflowY: 'auto',
 });
+
 export const footer = style({
   padding: theme.space[4],
   display: 'flex',
