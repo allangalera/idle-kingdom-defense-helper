@@ -1,9 +1,9 @@
 [
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 8,
-    "abilityInitMin": 3,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 12,
+    "abilityInitMin": 4,
     "abilityType": 8,
     "grade": 1,
     "id": 1,
@@ -14,10 +14,10 @@
     }
   },
   {
-    "abilityIncMax": 15,
-    "abilityIncMin": 5,
-    "abilityInitMax": 39,
-    "abilityInitMin": 20,
+    "abilityIncMax": 184,
+    "abilityIncMin": 56,
+    "abilityInitMax": 480,
+    "abilityInitMin": 240,
     "abilityType": 2,
     "grade": 1,
     "id": 2,
@@ -28,10 +28,10 @@
     }
   },
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 8,
-    "abilityInitMin": 3,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 12,
+    "abilityInitMin": 4,
     "abilityType": 4,
     "grade": 2,
     "id": 3,
@@ -42,10 +42,10 @@
     }
   },
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 8,
-    "abilityInitMin": 3,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 12,
+    "abilityInitMin": 4,
     "abilityType": 6,
     "grade": 2,
     "id": 4,
@@ -56,10 +56,10 @@
     }
   },
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 8,
-    "abilityInitMin": 3,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 12,
+    "abilityInitMin": 4,
     "abilityType": 9,
     "grade": 3,
     "id": 5,
@@ -70,10 +70,10 @@
     }
   },
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 15,
-    "abilityInitMin": 8,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 23,
+    "abilityInitMin": 12,
     "abilityType": 8,
     "grade": 4,
     "id": 6,
@@ -84,10 +84,10 @@
     }
   },
   {
-    "abilityIncMax": 6,
-    "abilityIncMin": 3,
-    "abilityInitMax": 10,
-    "abilityInitMin": 5,
+    "abilityIncMax": 9,
+    "abilityIncMin": 4,
+    "abilityInitMax": 15,
+    "abilityInitMin": 7,
     "abilityType": 6,
     "grade": 5,
     "id": 7,
@@ -98,10 +98,10 @@
     }
   },
   {
-    "abilityIncMax": 60,
-    "abilityIncMin": 12,
-    "abilityInitMax": 192,
-    "abilityInitMin": 96,
+    "abilityIncMax": 360,
+    "abilityIncMin": 72,
+    "abilityInitMax": 1152,
+    "abilityInitMin": 576,
     "abilityType": 2,
     "grade": 5,
     "id": 8,
@@ -112,10 +112,10 @@
     }
   },
   {
-    "abilityIncMax": 5,
-    "abilityIncMin": 3,
-    "abilityInitMax": 10,
-    "abilityInitMin": 5,
+    "abilityIncMax": 8,
+    "abilityIncMin": 4,
+    "abilityInitMax": 15,
+    "abilityInitMin": 7,
     "abilityType": 4,
     "grade": 6,
     "id": 9,
@@ -126,10 +126,10 @@
     }
   },
   {
-    "abilityIncMax": 8,
-    "abilityIncMin": 3,
-    "abilityInitMax": 20,
-    "abilityInitMin": 10,
+    "abilityIncMax": 12,
+    "abilityIncMin": 4,
+    "abilityInitMax": 30,
+    "abilityInitMin": 15,
     "abilityType": 9,
     "grade": 6,
     "id": 10,
@@ -140,10 +140,10 @@
     }
   },
   {
-    "abilityIncMax": 120,
-    "abilityIncMin": 24,
-    "abilityInitMax": 432,
-    "abilityInitMin": 216,
+    "abilityIncMax": 360,
+    "abilityIncMin": 72,
+    "abilityInitMax": 1296,
+    "abilityInitMin": 648,
     "abilityType": 2,
     "grade": 7,
     "id": 11,
@@ -154,10 +154,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 36,
-    "abilityInitMin": 18,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 54,
+    "abilityInitMin": 27,
     "abilityType": 8,
     "grade": 8,
     "id": 12,
@@ -168,10 +168,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 20,
-    "abilityInitMin": 10,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 30,
+    "abilityInitMin": 15,
     "abilityType": 6,
     "grade": 8,
     "id": 13,
@@ -182,10 +182,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 36,
-    "abilityInitMin": 18,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 54,
+    "abilityInitMin": 27,
     "abilityType": 9,
     "grade": 9,
     "id": 14,
@@ -196,10 +196,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 48,
-    "abilityInitMin": 24,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 72,
+    "abilityInitMin": 36,
     "abilityType": 8,
     "grade": 9,
     "id": 15,
@@ -210,10 +210,10 @@
     }
   },
   {
-    "abilityIncMax": 300,
-    "abilityIncMin": 60,
-    "abilityInitMax": 1008,
-    "abilityInitMin": 504,
+    "abilityIncMax": 450,
+    "abilityIncMin": 90,
+    "abilityInitMax": 1512,
+    "abilityInitMin": 756,
     "abilityType": 2,
     "grade": 10,
     "id": 16,
@@ -224,10 +224,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 29,
-    "abilityInitMin": 15,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 44,
+    "abilityInitMin": 22,
     "abilityType": 6,
     "grade": 10,
     "id": 17,
@@ -238,10 +238,10 @@
     }
   },
   {
-    "abilityIncMax": 432,
-    "abilityIncMin": 96,
-    "abilityInitMax": 1248,
-    "abilityInitMin": 624,
+    "abilityIncMax": 648,
+    "abilityIncMin": 144,
+    "abilityInitMax": 1872,
+    "abilityInitMin": 936,
     "abilityType": 2,
     "grade": 11,
     "id": 18,
@@ -252,10 +252,10 @@
     }
   },
   {
-    "abilityIncMax": 8,
-    "abilityIncMin": 4,
-    "abilityInitMax": 20,
-    "abilityInitMin": 10,
+    "abilityIncMax": 12,
+    "abilityIncMin": 6,
+    "abilityInitMax": 30,
+    "abilityInitMin": 15,
     "abilityType": 4,
     "grade": 11,
     "id": 19,
@@ -266,10 +266,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 4,
-    "abilityInitMax": 39,
-    "abilityInitMin": 20,
+    "abilityIncMax": 18,
+    "abilityIncMin": 6,
+    "abilityInitMax": 60,
+    "abilityInitMin": 30,
     "abilityType": 6,
     "grade": 12,
     "id": 20,
@@ -280,10 +280,10 @@
     }
   },
   {
-    "abilityIncMax": 30,
-    "abilityIncMin": 6,
-    "abilityInitMax": 96,
-    "abilityInitMin": 48,
+    "abilityIncMax": 45,
+    "abilityIncMin": 9,
+    "abilityInitMax": 144,
+    "abilityInitMin": 72,
     "abilityType": 8,
     "grade": 13,
     "id": 21,
@@ -294,10 +294,10 @@
     }
   },
   {
-    "abilityIncMax": 24,
-    "abilityIncMin": 5,
-    "abilityInitMax": 72,
-    "abilityInitMin": 36,
+    "abilityIncMax": 36,
+    "abilityIncMin": 8,
+    "abilityInitMax": 108,
+    "abilityInitMin": 54,
     "abilityType": 9,
     "grade": 13,
     "id": 22,
@@ -308,10 +308,10 @@
     }
   },
   {
-    "abilityIncMax": 36,
-    "abilityIncMin": 8,
-    "abilityInitMax": 108,
-    "abilityInitMin": 54,
+    "abilityIncMax": 54,
+    "abilityIncMin": 12,
+    "abilityInitMax": 162,
+    "abilityInitMin": 81,
     "abilityType": 8,
     "grade": 14,
     "id": 23,
@@ -322,10 +322,10 @@
     }
   },
   {
-    "abilityIncMax": 912,
-    "abilityIncMin": 168,
-    "abilityInitMax": 2640,
-    "abilityInitMin": 1320,
+    "abilityIncMax": 1368,
+    "abilityIncMin": 252,
+    "abilityInitMax": 3960,
+    "abilityInitMin": 1980,
     "abilityType": 2,
     "grade": 15,
     "id": 24,
@@ -336,10 +336,10 @@
     }
   },
   {
-    "abilityIncMax": 18,
-    "abilityIncMin": 4,
-    "abilityInitMax": 60,
-    "abilityInitMin": 30,
+    "abilityIncMax": 27,
+    "abilityIncMin": 6,
+    "abilityInitMax": 90,
+    "abilityInitMin": 45,
     "abilityType": 6,
     "grade": 15,
     "id": 25,
@@ -350,10 +350,10 @@
     }
   },
   {
-    "abilityIncMax": 24,
-    "abilityIncMin": 5,
-    "abilityInitMax": 72,
-    "abilityInitMin": 36,
+    "abilityIncMax": 36,
+    "abilityIncMin": 7,
+    "abilityInitMax": 108,
+    "abilityInitMin": 54,
     "abilityType": 6,
     "grade": 16,
     "id": 26,
@@ -364,10 +364,10 @@
     }
   },
   {
-    "abilityIncMax": 36,
-    "abilityIncMin": 6,
-    "abilityInitMax": 144,
-    "abilityInitMin": 72,
+    "abilityIncMax": 54,
+    "abilityIncMin": 9,
+    "abilityInitMax": 216,
+    "abilityInitMin": 108,
     "abilityType": 8,
     "grade": 16,
     "id": 27,
@@ -378,10 +378,10 @@
     }
   },
   {
-    "abilityIncMax": 12,
-    "abilityIncMin": 3,
-    "abilityInitMax": 36,
-    "abilityInitMin": 18,
+    "abilityIncMax": 18,
+    "abilityIncMin": 4,
+    "abilityInitMax": 54,
+    "abilityInitMin": 27,
     "abilityType": 4,
     "grade": 17,
     "id": 28,
@@ -392,10 +392,10 @@
     }
   },
   {
-    "abilityIncMax": 36,
-    "abilityIncMin": 6,
-    "abilityInitMax": 120,
-    "abilityInitMin": 60,
+    "abilityIncMax": 54,
+    "abilityIncMin": 9,
+    "abilityInitMax": 180,
+    "abilityInitMin": 90,
     "abilityType": 9,
     "grade": 18,
     "id": 29,
@@ -406,10 +406,10 @@
     }
   },
   {
-    "abilityIncMax": 60,
-    "abilityIncMin": 12,
-    "abilityInitMax": 168,
-    "abilityInitMin": 84,
+    "abilityIncMax": 90,
+    "abilityIncMin": 18,
+    "abilityInitMax": 252,
+    "abilityInitMin": 126,
     "abilityType": 8,
     "grade": 18,
     "id": 30,
@@ -420,10 +420,10 @@
     }
   },
   {
-    "abilityIncMax": 1440,
-    "abilityIncMin": 288,
-    "abilityInitMax": 4800,
-    "abilityInitMin": 2400,
+    "abilityIncMax": 2160,
+    "abilityIncMin": 432,
+    "abilityInitMax": 7200,
+    "abilityInitMin": 3600,
     "abilityType": 2,
     "grade": 19,
     "id": 31,
@@ -434,10 +434,10 @@
     }
   },
   {
-    "abilityIncMax": 1800,
-    "abilityIncMin": 360,
-    "abilityInitMax": 5760,
-    "abilityInitMin": 2880,
+    "abilityIncMax": 2700,
+    "abilityIncMin": 540,
+    "abilityInitMax": 8640,
+    "abilityInitMin": 4320,
     "abilityType": 2,
     "grade": 20,
     "id": 32,
@@ -448,10 +448,10 @@
     }
   },
   {
-    "abilityIncMax": 36,
-    "abilityIncMin": 6,
-    "abilityInitMax": 96,
-    "abilityInitMin": 48,
+    "abilityIncMax": 54,
+    "abilityIncMin": 9,
+    "abilityInitMax": 144,
+    "abilityInitMin": 72,
     "abilityType": 6,
     "grade": 20,
     "id": 33,
@@ -462,10 +462,10 @@
     }
   },
   {
-    "abilityIncMax": 60,
-    "abilityIncMin": 12,
-    "abilityInitMax": 168,
-    "abilityInitMin": 84,
+    "abilityIncMax": 90,
+    "abilityIncMin": 18,
+    "abilityInitMax": 252,
+    "abilityInitMin": 126,
     "abilityType": 9,
     "grade": 21,
     "id": 34,
@@ -476,10 +476,10 @@
     }
   },
   {
-    "abilityIncMax": 72,
-    "abilityIncMin": 15,
-    "abilityInitMax": 228,
-    "abilityInitMin": 108,
+    "abilityIncMax": 108,
+    "abilityIncMin": 22,
+    "abilityInitMax": 342,
+    "abilityInitMin": 162,
     "abilityType": 8,
     "grade": 21,
     "id": 35,
@@ -490,10 +490,10 @@
     }
   },
   {
-    "abilityIncMax": 42,
-    "abilityIncMin": 9,
-    "abilityInitMax": 120,
-    "abilityInitMin": 60,
+    "abilityIncMax": 63,
+    "abilityIncMin": 13,
+    "abilityInitMax": 180,
+    "abilityInitMin": 90,
     "abilityType": 6,
     "grade": 22,
     "id": 36,
@@ -504,10 +504,10 @@
     }
   },
   {
-    "abilityIncMax": 2400,
-    "abilityIncMin": 480,
-    "abilityInitMax": 7152,
-    "abilityInitMin": 3576,
+    "abilityIncMax": 3600,
+    "abilityIncMin": 720,
+    "abilityInitMax": 10728,
+    "abilityInitMin": 5364,
     "abilityType": 2,
     "grade": 22,
     "id": 37,
@@ -518,10 +518,10 @@
     }
   },
   {
-    "abilityIncMax": 60,
-    "abilityIncMin": 12,
-    "abilityInitMax": 192,
-    "abilityInitMin": 96,
+    "abilityIncMax": 90,
+    "abilityIncMin": 18,
+    "abilityInitMax": 288,
+    "abilityInitMin": 144,
     "abilityType": 9,
     "grade": 23,
     "id": 38,
@@ -532,10 +532,10 @@
     }
   },
   {
-    "abilityIncMax": 18,
-    "abilityIncMin": 4,
-    "abilityInitMax": 48,
-    "abilityInitMin": 24,
+    "abilityIncMax": 27,
+    "abilityIncMin": 6,
+    "abilityInitMax": 72,
+    "abilityInitMin": 36,
     "abilityType": 4,
     "grade": 24,
     "id": 39,
@@ -546,10 +546,10 @@
     }
   },
   {
-    "abilityIncMax": 99,
-    "abilityIncMin": 20,
-    "abilityInitMax": 288,
-    "abilityInitMin": 144,
+    "abilityIncMax": 150,
+    "abilityIncMin": 30,
+    "abilityInitMax": 432,
+    "abilityInitMin": 216,
     "abilityType": 8,
     "grade": 24,
     "id": 40,
@@ -560,10 +560,10 @@
     }
   },
   {
-    "abilityIncMax": 3600,
-    "abilityIncMin": 720,
-    "abilityInitMax": 9600,
-    "abilityInitMin": 4800,
+    "abilityIncMax": 5400,
+    "abilityIncMin": 1080,
+    "abilityInitMax": 14400,
+    "abilityInitMin": 7200,
     "abilityType": 2,
     "grade": 25,
     "id": 41,
@@ -574,10 +574,10 @@
     }
   },
   {
-    "abilityIncMax": 54,
-    "abilityIncMin": 11,
-    "abilityInitMax": 144,
-    "abilityInitMin": 72,
+    "abilityIncMax": 81,
+    "abilityIncMin": 16,
+    "abilityInitMax": 216,
+    "abilityInitMin": 108,
     "abilityType": 6,
     "grade": 25,
     "id": 42,
@@ -588,10 +588,10 @@
     }
   },
   {
-    "abilityIncMax": 80,
-    "abilityIncMin": 16,
-    "abilityInitMax": 260,
-    "abilityInitMin": 130,
+    "abilityIncMax": 120,
+    "abilityIncMin": 24,
+    "abilityInitMax": 390,
+    "abilityInitMin": 195,
     "abilityType": 9,
     "grade": 26,
     "id": 43,
@@ -602,10 +602,10 @@
     }
   },
   {
-    "abilityIncMax": 5400,
-    "abilityIncMin": 1080,
-    "abilityInitMax": 12200,
-    "abilityInitMin": 6100,
+    "abilityIncMax": 8100,
+    "abilityIncMin": 1620,
+    "abilityInitMax": 18300,
+    "abilityInitMin": 9150,
     "abilityType": 2,
     "grade": 27,
     "id": 44,
@@ -616,10 +616,10 @@
     }
   },
   {
-    "abilityIncMax": 125,
-    "abilityIncMin": 25,
-    "abilityInitMax": 380,
-    "abilityInitMin": 190,
+    "abilityIncMax": 190,
+    "abilityIncMin": 37,
+    "abilityInitMax": 570,
+    "abilityInitMin": 285,
     "abilityType": 8,
     "grade": 27,
     "id": 45,
@@ -630,10 +630,10 @@
     }
   },
   {
-    "abilityIncMax": 65,
-    "abilityIncMin": 13,
-    "abilityInitMax": 200,
-    "abilityInitMin": 100,
+    "abilityIncMax": 100,
+    "abilityIncMin": 19,
+    "abilityInitMax": 300,
+    "abilityInitMin": 150,
     "abilityType": 6,
     "grade": 28,
     "id": 46,
@@ -644,10 +644,10 @@
     }
   },
   {
-    "abilityIncMax": 150,
-    "abilityIncMin": 30,
-    "abilityInitMax": 430,
-    "abilityInitMin": 220,
+    "abilityIncMax": 225,
+    "abilityIncMin": 45,
+    "abilityInitMax": 645,
+    "abilityInitMin": 330,
     "abilityType": 8,
     "grade": 29,
     "id": 47,
@@ -658,10 +658,10 @@
     }
   },
   {
-    "abilityIncMax": 30,
-    "abilityIncMin": 6,
-    "abilityInitMax": 80,
-    "abilityInitMin": 40,
+    "abilityIncMax": 45,
+    "abilityIncMin": 9,
+    "abilityInitMax": 120,
+    "abilityInitMin": 60,
     "abilityType": 4,
     "grade": 29,
     "id": 48,
@@ -672,10 +672,10 @@
     }
   },
   {
-    "abilityIncMax": 8100,
-    "abilityIncMin": 1620,
-    "abilityInitMax": 16600,
-    "abilityInitMin": 8300,
+    "abilityIncMax": 12150,
+    "abilityIncMin": 2430,
+    "abilityInitMax": 24900,
+    "abilityInitMin": 12450,
     "abilityType": 2,
     "grade": 30,
     "id": 49,
@@ -686,10 +686,10 @@
     }
   },
   {
-    "abilityIncMax": 75,
-    "abilityIncMin": 15,
-    "abilityInitMax": 230,
-    "abilityInitMin": 120,
+    "abilityIncMax": 114,
+    "abilityIncMin": 22,
+    "abilityInitMax": 345,
+    "abilityInitMin": 180,
     "abilityType": 6,
     "grade": 30,
     "id": 50,
