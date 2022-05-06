@@ -1,7 +1,8 @@
 <script lang="ts">
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { sprinkles, type Sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
   import { convertGradeToStarLevel } from '$lib/utils';
   import { match } from 'oxide.ts';
 
@@ -12,13 +13,13 @@
   export let width: Sprinkles['width'] = 24;
 
   let valueSize = match(width, [[(n) => n < 20, 'sm' as const], (x) => 'xl' as const]);
-  let shardSize = match(width, [[(n) => n < 20, 3 as const], (x) => 4 as const])
+  let shardSize = match(width, [[(n) => n < 20, 3 as const], (x) => 4 as const]);
   let heroGrade;
 
-  let conditionalAttributes = {}
+  let conditionalAttributes = {};
 
   $: heroGrade = convertGradeToStarLevel(grade ?? 1);
-  $: conditionalAttributes = grade ? heroGrade : {}
+  $: conditionalAttributes = grade ? heroGrade : {};
 </script>
 
 <CardBorder {width} {...conditionalAttributes}>
