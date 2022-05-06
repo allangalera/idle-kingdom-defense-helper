@@ -9,6 +9,7 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
+  import { getRuneById } from '$lib/utils/runes';
   import { match } from 'oxide.ts';
   import * as R from 'remeda';
   import Icon from 'svelte-icons-pack/Icon.svelte';
@@ -130,19 +131,23 @@
       'moveSpeed',
     ]);
 
+    const firstCritDmgRune = getRuneById(1);
+    const firstAtkRune = getRuneById(2);
+
     const currentLevel = currUserHero?.level ?? 1;
 
     const currentGrade = currUserHero?.grade ?? currhero.baseGrade;
 
     const currentAscension = currhero.ascension.find((asc) => asc.grade === currentGrade);
 
+    heroStats.criDamage += firstCritDmgRune.abilityInitMin;
+
     heroStats.hp = (heroStats.hp + heroStats.incHp * (currentLevel - 1)) * currentAscension.incHp;
     heroStats.def =
       (heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
     heroStats.atk =
-      (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk + 20;
-    // add Base Rune damage as well
-    heroStats.criDamage += 3;
+      (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk +
+      firstAtkRune.abilityInitMin;
     return heroStats;
   };
 

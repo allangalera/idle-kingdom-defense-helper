@@ -1,3 +1,4 @@
+import runeJSON from '$lib/gameInfo/rune.json';
 import runeSummonJSON from '$lib/gameInfo/runeSummon.json';
 
 const getRunesSummonStageUnlock = () => {
@@ -16,3 +17,5 @@ const getRunesSummonStageUnlock = () => {
 };
 
 export const runesSummonStageUnlock = getRunesSummonStageUnlock();
+
+export const runes = runeJSON;
