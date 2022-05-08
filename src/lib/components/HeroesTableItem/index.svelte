@@ -174,7 +174,7 @@
 <div class={styles.tableItem}>
   <div class={styles.tableItemLeft}>
     <div class={styles.cardInfoContainer}>
-      <CardHero width={14} heroTypeBadgeWidth={4} hero={{ ...hero, ...userHero }} />
+      <CardHero width={20} heroTypeBadgeWidth={4} hero={{ ...hero, ...userHero }} />
       <div class={styles.infoContainer}>
         <div class={styles.basicInfo}>
           <div class={styles.heroNameAndTier}>
@@ -186,7 +186,7 @@
               alt={`Tier icon`}
             />
           </div>
-          <Text fontSize="xs">Lv {userHero?.level ?? 1}</Text>
+          <Text fontSize="sm">Lv {userHero?.level ?? 1}</Text>
         </div>
         {#if $heroesVisualization !== HeroesVisualizationModes.compact}
           <div class={styles.statsContainer}>
