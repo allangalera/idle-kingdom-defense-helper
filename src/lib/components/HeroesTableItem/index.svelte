@@ -188,35 +188,37 @@
           </div>
           <Text fontSize="xs">Lv {userHero?.level ?? 1}</Text>
         </div>
-        <div class={styles.statsContainer}>
-          <div class={styles.stats}>
-            <img
-              loading="lazy"
-              class={styles.statsIcons}
-              src="images/icons/iconHp.png"
-              alt="Heart icon"
-            />
-            <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.hp)}</Text>
+        {#if $heroesVisualization !== HeroesVisualizationModes.compact}
+          <div class={styles.statsContainer}>
+            <div class={styles.stats}>
+              <img
+                loading="lazy"
+                class={styles.statsIcons}
+                src="images/icons/iconHp.png"
+                alt="Heart icon"
+              />
+              <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.hp)}</Text>
+            </div>
+            <div class={styles.stats}>
+              <img
+                loading="lazy"
+                class={styles.statsIcons}
+                src="images/icons/iconPower.png"
+                alt="Heart icon"
+              />
+              <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.atk)}</Text>
+            </div>
+            <div class={styles.stats}>
+              <img
+                loading="lazy"
+                class={styles.statsIcons}
+                src="images/icons/iconDef.png"
+                alt="Heart icon"
+              />
+              <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.def)}</Text>
+            </div>
           </div>
-          <div class={styles.stats}>
-            <img
-              loading="lazy"
-              class={styles.statsIcons}
-              src="images/icons/iconPower.png"
-              alt="Heart icon"
-            />
-            <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.atk)}</Text>
-          </div>
-          <div class={styles.stats}>
-            <img
-              loading="lazy"
-              class={styles.statsIcons}
-              src="images/icons/iconDef.png"
-              alt="Heart icon"
-            />
-            <Text fontSize="xs">{getIdleKingdomNumberFormat(heroStats.def)}</Text>
-          </div>
-        </div>
+        {/if}
       </div>
     </div>
     <div class={styles.actions}>

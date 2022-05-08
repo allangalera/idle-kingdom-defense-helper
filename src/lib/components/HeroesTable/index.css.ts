@@ -1,19 +1,22 @@
-import { breakpoints, theme } from '$lib/styles/themes/index.css';
-import { style } from '@vanilla-extract/css';
+import { theme } from '$lib/styles/themes/index.css';
+import { style, styleVariants } from '@vanilla-extract/css';
 
 export const table = style({
   display: 'grid',
-  gridTemplateColumns: 'repeat(1, 1fr)',
-  gap: theme.sizes[2],
-  '@media': {
-    [`screen and (min-width: ${breakpoints.md})`]: {
-      gridTemplateColumns: 'repeat(2, 1fr)',
-    },
-    [`screen and (min-width: ${breakpoints.xl})`]: {
-      gridTemplateColumns: 'repeat(3, 1fr)',
-    },
-    [`screen and (min-width: ${breakpoints['2xl']})`]: {
-      gridTemplateColumns: 'repeat(4, 1fr)',
-    },
-  },
+  gridTemplateColumns: 'repeat( auto-fill, minmax(220px, 1fr) )',
+  gap: theme.space[2],
+});
+
+export const tableMinimal = style({
+  gridTemplateColumns: 'repeat( auto-fill, minmax(300px, 1fr) )',
+});
+
+export const tableDetailed = style({
+  gridTemplateColumns: 'repeat( auto-fill, minmax(320px, 1fr) )',
+});
+
+export const tableVariant = styleVariants({
+  default: [table],
+  minimal: [table, tableMinimal],
+  detailed: [table, tableDetailed],
 });
