@@ -2,8 +2,6 @@
   import Link from '$lib/components/Link/index.svelte';
 
   import * as styles from './index.css';
-
-  export let onMenuClose = () => void 0;
 </script>
 
 <nav class={styles.menu}>

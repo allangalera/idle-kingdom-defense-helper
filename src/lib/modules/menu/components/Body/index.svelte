@@ -14,7 +14,7 @@
     <Header />
   </slot>
   <slot slot="content">
-    <Content {onMenuClose} />
+    <Content />
   </slot>
   <slot slot="footer">
     <Footer {onModalOpen} />

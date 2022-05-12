@@ -143,7 +143,7 @@
       /><Heading textAlign="center">/h</Heading>
     </div>
     <div class={tableStyles.tableHeaderItem}>
-      <img class={styles.icon} src="images/icons/iconSoul.png" alt="Ascension Stone Icon" /><Heading
+      <img class={styles.icon} src="images/icons/iconScrollHero.png" alt="Hero Seal Icon" /><Heading
         textAlign="center">/h</Heading
       >
     </div>
@@ -155,7 +155,7 @@
       /><Heading textAlign="center">/{totalTimeFarmingInHours}h</Heading>
     </div>
     <div class={tableStyles.tableHeaderItem}>
-      <img class={styles.icon} src="images/icons/iconSoul.png" alt="Ascension Stone Icon" /><Heading
+      <img class={styles.icon} src="images/icons/iconScrollHero.png" alt="Hero Seal Icon" /><Heading
         textAlign="center">/{totalTimeFarmingInHours}h</Heading
       >
     </div>
