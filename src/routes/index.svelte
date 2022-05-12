@@ -7,7 +7,7 @@
   import FarmStageCalculator from '$lib/components/FarmStageCalculator/index.svelte';
   import ArcherEquipUpgradeCalculator from '$lib/components/ArcherEquipUpgradeCalculator/index.svelte';
   import ArcherEquipLevelCompareCalculator from '$lib/components/ArcherEquipLevelCompareCalculator/index.svelte';
-  // import StageFarmCompareCalculator from '$lib/components/StageFarmCompareCalculator/index.svelte';
+  import StageFarmCompareCalculator from '$lib/components/StageFarmCompareCalculator/index.svelte';
 </script>
 
 <div class={styles.grid}>
@@ -26,9 +26,9 @@
   <GridItem title="Archer Equip Compare Calculator" full>
     <ArcherEquipLevelCompareCalculator />
   </GridItem>
-  <!-- <GridItem title="Stage Farm Compare Calculator" full>
+  <GridItem title="Stage Farm Compare Calculator" full>
     <StageFarmCompareCalculator />
-  </GridItem> -->
+  </GridItem>
   <GridItem title="Stage to Farm Calculator" full>
     <FarmStageCalculator />
   </GridItem>

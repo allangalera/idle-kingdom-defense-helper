@@ -21,6 +21,11 @@ export const table6Columns = style({
   gridTemplateColumns: 'repeat(6, 1fr)',
 });
 
+export const table7Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(7, 1fr)',
+});
+
 export const tableRow = style({
   display: 'contents',
 });

@@ -23,5 +23,19 @@ export const bulkEditContainer = style({
 export const bulkEditForm = style({
   display: 'flex',
   gap: theme.space[4],
+  justifyContent: 'center',
   alignItems: 'flex-end',
+  marginBottom: theme.space[8],
+});
+
+export const flex = style({
+  display: 'flex',
+  alignItems: 'center',
+  flexWrap: 'wrap',
+  gap: theme.space[4],
+});
+
+export const icon = style({
+  width: theme.sizes[6],
+  height: 'auto',
 });

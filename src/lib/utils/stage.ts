@@ -1,3 +1,4 @@
+import type { CardType } from '$lib/components/Card/card';
 import { getEnemyIdFromStage } from '$lib/db';
 import {
   designStageUnlock,
@@ -6,6 +7,7 @@ import {
   stageIdleReward,
 } from '$lib/db/stage';
 import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
+import { match } from 'oxide.ts';
 import { equals } from 'ramda';
 
 export const calculateHeroDropFromStage = (stage) => {
@@ -187,4 +189,25 @@ export const returnRewardDataByStage = (stage: number) => {
     idle: idleReward,
     clear: clearReward,
   };
+};
+
+export const convertItemTypeToName = (type: number): CardType | null => {
+  return match(type, [
+    [24, 'ascension-stone' as const],
+    [31, 'hero-seal' as const],
+    [32, 'gear-seal' as const],
+    [29, 'rune-seal' as const],
+    [29, 'rune-seal' as const],
+    () => null,
+  ]);
+};
+
+export const calculateStageRewardByType = (itemRate, stage, rewards) => {
+  return match(itemRate.type, [
+    [24, rewards.evolve.init + rewards.evolve.inc * (stage - rewards.lv)],
+    [31, rewards.hscroll.init + rewards.hscroll.inc * (stage - rewards.lv)],
+    // [32, rewards.rscroll.init + rewards.rscroll.inc * (stage - rewards.lv)],
+    // [29, rewards.runescroll.init + rewards.runescroll.inc * (stage - rewards.lv)],
+    () => 0,
+  ]);
 };
