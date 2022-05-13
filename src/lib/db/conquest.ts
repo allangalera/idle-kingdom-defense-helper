@@ -1,20 +1,16 @@
 import conquestConstJSON from '$lib/gameInfo/conquestConst.json';
+import conquestContinentsJSON from '$lib/gameInfo/conquestContinents.json';
 import conquestFortressJSON from '$lib/gameInfo/conquestFortress.json';
 import conquestKingdomsJSON from '$lib/gameInfo/conquestKingdoms.json';
 import langJSON from '$lib/gameInfo/lang.json';
+import { match } from 'oxide.ts';
 
 const getContinentId = (kingdomId: number) => {
   return Math.floor((kingdomId - 1) / 12 + 1);
 };
 
 const getContinentName = (kingdomId: number) => {
-  const continents = {
-    1: 'Green',
-    2: 'Glacial',
-    3: 'Rock',
-  };
-
-  return continents[getContinentId(kingdomId)] ?? 'Green';
+  return match(kingdomId, [[1, 'Green'], [2, 'Glacial'], [3, 'Rock'], () => 'Green']);
 };
 
 const generateKingdoms = () => {
