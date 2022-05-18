@@ -18,6 +18,8 @@ export const input = style({
   borderStyle: 'solid',
   padding: theme.space[2],
   width: '100%',
+  WebkitAppearance: 'none',
+  MozAppearance: 'textfield',
   ':hover': {
     borderColor: theme.themeColors.border.hover,
   },

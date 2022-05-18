@@ -120,7 +120,7 @@
     label="Time to finish (seconds)"
     bind:value={seconds}
     maskOptions={{
-      mask: Number,
+      mask: /^[0-9]*(\.[0-9]*)?$/,
     }}
   />
   <Button variant="success" on:click={addStageToCompare}>
