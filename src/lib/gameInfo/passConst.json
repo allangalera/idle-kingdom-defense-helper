@@ -2,5 +2,9 @@
   "SELECT_HEROLIST": {
     "normal": [2, 13, 31, 16, 18, 32],
     "premium": [3, 11, 25, 30, 19, 26]
+  },
+  "SELECT_HEROLIST_PASSHERO": {
+    "normal": [4, 9, 2, 18, 31, 32],
+    "premium": [33, 24, 7, 21, 29, 34]
   }
 }

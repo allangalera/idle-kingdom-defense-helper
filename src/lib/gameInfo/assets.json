@@ -1193,6 +1193,12 @@
     "id": "POPUP_PASS",
     "scale": 1
   },
+  "POPUP_PASSHERO": {
+    "asset": "csd/pass/popupPass2",
+    "assetType": 1,
+    "id": "POPUP_PASSHERO",
+    "scale": 1
+  },
   "POPUP_PASS_HEROSELECT": {
     "asset": "csd/pass/popupPassHeroSelect",
     "assetType": 1,

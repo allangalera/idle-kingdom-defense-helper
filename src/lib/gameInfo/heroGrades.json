@@ -3533,7 +3533,7 @@
     "incDef": 1.68,
     "incHp": 1.68,
     "percentage": 0,
-    "value": 0.2
+    "value": 0.3
   },
   {
     "addType": 2,
@@ -3663,7 +3663,7 @@
     "incDef": 4.48,
     "incHp": 4.48,
     "percentage": 0,
-    "value": 0.6
+    "value": 0.5
   },
   {
     "addType": 2,
@@ -3728,7 +3728,7 @@
     "incDef": 5.88,
     "incHp": 5.88,
     "percentage": 0,
-    "value": 0.8
+    "value": 0.6
   },
   {
     "addType": 2,
@@ -3793,7 +3793,7 @@
     "incDef": 7.28,
     "incHp": 7.28,
     "percentage": 0,
-    "value": 1
+    "value": 0.7
   },
   {
     "addType": 2,
@@ -3858,7 +3858,7 @@
     "incDef": 8.68,
     "incHp": 8.68,
     "percentage": 0,
-    "value": 1.2
+    "value": 0.8
   },
   {
     "addType": 2,

@@ -305,7 +305,7 @@
     "hp": 280,
     "id": 10,
     "img": "img/hero/sprHeroWizard01.png",
-    "incAtk": 2.5,
+    "incAtk": 2.7,
     "incDef": 1,
     "incHp": 20,
     "mainSkill": 5,
