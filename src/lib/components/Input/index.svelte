@@ -30,12 +30,10 @@
   }
 
   const generatePipe = () => {
-    console.log({ pipeOptions });
     pipe = IMask.createPipe(pipeOptions);
   };
 
   const generateMask = () => {
-    console.log({ maskOptions });
     mask = IMask.createMask(maskOptions);
   };
 
