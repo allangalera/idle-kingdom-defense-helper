@@ -26,6 +26,21 @@ export const table7Columns = style({
   gridTemplateColumns: 'repeat(7, 1fr)',
 });
 
+export const table8Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(8, 1fr)',
+});
+
+export const table9Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(9, 1fr)',
+});
+
+export const table11Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(11, 1fr)',
+});
+
 export const tableRow = style({
   display: 'contents',
 });
@@ -53,6 +68,7 @@ export const tableItem = style({
   alignItems: 'center',
   paddingTop: theme.space[1],
   paddingBottom: theme.space[1],
+  background: theme.themeColors.baseColors.gray1,
   selectors: {
     [`${tableOtherRow} &`]: {
       background: theme.themeColors.baseColors.gray5,

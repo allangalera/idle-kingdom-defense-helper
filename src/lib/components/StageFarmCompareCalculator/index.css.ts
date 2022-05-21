@@ -1,3 +1,5 @@
+import { sprinkles } from '$lib/styles/sprinkles.css';
+import * as tableStyles from '$lib/styles/table.css';
 import { theme } from '$lib/styles/themes/index.css';
 import { style } from '@vanilla-extract/css';
 
@@ -35,7 +37,31 @@ export const flex = style({
   gap: theme.space[4],
 });
 
+export const table = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(15, 1fr)',
+  overflowX: 'auto',
+});
+
+export const tableHeader = style([
+  tableStyles.tableHeaderItem,
+  sprinkles({
+    paddingX: 4,
+    background: 'gray1',
+  }),
+]);
+
 export const icon = style({
   width: theme.sizes[6],
   height: 'auto',
+});
+
+export const stickyLeft = style({
+  position: 'sticky',
+  left: 0,
+});
+
+export const stickyRight = style({
+  position: 'sticky',
+  right: 0,
 });

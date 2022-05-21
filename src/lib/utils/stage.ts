@@ -197,17 +197,18 @@ export const convertItemTypeToName = (type: number): CardType | null => {
     [31, 'hero-seal' as const],
     [32, 'gear-seal' as const],
     [29, 'rune-seal' as const],
-    [29, 'rune-seal' as const],
     () => null,
   ]);
 };
 
 export const calculateStageRewardByType = (itemRate, stage, rewards) => {
   return match(itemRate.type, [
+    [27, (rewards.soulInit + rewards.soulInc * (stage - rewards.lv)) * 60],
+    [102, (rewards.goldInit + rewards.goldInc * (stage - rewards.lv)) * 60],
     [24, rewards.evolve.init + rewards.evolve.inc * (stage - rewards.lv)],
     [31, rewards.hscroll.init + rewards.hscroll.inc * (stage - rewards.lv)],
-    // [32, rewards.rscroll.init + rewards.rscroll.inc * (stage - rewards.lv)],
-    // [29, rewards.runescroll.init + rewards.runescroll.inc * (stage - rewards.lv)],
+    [32, rewards.rscroll.init + rewards.rscroll.inc * (stage - rewards.lv)],
+    [29, rewards.runescroll.init + rewards.runescroll.inc * (stage - rewards.lv)],
     () => 0,
   ]);
 };
