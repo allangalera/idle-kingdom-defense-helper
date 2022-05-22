@@ -61,7 +61,7 @@
         );
         if (!calculatedReward) return acc;
         acc[itemRate.type] = Math.floor(
-          calculatedReward * Math.floor(3600 / stage.seconds) * itemRate.rate
+          Math.floor(calculatedReward) * Math.floor(3600 / stage.seconds) * itemRate.rate
         );
         return acc;
       }, {});
@@ -74,7 +74,7 @@
         );
         if (!calculatedReward) return acc;
         acc[itemRate.type] = Math.floor(
-          calculatedReward *
+          Math.floor(calculatedReward) *
             Math.floor((3600 * +totalTimeFarmingInHours) / stage.seconds) *
             itemRate.rate
         );
