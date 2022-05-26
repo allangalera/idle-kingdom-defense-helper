@@ -2,7 +2,6 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
-  import { onDestroy, onMount } from 'svelte';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiSystemCloseFill from 'svelte-icons-pack/ri/RiSystemCloseFill';
   import { fade } from 'svelte/transition';
@@ -12,14 +11,6 @@
   export let footerJustifyContent: Sprinkles['justifyContent'] = 'flex-start';
   export let onClose: () => void = () => void 0;
   export let shouldCloseOnOverlay = true;
-
-  onMount(() => {
-    document.body.style.overflow = 'hidden';
-  });
-
-  onDestroy(() => {
-    document.body.style.overflow = '';
-  });
 </script>
 
 <div
