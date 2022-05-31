@@ -47,6 +47,12 @@
     "id": "BATTLE_NODEAUTOSPIN",
     "scale": 1
   },
+  "BATTLE_NODEBERSERK": {
+    "asset": "csd/battle/nodeBerserk",
+    "assetType": 1,
+    "id": "BATTLE_NODEBERSERK",
+    "scale": 1
+  },
   "BATTLE_NODESKILLBTN": {
     "asset": "csd/battle/nodeSkillBtn",
     "assetType": 1,

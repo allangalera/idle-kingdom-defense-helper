@@ -4,9 +4,9 @@
   },
   "BUFF": {
     "COST": 30,
-    "FREECNT": 5,
-    "MAXLV": 5,
-    "VALUE": [0.2, 0.2, 0.1]
+    "FREECNT": 10,
+    "MAXLV": 15,
+    "VALUE": [0.25, 0.25, 0.04]
   },
   "CHARGE_CASTLE": {
     "COST_INC": 300,

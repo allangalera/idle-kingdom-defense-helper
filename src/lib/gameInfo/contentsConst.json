@@ -36,10 +36,56 @@
     ],
     "SPECIAL_LIMIT": 1
   },
+  "AUTOMAIL": {
+    "REWARDCASH": 300,
+    "STARTINFOS": [
+      {
+        "h": 8,
+        "t": 1,
+        "wday": 2
+      },
+      {
+        "h": 18,
+        "t": 2,
+        "wday": 6
+      }
+    ],
+    "VALIDDAYS": 2
+  },
   "BATTLE_SPEEDUP": {
     "COST": 300,
     "START_TIME": 1800,
     "TIME": 7200
+  },
+  "BERSERKMODE": {
+    "EFFECTS": [
+      {
+        "atk": 1.5,
+        "debuffDurRegist": 0.2,
+        "debuffEffRegist": 0.2,
+        "debuffRegist": 0.2,
+        "def": 0.05,
+        "hp": -0.2
+      },
+      {
+        "atk": 3,
+        "debuffDurRegist": 0.4,
+        "debuffEffRegist": 0.4,
+        "debuffRegist": 0.4,
+        "def": 0.1,
+        "hp": -0.25
+      },
+      {
+        "atk": 6,
+        "debuffDurRegist": 0.6,
+        "debuffEffRegist": 0.6,
+        "debuffRegist": 0.6,
+        "def": 0.15,
+        "hp": -0.335
+      }
+    ],
+    "START_TIME": [140, 260, 380],
+    "WARNING_TIME": 80
   },
   "CONNECT": {
     "REWARD": 1000
@@ -231,6 +277,7 @@
   ],
   "REPEATBATTLE": {
     "CHARGECNT": 50,
+    "CHARGECOST": 300,
     "EXITTIME": 2,
     "REWARD_TIC": 1,
     "WAITTIME": 3
