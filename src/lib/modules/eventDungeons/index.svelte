@@ -9,7 +9,9 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import * as tableStyles from '$lib/styles/table.css';
   import { returnRewardDataByStage } from '$lib/utils/stage';
+  import { paramCase } from 'change-case';
   import { match } from 'oxide.ts';
+  import { onMount } from 'svelte';
 
   import * as styles from './index.css';
 
@@ -83,6 +85,19 @@
     return highlights;
   };
 
+  onMount(() => {
+    const selector = `#${paramCase(Object.keys(eventDungeons)[0])}-current-stage > div:first-child`;
+    const currentStage = document.querySelector(selector);
+    if (currentStage) {
+      setTimeout(() => {
+        currentStage.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        });
+      }, 1000);
+    }
+  });
+
   $: highlightedLv = getHighlightedStages($stage.stage);
 </script>
 
@@ -111,6 +126,7 @@
             class={tableStyles.tableRowVariant[
               getRowStyling(i, highlightedLv[dungeon] === item.lv)
             ]}
+            {...highlightedLv[dungeon] === item.lv && { id: `${paramCase(dungeon)}-current-stage` }}
           >
             <div class={tableStyles.tableItem}>
               <Text textAlign="center">{item.lv}</Text>
