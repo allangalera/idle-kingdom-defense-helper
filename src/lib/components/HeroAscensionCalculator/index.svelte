@@ -3,9 +3,9 @@
   import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
   import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { heroGradeInfo } from '$lib/db/heroes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Grades } from '$lib/types';
+  import { calculateAscendCost } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
@@ -15,21 +15,13 @@
   let shardsCost = 0;
   let ascensionStonesCost = 0;
 
-  function calculateCost(startGrade, endGrade) {
-    shardsCost = 0;
-    ascensionStonesCost = 0;
+  const updateCalculation = () => {
+    const result = calculateAscendCost(selectedStartGrade, selectedEndGrade);
+    shardsCost = result.shards;
+    ascensionStonesCost = result.ascensionStones;
+  };
 
-    if (startGrade === endGrade) return;
-
-    for (const gradeInfo of heroGradeInfo) {
-      if (gradeInfo.id > startGrade && gradeInfo.id <= endGrade) {
-        shardsCost += gradeInfo.evolvePiece;
-        ascensionStonesCost += gradeInfo.stone;
-      }
-    }
-  }
-
-  $: calculateCost(selectedStartGrade, selectedEndGrade);
+  $: (selectedStartGrade || selectedEndGrade) && updateCalculation();
 </script>
 
 <div class={styles.container}>

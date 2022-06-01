@@ -1,4 +1,4 @@
-import { MAX_HERO_LEVEL, heroLvCost } from '$lib/db/heroes';
+import { MAX_HERO_LEVEL, heroGradeInfo, heroLvCost } from '$lib/db/heroes';
 import { z } from 'zod';
 
 const getCurrentLevelUpCostData = (level: number) => {
@@ -45,5 +45,25 @@ export const calculateLevelUpCost = (startLevel: number, endLevel: number) => {
       currentHeroLvCost.initCostSoul +
       currentHeroLvCost.incCostSoul * (currentLevel - currentHeroLvCost.level);
   }
+  return cost;
+};
+
+export const calculateAscendCost = (startGrade: number, endGrade: number) => {
+  const cost = {
+    shards: 0,
+    ascensionStones: 0,
+  };
+
+  if (startGrade === endGrade) {
+    return cost;
+  }
+
+  for (const gradeInfo of heroGradeInfo) {
+    if (gradeInfo.id > startGrade && gradeInfo.id <= endGrade) {
+      cost.shards += gradeInfo.evolvePiece;
+      cost.ascensionStones += gradeInfo.stone;
+    }
+  }
+
   return cost;
 };

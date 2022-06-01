@@ -1,5 +1,6 @@
 <script lang="ts">
   import Heading from '$lib/components/Heading/index.svelte';
+  import HeroAscensionUsed from '$lib/components/HeroAscensionUsed/index.svelte';
   import HeroesTable from '$lib/components/HeroesTable/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -132,4 +133,6 @@
     </div>
   </div>
   <HeroesTable heroes={filteredHeroes} />
+  <Heading textAlign="center" fontSize="2xl">Status</Heading>
+  <HeroAscensionUsed />
 </div>
