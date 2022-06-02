@@ -10,5 +10,3 @@ export const castle = castleJSON;
 export const castleConst = castleConstJSON;
 
 export const castleEngrave = castleEngraveJSON;
-
-export const MAX_CASTLE_ENGRAVE_LEVEL = castleEngraveJSON.pop().level;

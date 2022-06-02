@@ -2,7 +2,7 @@
   import Card from '$lib/components/Card/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { MAX_CASTLE_ENGRAVE_LEVEL } from '$lib/db/castle';
+  import { castleConst } from '$lib/db/castle';
   import { calculateCasteEngraving } from '$lib/utils/castle';
 
   import * as styles from './index.css';
@@ -38,7 +38,7 @@
     maskOptions={{
       mask: Number,
       min: 0,
-      max: MAX_CASTLE_ENGRAVE_LEVEL - 1,
+      max: castleConst.ENGRAVE.MAX_LV - 1,
     }}
   />
   <Input
@@ -48,7 +48,7 @@
     maskOptions={{
       mask: Number,
       min: 0,
-      max: MAX_CASTLE_ENGRAVE_LEVEL,
+      max: castleConst.ENGRAVE.MAX_LV,
     }}
   />
   <div class={styles.result}>
