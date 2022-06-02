@@ -9,6 +9,7 @@
   import ArcherEquipLevelCompareCalculator from '$lib/components/ArcherEquipLevelCompareCalculator/index.svelte';
   import StageFarmCompareCalculator from '$lib/components/StageFarmCompareCalculator/index.svelte';
   import KingsRuinsEnemyCalculator from '$lib/modules/calculators/KingsRuinsEnemyCalculator/index.svelte';
+  import CastleEngraveCalculator from '$lib/modules/calculators/CastleEngraveCalculator/index.svelte';
 </script>
 
 <div class={styles.grid}>
@@ -23,6 +24,9 @@
   </GridItem>
   <GridItem title="Archer Promote Cost Calculator">
     <ArcherEquipUpgradeCalculator />
+  </GridItem>
+  <GridItem title="Castle Engraving Calculator" full>
+    <CastleEngraveCalculator />
   </GridItem>
   <GridItem title="Archer Equip Compare Calculator" full>
     <ArcherEquipLevelCompareCalculator />

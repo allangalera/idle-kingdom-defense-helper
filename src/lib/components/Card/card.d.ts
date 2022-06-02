@@ -5,4 +5,7 @@ export type CardType =
   | 'steel'
   | 'hero-seal'
   | 'gear-seal'
-  | 'rune-seal';
+  | 'rune-seal'
+  | 'def'
+  | 'ancient-coin'
+  | 'ruby';

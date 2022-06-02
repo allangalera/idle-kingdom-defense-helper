@@ -20,6 +20,9 @@
     ['hero-seal', { src: 'images/icons/iconScrollHero.png', alt: 'Hero Seal Icon' }],
     ['gear-seal', { src: 'images/icons/iconScrollRune.png', alt: 'Gear Seal Icon' }],
     ['rune-seal', { src: 'images/icons/iconScrollSanctuary.png', alt: 'Gear Seal Icon' }],
+    ['def', { src: 'images/icons/iconDef.png', alt: 'Def Icon' }],
+    ['ancient-coin', { src: 'images/icons/iconHeroCoin.png', alt: 'Ancient Coin Icon' }],
+    ['ruby', { src: 'images/icons/iconRuby.png', alt: 'Def Icon' }],
     () => ({ src: 'none', alt: 'none' }),
   ]);
 </script>
