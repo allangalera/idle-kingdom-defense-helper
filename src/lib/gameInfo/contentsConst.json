@@ -60,32 +60,32 @@
   "BERSERKMODE": {
     "EFFECTS": [
       {
-        "atk": 1.5,
+        "atk": 0.4,
         "debuffDurRegist": 0.2,
         "debuffEffRegist": 0.2,
         "debuffRegist": 0.2,
-        "def": 0.05,
-        "hp": -0.2
-      },
-      {
-        "atk": 3,
-        "debuffDurRegist": 0.4,
-        "debuffEffRegist": 0.4,
-        "debuffRegist": 0.4,
-        "def": 0.1,
+        "def": 0.02,
         "hp": -0.25
       },
       {
-        "atk": 6,
+        "atk": 1.2,
+        "debuffDurRegist": 0.4,
+        "debuffEffRegist": 0.4,
+        "debuffRegist": 0.4,
+        "def": 0.04,
+        "hp": -0.266
+      },
+      {
+        "atk": 3.6,
         "debuffDurRegist": 0.6,
         "debuffEffRegist": 0.6,
         "debuffRegist": 0.6,
-        "def": 0.15,
-        "hp": -0.335
+        "def": 0.06,
+        "hp": -0.365
       }
     ],
-    "START_TIME": [140, 260, 380],
-    "WARNING_TIME": 80
+    "START_TIME": [600, 1800, 3600],
+    "WARNING_TIME": 300
   },
   "CONNECT": {
     "REWARD": 1000
