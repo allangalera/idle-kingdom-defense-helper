@@ -2,6 +2,7 @@ import radixColors from '@radix-ui/colors';
 import { createGlobalTheme, createThemeContract } from '@vanilla-extract/css';
 
 const space = {
+  none: '0',
   px: '1px',
   0.5: '0.125rem',
   1: '0.25rem',

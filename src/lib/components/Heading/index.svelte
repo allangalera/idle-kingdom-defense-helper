@@ -8,6 +8,8 @@
   export let fontSize: Sprinkles['fontSize'] = 'lg';
   export let fontWeight: Sprinkles['fontWeight'] = 'normal';
   export let textAlign: Sprinkles['textAlign'] = 'left';
+  export let marginBottom: Sprinkles['marginBottom'] = 'none';
+  export let marginTop: Sprinkles['marginTop'] = 'none';
 
   let className = [
     styles.heading,
@@ -16,6 +18,8 @@
       fontWeight: fontWeight,
       textAlign: textAlign,
       color: 'gray12',
+      marginBottom,
+      marginTop,
     }),
   ].join(' ');
 </script>

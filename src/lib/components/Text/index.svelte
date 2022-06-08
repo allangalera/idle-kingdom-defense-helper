@@ -19,6 +19,7 @@
       fontWeight: fontWeight,
       fontFamily: fontFamily,
       textAlign: textAlign,
+      lineHeight: 'tall',
     }),
   ].join(' ');
 </script>
