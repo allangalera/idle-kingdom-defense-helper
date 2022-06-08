@@ -1,4 +1,4 @@
-import { theme } from '$lib/styles/themes/index.css';
+import { breakpoints, theme } from '$lib/styles/themes/index.css';
 import { style, styleVariants } from '@vanilla-extract/css';
 
 export const container = style({
@@ -6,6 +6,8 @@ export const container = style({
   borderStyle: 'solid',
   borderColor: theme.themeColors.border.default,
   borderRadius: theme.border.radii.lg,
+  maxWidth: theme.sizes.full,
+  minWidth: 0,
 });
 
 export const containerVariant = styleVariants({
@@ -14,8 +16,8 @@ export const containerVariant = styleVariants({
     container,
     {
       '@media': {
-        'screen and (min-width: 768px)': {
-          gridColumn: '1 / span 2',
+        [`screen and (min-width: ${breakpoints.md})`]: {
+          gridColumn: 'span 2',
         },
       },
     },
