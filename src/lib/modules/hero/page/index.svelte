@@ -38,7 +38,7 @@
   $: heroStats = calculateHeroStats(hero, heroUserData);
 </script>
 
-<Heading textAlign="center" fontSize="3xl" marginBottom={4}>{hero.name} - {hero.id}</Heading>
+<Heading textAlign="center" fontSize="3xl" marginBottom={4}>{hero.name}</Heading>
 <div class={styles.container}>
   <div class={styles.cardContainer}>
     <CardHero hero={{ ...hero, ...heroUserData }} width={40} />
