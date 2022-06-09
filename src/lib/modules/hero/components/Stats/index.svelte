@@ -31,7 +31,7 @@
   {#each attributesOrder as attr}
     <div class={styles.heroStat}>
       <Text>{returnAttributeName(attr)}:</Text>
-      <Text>{getIdleKingdomNumberFormat(heroStats[attr], 2)}</Text>
+      <Text>{heroStats[attr].toLocaleString()}</Text>
     </div>
   {/each}
 </GridItem>
