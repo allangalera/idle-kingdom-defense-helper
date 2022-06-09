@@ -2,6 +2,7 @@
   import Button from '$lib/components/Button/index.svelte';
   import CardHero from '$lib/components/CardHero/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
+  import Link from '$lib/components/Link/index.svelte';
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import type { HeroType } from '$lib/db/heroes';
@@ -36,6 +37,7 @@
   $: heroStats = calculateHeroStats(hero, heroUserData);
 </script>
 
+<Link href="/heroes">Back to Heroes</Link>
 <Heading textAlign="center" fontSize="3xl" marginBottom={4}>{hero.name}</Heading>
 <div class={styles.container}>
   <div class={styles.cardContainer}>
