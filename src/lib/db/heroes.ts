@@ -147,8 +147,10 @@ function generateHeroList() {
 export const defaultSortingHeroes = (heroes: Hero[]) =>
   R.sortBy(
     heroes,
-    [(x) => x.grade || x.baseGrade, 'desc'],
-    [(x) => x.level || 1, 'desc'],
+    [(x) => !!x.level, 'desc'],
+    [(x) => x.grade, 'desc'],
+    [(x) => x.baseGrade, 'desc'],
+    [(x) => x.level, 'desc'],
     (x) => x.id
   );
 

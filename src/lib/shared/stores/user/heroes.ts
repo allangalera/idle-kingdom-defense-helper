@@ -1,20 +1,9 @@
 import { browser } from '$app/env';
-import type { HeroGearEquip } from '$lib/enums';
-import {
-  append,
-  clone,
-  filter,
-  find,
-  hasPath,
-  is,
-  isNil,
-  mergeDeepRight,
-  or,
-  pathOr,
-  propEq,
-} from 'ramda';
+import { MAX_HERO_GRADE, MAX_HERO_LEVEL } from '$lib/db/heroes';
+import type { HeroGearEquip, HeroGearEquipTypes } from '$lib/enums';
 import * as R from 'remeda';
 import { writable } from 'svelte/store';
+import { z } from 'zod';
 
 type Hero = {
   id: number;
@@ -39,30 +28,46 @@ const initialState = browser ? JSON.parse(window.localStorage.getItem(HEROES_STO
 export const heroes = writable<HeroesStore>(initialState);
 
 export const addHero = (hero: Hero) => {
-  const { id, level, grade } = hero;
-  if (or(isNil(id), isNil(level), isNil(grade))) return;
+  const schema = z.object({
+    id: z.number(),
+    level: z.number().gt(0).lte(MAX_HERO_LEVEL),
+    grade: z.number().gt(0).lte(MAX_HERO_GRADE),
+  });
+
+  const { success } = schema.safeParse(hero);
+
+  if (!success) return false;
+
   heroes.update((currentData) => {
-    if (hasPath(['heroes'], currentData) && find(propEq('id', id))(currentData.heroes)) {
+    if (currentData?.heroes && currentData.heroes.find((cHero) => cHero.id === hero.id)) {
       return currentData;
     }
-    return mergeDeepRight(currentData, {
-      heroes: append(hero, pathOr([], ['heroes'], currentData)),
+    return R.merge(currentData, {
+      heroes: [hero, ...(currentData.heroes ?? [])],
     });
   });
   return true;
 };
 
 export const addOrUpdateHero = (hero: Hero) => {
-  const { id, level, grade } = hero;
-  if (or(isNil(id), isNil(level), isNil(grade))) return;
+  const schema = z.object({
+    id: z.number().gt(0),
+    level: z.number().gt(0).lte(MAX_HERO_LEVEL),
+    grade: z.number().gt(0).lte(MAX_HERO_GRADE),
+  });
+
+  const { success } = schema.safeParse(hero);
+
+  if (!success) return false;
+
   heroes.update((currentData) => {
-    const clonedHeroes = clone(pathOr([], ['heroes'], currentData));
+    const clonedHeroes = R.clone(currentData?.heroes ?? []);
     const findIndex = clonedHeroes.findIndex((el) => el.id === hero.id);
 
     if (findIndex !== -1) clonedHeroes[findIndex] = { ...clonedHeroes[findIndex], ...hero };
     else clonedHeroes.push(hero);
 
-    return mergeDeepRight(currentData, {
+    return R.merge(currentData, {
       heroes: clonedHeroes,
     });
   });
@@ -70,20 +75,27 @@ export const addOrUpdateHero = (hero: Hero) => {
 };
 
 export const removeHero = (id: number) => {
-  if (!is(Number, id)) return false;
+  const { success } = z.number().gt(0).safeParse(id);
+
+  if (!success) return false;
+  if (!R.isNumber(id)) return false;
   heroes.update((currentData) => {
-    if (hasPath(['heroes'], currentData) && !find(propEq('id', id))(currentData.heroes)) {
+    if (currentData?.heroes && !currentData.heroes.find((cHero) => cHero.id === id)) {
       return currentData;
     }
 
-    return mergeDeepRight(currentData, {
-      heroes: filter((item) => item.id !== id, currentData.heroes),
+    return R.merge(currentData, {
+      heroes: currentData.heroes.filter((item) => item.id !== id),
     });
   });
   return true;
 };
 
-export const addOrUpdateHeroGear = (heroId, gearType, grade) => {
+export const addOrUpdateHeroGear = (
+  heroId: number,
+  gearType: HeroGearEquipTypes,
+  grade: number
+) => {
   heroes.update((currentData) => {
     const newHeroes = currentData.heroes.map((hero) => {
       if (heroId === hero.id) {
@@ -92,13 +104,13 @@ export const addOrUpdateHeroGear = (heroId, gearType, grade) => {
       }
       return hero;
     });
-    return mergeDeepRight(currentData, {
+    return R.merge(currentData, {
       heroes: newHeroes,
     });
   });
 };
 
-export const removeHeroGear = (heroId, gearType) => {
+export const removeHeroGear = (heroId: number, gearType: HeroGearEquipTypes) => {
   heroes.update((currentData) => {
     const newHeroes = currentData.heroes.map((hero) => {
       if (heroId === hero.id) {
@@ -107,7 +119,7 @@ export const removeHeroGear = (heroId, gearType) => {
       }
       return hero;
     });
-    return mergeDeepRight(currentData, {
+    return R.merge(currentData, {
       heroes: newHeroes,
     });
   });
