@@ -9,4 +9,7 @@ export const container = style({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
+  ':focus': {
+    outline: `${theme.sizes[0.5]} solid ${theme.themeColors.accent.base}`,
+  },
 });

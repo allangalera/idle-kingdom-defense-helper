@@ -3,12 +3,14 @@
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Tooltip from '$lib/components/Tooltip/index.svelte';
+  import type { HeroType } from '$lib/db/heroes';
   import { HeroesVisualizationModes } from '$lib/enums';
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
+  import { calculateHeroStats } from '$lib/utils/hero';
   import { getRuneById } from '$lib/utils/runes';
   import { match } from 'oxide.ts';
   import * as R from 'remeda';
@@ -112,45 +114,6 @@
     removeHero(hero.id);
   };
 
-  const calculateHeroStats = (currhero, currUserHero) => {
-    let heroStats = R.pick(currhero, [
-      'atk',
-      'atkSpeed',
-      'cri',
-      'criDamage',
-      'criDamageResist',
-      'criResist',
-      'def',
-      'defPierce',
-      'dodge',
-      'hit',
-      'hp',
-      'incAtk',
-      'incDef',
-      'incHp',
-      'moveSpeed',
-    ]);
-
-    const firstCritDmgRune = getRuneById(1);
-    const firstAtkRune = getRuneById(2);
-
-    const currentLevel = currUserHero?.level ?? 1;
-
-    const currentGrade = currUserHero?.grade ?? currhero.baseGrade;
-
-    const currentAscension = currhero.ascension.find((asc) => asc.grade === currentGrade);
-
-    heroStats.criDamage += firstCritDmgRune.abilityInitMin;
-
-    heroStats.hp = (heroStats.hp + heroStats.incHp * (currentLevel - 1)) * currentAscension.incHp;
-    heroStats.def =
-      (heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
-    heroStats.atk =
-      (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk +
-      firstAtkRune.abilityInitMin;
-    return heroStats;
-  };
-
   const calculateDPS = (stats) => {
     const criRatio = stats.cri / 10000;
     const criDamageRatio = stats.criDamage / 10000;
@@ -178,7 +141,9 @@
       <div class={styles.infoContainer}>
         <div class={styles.basicInfo}>
           <div class={styles.heroNameAndTier}>
-            <Text fontSize="base" fontWeight="bold">{hero.name}</Text>
+            <a href={`/heroes/${hero.name.toLowerCase()}`}>
+              <Text fontSize="base" fontWeight="bold">{hero.name}</Text></a
+            >
             <img
               loading="lazy"
               class={styles.tierIcon}

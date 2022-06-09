@@ -1,4 +1,5 @@
 import { browser } from '$app/env';
+import type { HeroGearEquip } from '$lib/enums';
 import {
   append,
   clone,
@@ -12,12 +13,19 @@ import {
   pathOr,
   propEq,
 } from 'ramda';
+import * as R from 'remeda';
 import { writable } from 'svelte/store';
 
 type Hero = {
   id: number;
   level: number;
   grade: number;
+  equip?: {
+    [HeroGearEquip.weapon]?: number | null;
+    [HeroGearEquip.helmet]?: number | null;
+    [HeroGearEquip.chest]?: number | null;
+    [HeroGearEquip.boots]?: number | null;
+  };
 };
 
 type HeroesStore = {
@@ -73,6 +81,36 @@ export const removeHero = (id: number) => {
     });
   });
   return true;
+};
+
+export const addOrUpdateHeroGear = (heroId, gearType, grade) => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.equip) hero.equip = {};
+        hero.equip[gearType] = grade;
+      }
+      return hero;
+    });
+    return mergeDeepRight(currentData, {
+      heroes: newHeroes,
+    });
+  });
+};
+
+export const removeHeroGear = (heroId, gearType) => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.equip) hero.equip = {};
+        hero.equip[gearType] = null;
+      }
+      return hero;
+    });
+    return mergeDeepRight(currentData, {
+      heroes: newHeroes,
+    });
+  });
 };
 
 heroes.subscribe((value) => {

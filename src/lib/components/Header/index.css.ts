@@ -6,6 +6,9 @@ export const header = style({
   top: 0,
   zIndex: 1000,
   gridArea: 'header',
+  borderBottomColor: theme.themeColors.border.default,
+  borderBottomStyle: 'solid',
+  borderBottomWidth: theme.sizes.px,
 });
 
 export const container = style({

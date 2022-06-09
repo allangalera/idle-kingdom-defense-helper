@@ -13,12 +13,12 @@
   let selectedLevel = convertedGrade.level - 1;
 
   const imagesByGrade = {
-    [RarityEnum.common]: 'images/icons/iconStarBig1.png',
-    [RarityEnum.uncommon]: 'images/icons/iconStarBig2.png',
-    [RarityEnum.rare]: 'images/icons/iconStarBig3.png',
-    [RarityEnum.epic]: 'images/icons/iconStarBig4.png',
-    [RarityEnum.legendary]: 'images/icons/iconStarBig5.png',
-    [RarityEnum.mythic]: 'images/icons/iconStarBig6.png',
+    [RarityEnum.common]: '/images/icons/iconStarBig1.png',
+    [RarityEnum.uncommon]: '/images/icons/iconStarBig2.png',
+    [RarityEnum.rare]: '/images/icons/iconStarBig3.png',
+    [RarityEnum.epic]: '/images/icons/iconStarBig4.png',
+    [RarityEnum.legendary]: '/images/icons/iconStarBig5.png',
+    [RarityEnum.mythic]: '/images/icons/iconStarBig6.png',
   };
 
   const getRarityGrade = (rarity: RarityEnum) => {

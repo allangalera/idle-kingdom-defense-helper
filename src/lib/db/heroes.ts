@@ -1,4 +1,5 @@
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
+import gearJSON from '$lib/gameInfo/gear.json';
 import heroConstJSON from '$lib/gameInfo/heroConst.json';
 import heroGradeInfoJSON from '$lib/gameInfo/heroGradeInfo.json';
 import heroGradesJSON from '$lib/gameInfo/heroGrades.json';
@@ -9,6 +10,14 @@ import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
 import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
 import type { Hero } from '$lib/types';
 import * as R from 'remeda';
+
+export type RawHeroType = typeof heroesJSON[number];
+
+export type AscensionType = typeof heroGradesJSON[number];
+
+export type HeroType = RawHeroType & {
+  ascension: AscensionType[];
+};
 
 function getHeroAscension(heroId: number) {
   return heroGradesJSON.filter((heroGrade) => heroGrade.heroId === heroId);
@@ -152,3 +161,5 @@ export const heroLvCost = heroLvCostJSON;
 export const MAX_HERO_LEVEL = heroGradeInfoJSON.slice(-1)[0].maxLv;
 
 export const MAX_HERO_GRADE = heroConstJSON.HERO.MAX_GRADE;
+
+export const gears = gearJSON;

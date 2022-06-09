@@ -5,7 +5,7 @@
 
   export let type = 'click';
   export let disabled = false;
-  export let variant: 'primary' | 'secondary' | 'danger' | 'success' = 'primary';
+  export let variant: 'primary' | 'secondary' | 'danger' | 'success' | 'logic' = 'primary';
 
   const backgroundColors = {
     primary: {
@@ -18,6 +18,7 @@
       darkMode: 'green9',
       lightMode: 'green9',
     },
+    logic: 'transparent',
   } as const;
 
   const backgroundDisabledColors = {
@@ -34,6 +35,7 @@
       darkMode: 'green4',
       lightMode: 'green9',
     },
+    logic: 'transparent',
   } as const;
 
   const borderColors = {
@@ -47,6 +49,7 @@
       darkMode: 'green9',
       lightMode: 'green9',
     },
+    logic: 'transparent',
   } as const;
   const borderDisabledColors = {
     primary: {
@@ -62,6 +65,7 @@
       darkMode: 'green4',
       lightMode: 'green9',
     },
+    logic: 'transparent',
   } as const;
 </script>
 

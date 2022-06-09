@@ -23,6 +23,31 @@ export enum RarityEnum {
   mythic = 'mythic',
 }
 
+export const HeroGearEquipOptions = {
+  weapon: 'weapon',
+  chest: 'chest',
+  helmet: 'helmet',
+  boots: 'boots',
+} as const;
+
+export const Attributes = {
+  atk: 'atk',
+  atkSpeed: 'atkSpeed',
+  cri: 'cri',
+  criDamage: 'criDamage',
+  criDamageResist: 'criDamageResist',
+  criResist: 'criResist',
+  def: 'def',
+  defPierce: 'defPierce',
+  defPierceResist: 'defPierceResist',
+  dodge: 'dodge',
+  hit: 'hit',
+  hp: 'hp',
+  moveSpeed: 'moveSpeed',
+} as const;
+
+export type HeroGearEquipTypes = keyof typeof HeroGearEquipOptions;
+
 export enum HeroGearEquip {
   weapon = 'weapon',
   chest = 'chest',

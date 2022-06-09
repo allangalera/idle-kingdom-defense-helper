@@ -2,6 +2,7 @@
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import type { CardGearType } from '$lib/types';
+  import { match } from 'oxide.ts';
 
   import * as styles from './index.css';
 
@@ -69,13 +70,20 @@
 
   function getGearImagePath(gearType: CardGearType) {
     const { type, equip, rarity } = gearType;
-    if (type === 'hero') {
-      return `images/gear/${gearOptions[type]}_${heroGearEquip[equip]}${gearRarity[rarity]}.png`;
-    } else if (type === 'blueprint') {
-      return `images/blueprint/${gearOptions[type]}${gearRarity[rarity]}${blueprintGearEquip[equip]}.png`;
-    }
-
-    return `images/gear/${gearOptions[type]}${gearRarity[rarity]}${archerGearEquip[equip]}.png`;
+    return match(type, [
+      [
+        'hero',
+        `/images/gear/${gearOptions[type]}_${heroGearEquip[equip]}${gearRarity[rarity]}.png`,
+      ],
+      [
+        'blueprint',
+        `/images/blueprint/${gearOptions[type]}${gearRarity[rarity]}${blueprintGearEquip[equip]}.png`,
+      ],
+      [
+        'archer',
+        `/images/gear/${gearOptions[type]}${gearRarity[rarity]}${archerGearEquip[equip]}.png`,
+      ],
+    ]);
   }
 </script>
 

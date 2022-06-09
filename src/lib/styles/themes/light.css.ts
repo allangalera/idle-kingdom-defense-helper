@@ -39,8 +39,8 @@ export const lightTheme = createTheme(themeColors, {
     default: '#E6E6E6',
   },
   border: {
-    default: '#CCCCCC',
-    hover: '#999999',
+    default: gray.gray7,
+    hover: gray.gray9,
   },
   accent: {
     base: '#783cb7',

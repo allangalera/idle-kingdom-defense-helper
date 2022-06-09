@@ -6,4 +6,7 @@ export const container = style({
   maxHeight: '100vh',
   gridArea: 'menu',
   width: theme.sizes.max,
+  borderRightColor: theme.themeColors.border.default,
+  borderRightStyle: 'solid',
+  borderRightWidth: theme.sizes.px,
 });
