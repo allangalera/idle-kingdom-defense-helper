@@ -12,7 +12,7 @@ export const container = style({
 
 export const resultsContainer = style({
   display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+  gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
   gap: theme.space[4],
   width: theme.sizes.full,
 });
@@ -28,4 +28,10 @@ export const flex = style({
   padding: theme.space[2],
   justifyContent: 'center',
   alignItems: 'center',
+});
+
+export const icon = style({
+  width: theme.sizes[6],
+  height: 'auto',
+  verticalAlign: 'middle',
 });

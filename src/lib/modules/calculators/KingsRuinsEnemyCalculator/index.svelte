@@ -2,6 +2,7 @@
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
+  import { ruinConst } from '$lib/db/ruins';
   import { stage } from '$lib/shared/stores/user/stage';
   import { getEnemyPattern } from '$lib/utils/ruins';
 
@@ -36,7 +37,19 @@
   <div class={styles.resultsContainer}>
     {#each enemyPattern as enemies, idx}
       <div class={styles.flex}>
-        <Text fontSize="lg">{idx + 1}</Text>
+        <div>
+          <Text fontSize="lg" textAlign="center">{idx + 1}</Text>
+          {#if ruinConst.REWARD.CASH[idx]}
+            <Text
+              >{ruinConst.REWARD.CASH[idx]}<img
+                class={styles.icon}
+                loading="lazy"
+                src={`images/icons/iconRuby.png`}
+                alt="enemy"
+              /></Text
+            >
+          {/if}
+        </div>
         {#each Object.keys(enemies) as enemy}
           {#if enemies[enemy].unitType === 5}
             <img
