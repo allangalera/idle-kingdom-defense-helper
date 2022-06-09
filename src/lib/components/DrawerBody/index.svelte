@@ -11,7 +11,7 @@
   export let footerJustifyContent: Sprinkles['justifyContent'] = 'flex-start';
 </script>
 
-<div class={styles.container} on:click|stopPropagation>
+<div class={styles.container}>
   <div class={styles.header}>
     <div class={styles.headerContainer}>
       <slot name="header" />
