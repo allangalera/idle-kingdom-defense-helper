@@ -59,7 +59,7 @@ export const addOrUpdateHero = (hero: Hero) => {
     const clonedHeroes = clone(pathOr([], ['heroes'], currentData));
     const findIndex = clonedHeroes.findIndex((el) => el.id === hero.id);
 
-    if (findIndex !== -1) clonedHeroes[findIndex] = hero;
+    if (findIndex !== -1) clonedHeroes[findIndex] = { ...clonedHeroes[findIndex], ...hero };
     else clonedHeroes.push(hero);
 
     return mergeDeepRight(currentData, {

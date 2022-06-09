@@ -1,7 +1,6 @@
 <script lang="ts">
   import Button from '$lib/components/Button/index.svelte';
   import CardHero from '$lib/components/CardHero/index.svelte';
-  import GridItem from '$lib/components/GridItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -9,8 +8,7 @@
   import Equipments from '$lib/modules/hero/components/Equipments/index.svelte';
   import Stats from '$lib/modules/hero/components/Stats/index.svelte';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
-  import { getIdleKingdomNumberFormat } from '$lib/utils';
-  import { calculateHeroStats, returnAttributeName } from '$lib/utils/hero';
+  import { calculateHeroStats } from '$lib/utils/hero';
   import * as R from 'remeda';
 
   import * as styles from './index.css';
