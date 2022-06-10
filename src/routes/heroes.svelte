@@ -9,7 +9,6 @@
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
   import { matchSorter } from 'match-sorter';
-  import { pathOr, without } from 'ramda';
 
   import * as styles from './heroes.css';
 
@@ -31,12 +30,12 @@
   function onChangeSearchKeys(event) {
     const { value, checked } = event.target;
     if (checked) searchKeys = [...searchKeys, value];
-    else searchKeys = without([value], searchKeys);
+    else searchKeys = searchKeys.filter((key) => key !== value);
   }
 
   function searchHero(input, keys) {
     let userHeroes = heroes.map((hero) => {
-      let userHero = pathOr([], ['heroes'], $heroesStore).find((userH) => userH.id === hero.id);
+      let userHero = ($heroesStore.heroes ?? []).find((userH) => userH.id === hero.id);
       return {
         ...hero,
         ...userHero,

@@ -5,7 +5,6 @@
   import Text from '$lib/components/Text/index.svelte';
   import { ArcherGearEquip } from '$lib/enums';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import type { Grades } from '$lib/types';
   import { getEquipData } from '$lib/utils/archer';
 
   import * as styles from './index.css';
@@ -13,10 +12,10 @@
   let selectedEquip: ArcherGearEquip = ArcherGearEquip.bow;
   let selectedTierStart = '0';
   let selectedTierEnd = '0';
-  let selectedStartLevel: Grades = 1;
+  let selectedStartLevel: number = 1;
   let startEnhanceLevel = '0';
   let endEnhanceLevel = '0';
-  let selectedEndLevel: Grades = 2;
+  let selectedEndLevel: number = 2;
 
   let fromEquip;
   let toEquip;

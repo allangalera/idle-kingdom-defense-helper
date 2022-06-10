@@ -1,7 +1,8 @@
 import { browser } from '$app/env';
-import { is, mergeDeepRight } from 'ramda';
+import { MAX_STAGE_LEVEL } from '$lib/constants';
 import * as R from 'remeda';
 import { writable } from 'svelte/store';
+import { z } from 'zod';
 
 type stageFarmCompareData = {
   id: string;
@@ -20,13 +21,23 @@ const initialStage = browser ? JSON.parse(window.localStorage.getItem(STAGE_STOR
 export const stage = writable<StageStore>(initialStage);
 
 export const updateStage = (stageLevel: number) => {
-  if (!is(Number, stageLevel)) return false;
-  stage.update((currentStage) => mergeDeepRight(currentStage, { stage: stageLevel }));
+  const { success } = z.number().gt(0).lte(MAX_STAGE_LEVEL).safeParse(stageLevel);
+
+  if (!success) return false;
+
+  stage.update((currentStage) => R.merge(currentStage, { stage: stageLevel }));
   return true;
 };
 
 export const addStageToFarmCompare = (data: stageFarmCompareData) => {
-  if (!R.isNumber(data.stage) || !R.isNumber(data.seconds)) return false;
+  const schema = z.object({
+    stage: z.number().gt(0).lte(MAX_STAGE_LEVEL),
+    seconds: z.number().gt(0),
+  });
+
+  const { success } = schema.safeParse(data);
+
+  if (!success) return false;
 
   stage.update((currentStageData) => {
     const temp = R.merge(currentStageData, {

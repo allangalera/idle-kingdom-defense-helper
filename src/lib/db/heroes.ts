@@ -1,3 +1,4 @@
+import { HeroGearEquipOptions } from '$lib/enums';
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import gearJSON from '$lib/gameInfo/gear.json';
 import heroConstJSON from '$lib/gameInfo/heroConst.json';
@@ -8,16 +9,29 @@ import heroesJSON from '$lib/gameInfo/heroes.json';
 import langJSON from '$lib/gameInfo/lang.json';
 import mainSkillJSON from '$lib/gameInfo/mainSkill.json';
 import summonSkillJSON from '$lib/gameInfo/summonSkill.json';
-import type { Hero } from '$lib/types';
+import type { Skill } from '$lib/types';
 import * as R from 'remeda';
 
 export type RawHeroType = typeof heroesJSON[number];
 
 export type AscensionType = typeof heroGradesJSON[number];
 
-export type HeroType = RawHeroType & {
-  ascension: AscensionType[];
+export type UserHero = {
+  id: number;
+  level: number;
+  grade: number;
+  equip?: {
+    [HeroGearEquipOptions.weapon]?: number | null;
+    [HeroGearEquipOptions.helmet]?: number | null;
+    [HeroGearEquipOptions.chest]?: number | null;
+    [HeroGearEquipOptions.boots]?: number | null;
+  };
 };
+
+export type HeroType = Omit<RawHeroType, 'skillKey' | 'assetId' | 'img'> & {
+  ascension: AscensionType[];
+  skills: Skill[];
+} & Partial<UserHero>;
 
 function getHeroAscension(heroId: number) {
   return heroGradesJSON.filter((heroGrade) => heroGrade.heroId === heroId);
@@ -130,7 +144,7 @@ function getHeroSkills(hero: any, ascension: any) {
   return skills;
 }
 
-function generateHeroList() {
+const generateHeroList = (): HeroType[] => {
   const heroes = heroesJSON.map((hero) => {
     const ascension = getHeroAscension(hero.id);
     const skills = getHeroSkills(hero, ascension);
@@ -142,9 +156,9 @@ function generateHeroList() {
     };
   });
   return heroes;
-}
+};
 
-export const defaultSortingHeroes = (heroes: Hero[]) =>
+export const defaultSortingHeroes = (heroes: HeroType[]) =>
   R.sortBy(
     heroes,
     [(x) => !!x.level, 'desc'],

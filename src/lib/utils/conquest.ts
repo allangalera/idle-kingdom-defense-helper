@@ -1,13 +1,15 @@
-import { ascend, descend, prop, sortWith } from 'ramda';
+import * as R from 'remeda';
 
 import { romanize } from './index';
 
-export const sortKingdomByAscensionStoneAndCoin = sortWith([
-  descend(prop('rewardEvolve')),
-  descend(prop('rewardGold')),
-]);
+export const sortKingdomByAscensionStoneAndCoin = R.sortBy<{
+  rewardEvolve: number;
+  rewardGold: number;
+}>([(x) => x.rewardEvolve, 'desc'], [(x) => x.rewardGold, 'desc']);
 
-export const sortKingdomById = sortWith([ascend(prop('id'))]);
+export const sortKingdomById = R.sortBy<{
+  id: number;
+}>([(x) => x.id, 'asc']);
 
 export const kingdomNameToRomanNumber = (kingdomName: string) => {
   const kingdomNumber = +kingdomName.replace('Kingdom', '');

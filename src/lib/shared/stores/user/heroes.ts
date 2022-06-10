@@ -1,24 +1,13 @@
 import { browser } from '$app/env';
 import { MAX_HERO_GRADE, MAX_HERO_LEVEL } from '$lib/db/heroes';
-import type { HeroGearEquip, HeroGearEquipTypes } from '$lib/enums';
+import type { UserHero } from '$lib/db/heroes';
+import type { HeroGearEquipTypes } from '$lib/enums';
 import * as R from 'remeda';
 import { writable } from 'svelte/store';
 import { z } from 'zod';
 
-type Hero = {
-  id: number;
-  level: number;
-  grade: number;
-  equip?: {
-    [HeroGearEquip.weapon]?: number | null;
-    [HeroGearEquip.helmet]?: number | null;
-    [HeroGearEquip.chest]?: number | null;
-    [HeroGearEquip.boots]?: number | null;
-  };
-};
-
 type HeroesStore = {
-  heroes: Hero[];
+  heroes: UserHero[];
 };
 
 const HEROES_STORE_KEY = 'HEROES_STORE_KEY';
@@ -27,7 +16,7 @@ const initialState = browser ? JSON.parse(window.localStorage.getItem(HEROES_STO
 
 export const heroes = writable<HeroesStore>(initialState);
 
-export const addHero = (hero: Hero) => {
+export const addHero = (hero: UserHero) => {
   const schema = z.object({
     id: z.number(),
     level: z.number().gt(0).lte(MAX_HERO_LEVEL),
@@ -49,7 +38,7 @@ export const addHero = (hero: Hero) => {
   return true;
 };
 
-export const addOrUpdateHero = (hero: Hero) => {
+export const addOrUpdateHero = (hero: UserHero) => {
   const schema = z.object({
     id: z.number().gt(0),
     level: z.number().gt(0).lte(MAX_HERO_LEVEL),

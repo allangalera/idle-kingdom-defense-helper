@@ -6,7 +6,6 @@
   import Portal from '$lib/components/Portal/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { addOrUpdateHeroGear, removeHeroGear } from '$lib/shared/stores/user/heroes';
-  import type { Grades } from '$lib/types';
   import { capitalCase } from 'change-case';
 
   import * as styles from './index.css';
@@ -17,7 +16,7 @@
   export let userHero;
   export let gearType;
 
-  let userHeroGrade: Grades = userHero?.equip?.[gearType] ?? 1;
+  let userHeroGrade = userHero?.equip?.[gearType] ?? 1;
 
   const onSubmit = () => {
     addOrUpdateHeroGear(hero.id, gearType, userHeroGrade);

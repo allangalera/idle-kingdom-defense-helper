@@ -12,38 +12,6 @@ export type Rarity = keyof typeof RarityEnum;
 
 export type UpgradeLevel = 1 | 2 | 3 | 4 | 5;
 
-export type Grades =
-  | 1
-  | 2
-  | 3
-  | 4
-  | 5
-  | 6
-  | 7
-  | 8
-  | 9
-  | 10
-  | 11
-  | 12
-  | 13
-  | 14
-  | 15
-  | 16
-  | 17
-  | 18
-  | 19
-  | 20
-  | 21
-  | 22
-  | 23
-  | 24
-  | 25
-  | 26
-  | 27
-  | 28
-  | 29
-  | 30;
-
 export type HeroType = keyof typeof HeroTypes;
 
 export type HeroGear = {
@@ -91,7 +59,7 @@ export type Hero = {
   name: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   skills: Skill[];
-  grade?: Grades;
+  grade?: number;
   level?: number;
   baseGrade: number;
 };

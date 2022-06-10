@@ -1,12 +1,11 @@
 <script lang="ts">
   import { RarityEnum } from '$lib/enums';
-  import type { Grades } from '$lib/types';
   import { convertGradeToStarLevel } from '$lib/utils';
   import { match } from 'oxide.ts';
 
   import * as styles from './index.css';
 
-  export let grade: Grades = 1;
+  export let grade = 1;
 
   let convertedGrade = convertGradeToStarLevel(grade);
   let selectedRarity = convertedGrade.rarity;
@@ -42,7 +41,7 @@
 
   const calculateGrade = (rarity, level) => {
     let rarityGrade = getRarityGrade(rarity);
-    grade = (rarityGrade + level) as Grades;
+    grade = rarityGrade + level;
   };
 
   $: calculateGrade(selectedRarity, selectedLevel);

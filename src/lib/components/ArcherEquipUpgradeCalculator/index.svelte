@@ -4,12 +4,11 @@
   import Text from '$lib/components/Text/index.svelte';
   import { archerPromoteProgressionByGrade } from '$lib/db/archer';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import type { Grades } from '$lib/types';
 
   import * as styles from './index.css';
 
-  let selectedStartLevel: Grades = 1 as Grades;
-  let selectedEndLevel: Grades = 2 as Grades;
+  let selectedStartLevel = 1;
+  let selectedEndLevel = 2;
   let steelCost = 0;
 
   function calculateCost(startLevel, endLevel) {

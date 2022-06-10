@@ -4,13 +4,12 @@
   import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import type { Grades } from '$lib/types';
   import { calculateAscendCost } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
-  let selectedStartGrade: Grades = 1 as Grades;
-  let selectedEndGrade: Grades = 2 as Grades;
+  let selectedStartGrade = 1;
+  let selectedEndGrade = 2;
 
   let shardsCost = 0;
   let ascensionStonesCost = 0;

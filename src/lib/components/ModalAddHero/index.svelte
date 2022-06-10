@@ -8,7 +8,6 @@
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_HERO_LEVEL } from '$lib/db/heroes';
   import { addOrUpdateHero } from '$lib/shared/stores/user/heroes';
-  import type { Grades } from '$lib/types';
 
   import * as styles from './index.css';
 
@@ -17,7 +16,7 @@
   export let hero;
   export let userHero = null;
 
-  let userHeroGrade: Grades = userHero?.grade || hero.baseGrade;
+  let userHeroGrade = userHero?.grade || hero.baseGrade;
   let userHeroLevel: string = userHero?.level?.toString() || '1';
 
   const onSubmit = () => {

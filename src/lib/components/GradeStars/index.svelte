@@ -1,13 +1,12 @@
 <script lang="ts">
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
-  import type { Grades } from '$lib/types';
   import { convertGradeToStarLevel } from '$lib/utils';
 
   export let grade: number;
   export let size: Sprinkles['width'] = 8;
 
-  const data = convertGradeToStarLevel(grade as Grades);
+  const data = convertGradeToStarLevel(grade);
 </script>
 
 {#each { length: data.level } as level}

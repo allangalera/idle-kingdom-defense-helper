@@ -8,7 +8,7 @@ import {
 } from '$lib/db/stage';
 import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
 import { match } from 'oxide.ts';
-import { equals } from 'ramda';
+import * as R from 'remeda';
 
 export const calculateHeroDropFromStage = (stage) => {
   const stageDrops = [
@@ -43,14 +43,14 @@ export const validateIfGearIsValid = (currentBestGear, stageGear, wanted) => {
   if (!currentBestGear.hero && !currentBestGear.archer) return false;
 
   if (hasHeroGear && hasArcherGear) {
-    return equals(currentBestGear, stageGear);
+    return R.equals(currentBestGear, stageGear);
   } else if (hasHeroGear && !hasArcherGear) {
-    return equals(currentBestGear.hero, stageGear.hero);
+    return R.equals(currentBestGear.hero, stageGear.hero);
   } else if (!hasHeroGear && hasArcherGear) {
-    return equals(currentBestGear.archer, stageGear.archer);
+    return R.equals(currentBestGear.archer, stageGear.archer);
   }
 
-  return equals(currentBestGear, stageGear);
+  return R.equals(currentBestGear, stageGear);
 };
 
 export const returnItemLevelDropFromStage = (stage) => {
