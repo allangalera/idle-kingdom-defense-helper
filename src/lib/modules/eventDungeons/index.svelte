@@ -5,6 +5,7 @@
   import Text from '$lib/components/Text/index.svelte';
   import Heading from '$lib/components/Text/index.svelte';
   import { eventDungeons } from '$lib/db/event-dungeons';
+  import { shopConst } from '$lib/db/shop';
   import { stage } from '$lib/shared/stores/user/stage';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import * as tableStyles from '$lib/styles/table.css';
@@ -34,7 +35,9 @@
           const init = stageReward.idle.soulInit;
           const inc = stageReward.idle.soulInc;
           const dLv = Math.max(0, stage - stageReward.idle.lv);
-          const tic = Math.floor((reward.h * 60 * 60) / 5) * 2;
+          const tic =
+            Math.floor((reward.h * 60 * 60) / 5) *
+            (1 + shopConst.EFFECTOR_DATA_IDLE_SOUL.slice(-1)[0]);
           return (init + dLv * inc) * tic;
         },
       ],
@@ -54,7 +57,9 @@
           const init = stageReward.idle.goldInit;
           const inc = stageReward.idle.goldInc;
           const dLv = Math.max(0, stage - stageReward.idle.lv);
-          const tic = Math.floor((reward.h * 60 * 60) / 5) * 2;
+          const tic =
+            Math.floor((reward.h * 60 * 60) / 5) *
+            (1 + shopConst.EFFECTOR_DATA_IDLE_GOLD.slice(-1)[0]);
           return (init + dLv * inc) * tic;
         },
       ],
