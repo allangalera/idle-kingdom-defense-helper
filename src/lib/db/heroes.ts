@@ -18,8 +18,8 @@ export type AscensionType = typeof heroGradesJSON[number];
 
 export type UserHero = {
   id: number;
-  level: number;
-  grade: number;
+  level?: number;
+  grade?: number;
   equip?: {
     [HeroGearEquipOptions.weapon]?: number | null;
     [HeroGearEquipOptions.helmet]?: number | null;

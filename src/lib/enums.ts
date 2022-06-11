@@ -67,7 +67,6 @@ export enum ArcherGearEquip {
 export enum HeroesVisualizationModes {
   compact = 'compact',
   minimal = 'minimal',
-  detailed = 'detailed',
 }
 
 export enum HeroesSearchValues {

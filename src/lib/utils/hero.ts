@@ -118,6 +118,30 @@ const returnSetStats = (heroGears: HeroGears) => {
   return R.pick(gearAttr, ['setEffectValue1', 'setEffectValue2', 'setEffectValue3']);
 };
 
+const returnSkillStats = (hero) => {
+  // console.log({ skills });
+  for (const skill of hero.skills) {
+    // console.log(skill.name);
+    // console.log(skill.desc);
+    for (const [index, skillLevel] of skill.progression.entries()) {
+      // console.log(skillLevel.effectType);
+      if (skillLevel.addType !== 3) break;
+      const effectToStats = match(skillLevel.effectType, [
+        [6, 'crit chance'],
+        [7, 'crit resist'],
+        [8, 'crit dmg'],
+        [9, 'accuracy'],
+        [1, 'atk speed'],
+        () => 'none',
+      ]);
+      if (effectToStats !== 'none') {
+        // console.log(index, effectToStats);
+      }
+    }
+  }
+  return hero.skills;
+};
+
 export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   const heroStats = R.pick(hero, [
     'atk',
@@ -148,6 +172,7 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   heroStats.def = (heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
   heroStats.atk = (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk;
 
+  // apply equip stats if available
   const equipStats = returnGearAttributes(heroUserData?.equip);
 
   R.mapKeys(equipStats, (key, value) => {
@@ -157,19 +182,24 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     return (heroStats[key] += value);
   });
 
-  // apply runes if available
-  const firstCritDmgRune = getRuneById(1);
-  const firstAtkRune = getRuneById(2);
-  heroStats.criDamage += firstCritDmgRune.abilityInitMin;
-  heroStats.atk += firstAtkRune.abilityInitMin;
-
   // apply set stats if available
+  // TODO: set can also be incomplete
   const equipSetStats = returnSetStats(heroUserData?.equip);
   if (equipSetStats) {
     heroStats.criDamage *= 1 + equipSetStats.setEffectValue1;
     heroStats.defPierce *= 1 + equipSetStats.setEffectValue2;
     heroStats.atk *= 1 + equipSetStats.setEffectValue3;
   }
+
+  // apply skills attributes
+  const skills = returnSkillStats(hero);
+  // console.log({ skills });
+
+  // apply runes if available
+  const firstCritDmgRune = getRuneById(1);
+  const firstAtkRune = getRuneById(2);
+  heroStats.criDamage += firstCritDmgRune.abilityInitMin;
+  heroStats.atk += firstAtkRune.abilityInitMin;
   return heroStats;
 };
 
@@ -190,4 +220,251 @@ export const returnAttributeName = (attr: keyof typeof Attributes) => {
     [Attributes.moveSpeed, 'Movement Speed'],
     () => attr,
   ]);
+};
+
+export const calculateDPS = (stats) => {
+  const criRatio = stats.cri / 10000;
+  const criDamageRatio = stats.criDamage / 10000;
+  const normalDamage = stats.atk * stats.atkSpeed;
+  const criticalDamage = stats.atk * stats.atkSpeed * (1 + criDamageRatio);
+  const normalDamageRatio = Math.max(1 - criRatio, 0);
+  const criticalDamageRatio = Math.min(criRatio, 1);
+  return normalDamageRatio * normalDamage + criticalDamage * criticalDamageRatio;
+};
+
+export const formatSkillName = (name) => {
+  return name ? name.replace('{0}', '').trim() : name;
+};
+
+export const formatSkillDescription = (
+  skillDescription: string,
+  skill,
+  skillIndex,
+  heroGrade,
+  hero
+) => {
+  const { rarity, level } = convertGradeToRarityAndLevel(heroGrade);
+
+  const skillLevel = skill.progression[Math.max(skillIndex <= level ? rarity : rarity - 1, 0)];
+
+  const { effectType: skillEffectType, skillType, targetType, effectDurTime } = skill;
+
+  const { addType, effectType, value, durTime, percentage, units, time } = skillLevel;
+
+  if (!addType && !effectType) {
+    return match(`${skillType}-${skillEffectType}-${targetType}`, [
+      ['1-0-0', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+      ['1-0-1', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+      [
+        '2-1-3',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-2-2',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-2-3',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-3-4',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-5-4',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-51-4',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
+        '2-51-8',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      () => skillDescription.replace('{0}', units).replace('{1}', time),
+    ]);
+  }
+
+  return match(`${addType}-${effectType}`, [
+    ['1-1', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+    [
+      '1-2',
+      skillDescription
+        .replace('{1}', Math.round(value * 100).toString())
+        .replace('{0}', skill.effectDurTime),
+    ],
+    ['1-3', skillDescription.replace('{0}', (value - hero.skills[0].effectDurTime).toString())],
+    ['1-4', skillDescription.replace('{0}', value).replace('{1}', durTime)],
+    ['2-1', skillDescription.replace('{2}', Math.round(value * 100).toString())],
+    ['2-3', skillDescription.replace('{2}', Math.round(value * 100).toString())],
+    ['2-6', skillDescription.replace('{2}', Math.round(value * 100).toString())],
+    ['2-8', skillDescription.replace('{2}', Math.round(value * 100).toString())],
+    [
+      '2-21',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime)
+        .replace('{2}', Math.round(value * 100).toString()),
+    ],
+    [
+      '2-22',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime)
+        .replace('{2}', Math.round(value * 100).toString()),
+    ],
+    [
+      '2-23',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    [
+      '2-24',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime)
+        .replace('{2}', Math.round(value * 100).toString()),
+    ],
+    [
+      '2-99',
+      () => {
+        if (value) {
+          return skillDescription.replace('{2}', Math.round(value * 100).toString());
+        }
+        if (percentage) {
+          return skillDescription.replace('{0}', Math.round(percentage * 100).toString());
+        }
+        return skillDescription.replace('{1}', durTime);
+      },
+    ],
+    [
+      '2-101',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    [
+      '2-102',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    [
+      '2-103',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    ['3-1', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+    ['3-501', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+    ['3-502', skillDescription.replace('{0}', Math.round(value * 100).toString())],
+    [(x) => Boolean(x.match('3-')), skillDescription.replace('{0}', value)],
+    [
+      '4-102',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    [
+      '4-103',
+      skillDescription
+        .replace('{0}', Math.round(percentage * 100).toString())
+        .replace('{1}', durTime),
+    ],
+    () => skillDescription.replace('{0}', Math.round(value * 100).toString()),
+  ]);
+};
+
+export const formatSkillValue = (hero, skill, progressionAttributes) => {
+  const { effectType: skillEffectType, skillType, targetType, effectDurTime } = skill;
+  const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
+
+  if (!addType && !effectType) {
+    return match(`${skillType}-${skillEffectType}-${targetType}`, [
+      ['1-0-0', `${Math.round(value * 100)}%`],
+      ['1-0-1', `${Math.round(value * 100)}%`],
+      ['2-1-3', `${Math.round(value * 100)}%`],
+      ['2-2-2', `${Math.round(value * 100)}%`],
+      ['2-2-3', `${Math.round(value * 100)}%`],
+      ['2-3-4', `${Math.round(value * 100)}%`],
+      ['2-5-4', `${Math.round(value * 100)}%`],
+      ['2-51-4', `${Math.round(value * 100)}%`],
+      ['2-51-8', `${Math.round(value * 100)}%`],
+      () => `${units}|${time}s`,
+    ]);
+  }
+
+  return match(`${addType}-${effectType}`, [
+    ['1-3', `${value - hero.skills[0].effectDurTime}s`],
+    ['1-4', `${value}|${durTime}s`],
+    ['2-1', `${Math.round(value * 100)}%`],
+    ['2-3', `${Math.round(value * 100)}%`],
+    ['2-8', `${Math.round(value * 100)}%`],
+    [
+      '2-99',
+      () => {
+        if (value) {
+          return `${Math.round(value * 100)}%`;
+        }
+        if (percentage) {
+          return `${Math.round(percentage * 100)}%`;
+        }
+
+        return `${durTime}s`;
+      },
+    ],
+    [(x) => Boolean(x.match('2-')), `${Math.round(percentage * 100)}%`],
+    ['3-1', Math.round(value * 100)],
+    ['3-501', `${Math.round(value * 100)}%`],
+    ['3-502', `${Math.round(value * 100)}%`],
+    [(x) => Boolean(x.match('3-')), value],
+    ['4-102', `${Math.round(percentage * 100)}%`],
+    ['4-103', `${Math.round(percentage * 100)}%`],
+    () => `${Math.round(value * 100)}%`,
+  ]);
+};
+
+export const isCurrentSkillLevel = (
+  grade: number,
+  skillIndex: number,
+  skillProgressionIndex: number
+) => {
+  const { rarity, level } = convertGradeToRarityAndLevel(grade);
+
+  if (rarity === skillProgressionIndex && skillIndex <= level) return true;
+  if (skillIndex > level && rarity - 1 === skillProgressionIndex) return true;
+
+  return false;
+};
+
+export const convertGradeToRarityAndLevel = (grade: number): { rarity: number; level: number } => {
+  const level = match(grade % 5, [[0, 5], (n) => n]) - 1;
+
+  const rarity = match(grade / 5, [
+    [(n) => n <= 1, 0],
+    [(n) => n <= 2, 1],
+    [(n) => n <= 3, 2],
+    [(n) => n <= 4, 3],
+    [(n) => n <= 5, 4],
+    () => 5,
+  ]);
+
+  return { rarity, level };
 };

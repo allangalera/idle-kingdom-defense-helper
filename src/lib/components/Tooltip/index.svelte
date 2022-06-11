@@ -4,7 +4,7 @@
 
   import * as styles from './index.css';
 
-  export let text;
+  export let text = null;
 
   let open = false;
   let el;
@@ -20,7 +20,10 @@
       document.documentElement.clientWidth || 0,
       window.innerWidth || 0
     );
-    maxWidth = (viewportWidth - x) * 2 - 16;
+    const spaceOnTheLeft = (viewportWidth - x) * 2 - 16;
+    const spaceOnTheRight = (viewportWidth - (viewportWidth - x)) * 2 - 16;
+    maxWidth = Math.min(spaceOnTheLeft, spaceOnTheRight);
+
     if (!open) open = true;
   };
 
@@ -58,7 +61,10 @@
   <Portal>
     <div class={styles.container} style="top: {y}px; left: {x}px; max-width: {maxWidth}px">
       <div class={styles.tooltip}>
-        <Text textAlign="center">{text}</Text>
+        <slot name="tooltip-content" />
+        {#if text}
+          <Text textAlign="center">{text}</Text>
+        {/if}
       </div>
       <div class={styles.triangle} />
     </div>

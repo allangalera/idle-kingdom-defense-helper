@@ -10,11 +10,7 @@
   let tableStyle = 'default';
 
   heroesVisualization.subscribe((value) => {
-    tableStyle = match(value, [
-      [HeroesVisualizationModes.minimal, 'minimal'],
-      [HeroesVisualizationModes.detailed, 'detailed'],
-      () => 'default',
-    ]);
+    tableStyle = match(value, [[HeroesVisualizationModes.minimal, 'minimal'], () => 'default']);
   });
 </script>
 

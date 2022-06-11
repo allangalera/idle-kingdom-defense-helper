@@ -3,17 +3,19 @@
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Tooltip from '$lib/components/Tooltip/index.svelte';
-  import type { HeroType } from '$lib/db/heroes';
   import { HeroesVisualizationModes } from '$lib/enums';
   import { heroesVisualization } from '$lib/shared/stores/heroesVisualization';
   import { heroes, removeHero } from '$lib/shared/stores/user/heroes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';
   import { getIdleKingdomNumberFormat } from '$lib/utils';
-  import { calculateHeroStats } from '$lib/utils/hero';
-  import { getRuneById } from '$lib/utils/runes';
-  import { match } from 'oxide.ts';
-  import * as R from 'remeda';
+  import {
+    calculateHeroStats,
+    formatSkillDescription,
+    formatSkillName,
+    formatSkillValue,
+    isCurrentSkillLevel,
+  } from '$lib/utils/hero';
   import Icon from 'svelte-icons-pack/Icon.svelte';
   import RiDesignEdit2Fill from 'svelte-icons-pack/ri/RiDesignEdit2Fill';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
@@ -44,87 +46,12 @@
     5: 'red3',
   };
 
-  function formatSkillName(name) {
-    return name ? name.replace('{0}', '').trim() : name;
-  }
-
-  function formatSkillValue(progressionAttributes) {
-    const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
-
-    return match(addType, [
-      [
-        1,
-        match(effectType, [
-          [4, `${value}|${durTime}s`],
-          [3, `${value}s`],
-          () => `${Math.round(value * 100)}%`,
-        ]),
-      ],
-      [
-        2,
-        match(effectType, [
-          [9, `${durTime}s`],
-          [21, `${Math.round(percentage * 100)}%`],
-          [22, `${Math.round(percentage * 100)}%`],
-          [23, `${Math.round(percentage * 100)}%`],
-          [24, `${Math.round(percentage * 100)}%`],
-          [
-            99,
-            () => {
-              if (durTime) return `${durTime}s`;
-              if (percentage) return `${Math.round(percentage * 100)}%`;
-              return `${Math.round(value * 100)}%`;
-            },
-          ],
-          [101, `${Math.round(percentage * 100)}%`],
-          [102, `${Math.round(percentage * 100)}%`],
-          [103, `${Math.round(percentage * 100)}%`],
-          () => `${Math.round(value * 100)}%`,
-        ]),
-      ],
-      [
-        3,
-        match(effectType, [
-          [1, `${Math.round(value * 100)}%`],
-          [501, `${Math.round(value * 100)}%`],
-          [502, `${Math.round(value * 100)}%`],
-          () => value,
-        ]),
-      ],
-      [
-        4,
-        match(effectType, [
-          [102, `${Math.round(percentage * 100)}%`],
-          [103, `${Math.round(percentage * 100)}%|${durTime}s`],
-          () => `${Math.round(value * 100)}%`,
-        ]),
-      ],
-      () => {
-        if (units && time) return `${units}|${time}s`;
-        return `${Math.round(value * 100)}%`;
-      },
-    ]);
-  }
-
   const openAddModal = () => {
     addModalOpen = true;
   };
 
   const onRemoveHero = () => {
     removeHero(hero.id);
-  };
-
-  const calculateDPS = (stats) => {
-    const criRatio = stats.cri / 10000;
-    const criDamageRatio = stats.criDamage / 10000;
-    const normalDamage = stats.atk * stats.atkSpeed;
-    const criticalDamage = stats.atk * stats.atkSpeed * (1 + criDamageRatio);
-    const normalDamageRatio = Math.max(1 - criRatio, 0);
-    const criticalDamageRatio = Math.min(criRatio, 1);
-    return getIdleKingdomNumberFormat(
-      normalDamageRatio * normalDamage + criticalDamage * criticalDamageRatio,
-      2
-    );
   };
 
   heroes.subscribe((data) => {
@@ -209,12 +136,26 @@
     <div class={styles.tableItemRightMinimal}>
       {#each hero.skills as skill, i (skill.name)}
         <div class={styles.skillMinimal}>
-          <img
-            loading="lazy"
-            class={styles.skillImage}
-            src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
-            alt={formatSkillName(skill.name)}
-          />
+          <Tooltip>
+            <slot slot="tooltip-content">
+              <Text textAlign="center">{formatSkillName(skill.name)}</Text>
+              <Text textAlign="center"
+                >{formatSkillDescription(
+                  skill.desc,
+                  skill,
+                  i,
+                  hero.grade ?? hero.baseGrade,
+                  hero
+                )}</Text
+              >
+            </slot>
+            <img
+              loading="lazy"
+              class={styles.skillImage}
+              src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
+              alt={formatSkillName(skill.name)}
+            />
+          </Tooltip>
           {#each skill.progression as step, grade}
             <div
               class={[
@@ -222,64 +163,15 @@
                 sprinkles({
                   borderColor: borderColorByGrade[grade],
                   background: backgroundColorByGrade[grade],
+                  opacity: isCurrentSkillLevel(hero.grade ?? hero.baseGrade, i, grade) ? 1 : 0.5,
                 }),
               ].join(' ')}
             >
               <Text textAlign="center" fontSize="xs" fontFamily="mono"
-                >{formatSkillValue(step)}</Text
+                >{formatSkillValue(hero, skill, step)}</Text
               >
             </div>
           {/each}
-        </div>
-      {/each}
-    </div>
-  {/if}
-  {#if $heroesVisualization === HeroesVisualizationModes.detailed}
-    <div class={styles.heroStats}>
-      {#each Object.keys(R.omit( heroStats, ['hp', 'incHp', 'def', 'incDef', 'atk', 'incAtk'] )) as stats}
-        <div class={styles.heroStat}>
-          <Text>{stats}:</Text>
-          <Text>{heroStats[stats]}</Text>
-        </div>
-      {/each}
-      <div class={styles.heroStat}>
-        <Text
-          ><Tooltip text="This doens't take Hit and enemy's dodge into account.">DPS (?)</Tooltip
-          >:</Text
-        >
-        <Text>{calculateDPS(heroStats)}</Text>
-      </div>
-    </div>
-    <div class={styles.tableItemRight}>
-      {#each hero.skills as skill, i (skill.name)}
-        <div class={styles.skill}>
-          <img
-            loading="lazy"
-            class={styles.skillImage}
-            src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
-            alt={formatSkillName(skill.name)}
-          />
-          <div>
-            <Text fontSize="sm">{formatSkillName(skill.name)}</Text>
-            <Text fontSize="xs">{skill.desc}</Text>
-          </div>
-          <div class={styles.skillDescription}>
-            {#each skill.progression as step, grade}
-              <div
-                class={[
-                  styles.skillProgression,
-                  sprinkles({
-                    borderColor: borderColorByGrade[grade],
-                    background: backgroundColorByGrade[grade],
-                  }),
-                ].join(' ')}
-              >
-                <Text textAlign="center" fontSize="xs" fontFamily="mono"
-                  >{formatSkillValue(step)}</Text
-                >
-              </div>
-            {/each}
-          </div>
         </div>
       {/each}
     </div>

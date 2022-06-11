@@ -1,6 +1,6 @@
 import { MAX_HERO_LEVEL } from '$lib/db/heroes';
 import { RarityEnum } from '$lib/enums';
-import type { Grades, UpgradeLevel } from '$lib/types';
+import type { UpgradeLevel } from '$lib/types';
 import { match } from 'oxide.ts';
 import { z } from 'zod';
 
