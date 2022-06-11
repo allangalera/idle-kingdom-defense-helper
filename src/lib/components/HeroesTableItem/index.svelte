@@ -1,5 +1,6 @@
 <script lang="ts">
   import CardHero from '$lib/components/CardHero/index.svelte';
+  import Heading from '$lib/components/Heading/index.svelte';
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Tooltip from '$lib/components/Tooltip/index.svelte';
@@ -138,7 +139,7 @@
         <div class={styles.skillMinimal}>
           <Tooltip>
             <slot slot="tooltip-content">
-              <Text textAlign="center">{formatSkillName(skill.name)}</Text>
+              <Heading textAlign="center">{formatSkillName(skill.name)}</Heading>
               <Text textAlign="center"
                 >{formatSkillDescription(
                   skill.desc,
