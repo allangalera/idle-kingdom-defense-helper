@@ -1,4 +1,6 @@
 import { runes } from '$lib/db/runes';
+import { Attributes } from '$lib/enums';
+import { match } from 'oxide.ts';
 
 type GetRunById = (id: number) => typeof runes[number];
 
@@ -8,4 +10,11 @@ export const getRuneById: GetRunById = (id) => {
       return rune;
     }
   }
+};
+
+export const returnRuneAttribute = (attr: number) => {
+  return match(attr, [
+    [8, Attributes.criDamage],
+    [2, Attributes.atk],
+  ]);
 };

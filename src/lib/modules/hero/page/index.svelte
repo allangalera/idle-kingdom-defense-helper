@@ -7,6 +7,7 @@
   import Text from '$lib/components/Text/index.svelte';
   import type { HeroType } from '$lib/db/heroes';
   import Equipments from '$lib/modules/hero/components/Equipments/index.svelte';
+  import Skills from '$lib/modules/hero/components/Skills/index.svelte';
   import Stats from '$lib/modules/hero/components/Stats/index.svelte';
   import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
   import { calculateHeroStats } from '$lib/utils/hero';
@@ -50,10 +51,8 @@
   <div class={styles.infoContainer}>
     <Stats {heroStats} />
     <Equipments {hero} {heroUserData} />
-    <!-- <GridItem title="Skills" full>
-      <Text>Skiiiils</Text>
-    </GridItem>
-    <GridItem title="Runes" full>
+    <Skills {hero} {heroUserData} />
+    <!-- <GridItem title="Runes" full>
       <Text>Runes</Text>
     </GridItem> -->
   </div>

@@ -3,7 +3,6 @@
   import Text from '$lib/components/Text/index.svelte';
   import type { HeroType } from '$lib/db/heroes';
   import { Attributes } from '$lib/enums';
-  import { getIdleKingdomNumberFormat } from '$lib/utils';
   import { returnAttributeName } from '$lib/utils/hero';
 
   import * as styles from './index.css';

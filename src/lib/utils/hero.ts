@@ -2,7 +2,7 @@ import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost } from '$lib/db/heroes
 import type { HeroType } from '$lib/db/heroes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
 import type { HeroGearEquipTypes } from '$lib/enums';
-import { getRuneById } from '$lib/utils/runes';
+import { getRuneById, returnRuneAttribute } from '$lib/utils/runes';
 import { match } from 'oxide.ts';
 import * as R from 'remeda';
 import { z } from 'zod';
@@ -118,28 +118,49 @@ const returnSetStats = (heroGears: HeroGears) => {
   return R.pick(gearAttr, ['setEffectValue1', 'setEffectValue2', 'setEffectValue3']);
 };
 
-const returnSkillStats = (hero) => {
-  // console.log({ skills });
-  for (const skill of hero.skills) {
-    // console.log(skill.name);
-    // console.log(skill.desc);
-    for (const [index, skillLevel] of skill.progression.entries()) {
-      // console.log(skillLevel.effectType);
-      if (skillLevel.addType !== 3) break;
-      const effectToStats = match(skillLevel.effectType, [
-        [6, 'crit chance'],
-        [7, 'crit resist'],
-        [8, 'crit dmg'],
-        [9, 'accuracy'],
-        [1, 'atk speed'],
-        () => 'none',
-      ]);
-      if (effectToStats !== 'none') {
-        // console.log(index, effectToStats);
-      }
-    }
+type EffectToStats = Record<keyof typeof Attributes, number> | Record<string, never>;
+
+const returnSkillStats = (hero, heroUserData) => {
+  let stats = {};
+  for (const [skillIndex, skill] of hero.skills.entries()) {
+    const { rarity, level } = convertGradeToRarityAndLevel(heroUserData?.grade ?? hero.baseGrade);
+
+    const { value, addType, effectType } =
+      skill.progression[Math.max(skillIndex <= level ? rarity : rarity - 1, 0)];
+    if (addType !== 3) continue;
+
+    const effectToStats: EffectToStats = match(effectType, [
+      [6, { [Attributes.cri]: value }],
+      [7, { [Attributes.criResist]: value }],
+      [8, { [Attributes.criDamage]: value }],
+      [9, { [Attributes.hit]: value }],
+      [1, { [Attributes.atkSpeed]: value }],
+      () => ({}),
+    ]);
+    stats = R.merge(stats, effectToStats);
   }
-  return hero.skills;
+
+  return stats as EffectToStats;
+};
+
+export const returnRunesStats = (heroUserData) => {
+  let stats = {};
+  if (!heroUserData?.runes) {
+    // Runes every hero starts with
+    const firstCritDmgRune = getRuneById(1);
+    stats = R.merge(stats, {
+      [returnRuneAttribute(firstCritDmgRune.abilityType)]: firstCritDmgRune.abilityInitMin,
+    });
+
+    const firstAtkRune = getRuneById(2);
+    stats = R.merge(stats, {
+      [returnRuneAttribute(firstAtkRune.abilityType)]: firstAtkRune.abilityInitMin,
+    });
+
+    return stats;
+  }
+
+  return stats as EffectToStats;
 };
 
 export const calculateHeroStats = (hero: HeroType, heroUserData) => {
@@ -192,14 +213,25 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   }
 
   // apply skills attributes
-  const skills = returnSkillStats(hero);
-  // console.log({ skills });
+  const skillStats = returnSkillStats(hero, heroUserData);
+
+  R.mapKeys(skillStats, (key, value) => {
+    if ([Attributes.atkSpeed, Attributes.moveSpeed].some((attr) => attr === key)) {
+      return (heroStats[key] *= 1 + value);
+    }
+    return (heroStats[key] += value);
+  });
 
   // apply runes if available
-  const firstCritDmgRune = getRuneById(1);
-  const firstAtkRune = getRuneById(2);
-  heroStats.criDamage += firstCritDmgRune.abilityInitMin;
-  heroStats.atk += firstAtkRune.abilityInitMin;
+  const runesStats = returnRunesStats(heroUserData);
+
+  R.mapKeys(runesStats, (key, value) => {
+    if ([Attributes.atkSpeed, Attributes.moveSpeed].some((attr) => attr === key)) {
+      return (heroStats[key] *= 1 + value);
+    }
+    return (heroStats[key] += value);
+  });
+
   return heroStats;
 };
 
@@ -236,18 +268,18 @@ export const formatSkillName = (name) => {
   return name ? name.replace('{0}', '').trim() : name;
 };
 
-export const formatSkillDescription = (
-  skillDescription: string,
-  skill,
-  skillIndex,
-  heroGrade,
-  hero
-) => {
+export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
   const { rarity, level } = convertGradeToRarityAndLevel(heroGrade);
 
   const skillLevel = skill.progression[Math.max(skillIndex <= level ? rarity : rarity - 1, 0)];
 
-  const { effectType: skillEffectType, skillType, targetType, effectDurTime } = skill;
+  const {
+    desc: skillDescription,
+    effectType: skillEffectType,
+    skillType,
+    targetType,
+    effectDurTime,
+  } = skill;
 
   const { addType, effectType, value, durTime, percentage, units, time } = skillLevel;
 

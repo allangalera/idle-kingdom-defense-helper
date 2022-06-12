@@ -141,19 +141,15 @@
             <slot slot="tooltip-content">
               <Heading textAlign="center">{formatSkillName(skill.name)}</Heading>
               <Text textAlign="center"
-                >{formatSkillDescription(
-                  skill.desc,
-                  skill,
-                  i,
-                  hero.grade ?? hero.baseGrade,
-                  hero
-                )}</Text
+                >{formatSkillDescription(skill, i, hero.grade ?? hero.baseGrade, hero)}</Text
               >
             </slot>
             <img
               loading="lazy"
               class={styles.skillImage}
-              src={`images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${i + 1}.png`}
+              src={`/images/heroSkills/heroSkill${hero.id.toString().padStart(2, '0')}_${
+                i + 1
+              }.png`}
               alt={formatSkillName(skill.name)}
             />
           </Tooltip>
