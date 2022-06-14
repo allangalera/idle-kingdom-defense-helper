@@ -36,6 +36,7 @@
       <Icon className={styles.menuIcon} src={RiSystemArrowLeftSLine} color={theme.colors.white} />
     </Button>
     <Input
+      label="Stage when the game daily reset"
       textAlign="center"
       bind:value={stageLevel}
       maskOptions={{
@@ -43,7 +44,6 @@
         min: 0,
         max: MAX_STAGE_LEVEL,
       }}
-      label="Current stage"
     />
     <Button on:click={onRemoveStageLevel} disabled={+stageLevel === MAX_STAGE_LEVEL}>
       <Icon className={styles.menuIcon} src={RiSystemArrowRightSLine} color={theme.colors.white} />
