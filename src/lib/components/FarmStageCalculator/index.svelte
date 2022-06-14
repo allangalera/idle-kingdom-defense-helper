@@ -29,9 +29,11 @@
   let result = {
     stages: [],
     latestStageSearched: 0,
+    latestPage: 1,
   };
   let page = 1;
   let latestStageSearched = 0;
+  let latestPage = page;
   let bestGearGrade;
   let bestArcherGearRarityAndLevel;
   let bestHeroGearRarityAndLevel;
@@ -92,7 +94,7 @@
   }
 
   function goBackPage() {
-    page = Math.max(page - 1, 1);
+    page -= 1;
   }
 
   function goForwardPage() {
@@ -104,23 +106,29 @@
     const myEnemies = Array.from(enemies.values());
     clearTimeout(timer);
     timer = setTimeout(() => {
-      if (results[currentPage]) {
-        result = results[currentPage];
+      const pageKey = `page#${currentPage}`;
+      if (results[pageKey]) {
+        result = results[pageKey];
         return;
       }
       let stageToCalculate = match(currentPage, [[1, stageLevel], () => latestStageSearched]);
+
       const { stages, latestStageSearched: lss } = calculateStage(
         stageToCalculate,
         gear,
-        myEnemies
+        myEnemies,
+        currentPage >= latestPage ? 'backward' : 'forward'
       );
+
       result = {
         stages,
         latestStageSearched: lss,
+        latestPage: currentPage,
       };
-      results[currentPage] = result;
+      results[pageKey] = result;
       bestGearGrade = returnItemLevelDropFromStage(+stageLevel);
       latestStageSearched = lss;
+      latestPage = currentPage;
     }, 0);
   }
 
@@ -271,7 +279,7 @@
       gap: 4,
     })}
   >
-    <Button variant="primary" on:click={goBackPage} disabled={page === 1}>
+    <Button variant="primary" on:click={goBackPage}>
       <Icon className={styles.menuIcon} src={RiSystemArrowLeftSLine} color={theme.colors.white} />
     </Button>
     <Button on:click={goForwardPage} disabled={result.stages.length < 20}>

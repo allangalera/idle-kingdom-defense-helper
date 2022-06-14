@@ -1,4 +1,5 @@
 import type { CardType } from '$lib/components/Card/card';
+import { MAX_STAGE_LEVEL } from '$lib/constants';
 import { getEnemyIdFromStage } from '$lib/db';
 import {
   designStageUnlock,
@@ -68,7 +69,7 @@ export const returnItemLevelDropFromStage = (stage) => {
   return { archer, hero };
 };
 
-export const calculateStage = (stage: string, wantedGear, enemies) => {
+export const calculateStage = (stage: string, wantedGear, enemies, dir = 'backwards') => {
   const parsedStage = +stage || 1;
   const items_per_page = 20;
 
@@ -76,7 +77,12 @@ export const calculateStage = (stage: string, wantedGear, enemies) => {
   let stageGear;
   let latestStageSearched = parsedStage;
 
-  for (let currentStage = parsedStage - 1; currentStage > 0; currentStage--) {
+  const { start, limit, step } = match(dir, [
+    ['backward', { start: parsedStage - 1, limit: 0, step: -1 }],
+    ['forward', { start: parsedStage + 1, limit: MAX_STAGE_LEVEL, step: 1 }],
+  ]);
+
+  for (let currentStage = start; currentStage !== limit; currentStage += step) {
     stageGear = returnItemLevelDropFromStage(currentStage);
 
     const heroDropFromStage = stageGear.hero && calculateHeroDropFromStage(currentStage);
