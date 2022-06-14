@@ -10,6 +10,18 @@ export const container = style({
   alignItems: 'center',
 });
 
+export const inputContainer = style({
+  display: 'flex',
+  gap: theme.space[4],
+  justifyContent: 'center',
+  alignItems: 'flex-end',
+});
+
+export const menuIcon = style({
+  width: theme.sizes[6],
+  height: theme.sizes[6],
+});
+
 export const resultsContainer = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
