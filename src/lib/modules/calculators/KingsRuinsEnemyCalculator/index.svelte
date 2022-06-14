@@ -24,7 +24,7 @@
   };
 
   const onRemoveStageLevel = () => {
-    stageLevel = Math.max(1, +stageLevel + 1).toString();
+    stageLevel = Math.max(1, +stageLevel - 1).toString();
   };
 
   $: stageLevel && updateEnemyPattern();
@@ -32,7 +32,7 @@
 
 <div class={styles.container}>
   <div class={styles.inputContainer}>
-    <Button variant="primary" on:click={onAddStageLevel} disabled={+stageLevel === 1}>
+    <Button variant="primary" on:click={onRemoveStageLevel} disabled={+stageLevel === 1}>
       <Icon className={styles.menuIcon} src={RiSystemArrowLeftSLine} color={theme.colors.white} />
     </Button>
     <Input
@@ -45,7 +45,7 @@
         max: MAX_STAGE_LEVEL,
       }}
     />
-    <Button on:click={onRemoveStageLevel} disabled={+stageLevel === MAX_STAGE_LEVEL}>
+    <Button on:click={onAddStageLevel} disabled={+stageLevel === MAX_STAGE_LEVEL}>
       <Icon className={styles.menuIcon} src={RiSystemArrowRightSLine} color={theme.colors.white} />
     </Button>
   </div>
