@@ -27,5 +27,6 @@ export const returnRuneAttribute = (attr: number) => {
     [5, Attributes.moveSpeed],
     [13, Attributes.defPierceResist],
     [12, Attributes.criDamageResist],
+    () => '',
   ]);
 };
