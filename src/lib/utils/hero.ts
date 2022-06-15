@@ -233,7 +233,7 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   return heroStats;
 };
 
-export const returnAttributeName = (attr: keyof typeof Attributes) => {
+export const returnAttributeName = (attr: string) => {
   return match(attr, [
     [Attributes.hp, 'HP'],
     [Attributes.atk, 'ATK'],
@@ -345,6 +345,7 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
     ['2-3', skillDescription.replace('{2}', Math.round(value * 100).toString())],
     ['2-6', skillDescription.replace('{2}', Math.round(value * 100).toString())],
     ['2-8', skillDescription.replace('{2}', Math.round(value * 100).toString())],
+    ['2-9', skillDescription.replace('{1}', durTime)],
     [
       '2-21',
       skillDescription
@@ -446,7 +447,9 @@ export const formatSkillValue = (hero, skill, progressionAttributes) => {
     ['1-4', `${value}|${durTime}s`],
     ['2-1', `${Math.round(value * 100)}%`],
     ['2-3', `${Math.round(value * 100)}%`],
+    ['2-6', `${Math.round(value * 100)}%`],
     ['2-8', `${Math.round(value * 100)}%`],
+    ['2-9', `${durTime}s`],
     [
       '2-99',
       () => {
