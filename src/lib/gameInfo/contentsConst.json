@@ -99,6 +99,7 @@
     "ARCHER": 1,
     "ASTROLOGY": 15,
     "CASTLE_ENGRAVE": 11,
+    "CASTLE_REMODEL": 16,
     "CONQUEST": 12,
     "EVENTD1": 8,
     "EVENTD2": 9,
@@ -272,6 +273,12 @@
       "guide": 1,
       "id": 15,
       "lv": 270,
+      "reward": 200
+    },
+    {
+      "guide": 1,
+      "id": 16,
+      "lv": 300,
       "reward": 200
     }
   ],

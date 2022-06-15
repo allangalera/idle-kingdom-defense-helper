@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "CASTLE_SKIN_1_1",
+    "castleId": 1,
+    "completeEffects": {
+      "supporter": 0.2
+    },
+    "id": 1,
+    "lv": 1,
+    "pieceEffects": {
+      "archer": 0.002,
+      "warrior": 0.01
+    }
+  },
+  {
+    "asset": "CASTLE_SKIN_1_2",
+    "castleId": 1,
+    "completeEffects": {
+      "supporter": 0.4
+    },
+    "id": 2,
+    "lv": 2,
+    "pieceEffects": {
+      "archer": 0.003,
+      "warrior": 0.02
+    }
+  },
+  {
+    "asset": "CASTLE_SKIN_1_3",
+    "castleId": 1,
+    "completeEffects": {
+      "slot": 1,
+      "supporter": 0.6
+    },
+    "id": 3,
+    "lv": 3,
+    "pieceEffects": {
+      "archer": 0.004,
+      "warrior": 0.04
+    }
+  }
+]

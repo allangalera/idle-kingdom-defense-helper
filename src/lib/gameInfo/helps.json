@@ -55,6 +55,10 @@
     "message": "HELP_MSG_RAID",
     "title": "HELP_TITLE_RAID"
   },
+  "REMODEL": {
+    "message": "HELP_MSG_REMODEL",
+    "title": "HELP_TITLE_REMODEL"
+  },
   "RUIN": {
     "message": "HELP_MSG_RUIN",
     "title": "HELP_TITLE_RUIN"

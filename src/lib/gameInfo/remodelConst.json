@@ -1,0 +1,16 @@
+{
+  "CASTLE_IDS": [1],
+  "COST": {
+    "NORMAL": 200,
+    "SPECIAL": 600
+  },
+  "PACK": {
+    "CASH": 500
+  },
+  "SUMMON": {
+    "DAILY_LIMIT": 10,
+    "DUPLICATE_REWARD": 150,
+    "PIECE_CNT": 90,
+    "SPECIAL_REQUIRE_SUMMON": 3
+  }
+}

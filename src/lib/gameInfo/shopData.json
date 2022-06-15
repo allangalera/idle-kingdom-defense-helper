@@ -1557,5 +1557,25 @@
     "price": "$9.99",
     "shopType": 6,
     "subDesc": ""
+  },
+  "remodel_1": {
+    "appstoreConsumable": 1,
+    "appstoreId": "com.stormx.castle.remodel1",
+    "desc": "",
+    "icon": "",
+    "id": "remodel_1",
+    "items": [
+      {
+        "id": 1,
+        "t": 305
+      }
+    ],
+    "limitType": 0,
+    "name": "SHOP_GOODS_NAME_REMODEL_1",
+    "order": 0,
+    "playstoreId": "com.stormx.castle.remodel1",
+    "price": "$4.99",
+    "shopType": 6,
+    "subDesc": ""
   }
 }

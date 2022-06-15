@@ -101,6 +101,24 @@
     "id": "CASTLE_NODEINCSLOT",
     "scale": 1
   },
+  "CASTLE_SKIN_1_1": {
+    "asset": "csd/castle/blue/renovation1",
+    "assetType": 1,
+    "id": "CASTLE_SKIN_1_1",
+    "scale": 1
+  },
+  "CASTLE_SKIN_1_2": {
+    "asset": "csd/castle/blue/renovation2",
+    "assetType": 1,
+    "id": "CASTLE_SKIN_1_2",
+    "scale": 1
+  },
+  "CASTLE_SKIN_1_3": {
+    "asset": "csd/castle/blue/renovation3",
+    "assetType": 1,
+    "id": "CASTLE_SKIN_1_3",
+    "scale": 1
+  },
   "COMMON_ATTACKEDEFFECT": {
     "asset": "csd/common/attackedEffect",
     "assetType": 1,
@@ -189,6 +207,12 @@
     "asset": "csd/town/nodeAstrology",
     "assetType": 1,
     "id": "CONTENTS_NODE_15",
+    "scale": 1
+  },
+  "CONTENTS_NODE_16": {
+    "asset": "csd/town/nodeRenovation",
+    "assetType": 1,
+    "id": "CONTENTS_NODE_16",
     "scale": 1
   },
   "CONTENTS_NODE_2": {
@@ -1581,6 +1605,12 @@
     "asset": "csd/scene/RaidScene",
     "assetType": 1,
     "id": "SCENE_RAID",
+    "scale": 1
+  },
+  "SCENE_REMODEL": {
+    "asset": "csd/scene/RenovationScene",
+    "assetType": 1,
+    "id": "SCENE_REMODEL",
     "scale": 1
   },
   "SCENE_RUIN": {
