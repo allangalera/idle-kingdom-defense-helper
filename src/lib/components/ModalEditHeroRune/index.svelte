@@ -2,7 +2,6 @@
   import Button from '$lib/components/Button/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
-  import InputRangeEnchantTier from '$lib/components/InputRangeEnchantTier/index.svelte';
   import Modal from '$lib/components/Modal/index.svelte';
   import Portal from '$lib/components/Portal/index.svelte';
   import RuneIcon from '$lib/components/RuneIcon/index.svelte';
@@ -44,7 +43,7 @@
       enchantLevel = userHero?.runes?.[rune.id]?.enchant?.toString() ?? '0';
       abilityMin = rune && rune.abilityInitMin + rune.abilityIncMin * +enchantLevel;
       abilityMax = rune && rune.abilityInitMax + rune.abilityIncMax * +enchantLevel;
-      ability = userHero?.runes?.[rune.id]?.value ?? abilityMin?.toString();
+      ability = userHero?.runes?.[rune.id]?.value?.toString?.() ?? abilityMin?.toString();
     }
   };
 
@@ -82,8 +81,16 @@
           />
           <Text>Ability minimum: {abilityMin}</Text>
           <Text>Ability maximum: {abilityMax}</Text>
-          <Text>Ability Value: {ability}</Text>
-          <InputRangeEnchantTier bind:value={ability} min={abilityMin} max={abilityMax} />
+          <Input
+            textAlign="center"
+            label="Ability Level"
+            bind:value={ability}
+            maskOptions={{
+              mask: Number,
+              min: 0,
+              max: abilityMax,
+            }}
+          />
         </div></slot
       >
       <slot slot="footer">
@@ -93,7 +100,11 @@
         <Button variant="danger" on:click={onRemove}>
           <Text color="white" as="span">Remove</Text>
         </Button>
-        <Button variant="success" on:click={onSubmit}>
+        <Button
+          variant="success"
+          on:click={onSubmit}
+          disabled={+ability < abilityMin || +ability > abilityMax}
+        >
           <Text color="white" as="span">Save</Text>
         </Button>
       </slot>
