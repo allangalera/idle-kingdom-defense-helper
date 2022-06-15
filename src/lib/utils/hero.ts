@@ -130,15 +130,11 @@ const returnSkillStats = (hero, heroUserData) => {
       skill.progression[Math.max(skillIndex <= level ? rarity : rarity - 1, 0)];
     if (addType !== 3) continue;
 
-    const effectToStats: EffectToStats = match(effectType, [
-      [6, { [Attributes.cri]: value }],
-      [7, { [Attributes.criResist]: value }],
-      [8, { [Attributes.criDamage]: value }],
-      [9, { [Attributes.hit]: value }],
-      [1, { [Attributes.atkSpeed]: value }],
-      () => ({}),
-    ]);
-    stats = R.merge(stats, effectToStats);
+    const attr = returnRuneAttribute(effectType);
+
+    if (!attr) continue;
+
+    stats = R.merge(stats, { [attr]: value });
   }
 
   return stats as EffectToStats;
@@ -146,29 +142,21 @@ const returnSkillStats = (hero, heroUserData) => {
 
 export const returnRunesStats = (heroUserData) => {
   let stats = {};
-  if (!heroUserData?.runes) {
-    // Runes every hero starts with
-    const firstCritDmgRune = getRuneById(1);
-    stats = R.merge(stats, {
-      [returnRuneAttribute(firstCritDmgRune.abilityType)]: firstCritDmgRune.abilityInitMin,
-    });
 
-    const firstAtkRune = getRuneById(2);
-    stats = R.merge(stats, {
-      [returnRuneAttribute(firstAtkRune.abilityType)]: firstAtkRune.abilityInitMin,
-    });
-
-    return stats;
-  }
-
-  for (const runeId of Object.keys(heroUserData.runes)) {
-    const runeData = runes.find((rune) => rune.id === +runeId);
-
-    if (!runeData) continue;
-
-    stats = R.merge(stats, {
-      [returnRuneAttribute(runeData.abilityType)]: heroUserData.runes[runeId].value,
-    });
+  for (const rune of runes) {
+    const userRuneData = heroUserData?.runes?.[rune.id];
+    if (rune.openCondition.id === 0) {
+      stats = R.merge(stats, {
+        [returnRuneAttribute(rune.abilityType)]: userRuneData?.value ?? rune.abilityInitMin,
+      });
+    } else {
+      const userRuneDependency = heroUserData?.runes?.[rune.openCondition.id];
+      if (userRuneDependency && userRuneDependency.enchant >= rune.openCondition.eh) {
+        stats = R.merge(stats, {
+          [returnRuneAttribute(rune.abilityType)]: userRuneData?.value ?? rune.abilityInitMin,
+        });
+      }
+    }
   }
 
   return stats as EffectToStats;
@@ -193,7 +181,6 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     'incHp',
     'moveSpeed',
   ]);
-
   const currentLevel = heroUserData?.level ?? 1;
 
   const currentGrade = heroUserData?.grade ?? hero.baseGrade;
@@ -217,7 +204,7 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   // apply set stats if available
   // TODO: set can also be incomplete
   const equipSetStats = returnSetStats(heroUserData?.equip);
-  if (equipSetStats) {
+  if (equipSetStats && Object.keys(equipSetStats).length > 0) {
     heroStats.criDamage *= 1 + equipSetStats.setEffectValue1;
     heroStats.defPierce *= 1 + equipSetStats.setEffectValue2;
     heroStats.atk *= 1 + equipSetStats.setEffectValue3;
