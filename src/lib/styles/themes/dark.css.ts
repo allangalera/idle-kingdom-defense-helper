@@ -7,6 +7,8 @@ import {
   greenDark,
   orangeDark,
   plumDark,
+  purpleDark,
+  purpleDarkA,
   redDark,
   yellowDark,
 } from '@radix-ui/colors';
@@ -26,6 +28,7 @@ export const darkTheme = createTheme(themeColors, {
     ...amberDark,
     ...orangeDark,
     ...brownDark,
+    ...purpleDark,
   },
   text: {
     default: '#ffffff',
@@ -43,8 +46,8 @@ export const darkTheme = createTheme(themeColors, {
     hover: grayDark.gray9,
   },
   accent: {
-    base: '#783cb7',
-    transparency: ' #783cb728',
+    base: purpleDark.purple9,
+    transparency: purpleDarkA.purpleA9,
   },
   secondary: {
     base: '#48dc81',

@@ -9,7 +9,10 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .prettierignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .prettierignore --write --json-recursive-sort=true --plugin-search-dir=. ."
+    "format": "prettier --ignore-path .prettierignore --write --json-recursive-sort=true --plugin-search-dir=. .",
+    "run:all": "yarn run:lua && yarn run:plist",
+    "run:plist": "node scripts/plist-parser.js",
+    "run:lua": "lua scripts/scrapper.lua"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -26,11 +29,12 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "plist": "^3.0.5",
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
     "prettier-plugin-sort-json": "^0.0.2",
     "prettier-plugin-svelte": "^2.5.0",
-    "sharp": "^0.30.1",
+    "sharp": "^0.30.6",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.10.1",

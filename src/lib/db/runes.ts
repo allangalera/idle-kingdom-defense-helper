@@ -1,5 +1,6 @@
 import { MAX_STAGE_LEVEL } from '$lib/constants';
 import runeJSON from '$lib/gameInfo/rune.json';
+import runeConstJSON from '$lib/gameInfo/runeConst.json';
 import runeSummonJSON from '$lib/gameInfo/runeSummon.json';
 
 const getRunesSummonStageUnlock = () => {
@@ -20,3 +21,5 @@ const getRunesSummonStageUnlock = () => {
 export const runesSummonStageUnlock = getRunesSummonStageUnlock();
 
 export const runes = runeJSON;
+
+export const MAX_RUNE_ENCHANT_LEVEL = runeConstJSON.ENCHANT.MAX;

@@ -7,9 +7,10 @@
   import Text from '$lib/components/Text/index.svelte';
   import type { HeroType } from '$lib/db/heroes';
   import Equipments from '$lib/modules/hero/components/Equipments/index.svelte';
+  import Runes from '$lib/modules/hero/components/Runes/index.svelte';
   import Skills from '$lib/modules/hero/components/Skills/index.svelte';
   import Stats from '$lib/modules/hero/components/Stats/index.svelte';
-  import { heroes as heroesStore } from '$lib/shared/stores/user/heroes';
+  import { heroes as heroesStore, removeHero } from '$lib/shared/stores/user/heroes';
   import { calculateHeroStats } from '$lib/utils/hero';
   import * as R from 'remeda';
 
@@ -44,17 +45,26 @@
   <div class={styles.cardContainer}>
     <CardHero hero={{ ...hero, ...heroUserData }} width={40} />
     <Text textAlign="center">Level: {R.pathOr(heroUserData, ['level'], 1)}</Text>
-    <Button on:click={openAddModal}>
-      <Text color="white" as="span">Edit</Text>
-    </Button>
+    <div class={styles.actionBtns}>
+      {#if heroUserData}
+        <Button on:click={openAddModal}>
+          <Text color="white" as="span">Edit</Text>
+        </Button>
+        <Button variant="danger" on:click={() => removeHero(hero.id)}>
+          <Text color="white" as="span">remove</Text>
+        </Button>
+      {:else}
+        <Button variant="success" on:click={openAddModal}>
+          <Text color="white" as="span">Add</Text>
+        </Button>
+      {/if}
+    </div>
   </div>
   <div class={styles.infoContainer}>
     <Stats {heroStats} />
     <Equipments {hero} {heroUserData} />
     <Skills {hero} {heroUserData} />
-    <!-- <GridItem title="Runes" full>
-      <Text>Runes</Text>
-    </GridItem> -->
+    <Runes {hero} {heroUserData} />
   </div>
 </div>
 

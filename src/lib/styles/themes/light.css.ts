@@ -7,6 +7,8 @@ import {
   green,
   orange,
   plum,
+  purple,
+  purpleA,
   red,
   yellow,
 } from '@radix-ui/colors';
@@ -26,6 +28,7 @@ export const lightTheme = createTheme(themeColors, {
     ...amber,
     ...orange,
     ...brown,
+    ...purple,
   },
   text: {
     default: '#1b1b1b',
@@ -43,8 +46,8 @@ export const lightTheme = createTheme(themeColors, {
     hover: gray.gray9,
   },
   accent: {
-    base: '#783cb7',
-    transparency: ' #783cb728',
+    base: purple.purple9,
+    transparency: purpleA.purpleA9,
   },
   secondary: {
     base: '#48dc81',

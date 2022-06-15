@@ -171,7 +171,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality1.png"
+            src="/images/heroTier/iconGearQuality1.png"
             alt="Tier C icon"
           />
           <input
@@ -185,7 +185,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality2.png"
+            src="/images/heroTier/iconGearQuality2.png"
             alt="Tier B icon"
           />
           <input
@@ -199,7 +199,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality3.png"
+            src="/images/heroTier/iconGearQuality3.png"
             alt="Tier A icon"
           />
           <input
@@ -213,7 +213,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality4.png"
+            src="/images/heroTier/iconGearQuality4.png"
             alt="Tier S icon"
           />
           <input
@@ -242,7 +242,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality1.png"
+            src="/images/heroTier/iconGearQuality1.png"
             alt="Tier C icon"
           />
           <input
@@ -256,7 +256,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality2.png"
+            src="/images/heroTier/iconGearQuality2.png"
             alt="Tier B icon"
           />
           <input
@@ -270,7 +270,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality3.png"
+            src="/images/heroTier/iconGearQuality3.png"
             alt="Tier A icon"
           />
           <input
@@ -284,7 +284,7 @@
         <label class={styles.radioTierContainer}>
           <img
             class={styles.tierIcon}
-            src="images/heroTier/iconGearQuality4.png"
+            src="/images/heroTier/iconGearQuality4.png"
             alt="Tier S icon"
           />
           <input

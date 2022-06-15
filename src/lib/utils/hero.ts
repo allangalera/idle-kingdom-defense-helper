@@ -1,5 +1,6 @@
 import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost } from '$lib/db/heroes';
 import type { HeroType } from '$lib/db/heroes';
+import { runes } from '$lib/db/runes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
 import type { HeroGearEquipTypes } from '$lib/enums';
 import { getRuneById, returnRuneAttribute } from '$lib/utils/runes';
@@ -158,6 +159,16 @@ export const returnRunesStats = (heroUserData) => {
     });
 
     return stats;
+  }
+
+  for (const runeId of Object.keys(heroUserData.runes)) {
+    const runeData = runes.find((rune) => rune.id === +runeId);
+
+    if (!runeData) continue;
+
+    stats = R.merge(stats, {
+      [returnRuneAttribute(runeData.abilityType)]: heroUserData.runes[runeId].value,
+    });
   }
 
   return stats as EffectToStats;
@@ -499,4 +510,19 @@ export const convertGradeToRarityAndLevel = (grade: number): { rarity: number; l
   ]);
 
   return { rarity, level };
+};
+
+export const getLevelFromGrade = (grade: number) => {
+  return match(grade % 5, [[0, 5], (n) => n]);
+};
+
+export const getRarityFromGrade = (grade: number) => {
+  return match(grade / 5, [
+    [(n) => n <= 1, 1],
+    [(n) => n <= 2, 2],
+    [(n) => n <= 3, 3],
+    [(n) => n <= 4, 4],
+    [(n) => n <= 5, 5],
+    () => 6,
+  ]);
 };

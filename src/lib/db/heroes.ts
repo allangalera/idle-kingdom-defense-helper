@@ -16,6 +16,12 @@ export type RawHeroType = typeof heroesJSON[number];
 
 export type AscensionType = typeof heroGradesJSON[number];
 
+export type UserRuneType = {
+  id: number;
+  enchant: number;
+  value: number;
+};
+
 export type UserHero = {
   id: number;
   level?: number;
@@ -26,6 +32,7 @@ export type UserHero = {
     [HeroGearEquipOptions.chest]?: number | null;
     [HeroGearEquipOptions.boots]?: number | null;
   };
+  runes?: Record<number, UserRuneType>;
 };
 
 export type HeroType = Omit<RawHeroType, 'skillKey' | 'assetId' | 'img'> & {

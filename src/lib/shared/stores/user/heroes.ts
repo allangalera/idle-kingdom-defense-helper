@@ -1,5 +1,5 @@
 import { browser } from '$app/env';
-import { MAX_HERO_GRADE, MAX_HERO_LEVEL } from '$lib/db/heroes';
+import { MAX_HERO_GRADE, MAX_HERO_LEVEL, type UserRuneType } from '$lib/db/heroes';
 import type { UserHero } from '$lib/db/heroes';
 import type { HeroGearEquipTypes } from '$lib/enums';
 import * as R from 'remeda';
@@ -113,6 +113,38 @@ export const removeHeroGear = (heroId: number, gearType: HeroGearEquipTypes) => 
     });
   });
 };
+
+export const addOrUpdateHeroRune = (heroId: number, runeData: UserRuneType) => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.runes) hero.runes = {};
+        hero.runes[runeData.id] = runeData;
+      }
+      return hero;
+    });
+    return R.merge(currentData, {
+      heroes: newHeroes,
+    });
+  })
+}
+
+export const removeHeroRune = (heroId: number, runeId: number) => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.runes) hero.runes = {};
+        if (hero.runes[runeId]) {
+          delete hero.runes[runeId]
+        }
+      }
+      return hero;
+    });
+    return R.merge(currentData, {
+      heroes: newHeroes,
+    });
+  })
+}
 
 heroes.subscribe((value) => {
   if (browser) {

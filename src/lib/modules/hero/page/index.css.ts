@@ -12,6 +12,11 @@ export const container = style({
   },
 });
 
+export const actionBtns = style({
+  display: 'flex',
+  gap: theme.space[4],
+});
+
 export const cardContainer = style({
   display: 'flex',
   flexDirection: 'column',

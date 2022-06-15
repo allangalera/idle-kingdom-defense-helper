@@ -16,5 +16,16 @@ export const returnRuneAttribute = (attr: number) => {
   return match(attr, [
     [8, Attributes.criDamage],
     [2, Attributes.atk],
+    [6, Attributes.cri],
+    [10, Attributes.dodge],
+    [1, Attributes.atkSpeed],
+    [11, Attributes.hp],
+    [4, Attributes.defPierce],
+    [3, Attributes.def],
+    [7, Attributes.criResist],
+    [9, Attributes.hit],
+    [5, Attributes.moveSpeed],
+    [13, Attributes.defPierceResist],
+    [12, Attributes.criDamageResist],
   ]);
 };

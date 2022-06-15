@@ -6,6 +6,7 @@
   export let type = 'click';
   export let disabled = false;
   export let variant: 'primary' | 'secondary' | 'danger' | 'success' | 'logic' = 'primary';
+  export let ref = null;
 
   const backgroundColors = {
     primary: {
@@ -77,11 +78,13 @@
       borderColor: disabled ? borderDisabledColors[variant] : borderColors[variant],
       cursor: disabled ? 'not-allowed' : 'pointer',
       opacity: disabled ? 0.5 : 1,
+      padding: variant === 'logic' ? 'none' : 2,
     }),
   ].join(' ')}
   {type}
   {disabled}
   on:click
+  bind:this={ref}
 >
   <slot />
 </button>

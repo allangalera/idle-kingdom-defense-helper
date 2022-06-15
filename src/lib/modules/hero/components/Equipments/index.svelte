@@ -18,6 +18,7 @@
   let selectedGearType;
 
   const openModal = (gearType) => {
+    if (!heroUserData) return false;
     selectedGearType = gearType;
     isModalOpen = true;
   };
