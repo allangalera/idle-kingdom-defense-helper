@@ -5,6 +5,7 @@
   import ArcherQualityPropertyCraftRates from '$lib/modules/InformationAndRequirements/ArcherQualityPropertyCraftRates/index.svelte';
   import EnemyCCResist from '$lib/modules/InformationAndRequirements/EnemyCCResist/index.svelte';
   import HeroGear from '$lib/modules/InformationAndRequirements/HeroGear/index.svelte';
+  import Runes from '$lib/modules/InformationAndRequirements/Runes/index.svelte';
   import SanctuaryRunes from '$lib/modules/InformationAndRequirements/SanctuaryRunes/index.svelte';
   import UltraSummonGear from '$lib/modules/InformationAndRequirements/UltraSummonGear/index.svelte';
 
@@ -19,5 +20,6 @@
   <EnemyCCResist />
   <UltraSummonGear />
   <SanctuaryRunes />
+  <Runes />
   <ArcherQualityPropertyCraftRates />
 </div>

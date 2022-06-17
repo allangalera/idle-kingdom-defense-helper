@@ -41,6 +41,12 @@ export const table11Columns = style({
   gridTemplateColumns: 'repeat(11, 1fr)',
 });
 
+export const table28Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(28, 1fr)',
+  overflowX: 'auto',
+});
+
 export const tableRow = style({
   display: 'contents',
 });
