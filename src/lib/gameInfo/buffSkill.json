@@ -43,7 +43,7 @@
     "desc": "HEROHORSEMAN02_SKILL_DESC_1",
     "effectAssetId": "HERO_HORSEMAN02_BUFF",
     "effectDurTime": 6,
-    "effectK": 3,
+    "effectK": 2,
     "effectType": 8,
     "icon": "",
     "id": 4,

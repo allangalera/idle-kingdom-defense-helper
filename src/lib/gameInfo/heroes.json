@@ -529,7 +529,7 @@
     "hp": 320,
     "id": 17,
     "img": "img/hero/sprHeroHorseman02.png",
-    "incAtk": 2.5,
+    "incAtk": 2,
     "incDef": 1,
     "incHp": 20,
     "mainSkill": 4,
