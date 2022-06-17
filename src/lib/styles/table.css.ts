@@ -29,6 +29,7 @@ export const table7Columns = style({
 export const table8Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(8, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table9Columns = style({
@@ -66,14 +67,16 @@ export const tableHeaderItem = style({
   justifyContent: 'center',
   alignItems: 'center',
   paddingBottom: theme.space[4],
+  paddingLeft: theme.space[2],
+  paddingRight: theme.space[2],
 });
 
 export const tableItem = style({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  paddingTop: theme.space[1],
-  paddingBottom: theme.space[1],
+  padding: theme.space[1],
+  minWidth: theme.sizes.max,
   background: theme.themeColors.baseColors.gray1,
   selectors: {
     [`${tableOtherRow} &`]: {
