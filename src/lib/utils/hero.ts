@@ -316,6 +316,12 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
           .replace('{1}', Math.round(value * 100).toString()),
       ],
       [
+        '2-8-4',
+        skillDescription
+          .replace('{0}', effectDurTime)
+          .replace('{1}', Math.round(value * 100).toString()),
+      ],
+      [
         '2-51-4',
         skillDescription
           .replace('{0}', effectDurTime)
@@ -427,6 +433,11 @@ export const formatSkillValue = (hero, skill, progressionAttributes) => {
   const { effectType: skillEffectType, skillType, targetType, effectDurTime } = skill;
   const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
 
+  // console.group(`${hero.name} - ${skill.name}`);
+  // console.log(`${skillType}-${skillEffectType}-${targetType}`);
+  // console.log(`${addType}-${effectType}`);
+  // console.groupEnd();
+
   if (!addType && !effectType) {
     return match(`${skillType}-${skillEffectType}-${targetType}`, [
       ['1-0-0', `${Math.round(value * 100)}%`],
@@ -436,6 +447,7 @@ export const formatSkillValue = (hero, skill, progressionAttributes) => {
       ['2-2-3', `${Math.round(value * 100)}%`],
       ['2-3-4', `${Math.round(value * 100)}%`],
       ['2-5-4', `${Math.round(value * 100)}%`],
+      ['2-8-4', `${Math.round(value * 100)}%`],
       ['2-51-4', `${Math.round(value * 100)}%`],
       ['2-51-8', `${Math.round(value * 100)}%`],
       () => `${units}|${time}s`,
