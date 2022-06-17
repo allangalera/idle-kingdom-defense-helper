@@ -2,6 +2,8 @@
   import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import InputGrade from '$lib/components/InputGrade/index.svelte';
+  import InputTier from '$lib/components/InputTier/index.svelte';
+  import SelectArcherEquip from '$lib/components/SelectArcherEquip/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { ArcherGearEquip } from '$lib/enums';
   import {
@@ -123,66 +125,7 @@
 
 <div class={styles.container}>
   <div class={styles.equipContainer}>
-    <label class={styles.radioEquipContainer}>
-      <Text>Bow</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.bow}
-        checked={selectedEquip === ArcherGearEquip.bow}
-        on:change={onEquipSelectChange}
-      />
-    </label>
-    <label class={styles.radioEquipContainer}>
-      <Text>Arrow</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.arrow}
-        checked={selectedEquip === ArcherGearEquip.arrow}
-        on:change={onEquipSelectChange}
-      />
-    </label>
-    <label class={styles.radioEquipContainer}>
-      <Text>Helmet</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.helmet}
-        checked={selectedEquip === ArcherGearEquip.helmet}
-        on:change={onEquipSelectChange}
-      />
-    </label>
-    <label class={styles.radioEquipContainer}>
-      <Text>Chest</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.chest}
-        checked={selectedEquip === ArcherGearEquip.chest}
-        on:change={onEquipSelectChange}
-      />
-    </label>
-    <label class={styles.radioEquipContainer}>
-      <Text>Gloves</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.gloves}
-        checked={selectedEquip === ArcherGearEquip.gloves}
-        on:change={onEquipSelectChange}
-      />
-    </label>
-    <label class={styles.radioEquipContainer}>
-      <Text>Boots</Text>
-      <input
-        type="radio"
-        name="equipSelection"
-        value={ArcherGearEquip.boots}
-        checked={selectedEquip === ArcherGearEquip.boots}
-        on:change={onEquipSelectChange}
-      />
-    </label>
+    <SelectArcherEquip bind:value={selectedEquip} />
   </div>
   <div
     class={sprinkles({
@@ -202,62 +145,7 @@
     <div class={styles.innerContainer}>
       <Text textAlign="center">From</Text>
       <div class={styles.equipContainer}>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality1.png"
-            alt="Tier C icon"
-          />
-          <input
-            type="radio"
-            name="tierStart"
-            value="0"
-            checked={selectedTierStart === '0'}
-            on:change={onTierStartSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality2.png"
-            alt="Tier B icon"
-          />
-          <input
-            type="radio"
-            name="tierStart"
-            value="1"
-            checked={selectedTierStart === '1'}
-            on:change={onTierStartSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality3.png"
-            alt="Tier A icon"
-          />
-          <input
-            type="radio"
-            name="tierStart"
-            value="2"
-            checked={selectedTierStart === '2'}
-            on:change={onTierStartSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality4.png"
-            alt="Tier S icon"
-          />
-          <input
-            type="radio"
-            name="tierStart"
-            value="3"
-            checked={selectedTierStart === '3'}
-            on:change={onTierStartSelectionChange}
-          />
-        </label>
+        <InputTier bind:value={selectedTierStart} />
       </div>
       <InputGrade bind:grade={selectedStartLevel} />
       <Input
@@ -273,62 +161,7 @@
     <div class={styles.innerContainer}>
       <Text textAlign="center">To</Text>
       <div class={styles.equipContainer}>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality1.png"
-            alt="Tier C icon"
-          />
-          <input
-            type="radio"
-            name="tierEnd"
-            value={'0'}
-            checked={selectedTierEnd === '0'}
-            on:change={onTierEndSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality2.png"
-            alt="Tier B icon"
-          />
-          <input
-            type="radio"
-            name="tierEnd"
-            value={'1'}
-            checked={selectedTierEnd === '1'}
-            on:change={onTierEndSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality3.png"
-            alt="Tier A icon"
-          />
-          <input
-            type="radio"
-            name="tierEnd"
-            value={'2'}
-            checked={selectedTierEnd === '2'}
-            on:change={onTierEndSelectionChange}
-          />
-        </label>
-        <label class={styles.radioTierContainer}>
-          <img
-            class={styles.tierIcon}
-            src="/images/heroTier/iconGearQuality4.png"
-            alt="Tier S icon"
-          />
-          <input
-            type="radio"
-            name="tierEnd"
-            value={'3'}
-            checked={selectedTierEnd === '3'}
-            on:change={onTierEndSelectionChange}
-          />
-        </label>
+        <InputTier bind:value={selectedTierEnd} />
       </div>
       <InputGrade bind:grade={selectedEndLevel} />
       <Input

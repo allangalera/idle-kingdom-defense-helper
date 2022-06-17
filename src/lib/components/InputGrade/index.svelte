@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from '$lib/components/Button/index.svelte';
   import { RarityEnum } from '$lib/enums';
   import { convertGradeToStarLevel } from '$lib/utils';
   import { match } from 'oxide.ts';
@@ -49,39 +50,39 @@
 
 <div>
   <div class={styles.rarityContainer}>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.common)}>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.common)}>
       <img
         loading="lazy"
         class={styles.imageVariant[selectedRarity === RarityEnum.common ? 'default' : 'disabled']}
         src={imagesByGrade[RarityEnum.common]}
         alt="Common grade star icon"
       />
-    </div>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.uncommon)}>
+    </Button>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.uncommon)}>
       <img
         loading="lazy"
         class={styles.imageVariant[selectedRarity === RarityEnum.uncommon ? 'default' : 'disabled']}
         src={imagesByGrade[RarityEnum.uncommon]}
         alt="Common grade star icon"
       />
-    </div>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.rare)}>
+    </Button>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.rare)}>
       <img
         loading="lazy"
         class={styles.imageVariant[selectedRarity === RarityEnum.rare ? 'default' : 'disabled']}
         src={imagesByGrade[RarityEnum.rare]}
         alt="Common grade star icon"
       />
-    </div>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.epic)}>
+    </Button>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.epic)}>
       <img
         loading="lazy"
         class={styles.imageVariant[selectedRarity === RarityEnum.epic ? 'default' : 'disabled']}
         src={imagesByGrade[RarityEnum.epic]}
         alt="Common grade star icon"
       />
-    </div>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.legendary)}>
+    </Button>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.legendary)}>
       <img
         loading="lazy"
         class={styles.imageVariant[
@@ -90,27 +91,27 @@
         src={imagesByGrade[RarityEnum.legendary]}
         alt="Common grade star icon"
       />
-    </div>
-    <div role="button" class={styles.button} on:click={selectRarity(RarityEnum.mythic)}>
+    </Button>
+    <Button variant="logic" on:click={selectRarity(RarityEnum.mythic)}>
       <img
         loading="lazy"
         class={styles.imageVariant[selectedRarity === RarityEnum.mythic ? 'default' : 'disabled']}
         src={imagesByGrade[RarityEnum.mythic]}
         alt="Common grade star icon"
       />
-    </div>
+    </Button>
   </div>
   <br />
   <div class={styles.levelContainer}>
     {#each { length: 5 } as _, i}
-      <div role="button" class={styles.button} on:click={selectLevel(i)}>
+      <Button variant="logic" on:click={selectLevel(i)}>
         <img
           loading="lazy"
           class={styles.imageVariant[selectedLevel >= i ? 'default' : 'disabled']}
           src={imagesByGrade[selectedRarity]}
           alt="Grade star icon"
         />
-      </div>
+      </Button>
     {/each}
   </div>
 </div>

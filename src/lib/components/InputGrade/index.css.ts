@@ -22,7 +22,6 @@ export const button = style({
 export const rarityContainer = style({
   display: 'flex',
   justifyContent: 'space-between',
-  gap: theme.space[2],
 });
 
 export const levelContainer = style({
