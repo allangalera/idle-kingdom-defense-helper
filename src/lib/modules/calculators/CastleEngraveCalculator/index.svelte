@@ -3,12 +3,18 @@
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { castleConst } from '$lib/db/castle';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { calculateCasteEngraving } from '$lib/utils/castle';
 
   import * as styles from './index.css';
 
-  let currentLevel = '0';
-  let targetLevel = '1';
+  const CALCULATOR_STORE_KEY = 'CASTLE_ENGRAVE_CALCULATOR';
+
+  let currentLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.currentLevel ?? '0';
+  let targetLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.targetLevel ?? '1';
   let result = {
     def: 0,
     coin: {
@@ -27,7 +33,15 @@
     result = calculateCasteEngraving(Number(currentLevel), Number(targetLevel));
   };
 
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      currentLevel,
+      targetLevel,
+    });
+  };
+
   $: (currentLevel || targetLevel) && updateCost();
+  $: (currentLevel || targetLevel) && updateStore();
 </script>
 
 <div class={styles.container}>

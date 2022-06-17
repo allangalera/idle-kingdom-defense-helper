@@ -55,14 +55,14 @@ export enum HeroGearEquip {
   boots = 'boots',
 }
 
-export enum ArcherGearEquip {
-  bow = 'bow',
-  arrow = 'arrow',
-  helmet = 'helmet',
-  chest = 'chest',
-  gloves = 'gloves',
-  boots = 'boots',
-}
+export const ArcherGearEquip = {
+  bow: 'bow',
+  arrow: 'arrow',
+  helmet: 'helmet',
+  chest: 'chest',
+  gloves: 'gloves',
+  boots: 'boots',
+} as const;
 
 export enum HeroesVisualizationModes {
   compact = 'compact',

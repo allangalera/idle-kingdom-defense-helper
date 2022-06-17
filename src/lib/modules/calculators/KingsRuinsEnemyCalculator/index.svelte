@@ -4,6 +4,10 @@
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
   import { ruinConst } from '$lib/db/ruins';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { theme } from '$lib/styles/themes/index.css';
   import { getEnemyPattern } from '$lib/utils/ruins';
   import Icon from 'svelte-icons-pack/Icon.svelte';
@@ -12,7 +16,9 @@
 
   import * as styles from './index.css';
 
-  let stageLevel = '1';
+  const CALCULATOR_STORE_KEY = 'KINGS_RUIN_ENEMY_CALCULATOR';
+
+  let stageLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.stageLevel ?? '1';
   let enemyPattern = [];
 
   const updateEnemyPattern = () => {
@@ -27,7 +33,14 @@
     stageLevel = Math.max(1, +stageLevel - 1).toString();
   };
 
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      stageLevel,
+    });
+  };
+
   $: stageLevel && updateEnemyPattern();
+  $: stageLevel && updateStore();
 </script>
 
 <div class={styles.container}>

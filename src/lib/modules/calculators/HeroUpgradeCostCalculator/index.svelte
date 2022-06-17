@@ -2,18 +2,32 @@
   import Card from '$lib/components/Card/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import { MAX_HERO_LEVEL } from '$lib/db/heroes';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { calculateLevelUpCost } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
-  let currentLevel = '1';
-  let targetLevel = '2';
+  const CALCULATOR_STORE_KEY = 'HERO_UPGRADE_COST_CALCULATOR';
+
+  let currentLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.currentLevel ?? '1';
+  let targetLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.targetLevel ?? '2';
   let result = {
     coins: 0,
     souls: 0,
   };
 
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      currentLevel,
+      targetLevel,
+    });
+  };
+
   $: result = calculateLevelUpCost(+currentLevel, +targetLevel);
+  $: (currentLevel || targetLevel) && updateStore();
 </script>
 
 <div class={styles.container}>

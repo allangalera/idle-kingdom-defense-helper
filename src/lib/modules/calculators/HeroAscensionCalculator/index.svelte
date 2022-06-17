@@ -3,13 +3,21 @@
   import CardHeroShard from '$lib/components/CardHeroShard/index.svelte';
   import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { calculateAscendCost } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
-  let selectedStartGrade = 1;
-  let selectedEndGrade = 2;
+  const CALCULATOR_STORE_KEY = 'HERO_ASCENSION_CALCULATOR';
+
+  let selectedStartGrade =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedStartGrade ?? 1;
+  let selectedEndGrade =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedEndGrade ?? 2;
 
   let shardsCost = 0;
   let ascensionStonesCost = 0;
@@ -20,7 +28,15 @@
     ascensionStonesCost = result.ascensionStones;
   };
 
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      selectedStartGrade,
+      selectedEndGrade,
+    });
+  };
+
   $: (selectedStartGrade || selectedEndGrade) && updateCalculation();
+  $: (selectedStartGrade || selectedEndGrade) && updateStore();
 </script>
 
 <div class={styles.container}>

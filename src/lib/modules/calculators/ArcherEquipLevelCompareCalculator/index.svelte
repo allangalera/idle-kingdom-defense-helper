@@ -4,18 +4,31 @@
   import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { ArcherGearEquip } from '$lib/enums';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { getEquipData } from '$lib/utils/archer';
 
   import * as styles from './index.css';
 
-  let selectedEquip: ArcherGearEquip = ArcherGearEquip.bow;
-  let selectedTierStart = '0';
-  let selectedTierEnd = '0';
-  let selectedStartLevel: number = 1;
-  let startEnhanceLevel = '0';
-  let endEnhanceLevel = '0';
-  let selectedEndLevel: number = 2;
+  const CALCULATOR_STORE_KEY = 'ARCHER_EQUIP_LEVEL_COMPARE_CALCULATOR';
+
+  let selectedEquip: keyof typeof ArcherGearEquip =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedEquip ?? ArcherGearEquip.bow;
+  let selectedTierStart =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedTierStart ?? '0';
+  let selectedTierEnd =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedTierEnd ?? '0';
+  let selectedStartLevel: number =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedStartLevel ?? 1;
+  let startEnhanceLevel =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.startEnhanceLevel ?? '0';
+  let endEnhanceLevel =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.endEnhanceLevel ?? '0';
+  let selectedEndLevel: number =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedEndLevel ?? 2;
 
   let fromEquip;
   let toEquip;
@@ -75,16 +88,37 @@
     };
   };
 
-  $: selectedStartLevel &&
-    selectedEndLevel &&
-    selectedEquip &&
-    startEnhanceLevel &&
-    endEnhanceLevel &&
-    selectedTierStart &&
-    selectedTierEnd &&
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      selectedStartLevel,
+      selectedEndLevel,
+      selectedEquip,
+      startEnhanceLevel,
+      endEnhanceLevel,
+      selectedTierStart,
+      selectedTierEnd,
+    });
+  };
+
+  $: (selectedStartLevel ||
+    selectedEndLevel ||
+    selectedEquip ||
+    startEnhanceLevel ||
+    endEnhanceLevel ||
+    selectedTierStart ||
+    selectedTierEnd) &&
     onEquipsUpdate();
 
-  $: fromEquip && toEquip && calculateStats();
+  $: (selectedStartLevel ||
+    selectedEndLevel ||
+    selectedEquip ||
+    startEnhanceLevel ||
+    endEnhanceLevel ||
+    selectedTierStart ||
+    selectedTierEnd) &&
+    updateStore();
+
+  $: (fromEquip || toEquip) && calculateStats();
 </script>
 
 <div class={styles.container}>

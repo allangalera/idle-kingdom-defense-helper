@@ -4,6 +4,10 @@
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
+  import {
     addStageToFarmCompare,
     removeStageToFarmCompare,
     stage as stageStore,
@@ -22,9 +26,12 @@
 
   import * as styles from './index.css';
 
+  const CALCULATOR_STORE_KEY = 'STAGE_FARM_COMPARE_CALCULATOR';
+
   let stage;
   let seconds;
-  let totalTimeFarmingInHours = '12';
+  let totalTimeFarmingInHours =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.totalTimeFarmingInHours ?? '12';
 
   let stages = [];
 
@@ -98,11 +105,18 @@
     );
   };
 
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      totalTimeFarmingInHours,
+    });
+  };
+
   stageStore.subscribe((stageStoreData) => {
     stages = stageStoreData?.stageFarmCompare ?? [];
   });
 
   $: (stages || totalTimeFarmingInHours) && processStages();
+  $: totalTimeFarmingInHours && updateStore();
 </script>
 
 <div class={styles.bulkEditForm}>

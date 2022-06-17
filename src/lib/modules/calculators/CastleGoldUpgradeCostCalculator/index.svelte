@@ -2,18 +2,32 @@
   import Card from '$lib/components/Card/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import { CASTLE_MAX_LEVEL } from '$lib/constants';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { calculateCastleUpgradeCost } from '$lib/utils/castle-gold';
 
   import * as styles from './index.css';
 
-  let currentLevel = '1';
-  let targetLevel = '2';
+  const CALCULATOR_STORE_KEY = 'CASTLE_GOLD_UPGRADE_COST_CALCULATOR';
+
+  let currentLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.currentLevel ?? '1';
+  let targetLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.targetLevel ?? '2';
   let goldNeeded = 0;
+
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      currentLevel,
+      targetLevel,
+    });
+  };
 
   $: goldNeeded = calculateCastleUpgradeCost({
     currentLevel: +currentLevel,
     targetLevel: +targetLevel,
   });
+  $: (currentLevel || targetLevel) && updateStore();
 </script>
 
 <div class={styles.container}>

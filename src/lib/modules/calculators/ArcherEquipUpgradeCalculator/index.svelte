@@ -3,24 +3,40 @@
   import InputGrade from '$lib/components/InputGrade/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { archerPromoteProgressionByGrade } from '$lib/db/archer';
+  import {
+    calculatorsInformationStore,
+    updateCalculatorInformation,
+  } from '$lib/shared/stores/user/calculatorsInformation';
   import { sprinkles } from '$lib/styles/sprinkles.css';
 
   import * as styles from './index.css';
 
-  let selectedStartLevel = 1;
-  let selectedEndLevel = 2;
+  const CALCULATOR_STORE_KEY = 'ARCHER_EQUIP_UPGRADE_CALCULATOR';
+
+  let selectedStartLevel =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedStartLevel ?? 1;
+  let selectedEndLevel =
+    $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedEndLevel ?? 2;
   let steelCost = 0;
 
-  function calculateCost(startLevel, endLevel) {
+  const calculateCost = () => {
     steelCost = 0;
 
-    if (startLevel >= endLevel) return;
-    for (let level = startLevel; level < endLevel; level++) {
+    if (selectedStartLevel >= selectedEndLevel) return;
+    for (let level = selectedStartLevel; level < selectedEndLevel; level++) {
       steelCost += archerPromoteProgressionByGrade[level].iron;
     }
-  }
+  };
 
-  $: calculateCost(selectedStartLevel, selectedEndLevel);
+  const updateStore = () => {
+    updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      selectedStartLevel,
+      selectedEndLevel,
+    });
+  };
+
+  $: (selectedStartLevel || selectedEndLevel) && calculateCost();
+  $: (selectedStartLevel || selectedEndLevel) && updateStore();
 </script>
 
 <div class={styles.container}>
