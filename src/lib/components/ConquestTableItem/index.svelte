@@ -3,7 +3,7 @@
   import CardHero from '$lib/components/CardHero/index.svelte';
   import ModalEditKingdomFortress from '$lib/components/ModalEditKingdomFortress/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { fortress, kingdoms } from '$lib/db/conquest';
+  import { kingdoms } from '$lib/db/conquest';
   import { addKingdom, conquest, removeKingdom } from '$lib/shared/stores/user/conquest';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { theme } from '$lib/styles/themes/index.css';

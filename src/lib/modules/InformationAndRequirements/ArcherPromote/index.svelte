@@ -3,7 +3,7 @@
   import GridItem from '$lib/components/GridItem/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { archerPromoteStageRequirements, craft } from '$lib/db/archer';
+  import { archerPromoteStageRequirements } from '$lib/db/archer';
   import { stage } from '$lib/shared/stores/user/stage';
   import * as tableStyles from '$lib/styles/table.css';
   import { getRowStyling } from '$lib/styles/utils';

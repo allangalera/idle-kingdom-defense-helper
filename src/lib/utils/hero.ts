@@ -3,7 +3,7 @@ import type { HeroType } from '$lib/db/heroes';
 import { runes } from '$lib/db/runes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
 import type { HeroGearEquipTypes } from '$lib/enums';
-import { getRuneById, returnRuneAttribute } from '$lib/utils/runes';
+import { returnRuneAttribute } from '$lib/utils/runes';
 import { match } from 'oxide.ts';
 import * as R from 'remeda';
 import { z } from 'zod';
@@ -430,7 +430,7 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
 };
 
 export const formatSkillValue = (hero, skill, progressionAttributes) => {
-  const { effectType: skillEffectType, skillType, targetType, effectDurTime } = skill;
+  const { effectType: skillEffectType, skillType, targetType } = skill;
   const { value, durTime, units, time, percentage, addType, effectType } = progressionAttributes;
 
   // console.group(`${hero.name} - ${skill.name}`);

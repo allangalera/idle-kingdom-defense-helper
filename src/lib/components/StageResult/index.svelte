@@ -11,12 +11,15 @@
 
   export let stageData: {
     stage: number;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     data: any;
     enemy: {
       unitCnt: number;
       unitId: number;
     }[];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     drop: any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     bestGear: any;
   };
 

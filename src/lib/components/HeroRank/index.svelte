@@ -22,7 +22,7 @@
         <div
           class={[
             styles.titleContainerVariant[`rank${rowIndex}`],
-            styles.columnVariant[Boolean(item?.double) ? 'double' : 'default'],
+            styles.columnVariant[item?.double ? 'double' : 'default'],
           ].join(' ')}
         >
           <Text as="span" fontSize="sm" textAlign="center" color="black" fontWeight="bold"

@@ -25,7 +25,7 @@
   let fortressData;
   let userFortressData;
 
-  let imgSrc: string = 'none';
+  let imgSrc = 'none';
   let reward;
 
   const onAddFortress = () => {

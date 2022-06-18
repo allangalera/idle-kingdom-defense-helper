@@ -51,13 +51,13 @@ export type BestGearType = {
 };
 
 export type Skill = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   progression: any[];
 };
 
 export type Hero = {
   id: number;
   name: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   skills: Skill[];
   grade?: number;
   level?: number;

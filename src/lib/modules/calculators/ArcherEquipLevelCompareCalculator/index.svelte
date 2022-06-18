@@ -38,21 +38,6 @@
   let fromStats;
   let toStats;
 
-  const onEquipSelectChange = (event) => {
-    const { value } = event.target;
-    selectedEquip = value;
-  };
-
-  const onTierStartSelectionChange = (event) => {
-    const { value } = event.target;
-    selectedTierStart = value;
-  };
-
-  const onTierEndSelectionChange = (event) => {
-    const { value } = event.target;
-    selectedTierEnd = value;
-  };
-
   const onEquipsUpdate = () => {
     if (
       selectedStartLevel === selectedEndLevel &&

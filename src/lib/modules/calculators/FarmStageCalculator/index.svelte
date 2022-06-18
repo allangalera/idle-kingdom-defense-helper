@@ -7,7 +7,7 @@
   import StageResult from '$lib/components/StageResult/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_STAGE_LEVEL } from '$lib/constants';
-  import { _gStagePool, uniqueEnemies } from '$lib/db';
+  import { uniqueEnemies } from '$lib/db';
   import { ArcherGearEquip, HeroGearEquip } from '$lib/enums';
   import { stage, updateStage } from '$lib/shared/stores/user/stage';
   import { sprinkles } from '$lib/styles/sprinkles.css';

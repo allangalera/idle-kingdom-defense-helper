@@ -12,8 +12,8 @@
   export let grade: number = null;
   export let width: Sprinkles['width'] = 24;
 
-  let valueSize = match(width, [[(n) => n < 20, 'sm' as const], (x) => 'xl' as const]);
-  let shardSize = match(width, [[(n) => n < 20, 3 as const], (x) => 4 as const]);
+  let valueSize = match(width, [[(n) => n < 20, 'sm' as const], () => 'xl' as const]);
+  let shardSize = match(width, [[(n) => n < 20, 3 as const], () => 4 as const]);
   let heroGrade;
 
   let conditionalAttributes = {};
