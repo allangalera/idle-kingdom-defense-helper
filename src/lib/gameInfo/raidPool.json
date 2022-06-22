@@ -88,5 +88,95 @@
     "unitCnt": 15,
     "unitId": 21,
     "waveId": 5
+  },
+  {
+    "formationN": 0,
+    "id": 11,
+    "poolId": 3,
+    "stime": 2,
+    "unitCnt": 15,
+    "unitId": 53,
+    "waveId": 1
+  },
+  {
+    "formationN": 0,
+    "id": 12,
+    "poolId": 3,
+    "stime": 12,
+    "unitCnt": 15,
+    "unitId": 22,
+    "waveId": 2
+  },
+  {
+    "formationN": 0,
+    "id": 13,
+    "poolId": 3,
+    "stime": 22,
+    "unitCnt": 15,
+    "unitId": 57,
+    "waveId": 3
+  },
+  {
+    "formationN": 0,
+    "id": 14,
+    "poolId": 3,
+    "stime": 32,
+    "unitCnt": 15,
+    "unitId": 5,
+    "waveId": 4
+  },
+  {
+    "formationN": 0,
+    "id": 15,
+    "poolId": 3,
+    "stime": 42,
+    "unitCnt": 15,
+    "unitId": 54,
+    "waveId": 5
+  },
+  {
+    "formationN": 0,
+    "id": 16,
+    "poolId": 4,
+    "stime": 2,
+    "unitCnt": 15,
+    "unitId": 55,
+    "waveId": 1
+  },
+  {
+    "formationN": 0,
+    "id": 17,
+    "poolId": 4,
+    "stime": 12,
+    "unitCnt": 15,
+    "unitId": 58,
+    "waveId": 2
+  },
+  {
+    "formationN": 0,
+    "id": 18,
+    "poolId": 4,
+    "stime": 22,
+    "unitCnt": 15,
+    "unitId": 8,
+    "waveId": 3
+  },
+  {
+    "formationN": 0,
+    "id": 19,
+    "poolId": 4,
+    "stime": 32,
+    "unitCnt": 15,
+    "unitId": 53,
+    "waveId": 4
+  },
+  {
+    "formationN": 0,
+    "id": 20,
+    "poolId": 4,
+    "stime": 42,
+    "unitCnt": 15,
+    "unitId": 56,
+    "waveId": 5
   }
 ]
