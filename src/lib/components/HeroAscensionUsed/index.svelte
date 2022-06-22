@@ -9,9 +9,9 @@
   let need = 0;
   let used = 0;
 
-  const getHeroesWithUserData = () => {
+  const getHeroesWithUserData = (heroesStore) => {
     for (const hero of heroes) {
-      let userHero = R.pathOr($heroesStore, ['heroes'], []).find((userH) => userH.id === hero.id);
+      let userHero = R.pathOr(heroesStore, ['heroes'], []).find((userH) => userH.id === hero.id);
       const heroData = {
         ...hero,
         ...userHero,
@@ -27,7 +27,11 @@
   };
 
   onMount(() => {
-    getHeroesWithUserData();
+    getHeroesWithUserData($heroesStore);
+  });
+
+  heroesStore.subscribe((update) => {
+    getHeroesWithUserData(update);
   });
 </script>
 
