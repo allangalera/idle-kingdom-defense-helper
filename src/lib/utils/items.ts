@@ -5,7 +5,7 @@ type Item = {
   st: number;
 };
 
-export const returnItemStringIdById = (item) => {
+export const returnItemStringIdById = (item: Item) => {
   // RAIDCOIN = 60,
   // EXP = 100,
   // RUNE = 8,
