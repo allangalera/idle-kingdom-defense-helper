@@ -4,26 +4,31 @@ import { style, styleVariants } from '@vanilla-extract/css';
 export const table2Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table3Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(3, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table4Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(4, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table6Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(6, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table7Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(7, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table8Columns = style({
@@ -35,11 +40,13 @@ export const table8Columns = style({
 export const table9Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(9, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table11Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(11, 1fr)',
+  overflowX: 'auto',
 });
 
 export const table28Columns = style({
