@@ -1,4 +1,4 @@
-import { match } from 'oxide.ts/dist';
+import { match } from 'oxide.ts';
 
 type Item = {
   t: number;
