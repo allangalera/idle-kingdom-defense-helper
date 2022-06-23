@@ -8,4 +8,9 @@ export type CardType =
   | 'rune-seal'
   | 'def'
   | 'ancient-coin'
-  | 'ruby';
+  | 'portal-icon'
+  | 'ruby'
+  | 'scroll-armor-normal'
+  | 'scroll-armor-shiny'
+  | 'scroll-weapon-normal'
+  | 'scroll-weapon-shiny';
