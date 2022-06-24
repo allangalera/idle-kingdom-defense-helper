@@ -12,4 +12,5 @@ export const rarityContainer = style({
   display: 'flex',
   justifyContent: 'space-evenly',
   gap: theme.space[2],
+  flexWrap: 'wrap',
 });
