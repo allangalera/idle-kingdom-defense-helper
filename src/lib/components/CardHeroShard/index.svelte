@@ -30,6 +30,18 @@
       src="images/rarity/bgRarity1.png"
       alt="Shard Card Background"
     />
+    <div class={styles.question}>
+      <img
+        loading="lazy"
+        class={[
+          sprinkles({
+            size: 'full',
+          }),
+        ].join(' ')}
+        src={`images/plist/sprHeroRandom0${grade ?? 1}.png`}
+        alt="Icon Piece Shard"
+      />
+    </div>
     <img
       loading="lazy"
       class={[
@@ -41,9 +53,6 @@
       src="images/icons/iconPiece.png"
       alt="Icon Piece Shard"
     />
-    <div class={styles.question}>
-      <Text color="white" fontSize="3xl">?</Text>
-    </div>
     <div class={styles.counter}>
       <Text color="white" fontSize={valueSize}>x{value}</Text>
     </div>

@@ -26,7 +26,7 @@ export const question = style({
   width: '100%',
   height: '100%',
   display: 'flex',
-  opacity: 0.5,
+  // opacity: 0.5,
   justifyContent: 'center',
   alignItems: 'center',
 });

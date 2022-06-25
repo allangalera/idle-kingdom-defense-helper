@@ -40,6 +40,22 @@
       'scroll-weapon-shiny',
       { src: '/images/icons/iconWeaponEnchantScrollShiny.png', alt: 'Weapon Scroll Shiny Icon' },
     ],
+    [
+      'protect-armor-normal',
+      { src: '/images/icons/iconArmorProtectStoneNor.png', alt: 'Armor Scroll Normal Icon' },
+    ],
+    [
+      'protect-armor-shiny',
+      { src: '/images/icons/iconArmorProtectStoneShiny.png', alt: 'Armor Scroll Shiny Icon' },
+    ],
+    [
+      'protect-weapon-normal',
+      { src: '/images/icons/iconWeaponProtectStoneNor.png', alt: 'Weapon Scroll Normal Icon' },
+    ],
+    [
+      'protect-weapon-shiny',
+      { src: '/images/icons/iconWeaponProtectStoneShiny.png', alt: 'Weapon Scroll Shiny Icon' },
+    ],
     () => ({ src: 'none', alt: 'none' }),
   ]);
 </script>

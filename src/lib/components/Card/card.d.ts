@@ -13,4 +13,8 @@ export type CardType =
   | 'scroll-armor-normal'
   | 'scroll-armor-shiny'
   | 'scroll-weapon-normal'
-  | 'scroll-weapon-shiny';
+  | 'scroll-weapon-shiny'
+  | 'protect-armor-normal'
+  | 'protect-armor-shiny'
+  | 'protect-weapon-normal'
+  | 'protect-weapon-shiny';

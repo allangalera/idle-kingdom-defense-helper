@@ -2,7 +2,8 @@ import { match } from 'oxide.ts';
 
 type Item = {
   t: number;
-  st: number;
+  st?: number;
+  gr?: number;
 };
 
 export const returnItemStringIdById = (item: Item) => {
@@ -53,7 +54,27 @@ export const returnItemStringIdById = (item: Item) => {
     [26, 'ancient-coin'],
     [40, 'portal-icon'],
     [101, 'ruby'],
-    [22, match(item.st, [[1, 'scroll-weapon-normal'], [2, 'scroll-weapon-normal'], () => null])],
+    [201, 'hero-shard'],
+    [
+      22,
+      match(`${item.st}#${item.gr}`, [
+        ['1#1', 'scroll-armor-normal'],
+        ['1#2', 'scroll-armor-shiny'],
+        ['2#1', 'scroll-weapon-normal'],
+        ['2#2', 'scroll-weapon-shiny'],
+        () => null,
+      ]),
+    ],
+    [
+      23,
+      match(`${item.st}#${item.gr}`, [
+        ['1#1', 'protect-armor-normal'],
+        ['1#2', 'protect-armor-shiny'],
+        ['2#1', 'protect-weapon-normal'],
+        ['2#2', 'protect-weapon-shiny'],
+        () => null,
+      ]),
+    ],
     () => null,
   ]);
 };
