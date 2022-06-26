@@ -10,18 +10,24 @@
   let used = 0;
 
   const getHeroesWithUserData = (heroesStore) => {
+    need = 0;
+    used = 0;
     for (const hero of heroes) {
       let userHero = R.pathOr(heroesStore, ['heroes'], []).find((userH) => userH.id === hero.id);
       const heroData = {
         ...hero,
         ...userHero,
       };
+
       const needCost = calculateAscendCost(heroData.grade ?? heroData.baseGrade, MAX_HERO_GRADE);
+
       need += needCost.ascensionStones;
+
       const usedCost = calculateAscendCost(
         heroData.baseGrade,
         heroData.grade ?? heroData.baseGrade
       );
+
       used += usedCost.ascensionStones;
     }
   };
