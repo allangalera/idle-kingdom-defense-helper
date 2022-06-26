@@ -61,7 +61,7 @@ export const calculateAscendCost = (startGrade: number, endGrade: number) => {
     ascensionStones: 0,
   };
 
-  if (startGrade === endGrade) {
+  if (startGrade >= endGrade) {
     return cost;
   }
 

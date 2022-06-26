@@ -69,7 +69,7 @@
       <CardHeroShard value={shardsCost} />
     </div>
     <div class={styles.ascensionStoneResult}>
-      <Card cardType="ascension-stone" value={ascensionStonesCost} />
+      <Card cardType="ascension-stone" value={ascensionStonesCost} decimalNumbers={2} />
     </div>
   </div>
 </div>
