@@ -10,16 +10,21 @@
   export let color: Sprinkles['color'] = 'gray12';
   export let textAlign: Sprinkles['textAlign'] = 'left';
   export let fontFamily: Sprinkles['fontFamily'] = 'heading';
+  export let marginBottom: Sprinkles['marginBottom'] = 'none';
+  export let marginTop: Sprinkles['marginTop'] = 'none';
+  export let lineHeight: Sprinkles['lineHeight'] = 'tall';
 
   let className = [
     styles.paragraph,
     sprinkles({
-      color: color,
-      fontSize: fontSize,
-      fontWeight: fontWeight,
-      fontFamily: fontFamily,
-      textAlign: textAlign,
-      lineHeight: 'tall',
+      color,
+      fontSize,
+      fontWeight,
+      fontFamily,
+      textAlign,
+      lineHeight,
+      marginBottom,
+      marginTop,
     }),
   ].join(' ');
 </script>
