@@ -56,9 +56,9 @@ export const returnRaidRewards = (raidInfo) => {
       c: getRewardByType(reward, rewardData, raidInfo),
     });
   }
-  for (const reward of raidInfo.rewardInfo.rewards) {
-    console.log(reward);
-  }
-  console.log(rewards);
+  // for (const reward of raidInfo.rewardInfo.rewards) {
+  //   console.log(reward);
+  // }
+  // console.log(rewards);
   return rewards;
 };
