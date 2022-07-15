@@ -1,5 +1,6 @@
-import { raidConst } from '$lib/db/raid';
+import { raidConst, raidInfoGroupByType } from '$lib/db/raid';
 import { shopConst } from '$lib/db/shop';
+import langJSON from '$lib/gameInfo/lang.json';
 import { match } from 'oxide.ts';
 
 import { returnRewardDataByStage } from './stage';
@@ -56,9 +57,29 @@ export const returnRaidRewards = (raidInfo) => {
       c: getRewardByType(reward, rewardData, raidInfo),
     });
   }
-  // for (const reward of raidInfo.rewardInfo.rewards) {
-  //   console.log(reward);
-  // }
-  // console.log(rewards);
   return rewards;
 };
+
+raidInfoGroupByType;
+
+export const returnRaidRewardsByType = () => {
+  const raidsData = [];
+  for (const raidType of Object.keys(raidInfoGroupByType)) {
+    const raidData = {
+      name: langJSON[`RAID_BOSS_NAME_${raidType}`],
+      levels: [],
+    };
+    for (const level of raidInfoGroupByType[raidType]) {
+      const rewardsByStage = returnRaidRewards(level);
+      raidData.levels.push({
+        ...level,
+        rewards: [...rewardsByStage, ...level.rewardInfo.rewards],
+      });
+    }
+    raidsData.push(raidData);
+  }
+
+  return raidsData;
+};
+
+export const raidRewards = returnRaidRewardsByType();
