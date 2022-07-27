@@ -1,6 +1,6 @@
 import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost } from '$lib/db/heroes';
 import type { HeroType } from '$lib/db/heroes';
-import { runes } from '$lib/db/runes';
+import { runes, runesMap } from '$lib/db/runes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
 import type { HeroGearEquipTypes } from '$lib/enums';
 import { returnRuneAttribute } from '$lib/utils/runes';
@@ -145,21 +145,32 @@ export const returnRunesStats = (heroUserData) => {
 
   for (const rune of runes) {
     const userRuneData = heroUserData?.runes?.[rune.id];
-    if (rune.openCondition.id === 0) {
+
+    if (isRuneAvailable(rune.id, heroUserData)) {
+      const attrKey = returnRuneAttribute(rune.abilityType);
       stats = R.merge(stats, {
-        [returnRuneAttribute(rune.abilityType)]: userRuneData?.value ?? rune.abilityInitMin,
+        [attrKey]: (stats[attrKey] ?? 0) + (userRuneData?.value ?? rune.abilityInitMin),
       });
-    } else {
-      const userRuneDependency = heroUserData?.runes?.[rune.openCondition.id];
-      if (userRuneDependency && userRuneDependency.enchant >= rune.openCondition.eh) {
-        stats = R.merge(stats, {
-          [returnRuneAttribute(rune.abilityType)]: userRuneData?.value ?? rune.abilityInitMin,
-        });
-      }
     }
   }
 
   return stats as EffectToStats;
+};
+
+export const isRuneAvailable = (runeId: number, heroUserData): boolean => {
+  const runeData = runesMap.get(runeId);
+
+  if (!runeData) return false;
+
+  if (runeData.openCondition.id === 0) return true;
+
+  const userRuneDependency = heroUserData?.runes?.[runeData.openCondition.id];
+
+  if (!userRuneDependency) return false;
+
+  if (userRuneDependency.enchant < runeData.openCondition.eh) return false;
+
+  return true;
 };
 
 export const calculateHeroStats = (hero: HeroType, heroUserData) => {

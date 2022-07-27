@@ -6,7 +6,7 @@
   import { MAX_HERO_GRADE } from '$lib/db/heroes';
   import { runes } from '$lib/db/runes';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import { getLevelFromGrade, getRarityFromGrade } from '$lib/utils/hero';
+  import { getLevelFromGrade, getRarityFromGrade, isRuneAvailable } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
@@ -44,12 +44,21 @@
           class={[
             styles.runeContainer,
             sprinkles({
-              opacity: heroUserData?.runes?.[rune.id] ? 1 : 0.5,
+              opacity: isRuneAvailable(rune.id, heroUserData) ? 1 : 0.5,
             }),
           ].join(' ')}
         >
-          <Button variant="logic" on:click={() => onOpenModal(rune)}>
-            <RuneIcon grade={rune.grade} abilityType={rune.abilityType} />
+          <Button
+            variant="logic"
+            on:click={() => onOpenModal(rune)}
+            disabled={!isRuneAvailable(rune.id, heroUserData)}
+          >
+            <RuneIcon
+              grade={rune.grade}
+              abilityType={rune.abilityType}
+              runeData={rune}
+              heroUserData={heroUserData?.runes?.[rune.id]}
+            />
           </Button>
         </div>
       {/each}
