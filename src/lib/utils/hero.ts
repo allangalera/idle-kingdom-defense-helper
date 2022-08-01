@@ -93,14 +93,16 @@ type HeroGears = Record<HeroGearEquipTypes, number | null>;
 const returnGearAttributes = (
   heroGears: HeroGears
 ): Partial<Record<keyof typeof Attributes, number>> => {
-  let stats = {};
+  const stats = {};
   if (!heroGears) return stats;
 
   R.mapKeys(heroGears, (key, value) => {
     if (value) {
       const gearAttr = returnGearAttributesByGrade(value);
       const gearAttrKeys = returnGearTypeAttributeKeys(key);
-      stats = R.merge(stats, R.pick(gearAttr, gearAttrKeys));
+      for (const gearAttrKey of gearAttrKeys) {
+        stats[gearAttrKey] = (stats[gearAttrKey] ?? 0) + gearAttr[gearAttrKey];
+      }
     }
     return 0;
   });
@@ -212,15 +214,6 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     return (heroStats[key] += value);
   });
 
-  // apply set stats if available
-  // TODO: set can also be incomplete
-  const equipSetStats = returnSetStats(heroUserData?.equip);
-  if (equipSetStats && Object.keys(equipSetStats).length > 0) {
-    heroStats.criDamage *= 1 + equipSetStats.setEffectValue1;
-    heroStats.defPierce *= 1 + equipSetStats.setEffectValue2;
-    heroStats.atk *= 1 + equipSetStats.setEffectValue3;
-  }
-
   // apply skills attributes
   const skillStats = returnSkillStats(hero, heroUserData);
 
@@ -240,6 +233,15 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     }
     return (heroStats[key] += value);
   });
+
+  // apply set stats if available
+  // TODO: set can also be incomplete
+  const equipSetStats = returnSetStats(heroUserData?.equip);
+  if (equipSetStats && Object.keys(equipSetStats).length > 0) {
+    heroStats.criDamage *= 1 + equipSetStats.setEffectValue1;
+    heroStats.defPierce *= 1 + equipSetStats.setEffectValue2;
+    heroStats.atk *= 1 + equipSetStats.setEffectValue3;
+  }
 
   return heroStats;
 };
