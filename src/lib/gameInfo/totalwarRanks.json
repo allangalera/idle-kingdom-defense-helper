@@ -1,0 +1,82 @@
+[
+  {
+    "inventorySize": 30,
+    "rank": 1,
+    "recoveryLimit": 1,
+    "rewardBox": 1,
+    "upgradeStageLv": 500,
+    "upgradeWinning": 15
+  },
+  {
+    "inventorySize": 40,
+    "rank": 2,
+    "recoveryLimit": 2,
+    "rewardBox": 1,
+    "upgradeStageLv": 1000,
+    "upgradeWinning": 40
+  },
+  {
+    "inventorySize": 60,
+    "rank": 3,
+    "recoveryLimit": 3,
+    "rewardBox": 1,
+    "upgradeStageLv": 2000,
+    "upgradeWinning": 80
+  },
+  {
+    "inventorySize": 70,
+    "rank": 4,
+    "recoveryLimit": 3,
+    "rewardBox": 2,
+    "upgradeStageLv": 3000,
+    "upgradeWinning": 150
+  },
+  {
+    "inventorySize": 90,
+    "rank": 5,
+    "recoveryLimit": 4,
+    "rewardBox": 2,
+    "upgradeStageLv": 5000,
+    "upgradeWinning": 250
+  },
+  {
+    "inventorySize": 100,
+    "rank": 6,
+    "recoveryLimit": 5,
+    "rewardBox": 2,
+    "upgradeStageLv": 7000,
+    "upgradeWinning": 350
+  },
+  {
+    "inventorySize": 120,
+    "rank": 7,
+    "recoveryLimit": 6,
+    "rewardBox": 2,
+    "upgradeStageLv": 10000,
+    "upgradeWinning": 450
+  },
+  {
+    "inventorySize": 130,
+    "rank": 8,
+    "recoveryLimit": 6,
+    "rewardBox": 3,
+    "upgradeStageLv": 13000,
+    "upgradeWinning": 600
+  },
+  {
+    "inventorySize": 160,
+    "rank": 9,
+    "recoveryLimit": 8,
+    "rewardBox": 3,
+    "upgradeStageLv": 17000,
+    "upgradeWinning": 750
+  },
+  {
+    "inventorySize": 180,
+    "rank": 10,
+    "recoveryLimit": 10,
+    "rewardBox": 3,
+    "upgradeStageLv": 99999999999,
+    "upgradeWinning": 99999999999
+  }
+]

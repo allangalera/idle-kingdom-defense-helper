@@ -110,7 +110,8 @@
     "REPEATBATTLE": 7,
     "RUIN": 4,
     "RUIN_SWEEP": 14,
-    "SANCTUARY": 13
+    "SANCTUARY": 13,
+    "TOTALWAR": 17
   },
   "DAYEVENT": [
     {
@@ -279,6 +280,12 @@
       "guide": 1,
       "id": 16,
       "lv": 300,
+      "reward": 200
+    },
+    {
+      "guide": 1,
+      "id": 17,
+      "lv": 400,
       "reward": 200
     }
   ],

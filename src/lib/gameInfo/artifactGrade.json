@@ -1,0 +1,202 @@
+[
+  {
+    "crystalAwakenInc": 200,
+    "crystalInit": 200,
+    "crystalUpgradeInc": 50,
+    "grade": 1,
+    "meterialExpInc": 100,
+    "meterialExpInit": 300
+  },
+  {
+    "crystalAwakenInc": 300,
+    "crystalInit": 300,
+    "crystalUpgradeInc": 75,
+    "grade": 2,
+    "meterialExpInc": 150,
+    "meterialExpInit": 450
+  },
+  {
+    "crystalAwakenInc": 400,
+    "crystalInit": 400,
+    "crystalUpgradeInc": 100,
+    "grade": 3,
+    "meterialExpInc": 200,
+    "meterialExpInit": 600
+  },
+  {
+    "crystalAwakenInc": 500,
+    "crystalInit": 500,
+    "crystalUpgradeInc": 125,
+    "grade": 4,
+    "meterialExpInc": 250,
+    "meterialExpInit": 750
+  },
+  {
+    "crystalAwakenInc": 600,
+    "crystalInit": 600,
+    "crystalUpgradeInc": 150,
+    "grade": 5,
+    "meterialExpInc": 300,
+    "meterialExpInit": 900
+  },
+  {
+    "crystalAwakenInc": 700,
+    "crystalInit": 700,
+    "crystalUpgradeInc": 175,
+    "grade": 6,
+    "meterialExpInc": 350,
+    "meterialExpInit": 1050
+  },
+  {
+    "crystalAwakenInc": 800,
+    "crystalInit": 800,
+    "crystalUpgradeInc": 200,
+    "grade": 7,
+    "meterialExpInc": 400,
+    "meterialExpInit": 1200
+  },
+  {
+    "crystalAwakenInc": 900,
+    "crystalInit": 900,
+    "crystalUpgradeInc": 225,
+    "grade": 8,
+    "meterialExpInc": 450,
+    "meterialExpInit": 1350
+  },
+  {
+    "crystalAwakenInc": 1000,
+    "crystalInit": 1000,
+    "crystalUpgradeInc": 250,
+    "grade": 9,
+    "meterialExpInc": 500,
+    "meterialExpInit": 1500
+  },
+  {
+    "crystalAwakenInc": 1100,
+    "crystalInit": 1100,
+    "crystalUpgradeInc": 275,
+    "grade": 10,
+    "meterialExpInc": 550,
+    "meterialExpInit": 1650
+  },
+  {
+    "crystalAwakenInc": 1200,
+    "crystalInit": 1200,
+    "crystalUpgradeInc": 300,
+    "grade": 11,
+    "meterialExpInc": 600,
+    "meterialExpInit": 1800
+  },
+  {
+    "crystalAwakenInc": 1300,
+    "crystalInit": 1300,
+    "crystalUpgradeInc": 325,
+    "grade": 12,
+    "meterialExpInc": 650,
+    "meterialExpInit": 1950
+  },
+  {
+    "crystalAwakenInc": 1400,
+    "crystalInit": 1400,
+    "crystalUpgradeInc": 350,
+    "grade": 13,
+    "meterialExpInc": 700,
+    "meterialExpInit": 2100
+  },
+  {
+    "crystalAwakenInc": 1500,
+    "crystalInit": 1500,
+    "crystalUpgradeInc": 375,
+    "grade": 14,
+    "meterialExpInc": 750,
+    "meterialExpInit": 2250
+  },
+  {
+    "crystalAwakenInc": 1600,
+    "crystalInit": 1600,
+    "crystalUpgradeInc": 400,
+    "grade": 15,
+    "meterialExpInc": 800,
+    "meterialExpInit": 2400
+  },
+  {
+    "crystalAwakenInc": 1700,
+    "crystalInit": 1700,
+    "crystalUpgradeInc": 425,
+    "grade": 16,
+    "meterialExpInc": 850,
+    "meterialExpInit": 2550
+  },
+  {
+    "crystalAwakenInc": 1800,
+    "crystalInit": 1800,
+    "crystalUpgradeInc": 450,
+    "grade": 17,
+    "meterialExpInc": 900,
+    "meterialExpInit": 2700
+  },
+  {
+    "crystalAwakenInc": 1900,
+    "crystalInit": 1900,
+    "crystalUpgradeInc": 475,
+    "grade": 18,
+    "meterialExpInc": 950,
+    "meterialExpInit": 2850
+  },
+  {
+    "crystalAwakenInc": 2000,
+    "crystalInit": 2000,
+    "crystalUpgradeInc": 500,
+    "grade": 19,
+    "meterialExpInc": 1000,
+    "meterialExpInit": 3000
+  },
+  {
+    "crystalAwakenInc": 2100,
+    "crystalInit": 2100,
+    "crystalUpgradeInc": 525,
+    "grade": 20,
+    "meterialExpInc": 1050,
+    "meterialExpInit": 3150
+  },
+  {
+    "crystalAwakenInc": 2200,
+    "crystalInit": 2200,
+    "crystalUpgradeInc": 550,
+    "grade": 21,
+    "meterialExpInc": 1100,
+    "meterialExpInit": 3300
+  },
+  {
+    "crystalAwakenInc": 2300,
+    "crystalInit": 2300,
+    "crystalUpgradeInc": 575,
+    "grade": 22,
+    "meterialExpInc": 1150,
+    "meterialExpInit": 3450
+  },
+  {
+    "crystalAwakenInc": 2400,
+    "crystalInit": 2400,
+    "crystalUpgradeInc": 600,
+    "grade": 23,
+    "meterialExpInc": 1200,
+    "meterialExpInit": 3600
+  },
+  {
+    "crystalAwakenInc": 2500,
+    "crystalInit": 2500,
+    "crystalUpgradeInc": 625,
+    "grade": 24,
+    "meterialExpInc": 1250,
+    "meterialExpInit": 3750
+  },
+  {
+    "crystalAwakenInc": 2600,
+    "crystalInit": 2600,
+    "crystalUpgradeInc": 650,
+    "grade": 25,
+    "meterialExpInc": 1300,
+    "meterialExpInit": 3900
+  }
+]

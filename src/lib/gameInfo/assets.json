@@ -215,6 +215,12 @@
     "id": "CONTENTS_NODE_16",
     "scale": 1
   },
+  "CONTENTS_NODE_17": {
+    "asset": "csd/town/nodeTotalwar",
+    "assetType": 1,
+    "id": "CONTENTS_NODE_17",
+    "scale": 1
+  },
   "CONTENTS_NODE_2": {
     "asset": "csd/town/nodeFountain",
     "assetType": 1,
@@ -863,6 +869,12 @@
     "id": "LISTITEM_ARCHERITEM",
     "scale": 1
   },
+  "LISTITEM_ARTIFACTITEM": {
+    "asset": "csd/layerList/layerListArtifact",
+    "assetType": 1,
+    "id": "LISTITEM_ARTIFACTITEM",
+    "scale": 1
+  },
   "LISTITEM_HGEARITEM": {
     "asset": "csd/layerList/layerListHGear",
     "assetType": 1,
@@ -891,6 +903,12 @@
     "asset": "csd/archer/nodeAniCraft",
     "assetType": 1,
     "id": "NODEANICRAFT",
+    "scale": 1
+  },
+  "NODE_ARTIFACT": {
+    "asset": "csd/hero/nodeArtifact",
+    "assetType": 1,
+    "id": "NODE_ARTIFACT",
     "scale": 1
   },
   "NODE_DESIGN": {
@@ -989,6 +1007,12 @@
     "id": "POPUP_AUTOCOMBINE",
     "scale": 1
   },
+  "POPUP_AWAKEN_ARTIFACT": {
+    "asset": "csd/totalWar/popupArtifactAwaken",
+    "assetType": 1,
+    "id": "POPUP_AWAKEN_ARTIFACT",
+    "scale": 1
+  },
   "POPUP_BATTLE_LOSE": {
     "asset": "csd/common/popupLose",
     "assetType": 1,
@@ -1017,6 +1041,12 @@
     "asset": "csd/archer/popupBreak",
     "assetType": 1,
     "id": "POPUP_BREAK",
+    "scale": 1
+  },
+  "POPUP_BREAK_ARTIFACT": {
+    "asset": "csd/totalWar/popupArtifactBreak",
+    "assetType": 1,
+    "id": "POPUP_BREAK_ARTIFACT",
     "scale": 1
   },
   "POPUP_CAPITALINFO": {
@@ -1439,6 +1469,12 @@
     "id": "POPUP_TOOLTIP_ITEMDESC",
     "scale": 1
   },
+  "POPUP_TOTALWAR_WIN": {
+    "asset": "csd/totalWar/layerTotalwarWin",
+    "assetType": 1,
+    "id": "POPUP_TOTALWAR_WIN",
+    "scale": 1
+  },
   "POPUP_TUTORIAL": {
     "asset": "csd/tutorial/layerTutorial",
     "assetType": 1,
@@ -1461,6 +1497,12 @@
     "asset": "csd/setting/patch/popupUpdate",
     "assetType": 1,
     "id": "POPUP_UPDATE",
+    "scale": 1
+  },
+  "POPUP_UPGRADE_ARTIFACT": {
+    "asset": "csd/totalWar/popupArtifactEnchant",
+    "assetType": 1,
+    "id": "POPUP_UPGRADE_ARTIFACT",
     "scale": 1
   },
   "PORTAL_FORMATION1": {
@@ -1757,6 +1799,36 @@
     "id": "SCENE_SHOP_ITEM_SUMMON",
     "scale": 1
   },
+  "SCENE_TOTALWAR": {
+    "asset": "csd/scene/TotalwarScene",
+    "assetType": 1,
+    "id": "SCENE_TOTALWAR",
+    "scale": 1
+  },
+  "SCENE_TOTALWAR_MAP_1": {
+    "asset": "csd/totalWar/world/1",
+    "assetType": 1,
+    "id": "SCENE_TOTALWAR_MAP_1",
+    "scale": 1
+  },
+  "SCENE_TOTALWAR_MAP_2": {
+    "asset": "csd/totalWar/world/2",
+    "assetType": 1,
+    "id": "SCENE_TOTALWAR_MAP_2",
+    "scale": 1
+  },
+  "SCENE_TOTALWAR_MAP_3": {
+    "asset": "csd/totalWar/world/3",
+    "assetType": 1,
+    "id": "SCENE_TOTALWAR_MAP_3",
+    "scale": 1
+  },
+  "SCENE_TOTALWAR_MAP_4": {
+    "asset": "csd/totalWar/world/4",
+    "assetType": 1,
+    "id": "SCENE_TOTALWAR_MAP_4",
+    "scale": 1
+  },
   "SCENE_TOWN": {
     "asset": "csd/scene/TownScene",
     "assetType": 1,
@@ -1785,6 +1857,78 @@
     "asset": "csd/common/topRaidCoin",
     "assetType": 1,
     "id": "TOP_COIN_60",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_ELECTRICITY": {
+    "asset": "spine/bossElectricity",
+    "assetType": 2,
+    "id": "TOTALWAR_BOSS_ELECTRICITY",
+    "scale": 0.65
+  },
+  "TOTALWAR_BOSS_ELECTRICITY_SKILL": {
+    "asset": "csd/unit/totalWarBoss/bossElectricity_skill",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_ELECTRICITY_SKILL",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_ELECTRICITY_SKILL_BTM": {
+    "asset": "csd/unit/totalWarBoss/bossElectricity_skill_btm",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_ELECTRICITY_SKILL_BTM",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_FIRE": {
+    "asset": "spine/bossFire",
+    "assetType": 2,
+    "id": "TOTALWAR_BOSS_FIRE",
+    "scale": 0.65
+  },
+  "TOTALWAR_BOSS_FIRE_SKILL": {
+    "asset": "csd/unit/totalWarBoss/bossFire_skill",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_FIRE_SKILL",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_FIRE_SKILL_BTM": {
+    "asset": "csd/unit/totalWarBoss/bossFire_skill_btm",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_FIRE_SKILL_BTM",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_ICE": {
+    "asset": "spine/bossIce",
+    "assetType": 2,
+    "id": "TOTALWAR_BOSS_ICE",
+    "scale": 0.65
+  },
+  "TOTALWAR_BOSS_ICE_SKILL": {
+    "asset": "csd/unit/totalWarBoss/bossIce_skill",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_ICE_SKILL",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_ICE_SKILL_BTM": {
+    "asset": "csd/unit/totalWarBoss/bossIce_skill_btm",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_ICE_SKILL_BTM",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_POISON": {
+    "asset": "spine/bossPoison",
+    "assetType": 2,
+    "id": "TOTALWAR_BOSS_POISON",
+    "scale": 0.65
+  },
+  "TOTALWAR_BOSS_POISON_SKILL": {
+    "asset": "csd/unit/totalWarBoss/bossPoison_skill",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_POISON_SKILL",
+    "scale": 1
+  },
+  "TOTALWAR_BOSS_POISON_SKILL_BTM": {
+    "asset": "csd/unit/totalWarBoss/bossPoison_skill_btm",
+    "assetType": 1,
+    "id": "TOTALWAR_BOSS_POISON_SKILL_BTM",
     "scale": 1
   },
   "UNIT_BOMB": {

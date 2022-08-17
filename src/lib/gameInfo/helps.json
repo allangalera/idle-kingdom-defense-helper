@@ -71,6 +71,10 @@
     "message": "HELP_MSG_SHOP",
     "title": "HELP_TITLE_SHOP"
   },
+  "TOTALWAR": {
+    "message": "HELP_MSG_TOTALWAR",
+    "title": "HELP_TITLE_TOTALWAR"
+  },
   "TOWN": {
     "message": "HELP_MSG_TOWN",
     "title": "HELP_TITLE_TOWN"

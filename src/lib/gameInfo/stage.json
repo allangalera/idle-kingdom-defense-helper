@@ -33713,7 +33713,7 @@
     "b_criDamage": 2740,
     "b_criDamageResist": 2740,
     "b_criResist": 2740,
-    "b_def": 83814.962852343,
+    "b_def": 83813.279742159,
     "b_defPierce": 685,
     "b_defPierceResist": 228.33,
     "b_def_inc": 3.4,
@@ -33770,7 +33770,7 @@
         "type": 101
       }
     ],
-    "def": 34027.385704686,
+    "def": 34024.01948432,
     "defPierce": 685,
     "defPierceResist": 228.33,
     "def_inc": 0.34,
@@ -33795,7 +33795,7 @@
     "b_criDamage": 2740,
     "b_criDamageResist": 2740,
     "b_criResist": 2740,
-    "b_def": 84270.699780866,
+    "b_def": 84267.298638607,
     "b_defPierce": 685,
     "b_defPierceResist": 228.33,
     "b_def_inc": 3.4,
@@ -33852,7 +33852,7 @@
         "type": 101
       }
     ],
-    "def": 34396.219561733,
+    "def": 34389.417277214,
     "defPierce": 685,
     "defPierceResist": 228.33,
     "def_inc": 0.34,
@@ -33877,7 +33877,7 @@
     "b_criDamage": 2740,
     "b_criDamageResist": 2740,
     "b_criResist": 2740,
-    "b_def": 84728.280878675,
+    "b_def": 84723.126254129,
     "b_defPierce": 685,
     "b_defPierceResist": 228.33,
     "b_def_inc": 3.4,
@@ -33934,7 +33934,7 @@
         "type": 101
       }
     ],
-    "def": 34768.741757351,
+    "def": 34758.432508259,
     "defPierce": 685,
     "defPierceResist": 228.33,
     "def_inc": 0.34,
@@ -33959,7 +33959,7 @@
     "b_criDamage": 2760,
     "b_criDamageResist": 2760,
     "b_criResist": 2760,
-    "b_def": 85187.724587462,
+    "b_def": 85180.780495045,
     "b_defPierce": 690,
     "b_defPierceResist": 230,
     "b_def_inc": 3.4,
@@ -34016,7 +34016,7 @@
         "type": 101
       }
     ],
-    "def": 35144.989174924,
+    "def": 35131.100990091,
     "defPierce": 690,
     "defPierceResist": 230,
     "def_inc": 0.34,
@@ -34041,7 +34041,7 @@
     "b_criDamage": 2760,
     "b_criDamageResist": 2760,
     "b_criResist": 2760,
-    "b_def": 85649.049533336,
+    "b_def": 85640.279444946,
     "b_defPierce": 690,
     "b_defPierceResist": 230,
     "b_def_inc": 3.4,
@@ -34098,7 +34098,7 @@
         "type": 101
       }
     ],
-    "def": 35524.999066673,
+    "def": 35507.458889892,
     "defPierce": 690,
     "defPierceResist": 230,
     "def_inc": 0.34,
@@ -34123,7 +34123,7 @@
     "b_criDamage": 2760,
     "b_criDamageResist": 2760,
     "b_criResist": 2760,
-    "b_def": 86112.27452867,
+    "b_def": 86101.641366451,
     "b_defPierce": 690,
     "b_defPierceResist": 230,
     "b_def_inc": 3.4,
@@ -34180,7 +34180,7 @@
         "type": 101
       }
     ],
-    "def": 35908.80905734,
+    "def": 35887.542732902,
     "defPierce": 690,
     "defPierceResist": 230,
     "def_inc": 0.34,
@@ -34205,7 +34205,7 @@
     "b_criDamage": 2780,
     "b_criDamageResist": 2780,
     "b_criResist": 2780,
-    "b_def": 86577.418573956,
+    "b_def": 86564.884702979,
     "b_defPierce": 695,
     "b_defPierceResist": 231.67,
     "b_def_inc": 3.4,
@@ -34262,7 +34262,7 @@
         "type": 101
       }
     ],
-    "def": 36296.457147914,
+    "def": 36271.389405958,
     "defPierce": 695,
     "defPierceResist": 231.67,
     "def_inc": 0.34,
@@ -34287,7 +34287,7 @@
     "b_criDamage": 2780,
     "b_criDamageResist": 2780,
     "b_criResist": 2780,
-    "b_def": 87044.500859696,
+    "b_def": 87030.028080538,
     "b_defPierce": 695,
     "b_defPierceResist": 231.67,
     "b_def_inc": 3.4,
@@ -34344,7 +34344,7 @@
         "type": 101
       }
     ],
-    "def": 36687.981719393,
+    "def": 36659.036161077,
     "defPierce": 695,
     "defPierceResist": 231.67,
     "def_inc": 0.34,
@@ -34369,7 +34369,7 @@
     "b_criDamage": 2780,
     "b_criDamageResist": 2780,
     "b_criResist": 2780,
-    "b_def": 87513.540768293,
+    "b_def": 87497.090309535,
     "b_defPierce": 695,
     "b_defPierceResist": 231.67,
     "b_def_inc": 3.4,
@@ -34426,7 +34426,7 @@
         "type": 101
       }
     ],
-    "def": 37083.421536587,
+    "def": 37050.520619072,
     "defPierce": 695,
     "defPierceResist": 231.67,
     "def_inc": 0.34,
@@ -34451,7 +34451,7 @@
     "b_criDamage": 2800,
     "b_criDamageResist": 2800,
     "b_criResist": 2800,
-    "b_def": 87984.557875976,
+    "b_def": 87966.0903866,
     "b_defPierce": 700,
     "b_defPierceResist": 233.33,
     "b_def_inc": 3.4,
@@ -34508,7 +34508,7 @@
         "type": 101
       }
     ],
-    "def": 37482.815751952,
+    "def": 37445.880773201,
     "defPierce": 700,
     "defPierceResist": 233.33,
     "def_inc": 0.34,
@@ -34533,7 +34533,7 @@
     "b_criDamage": 2800,
     "b_criDamageResist": 2800,
     "b_criResist": 2800,
-    "b_def": 88457.571954736,
+    "b_def": 88437.047496427,
     "b_defPierce": 700,
     "b_defPierceResist": 233.33,
     "b_def_inc": 3.4,
@@ -34590,7 +34590,7 @@
         "type": 101
       }
     ],
-    "def": 37886.203909472,
+    "def": 37845.154992855,
     "defPierce": 700,
     "defPierceResist": 233.33,
     "def_inc": 0.34,
@@ -34615,7 +34615,7 @@
     "b_criDamage": 2800,
     "b_criDamageResist": 2800,
     "b_criResist": 2800,
-    "b_def": 88932.602974283,
+    "b_def": 88909.981013642,
     "b_defPierce": 700,
     "b_defPierceResist": 233.33,
     "b_def_inc": 3.4,
@@ -34672,7 +34672,7 @@
         "type": 101
       }
     ],
-    "def": 38293.625948567,
+    "def": 38248.382027285,
     "defPierce": 700,
     "defPierceResist": 233.33,
     "def_inc": 0.34,
@@ -34697,7 +34697,7 @@
     "b_criDamage": 2820,
     "b_criDamageResist": 2820,
     "b_criResist": 2820,
-    "b_def": 89409.671104026,
+    "b_def": 89384.910504677,
     "b_defPierce": 705,
     "b_defPierceResist": 235,
     "b_def_inc": 3.4,
@@ -34754,7 +34754,7 @@
         "type": 101
       }
     ],
-    "def": 38705.122208052,
+    "def": 38655.601009355,
     "defPierce": 705,
     "defPierceResist": 235,
     "def_inc": 0.34,
@@ -34779,7 +34779,7 @@
     "b_criDamage": 2820,
     "b_criDamageResist": 2820,
     "b_criResist": 2820,
-    "b_def": 89888.796715066,
+    "b_def": 89861.855729673,
     "b_defPierce": 705,
     "b_defPierceResist": 235,
     "b_def_inc": 3.4,
@@ -34836,7 +34836,7 @@
         "type": 101
       }
     ],
-    "def": 39120.733430133,
+    "def": 39066.851459347,
     "defPierce": 705,
     "defPierceResist": 235,
     "def_inc": 0.34,
@@ -34861,7 +34861,7 @@
     "b_criDamage": 2820,
     "b_criDamageResist": 2820,
     "b_criResist": 2820,
-    "b_def": 90370.000382217,
+    "b_def": 90340.836644397,
     "b_defPierce": 705,
     "b_defPierceResist": 235,
     "b_def_inc": 3.4,
@@ -34918,7 +34918,7 @@
         "type": 101
       }
     ],
-    "def": 39540.500764434,
+    "def": 39482.173288795,
     "defPierce": 705,
     "defPierceResist": 235,
     "def_inc": 0.34,
@@ -34943,7 +34943,7 @@
     "b_criDamage": 2840,
     "b_criDamageResist": 2840,
     "b_criResist": 2840,
-    "b_def": 90853.302886039,
+    "b_def": 90821.873402177,
     "b_defPierce": 710,
     "b_defPierceResist": 236.67,
     "b_def_inc": 3.4,
@@ -35000,7 +35000,7 @@
         "type": 101
       }
     ],
-    "def": 39964.465772079,
+    "def": 39901.606804354,
     "defPierce": 710,
     "defPierceResist": 236.67,
     "def_inc": 0.34,
@@ -35025,7 +35025,7 @@
     "b_criDamage": 2840,
     "b_criDamageResist": 2840,
     "b_criResist": 2840,
-    "b_def": 91338.725214899,
+    "b_def": 91304.986355858,
     "b_defPierce": 710,
     "b_defPierceResist": 236.67,
     "b_def_inc": 3.4,
@@ -35082,7 +35082,7 @@
         "type": 101
       }
     ],
-    "def": 40392.670429799,
+    "def": 40325.192711717,
     "defPierce": 710,
     "defPierceResist": 236.67,
     "def_inc": 0.34,
@@ -35107,7 +35107,7 @@
     "b_criDamage": 2840,
     "b_criDamageResist": 2840,
     "b_criResist": 2840,
-    "b_def": 91826.288567048,
+    "b_def": 91790.196059781,
     "b_defPierce": 710,
     "b_defPierceResist": 236.67,
     "b_def_inc": 3.4,
@@ -35164,7 +35164,7 @@
         "type": 101
       }
     ],
-    "def": 40825.157134097,
+    "def": 40752.972119563,
     "defPierce": 710,
     "defPierceResist": 236.67,
     "def_inc": 0.34,
@@ -35189,7 +35189,7 @@
     "b_criDamage": 2860,
     "b_criDamageResist": 2860,
     "b_criResist": 2860,
-    "b_def": 92316.014352719,
+    "b_def": 92277.523271773,
     "b_defPierce": 715,
     "b_defPierceResist": 238.33,
     "b_def_inc": 3.4,
@@ -35246,7 +35246,7 @@
         "type": 101
       }
     ],
-    "def": 41261.968705438,
+    "def": 41184.986543547,
     "defPierce": 715,
     "defPierceResist": 238.33,
     "def_inc": 0.34,
@@ -35271,7 +35271,7 @@
     "b_criDamage": 2860,
     "b_criDamageResist": 2860,
     "b_criResist": 2860,
-    "b_def": 92807.924196246,
+    "b_def": 92766.988955163,
     "b_defPierce": 715,
     "b_defPierceResist": 238.33,
     "b_def_inc": 3.4,
@@ -35328,7 +35328,7 @@
         "type": 101
       }
     ],
-    "def": 41703.148392493,
+    "def": 41621.277910328,
     "defPierce": 715,
     "defPierceResist": 238.33,
     "def_inc": 0.34,
@@ -35353,7 +35353,7 @@
     "b_criDamage": 2860,
     "b_criDamageResist": 2860,
     "b_criResist": 2860,
-    "b_def": 93302.039938208,
+    "b_def": 93258.61428082,
     "b_defPierce": 715,
     "b_defPierceResist": 238.33,
     "b_def_inc": 3.4,
@@ -35410,7 +35410,7 @@
         "type": 101
       }
     ],
-    "def": 42148.739876418,
+    "def": 42061.88856164,
     "defPierce": 715,
     "defPierceResist": 238.33,
     "def_inc": 0.34,
@@ -35435,7 +35435,7 @@
     "b_criDamage": 2880,
     "b_criDamageResist": 2880,
     "b_criResist": 2880,
-    "b_def": 93798.383637591,
+    "b_def": 93752.4206292,
     "b_defPierce": 720,
     "b_defPierceResist": 240,
     "b_def_inc": 3.4,
@@ -35492,7 +35492,7 @@
         "type": 101
       }
     ],
-    "def": 42598.787275182,
+    "def": 42506.8612584,
     "defPierce": 720,
     "defPierceResist": 240,
     "def_inc": 0.34,
@@ -35517,7 +35517,7 @@
     "b_criDamage": 2880,
     "b_criDamageResist": 2880,
     "b_criResist": 2880,
-    "b_def": 94296.977573966,
+    "b_def": 94248.429592429,
     "b_defPierce": 720,
     "b_defPierceResist": 240,
     "b_def_inc": 3.4,
@@ -35574,7 +35574,7 @@
         "type": 101
       }
     ],
-    "def": 43053.335147934,
+    "def": 42956.239184858,
     "defPierce": 720,
     "defPierceResist": 240,
     "def_inc": 0.34,
@@ -35599,7 +35599,7 @@
     "b_criDamage": 2880,
     "b_criDamageResist": 2880,
     "b_criResist": 2880,
-    "b_def": 94797.844249706,
+    "b_def": 94746.662976394,
     "b_defPierce": 720,
     "b_defPierceResist": 240,
     "b_def_inc": 3.4,
@@ -35656,7 +35656,7 @@
         "type": 101
       }
     ],
-    "def": 43512.428499413,
+    "def": 43410.065952788,
     "defPierce": 720,
     "defPierceResist": 240,
     "def_inc": 0.34,
@@ -35681,7 +35681,7 @@
     "b_criDamage": 2900,
     "b_criDamageResist": 2900,
     "b_criResist": 2900,
-    "b_def": 95301.006392203,
+    "b_def": 95247.14280286,
     "b_defPierce": 725,
     "b_defPierceResist": 241.67,
     "b_def_inc": 3.4,
@@ -35738,7 +35738,7 @@
         "type": 101
       }
     ],
-    "def": 43976.112784407,
+    "def": 43868.385605721,
     "defPierce": 725,
     "defPierceResist": 241.67,
     "def_inc": 0.34,
@@ -35763,7 +35763,7 @@
     "b_criDamage": 2900,
     "b_criDamageResist": 2900,
     "b_criResist": 2900,
-    "b_def": 95806.486956125,
+    "b_def": 95749.891311609,
     "b_defPierce": 725,
     "b_defPierceResist": 241.67,
     "b_def_inc": 3.4,
@@ -35820,7 +35820,7 @@
         "type": 101
       }
     ],
-    "def": 44444.433912251,
+    "def": 44331.242623218,
     "defPierce": 725,
     "defPierceResist": 241.67,
     "def_inc": 0.34,
@@ -35845,7 +35845,7 @@
     "b_criDamage": 2900,
     "b_criDamageResist": 2900,
     "b_criResist": 2900,
-    "b_def": 96314.309125686,
+    "b_def": 96254.930962593,
     "b_defPierce": 725,
     "b_defPierceResist": 241.67,
     "b_def_inc": 3.4,
@@ -35902,7 +35902,7 @@
         "type": 101
       }
     ],
-    "def": 44917.438251374,
+    "def": 44798.681925188,
     "defPierce": 725,
     "defPierceResist": 241.67,
     "def_inc": 0.34,
@@ -35927,7 +35927,7 @@
     "b_criDamage": 2920,
     "b_criDamageResist": 2920,
     "b_criResist": 2920,
-    "b_def": 96824.496316943,
+    "b_def": 96762.284438123,
     "b_defPierce": 730,
     "b_defPierceResist": 243.33,
     "b_def_inc": 3.4,
@@ -35984,7 +35984,7 @@
         "type": 101
       }
     ],
-    "def": 45395.172633887,
+    "def": 45270.748876247,
     "defPierce": 730,
     "defPierceResist": 243.33,
     "def_inc": 0.34,
@@ -36009,7 +36009,7 @@
     "b_criDamage": 2920,
     "b_criDamageResist": 2920,
     "b_criResist": 2920,
-    "b_def": 97337.072180113,
+    "b_def": 97271.974645061,
     "b_defPierce": 730,
     "b_defPierceResist": 243.33,
     "b_def_inc": 3.4,
@@ -36066,7 +36066,7 @@
         "type": 101
       }
     ],
-    "def": 45877.684360226,
+    "def": 45747.489290122,
     "defPierce": 730,
     "defPierceResist": 243.33,
     "def_inc": 0.34,
@@ -36091,7 +36091,7 @@
     "b_criDamage": 2920,
     "b_criDamageResist": 2920,
     "b_criResist": 2920,
-    "b_def": 97852.060601914,
+    "b_def": 97784.024717047,
     "b_defPierce": 730,
     "b_defPierceResist": 243.33,
     "b_def_inc": 3.4,
@@ -36148,7 +36148,7 @@
         "type": 101
       }
     ],
-    "def": 46365.021203828,
+    "def": 46228.949434094,
     "defPierce": 730,
     "defPierceResist": 243.33,
     "def_inc": 0.34,
@@ -36173,7 +36173,7 @@
     "b_criDamage": 2940,
     "b_criDamageResist": 2940,
     "b_criResist": 2940,
-    "b_def": 98369.485707933,
+    "b_def": 98298.458016745,
     "b_defPierce": 735,
     "b_defPierceResist": 245,
     "b_def_inc": 3.4,
@@ -36230,7 +36230,7 @@
         "type": 101
       }
     ],
-    "def": 46857.231415867,
+    "def": 46715.176033492,
     "defPierce": 735,
     "defPierceResist": 245,
     "def_inc": 0.34,
@@ -36255,7 +36255,7 @@
     "b_criDamage": 2940,
     "b_criDamageResist": 2940,
     "b_criResist": 2940,
-    "b_def": 98889.371865012,
+    "b_def": 98815.298138111,
     "b_defPierce": 735,
     "b_defPierceResist": 245,
     "b_def_inc": 3.4,
@@ -36312,7 +36312,7 @@
         "type": 101
       }
     ],
-    "def": 47354.363730025,
+    "def": 47206.216276223,
     "defPierce": 735,
     "defPierceResist": 245,
     "def_inc": 0.34,
@@ -36337,7 +36337,7 @@
     "b_criDamage": 2940,
     "b_criDamageResist": 2940,
     "b_criResist": 2940,
-    "b_def": 99411.743683663,
+    "b_def": 99334.568908679,
     "b_defPierce": 735,
     "b_defPierceResist": 245,
     "b_def_inc": 3.4,
@@ -36394,7 +36394,7 @@
         "type": 101
       }
     ],
-    "def": 47856.467367326,
+    "def": 47702.117817358,
     "defPierce": 735,
     "defPierceResist": 245,
     "def_inc": 0.34,
@@ -36419,7 +36419,7 @@
     "b_criDamage": 2960,
     "b_criDamageResist": 2960,
     "b_criResist": 2960,
-    "b_def": 99958.161430814,
+    "b_def": 99875.375239001,
     "b_defPierce": 740,
     "b_defPierceResist": 246.67,
     "b_def_inc": 3.4,
@@ -36476,7 +36476,7 @@
         "type": 101
       }
     ],
-    "def": 48406.66286163,
+    "def": 48241.090478003,
     "defPierce": 740,
     "defPierceResist": 246.67,
     "def_inc": 0.34,
@@ -36501,7 +36501,7 @@
     "b_criDamage": 2960,
     "b_criDamageResist": 2960,
     "b_criResist": 2960,
-    "b_def": 100507.57774341,
+    "b_def": 100419.06507306,
     "b_defPierce": 740,
     "b_defPierceResist": 246.67,
     "b_def_inc": 3.4,
@@ -36558,7 +36558,7 @@
         "type": 101
       }
     ],
-    "def": 48962.855486821,
+    "def": 48785.830146118,
     "defPierce": 740,
     "defPierceResist": 246.67,
     "def_inc": 0.34,
@@ -36583,7 +36583,7 @@
     "b_criDamage": 2960,
     "b_criDamageResist": 2960,
     "b_criResist": 2960,
-    "b_def": 101060.02530581,
+    "b_def": 100965.66926434,
     "b_defPierce": 740,
     "b_defPierceResist": 246.67,
     "b_def_inc": 3.4,
@@ -36640,7 +36640,7 @@
         "type": 101
       }
     ],
-    "def": 49525.110611628,
+    "def": 49336.398528682,
     "defPierce": 740,
     "defPierceResist": 246.67,
     "def_inc": 0.34,
@@ -36665,7 +36665,7 @@
     "b_criDamage": 2980,
     "b_criDamageResist": 2980,
     "b_criResist": 2980,
-    "b_def": 101615.53715865,
+    "b_def": 101515.21899647,
     "b_defPierce": 745,
     "b_defPierceResist": 248.33,
     "b_def_inc": 3.4,
@@ -36722,7 +36722,7 @@
         "type": 101
       }
     ],
-    "def": 50093.494317294,
+    "def": 49892.857992938,
     "defPierce": 745,
     "defPierceResist": 248.33,
     "def_inc": 0.34,
@@ -36747,7 +36747,7 @@
     "b_criDamage": 2980,
     "b_criDamageResist": 2980,
     "b_criResist": 2980,
-    "b_def": 102174.14670268,
+    "b_def": 102067.74578673,
     "b_defPierce": 745,
     "b_defPierceResist": 248.33,
     "b_def_inc": 3.4,
@@ -36804,7 +36804,7 @@
         "type": 101
       }
     ],
-    "def": 50668.073405353,
+    "def": 50455.271573463,
     "defPierce": 745,
     "defPierceResist": 248.33,
     "def_inc": 0.34,
@@ -36829,7 +36829,7 @@
     "b_criDamage": 2980,
     "b_criDamageResist": 2980,
     "b_criResist": 2980,
-    "b_def": 102735.88770274,
+    "b_def": 102623.28148965,
     "b_defPierce": 745,
     "b_defPierceResist": 248.33,
     "b_def_inc": 3.4,
@@ -36886,7 +36886,7 @@
         "type": 101
       }
     ],
-    "def": 51248.915405471,
+    "def": 51023.702979299,
     "defPierce": 745,
     "defPierceResist": 248.33,
     "def_inc": 0.34,
@@ -36911,7 +36911,7 @@
     "b_criDamage": 3000,
     "b_criDamageResist": 3000,
     "b_criResist": 3000,
-    "b_def": 103300.7942917,
+    "b_def": 103181.85830059,
     "b_defPierce": 750,
     "b_defPierceResist": 250,
     "b_def_inc": 3.4,
@@ -36968,7 +36968,7 @@
         "type": 101
       }
     ],
-    "def": 51836.088583391,
+    "def": 51598.216601177,
     "defPierce": 750,
     "defPierceResist": 250,
     "def_inc": 0.34,
@@ -36993,7 +36993,7 @@
     "b_criDamage": 3000,
     "b_criDamageResist": 3000,
     "b_criResist": 3000,
-    "b_def": 103868.90097447,
+    "b_def": 103743.5087594,
     "b_defPierce": 750,
     "b_defPierceResist": 250,
     "b_def_inc": 3.4,
@@ -37050,7 +37050,7 @@
         "type": 101
       }
     ],
-    "def": 52429.66194895,
+    "def": 52178.87751881,
     "defPierce": 750,
     "defPierceResist": 250,
     "def_inc": 0.34,
@@ -37075,7 +37075,7 @@
     "b_criDamage": 3000,
     "b_criDamageResist": 3000,
     "b_criResist": 3000,
-    "b_def": 104440.2426321,
+    "b_def": 104308.26575413,
     "b_defPierce": 750,
     "b_defPierceResist": 250,
     "b_def_inc": 3.4,
@@ -37132,7 +37132,7 @@
         "type": 101
       }
     ],
-    "def": 53029.705264193,
+    "def": 52765.751508261,
     "defPierce": 750,
     "defPierceResist": 250,
     "def_inc": 0.34,
@@ -37157,7 +37157,7 @@
     "b_criDamage": 3020,
     "b_criDamageResist": 3020,
     "b_criResist": 3020,
-    "b_def": 105014.85452579,
+    "b_def": 104876.1625247,
     "b_defPierce": 755,
     "b_defPierceResist": 251.67,
     "b_def_inc": 3.4,
@@ -37214,7 +37214,7 @@
         "type": 101
       }
     ],
-    "def": 53636.289051573,
+    "def": 53358.9050494,
     "defPierce": 755,
     "defPierceResist": 251.67,
     "def_inc": 0.34,
@@ -37239,7 +37239,7 @@
     "b_criDamage": 3020,
     "b_criDamageResist": 3020,
     "b_criResist": 3020,
-    "b_def": 105592.77230112,
+    "b_def": 105447.23266671,
     "b_defPierce": 755,
     "b_defPierceResist": 251.67,
     "b_def_inc": 3.4,
@@ -37296,7 +37296,7 @@
         "type": 101
       }
     ],
-    "def": 54249.484602235,
+    "def": 53958.405333428,
     "defPierce": 755,
     "defPierceResist": 251.67,
     "def_inc": 0.34,
@@ -37321,7 +37321,7 @@
     "b_criDamage": 3020,
     "b_criDamageResist": 3020,
     "b_criResist": 3020,
-    "b_def": 106174.0319922,
+    "b_def": 106021.51013525,
     "b_defPierce": 755,
     "b_defPierceResist": 251.67,
     "b_def_inc": 3.4,
@@ -37378,7 +37378,7 @@
         "type": 101
       }
     ],
-    "def": 54869.3639844,
+    "def": 54564.320270496,
     "defPierce": 755,
     "defPierceResist": 251.67,
     "def_inc": 0.34,
@@ -37403,7 +37403,7 @@
     "b_criDamage": 3040,
     "b_criDamageResist": 3040,
     "b_criResist": 3040,
-    "b_def": 106758.67002591,
+    "b_def": 106599.02924869,
     "b_defPierce": 760,
     "b_defPierceResist": 253.33,
     "b_def_inc": 3.4,
@@ -37460,7 +37460,7 @@
         "type": 101
       }
     ],
-    "def": 55496.00005183,
+    "def": 55176.71849739,
     "defPierce": 760,
     "defPierceResist": 253.33,
     "def_inc": 0.34,
@@ -37485,7 +37485,7 @@
     "b_criDamage": 3040,
     "b_criDamageResist": 3040,
     "b_criResist": 3040,
-    "b_def": 107346.7232262,
+    "b_def": 107179.82469266,
     "b_defPierce": 760,
     "b_defPierceResist": 253.33,
     "b_def_inc": 3.4,
@@ -37542,7 +37542,7 @@
         "type": 101
       }
     ],
-    "def": 56129.466452394,
+    "def": 55795.669385312,
     "defPierce": 760,
     "defPierceResist": 253.33,
     "def_inc": 0.34,
@@ -37567,7 +37567,7 @@
     "b_criDamage": 3040,
     "b_criDamageResist": 3040,
     "b_criResist": 3040,
-    "b_def": 107938.22881836,
+    "b_def": 107763.93152387,
     "b_defPierce": 760,
     "b_defPierceResist": 253.33,
     "b_def_inc": 3.4,
@@ -37624,7 +37624,7 @@
         "type": 101
       }
     ],
-    "def": 56769.837636726,
+    "def": 56421.243047735,
     "defPierce": 760,
     "defPierceResist": 253.33,
     "def_inc": 0.34,
@@ -37649,7 +37649,7 @@
     "b_criDamage": 3060,
     "b_criDamageResist": 3060,
     "b_criResist": 3060,
-    "b_def": 108533.22443348,
+    "b_def": 108351.38517417,
     "b_defPierce": 765,
     "b_defPierceResist": 255,
     "b_def_inc": 3.4,
@@ -37706,7 +37706,7 @@
         "type": 101
       }
     ],
-    "def": 57417.188866966,
+    "def": 57053.510348346,
     "defPierce": 765,
     "defPierceResist": 255,
     "def_inc": 0.34,
@@ -37731,7 +37731,7 @@
     "b_criDamage": 3060,
     "b_criDamageResist": 3060,
     "b_criResist": 3060,
-    "b_def": 109131.74811281,
+    "b_def": 108942.22145454,
     "b_defPierce": 765,
     "b_defPierceResist": 255,
     "b_def_inc": 3.4,
@@ -37788,7 +37788,7 @@
         "type": 101
       }
     ],
-    "def": 58071.596225616,
+    "def": 57692.542909073,
     "defPierce": 765,
     "defPierceResist": 255,
     "def_inc": 0.34,
@@ -37813,7 +37813,7 @@
     "b_criDamage": 3060,
     "b_criDamageResist": 3060,
     "b_criResist": 3060,
-    "b_def": 109733.83831224,
+    "b_def": 109536.4765591,
     "b_defPierce": 765,
     "b_defPierceResist": 255,
     "b_def_inc": 3.4,
@@ -37870,7 +37870,7 @@
         "type": 101
       }
     ],
-    "def": 58733.136624475,
+    "def": 58338.4131182,
     "defPierce": 765,
     "defPierceResist": 255,
     "def_inc": 0.34,
@@ -37895,7 +37895,7 @@
     "b_criDamage": 3080,
     "b_criDamageResist": 3080,
     "b_criResist": 3080,
-    "b_def": 110339.53390684,
+    "b_def": 110134.18706928,
     "b_defPierce": 770,
     "b_defPierceResist": 256.67,
     "b_def_inc": 3.4,
@@ -37952,7 +37952,7 @@
         "type": 101
       }
     ],
-    "def": 59401.887813682,
+    "def": 58991.194138565,
     "defPierce": 770,
     "defPierceResist": 256.67,
     "def_inc": 0.34,
@@ -37977,7 +37977,7 @@
     "b_criDamage": 3080,
     "b_criDamageResist": 3080,
     "b_criResist": 3080,
-    "b_def": 110948.87419543,
+    "b_def": 110735.38995792,
     "b_defPierce": 770,
     "b_defPierceResist": 256.67,
     "b_def_inc": 3.4,
@@ -38034,7 +38034,7 @@
         "type": 101
       }
     ],
-    "def": 60077.928390851,
+    "def": 59650.959915848,
     "defPierce": 770,
     "defPierceResist": 256.67,
     "def_inc": 0.34,
@@ -38059,7 +38059,7 @@
     "b_criDamage": 3080,
     "b_criDamageResist": 3080,
     "b_criResist": 3080,
-    "b_def": 111561.89890516,
+    "b_def": 111340.12259347,
     "b_defPierce": 770,
     "b_defPierceResist": 256.67,
     "b_def_inc": 3.4,
@@ -38116,7 +38116,7 @@
         "type": 101
       }
     ],
-    "def": 60761.337810311,
+    "def": 60317.785186947,
     "defPierce": 770,
     "defPierceResist": 256.67,
     "def_inc": 0.34,
@@ -38141,7 +38141,7 @@
     "b_criDamage": 3100,
     "b_criDamageResist": 3100,
     "b_criResist": 3100,
-    "b_def": 112178.64819622,
+    "b_def": 111948.42274422,
     "b_defPierce": 775,
     "b_defPierceResist": 258.33,
     "b_def_inc": 3.4,
@@ -38198,7 +38198,7 @@
         "type": 101
       }
     ],
-    "def": 61452.196392444,
+    "def": 60991.745488448,
     "defPierce": 775,
     "defPierceResist": 258.33,
     "def_inc": 0.34,
@@ -38223,7 +38223,7 @@
     "b_criDamage": 3100,
     "b_criDamageResist": 3100,
     "b_criResist": 3100,
-    "b_def": 112799.16266656,
+    "b_def": 112560.32858259,
     "b_defPierce": 775,
     "b_defPierceResist": 258.33,
     "b_def_inc": 3.4,
@@ -38280,7 +38280,7 @@
         "type": 101
       }
     ],
-    "def": 62150.585333121,
+    "def": 61672.917165174,
     "defPierce": 775,
     "defPierceResist": 258.33,
     "def_inc": 0.34,
@@ -38305,7 +38305,7 @@
     "b_criDamage": 3100,
     "b_criDamageResist": 3100,
     "b_criResist": 3100,
-    "b_def": 113423.48335663,
+    "b_def": 113175.87868942,
     "b_defPierce": 775,
     "b_defPierceResist": 258.33,
     "b_def_inc": 3.4,
@@ -38362,7 +38362,7 @@
         "type": 101
       }
     ],
-    "def": 62856.586713252,
+    "def": 62361.377378841,
     "defPierce": 775,
     "defPierceResist": 258.33,
     "def_inc": 0.34,
@@ -38387,7 +38387,7 @@
     "b_criDamage": 3120,
     "b_criDamageResist": 3120,
     "b_criResist": 3120,
-    "b_def": 114051.65175421,
+    "b_def": 113795.1120584,
     "b_defPierce": 780,
     "b_defPierceResist": 260,
     "b_def_inc": 3.4,
@@ -38444,7 +38444,7 @@
         "type": 101
       }
     ],
-    "def": 63570.283508427,
+    "def": 63057.204116795,
     "defPierce": 780,
     "defPierceResist": 260,
     "def_inc": 0.34,
@@ -38469,7 +38469,7 @@
     "b_criDamage": 3120,
     "b_criDamageResist": 3120,
     "b_criResist": 3120,
-    "b_def": 114683.70979933,
+    "b_def": 114418.06810042,
     "b_defPierce": 780,
     "b_defPierceResist": 260,
     "b_def_inc": 3.4,
@@ -38526,7 +38526,7 @@
         "type": 101
       }
     ],
-    "def": 64291.759598668,
+    "def": 63760.476200845,
     "defPierce": 780,
     "defPierceResist": 260,
     "def_inc": 0.34,
@@ -38551,7 +38551,7 @@
     "b_criDamage": 3120,
     "b_criDamageResist": 3120,
     "b_criResist": 3120,
-    "b_def": 115319.69988915,
+    "b_def": 115044.7866481,
     "b_defPierce": 780,
     "b_defPierceResist": 260,
     "b_def_inc": 3.4,
@@ -38608,7 +38608,7 @@
         "type": 101
       }
     ],
-    "def": 65021.099778294,
+    "def": 64471.273296194,
     "defPierce": 780,
     "defPierceResist": 260,
     "def_inc": 0.34,
@@ -38633,7 +38633,7 @@
     "b_criDamage": 3140,
     "b_criDamageResist": 3140,
     "b_criResist": 3140,
-    "b_def": 115959.66488294,
+    "b_def": 115675.30796023,
     "b_defPierce": 785,
     "b_defPierceResist": 261.67,
     "b_def_inc": 3.4,
@@ -38690,7 +38690,7 @@
         "type": 101
       }
     ],
-    "def": 65758.389765877,
+    "def": 65189.675920463,
     "defPierce": 785,
     "defPierceResist": 261.67,
     "def_inc": 0.34,
@@ -38715,7 +38715,7 @@
     "b_criDamage": 3140,
     "b_criDamageResist": 3140,
     "b_criResist": 3140,
-    "b_def": 116603.64810716,
+    "b_def": 116309.67272641,
     "b_defPierce": 785,
     "b_defPierceResist": 261.67,
     "b_def_inc": 3.4,
@@ -38772,7 +38772,7 @@
         "type": 101
       }
     ],
-    "def": 66503.716214325,
+    "def": 65915.765452812,
     "defPierce": 785,
     "defPierceResist": 261.67,
     "def_inc": 0.34,
@@ -38797,7 +38797,7 @@
     "b_criDamage": 3140,
     "b_criDamageResist": 3140,
     "b_criResist": 3140,
-    "b_def": 117251.69336053,
+    "b_def": 116947.92207158,
     "b_defPierce": 785,
     "b_defPierceResist": 261.67,
     "b_def_inc": 3.4,
@@ -38854,7 +38854,7 @@
         "type": 101
       }
     ],
-    "def": 67257.166721062,
+    "def": 66649.624143157,
     "defPierce": 785,
     "defPierceResist": 261.67,
     "def_inc": 0.34,
@@ -38879,7 +38879,7 @@
     "b_criDamage": 3160,
     "b_criDamageResist": 3160,
     "b_criResist": 3160,
-    "b_def": 117903.84491916,
+    "b_def": 117590.09756074,
     "b_defPierce": 790,
     "b_defPierceResist": 263.33,
     "b_def_inc": 3.4,
@@ -38936,7 +38936,7 @@
         "type": 101
       }
     ],
-    "def": 68018.829838321,
+    "def": 67391.335121489,
     "defPierce": 790,
     "defPierceResist": 263.33,
     "def_inc": 0.34,
@@ -38961,7 +38961,7 @@
     "b_criDamage": 3160,
     "b_criDamageResist": 3160,
     "b_criResist": 3160,
-    "b_def": 118560.14754178,
+    "b_def": 118236.24120364,
     "b_defPierce": 790,
     "b_defPierceResist": 263.33,
     "b_def_inc": 3.4,
@@ -39018,7 +39018,7 @@
         "type": 101
       }
     ],
-    "def": 68788.795083559,
+    "def": 68140.982407289,
     "defPierce": 790,
     "defPierceResist": 263.33,
     "def_inc": 0.34,
@@ -39043,7 +39043,7 @@
     "b_criDamage": 3160,
     "b_criDamageResist": 3160,
     "b_criResist": 3160,
-    "b_def": 119220.64647498,
+    "b_def": 118886.39545952,
     "b_defPierce": 790,
     "b_defPierceResist": 263.33,
     "b_def_inc": 3.4,
@@ -39100,7 +39100,7 @@
         "type": 101
       }
     ],
-    "def": 69567.15294997,
+    "def": 68898.650919047,
     "defPierce": 790,
     "defPierceResist": 263.33,
     "def_inc": 0.34,
@@ -39125,7 +39125,7 @@
     "b_criDamage": 3180,
     "b_criDamageResist": 3180,
     "b_criResist": 3180,
-    "b_def": 119916.69267739,
+    "b_def": 119568.16270231,
     "b_defPierce": 795,
     "b_defPierceResist": 265,
     "b_def_inc": 3.4,
@@ -39182,7 +39182,7 @@
         "type": 101
       }
     ],
-    "def": 70416.605354779,
+    "def": 69719.545404616,
     "defPierce": 795,
     "defPierceResist": 265,
     "def_inc": 0.34,
@@ -39207,7 +39207,7 @@
     "b_criDamage": 3180,
     "b_criDamageResist": 3180,
     "b_criResist": 3180,
-    "b_def": 120617.75064898,
+    "b_def": 120254.65008838,
     "b_defPierce": 795,
     "b_defPierceResist": 265,
     "b_def_inc": 3.4,
@@ -39264,7 +39264,7 @@
         "type": 101
       }
     ],
-    "def": 71276.081297966,
+    "def": 70549.880176769,
     "defPierce": 795,
     "defPierceResist": 265,
     "def_inc": 0.34,
@@ -39289,7 +39289,7 @@
     "b_criDamage": 3180,
     "b_criDamageResist": 3180,
     "b_criResist": 3180,
-    "b_def": 121323.87952864,
+    "b_def": 120945.9118994,
     "b_defPierce": 795,
     "b_defPierceResist": 265,
     "b_def_inc": 3.4,
@@ -39346,7 +39346,7 @@
         "type": 101
       }
     ],
-    "def": 72145.699057282,
+    "def": 71389.763798802,
     "defPierce": 795,
     "defPierceResist": 265,
     "def_inc": 0.34,
@@ -39371,7 +39371,7 @@
     "b_criDamage": 3200,
     "b_criDamageResist": 3200,
     "b_criResist": 3200,
-    "b_def": 122035.13915308,
+    "b_def": 121642.00304124,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39428,7 +39428,7 @@
         "type": 101
       }
     ],
-    "def": 73025.578306158,
+    "def": 72239.306082488,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39453,7 +39453,7 @@
     "b_criDamage": 3200,
     "b_criDamageResist": 3200,
     "b_criResist": 3200,
-    "b_def": 122751.59006509,
+    "b_def": 122342.97905122,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39510,7 +39510,7 @@
         "type": 101
       }
     ],
-    "def": 73915.84013017,
+    "def": 73098.618102436,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39535,7 +39535,7 @@
     "b_criDamage": 3200,
     "b_criDamageResist": 3200,
     "b_criResist": 3200,
-    "b_def": 123473.29352185,
+    "b_def": 123048.89610531,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39592,7 +39592,7 @@
         "type": 101
       }
     ],
-    "def": 74816.607043706,
+    "def": 73967.812210614,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39617,7 +39617,7 @@
     "b_criDamage": 3220,
     "b_criDamageResist": 3220,
     "b_criResist": 3220,
-    "b_def": 124200.31150341,
+    "b_def": 123759.81102552,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39674,7 +39674,7 @@
         "type": 101
       }
     ],
-    "def": 75728.003006822,
+    "def": 74847.002051036,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39699,7 +39699,7 @@
     "b_criDamage": 3220,
     "b_criDamageResist": 3220,
     "b_criResist": 3220,
-    "b_def": 124932.70672115,
+    "b_def": 124475.78128731,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39756,7 +39756,7 @@
         "type": 101
       }
     ],
-    "def": 76650.153442302,
+    "def": 75736.302574623,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39781,7 +39781,7 @@
     "b_criDamage": 3220,
     "b_criDamageResist": 3220,
     "b_criResist": 3220,
-    "b_def": 125670.54262646,
+    "b_def": 125196.86502712,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39838,7 +39838,7 @@
         "type": 101
       }
     ],
-    "def": 77583.185252922,
+    "def": 76635.830054232,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39863,7 +39863,7 @@
     "b_criDamage": 3240,
     "b_criDamageResist": 3240,
     "b_criResist": 3240,
-    "b_def": 126413.88341945,
+    "b_def": 125923.12104993,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -39920,7 +39920,7 @@
         "type": 101
       }
     ],
-    "def": 78527.226838906,
+    "def": 77545.702099855,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -39945,7 +39945,7 @@
     "b_criDamage": 3240,
     "b_criDamageResist": 3240,
     "b_criResist": 3240,
-    "b_def": 127162.7940578,
+    "b_def": 126654.608837,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40002,7 +40002,7 @@
         "type": 101
       }
     ],
-    "def": 79482.408115605,
+    "def": 78466.037674004,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40027,7 +40027,7 @@
     "b_criDamage": 3240,
     "b_criDamageResist": 3240,
     "b_criResist": 3240,
-    "b_def": 127917.34026568,
+    "b_def": 127391.38855363,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40084,7 +40084,7 @@
         "type": 101
       }
     ],
-    "def": 80448.860531369,
+    "def": 79396.957107255,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40109,7 +40109,7 @@
     "b_criDamage": 3260,
     "b_criDamageResist": 3260,
     "b_criResist": 3260,
-    "b_def": 128677.58854282,
+    "b_def": 128133.52105699,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40166,7 +40166,7 @@
         "type": 101
       }
     ],
-    "def": 81426.71708564,
+    "def": 80338.582113988,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40191,7 +40191,7 @@
     "b_criDamage": 3260,
     "b_criDamageResist": 3260,
     "b_criResist": 3260,
-    "b_def": 129443.60617363,
+    "b_def": 128881.06790415,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40248,7 +40248,7 @@
         "type": 101
       }
     ],
-    "def": 82416.11234725,
+    "def": 81291.035808299,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40273,7 +40273,7 @@
     "b_criDamage": 3260,
     "b_criDamageResist": 3260,
     "b_criResist": 3260,
-    "b_def": 130215.46123647,
+    "b_def": 129634.09136005,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40330,7 +40330,7 @@
         "type": 101
       }
     ],
-    "def": 83417.182472948,
+    "def": 82254.442720094,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40355,7 +40355,7 @@
     "b_criDamage": 3280,
     "b_criDamageResist": 3280,
     "b_criResist": 3280,
-    "b_def": 130993.22261306,
+    "b_def": 130392.65440569,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40412,7 +40412,7 @@
         "type": 101
       }
     ],
-    "def": 84430.065226128,
+    "def": 83228.928811375,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40437,7 +40437,7 @@
     "b_criDamage": 3280,
     "b_criDamageResist": 3280,
     "b_criResist": 3280,
-    "b_def": 131776.9599979,
+    "b_def": 131156.82074635,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40494,7 +40494,7 @@
         "type": 101
       }
     ],
-    "def": 85454.899995797,
+    "def": 84214.621492706,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40519,7 +40519,7 @@
     "b_criDamage": 3280,
     "b_criDamageResist": 3280,
     "b_criResist": 3280,
-    "b_def": 132566.74390787,
+    "b_def": 131926.65481994,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40576,7 +40576,7 @@
         "type": 101
       }
     ],
-    "def": 86491.827815747,
+    "def": 85211.649639872,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40601,7 +40601,7 @@
     "b_criDamage": 3300,
     "b_criDamageResist": 3300,
     "b_criResist": 3300,
-    "b_def": 133362.64569199,
+    "b_def": 132702.22180537,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40658,7 +40658,7 @@
         "type": 101
       }
     ],
-    "def": 87540.991383973,
+    "def": 86220.143610731,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40683,7 +40683,7 @@
     "b_criDamage": 3300,
     "b_criDamageResist": 3300,
     "b_criResist": 3300,
-    "b_def": 134164.73754115,
+    "b_def": 133483.58763113,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40740,7 +40740,7 @@
         "type": 101
       }
     ],
-    "def": 88602.535082304,
+    "def": 87240.235262254,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40765,7 +40765,7 @@
     "b_criDamage": 3300,
     "b_criDamageResist": 3300,
     "b_criResist": 3300,
-    "b_def": 134973.09249814,
+    "b_def": 134270.81898389,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40822,7 +40822,7 @@
         "type": 101
       }
     ],
-    "def": 89676.604996275,
+    "def": 88272.05796777,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40847,7 +40847,7 @@
     "b_criDamage": 3320,
     "b_criDamageResist": 3320,
     "b_criResist": 3320,
-    "b_def": 135787.78446762,
+    "b_def": 135063.9833172,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40904,7 +40904,7 @@
         "type": 101
       }
     ],
-    "def": 90763.348935231,
+    "def": 89315.7466344,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -40929,7 +40929,7 @@
     "b_criDamage": 3320,
     "b_criDamageResist": 3320,
     "b_criResist": 3320,
-    "b_def": 136608.88822633,
+    "b_def": 135863.14886035,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -40986,7 +40986,7 @@
         "type": 101
       }
     ],
-    "def": 91862.916452667,
+    "def": 90371.437720695,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41011,7 +41011,7 @@
     "b_criDamage": 3320,
     "b_criDamageResist": 3320,
     "b_criResist": 3320,
-    "b_def": 137436.4794334,
+    "b_def": 136668.38462724,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41068,7 +41068,7 @@
         "type": 101
       }
     ],
-    "def": 92975.458866808,
+    "def": 91439.269254483,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41093,7 +41093,7 @@
     "b_criDamage": 3340,
     "b_criDamageResist": 3340,
     "b_criResist": 3340,
-    "b_def": 138270.63464072,
+    "b_def": 137479.76042545,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41150,7 +41150,7 @@
         "type": 101
       }
     ],
-    "def": 94101.129281437,
+    "def": 92519.38085091,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41175,7 +41175,7 @@
     "b_criDamage": 3340,
     "b_criDamageResist": 3340,
     "b_criResist": 3340,
-    "b_def": 139111.43130348,
+    "b_def": 138297.34686535,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41232,7 +41232,7 @@
         "type": 101
       }
     ],
-    "def": 95240.082606957,
+    "def": 93611.913730695,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41257,7 +41257,7 @@
     "b_criDamage": 3340,
     "b_criDamageResist": 3340,
     "b_criResist": 3340,
-    "b_def": 139958.94779086,
+    "b_def": 139121.2153693,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41314,7 +41314,7 @@
         "type": 101
       }
     ],
-    "def": 96392.47558172,
+    "def": 94717.010738598,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41339,7 +41339,7 @@
     "b_criDamage": 3360,
     "b_criDamageResist": 3360,
     "b_criResist": 3360,
-    "b_def": 140813.26339679,
+    "b_def": 139951.43818105,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41396,7 +41396,7 @@
         "type": 101
       }
     ],
-    "def": 97558.466793584,
+    "def": 95834.816362092,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41421,7 +41421,7 @@
     "b_criDamage": 3360,
     "b_criDamageResist": 3360,
     "b_criResist": 3360,
-    "b_def": 141674.45835087,
+    "b_def": 140788.08837513,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41478,7 +41478,7 @@
         "type": 101
       }
     ],
-    "def": 98738.216701748,
+    "def": 96965.476750256,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41503,7 +41503,7 @@
     "b_criDamage": 3360,
     "b_criDamageResist": 3360,
     "b_criResist": 3360,
-    "b_def": 142542.61382941,
+    "b_def": 141631.23986644,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41560,7 +41560,7 @@
         "type": 101
       }
     ],
-    "def": 99931.887658829,
+    "def": 98109.139732884,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41585,7 +41585,7 @@
     "b_criDamage": 3380,
     "b_criDamageResist": 3380,
     "b_criResist": 3380,
-    "b_def": 143417.8119666,
+    "b_def": 142480.96741991,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41642,7 +41642,7 @@
         "type": 101
       }
     ],
-    "def": 101139.6439332,
+    "def": 99265.954839812,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41667,7 +41667,7 @@
     "b_criDamage": 3380,
     "b_criDamageResist": 3380,
     "b_criResist": 3380,
-    "b_def": 144300.13586581,
+    "b_def": 143337.34666024,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41724,7 +41724,7 @@
         "type": 101
       }
     ],
-    "def": 102361.65173161,
+    "def": 100436.07332047,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41749,7 +41749,7 @@
     "b_criDamage": 3380,
     "b_criDamageResist": 3380,
     "b_criResist": 3380,
-    "b_def": 145189.66961102,
+    "b_def": 144200.45408183,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41806,7 +41806,7 @@
         "type": 101
       }
     ],
-    "def": 103598.07922205,
+    "def": 101619.64816366,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41831,7 +41831,7 @@
     "b_criDamage": 3400,
     "b_criDamageResist": 3400,
     "b_criResist": 3400,
-    "b_def": 146143.47722201,
+    "b_def": 145116.09590044,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41888,7 +41888,7 @@
         "type": 101
       }
     ],
-    "def": 104963.05444401,
+    "def": 102908.29180088,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41913,7 +41913,7 @@
     "b_criDamage": 3400,
     "b_criDamageResist": 3400,
     "b_criResist": 3400,
-    "b_def": 147106.08892317,
+    "b_def": 146039.72730961,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -41970,7 +41970,7 @@
         "type": 101
       }
     ],
-    "def": 106345.63784634,
+    "def": 104212.91461922,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -41995,7 +41995,7 @@
     "b_criDamage": 3400,
     "b_criDamageResist": 3400,
     "b_criResist": 3400,
-    "b_def": 148077.61828728,
+    "b_def": 146971.44738025,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42052,7 +42052,7 @@
         "type": 101
       }
     ],
-    "def": 107746.05657456,
+    "def": 105533.71476049,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42077,7 +42077,7 @@
     "b_criDamage": 3420,
     "b_criDamageResist": 3420,
     "b_criResist": 3420,
-    "b_def": 149058.18035218,
+    "b_def": 147911.35641176,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42134,7 +42134,7 @@
         "type": 101
       }
     ],
-    "def": 109164.54070437,
+    "def": 106870.89282352,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42159,7 +42159,7 @@
     "b_criDamage": 3420,
     "b_criDamageResist": 3420,
     "b_criResist": 3420,
-    "b_def": 150047.89163973,
+    "b_def": 148859.55594727,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42216,7 +42216,7 @@
         "type": 101
       }
     ],
-    "def": 110601.32327946,
+    "def": 108224.65189454,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42241,7 +42241,7 @@
     "b_criDamage": 3420,
     "b_criDamageResist": 3420,
     "b_criResist": 3420,
-    "b_def": 151046.87017488,
+    "b_def": 149816.14878901,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42298,7 +42298,7 @@
         "type": 101
       }
     ],
-    "def": 112056.64034976,
+    "def": 109595.19757803,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42323,7 +42323,7 @@
     "b_criDamage": 3440,
     "b_criDamageResist": 3440,
     "b_criResist": 3440,
-    "b_def": 152055.23550514,
+    "b_def": 150781.239014,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42380,7 +42380,7 @@
         "type": 101
       }
     ],
-    "def": 113530.73101027,
+    "def": 110982.738028,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42405,7 +42405,7 @@
     "b_criDamage": 3440,
     "b_criDamageResist": 3440,
     "b_criResist": 3440,
-    "b_def": 153073.10872015,
+    "b_def": 151754.93198977,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42462,7 +42462,7 @@
         "type": 101
       }
     ],
-    "def": 115023.83744031,
+    "def": 112387.48397954,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42487,7 +42487,7 @@
     "b_criDamage": 3440,
     "b_criDamageResist": 3440,
     "b_criResist": 3440,
-    "b_def": 154100.61247164,
+    "b_def": 152737.33439044,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42544,7 +42544,7 @@
         "type": 101
       }
     ],
-    "def": 116536.20494329,
+    "def": 113809.64878089,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42569,7 +42569,7 @@
     "b_criDamage": 3460,
     "b_criDamageResist": 3460,
     "b_criResist": 3460,
-    "b_def": 155137.87099353,
+    "b_def": 153728.55421289,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42626,7 +42626,7 @@
         "type": 101
       }
     ],
-    "def": 118068.08198705,
+    "def": 115249.44842577,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42651,7 +42651,7 @@
     "b_criDamage": 3460,
     "b_criDamageResist": 3460,
     "b_criResist": 3460,
-    "b_def": 156185.01012234,
+    "b_def": 154728.70079313,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42708,7 +42708,7 @@
         "type": 101
       }
     ],
-    "def": 119619.72024469,
+    "def": 116707.10158625,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42733,7 +42733,7 @@
     "b_criDamage": 3460,
     "b_criDamageResist": 3460,
     "b_criResist": 3460,
-    "b_def": 157242.15731792,
+    "b_def": 155737.88482296,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42790,7 +42790,7 @@
         "type": 101
       }
     ],
-    "def": 121191.37463584,
+    "def": 118182.82964592,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42815,7 +42815,7 @@
     "b_criDamage": 3480,
     "b_criDamageResist": 3480,
     "b_criResist": 3480,
-    "b_def": 158309.44168432,
+    "b_def": 156756.21836677,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42872,7 +42872,7 @@
         "type": 101
       }
     ],
-    "def": 122783.30336865,
+    "def": 119676.85673353,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42897,7 +42897,7 @@
     "b_criDamage": 3480,
     "b_criDamageResist": 3480,
     "b_criResist": 3480,
-    "b_def": 159386.99399105,
+    "b_def": 157783.81487851,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -42954,7 +42954,7 @@
         "type": 101
       }
     ],
-    "def": 124395.7679821,
+    "def": 121189.40975703,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -42979,7 +42979,7 @@
     "b_criDamage": 3480,
     "b_criDamageResist": 3480,
     "b_criResist": 3480,
-    "b_def": 160474.94669454,
+    "b_def": 158820.78921901,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43036,7 +43036,7 @@
         "type": 101
       }
     ],
-    "def": 126029.03338907,
+    "def": 122720.71843801,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43061,7 +43061,7 @@
     "b_criDamage": 3500,
     "b_criDamageResist": 3500,
     "b_criResist": 3500,
-    "b_def": 161573.43395989,
+    "b_def": 159867.25767332,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43118,7 +43118,7 @@
         "type": 101
       }
     ],
-    "def": 127683.36791979,
+    "def": 124271.01534664,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43143,7 +43143,7 @@
     "b_criDamage": 3500,
     "b_criDamageResist": 3500,
     "b_criResist": 3500,
-    "b_def": 162682.59168298,
+    "b_def": 160923.33796847,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43200,7 +43200,7 @@
         "type": 101
       }
     ],
-    "def": 129359.04336595,
+    "def": 125840.53593694,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43225,7 +43225,7 @@
     "b_criDamage": 3500,
     "b_criDamageResist": 3500,
     "b_criResist": 3500,
-    "b_def": 163802.55751269,
+    "b_def": 161989.14929128,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43282,7 +43282,7 @@
         "type": 101
       }
     ],
-    "def": 131056.33502538,
+    "def": 127429.51858256,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43307,7 +43307,7 @@
     "b_criDamage": 3520,
     "b_criDamageResist": 3520,
     "b_criResist": 3520,
-    "b_def": 164933.4708736,
+    "b_def": 163064.81230649,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43364,7 +43364,7 @@
         "type": 101
       }
     ],
-    "def": 132775.5217472,
+    "def": 129038.20461299,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43389,7 +43389,7 @@
     "b_criDamage": 3520,
     "b_criDamageResist": 3520,
     "b_criResist": 3520,
-    "b_def": 166075.47298887,
+    "b_def": 164150.44917509,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43446,7 +43446,7 @@
         "type": 101
       }
     ],
-    "def": 134516.88597774,
+    "def": 130666.83835019,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43471,7 +43471,7 @@
     "b_criDamage": 3520,
     "b_criDamageResist": 3520,
     "b_criResist": 3520,
-    "b_def": 167228.70690343,
+    "b_def": 165246.18357286,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43528,7 +43528,7 @@
         "type": 101
       }
     ],
-    "def": 136280.71380685,
+    "def": 132315.66714573,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43553,7 +43553,7 @@
     "b_criDamage": 3540,
     "b_criDamageResist": 3540,
     "b_criResist": 3540,
-    "b_def": 168393.31750748,
+    "b_def": 166352.14070917,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43610,7 +43610,7 @@
         "type": 101
       }
     ],
-    "def": 138067.29501496,
+    "def": 133984.94141834,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43635,7 +43635,7 @@
     "b_criDamage": 3540,
     "b_criDamageResist": 3540,
     "b_criResist": 3540,
-    "b_def": 169569.45156033,
+    "b_def": 167468.44734596,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43692,7 +43692,7 @@
         "type": 101
       }
     ],
-    "def": 139876.92312066,
+    "def": 135674.91469192,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43717,7 +43717,7 @@
     "b_criDamage": 3540,
     "b_criDamageResist": 3540,
     "b_criResist": 3540,
-    "b_def": 170757.25771446,
+    "b_def": 168595.23181705,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43774,7 +43774,7 @@
         "type": 101
       }
     ],
-    "def": 141709.89542891,
+    "def": 137385.8436341,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43799,7 +43799,7 @@
     "b_criDamage": 3560,
     "b_criDamageResist": 3560,
     "b_criResist": 3560,
-    "b_def": 171956.88653997,
+    "b_def": 169732.62404758,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43856,7 +43856,7 @@
         "type": 101
       }
     ],
-    "def": 143566.51307995,
+    "def": 139117.98809517,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43881,7 +43881,7 @@
     "b_criDamage": 3560,
     "b_criDamageResist": 3560,
     "b_criResist": 3560,
-    "b_def": 173168.49054934,
+    "b_def": 170880.75557377,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -43938,7 +43938,7 @@
         "type": 101
       }
     ],
-    "def": 145447.08109868,
+    "def": 140871.61114755,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -43963,7 +43963,7 @@
     "b_criDamage": 3560,
     "b_criDamageResist": 3560,
     "b_criResist": 3560,
-    "b_def": 174392.22422242,
+    "b_def": 172039.75956289,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44020,7 +44020,7 @@
         "type": 101
       }
     ],
-    "def": 147351.90844485,
+    "def": 142646.97912578,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44045,7 +44045,7 @@
     "b_criDamage": 3580,
     "b_criDamageResist": 3580,
     "b_criResist": 3580,
-    "b_def": 175628.24403189,
+    "b_def": 173209.77083347,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44102,7 +44102,7 @@
         "type": 101
       }
     ],
-    "def": 149281.30806379,
+    "def": 144444.36166693,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44127,7 +44127,7 @@
     "b_criDamage": 3580,
     "b_criDamageResist": 3580,
     "b_criResist": 3580,
-    "b_def": 176876.70846891,
+    "b_def": 174390.9258758,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44184,7 +44184,7 @@
         "type": 101
       }
     ],
-    "def": 151235.59693781,
+    "def": 146264.0317516,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44209,7 +44209,7 @@
     "b_criDamage": 3580,
     "b_criDamageResist": 3580,
     "b_criResist": 3580,
-    "b_def": 178137.77806915,
+    "b_def": 175583.36287266,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44266,7 +44266,7 @@
         "type": 101
       }
     ],
-    "def": 153215.09613831,
+    "def": 148106.26574532,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44291,7 +44291,7 @@
     "b_criDamage": 3600,
     "b_criDamageResist": 3600,
     "b_criResist": 3600,
-    "b_def": 179411.61543925,
+    "b_def": 176787.22172028,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44348,7 +44348,7 @@
         "type": 101
       }
     ],
-    "def": 155220.13087849,
+    "def": 149971.34344057,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44373,7 +44373,7 @@
     "b_criDamage": 3600,
     "b_criDamageResist": 3600,
     "b_criResist": 3600,
-    "b_def": 180698.38528341,
+    "b_def": 178002.64404962,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44430,7 +44430,7 @@
         "type": 101
       }
     ],
-    "def": 157251.03056683,
+    "def": 151859.54809923,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44455,7 +44455,7 @@
     "b_criDamage": 3600,
     "b_criDamageResist": 3600,
     "b_criResist": 3600,
-    "b_def": 181998.25443057,
+    "b_def": 179229.77324783,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44512,7 +44512,7 @@
         "type": 101
       }
     ],
-    "def": 159308.12886114,
+    "def": 153771.16649566,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44537,7 +44537,7 @@
     "b_criDamage": 3620,
     "b_criDamageResist": 3620,
     "b_criResist": 3620,
-    "b_def": 183399.0113326,
+    "b_def": 180537.95150503,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44594,7 +44594,7 @@
         "type": 101
       }
     ],
-    "def": 161567.00266519,
+    "def": 155844.88301005,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44619,7 +44619,7 @@
     "b_criDamage": 3620,
     "b_criDamageResist": 3620,
     "b_criResist": 3620,
-    "b_def": 184815.58035125,
+    "b_def": 181859.91997704,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44676,7 +44676,7 @@
         "type": 101
       }
     ],
-    "def": 163857.50070251,
+    "def": 157946.17995409,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44701,7 +44701,7 @@
     "b_criDamage": 3620,
     "b_criDamageResist": 3620,
     "b_criResist": 3620,
-    "b_def": 186248.18285617,
+    "b_def": 183195.86207374,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44758,7 +44758,7 @@
         "type": 101
       }
     ],
-    "def": 166180.06571234,
+    "def": 160075.42414748,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44783,7 +44783,7 @@
     "b_criDamage": 3640,
     "b_criDamageResist": 3640,
     "b_criResist": 3640,
-    "b_def": 187697.04331616,
+    "b_def": 184545.96364432,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44840,7 +44840,7 @@
         "type": 101
       }
     ],
-    "def": 168535.14663231,
+    "def": 162232.98728864,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44865,7 +44865,7 @@
     "b_criDamage": 3640,
     "b_criDamageResist": 3640,
     "b_criResist": 3640,
-    "b_def": 189162.38934258,
+    "b_def": 185910.41300979,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -44922,7 +44922,7 @@
         "type": 101
       }
     ],
-    "def": 170923.19868517,
+    "def": 164419.24601958,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -44947,7 +44947,7 @@
     "b_criDamage": 3640,
     "b_criDamageResist": 3640,
     "b_criResist": 3640,
-    "b_def": 190644.45173338,
+    "b_def": 187289.40099582,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45004,7 +45004,7 @@
         "type": 101
       }
     ],
-    "def": 173344.68346676,
+    "def": 166634.58199164,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45029,7 +45029,7 @@
     "b_criDamage": 3660,
     "b_criDamageResist": 3660,
     "b_criResist": 3660,
-    "b_def": 192143.46451765,
+    "b_def": 188683.12096606,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45086,7 +45086,7 @@
         "type": 101
       }
     ],
-    "def": 175800.06903529,
+    "def": 168879.38193212,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45111,7 +45111,7 @@
     "b_criDamage": 3660,
     "b_criDamageResist": 3660,
     "b_criResist": 3660,
-    "b_def": 193659.66500089,
+    "b_def": 190091.76885591,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45168,7 +45168,7 @@
         "type": 101
       }
     ],
-    "def": 178289.83000179,
+    "def": 171154.03771182,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45193,7 +45193,7 @@
     "b_criDamage": 3660,
     "b_criDamageResist": 3660,
     "b_criResist": 3660,
-    "b_def": 195193.29381091,
+    "b_def": 191515.5432067,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45250,7 +45250,7 @@
         "type": 101
       }
     ],
-    "def": 180814.44762181,
+    "def": 173458.94641339,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45275,7 +45275,7 @@
     "b_criDamage": 3680,
     "b_criDamageResist": 3680,
     "b_criResist": 3680,
-    "b_def": 196744.59494426,
+    "b_def": 192954.64520034,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45332,7 +45332,7 @@
         "type": 101
       }
     ],
-    "def": 183374.40988852,
+    "def": 175794.51040069,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45357,7 +45357,7 @@
     "b_criDamage": 3680,
     "b_criDamageResist": 3680,
     "b_criResist": 3680,
-    "b_def": 198313.81581348,
+    "b_def": 194409.27869451,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45414,7 +45414,7 @@
         "type": 101
       }
     ],
-    "def": 185970.21162696,
+    "def": 178161.13738902,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45439,7 +45439,7 @@
     "b_criDamage": 3680,
     "b_criDamageResist": 3680,
     "b_criResist": 3680,
-    "b_def": 199901.20729487,
+    "b_def": 195879.65025815,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45496,7 +45496,7 @@
         "type": 101
       }
     ],
-    "def": 188602.35458973,
+    "def": 180559.24051629,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45521,7 +45521,7 @@
     "b_criDamage": 3700,
     "b_criDamageResist": 3700,
     "b_criResist": 3700,
-    "b_def": 201507.023777,
+    "b_def": 197365.96920758,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45578,7 +45578,7 @@
         "type": 101
       }
     ],
-    "def": 191271.34755399,
+    "def": 182989.23841516,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45603,7 +45603,7 @@
     "b_criDamage": 3700,
     "b_criDamageResist": 3700,
     "b_criResist": 3700,
-    "b_def": 203131.52320987,
+    "b_def": 198868.44764304,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45660,7 +45660,7 @@
         "type": 101
       }
     ],
-    "def": 193977.70641975,
+    "def": 185451.55528608,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45685,7 +45685,7 @@
     "b_criDamage": 3700,
     "b_criDamageResist": 3700,
     "b_criResist": 3700,
-    "b_def": 204774.96715481,
+    "b_def": 200387.30048569,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45742,7 +45742,7 @@
         "type": 101
       }
     ],
-    "def": 196721.95430962,
+    "def": 187946.62097138,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45767,7 +45767,7 @@
     "b_criDamage": 3720,
     "b_criDamageResist": 3720,
     "b_criResist": 3720,
-    "b_def": 206437.62083498,
+    "b_def": 201922.74551515,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45824,7 +45824,7 @@
         "type": 101
       }
     ],
-    "def": 199504.62166996,
+    "def": 190474.8710303,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45849,7 +45849,7 @@
     "b_criDamage": 3720,
     "b_criDamageResist": 3720,
     "b_criResist": 3720,
-    "b_def": 208119.75318667,
+    "b_def": 203475.0034075,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45906,7 +45906,7 @@
         "type": 101
       }
     ],
-    "def": 202326.24637334,
+    "def": 193036.74681501,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -45931,7 +45931,7 @@
     "b_criDamage": 3720,
     "b_criDamageResist": 3720,
     "b_criResist": 3720,
-    "b_def": 209821.63691128,
+    "b_def": 205044.29777382,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -45988,7 +45988,7 @@
         "type": 101
       }
     ],
-    "def": 205187.37382256,
+    "def": 195632.69554765,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46013,7 +46013,7 @@
     "b_criDamage": 3740,
     "b_criDamageResist": 3740,
     "b_criResist": 3740,
-    "b_def": 211543.54852804,
+    "b_def": 206630.85519922,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46070,7 +46070,7 @@
         "type": 101
       }
     ],
-    "def": 208088.55705608,
+    "def": 198263.17039843,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46095,7 +46095,7 @@
     "b_criDamage": 3740,
     "b_criDamageResist": 3740,
     "b_criResist": 3740,
-    "b_def": 213285.76842743,
+    "b_def": 208234.90528236,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46152,7 +46152,7 @@
         "type": 101
       }
     ],
-    "def": 211030.35685486,
+    "def": 200928.63056473,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46177,7 +46177,7 @@
     "b_criDamage": 3740,
     "b_criDamageResist": 3740,
     "b_criResist": 3740,
-    "b_def": 215048.58092542,
+    "b_def": 209856.68067562,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46234,7 +46234,7 @@
         "type": 101
       }
     ],
-    "def": 214013.34185083,
+    "def": 203629.54135124,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46259,7 +46259,7 @@
     "b_criDamage": 3760,
     "b_criDamageResist": 3760,
     "b_criResist": 3760,
-    "b_def": 216832.27431837,
+    "b_def": 211496.41712561,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46316,7 +46316,7 @@
         "type": 101
       }
     ],
-    "def": 217038.08863674,
+    "def": 206366.37425121,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46341,7 +46341,7 @@
     "b_criDamage": 3760,
     "b_criDamageResist": 3760,
     "b_criResist": 3760,
-    "b_def": 218637.14093883,
+    "b_def": 213154.35351438,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46398,7 +46398,7 @@
         "type": 101
       }
     ],
-    "def": 220105.18187766,
+    "def": 209139.60702875,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46423,7 +46423,7 @@
     "b_criDamage": 3760,
     "b_criDamageResist": 3760,
     "b_criResist": 3760,
-    "b_def": 220463.47721197,
+    "b_def": 214830.73190112,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46480,7 +46480,7 @@
         "type": 101
       }
     ],
-    "def": 223215.21442395,
+    "def": 211949.72380223,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46505,7 +46505,7 @@
     "b_criDamage": 3780,
     "b_criDamageResist": 3780,
     "b_criResist": 3780,
-    "b_def": 222311.58371294,
+    "b_def": 216525.7975644,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46562,7 +46562,7 @@
         "type": 101
       }
     ],
-    "def": 226368.78742588,
+    "def": 214797.2151288,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46587,7 +46587,7 @@
     "b_criDamage": 3780,
     "b_criDamageResist": 3780,
     "b_criResist": 3780,
-    "b_def": 224181.76522492,
+    "b_def": 218239.79904501,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46644,7 +46644,7 @@
         "type": 101
       }
     ],
-    "def": 229566.51044984,
+    "def": 217682.57809002,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46669,7 +46669,7 @@
     "b_criDamage": 3780,
     "b_criDamageResist": 3780,
     "b_criResist": 3780,
-    "b_def": 226074.33079807,
+    "b_def": 219972.98818931,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46726,7 +46726,7 @@
         "type": 101
       }
     ],
-    "def": 232809.00159614,
+    "def": 220606.31637861,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46751,7 +46751,7 @@
     "b_criDamage": 3800,
     "b_criDamageResist": 3800,
     "b_criResist": 3800,
-    "b_def": 227989.59380924,
+    "b_def": 221725.62019323,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46808,7 +46808,7 @@
         "type": 101
       }
     ],
-    "def": 236096.88761849,
+    "def": 223568.94038645,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46833,7 +46833,7 @@
     "b_criDamage": 3800,
     "b_criDamageResist": 3800,
     "b_criResist": 3800,
-    "b_def": 229927.87202257,
+    "b_def": 223497.9536468,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46890,7 +46890,7 @@
         "type": 101
       }
     ],
-    "def": 239430.80404515,
+    "def": 226570.96729359,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46915,7 +46915,7 @@
     "b_criDamage": 3800,
     "b_criDamageResist": 3800,
     "b_criResist": 3800,
-    "b_def": 231889.48765089,
+    "b_def": 225290.2505793,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -46972,7 +46972,7 @@
         "type": 101
       }
     ],
-    "def": 242811.39530178,
+    "def": 229612.92115859,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -46997,7 +46997,7 @@
     "b_criDamage": 3820,
     "b_criDamageResist": 3820,
     "b_criResist": 3820,
-    "b_def": 233874.767418,
+    "b_def": 227102.776505,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47054,7 +47054,7 @@
         "type": 101
       }
     ],
-    "def": 246239.314836,
+    "def": 232695.33301,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47079,7 +47079,7 @@
     "b_criDamage": 3820,
     "b_criDamageResist": 3820,
     "b_criResist": 3820,
-    "b_def": 235884.04262185,
+    "b_def": 228935.80046952,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47136,7 +47136,7 @@
         "type": 101
       }
     ],
-    "def": 249715.22524371,
+    "def": 235818.74093904,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47161,7 +47161,7 @@
     "b_criDamage": 3820,
     "b_criDamageResist": 3820,
     "b_criResist": 3820,
-    "b_def": 237917.64919856,
+    "b_def": 230789.59509676,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47218,7 +47218,7 @@
         "type": 101
       }
     ],
-    "def": 253239.79839712,
+    "def": 238983.69019353,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47243,7 +47243,7 @@
     "b_criDamage": 3840,
     "b_criDamageResist": 3840,
     "b_criResist": 3840,
-    "b_def": 240115.20967646,
+    "b_def": 232771.97929714,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47300,7 +47300,7 @@
         "type": 101
       }
     ],
-    "def": 257092.27935292,
+    "def": 242405.81859427,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47325,7 +47325,7 @@
     "b_criDamage": 3840,
     "b_criDamageResist": 3840,
     "b_criResist": 3840,
-    "b_def": 242341.85638557,
+    "b_def": 234778.66060916,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47382,7 +47382,7 @@
         "type": 101
       }
     ],
-    "def": 261002.93277114,
+    "def": 245876.54121831,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47407,7 +47407,7 @@
     "b_criDamage": 3840,
     "b_criDamageResist": 3840,
     "b_criResist": 3840,
-    "b_def": 244598.028528,
+    "b_def": 236809.98405181,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47464,7 +47464,7 @@
         "type": 101
       }
     ],
-    "def": 264972.63705599,
+    "def": 249396.54810361,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47489,7 +47489,7 @@
     "b_criDamage": 3860,
     "b_criDamageResist": 3860,
     "b_criResist": 3860,
-    "b_def": 246884.17193777,
+    "b_def": 238866.29954334,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47546,7 +47546,7 @@
         "type": 101
       }
     ],
-    "def": 269002.28387553,
+    "def": 252966.53908668,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47571,7 +47571,7 @@
     "b_criDamage": 3860,
     "b_criDamageResist": 3860,
     "b_criResist": 3860,
-    "b_def": 249200.73918103,
+    "b_def": 240947.96197086,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47628,7 +47628,7 @@
         "type": 101
       }
     ],
-    "def": 273092.77836205,
+    "def": 256587.22394171,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47653,7 +47653,7 @@
     "b_criDamage": 3860,
     "b_criDamageResist": 3860,
     "b_criResist": 3860,
-    "b_def": 251548.18965766,
+    "b_def": 243055.33126084,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47710,7 +47710,7 @@
         "type": 101
       }
     ],
-    "def": 277245.03931532,
+    "def": 260259.32252169,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47735,7 +47735,7 @@
     "b_criDamage": 3880,
     "b_criDamageResist": 3880,
     "b_criResist": 3880,
-    "b_def": 253926.98970449,
+    "b_def": 245188.77245075,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47792,7 +47792,7 @@
         "type": 101
       }
     ],
-    "def": 281459.99940898,
+    "def": 263983.5649015,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47817,7 +47817,7 @@
     "b_criDamage": 3880,
     "b_criDamageResist": 3880,
     "b_criResist": 3880,
-    "b_def": 256337.61270003,
+    "b_def": 247348.65576155,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47874,7 +47874,7 @@
         "type": 101
       }
     ],
-    "def": 285738.60540006,
+    "def": 267760.6915231,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47899,7 +47899,7 @@
     "b_criDamage": 3880,
     "b_criDamageResist": 3880,
     "b_criResist": 3880,
-    "b_def": 258780.5391708,
+    "b_def": 249535.35667136,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -47956,7 +47956,7 @@
         "type": 101
       }
     ],
-    "def": 290081.8183416,
+    "def": 271591.45334272,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -47981,7 +47981,7 @@
     "b_criDamage": 3900,
     "b_criDamageResist": 3900,
     "b_criResist": 3900,
-    "b_def": 261256.25689928,
+    "b_def": 251749.2559901,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48038,7 +48038,7 @@
         "type": 101
       }
     ],
-    "def": 294490.61379856,
+    "def": 275476.61198019,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48063,7 +48063,7 @@
     "b_criDamage": 3900,
     "b_criDamageResist": 3900,
     "b_criResist": 3900,
-    "b_def": 263765.26103346,
+    "b_def": 253990.73993516,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48120,7 +48120,7 @@
         "type": 101
       }
     ],
-    "def": 298965.98206692,
+    "def": 279416.93987031,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48145,7 +48145,7 @@
     "b_criDamage": 3900,
     "b_criDamageResist": 3900,
     "b_criResist": 3900,
-    "b_def": 266308.05419806,
+    "b_def": 256260.20020823,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48202,7 +48202,7 @@
         "type": 101
       }
     ],
-    "def": 303508.92839613,
+    "def": 283413.22041647,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48227,7 +48227,7 @@
     "b_criDamage": 3920,
     "b_criDamageResist": 3920,
     "b_criResist": 3920,
-    "b_def": 268885.14660745,
+    "b_def": 258558.03407319,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48284,7 +48284,7 @@
         "type": 101
       }
     ],
-    "def": 308120.47321491,
+    "def": 287466.24814638,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48309,7 +48309,7 @@
     "b_criDamage": 3920,
     "b_criDamageResist": 3920,
     "b_criResist": 3920,
-    "b_def": 271497.05618023,
+    "b_def": 260884.64443503,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48366,7 +48366,7 @@
         "type": 101
       }
     ],
-    "def": 312801.65236045,
+    "def": 291576.82887006,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48391,7 +48391,7 @@
     "b_criDamage": 3920,
     "b_criDamageResist": 3920,
     "b_criResist": 3920,
-    "b_def": 274144.30865555,
+    "b_def": 263240.43992001,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48448,7 +48448,7 @@
         "type": 101
       }
     ],
-    "def": 317553.5173111,
+    "def": 295745.77984002,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48473,7 +48473,7 @@
     "b_criDamage": 3940,
     "b_criDamageResist": 3940,
     "b_criResist": 3940,
-    "b_def": 276827.43771125,
+    "b_def": 265625.83495687,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48530,7 +48530,7 @@
         "type": 101
       }
     ],
-    "def": 322377.13542249,
+    "def": 299973.92991374,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48555,7 +48555,7 @@
     "b_criDamage": 3940,
     "b_criDamageResist": 3940,
     "b_criResist": 3940,
-    "b_def": 279546.98508369,
+    "b_def": 268041.24985926,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48612,7 +48612,7 @@
         "type": 101
       }
     ],
-    "def": 327273.59016737,
+    "def": 304262.11971852,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48637,7 +48637,7 @@
     "b_criDamage": 3940,
     "b_criDamageResist": 3940,
     "b_criResist": 3940,
-    "b_def": 282303.50068945,
+    "b_def": 270487.11090926,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48694,7 +48694,7 @@
         "type": 101
       }
     ],
-    "def": 332243.9813789,
+    "def": 308611.20181852,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48719,7 +48719,7 @@
     "b_criDamage": 3960,
     "b_criDamageResist": 3960,
     "b_criResist": 3960,
-    "b_def": 285097.54274886,
+    "b_def": 272963.85044217,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48776,7 +48776,7 @@
         "type": 101
       }
     ],
-    "def": 337289.42549772,
+    "def": 313022.04088434,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48801,7 +48801,7 @@
     "b_criDamage": 3960,
     "b_criDamageResist": 3960,
     "b_criResist": 3960,
-    "b_def": 287929.67791137,
+    "b_def": 275471.90693245,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48858,7 +48858,7 @@
         "type": 101
       }
     ],
-    "def": 342411.05582274,
+    "def": 317495.5138649,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48883,7 +48883,7 @@
     "b_criDamage": 3960,
     "b_criDamageResist": 3960,
     "b_criResist": 3960,
-    "b_def": 290800.48138283,
+    "b_def": 278011.72508089,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -48940,7 +48940,7 @@
         "type": 101
       }
     ],
-    "def": 347610.02276566,
+    "def": 322032.51016178,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -48965,7 +48965,7 @@
     "b_criDamage": 3980,
     "b_criDamageResist": 3980,
     "b_criResist": 3980,
-    "b_def": 293710.53705471,
+    "b_def": 280583.75590304,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49022,7 +49022,7 @@
         "type": 101
       }
     ],
-    "def": 352887.49410942,
+    "def": 326633.93180608,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49047,7 +49047,7 @@
     "b_criDamage": 3980,
     "b_criDamageResist": 3980,
     "b_criResist": 3980,
-    "b_def": 296660.43763524,
+    "b_def": 283188.45681886,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49104,7 +49104,7 @@
         "type": 101
       }
     ],
-    "def": 358244.65527047,
+    "def": 331300.69363773,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49129,7 +49129,7 @@
     "b_criDamage": 3980,
     "b_criDamageResist": 3980,
     "b_criResist": 3980,
-    "b_def": 299650.78478253,
+    "b_def": 285826.29174369,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49186,7 +49186,7 @@
         "type": 101
       }
     ],
-    "def": 363682.70956506,
+    "def": 336033.72348738,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49211,7 +49211,7 @@
     "b_criDamage": 4000,
     "b_criDamageResist": 4000,
     "b_criResist": 4000,
-    "b_def": 302682.18923975,
+    "b_def": 288497.73118045,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49268,7 +49268,7 @@
         "type": 101
       }
     ],
-    "def": 369202.87847949,
+    "def": 340833.9623609,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49293,7 +49293,7 @@
     "b_criDamage": 4000,
     "b_criDamageResist": 4000,
     "b_criResist": 4000,
-    "b_def": 305755.27097227,
+    "b_def": 291203.25231321,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49350,7 +49350,7 @@
         "type": 101
       }
     ],
-    "def": 374806.40194453,
+    "def": 345702.36462643,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49375,7 +49375,7 @@
     "b_criDamage": 4000,
     "b_criDamageResist": 4000,
     "b_criResist": 4000,
-    "b_def": 308870.65930695,
+    "b_def": 293943.33910206,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49432,7 +49432,7 @@
         "type": 101
       }
     ],
-    "def": 380494.53861389,
+    "def": 350639.89820412,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49457,7 +49457,7 @@
     "b_criDamage": 4020,
     "b_criDamageResist": 4020,
     "b_criResist": 4020,
-    "b_def": 312028.99307348,
+    "b_def": 296718.48237931,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49514,7 +49514,7 @@
         "type": 101
       }
     ],
-    "def": 386268.56614696,
+    "def": 355647.54475862,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49539,7 +49539,7 @@
     "b_criDamage": 4020,
     "b_criDamageResist": 4020,
     "b_criResist": 4020,
-    "b_def": 315230.92074789,
+    "b_def": 299529.1799471,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49596,7 +49596,7 @@
         "type": 101
       }
     ],
-    "def": 392129.78149578,
+    "def": 360726.2998942,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49621,7 +49621,7 @@
     "b_criDamage": 4020,
     "b_criDamageResist": 4020,
     "b_criResist": 4020,
-    "b_def": 318477.10059818,
+    "b_def": 302375.93667635,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49678,7 +49678,7 @@
         "type": 101
       }
     ],
-    "def": 398079.50119637,
+    "def": 365877.17335269,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49703,7 +49703,7 @@
     "b_criDamage": 4040,
     "b_criDamageResist": 4040,
     "b_criResist": 4040,
-    "b_def": 321768.20083222,
+    "b_def": 305259.26460715,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49760,7 +49760,7 @@
         "type": 101
       }
     ],
-    "def": 404119.06166443,
+    "def": 371101.1892143,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49785,7 +49785,7 @@
     "b_criDamage": 4040,
     "b_criDamageResist": 4040,
     "b_criResist": 4040,
-    "b_def": 325104.89974778,
+    "b_def": 308179.68305057,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49842,7 +49842,7 @@
         "type": 101
       }
     ],
-    "def": 410249.81949557,
+    "def": 376399.38610114,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49867,7 +49867,7 @@
     "b_criDamage": 4040,
     "b_criDamageResist": 4040,
     "b_criResist": 4040,
-    "b_def": 328487.88588498,
+    "b_def": 311137.71869189,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -49924,7 +49924,7 @@
         "type": 101
       }
     ],
-    "def": 416473.15176995,
+    "def": 381772.81738378,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -49949,7 +49949,7 @@
     "b_criDamage": 4060,
     "b_criDamageResist": 4060,
     "b_criResist": 4060,
-    "b_def": 332146.91841431,
+    "b_def": 314305.70346314,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50006,7 +50006,7 @@
         "type": 101
       }
     ],
-    "def": 423248.57682862,
+    "def": 387566.14692628,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50031,7 +50031,7 @@
     "b_criDamage": 4060,
     "b_criDamageResist": 4060,
     "b_criResist": 4060,
-    "b_def": 335860.83188662,
+    "b_def": 317517.42787243,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50088,7 +50088,7 @@
         "type": 101
       }
     ],
-    "def": 430133.76377325,
+    "def": 393446.95574486,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50113,7 +50113,7 @@
     "b_criDamage": 4060,
     "b_criDamageResist": 4060,
     "b_criResist": 4060,
-    "b_def": 339630.51537319,
+    "b_def": 320773.55238831,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50170,7 +50170,7 @@
         "type": 101
       }
     ],
-    "def": 437130.49074637,
+    "def": 399416.56477661,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50195,7 +50195,7 @@
     "b_criDamage": 4080,
     "b_criDamageResist": 4080,
     "b_criResist": 4080,
-    "b_def": 343456.87234823,
+    "b_def": 324074.74745237,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50252,7 +50252,7 @@
         "type": 101
       }
     ],
-    "def": 444240.56469647,
+    "def": 405476.31490474,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50277,7 +50277,7 @@
     "b_criDamage": 4080,
     "b_criDamageResist": 4080,
     "b_criResist": 4080,
-    "b_def": 347340.82092227,
+    "b_def": 327421.6936299,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50334,7 +50334,7 @@
         "type": 101
       }
     ],
-    "def": 451465.82184455,
+    "def": 411627.5672598,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50359,7 +50359,7 @@
     "b_criDamage": 4080,
     "b_criDamageResist": 4080,
     "b_criResist": 4080,
-    "b_def": 351283.29407921,
+    "b_def": 330815.08176271,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50416,7 +50416,7 @@
         "type": 101
       }
     ],
-    "def": 458808.12815843,
+    "def": 417871.70352542,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50441,7 +50441,7 @@
     "b_criDamage": 4100,
     "b_criDamageResist": 4100,
     "b_criResist": 4100,
-    "b_def": 355285.2399173,
+    "b_def": 334255.61312433,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50498,7 +50498,7 @@
         "type": 101
       }
     ],
-    "def": 466269.3798346,
+    "def": 424210.12624866,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50523,7 +50523,7 @@
     "b_criDamage": 4100,
     "b_criDamageResist": 4100,
     "b_criResist": 4100,
-    "b_def": 359347.62189396,
+    "b_def": 337743.9995775,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50580,7 +50580,7 @@
         "type": 101
       }
     ],
-    "def": 473851.50378792,
+    "def": 430644.25915501,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50605,7 +50605,7 @@
     "b_criDamage": 4100,
     "b_criDamageResist": 4100,
     "b_criResist": 4100,
-    "b_def": 363471.41907464,
+    "b_def": 341280.96373413,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50662,7 +50662,7 @@
         "type": 101
       }
     ],
-    "def": 481556.45814928,
+    "def": 437175.54746825,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50687,7 +50687,7 @@
     "b_criDamage": 4120,
     "b_criDamageResist": 4120,
     "b_criResist": 4120,
-    "b_def": 367657.62638565,
+    "b_def": 344867.23911751,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50744,7 +50744,7 @@
         "type": 101
       }
     ],
-    "def": 489386.2327713,
+    "def": 443805.45823502,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50769,7 +50769,7 @@
     "b_criDamage": 4120,
     "b_criDamageResist": 4120,
     "b_criResist": 4120,
-    "b_def": 371907.2548711,
+    "b_def": 348503.57032718,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50826,7 +50826,7 @@
         "type": 101
       }
     ],
-    "def": 497342.84974219,
+    "def": 450535.48065437,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50851,7 +50851,7 @@
     "b_criDamage": 4120,
     "b_criDamageResist": 4120,
     "b_criResist": 4120,
-    "b_def": 376221.33195401,
+    "b_def": 352190.71320613,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50908,7 +50908,7 @@
         "type": 101
       }
     ],
-    "def": 505428.36390802,
+    "def": 457367.12641225,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -50933,7 +50933,7 @@
     "b_criDamage": 4140,
     "b_criDamageResist": 4140,
     "b_criResist": 4140,
-    "b_def": 380600.90170166,
+    "b_def": 355929.43501054,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -50990,7 +50990,7 @@
         "type": 101
       }
     ],
-    "def": 513644.86340333,
+    "def": 464301.93002108,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51015,7 +51015,7 @@
     "b_criDamage": 4140,
     "b_criDamageResist": 4140,
     "b_criResist": 4140,
-    "b_def": 385047.02509523,
+    "b_def": 359720.5145822,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51072,7 +51072,7 @@
         "type": 101
       }
     ],
-    "def": 521994.47019046,
+    "def": 471341.44916439,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51097,7 +51097,7 @@
     "b_criDamage": 4140,
     "b_criDamageResist": 4140,
     "b_criResist": 4140,
-    "b_def": 389560.78030377,
+    "b_def": 363564.74252339,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51154,7 +51154,7 @@
         "type": 101
       }
     ],
-    "def": 530479.34060755,
+    "def": 478487.26504678,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51179,7 +51179,7 @@
     "b_criDamage": 4160,
     "b_criDamageResist": 4160,
     "b_criResist": 4160,
-    "b_def": 394143.26296269,
+    "b_def": 367462.92137449,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51236,7 +51236,7 @@
         "type": 101
       }
     ],
-    "def": 539101.66592539,
+    "def": 485740.98274898,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51261,7 +51261,7 @@
     "b_criDamage": 4160,
     "b_criDamageResist": 4160,
     "b_criResist": 4160,
-    "b_def": 398795.58645669,
+    "b_def": 371415.86579425,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51318,7 +51318,7 @@
         "type": 101
       }
     ],
-    "def": 547863.67291338,
+    "def": 493104.23158849,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51343,7 +51343,7 @@
     "b_criDamage": 4160,
     "b_criDamageResist": 4160,
     "b_criResist": 4160,
-    "b_def": 403518.88220729,
+    "b_def": 375424.40274274,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51400,7 +51400,7 @@
         "type": 101
       }
     ],
-    "def": 556767.62441458,
+    "def": 500578.66548548,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51425,7 +51425,7 @@
     "b_criDamage": 4180,
     "b_criDamageResist": 4180,
     "b_criResist": 4180,
-    "b_def": 408314.29996505,
+    "b_def": 379489.37166715,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51482,7 +51482,7 @@
         "type": 101
       }
     ],
-    "def": 565815.81993009,
+    "def": 508165.96333431,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51507,7 +51507,7 @@
     "b_criDamage": 4180,
     "b_criDamageResist": 4180,
     "b_criResist": 4180,
-    "b_def": 413183.00810648,
+    "b_def": 383611.62469033,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51564,7 +51564,7 @@
         "type": 101
       }
     ],
-    "def": 575010.59621296,
+    "def": 515867.82938066,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51589,7 +51589,7 @@
     "b_criDamage": 4180,
     "b_criDamageResist": 4180,
     "b_criResist": 4180,
-    "b_def": 418126.19393581,
+    "b_def": 387792.02680215,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51646,7 +51646,7 @@
         "type": 101
       }
     ],
-    "def": 584354.32787161,
+    "def": 523685.99360431,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51671,7 +51671,7 @@
     "b_criDamage": 4200,
     "b_criDamageResist": 4200,
     "b_criResist": 4200,
-    "b_def": 423145.06399157,
+    "b_def": 392031.45605386,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51728,7 +51728,7 @@
         "type": 101
       }
     ],
-    "def": 593849.42798313,
+    "def": 531622.21210773,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51753,7 +51753,7 @@
     "b_criDamage": 4200,
     "b_criDamageResist": 4200,
     "b_criResist": 4200,
-    "b_def": 428240.84435823,
+    "b_def": 396330.80375528,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51810,7 +51810,7 @@
         "type": 101
       }
     ],
-    "def": 603498.34871646,
+    "def": 539678.26751056,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51835,7 +51835,7 @@
     "b_criDamage": 4200,
     "b_criDamageResist": 4200,
     "b_criResist": 4200,
-    "b_def": 433414.78098283,
+    "b_def": 400690.97467498,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51892,7 +51892,7 @@
         "type": 101
       }
     ],
-    "def": 613303.58196567,
+    "def": 547855.96934997,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51917,7 +51917,7 @@
     "b_criDamage": 4220,
     "b_criDamageResist": 4220,
     "b_criResist": 4220,
-    "b_def": 438668.13999675,
+    "b_def": 405112.88724358,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -51974,7 +51974,7 @@
         "type": 101
       }
     ],
-    "def": 623267.65999351,
+    "def": 556157.15448715,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -51999,7 +51999,7 @@
     "b_criDamage": 4220,
     "b_criDamageResist": 4220,
     "b_criResist": 4220,
-    "b_def": 444002.2080427,
+    "b_def": 409597.47375995,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52056,7 +52056,7 @@
         "type": 101
       }
     ],
-    "def": 633393.1560854,
+    "def": 564583.68751991,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52081,7 +52081,7 @@
     "b_criDamage": 4220,
     "b_criDamageResist": 4220,
     "b_criResist": 4220,
-    "b_def": 449418.29260699,
+    "b_def": 414145.68060073,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52138,7 +52138,7 @@
         "type": 101
       }
     ],
-    "def": 643682.68521399,
+    "def": 573137.46120146,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52163,7 +52163,7 @@
     "b_criDamage": 4240,
     "b_criDamageResist": 4240,
     "b_criResist": 4240,
-    "b_def": 454917.72235723,
+    "b_def": 418758.4684328,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52220,7 +52220,7 @@
         "type": 101
       }
     ],
-    "def": 654138.90471445,
+    "def": 581820.3968656,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52245,7 +52245,7 @@
     "b_criDamage": 4240,
     "b_criDamageResist": 4240,
     "b_criResist": 4240,
-    "b_def": 460501.84748541,
+    "b_def": 423436.81242913,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52302,7 +52302,7 @@
         "type": 101
       }
     ],
-    "def": 664764.51497083,
+    "def": 590634.44485827,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52327,7 +52327,7 @@
     "b_criDamage": 4240,
     "b_criDamageResist": 4240,
     "b_criResist": 4240,
-    "b_def": 466172.04005668,
+    "b_def": 428181.70248781,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52384,7 +52384,7 @@
         "type": 101
       }
     ],
-    "def": 675562.26011336,
+    "def": 599581.58497563,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52409,7 +52409,7 @@
     "b_criDamage": 4260,
     "b_criDamageResist": 4260,
     "b_criResist": 4260,
-    "b_def": 471929.6943636,
+    "b_def": 432994.14345438,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52466,7 +52466,7 @@
         "type": 101
       }
     ],
-    "def": 686534.92872719,
+    "def": 608663.82690876,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52491,7 +52491,7 @@
     "b_criDamage": 4260,
     "b_criDamageResist": 4260,
     "b_criResist": 4260,
-    "b_def": 477776.22728629,
+    "b_def": 437875.15534754,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52548,7 +52548,7 @@
         "type": 101
       }
     ],
-    "def": 697685.35457257,
+    "def": 617883.21069508,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,
@@ -52573,7 +52573,7 @@
     "b_criDamage": 4260,
     "b_criDamageResist": 4260,
     "b_criResist": 4260,
-    "b_def": 483713.07865832,
+    "b_def": 442825.77358829,
     "b_defPierce": 800,
     "b_defPierceResist": 266.67,
     "b_def_inc": 3.4,
@@ -52630,7 +52630,7 @@
         "type": 101
       }
     ],
-    "def": 709016.41731665,
+    "def": 627241.80717658,
     "defPierce": 800,
     "defPierceResist": 266.67,
     "def_inc": 0.34,

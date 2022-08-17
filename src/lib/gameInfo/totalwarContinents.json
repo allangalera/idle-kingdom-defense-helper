@@ -1,0 +1,26 @@
+[
+  {
+    "asset": "SCENE_TOTALWAR_MAP_1",
+    "id": 1,
+    "name": "TOTALWAR_CONT_NAME_1",
+    "openStageLv": 1
+  },
+  {
+    "asset": "SCENE_TOTALWAR_MAP_2",
+    "id": 2,
+    "name": "TOTALWAR_CONT_NAME_2",
+    "openStageLv": 4400
+  },
+  {
+    "asset": "SCENE_TOTALWAR_MAP_3",
+    "id": 3,
+    "name": "TOTALWAR_CONT_NAME_3",
+    "openStageLv": 12000
+  },
+  {
+    "asset": "SCENE_TOTALWAR_MAP_4",
+    "id": 4,
+    "name": "TOTALWAR_CONT_NAME_4",
+    "openStageLv": 24000
+  }
+]

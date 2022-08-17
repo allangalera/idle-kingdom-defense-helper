@@ -1558,6 +1558,29 @@
     "shopType": 6,
     "subDesc": ""
   },
+  "rankup_1": {
+    "appstoreConsumable": 1,
+    "appstoreId": "com.stormx.castle.rankup1",
+    "desc": "SHOP_GOODS_DESC_RANKUP_1",
+    "icon": "",
+    "id": "rankup_1",
+    "items": [
+      {
+        "t": 306
+      },
+      {
+        "c": 500,
+        "t": 101
+      }
+    ],
+    "limitType": 0,
+    "name": "SHOP_GOODS_NAME_RANKUP_1",
+    "order": 0,
+    "playstoreId": "com.stormx.castle.rankup1",
+    "price": "$4.99",
+    "shopType": 6,
+    "subDesc": ""
+  },
   "remodel_1": {
     "appstoreConsumable": 1,
     "appstoreId": "com.stormx.castle.remodel1",

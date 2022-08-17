@@ -1,0 +1,57 @@
+{
+  "BOSS": [
+    {
+      "id": 1,
+      "immuneEffectType": 24,
+      "mainSkill": 60,
+      "skillCoolTime": 12,
+      "unitId": 59
+    },
+    {
+      "id": 2,
+      "immuneEffectType": 21,
+      "mainSkill": 61,
+      "skillCoolTime": 12,
+      "unitId": 60
+    },
+    {
+      "id": 3,
+      "immuneEffectType": 23,
+      "mainSkill": 62,
+      "skillCoolTime": 12,
+      "unitId": 61
+    },
+    {
+      "id": 4,
+      "immuneEffectType": 22,
+      "mainSkill": 63,
+      "skillCoolTime": 12,
+      "unitId": 62
+    }
+  ],
+  "DUNGEON": {
+    "BOSS_RESIST": 2,
+    "MAXLV": 10
+  },
+  "FORMATION": {
+    "LIMIT": {
+      "SUPPORTER": 3,
+      "WARRIOR": 2
+    }
+  },
+  "RANK": {
+    "COLORS": [
+      "#E4A37D",
+      "#E4A37D",
+      "#C4DBFF",
+      "#C4DBFF",
+      "#FBCB0D",
+      "#FBCB0D",
+      "#F896F4",
+      "#F896F4",
+      "#6BEEFB",
+      "#6BEEFB"
+    ],
+    "MAXRANK": 10
+  }
+}
