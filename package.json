@@ -36,7 +36,7 @@
     "prettier-plugin-sort-json": "^0.0.2",
     "prettier-plugin-svelte": "^2.5.0",
     "sharp": "^0.30.6",
-    "svelte": "^3.44.0",
+    "svelte": "^3.50.1",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.10.1",
     "tailwindcss": "^3.0.23",
@@ -47,6 +47,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@floating-ui/dom": "^1.0.1",
     "@fontsource/fira-mono": "^4.5.7",
     "@fontsource/roboto": "^4.5.3",
     "@fontsource/roboto-mono": "^4.5.3",
@@ -62,6 +63,7 @@
     "oxide.ts": "^0.9.12",
     "ramda": "^0.28.0",
     "remeda": "^0.0.32",
+    "svelte-floating-ui": "^0.3.2",
     "svelte-icons-pack": "^1.4.6",
     "zipson": "^0.2.12",
     "zod": "^3.13.4"
