@@ -6,4 +6,5 @@ export const menu = style({
   flexDirection: 'column',
   gap: theme.space[4],
   flex: 1,
+  overflow: 'auto',
 });
