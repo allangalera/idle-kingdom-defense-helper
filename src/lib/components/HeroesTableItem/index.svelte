@@ -21,6 +21,7 @@
   import RiDesignEdit2Fill from 'svelte-icons-pack/ri/RiDesignEdit2Fill';
   import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
   import RiSystemDeleteBinFill from 'svelte-icons-pack/ri/RiSystemDeleteBinFill';
+  import RiSystemInformationFill from 'svelte-icons-pack/ri/RiSystemInformationFill';
 
   import * as styles from './index.css';
 
@@ -69,9 +70,7 @@
       <div class={styles.infoContainer}>
         <div class={styles.basicInfo}>
           <div class={styles.heroNameAndTier}>
-            <a href={`/heroes/${hero.name.toLowerCase()}`}>
-              <Text fontSize="base" fontWeight="bold">{hero.name}</Text></a
-            >
+            <Text fontSize="base" fontWeight="bold">{hero.name}</Text>
             <img
               loading="lazy"
               class={styles.tierIcon}
@@ -116,6 +115,13 @@
     </div>
     <div class={styles.actions}>
       {#if hero.level}
+        <a href={`/heroes/${hero.name.toLowerCase()}`} class={styles.actionButtonVariant.primary}>
+          <Icon
+            className={styles.buttonIcons}
+            src={RiSystemInformationFill}
+            color={theme.colors.white}
+          />
+        </a>
         <div class={styles.actionButtonVariant.primary} role="button" on:click={openAddModal}>
           <Icon className={styles.buttonIcons} src={RiDesignEdit2Fill} color={theme.colors.white} />
         </div>
