@@ -111,14 +111,19 @@ const returnGearAttributes = (
 };
 
 const returnSetStats = (heroGears: HeroGears) => {
-  if (!heroGears) return false;
+  if (!heroGears) return {};
 
   const isSet = new Set(Object.values(heroGears)).size === 1;
 
-  if (!isSet) return false;
+  if (!isSet) return {};
 
   const gearAttr = returnGearAttributesByGrade(heroGears.weapon);
-  return R.pick(gearAttr, ['setEffectValue1', 'setEffectValue2', 'setEffectValue3']);
+
+  return {
+    [returnRuneAttribute(gearAttr.setEffectType1)]: gearAttr.setEffectValue1,
+    [returnRuneAttribute(gearAttr.setEffectType2)]: gearAttr.setEffectValue2,
+    [returnRuneAttribute(gearAttr.setEffectType3)]: gearAttr.setEffectValue3,
+  };
 };
 
 type EffectToStats = Record<keyof typeof Attributes, number> | Record<string, never>;
@@ -175,8 +180,38 @@ export const isRuneAvailable = (runeId: number, heroUserData): boolean => {
   return true;
 };
 
-export const calculateHeroStats = (hero: HeroType, heroUserData) => {
-  const heroStats = R.pick(hero, [
+type HeroStatsAttributes = Pick<
+  HeroType,
+  | 'atk'
+  | 'atkSpeed'
+  | 'cri'
+  | 'criDamage'
+  | 'criDamageResist'
+  | 'criResist'
+  | 'def'
+  | 'defPierce'
+  | 'defPierceResist'
+  | 'dodge'
+  | 'hit'
+  | 'hp'
+  | 'moveSpeed'
+  | 'incAtk'
+  | 'incDef'
+  | 'incHp'
+>;
+
+export type HeroStats = HeroStatsAttributes & {
+  composedStats: {
+    base: Partial<HeroStatsAttributes>;
+    equip: Partial<HeroStatsAttributes>;
+    skill: Partial<HeroStatsAttributes>;
+    runes: Partial<HeroStatsAttributes>;
+    equipSet: any;
+  };
+};
+
+export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
+  const heroInitialStats: HeroStatsAttributes = R.pick(hero, [
     'atk',
     'atkSpeed',
     'cri',
@@ -194,6 +229,16 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     'incHp',
     'moveSpeed',
   ]);
+  const heroStats: HeroStats = {
+    ...heroInitialStats,
+    composedStats: {
+      base: {},
+      equip: {},
+      skill: {},
+      runes: {},
+      equipSet: {},
+    },
+  };
   const currentLevel = heroUserData?.level ?? 1;
 
   const currentGrade = heroUserData?.grade ?? hero.baseGrade;
@@ -203,6 +248,8 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
   heroStats.hp = (heroStats.hp + heroStats.incHp * (currentLevel - 1)) * currentAscension.incHp;
   heroStats.def = (heroStats.def + heroStats.incDef * (currentLevel - 1)) * currentAscension.incDef;
   heroStats.atk = (heroStats.atk + heroStats.incAtk * (currentLevel - 1)) * currentAscension.incAtk;
+
+  heroStats.composedStats.base = { ...heroStats };
 
   // apply equip stats if available
   const equipStats = returnGearAttributes(heroUserData?.equip);
@@ -214,6 +261,8 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     return (heroStats[key] += value);
   });
 
+  heroStats.composedStats.equip = equipStats;
+
   // apply skills attributes
   const skillStats = returnSkillStats(hero, heroUserData);
 
@@ -223,6 +272,8 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     }
     return (heroStats[key] += value);
   });
+
+  heroStats.composedStats.skill = skillStats;
 
   // apply runes if available
   const runesStats = returnRunesStats(heroUserData);
@@ -234,14 +285,19 @@ export const calculateHeroStats = (hero: HeroType, heroUserData) => {
     return (heroStats[key] += value);
   });
 
+  heroStats.composedStats.runes = runesStats;
+
   // apply set stats if available
   // TODO: set can also be incomplete
   const equipSetStats = returnSetStats(heroUserData?.equip);
-  if (equipSetStats && Object.keys(equipSetStats).length > 0) {
-    heroStats.criDamage *= 1 + equipSetStats.setEffectValue1;
-    heroStats.defPierce *= 1 + equipSetStats.setEffectValue2;
-    heroStats.atk *= 1 + equipSetStats.setEffectValue3;
-  }
+  const finalEquipSetStats = {};
+
+  R.mapKeys(equipSetStats, (key, value) => {
+    finalEquipSetStats[key] = heroStats[key] * value;
+    return (heroStats[key] *= 1 + value);
+  });
+
+  heroStats.composedStats.equipSet = finalEquipSetStats;
 
   return heroStats;
 };

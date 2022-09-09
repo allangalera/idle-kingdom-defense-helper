@@ -1,13 +1,13 @@
 <script lang="ts">
   import GridItem from '$lib/components/GridItem/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import type { HeroType } from '$lib/db/heroes';
   import { Attributes } from '$lib/enums';
-  import { returnAttributeName } from '$lib/utils/hero';
+  import { returnAttributeName, type HeroStats } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
-  export let heroStats: Partial<HeroType>;
+  export let heroStats: HeroStats;
 
   const attributesOrder = [
     Attributes.hp,
@@ -30,7 +30,55 @@
   {#each attributesOrder as attr}
     <div class={styles.heroStat}>
       <Text>{returnAttributeName(attr)}:</Text>
-      <Text>{heroStats[attr].toLocaleString()}</Text>
+      <Tooltip>
+        <slot slot="tooltip-content">
+          <table>
+            <tr>
+              <td><Text textAlign="center">base</Text></td>
+              <td />
+              <td><Text textAlign="center">equip</Text></td>
+              <td />
+              <td><Text textAlign="center">skill</Text></td>
+              <td />
+              <td><Text textAlign="center">runes</Text></td>
+              <td />
+              <td><Text textAlign="center">set bonus</Text></td>
+            </tr>
+            <tr>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.base[attr].toLocaleString()}
+                </Text>
+              </td>
+              <td><Text textAlign="center">+</Text></td>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.equip[attr]?.toLocaleString() ?? 0}
+                </Text>
+              </td>
+              <td><Text textAlign="center">+</Text></td>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.skill[attr]?.toLocaleString() ?? 0}
+                </Text>
+              </td>
+              <td><Text textAlign="center">+</Text></td>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.runes[attr]?.toLocaleString() ?? 0}
+                </Text>
+              </td>
+              <td><Text textAlign="center">+</Text></td>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.equipSet[attr]?.toLocaleString() ?? 0}
+                </Text>
+              </td>
+            </tr>
+          </table>
+        </slot>
+        <Text>{heroStats[attr].toLocaleString()}</Text>
+      </Tooltip>
     </div>
   {/each}
 </GridItem>

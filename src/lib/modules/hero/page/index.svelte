@@ -5,13 +5,12 @@
   import Link from '$lib/components/Link/index.svelte';
   import ModalAddHero from '$lib/components/ModalAddHero/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import type { HeroType } from '$lib/db/heroes';
   import Equipments from '$lib/modules/hero/components/Equipments/index.svelte';
   import Runes from '$lib/modules/hero/components/Runes/index.svelte';
   import Skills from '$lib/modules/hero/components/Skills/index.svelte';
   import Stats from '$lib/modules/hero/components/Stats/index.svelte';
   import { heroes as heroesStore, removeHero } from '$lib/shared/stores/user/heroes';
-  import { calculateHeroStats } from '$lib/utils/hero';
+  import { calculateHeroStats, type HeroStats } from '$lib/utils/hero';
   import * as R from 'remeda';
 
   import * as styles from './index.css';
@@ -19,7 +18,7 @@
   export let hero;
   export let heroUserData;
 
-  let heroStats: Partial<HeroType>;
+  let heroStats: HeroStats;
   let addModalOpen = false;
 
   const getUserHeroData = (heroId: number) => {
