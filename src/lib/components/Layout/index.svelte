@@ -23,11 +23,15 @@
   }
 
   const validateUserProfileData = async () => {
-    console.log('validateUserProfileData');
     if (!$session.user) return;
     if (loadedData.length === 0) {
-      console.log('try to save current token on default profile');
+      // save a default profile based on the user current data
       try {
+        // double check if user already have a profile registered
+        const { data: profilesCount } = await supabaseClient
+          .from('profiles')
+          .select('*', { count: 'exact' });
+        if (profilesCount.length > 0) return;
         await supabaseClient.from('profiles').insert([
           {
             name: 'Default',
@@ -37,13 +41,11 @@
         ]);
       } catch (error) {}
     } else {
-      console.log('now there is a profile created');
       let selectedProfile = loadedData[0];
       if ($profilesStore?.selectedProfile) {
         selectedProfile = loadedData.find(
           (profile) => profile.id === $profilesStore.selectedProfile.id
         );
-        console.log('existing profile', selectedProfile.id);
       } else {
         updateSelectedProfile(selectedProfile);
       }
@@ -54,7 +56,6 @@
   };
 
   const updateUserData = async () => {
-    console.log('updateUserData');
     const { id } = $profilesStore?.selectedProfile;
     if (!id) return;
     try {
@@ -62,10 +63,7 @@
         .from('profiles')
         .update({ encoded_data: userData })
         .match({ id });
-      console.log({ data, error });
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   };
 
   const debouncedUpdateUserData = debounce(updateUserData, 10 * 1000);
@@ -82,9 +80,11 @@
     }
   });
 
-  profilesStore.subscribe((value) => {
-    console.log({ profilesStore: value });
-  });
+  // TODO: change userData when profile changes
+  // going to work when user can add more profiles
+  // profilesStore.subscribe((value) => {
+  // console.log({ profilesStore: value });
+  // });
 
   onDestroy(() => {
     userSubscriber();
