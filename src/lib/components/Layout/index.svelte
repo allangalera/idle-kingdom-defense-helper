@@ -43,14 +43,16 @@
       } catch (error) {}
     } else {
       let selectedProfile = loadedData[0];
+
       if ($profilesStore?.selectedProfile) {
-        selectedProfile = loadedData.find(
+        let profileFromLocalStorage = loadedData.find(
           (profile) => profile.id === $profilesStore.selectedProfile.id
         );
-      } else {
-        updateSelectedProfile(selectedProfile);
+
+        if (profileFromLocalStorage) selectedProfile = profileFromLocalStorage;
       }
 
+      updateSelectedProfile(selectedProfile);
       loadFromZipson(selectedProfile.encoded_data);
       isProfileFirstLoaded = true;
     }
