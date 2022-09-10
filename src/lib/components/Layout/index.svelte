@@ -15,6 +15,7 @@
   let userData;
 
   async function loadData() {
+    if (!$session.user) return;
     await supabaseClient.auth.api.getUser($session.accessToken);
     const { data } = await supabaseClient.from('profiles').select();
 
