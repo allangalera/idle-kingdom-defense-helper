@@ -52,7 +52,11 @@
     "@fontsource/roboto": "^4.5.3",
     "@fontsource/roboto-mono": "^4.5.3",
     "@fontsource/roboto-slab": "^4.5.4",
+    "@mobily/ts-belt": "^3.13.1",
     "@radix-ui/colors": "^0.1.8",
+    "@supabase/auth-helpers-svelte": "^0.4.5",
+    "@supabase/auth-helpers-sveltekit": "^0.6.10",
+    "@supabase/supabase-js": "^1.35.6",
     "@vanilla-extract/sprinkles": "^1.4.0",
     "change-case": "^4.1.2",
     "imask": "^6.4.2",
@@ -65,6 +69,7 @@
     "remeda": "^0.0.32",
     "svelte-floating-ui": "^0.3.2",
     "svelte-icons-pack": "^1.4.6",
+    "svelte-outside-click": "^1.1.1",
     "zipson": "^0.2.12",
     "zod": "^3.13.4"
   }

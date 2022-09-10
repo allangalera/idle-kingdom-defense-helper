@@ -3,6 +3,7 @@
   import '@fontsource/roboto-slab';
   import '@fontsource/fira-mono';
   import '$lib/styles/styles.css';
+  import { SupaAuthHelper } from '@supabase/auth-helpers-svelte';
   import { theme, ThemeOptions } from '$lib/shared/stores/theme';
   import { lightTheme } from '$lib/styles/themes/light.css';
   import { darkTheme } from '$lib/styles/themes/dark.css';
@@ -13,6 +14,8 @@
   import { browser } from '$app/env';
   import lazyload from 'vanilla-lazyload';
   import { onMount } from 'svelte';
+  import { supabaseClient } from '$lib/supabaseClient';
+  import { session } from '$app/stores';
 
   if (browser && !document.lazyloadInstance) {
     document.lazyloadInstance = new lazyload();
@@ -54,10 +57,12 @@
   <meta name="description" content="A tool to help players from Idle Kingdom game from StormX" />
 </svelte:head>
 
-<Layout theme={currentTheme}>
-  <Header />
-  <Menu />
-  <Main>
-    <slot />
-  </Main>
-</Layout>
+<SupaAuthHelper {supabaseClient} {session}>
+  <Layout theme={currentTheme}>
+    <Header />
+    <Menu />
+    <Main>
+      <slot />
+    </Main>
+  </Layout>
+</SupaAuthHelper>

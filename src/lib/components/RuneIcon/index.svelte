@@ -9,7 +9,7 @@
   export let size: Sprinkles['width'] = 14;
   export let abilityType: number;
   export let grade: number;
-  export let heroUserData;
+  export let heroUserData = null;
 
   let rarityLevel = convertGradeToRarityAndLevel(grade);
 

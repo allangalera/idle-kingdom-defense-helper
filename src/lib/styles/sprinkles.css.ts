@@ -45,6 +45,7 @@ const responsiveProperties = defineProperties({
     letterSpacing: theme.font.letterSpacings,
     textAlign: ['left', 'center', 'right', 'start', 'end'],
     cursor: ['pointer', 'not-allowed'],
+    borderRadius: theme.border.radii,
     opacity: [0, 0.5, 1],
     flex: [0, 1],
   },

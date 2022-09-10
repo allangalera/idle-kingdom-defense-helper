@@ -7,4 +7,5 @@ export const menu = style({
   gap: theme.space[4],
   flex: 1,
   overflow: 'auto',
+  padding: theme.space[4],
 });
