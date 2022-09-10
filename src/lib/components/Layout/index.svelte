@@ -5,9 +5,9 @@
   import { supabaseClient } from '$lib/supabaseClient';
   import { session } from '$app/stores';
   import { loadFromZipson, user } from '$lib/shared/stores/user/index';
-  import { F } from '@mobily/ts-belt';
   import { updateSelectedProfile, profilesStore } from '$lib/shared/stores/user/profiles';
   import { onDestroy } from 'svelte';
+  import debounce from 'lodash.debounce';
 
   let loadedData = [];
   let isProfileLoaded = false;
@@ -68,7 +68,7 @@
     }
   };
 
-  const debouncedUpdateUserData = F.debounce(updateUserData, 10 * 1000);
+  const debouncedUpdateUserData = debounce(updateUserData, 10 * 1000);
 
   const userSubscriber = user.subscribe((value) => {
     userData = value;
