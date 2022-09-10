@@ -59,9 +59,9 @@
     const { id } = $profilesStore?.selectedProfile;
     if (!id) return;
     try {
-      const { data, error } = await supabaseClient
+      await supabaseClient
         .from('profiles')
-        .update({ encoded_data: userData })
+        .update({ encoded_data: userData, updated_at: new Date().toISOString() })
         .match({ id });
     } catch (error) {}
   };
