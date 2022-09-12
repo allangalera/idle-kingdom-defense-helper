@@ -8,23 +8,23 @@
   import ModalLogin from '$lib/components/ModalLogin/index.svelte';
   import ModalAddProfile from '$lib/components/ModalAddProfile/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
-  import Link from '$lib/components/Link/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Dropdown from '$lib/components/Dropdown/index.svelte';
   import FiMoon from 'svelte-icons-pack/fi/FiMoon';
   import FiSun from 'svelte-icons-pack/fi/FiSun';
+  import RiUserUserSettingsLine from 'svelte-icons-pack/ri/RiUserUserSettingsLine';
 
   import { theme } from '$lib/styles/themes/index.css';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import { onMount } from 'svelte';
-  import { updateSelectedProfile } from '$lib/shared/stores/user/profiles';
+  import { profilesStore, updateSelectedProfile } from '$lib/shared/stores/user/profiles';
   import { clearUserLocalData } from '$lib/shared/stores/user';
   import { goto } from '$app/navigation';
+  import { supabaseClient } from '$lib/supabaseClient';
 
   let checked = false;
   let isModalLoginOpen = false;
   let isModalAddProfileOpen = false;
-  let profiles = [];
 
   function onChange(e) {
     // checked = e.target.checked;
@@ -67,6 +67,11 @@
     goto('/api/auth/logout');
   };
 
+  supabaseClient.auth.onAuthStateChange((event, session) => {
+    console.log(event, session);
+    if (event === 'SIGNED_OUT') onLogout();
+  });
+
   $: checked = $themeStore.theme === ThemeOptions.dark;
 </script>
 
@@ -83,33 +88,71 @@
       <Heading fontSize={{ sm: '2xl', md: '4xl' }}>IKD Helper</Heading>
     </div>
     <div class={styles.right}>
-      <Icon src={FiSun} color={theme.themeColors.text.default} />
-      <Toggle bind:checked on:change={onChange} />
-      <Icon src={FiMoon} color={theme.themeColors.text.default} />
-      {#if $session?.user?.id}
-        <Dropdown>
-          <Button>
-            <Text color="white" textAlign="center">View profile</Text></Button
+      <Dropdown>
+        <Button>
+          <Icon
+            className={sprinkles({
+              size: 6,
+            })}
+            src={RiUserUserSettingsLine}
+            color={theme.themeColors.text.default}
+            size={theme.sizes[6]}
+          /></Button
+        >
+        <svelte:fragment slot="tooltip-content">
+          <div
+            class={sprinkles({
+              display: 'flex',
+              flexDirection: 'column',
+              gap: 2,
+            })}
           >
-          <svelte:fragment slot="tooltip-content">
-            <Text>{$session.user.email}</Text>
-            <!-- <Text>Profiles:</Text>
-            {#if profiles.length === 0}
-              <Text>No profile</Text>
-              <Button on:click={onOpenModalAddProfile}>
-                <Text color="white" textAlign="center">Create profile</Text></Button
-              >
-            {/if} -->
-            <Button on:click={onLogout}>
-              <Text color="white" textAlign="center">Sign out</Text></Button
+            <div
+              class={sprinkles({
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: 2,
+              })}
             >
-          </svelte:fragment>
-        </Dropdown>
-      {:else}
-        <Button on:click={onOpenModalLogin}>
-          <Text color="white" textAlign="center">Login</Text>
-        </Button>
-      {/if}
+              <Text>Theme</Text>
+              <div
+                class={sprinkles({
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 2,
+                })}
+              >
+                <Icon src={FiSun} color={theme.themeColors.text.default} />
+                <Toggle bind:checked on:change={onChange} />
+                <Icon src={FiMoon} color={theme.themeColors.text.default} />
+              </div>
+            </div>
+            <hr
+              class={sprinkles({
+                width: 'full',
+              })}
+            />
+            {#if $session?.user?.id}
+              <Text>{$session.user.email}</Text>
+              <Button on:click={onLogout}>
+                <Text color="white" textAlign="center">Sign out</Text></Button
+              >
+            {:else}
+              <Button on:click={onOpenModalLogin}>
+                <Text color="white" textAlign="center">Login</Text>
+              </Button>
+            {/if}
+            <hr
+              class={sprinkles({
+                width: 'full',
+              })}
+            />
+            <Text>Latest change saved</Text>
+            <Text>{new Date($profilesStore?.selectedProfile?.updated_at).toLocaleString()}</Text>
+          </div>
+        </svelte:fragment>
+      </Dropdown>
     </div>
   </div>
 </header>
