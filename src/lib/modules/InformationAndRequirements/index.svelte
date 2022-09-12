@@ -8,6 +8,7 @@
   import HeroGear from '$lib/modules/InformationAndRequirements/HeroGear/index.svelte';
   import Runes from '$lib/modules/InformationAndRequirements/Runes/index.svelte';
   import SanctuaryRunes from '$lib/modules/InformationAndRequirements/SanctuaryRunes/index.svelte';
+  import TotalWarRanks from '$lib/modules/InformationAndRequirements/TotalWarRanks/index.svelte';
   import UltraSummonGear from '$lib/modules/InformationAndRequirements/UltraSummonGear/index.svelte';
 
   import * as styles from './index.css';
@@ -24,4 +25,5 @@
   <Runes />
   <ArcherQualityPropertyCraftRates />
   <BerserkMode />
+  <TotalWarRanks />
 </div>

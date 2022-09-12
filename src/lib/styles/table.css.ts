@@ -19,6 +19,12 @@ export const table4Columns = style({
   overflowX: 'auto',
 });
 
+export const table5Columns = style({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(5, 1fr)',
+  overflowX: 'auto',
+});
+
 export const table6Columns = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(6, 1fr)',
