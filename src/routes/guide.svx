@@ -1,0 +1,337 @@
+---
+layout: guides
+title: My lovely article
+author: @Ferro
+---
+
+<script>
+  import HeroInline from '$lib/components/HeroInline/index.svelte';
+  import GameIconInline from '$lib/components/GameIconInline/index.svelte';
+</script>
+
+# Guide
+
+## Team Setup
+
+This section sets out what heroes to use at early, mid and lategame. For upgrading hero levels and ascension, skip to Section 8 below.
+
+### Starting out (before Stage 300)
+
+Supports to use:
+- <HeroInline name="Luke" /><HeroInline name="Tristan" /><HeroInline name="Evan" /> (must)
+- <HeroInline name="Xavier" /><HeroInline name="Mason" /><HeroInline name="Austin" /> (good for now)
+
+Warriors to use:
+- <HeroInline name="Ryan" /><HeroInline name="Leonidas" /><HeroInline name="Randolph" /><HeroInline name="Diego" /><HeroInline name="Blake" /> (good for now)
+
+S-tiers to use as soon as possible:
+- <HeroInline name="Christian" /><HeroInline name="Gabriel" /><HeroInline name="Marian" /><HeroInline name="Hilde" /><HeroInline name="Anthony" /><HeroInline name="Daniel" />
+
+Level heroes equally until lv1000, before focusing levels on your top damage dealing "DPS" heroes.
+
+Use crowd control "CC" focused warriors for now (i.e. burn freeze stun). After Stage 300, castle renovations Sky Castle "SC3" and Wild Castle "WC3" becomes available which massively buffs warrior damage.
+
+### Early to midgame (Stages 300 to 6000)
+
+Warriors:
+- <HeroInline name="Brian" /><HeroInline name="Daniel" /> (must)
+- <HeroInline name="Hilde" /><HeroInline name="Julian" /><HeroInline name="Anthony" /><HeroInline name="Rodrick" /><HeroInline name="Vincent" /> (recommended)
+- <HeroInline name="Blake" /><HeroInline name="Ryan" /><HeroInline name="Leonidas" /><HeroInline name="Randolph" /><HeroInline name="Diego" /> (good substitutes)
+- <HeroInline name="Miguel" /><HeroInline name="Jackson" /><HeroInline name="Raven" /> (avoid)
+
+Support:
+- <HeroInline name="Luke" /><HeroInline name="Tristan" /><HeroInline name="Evan" /> (must)
+- <HeroInline name="Mason" /><HeroInline name="Xavier" /> + any S.tier (recommended)
+- <HeroInline name="Ellie" /><HeroInline name="Logan" /><HeroInline name="Carlos" /> (avoid)
+
+SC3 provides buffs as it unlocks, so it is recommended to start shifting to DPS instead of CC warrior setup once the first stage of Sky Castle is completed.
+
+### Mid to lategame (Stages 6000 to 10000+)
+
+Warriors:
+No change, other than <HeroInline name="Blake" /> to be used until Epic or Legendary at most, to be replaced with S-tier.
+
+Support:
+- <HeroInline name="Luke" /><HeroInline name="Tristan" /><HeroInline name="Evan" /><HeroInline name="Gabriel" /><HeroInline name="Christian" /><HeroInline name="Sophia" /><HeroInline name="Marian" />(must)
+- <HeroInline name="Camilla" /><HeroInline name="Harold" /><HeroInline name="Mason" /><HeroInline name="Austin" /> (recommended)
+
+Notes:
+- Replace summoners like <HeroInline name="Xavier" /><HeroInline name="Adrian" /> with <HeroInline name="Sophia" /> around Stage 6k.
+- Overlevel <HeroInline name="Sophia" /> until her heals overcome enemy damage in harder fights.
+- With WC3, warriors will carry damage. Only <HeroInline name="Christian" /> will be comparable in damage.
+
+## Cash Packs to Buy
+
+Best value:
+- Remove Ads
+- Sky Castle III renovation (Stage 300)
+
+Good value:
+- Warrior Castle III renovation
+- Total War ranks (Stage 400)
+
+Very optional grabs (priority order):
+- Hero and Kingdom Passes
+- Shards for <HeroInline name="Sophia" /><HeroInline name="Christian" /><HeroInline name="Gabriel" /><HeroInline name="Daniel" />
+- Shards for :<HeroInline name="Hilde" /><HeroInline name="Marian" />+<HeroInline name="Rodrick" />/<HeroInline name="Anthony" />/<HeroInline name="Julian" />
+- Monthly Rubies
+- Other packs
+
+## Spending Rubies <GameIconInline name="ruby" />
+
+1. Max out all Ruby Shop Upgrades before anything else. Tickets then auto-battle upgrades.
+2. Max daily ruby spending on Sky Castle if you're not purchasing with cash.
+3. Daily Expedition chances and chests for <GameIconInline name="ascension-stone" /><GameIconInline name="hero-seal" /><GameIconInline name="protect-weapon-normal" /><GameIconInline name="protect-weapon-shiny" /><GameIconInline name="protect-armor-normal" /><GameIconInline name="protect-armor-shiny" />.
+4. General store <GameIconInline name="hero-seal" /> and heroes (<GameIconInline name="ascension-stone" /> optional)
+5. Sanctuary for runes for <HeroInline name="Sophia" />
+6. Astrology to exchange more <GameIconInline name="ancient-coin" /> for <GameIconInline name="steel" />
+7. Portal chances for more <GameIconInline name="Portal_Coin" />
+Note: Hero and gear summons are inefficient ways of spending <GameIconInline name="ruby" />
+
+## Other Currencies
+
+- <GameIconInline name="coin" /> : Upgrade hero levels, then castle
+- <GameIconInline name="soulstone" /> : Upgrade hero levels
+- <GameIconInline name="ascension-stone" /> : Upgrade hero <GameIconInline name="common-star" />
+- <GameIconInline name="hero-seal" /> : Ultra Summon whenever available
+- <GameIconInline name="gear-seal" /> : Spend sparingly, save for better gear at higher stages
+- <GameIconInline name="ancient-coin" /> : Purchase hero shards from Fountain, exchange at Astrology
+- <GameIconInline name="portal-icon" /> : Buy hero shards from Store.
+- <GameIconInline name="expedition-icon" /> : Buy hero shards from Store.
+- <GameIconInline name="steel" /> : Upgrade Archer gear <GameIconInline name="common-star" /> tiers after obtaining full <GameIconInline name="rare-star" /> S-frost set
+- <GameIconInline name="rune-seal" /> : Get rune pieces from sanctuary and upgrade <HeroInline name="Sophia" /> runes first
+- <GameIconInline name="magic-dust" /> Sell excess runes for these to refine rune grade
+- <GameIconInline name="protect-weapon-normal" /><GameIconInline name="protect-weapon-shiny" /><GameIconInline name="protect-armor-normal" /><GameIconInline name="protect-armor-shiny" /> : Upgrade Archer gear levels after obtaining full <GameIconInline name="rare-star" />S-frost set
+- Scrolls: Upgrade Archer gear levels
+
+## Battlefield (Stage Progression)
+
+Battlefield is the typical 'campaign' mode. Push stage progress here to unlock additional hero slots, game features, better loot drops, shop rewards and higher gear caps.
+
+There are three similar-sounding “auto” terms related to Battlefield that can be confusing.
+1. Auto-progress moves you to next stage after current fight ends. The button is found at the bottom right corner of fight screen. It is recharged by watching video ads. By default you have max 99 consecutive auto-progressions (50 base + 50 ad). This cap can be upgraded to 399 in Ruby Shop > Upgrade.
+2. Auto-skill uses hero skills as soon as they recharge. Toggle this on/off with the button found next to x2 speed button. Skills can be used more efficiently by playing manual.
+3. Auto-battle is idle/offline accumulation of material and loot based on your highest reached stage. Collect these loot on the pre-fight page. By default it stops accumulating after 6 hours but this can be extended in the Ruby Shop.
+
+If you're stuck on a stage, farm a lower stage for materials to upgrade your heroes. Ideally, find a stage you can beat 28 seconds (real-time, including load screens). You can swap Sophia for more DPS, and removing Evan/Harold/Austin that sometimes freezes enemies off-screen. Normal teams work fine, but you can build a 'farm team' if you have spare resources.
+
+Example farm-team:
+
+Support: <HeroInline name="Luke" /><HeroInline name="Tristan" /><HeroInline name="Gabriel" /><HeroInline name="Christian" /><HeroInline name="Marian" /><HeroInline name="Camilla" /><HeroInline name="Aisha" /><HeroInline name="Adrian" /><HeroInline name="Marcus" />
+
+Warrior: <HeroInline name="Brian" /><HeroInline name="Daniel" /><HeroInline name="Hilde" /><HeroInline name="Rodrick" /><HeroInline name="Vincent" />
+
+## General Store
+
+This store sells hero shards and other ingame resources. It restocks daily.
+
+Buy everything that costs <GameIconInline name="coin" /> <GameIconInline name="portal-icon" /> <GameIconInline name="ruin-icon" />. You earn enough daily to buy these out.
+
+Spend <GameIconInline name="expedition-icon" /> on hero shards.
+
+Spend <GameIconInline name="ruby" /> on <GameIconInline name="hero-seal" /> and hero shards.
+
+Higher stage progression increases store item quantities, so try to purchase towards the end of the day after stage progression.
+
+## Fountain (Summons)
+
+This is where you summon heroes and hero gear. You can also disassemble unwanted heroes to purchase others.
+
+Spending <GameIconInline name="ruby" /> here is inefficient. You earn plenty of <GameIconInline name="hero-seal" /> for such summons from a short amount of stage farming or Event Dungeon.
+
+Use <GameIconInline name="hero-seal" /> for hero Ultra Summons always.
+
+Use <GameIconInline name="gear-seal" /> for gear Ultra Summons only when progress stalled, since better gear becomes available later.
+
+Discard shards of <HeroInline name="Ellie" /> <HeroInline name="Logan" /> <HeroInline name="Miguel" /> <HeroInline name="Marcus" /> <HeroInline name="Jackson" /> <HeroInline name="Carlos" /> for <GameIconInline name="AncientCoin" /> after you have unlocked them.
+
+Purchase <HeroInline name="Brian" /> <HeroInline name="Luke" /> <HeroInline name="Tristan" /> <HeroInline name="Evan" /> and S-tier with <GameIconInline name="ancient-coin" />.
+
+## Upgrading Heroes
+
+### Levels
+
+First push your main heroes to level 1000. Afterwards, prioritize levelling your main DPS heroes. The rest can eventually be brought to around level 1500 (ie non-DPS buffers / pure-CC heroes).
+
+Once you start using <HeroInline name="Sophia" /> around stage 6k, she should be priority and maxed out as much as possible. Her heal is necessary to progress through hard stages. A reference late-game target is:
+- Lv 8000 Sophia
+- Lv 5000 DPS heroes
+- Lv 1500 others
+
+### Ascensions
+Use <GameIconInline name="ascension-stone" /> to upgrade hero star tiers for your main heroes whenever available. When short, focus on immediate skill upgrades to DPS damage %, CC%, buff % or duration. Expedition chests and Dungeon are a main source for <GameIconInline name="ascension-stone" />.
+
+### Gears
+Best hero gears should be given to main DPS. <HeroInline name="Sophia" /> only needs good helm and chest because her heals only scale with base and rune attack, not with weapon and set bonus attack. Other heroes only need decent gear for sufficient accuracy.
+
+### Runes
+Upgrade runes for <HeroInline name="Sophia" /> (see section “Sanctuary and Runes”), maxing out her attack, before other heroes.
+
+## Upgrading Archers
+
+Archers gain more damage by upgrading Castle level, and by equipping better gear.
+
+### Before Rare 1 (stage 3739)
+Use the best gear available upgraded to +6 with scrolls. Hoard <GameIconInline name="steel" /> for now, don't spend on blueprint purchases, gear promotions or Conquest upgrades.
+
+### After Rare 1 (stage 3739)
+Rare 1<GameIconInline name="rare-star" /> gear blueprints can be farmed from Battlefield.  If you're not struggling to progress, keep pushing stages hard for now.
+
+Around midgame, when you're strong enough to farm stages 3.7k for <GameIconInline name="rare-star" /> blueprints under 30 secs (real time), farm to collect a full set of S-tier frost archer gear (Bow and Arrow first).
+
+This can take days because it takes a few hundred blueprints on average per S-frost gear. It helps to focus on only one type of blueprints at a time. Do not purchase blueprints with <GameIconInline name="Steel" />. Frost effect is much more effective in hard fights than other elements.
+
+The frost set should be promoted tier by tier until endgame, maxing out at 5<GameIconInline name="rare-star" />, in this order of priority: Bow, Arrow, Boots, Chest, Helm, Gloves.
+
+For each promotion, upgrade to +8 with regular scrolls only and no stones. Then upgrade to +12 with shiny scrolls and with stones  (<GameIconInline name="protect-weapon-normal" /><GameIconInline name="protect-armor-normal" /> recommended, <GameIconInline name="protect-weapon-shiny" /><GameIconInline name="protect-armor-shiny" /> only if you can't stand the failures). At +12, you can use <GameIconInline name="steel" /> to promote to next star tier.
+
+Craft recipes that drop from Battlefield to get better archer gear, or to farm for S-frost gear. Disassemble any unused archer gear for <GameIconInline name="Steel" />.
+
+If you have enough <GameIconInline name="steel" /> for the next promotion tier, the surplus can be used to upgrade Conquest forts.
+
+### After full M5 S-frost (stage 12900)
+
+This is the current cap on archer gear tier. To progress further, you should aim to upgrade gears past +12. Higher level increases the gear's attack stat, but does not increase the gear's sub-stat (which only increases upon promotions).
+
+Since the success rate is 50% with either normal or shiny protection stone, the strategy here is to use shiny scrolls only, relying on the +2 or +3 chance to slowly push higher. Statistically, using normal scroll + normal protection stone should be net +0 in the long run.
+
+The recommended strategy is to upgrade levels for only arrow (for weapons) and either gloves or helmet (not both, for armor).
+
+This is so that if StormX decide to introduce a higher tier, you can immediately promote the rest for those useful sub-stat gains, while temporarily keeping the gears with high attack levels. In particular, you'll want the higher promoted stats of crit damage from boots, and accuracy from chest. Gloves and helmet are not urgent because archers already have maxed def penetration and crit chance.
+
+## Upgrading Castle
+
+Higher castle level unlocks the more hero slots for battle formation (cap of 5 warriors and 9 support with Sky Castle renovation), as well as more castle HP and archer damage.
+
+After running out of <GameIconInline name="soulstone" /> when upgrading hero levels, use the surplus :coin~1: to upgrade Castle level. Rush Castle level if you are about to unlock the next hero slot.
+
+After daily Fountain purchases and Astrology exchanges, use any surplus <GameIconInline name="ancient-coin" /> to upgrade Castle defence via engraving. Do not use <GameIconInline name="ruby" />. This is low priority because Sophia contributes far more defense stats to your Castle via her passive skill compared to engraving.
+
+## Event Dungeons
+
+This is a daily raid that gives :coin~1: <GameIconInline name="soulstone" /> <GameIconInline name="ascension-stone" /> <GameIconInline name="hero-seal" /> and hero shards rewards.
+
+With max tickets, you get 7 chances daily for each mode. Failed fights do not consume tickets.
+
+## Blacksmith
+
+This is where you combine existing hero gears to get higher tiers. It takes 3 of the same type to combine into 1 of the next tier.
+
+## Expedition
+
+This is a daily boss challenge mode that rewards <GameIconInline name="expedition-icon" /> and valuable resources. Failed fights do not consume tickets. Every day buy the 5 extra fight chances and push as far as you can to increase rewards.
+
+After each battle, you get to open up to 3 chests, where the first one is free, the second costs 100<GameIconInline name="ruby" /> and the third costs 500<GameIconInline name="ruby" />. It is worth opening more chests for <GameIconInline name="ascension-stone" /> <GameIconInline name="hero-seal" /> <GameIconInline name="protect-weapon-normal" /> <GameIconInline name="protect-weapon-shiny" /> <GameIconInline name="protect-armor-normal" /> <GameIconInline name="protect-armor-shiny" /> and shiny scrolls, as these will be in demand later, if not already. If low on rubies, consider opening only 2 chests.
+
+## Portal
+
+This is a daily challenge fight that rewards <GameIconInline name="portal-icon" /> <GameIconInline name="hero-seal" /> <GameIconInline name="gear-seal" /> and scrolls. Failed fights do not consume tickets.
+
+Instead of using 15 tickets every day, follow this guide by Nick to have 25 tickets on the <GameIconInline name="hero-seal" /> farming day, each 4-day cycle:
+[Discord message link](https://discord.com/channels/927637622514401290/927665144622882877/989322353651642398)
+
+Early stage Portal does not offer as much <GameIconInline name="hero-seal" /> for <GameIconInline name="ruby" /> spent on tickets, so you may consider spending elsewhere.
+
+## King's Ruins
+
+This is a game mode where you fight 15 battles (resets daily) of increasing difficulty, to earn 2400 <GameIconInline name="ruin-icon" />, 2000<GameIconInline name="ruby" />, hero gear and other resources each day.
+
+The difficulty scales to your stage progression.
+
+The first castle heal is free. This can be used once a day for the "death trick" to make one fight easier/faster. It involves: (1) intentionally losing a tough fight by turning off auto-skills including <HeroInline name="Sophia" /> heals, (2) use the free heal to revive castle, then (3) re-enter the stage which will now only spawn half the original number of enemies.
+
+For difficult/slow fights, consider using sweep tokens (from Astrology) to skip battles against big mobs, and use the 10 free temporary buffs on unsweepable fights.
+
+At endgame, consider stopping progress at a stage that generates a fast KR combination to beat daily. After sweeps, the only 5 fights should ideally consist of 3 small mob stage and 2 big mob stages  (e.g. Stages 15300, 15315, 15352 and 15385). The Idle Kingdom Defense Helper can help identify such stages.
+
+## Conquest
+
+Each win in this mode increases your AFK accrual of <GameIconInline name="coin" /> <GameIconInline name="soulstone" /> <GameIconInline name="ascension-stone" />. The number of each forts roughly corresponds to the number of the Battlefield stage of the same difficulty.
+
+Spend <GameIconInline name="steel" /> sparingly to upgrade forts because it should primarily be spent on promoting Archer gear. If your gear cannot be promoted any further in the near future, consider upgrading some forts (prioritise <GameIconInline name="soulstone" />). At max lv10 upgrade, each fort has tripled income.
+
+Place higher ascended heroes in conquered castles for higher <GameIconInline name="coin" /><GameIconInline name="ascension-stone" /> income. Hero level is irrelevant.
+
+## Astrology
+
+Exchange the max amount of <GameIconInline name="ancient-coin" /> here daily (<GameIconInline name="ruby" /> for recharges optional) for more in-demand currencies. Astrology is also the only place to obtain King’s Ruins sweep tokens to skip fights.
+
+Any other excess currency such as <GameIconInline name="portal-icon" /> <GameIconInline name="expedition-icon" /> can also be exchanged, but do keep at least 500 of each scroll, and 2000 of <GameIconInline name="portal-icon" /> <GameIconInline name="expedition-icon" /> for shop purchases.
+
+## Sanctuary and Runes
+
+### Enhance
+
+Use <GameIconInline name="rune-seal" /> in Sanctuary to get rune pieces. Use these to upgrade <HeroInline name="Sophia" /> Attack runes as priority (to +9 or higher) because her heals are necessary to survive increasingly stronger enemies.
+
+Main DPS heroes should have max or high Attack and Crit Damage. <GameIconInline name="rune-seal" /> becomes plentiful as you progress in Total War.
+
+
+Runes other than Attack or Crit Damage only need to reach the minimum to unlock the next tier.
+
+While each rune maxes at +12, the success rate after +9 drops from 40% to 20%, making it expensive to push higher. It takes about 100 runes to reach +9, then a further approx 200 to reach +12.
+
+### Refine
+
+Use <GameIconInline name="magic-dust" /> to refine Attack and Crit Damage runes to A or S grade after they are high level.
+
+Otherwise each subsequent enhance reduces the current refine grade by 2% (eg low S can turn into high A). Other runes can be left untouched at C grade.
+
+Runes for Def Penetration, Accuracy and Crit Chance are unnecessary to max because heroes naturally have these at sufficient levels. Dismantle the bare minimum of these for <GameIconInline name="magic-dust" /> in case you need them to unlock runes on other heroes.
+
+## Total War and Artifacts
+
+With credits to Kingsley Cavion and Mysterion for tips and info.
+
+### General info
+
+In Total War, players raid boss stages to get stat-boosting artifacts. Each hero has stamina for one fight, and the recovery button restores all hero stamina. Losing or quitting a fight does not consume stamina. Higher rank increases daily recovery chances (max 10), inventory space (max 180) and artifacts per fight (max 3). Increase rank by reaching having more Total War fights and higher Battlefield stage.
+
+Sweep the previous step/castle once stage 10 of the current step is beaten. E.g. beating IV-10 lets you sweep III-10.
+
+Artifacts provide the following base stat gains to their equipping hero:
+-    Ring buffs Support Attack;
+-    Necklace buffs Warrior Attack;
+-    Key buffs Warrior Skill Damage;
+-    Orb buffs Support Skill Damage;
+-    Spellbook buffs Crit Damage.
+
+Each artifact can be upgraded by:
+-     Enhancing its level to increase base stat. Level exp is gained by consuming other artifacts of any type or tier; or
+-     Awakening, which sockets the artifact with up to four additional random skills.
+
+Each awakening consumes three artifacts of the identical type and tier.
+An artifact needs to be awakened every 3 levels in order to be levelled further. After all four sockets are filled, awakenings upgrade one of the sockets at random.
+
+Best awakening skills are:
+(DPS): Crit Damage (strongly recommended), Attack, Attack inc%
+(<HeroInline name="Sophia" />): Attack, Attack inc%, Def, Def inc%, HP, HP inc%
+
+Other possible awakening skills are immaterial: Crit Chance, Crit Resist, Crit Damage Reduce, Accuracy, Dodge, Def Penetration, and Ignore Def Penetration.
+
+### Strategy
+
+Push progress as far as possible to increase the highest stage that can be sweeped. Starting off, use the minimum number of heroes per fight (3 supports + 2 warriors) in order to have the max number of 6 fights per recovery. Roughly balance the strength of the teams (sample teams below). Increase team size when fights become too hard for slim teams. Heroes need weapon gear for accuracy (especially CC skills), and warriors need boots for dodge.
+
+Push progress on either Ring (for Support) or Necklace (for Warrior). Orb, Key and Spellbook provide less boost per level.
+
+Because upgrade costs stop increasing at level 9, it is efficient to powerlevel only one artifact for your best DPS hero. Ring or Necklace only is better than splitting resources on Spellbook. Splitting resources on second artifact Orb or Key is only worthwhile after a lot of investment (several hundred levels later).
+
+Each step has a range of four artifact tiers that can drop (e.g. Uncommon 1 to 4). Because drops are skewed towards the lower end, pick either the lowest or second-lowest tier for upgrading to have sufficient copies for awakening (e.g. Uncommon 1 or 2 of the previous example).
+
+Good awaken stats are rare. Awaken a bunch at lv3 to find one with a good first awakening before investing further. Crit damage is strongly recommended for DPS (Attack Inc% instead for Spellbook).
+
+Since any 3 support + 2 warriors can be used for sweep regardless of their levels/ascension, you can reserve your strongest heroes to continue pushing Total War progress for each recovery.
+.
+Sample early-stage push teams:
+1. <HeroInline name="Sophia" /> <HeroInline name="Logan" /> <HeroInline name="Ellie" /> | <HeroInline name="Miguel" /> <HeroInline name="Jackson" />
+2. <HeroInline name="Gabriel" /> <HeroInline name="Lucas" /> <HeroInline name="Aisha" /> | <HeroInline name="Raven" /> <HeroInline name="Diego" />
+3. <HeroInline name="Evan" /> <HeroInline name="Marcus" /> <HeroInline name="Adrian" /> | <HeroInline name="Hilde" /> <HeroInline name="Rodrick" /> <HeroInline name="Julian" />
+4. <HeroInline name="Mason" /> <HeroInline name="Xavier" /> <HeroInline name="Camilla" /> | <HeroInline name="Daniel" /> <HeroInline name="Brian" /> <HeroInline name="Blake" />
+5. <HeroInline name="Christian" /> <HeroInline name="Marian" /> <HeroInline name="Luke" /> <HeroInline name="Tristan" /> | <HeroInline name="Anthony" /> <HeroInline name="Vincent" />
+6. <HeroInline name="Austin" /> <HeroInline name="Harold" /> <HeroInline name="Carlos" /> | <HeroInline name="Leonidas" /> <HeroInline name="Ryan" /> <HeroInline name="Randolph" />
+
+Sample late-stage push team:
+- <HeroInline name="Sophia" /><HeroInline name="Christian" /><HeroInline name="Austin" /><HeroInline name="Marian" /><HeroInline name="Evan" /><HeroInline name="Luke" /><HeroInline name="Tristan" /><HeroInline name="Gabriel" /><HeroInline name="Harold" /><HeroInline name="Hilde" /><HeroInline name="Brian" /><HeroInline name="Vincent" /><HeroInline name="Julian" /><HeroInline name="Daniel" /><HeroInline name="Rodrick" />
+
+When fights last longer than 30 minutes, enemies get significant attack buffs from Berserk 3. To survive, reposition warriors to be able to aggro mobs from top to bottom, and manual CC skills to freeze mobs when they get within warrior aggro range. Berserk 3 can be survived if there are only 5 or fewer mobs left attacking castle.
