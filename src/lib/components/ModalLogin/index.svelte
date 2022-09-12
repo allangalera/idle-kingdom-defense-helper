@@ -23,7 +23,10 @@
     isSuccess = false;
     message = null;
     try {
-      const { error } = await supabaseClient.auth.signIn({ email });
+      const { error } = await supabaseClient.auth.signIn(
+        { email },
+        { redirectTo: window.location.origin }
+      );
       if (error) throw error;
       isSuccess = true;
       message = 'Check your email for the login link!';
