@@ -1,9 +1,7 @@
 <script lang="ts">
   import Portal from '$lib/components/Portal/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
   import { flip, offset, shift } from '@floating-ui/dom';
   import { createFloatingActions } from 'svelte-floating-ui';
-  import clickOutside from 'svelte-outside-click';
 
   import * as styles from './index.css';
 
@@ -17,21 +15,30 @@
   let showDropdown: boolean = false;
 
   const onClick = () => {
-    showDropdown = true;
+    showDropdown = !showDropdown;
   };
 
-  const onClickOutside = () => {
-    showDropdown = false;
+  let buttonRef;
+  let dropdownRef;
+
+  const onClickOutside = (e) => {
+    const withinBoundaries =
+      e.composedPath().includes(buttonRef) || e.composedPath().includes(dropdownRef);
+    if (!withinBoundaries) {
+      showDropdown = false;
+    }
   };
 </script>
 
-<span on:click={onClick} use:floatingRef use:clickOutside={onClickOutside}>
+<svelte:window on:click={onClickOutside} />
+
+<span bind:this={buttonRef} on:click={onClick} use:floatingRef>
   <slot />
 </span>
 
 {#if showDropdown}
   <Portal>
-    <div class={styles.container} use:floatingContent>
+    <div bind:this={dropdownRef} class={styles.container} use:floatingContent>
       <div class={styles.tooltip}>
         <slot name="tooltip-content" />
       </div>
