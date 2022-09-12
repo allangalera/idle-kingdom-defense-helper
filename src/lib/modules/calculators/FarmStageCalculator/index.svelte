@@ -14,6 +14,7 @@
   import { theme } from '$lib/styles/themes/index.css';
   import { convertGradeToStarLevel } from '$lib/utils';
   import { calculateStage, returnItemLevelDropFromStage } from '$lib/utils/stage';
+  import debounce from 'lodash.debounce';
   import { match } from 'oxide.ts';
   import * as R from 'remeda';
   import { onDestroy } from 'svelte';
@@ -102,41 +103,40 @@
     page = page + 1;
   }
 
-  function debounce(stageLevel, gear, enemies, currentPage) {
+  const updateResults = (stageLevel, gear, enemies, currentPage) => {
     const myEnemies = Array.from(enemies.values());
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      const pageKey = `page#${currentPage}`;
-      if (results[pageKey]) {
-        result = results[pageKey];
-        return;
-      }
-      let stageToCalculate = match(currentPage, [[1, stageLevel], () => latestStageSearched]);
+    const pageKey = `page#${currentPage}`;
+    if (results[pageKey]) {
+      result = results[pageKey];
+      return;
+    }
+    let stageToCalculate = match(currentPage, [[1, stageLevel], () => latestStageSearched]);
 
-      const { stages, latestStageSearched: lss } = calculateStage(
-        stageToCalculate,
-        gear,
-        myEnemies,
-        currentPage >= latestPage ? 'backward' : 'forward'
-      );
+    const { stages, latestStageSearched: lss } = calculateStage(
+      stageToCalculate,
+      gear,
+      myEnemies,
+      currentPage >= latestPage ? 'backward' : 'forward'
+    );
 
-      result = {
-        stages,
-        latestStageSearched: lss,
-        latestPage: currentPage,
-      };
-      results[pageKey] = result;
-      bestGearGrade = returnItemLevelDropFromStage(+stageLevel);
-      latestStageSearched = lss;
-      latestPage = currentPage;
-    }, 0);
-  }
+    result = {
+      stages,
+      latestStageSearched: lss,
+      latestPage: currentPage,
+    };
+    results[pageKey] = result;
+    bestGearGrade = returnItemLevelDropFromStage(+stageLevel);
+    latestStageSearched = lss;
+    latestPage = currentPage;
+  };
+
+  const updateResultsDebounced = debounce(updateResults, 300);
 
   $: bestArcherGearRarityAndLevel = convertGradeToStarLevel(R.pathOr(bestGearGrade, ['archer'], 1));
   $: bestHeroGearRarityAndLevel = convertGradeToStarLevel(R.pathOr(bestGearGrade, ['hero'], 1));
   $: gearsToFind = returnGearsToFind(gear);
   $: stageSelected = changeStageLevel(stageLevel);
-  $: debounce(stageSelected, gearsToFind, enemiesSelected, page);
+  $: updateResultsDebounced(stageSelected, gearsToFind, enemiesSelected, page);
   $: updateStage(+stageLevel);
 
   const unsubscribe = stage.subscribe((value) => {
