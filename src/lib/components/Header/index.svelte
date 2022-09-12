@@ -143,13 +143,15 @@
                 <Text color="white" textAlign="center">Login</Text>
               </Button>
             {/if}
-            <hr
-              class={sprinkles({
-                width: 'full',
-              })}
-            />
-            <Text>Latest change saved</Text>
-            <Text>{new Date($profilesStore?.selectedProfile?.updated_at).toLocaleString()}</Text>
+            {#if $session.user}
+              <hr
+                class={sprinkles({
+                  width: 'full',
+                })}
+              />
+              <Text>Latest change saved</Text>
+              <Text>{new Date($profilesStore?.selectedProfile?.updated_at).toLocaleString()}</Text>
+            {/if}
           </div>
         </svelte:fragment>
       </Dropdown>
