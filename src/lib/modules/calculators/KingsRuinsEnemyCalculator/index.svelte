@@ -22,7 +22,8 @@
   let enemyPattern = [];
 
   const updateEnemyPattern = () => {
-    enemyPattern = getEnemyPattern(+stageLevel);
+    let stageLevelAsNumber = +stageLevel;
+    if (stageLevelAsNumber) enemyPattern = getEnemyPattern(stageLevelAsNumber);
   };
 
   const onAddStageLevel = () => {
@@ -39,8 +40,12 @@
     });
   };
 
-  $: stageLevel && updateEnemyPattern();
-  $: stageLevel && updateStore();
+  const update = () => {
+    updateEnemyPattern();
+    updateStore();
+  };
+
+  $: stageLevel && update();
 </script>
 
 <div class={styles.container}>
