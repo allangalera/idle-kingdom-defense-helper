@@ -78,6 +78,7 @@ export const root = createGlobalTheme(':root', {
     ...space,
     max: 'max-content',
     min: 'min-content',
+    unset: 'unset',
     full: '100%',
     '3xs': '14rem',
     '2xs': '16rem',

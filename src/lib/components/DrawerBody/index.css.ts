@@ -37,9 +37,9 @@ export const headerCloseIcon = style({
 });
 
 export const content = style({
-  padding: theme.space[4],
   flex: 1,
 });
+
 export const footer = style({
   padding: theme.space[4],
   display: 'flex',

@@ -144,12 +144,12 @@
       {#each hero.skills as skill, i (skill.name)}
         <div class={styles.skillMinimal}>
           <Tooltip>
-            <slot slot="tooltip-content">
+            <svelte:fragment slot="tooltip-content">
               <Heading textAlign="center">{formatSkillName(skill.name)}</Heading>
               <Text textAlign="center"
                 >{formatSkillDescription(skill, i, hero.grade ?? hero.baseGrade, hero)}</Text
               >
-            </slot>
+            </svelte:fragment>
             <img
               loading="lazy"
               class={styles.skillImage}

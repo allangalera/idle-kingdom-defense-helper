@@ -31,7 +31,7 @@
     <div class={styles.heroStat}>
       <Text>{returnAttributeName(attr)}:</Text>
       <Tooltip>
-        <slot slot="tooltip-content">
+        <svelte:fragment slot="tooltip-content">
           <table>
             <tr>
               <td><Text textAlign="center">base</Text></td>
@@ -76,7 +76,7 @@
               </td>
             </tr>
           </table>
-        </slot>
+        </svelte:fragment>
         <Text>{heroStats[attr].toLocaleString()}</Text>
       </Tooltip>
     </div>
