@@ -1,5 +1,6 @@
 <script lang="ts">
   import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
 
   import * as styles from './index.css';
 
@@ -7,6 +8,7 @@
   export let disabled = false;
   export let variant: 'primary' | 'secondary' | 'danger' | 'success' | 'logic' = 'primary';
   export let ref = null;
+  export let width: Sprinkles['width'] = 'unset';
 
   const backgroundColors = {
     primary: {
@@ -79,6 +81,7 @@
       cursor: disabled ? 'not-allowed' : 'pointer',
       opacity: disabled ? 0.5 : 1,
       padding: variant === 'logic' ? 'none' : 2,
+      width,
     }),
   ].join(' ')}
   {type}

@@ -5,11 +5,13 @@
   import Heading from '$lib/components/Heading/index.svelte';
   import Toggle from '$lib/components/Toggle/index.svelte';
   import Icon from 'svelte-icons-pack/Icon.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import ModalLogin from '$lib/components/ModalLogin/index.svelte';
   import ModalAddProfile from '$lib/components/ModalAddProfile/index.svelte';
   import Button from '$lib/components/Button/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import Dropdown from '$lib/components/Dropdown/index.svelte';
+  import { user } from '$lib/shared/stores/user/index';
   import FiMoon from 'svelte-icons-pack/fi/FiMoon';
   import FiSun from 'svelte-icons-pack/fi/FiSun';
   import RiUserUserSettingsLine from 'svelte-icons-pack/ri/RiUserUserSettingsLine';
@@ -25,6 +27,7 @@
   let checked = false;
   let isModalLoginOpen = false;
   let isModalAddProfileOpen = false;
+  let isSaveOnCooldown = false;
 
   function onChange(e) {
     // checked = e.target.checked;
@@ -59,6 +62,25 @@
 
   const onCloseModalAddProfile = () => {
     isModalAddProfileOpen = false;
+  };
+
+  const updateUserData = async () => {
+    const { id } = $profilesStore?.selectedProfile;
+    if (!id) return;
+    isSaveOnCooldown = true;
+    try {
+      const { data } = await supabaseClient
+        .from('profiles')
+        .update({ encoded_data: $user, updated_at: new Date().toISOString() })
+        .eq('id', id)
+        .single();
+      updateSelectedProfile(data);
+    } catch (error) {
+    } finally {
+      setTimeout(() => {
+        isSaveOnCooldown = false;
+      }, 30 * 1000);
+    }
   };
 
   const onLogout = () => {
@@ -151,6 +173,14 @@
               />
               <Text>Latest change saved</Text>
               <Text>{new Date($profilesStore?.selectedProfile?.updated_at).toLocaleString()}</Text>
+              <Tooltip>
+                <Button on:click={updateUserData} width="full" disabled={isSaveOnCooldown}>
+                  <Text color="white" textAlign="center">Save data</Text>
+                </Button>
+                <svelte:fragment slot="tooltip-content">
+                  <Text>You can only save every 30 seconds</Text>
+                </svelte:fragment>
+              </Tooltip>
             {/if}
           </div>
         </svelte:fragment>
