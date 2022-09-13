@@ -48,10 +48,10 @@
           <Text>{item.rewardBox}</Text>
         </div>
         <div class={tableStyles.tableItem}>
-          <Text>{item.upgradeStageLv}</Text>
+          <Text>{totalwarRanks[row - 1]?.upgradeStageLv ?? '-'}</Text>
         </div>
         <div class={tableStyles.tableItem}>
-          <Text>{item.upgradeWinning}</Text>
+          <Text>{totalwarRanks[row - 1]?.upgradeWinning ?? '-'}</Text>
         </div>
       </div>
     {/each}
