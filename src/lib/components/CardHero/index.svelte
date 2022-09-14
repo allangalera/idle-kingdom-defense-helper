@@ -1,5 +1,6 @@
 <script lang="ts">
   import CardBorder from '$lib/components/CardBorder/index.svelte';
+  import HeroInline from '$lib/components/HeroInline/index.svelte';
   import { UnitTypeToHeroType } from '$lib/enums';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { convertGradeToStarLevel } from '$lib/utils';
@@ -35,11 +36,12 @@
   level={heroGrade.level}
 >
   <div class={styles.wrapper}>
-    <img
+    <HeroInline name={hero.name} size="full" />
+    <!-- <img
       loading="lazy"
       class={styles.img}
       src={`/images/heroes/${hero.name}.png`}
       alt="Helmet Gear"
-    />
+    /> -->
   </div></CardBorder
 >

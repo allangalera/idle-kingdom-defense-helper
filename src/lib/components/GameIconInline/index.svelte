@@ -7,7 +7,7 @@
   import * as styles from './index.css';
 
   export let name;
-  export let size: Sprinkles['width'] = 7;
+  export let size: Sprinkles['size'] = 7;
 
   let imgInfo = match(name, [
     ['coin', { src: '/images/icons/iconGold.png', alt: 'Gold Coin Icon' }],
@@ -73,8 +73,7 @@
   class={concatClasses(
     styles.img,
     sprinkles({
-      width: size,
-      height: 'auto',
+      size,
     })
   )}
 />
