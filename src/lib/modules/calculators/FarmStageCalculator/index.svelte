@@ -24,7 +24,6 @@
 
   import * as styles from './index.css';
 
-  let timer;
   let stageLevel = $stage?.stage?.toString() ?? '1';
   let results = {};
   let result = {

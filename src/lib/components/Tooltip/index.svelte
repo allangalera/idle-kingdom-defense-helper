@@ -1,7 +1,7 @@
 <script lang="ts">
   import Portal from '$lib/components/Portal/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
-  import { autoPlacement, flip, offset, shift } from '@floating-ui/dom';
+  import { flip, offset, shift } from '@floating-ui/dom';
   import { arrow, createFloatingActions } from 'svelte-floating-ui';
   import { writable } from 'svelte/store';
 
@@ -43,7 +43,7 @@
     },
   });
 
-  let showTooltip: boolean = false;
+  let showTooltip = false;
 
   const onShow = () => {
     showTooltip = true;

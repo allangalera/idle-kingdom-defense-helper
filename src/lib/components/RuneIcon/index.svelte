@@ -2,7 +2,7 @@
   import Text from '$lib/components/Text/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
-  import { convertGradeToRarityAndLevel, isRuneAvailable } from '$lib/utils/hero';
+  import { convertGradeToRarityAndLevel } from '$lib/utils/hero';
 
   import * as styles from './styles.css';
 

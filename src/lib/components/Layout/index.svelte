@@ -45,7 +45,9 @@
             user_id: $session.user.id,
           },
         ]);
-      } catch (error) {}
+      } catch (error) {
+        // error
+      }
     } else {
       let selectedProfile = profiles[0];
 

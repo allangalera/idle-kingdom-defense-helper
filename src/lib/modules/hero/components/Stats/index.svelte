@@ -1,9 +1,10 @@
 <script lang="ts">
   import GridItem from '$lib/components/GridItem/index.svelte';
-  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import { Attributes } from '$lib/enums';
-  import { returnAttributeName, type HeroStats } from '$lib/utils/hero';
+  import { returnAttributeName } from '$lib/utils/hero';
+  import type { HeroStats } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 

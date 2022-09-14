@@ -12,7 +12,7 @@
     autoUpdate: true,
   });
 
-  let showDropdown: boolean = false;
+  let showDropdown = false;
 
   const onClick = () => {
     showDropdown = !showDropdown;

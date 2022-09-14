@@ -1,6 +1,5 @@
 <script lang="ts">
   import Heading from '$lib/components/Heading/index.svelte';
-  import Text from '$lib/components/Text/index.svelte';
   import { stagesByLegion } from '$lib/db/portal';
   import LegionTable from '$lib/modules/portal/LegionTable/index.svelte';
 

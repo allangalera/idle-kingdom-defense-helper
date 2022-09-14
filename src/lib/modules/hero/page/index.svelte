@@ -10,7 +10,8 @@
   import Skills from '$lib/modules/hero/components/Skills/index.svelte';
   import Stats from '$lib/modules/hero/components/Stats/index.svelte';
   import { heroes as heroesStore, removeHero } from '$lib/shared/stores/user/heroes';
-  import { calculateHeroStats, type HeroStats } from '$lib/utils/hero';
+  import { calculateHeroStats } from '$lib/utils/hero';
+  import type { HeroStats } from '$lib/utils/hero';
   import * as R from 'remeda';
 
   import * as styles from './index.css';

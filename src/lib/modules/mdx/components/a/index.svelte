@@ -11,7 +11,9 @@
       if (urlData.host !== window.location.host) {
         target = '_blank';
       }
-    } catch (err) {}
+    } catch (err) {
+      // error
+    }
   };
 
   $: href && getTargetValue();

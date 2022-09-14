@@ -56,9 +56,9 @@
     isModalLoginOpen = false;
   };
 
-  const onOpenModalAddProfile = () => {
-    isModalAddProfileOpen = true;
-  };
+  // const onOpenModalAddProfile = () => {
+  //   isModalAddProfileOpen = true;
+  // };
 
   const onCloseModalAddProfile = () => {
     isModalAddProfileOpen = false;
@@ -76,6 +76,7 @@
         .single();
       updateSelectedProfile(data);
     } catch (error) {
+      // error
     } finally {
       setTimeout(() => {
         isSaveOnCooldown = false;
@@ -89,7 +90,7 @@
     goto('/api/auth/logout');
   };
 
-  supabaseClient.auth.onAuthStateChange((event, session) => {
+  supabaseClient.auth.onAuthStateChange((event) => {
     if (event === 'SIGNED_OUT') onLogout();
   });
 

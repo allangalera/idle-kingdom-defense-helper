@@ -6,7 +6,8 @@
   import Portal from '$lib/components/Portal/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
-  import { supabaseClient } from '$lib/supabaseClient';
+
+  // import { supabaseClient } from '$lib/supabaseClient';
 
   export let open = false;
   export let onClose: () => void;
@@ -15,7 +16,7 @@
   let isError = false;
   let isSuccess = false;
   let message = null;
-  let token;
+  // let token;
   let name;
 
   const onSubmit = async () => {

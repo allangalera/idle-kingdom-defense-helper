@@ -206,7 +206,7 @@ export type HeroStats = HeroStatsAttributes & {
     equip: Partial<HeroStatsAttributes>;
     skill: Partial<HeroStatsAttributes>;
     runes: Partial<HeroStatsAttributes>;
-    equipSet: any;
+    equipSet: Partial<HeroStatsAttributes>;
   };
 };
 
