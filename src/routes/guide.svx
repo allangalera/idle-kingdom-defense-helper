@@ -143,7 +143,7 @@ Use <GameIconInline name="hero-seal" /> for hero Ultra Summons always.
 
 Use <GameIconInline name="gear-seal" /> for gear Ultra Summons only when progress stalled, since better gear becomes available later.
 
-Discard shards of <HeroInline name="Ellie" /> <HeroInline name="Logan" /> <HeroInline name="Miguel" /> <HeroInline name="Marcus" /> <HeroInline name="Jackson" /> <HeroInline name="Carlos" /> for <GameIconInline name="AncientCoin" /> after you have unlocked them.
+Discard shards of <HeroInline name="Ellie" /> <HeroInline name="Logan" /> <HeroInline name="Miguel" /> <HeroInline name="Marcus" /> <HeroInline name="Jackson" /> <HeroInline name="Carlos" /> for <GameIconInline name="ancient-coin" /> after you have unlocked them.
 
 Purchase <HeroInline name="Brian" /> <HeroInline name="Luke" /> <HeroInline name="Tristan" /> <HeroInline name="Evan" /> and S-tier with <GameIconInline name="ancient-coin" />.
 
