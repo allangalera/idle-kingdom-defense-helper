@@ -1,9 +1,13 @@
-<script>
+<script lang="ts">
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import type { Sprinkles } from '$lib/styles/sprinkles.css';
+  import { concatClasses } from '$lib/styles/utils';
   import { match } from 'oxide.ts';
 
   import * as styles from './index.css';
 
   export let name;
+  export let size: Sprinkles['width'] = 7;
 
   let imgInfo = match(name, [
     ['coin', { src: '/images/icons/iconGold.png', alt: 'Gold Coin Icon' }],
@@ -62,4 +66,15 @@
   ]);
 </script>
 
-<img loading="lazy" src={imgInfo.src} alt={imgInfo.alt} class={styles.img} />
+<img
+  loading="lazy"
+  src={imgInfo.src}
+  alt={imgInfo.alt}
+  class={concatClasses(
+    styles.img,
+    sprinkles({
+      width: size,
+      height: 'auto',
+    })
+  )}
+/>

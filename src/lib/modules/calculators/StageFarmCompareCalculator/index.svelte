@@ -1,5 +1,6 @@
 <script lang="ts">
   import Button from '$lib/components/Button/index.svelte';
+  import GameIconInline from '$lib/components/GameIconInline/index.svelte';
   import Heading from '$lib/components/Heading/index.svelte';
   import Input from '$lib/components/Input/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
@@ -161,71 +162,51 @@
       <Heading textAlign="center">Time To Finish</Heading>
     </div>
     <div class={styles.tableHeader}>
-      <img
-        class={styles.icon}
-        src="images/icons/iconEvolveStone.png"
-        alt="Ascension Stone Icon"
-      /><Heading textAlign="center">/h</Heading>
+      <GameIconInline name="ascension-stone" size={6} /><Heading textAlign="center">/h</Heading>
     </div>
     <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconSoul.png" alt="Soulstone Icon" /><Heading
-        textAlign="center">/h</Heading
+      <GameIconInline name="soulstone" size={6} /><Heading textAlign="center">/h</Heading>
+    </div>
+    <div class={styles.tableHeader}>
+      <GameIconInline name="rune-seal" size={6} /><Heading textAlign="center">/h</Heading>
+    </div>
+    <div class={styles.tableHeader}>
+      <GameIconInline name="hero-seal" size={6} /><Heading textAlign="center">/h</Heading>
+    </div>
+    <div class={styles.tableHeader}>
+      <GameIconInline name="gear-seal" size={6} /><Heading textAlign="center">/h</Heading>
+    </div>
+    <div class={styles.tableHeader}>
+      <GameIconInline name="coin" size={6} /><Heading textAlign="center">/h</Heading>
+    </div>
+    <div class={styles.tableHeader}>
+      <GameIconInline name="ascension-stone" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div class={styles.tableHeader}>
-      <img
-        class={styles.icon}
-        src="images/icons/iconScrollSanctuary.png"
-        alt="Hero Seal Icon"
-      /><Heading textAlign="center">/h</Heading>
-    </div>
-    <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconScrollHero.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/h</Heading
+      <GameIconInline name="soulstone" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconScrollRune.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/h</Heading
+      <GameIconInline name="rune-seal" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconGold.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/h</Heading
+      <GameIconInline name="hero-seal" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div class={styles.tableHeader}>
-      <img
-        class={styles.icon}
-        src="images/icons/iconEvolveStone.png"
-        alt="Ascension Stone Icon"
-      /><Heading textAlign="center">/{totalTimeFarmingInHours}h</Heading>
-    </div>
-    <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconSoul.png" alt="Ascension Stone Icon" /><Heading
-        textAlign="center">/{totalTimeFarmingInHours}h</Heading
+      <GameIconInline name="gear-seal" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div class={styles.tableHeader}>
-      <img
-        class={styles.icon}
-        src="images/icons/iconScrollSanctuary.png"
-        alt="Hero Seal Icon"
-      /><Heading textAlign="center">/{totalTimeFarmingInHours}h</Heading>
-    </div>
-    <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconScrollHero.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/{totalTimeFarmingInHours}h</Heading
-      >
-    </div>
-    <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconScrollRune.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/{totalTimeFarmingInHours}h</Heading
-      >
-    </div>
-    <div class={styles.tableHeader}>
-      <img class={styles.icon} src="images/icons/iconGold.png" alt="Hero Seal Icon" /><Heading
-        textAlign="center">/{totalTimeFarmingInHours}h</Heading
+      <GameIconInline name="coin" size={6} /><Heading textAlign="center"
+        >/{totalTimeFarmingInHours}h</Heading
       >
     </div>
     <div />
