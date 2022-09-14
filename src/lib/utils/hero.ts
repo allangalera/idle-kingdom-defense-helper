@@ -119,6 +119,8 @@ const returnSetStats = (heroGears: HeroGears) => {
 
   const gearAttr = returnGearAttributesByGrade(heroGears.weapon);
 
+  if (!gearAttr) return {};
+
   return {
     [returnRuneAttribute(gearAttr.setEffectType1)]: gearAttr.setEffectValue1,
     [returnRuneAttribute(gearAttr.setEffectType2)]: gearAttr.setEffectValue2,
