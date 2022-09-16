@@ -1,8 +1,10 @@
 <script lang="ts">
   import Button from '$lib/components/Button/index.svelte';
+  import CardArtifact from '$lib/components/CardArtifact/index.svelte';
   import CardBorder from '$lib/components/CardBorder/index.svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
   import GridItem from '$lib/components/GridItem/index.svelte';
+  import ModalEditArtifactHeroEquip from '$lib/components/ModalEditArtifactHeroEquip/index.svelte';
   import ModalEditHeroEquip from '$lib/components/ModalEditHeroEquip/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { HeroGearEquip } from '$lib/enums';
@@ -15,12 +17,20 @@
   export let heroUserData;
 
   let isModalOpen = false;
+  let isModalArtifactOpen = false;
   let selectedGearType;
+  let selectedArtifactSlot;
 
   const openModal = (gearType) => {
     if (!heroUserData) return false;
     selectedGearType = gearType;
     isModalOpen = true;
+  };
+
+  const openArtifactModal = (slot) => {
+    if (!heroUserData) return false;
+    selectedArtifactSlot = slot;
+    isModalArtifactOpen = true;
   };
 </script>
 
@@ -90,6 +100,26 @@
         {/if}
       </Button>
     </div>
+    <div class={styles.itemContainer}>
+      <Text textAlign="center">Artifact Left Slot</Text>
+      <Button variant="logic" on:click={() => openArtifactModal('left')}>
+        {#if heroUserData?.artifacts?.left}
+          <CardArtifact artifactData={heroUserData.artifacts.left} />
+        {:else}
+          <CardBorder />
+        {/if}
+      </Button>
+    </div>
+    <div class={styles.itemContainer}>
+      <Text textAlign="center">Artifact Right Slot</Text>
+      <Button variant="logic" on:click={() => openArtifactModal('right')}>
+        {#if heroUserData?.artifacts?.right}
+          <CardArtifact artifactData={heroUserData.artifacts.right} />
+        {:else}
+          <CardBorder />
+        {/if}
+      </Button>
+    </div>
   </div>
 </GridItem>
 
@@ -101,4 +131,14 @@
   gearType={selectedGearType}
   {hero}
   userHero={heroUserData}
+/>
+
+<ModalEditArtifactHeroEquip
+  open={isModalArtifactOpen}
+  onClose={() => {
+    isModalArtifactOpen = false;
+  }}
+  {hero}
+  userHero={heroUserData}
+  artifactSlot={selectedArtifactSlot}
 />

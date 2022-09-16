@@ -3,6 +3,7 @@ import type { HeroType } from '$lib/db/heroes';
 import { runes, runesMap } from '$lib/db/runes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
 import type { HeroGearEquipTypes } from '$lib/enums';
+import langJSON from '$lib/gameInfo/lang.json';
 import { returnRuneAttribute } from '$lib/utils/runes';
 import { match } from 'oxide.ts';
 import * as R from 'remeda';
@@ -598,4 +599,8 @@ export const getRarityFromGrade = (grade: number) => {
     [(n) => n <= 5, 5],
     () => 6,
   ]);
+};
+
+export const returnRarityName = (rarity) => {
+  return langJSON[`RARITY_NAME_${rarity}`] ?? 'none';
 };

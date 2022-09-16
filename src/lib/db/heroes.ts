@@ -26,6 +26,10 @@ export type UserHero = {
   id: number;
   level?: number;
   grade?: number;
+  artifacts?: {
+    left?: any;
+    right?: any;
+  };
   equip?: {
     [HeroGearEquipOptions.weapon]?: number | null;
     [HeroGearEquipOptions.helmet]?: number | null;

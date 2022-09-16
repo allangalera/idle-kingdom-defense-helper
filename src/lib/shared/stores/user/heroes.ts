@@ -81,6 +81,35 @@ export const removeHero = (id: number) => {
   return true;
 };
 
+export const addOrUpdateHeroArtifact = (heroId: number, slot: 'left' | 'right', artifact: any) => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.artifacts) hero.artifacts = {};
+        hero.artifacts[slot] = artifact;
+      }
+      return hero;
+    });
+    return R.merge(currentData, {
+      heroes: newHeroes,
+    });
+  });
+};
+
+export const removeHeroArtifact = (heroId: number, slot: 'left' | 'right') => {
+  heroes.update((currentData) => {
+    const newHeroes = currentData.heroes.map((hero) => {
+      if (heroId === hero.id) {
+        if (!hero.artifacts) hero.artifacts = {};
+        hero.artifacts[slot] = null;
+      }
+      return hero;
+    });
+    return R.merge(currentData, {
+      heroes: newHeroes,
+    });
+  });
+};
 export const addOrUpdateHeroGear = (
   heroId: number,
   gearType: HeroGearEquipTypes,

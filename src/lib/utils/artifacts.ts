@@ -25,11 +25,13 @@ export const calculateArtifactStats = ({
   if (!thisArtifactData) return;
 
   return {
+    type: type,
     name: returnAbilityName(artifactConst.ABILITY[type - 1] as Abilities),
     value: thisArtifactData.abilityBase + level * thisArtifactData.abilityInc,
     abilities: {
       1: {
         name: returnAbilityName(abilities[1].type),
+        type: abilities[1].type,
         value: abilities[1].level
           ? thisArtifactData[`awakenBase_${abilities[1].type}`] +
             (abilities[1].level - 1) * thisArtifactData[`awakenInc_${abilities[1].type}`]
@@ -37,6 +39,7 @@ export const calculateArtifactStats = ({
       },
       2: {
         name: returnAbilityName(abilities[2].type),
+        type: abilities[2].type,
         value: abilities[2].level
           ? thisArtifactData[`awakenBase_${abilities[2].type}`] +
             (abilities[2].level - 1) * thisArtifactData[`awakenInc_${abilities[2].type}`]
@@ -44,6 +47,7 @@ export const calculateArtifactStats = ({
       },
       3: {
         name: returnAbilityName(abilities[3].type),
+        type: abilities[3].type,
         value: abilities[3].level
           ? thisArtifactData[`awakenBase_${abilities[3].type}`] +
             (abilities[3].level - 1) * thisArtifactData[`awakenInc_${abilities[3].type}`]
@@ -51,6 +55,7 @@ export const calculateArtifactStats = ({
       },
       4: {
         name: returnAbilityName(abilities[4].type),
+        type: abilities[4].type,
         value: abilities[4].level
           ? thisArtifactData[`awakenBase_${abilities[4].type}`] +
             (abilities[4].level - 1) * thisArtifactData[`awakenInc_${abilities[4].type}`]

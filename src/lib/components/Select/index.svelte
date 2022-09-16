@@ -16,10 +16,9 @@
     display: 'flex',
     flexDirection: 'column',
     gap: 2,
-    textAlign,
   })}
 >
-  <Text>{label}</Text>
+  <Text {textAlign}>{label}</Text>
   <select class={styles.container} bind:value>
     {#each options as item}
       <option class={styles.option} value={item.value}>{item.name}</option>
