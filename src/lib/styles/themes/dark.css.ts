@@ -2,6 +2,7 @@ import {
   amberDark,
   blueDark,
   brownDark,
+  gray,
   grayDark,
   grayDarkA,
   greenDark,
@@ -31,11 +32,11 @@ export const darkTheme = createTheme(themeColors, {
     ...purpleDark,
   },
   text: {
-    default: '#ffffff',
+    default: grayDark.gray12,
     contrast: '#151515',
   },
   background: {
-    default: '#0D0D0D',
+    default: grayDark.gray1,
     contrast: '#c2c2c2',
   },
   header: {
