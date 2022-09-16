@@ -1,9 +1,7 @@
 <script lang="ts">
-  import Button from '$lib/components/Button/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
-  import { concatClasses } from '$lib/styles/utils';
 
   import * as styles from './index.css';
 
