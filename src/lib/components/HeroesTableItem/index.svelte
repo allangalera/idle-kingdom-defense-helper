@@ -114,14 +114,14 @@
       </div>
     </div>
     <div class={styles.actions}>
+      <a href={`/heroes/${hero.name.toLowerCase()}`} class={styles.actionButtonVariant.primary}>
+        <Icon
+          className={styles.buttonIcons}
+          src={RiSystemInformationFill}
+          color={theme.colors.white}
+        />
+      </a>
       {#if hero.level}
-        <a href={`/heroes/${hero.name.toLowerCase()}`} class={styles.actionButtonVariant.primary}>
-          <Icon
-            className={styles.buttonIcons}
-            src={RiSystemInformationFill}
-            color={theme.colors.white}
-          />
-        </a>
         <div class={styles.actionButtonVariant.primary} role="button" on:click={openAddModal}>
           <Icon className={styles.buttonIcons} src={RiDesignEdit2Fill} color={theme.colors.white} />
         </div>
