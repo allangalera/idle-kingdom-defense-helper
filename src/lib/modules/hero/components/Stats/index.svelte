@@ -43,6 +43,8 @@
               <td />
               <td><Text textAlign="center">runes</Text></td>
               <td />
+              <td><Text textAlign="center">artifacts</Text></td>
+              <td />
               <td><Text textAlign="center">set bonus</Text></td>
             </tr>
             <tr>
@@ -67,6 +69,12 @@
               <td>
                 <Text textAlign="center">
                   {heroStats.composedStats.runes[attr]?.toLocaleString() ?? 0}
+                </Text>
+              </td>
+              <td><Text textAlign="center">+</Text></td>
+              <td>
+                <Text textAlign="center">
+                  {heroStats.composedStats.artifacts[attr]?.toLocaleString() ?? 0}
                 </Text>
               </td>
               <td><Text textAlign="center">+</Text></td>

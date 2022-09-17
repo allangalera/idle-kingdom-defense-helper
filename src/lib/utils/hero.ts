@@ -375,7 +375,7 @@ export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
     return (heroStats[key] += value);
   });
 
-  heroStats.composedStats.artifacts = artifactStats;
+  heroStats.composedStats.artifacts = finalArtifactStats;
 
   // apply set stats if available
   // TODO: set can also be incomplete
