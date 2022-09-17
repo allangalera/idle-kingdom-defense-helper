@@ -1,4 +1,5 @@
-import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost } from '$lib/db/heroes';
+import { abilitiesIdsAllowed, artifactConst, artifacts } from '$lib/db/artifacts';
+import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost, heroes } from '$lib/db/heroes';
 import type { HeroType } from '$lib/db/heroes';
 import { runes, runesMap } from '$lib/db/runes';
 import { Attributes, HeroGearEquipOptions } from '$lib/enums';
@@ -8,6 +9,9 @@ import { returnRuneAttribute } from '$lib/utils/runes';
 import { match } from 'oxide.ts';
 import * as R from 'remeda';
 import { z } from 'zod';
+
+import { returnAbilityAttributeName } from './abilities';
+import { calculateArtifactStats } from './artifacts';
 
 const getCurrentLevelUpCostData = (level: number) => {
   let currentLvCost = heroLvCost[0];
@@ -183,6 +187,42 @@ export const isRuneAvailable = (runeId: number, heroUserData): boolean => {
   return true;
 };
 
+const returnArtifactStats = (heroUserData) => {
+  let stats: Partial<EffectToStats> = {};
+
+  if (!heroUserData) return stats;
+
+  const heroArtifacts = heroUserData.artifacts;
+
+  if (!heroArtifacts) return stats;
+
+  for (const slot of Object.keys(heroArtifacts)) {
+    const artifact = heroArtifacts[slot];
+
+    if (!artifact) continue;
+
+    const artifactStats = calculateArtifactStats({ ...artifact, level: artifact.enhancementLevel });
+
+    const attrKey = returnAbilityAttributeName(artifactStats.abilityType);
+
+    stats = R.merge(stats, {
+      [attrKey]: (stats[attrKey] ?? 0) + artifactStats?.value,
+    });
+
+    for (const abilityIndex of Object.keys(artifactStats.abilities)) {
+      const ability = artifactStats.abilities[abilityIndex];
+
+      const attrKey = returnAbilityAttributeName(ability.type);
+
+      stats = R.merge(stats, {
+        [attrKey]: (stats[attrKey] ?? 0) + ability?.value,
+      });
+    }
+  }
+
+  return stats;
+};
+
 type HeroStatsAttributes = Pick<
   HeroType,
   | 'atk'
@@ -210,6 +250,7 @@ export type HeroStats = HeroStatsAttributes & {
     skill: Partial<HeroStatsAttributes>;
     runes: Partial<HeroStatsAttributes>;
     equipSet: Partial<HeroStatsAttributes>;
+    artifacts: Partial<HeroStatsAttributes>;
   };
 };
 
@@ -240,6 +281,7 @@ export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
       skill: {},
       runes: {},
       equipSet: {},
+      artifacts: {},
     },
   };
   const currentLevel = heroUserData?.level ?? 1;
@@ -289,6 +331,51 @@ export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
   });
 
   heroStats.composedStats.runes = runesStats;
+
+  // apply artifact stats if available
+  const artifactStats = returnArtifactStats(heroUserData);
+  const finalArtifactStats: Partial<EffectToStats> = {};
+
+  R.mapKeys(artifactStats, (key, value) => {
+    if ([Attributes.warriorSkillDmg, Attributes.supporterSkillDmg].some((attr) => attr === key)) {
+      return null;
+    }
+
+    if ([Attributes.atkSpeed, Attributes.moveSpeed].some((attr) => attr === key)) {
+      finalArtifactStats[key] = (finalArtifactStats[key] ?? 0) * 1 + value;
+      return;
+    }
+
+    if ([Attributes.atkP, Attributes.defP, Attributes.hpP].some((attr) => attr === key)) {
+      const tmpKey = key.replace('%', '');
+      const tmpValue = value / 1000;
+      finalArtifactStats[tmpKey] = (finalArtifactStats[tmpKey] ?? 0) + heroStats[tmpKey] * tmpValue;
+      return;
+    }
+
+    if (key === Attributes.supporterAtk && hero.unitType === 1) {
+      const tmpValue = value / 1000;
+      finalArtifactStats[Attributes.atk] =
+        (finalArtifactStats[Attributes.atk] ?? 0) + heroStats[Attributes.atk] * tmpValue;
+      return;
+    }
+
+    if (key === Attributes.warriorAtk && hero.unitType === 2) {
+      const tmpValue = value / 1000;
+      finalArtifactStats[Attributes.atk] =
+        (finalArtifactStats[Attributes.atk] ?? 0) + heroStats[Attributes.atk] * tmpValue;
+      return;
+    }
+
+    finalArtifactStats[key] = (finalArtifactStats[key] ?? 0) + value;
+    return;
+  });
+
+  R.mapKeys(finalArtifactStats, (key, value) => {
+    return (heroStats[key] += value);
+  });
+
+  heroStats.composedStats.artifacts = artifactStats;
 
   // apply set stats if available
   // TODO: set can also be incomplete

@@ -27,6 +27,7 @@ export const calculateArtifactStats = ({
   return {
     type: type,
     name: returnAbilityName(artifactConst.ABILITY[type - 1] as Abilities),
+    abilityType: artifactConst.ABILITY[type - 1] as Abilities,
     value: thisArtifactData.abilityBase + level * thisArtifactData.abilityInc,
     abilities: {
       1: {

@@ -1,4 +1,6 @@
+import { Attributes } from '$lib/enums';
 import langJSON from '$lib/gameInfo/lang.json';
+import { match } from 'oxide.ts';
 
 export const AbilitiesTypes = {
   CRIREGIST: 7,
@@ -42,3 +44,29 @@ type AbilitiesKeys = keyof typeof AbilitiesTypes;
 export type Abilities = typeof AbilitiesTypes[AbilitiesKeys];
 
 export const returnAbilityName = (id: Abilities) => langJSON[`ABILITY_NAME_${id}`];
+
+export const returnAbilityAttributeName = (id: Abilities) => {
+  return match(id, [
+    [1, Attributes.atkSpeed],
+    [2, Attributes.atk],
+    [3, Attributes.def],
+    [4, Attributes.defPierce],
+    [5, Attributes.moveSpeed],
+    [6, Attributes.cri],
+    [7, Attributes.criResist],
+    [8, Attributes.criDamage],
+    [9, Attributes.hit],
+    [10, Attributes.dodge],
+    [11, Attributes.hp],
+    [12, Attributes.criDamageResist],
+    [13, Attributes.defPierceResist],
+    [14, Attributes.supporterAtk],
+    [15, Attributes.warriorAtk],
+    [16, Attributes.supporterSkillDmg],
+    [17, Attributes.warriorSkillDmg],
+    [33, Attributes.atkP],
+    [32, Attributes.hpP],
+    [34, Attributes.defP],
+    () => '',
+  ]);
+};

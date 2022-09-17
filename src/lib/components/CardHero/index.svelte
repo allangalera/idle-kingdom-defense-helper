@@ -37,11 +37,5 @@
 >
   <div class={styles.wrapper}>
     <HeroInline name={hero.name} size="full" />
-    <!-- <img
-      loading="lazy"
-      class={styles.img}
-      src={`/images/heroes/${hero.name}.png`}
-      alt="Helmet Gear"
-    /> -->
   </div></CardBorder
 >

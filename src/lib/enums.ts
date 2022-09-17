@@ -33,18 +33,25 @@ export const HeroGearEquipOptions = {
 
 export const Attributes = {
   atk: 'atk',
+  atkP: 'atk%',
   atkSpeed: 'atkSpeed',
   cri: 'cri',
   criDamage: 'criDamage',
   criDamageResist: 'criDamageResist',
   criResist: 'criResist',
   def: 'def',
+  defP: 'def%',
   defPierce: 'defPierce',
   defPierceResist: 'defPierceResist',
   dodge: 'dodge',
   hit: 'hit',
   hp: 'hp',
+  hpP: 'hp%',
   moveSpeed: 'moveSpeed',
+  supporterAtk: 'supporterAtk',
+  warriorAtk: 'warriorAtk',
+  supporterSkillDmg: 'supporterSkillDmg',
+  warriorSkillDmg: 'warriorSkillDmg',
 } as const;
 
 export type HeroGearEquipTypes = keyof typeof HeroGearEquipOptions;

@@ -79,7 +79,6 @@
   $: rarity = getRarityFromGrade(artifactData.grade);
 
   $: rarityAndLevel = convertGradeToRarityAndLevel(artifactData.grade);
-  $: console.log({ rarityAndLevel, level, rarity });
 </script>
 
 {#if rarity && level}
