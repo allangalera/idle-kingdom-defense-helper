@@ -176,9 +176,9 @@ export const defaultSortingHeroes = (heroes: HeroType[]) =>
     heroes,
     [(x) => !!x.level, 'desc'],
     [(x) => x.grade, 'desc'],
-    [(x) => x.baseGrade, 'desc'],
     [(x) => x.level, 'desc'],
-    (x) => x.id
+    [(x) => x.baseGrade, 'desc'],
+    [(x) => x.name, 'asc']
   );
 
 export const heroes = defaultSortingHeroes(generateHeroList());
