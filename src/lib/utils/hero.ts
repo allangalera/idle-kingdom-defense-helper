@@ -360,36 +360,33 @@ export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
       return null;
     }
 
-    if ([Attributes.atkSpeed, Attributes.moveSpeed].some((attr) => attr === key)) {
-      finalArtifactStats[key] = (finalArtifactStats[key] ?? 0) * 1 + value;
-      return;
-    }
-
     if ([Attributes.atkP, Attributes.defP, Attributes.hpP].some((attr) => attr === key)) {
-      const tmpKey = key.replace('%', '');
-      const tmpValue = value / 1000;
-      finalArtifactStats[tmpKey] = (finalArtifactStats[tmpKey] ?? 0) + heroStats[tmpKey] * tmpValue;
+      finalArtifactStats[key] = (finalArtifactStats[key] ?? 0) + value;
       return;
     }
 
     if (key === Attributes.supporterAtk && hero.unitType === 1) {
-      const tmpValue = value / 1000;
-      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + tmpValue;
+      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + value;
       return;
     }
 
     if (key === Attributes.warriorAtk && hero.unitType === 2) {
-      const tmpValue = value / 1000;
-      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + tmpValue;
+      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + value;
       return;
     }
 
     finalArtifactStats[key] = (finalArtifactStats[key] ?? 0) + value;
-    return;
+    return (heroStats[key] += value);
   });
 
   R.mapKeys(finalArtifactStats, (key, value) => {
-    return (heroStats[key] += value);
+    if ([Attributes.atkP, Attributes.defP, Attributes.hpP].some((attr) => attr === key)) {
+      const tmpKey = key.replace('%', '');
+      const tmpValue = value / 1000;
+      finalArtifactStats[tmpKey] = (finalArtifactStats[tmpKey] ?? 0) + heroStats[tmpKey] * tmpValue;
+      return (heroStats[tmpKey] *= 1 + tmpValue);
+    }
+    return null;
   });
 
   heroStats.composedStats.artifacts = finalArtifactStats;
