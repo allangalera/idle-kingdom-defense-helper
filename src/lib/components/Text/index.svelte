@@ -1,6 +1,7 @@
 <script lang="ts">
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
+  import { concatClasses } from '$lib/styles/utils';
 
   import * as styles from './index.css';
 
@@ -13,8 +14,11 @@
   export let marginBottom: Sprinkles['marginBottom'] = 'none';
   export let marginTop: Sprinkles['marginTop'] = 'none';
   export let lineHeight: Sprinkles['lineHeight'] = 'tall';
+</script>
 
-  let className = [
+<svelte:element
+  this={as}
+  class={concatClasses(
     styles.paragraph,
     sprinkles({
       color,
@@ -25,16 +29,8 @@
       lineHeight,
       marginBottom,
       marginTop,
-    }),
-  ].join(' ');
-</script>
-
-{#if as === 'p'}
-  <p class={className}>
-    <slot />
-  </p>
-{:else if as === 'span'}
-  <span class={className}>
-    <slot />
-  </span>
-{/if}
+    })
+  )}
+>
+  <slot />
+</svelte:element>

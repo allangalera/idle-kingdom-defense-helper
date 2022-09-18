@@ -3,6 +3,7 @@
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
   import { convertGradeToRarityAndLevel } from '$lib/utils/hero';
+  import { returnRuneCurrentMinMax } from '$lib/utils/runes';
 
   import * as styles from './styles.css';
 
@@ -13,8 +14,42 @@
   export let heroUserData = null;
 
   let rarityLevel = convertGradeToRarityAndLevel(grade);
+  let currentMinMax = returnRuneCurrentMinMax(runeData?.id, heroUserData);
+  let progressPercent = 0;
+  let progressTier = 1;
+
+  const updatePercent = () => {
+    if (!heroUserData) return;
+    const tmpMax = currentMinMax.max - currentMinMax.min;
+    const tmpValue = heroUserData.value - currentMinMax.min;
+    if (tmpValue === 0) {
+      progressPercent = 0;
+      return;
+    }
+    progressPercent = (tmpValue / tmpMax) * 100;
+  };
+
+  const updateTier = () => {
+    if (progressPercent <= 25) {
+      progressTier = 1;
+      return;
+    }
+    if (progressPercent <= 50) {
+      progressTier = 2;
+      return;
+    }
+    if (progressPercent <= 75) {
+      progressTier = 3;
+      return;
+    }
+    progressTier = 4;
+    return;
+  };
 
   $: rarityLevel = convertGradeToRarityAndLevel(grade);
+  $: currentMinMax = returnRuneCurrentMinMax(runeData?.id, heroUserData);
+  $: (runeData || heroUserData) && updatePercent();
+  $: progressPercent && updateTier();
 </script>
 
 <div class={styles.container}>
@@ -31,8 +66,18 @@
   />
   {#if heroUserData}
     <div class={styles.enchantLevel}>
-      <Text fontSize="sm" color="white">+{heroUserData.enchant}</Text>
+      <Text fontSize="xs" color="white">+{heroUserData.enchant}</Text>
     </div>
-    <div />
+    <div class={styles.progressBarContainer}>
+      <div class={styles.progressBar} style={`width: ${progressPercent}%;`} />
+    </div>
+    <div class={styles.tierContainer}>
+      <img
+        class={styles.tier}
+        loading="lazy"
+        src={`/images/icons/iconGearQuality${progressTier}.png`}
+        alt="Tier icon"
+      />
+    </div>
   {/if}
 </div>

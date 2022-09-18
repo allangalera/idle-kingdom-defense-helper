@@ -1,10 +1,11 @@
 <script lang="ts">
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
+  import { concatClasses } from '$lib/styles/utils';
 
   import * as styles from './index.css';
 
-  export let type = 'click';
+  export let type = 'button';
   export let disabled = false;
   export let variant: 'primary' | 'secondary' | 'danger' | 'success' | 'logic' = 'primary';
   export let ref = null;
@@ -73,17 +74,17 @@
 </script>
 
 <button
-  class={[
+  class={concatClasses(
     styles.container,
     sprinkles({
       background: disabled ? backgroundDisabledColors[variant] : backgroundColors[variant],
       borderColor: disabled ? borderDisabledColors[variant] : borderColors[variant],
       cursor: disabled ? 'not-allowed' : 'pointer',
-      opacity: disabled ? 0.5 : 1,
+      opacity: disabled && variant !== 'logic' ? 0.5 : 1,
       padding: variant === 'logic' ? 'none' : 2,
       width,
-    }),
-  ].join(' ')}
+    })
+  )}
   {type}
   {disabled}
   on:click

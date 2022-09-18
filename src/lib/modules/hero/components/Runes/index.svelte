@@ -3,10 +3,15 @@
   import GridItem from '$lib/components/GridItem/index.svelte';
   import ModalEditHeroRune from '$lib/components/ModalEditHeroRune/index.svelte';
   import RuneIcon from '$lib/components/RuneIcon/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
   import { MAX_HERO_GRADE } from '$lib/db/heroes';
-  import { runes } from '$lib/db/runes';
-  import { sprinkles } from '$lib/styles/sprinkles.css';
-  import { getLevelFromGrade, getRarityFromGrade, isRuneAvailable } from '$lib/utils/hero';
+  import { runes, runesMap } from '$lib/db/runes';
+  import {
+    getDependantRuneData,
+    getLevelFromGrade,
+    getRarityFromGrade,
+    isRuneAvailable,
+  } from '$lib/utils/hero';
 
   import * as styles from './index.css';
 
@@ -20,6 +25,30 @@
     if (!heroUserData) return false;
     selectedRune = rune;
     isModalOpen = true;
+  };
+
+  const getDependentRune = (runeId) => {
+    return runesMap.get(runeId);
+  };
+
+  const getRotation = (idx1, idx2) => {
+    if (idx1 === idx2) return '0deg';
+    if (idx1 > idx2) return '-45deg';
+    return '45deg';
+  };
+
+  const getLineContainerPosition = (rune) => {
+    const dependentRune = getDependentRune(rune.openCondition.id);
+
+    if (dependentRune.idx > rune.idx) {
+      return `grid-column-start: ${dependentRune.grade}; grid-column-end: ${
+        rune.grade + 1
+      }; grid-row-start: ${dependentRune.idx}; grid-row-end: ${rune.idx + 3};`;
+    }
+
+    return `grid-column-start: ${dependentRune.grade}; grid-column-end: ${
+      rune.grade + 1
+    }; grid-row-start: ${dependentRune.idx + 1}; grid-row-end: ${rune.idx + 2};`;
   };
 </script>
 
@@ -41,26 +70,50 @@
       {#each runes as rune}
         <div
           style={`grid-column: ${rune.grade}; grid-row: ${rune.idx + 1};`}
-          class={[
-            styles.runeContainer,
-            sprinkles({
-              opacity: isRuneAvailable(rune.id, heroUserData) ? 1 : 0.5,
-            }),
-          ].join(' ')}
+          class={styles.runeContainer}
         >
-          <Button
-            variant="logic"
-            on:click={() => onOpenModal(rune)}
-            disabled={!isRuneAvailable(rune.id, heroUserData)}
+          <div
+            class={styles.runeVariant[
+              isRuneAvailable(rune.id, heroUserData) ? 'default' : 'disabled'
+            ]}
           >
-            <RuneIcon
-              grade={rune.grade}
-              abilityType={rune.abilityType}
-              runeData={rune}
-              heroUserData={heroUserData?.runes?.[rune.id]}
-            />
-          </Button>
+            <Button
+              variant="logic"
+              on:click={() => onOpenModal(rune)}
+              disabled={!isRuneAvailable(rune.id, heroUserData)}
+            >
+              <RuneIcon
+                grade={rune.grade}
+                abilityType={rune.abilityType}
+                runeData={rune}
+                heroUserData={heroUserData?.runes?.[rune.id]}
+              />
+            </Button>
+          </div>
+          {#if !isRuneAvailable(rune.id, heroUserData)}
+            <div class={styles.dependencyRuneCounterContainer}>
+              <Text fontSize="sm">
+                {getDependantRuneData(rune.id, heroUserData)?.have ?? 0}/{getDependantRuneData(
+                  rune.id,
+                  heroUserData
+                ).need}</Text
+              >
+            </div>
+          {/if}
         </div>
+        {#if rune.openCondition.id !== 0}
+          <div class={styles.lineContainer} style={getLineContainerPosition(rune)}>
+            <div
+              class={styles.lineVariant[
+                isRuneAvailable(rune.id, heroUserData) ? 'available' : 'default'
+              ]}
+              style={`transform: rotate(${getRotation(
+                getDependentRune(rune.openCondition.id).idx,
+                rune.idx
+              )})`}
+            />
+          </div>
+        {/if}
       {/each}
     </div>
   </div>

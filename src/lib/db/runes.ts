@@ -22,8 +22,11 @@ export const runesSummonStageUnlock = getRunesSummonStageUnlock();
 
 export const runes = runeJSON;
 
-export const runesMap = runeJSON.reduce((previousValue, currentValue) => {
-  return previousValue.set(currentValue.id, currentValue);
-}, new Map());
+export const runesMap: Map<number, typeof runeJSON[number]> = runeJSON.reduce(
+  (previousValue, currentValue) => {
+    return previousValue.set(currentValue.id, currentValue);
+  },
+  new Map()
+);
 
 export const MAX_RUNE_ENCHANT_LEVEL = runeConstJSON.ENCHANT.MAX;

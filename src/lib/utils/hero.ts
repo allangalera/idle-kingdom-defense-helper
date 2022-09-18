@@ -187,6 +187,25 @@ export const isRuneAvailable = (runeId: number, heroUserData): boolean => {
   return true;
 };
 
+export const getDependantRuneData = (runeId: number, heroUserData) => {
+  const result = {
+    have: 0,
+    need: 0,
+  };
+  const runeData = runesMap.get(runeId);
+
+  if (!runeData) return result;
+
+  if (runeData.openCondition.id === 0) return result;
+
+  const userRuneDependency = heroUserData?.runes?.[runeData.openCondition.id];
+
+  return {
+    have: userRuneDependency?.enchant ?? 0,
+    need: runeData.openCondition.eh,
+  };
+};
+
 const returnArtifactStats = (heroUserData) => {
   let stats: Partial<EffectToStats> = {};
 
@@ -355,15 +374,13 @@ export const calculateHeroStats = (hero: HeroType, heroUserData): HeroStats => {
 
     if (key === Attributes.supporterAtk && hero.unitType === 1) {
       const tmpValue = value / 1000;
-      finalArtifactStats[Attributes.atk] =
-        (finalArtifactStats[Attributes.atk] ?? 0) + heroStats[Attributes.atk] * tmpValue;
+      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + tmpValue;
       return;
     }
 
     if (key === Attributes.warriorAtk && hero.unitType === 2) {
       const tmpValue = value / 1000;
-      finalArtifactStats[Attributes.atk] =
-        (finalArtifactStats[Attributes.atk] ?? 0) + heroStats[Attributes.atk] * tmpValue;
+      finalArtifactStats[Attributes.atkP] = (finalArtifactStats[Attributes.atkP] ?? 0) + tmpValue;
       return;
     }
 

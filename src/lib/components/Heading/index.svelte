@@ -1,6 +1,7 @@
 <script lang="ts">
   import { sprinkles } from '$lib/styles/sprinkles.css';
   import type { Sprinkles } from '$lib/styles/sprinkles.css';
+  import { concatClasses } from '$lib/styles/utils';
 
   import * as styles from './index.css';
 
@@ -10,8 +11,11 @@
   export let textAlign: Sprinkles['textAlign'] = 'left';
   export let marginBottom: Sprinkles['marginBottom'] = 'none';
   export let marginTop: Sprinkles['marginTop'] = 'none';
+</script>
 
-  let className = [
+<svelte:element
+  this={as}
+  class={concatClasses(
     styles.heading,
     sprinkles({
       fontSize: fontSize,
@@ -20,32 +24,8 @@
       color: 'gray12',
       marginBottom,
       marginTop,
-    }),
-  ].join(' ');
-</script>
-
-{#if as == 'h1'}
-  <h1 class={className}>
-    <slot />
-  </h1>
-{:else if as == 'h2'}
-  <h2 class={className}>
-    <slot />
-  </h2>
-{:else if as == 'h3'}
-  <h3 class={className}>
-    <slot />
-  </h3>
-{:else if as == 'h4'}
-  <h4 class={className}>
-    <slot />
-  </h4>
-{:else if as == 'h5'}
-  <h5 class={className}>
-    <slot />
-  </h5>
-{:else}
-  <h6 class={className}>
-    <slot />
-  </h6>
-{/if}
+    })
+  )}
+>
+  <slot />
+</svelte:element>
