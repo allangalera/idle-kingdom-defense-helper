@@ -12,6 +12,7 @@
 
   const CALCULATOR_STORE_KEY = 'HERO_UPGRADE_COST_CALCULATOR';
 
+  let multiplier = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.multiplier ?? '1';
   let currentLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.currentLevel ?? '1';
   let targetLevel = $calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.targetLevel ?? '2';
   let result = {
@@ -21,16 +22,35 @@
 
   const updateStore = () => {
     updateCalculatorInformation(CALCULATOR_STORE_KEY, {
+      multiplier,
       currentLevel,
       targetLevel,
     });
   };
 
-  $: result = calculateLevelUpCost(+currentLevel, +targetLevel);
-  $: (currentLevel || targetLevel) && updateStore();
+  const update = () => {
+    updateStore();
+    const partialResult = calculateLevelUpCost(+currentLevel, +targetLevel);
+
+    result = {
+      coins: partialResult.coins * (+multiplier ?? 1),
+      souls: partialResult.souls * (+multiplier ?? 1),
+    };
+  };
+
+  $: (currentLevel || targetLevel || multiplier) && update();
 </script>
 
 <div class={styles.container}>
+  <Input
+    textAlign="center"
+    label="Multiplier"
+    bind:value={multiplier}
+    maskOptions={{
+      mask: Number,
+      min: 1,
+    }}
+  />
   <Input
     textAlign="center"
     label="Current Level"

@@ -5,11 +5,12 @@ export const container = style({
   display: 'grid',
   gap: theme.space[2],
   flexWrap: 'wrap',
-  gridTemplateColumns: '1fr 1fr',
+  gridTemplateColumns: '1fr 1fr 1fr',
+  alignItems: 'flex-end',
 });
 
 export const result = style({
-  gridColumn: '1 / span 2',
+  gridColumn: '1 / span 3',
   display: 'flex',
   justifyContent: 'space-evenly',
   alignItems: 'center',
