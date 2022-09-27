@@ -72,7 +72,7 @@
               checked
               on:change={onChangeSearchKeys}
             />
-            <Text>name</Text>
+            <Text>Name</Text>
           </label>
           <label class={styles.input}>
             <input
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class={styles.inputGroup}>
-        <Text>View Mode</Text>
+        <Text>Show details</Text>
         <div class={styles.inputContainer}>
           <label class={styles.input}>
             <input
@@ -105,7 +105,7 @@
               checked={$heroesVisualization === HeroesVisualizationModes.compact}
               on:change={onChangeViewMode}
             />
-            <Text>Compact</Text>
+            <Text>No</Text>
           </label>
           <label class={styles.input}>
             <input
@@ -115,7 +115,7 @@
               checked={$heroesVisualization === HeroesVisualizationModes.minimal}
               on:change={onChangeViewMode}
             />
-            <Text>Minimal</Text>
+            <Text>Yes</Text>
           </label>
         </div>
       </div>
