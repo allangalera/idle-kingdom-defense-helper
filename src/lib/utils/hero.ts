@@ -454,8 +454,14 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
 
   const { addType, effectType, value, durTime, percentage, units, time } = skillLevel;
 
+  let coolTime = '';
+
+  if (skill.coolTime) {
+    coolTime = ` Cooldown: ${skill.coolTime}s`;
+  }
+
   if (!addType && !effectType) {
-    return match(`${skillType}-${skillEffectType}-${targetType}`, [
+    const finalSkillDescription = match(`${skillType}-${skillEffectType}-${targetType}`, [
       ['1-0-0', skillDescription.replace('{0}', Math.round(value * 100).toString())],
       ['1-0-1', skillDescription.replace('{0}', Math.round(value * 100).toString())],
       [
@@ -508,9 +514,10 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
       ],
       () => skillDescription.replace('{0}', units).replace('{1}', time),
     ]);
+    return `${finalSkillDescription}${coolTime}`;
   }
 
-  return match(`${addType}-${effectType}`, [
+  const finalSkillDescription = match(`${addType}-${effectType}`, [
     ['1-1', skillDescription.replace('{0}', Math.round(value * 100).toString())],
     [
       '1-2',
@@ -600,6 +607,7 @@ export const formatSkillDescription = (skill, skillIndex, heroGrade, hero) => {
     ],
     () => skillDescription.replace('{0}', Math.round(value * 100).toString()),
   ]);
+  return `${finalSkillDescription}${coolTime}`;
 };
 
 export const formatSkillValue = (hero, skill, progressionAttributes) => {

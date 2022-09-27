@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { HeroGearEquipOptions } from '$lib/enums';
 import buffSkillJSON from '$lib/gameInfo/buffSkill.json';
 import gearJSON from '$lib/gameInfo/gear.json';
@@ -110,7 +111,6 @@ function getMainSkill(hero) {
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getSkill(hero: any) {
   const skillTypes = {
     1: getMainSkill,
@@ -120,7 +120,6 @@ function getSkill(hero: any) {
   return skillTypes[hero.skillType](hero);
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getHeroSkills(hero: any, ascension: any) {
   const skills = [getSkill(hero)];
   skills.push({
