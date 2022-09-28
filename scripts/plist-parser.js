@@ -1,20 +1,20 @@
+import fp from 'fast-glob';
 import fs from 'fs/promises';
 import path from 'path';
 import plistParser from 'plist';
 import sharp from 'sharp';
 
-const filesPath = path.join(process.cwd(), 'plist-files');
+const filesPath = path.join(process.cwd(), 'plist-files', '**/*.plist');
 const outputDirPath = path.join(process.cwd(), 'static/images/plist');
 
 const main = async () => {
-  const files = await fs.readdir(filesPath);
+  const files = await fp(filesPath);
+  console.log(files);
   for (const fileName of files) {
-    if (fileName.match('png')) continue;
-    // console.log(fileName);
-    const filePath = path.join(filesPath, fileName);
-    const fileData = await fs.readFile(filePath, 'utf8');
+    // const filePath = path.join(filesPath, fileName);
+    const fileData = await fs.readFile(fileName, 'utf8');
     const jsonData = plistParser.parse(fileData);
-    const baseImagePath = filePath.replace('.plist', '.png');
+    const baseImagePath = fileName.replace('.plist', '.png');
     for (const imgInGamePath of Object.keys(jsonData.frames)) {
       const imgData = jsonData.frames[imgInGamePath];
       const position = imgData.frame.replace(/\{|\}/g, '').split(',');
