@@ -8,8 +8,13 @@
   import Text from '$lib/components/Text/index.svelte';
   import { MAX_RUNE_ENCHANT_LEVEL } from '$lib/db/runes';
   import { addOrUpdateHeroRune, removeHeroRune } from '$lib/shared/stores/user/heroes';
+  import { sprinkles } from '$lib/styles/sprinkles.css';
+  import { theme } from '$lib/styles/themes/index.css';
   import { returnAttributeName } from '$lib/utils/hero';
   import { returnRuneAttribute } from '$lib/utils/runes';
+  import Icon from 'svelte-icons-pack/Icon.svelte';
+  import RiSystemAddFill from 'svelte-icons-pack/ri/RiSystemAddFill';
+  import RiSystemSubtractFill from 'svelte-icons-pack/ri/RiSystemSubtractFill';
 
   import * as styles from './index.css';
 
@@ -51,8 +56,19 @@
     if (rune) {
       abilityMin = rune && rune.abilityInitMin + rune.abilityIncMin * +enchantLevel;
       abilityMax = rune && rune.abilityInitMax + rune.abilityIncMax * +enchantLevel;
-      ability = Math.max(userHero?.runes?.[rune.id]?.value ?? 0, abilityMin).toString();
+      ability = Math.min(
+        Math.max(userHero?.runes?.[rune.id]?.value ?? 0, abilityMin),
+        abilityMax
+      ).toString();
     }
+  };
+
+  const increaseEnchantLevel = () => {
+    enchantLevel = Math.min(+enchantLevel + 1, MAX_RUNE_ENCHANT_LEVEL).toString();
+  };
+
+  const decreaseEnchantLevel = () => {
+    enchantLevel = Math.max(+enchantLevel - 1, 0).toString();
   };
 
   $: rune && initialValues();
@@ -67,18 +83,55 @@
       </slot>
       <slot slot="content">
         <div class={styles.contentContainer}>
-          <RuneIcon grade={rune.grade} abilityType={rune.abilityType} />
-          <Text>{returnAttributeName(returnRuneAttribute(rune.abilityType))}</Text>
-          <Input
-            textAlign="center"
-            label="Enchant Level"
-            bind:value={enchantLevel}
-            maskOptions={{
-              mask: Number,
-              min: 0,
-              max: MAX_RUNE_ENCHANT_LEVEL,
+          <RuneIcon
+            grade={rune.grade}
+            abilityType={rune.abilityType}
+            runeData={rune}
+            heroUserData={{
+              enchant: +enchantLevel,
+              value: +ability,
             }}
           />
+          <Text>{returnAttributeName(returnRuneAttribute(rune.abilityType))}</Text>
+          <div
+            class={sprinkles({
+              display: 'flex',
+              alignItems: 'flex-end',
+              gap: 2,
+            })}
+          >
+            <Button on:click={decreaseEnchantLevel} disabled={+enchantLevel === 0}>
+              <Icon
+                className={sprinkles({
+                  size: 6,
+                })}
+                src={RiSystemSubtractFill}
+                color={theme.colors.white}
+              /></Button
+            >
+            <Input
+              textAlign="center"
+              label="Enchant Level"
+              bind:value={enchantLevel}
+              maskOptions={{
+                mask: Number,
+                min: 0,
+                max: MAX_RUNE_ENCHANT_LEVEL,
+              }}
+            />
+            <Button
+              on:click={increaseEnchantLevel}
+              disabled={+enchantLevel === MAX_RUNE_ENCHANT_LEVEL}
+            >
+              <Icon
+                className={sprinkles({
+                  size: 6,
+                })}
+                src={RiSystemAddFill}
+                color={theme.colors.white}
+              /></Button
+            >
+          </div>
           <Text>Ability minimum: {abilityMin}</Text>
           <Text>Ability maximum: {abilityMax}</Text>
           <Input

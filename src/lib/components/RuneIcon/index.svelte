@@ -26,7 +26,7 @@
       progressPercent = 0;
       return;
     }
-    progressPercent = (tmpValue / tmpMax) * 100;
+    progressPercent = Math.min(Math.max((tmpValue / tmpMax) * 100, 0), 100);
   };
 
   const updateTier = () => {
