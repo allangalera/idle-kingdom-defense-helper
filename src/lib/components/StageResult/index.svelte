@@ -2,8 +2,9 @@
   import Card from '$lib/components/Card/index.svelte';
   import CardGear from '$lib/components/CardGear/index.svelte';
   import Text from '$lib/components/Text/index.svelte';
+  import Tooltip from '$lib/components/Tooltip/index.svelte';
   import { units } from '$lib/db/units';
-  import { convertGradeToStarLevel } from '$lib/utils';
+  import { convertGradeToStarLevel, getIdleKingdomNumberFormat } from '$lib/utils';
   import { returnRewardDataByStage } from '$lib/utils/stage';
   import * as R from 'remeda';
 
@@ -59,7 +60,12 @@
   <div class={styles.details}>
     {#each enemies as enemy}
       {#if enemy.unitType === 5}
-        <img loading="lazy" src={`images/enemies/enemy${enemy.unitId}.png`} alt="enemy" />
+        <Tooltip>
+          <img loading="lazy" src={`images/enemies/enemy${enemy.unitId}.png`} alt="enemy" />
+          <svelte:fragment slot="tooltip-content">
+            <Text>Hp: {getIdleKingdomNumberFormat(enemy.hp)}</Text>
+          </svelte:fragment>
+        </Tooltip>
       {/if}
     {/each}
     <div class={styles.drop}>
