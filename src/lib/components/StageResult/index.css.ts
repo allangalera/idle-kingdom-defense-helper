@@ -46,3 +46,11 @@ export const drop = style({
   justifyContent: 'center',
   alignItems: 'center',
 });
+
+export const tooltipGrid = style({
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr',
+  gap: theme.space[1],
+  justifyContent: 'center',
+  alignItems: 'center',
+});

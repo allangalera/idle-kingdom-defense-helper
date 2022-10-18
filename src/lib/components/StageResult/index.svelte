@@ -63,7 +63,16 @@
         <Tooltip>
           <img loading="lazy" src={`images/enemies/enemy${enemy.unitId}.png`} alt="enemy" />
           <svelte:fragment slot="tooltip-content">
-            <Text>Hp: {getIdleKingdomNumberFormat(enemy.hp)}</Text>
+            <div class={styles.tooltipGrid}>
+              <Text>HP</Text>
+              <Text textAlign="center">{getIdleKingdomNumberFormat(enemy.hp)}</Text>
+              <Text>ATK:</Text>
+              <Text textAlign="center">{getIdleKingdomNumberFormat(enemy.atk)}</Text>
+              <Text>DEF:</Text>
+              <Text textAlign="center">{getIdleKingdomNumberFormat(enemy.def)}</Text>
+              <Text>Count:</Text>
+              <Text textAlign="center">{enemy.unitCnt}</Text>
+            </div>
           </svelte:fragment>
         </Tooltip>
       {/if}
