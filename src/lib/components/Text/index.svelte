@@ -19,7 +19,6 @@
 <svelte:element
   this={as}
   class={concatClasses(
-    styles.paragraph,
     sprinkles({
       color,
       fontSize,
@@ -29,7 +28,8 @@
       lineHeight,
       marginBottom,
       marginTop,
-    })
+    }),
+    styles.paragraph
   )}
 >
   <slot />

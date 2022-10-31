@@ -21,8 +21,22 @@
 </script>
 
 <script lang="ts">
+  import Heading from '$lib/components/Heading/index.svelte';
+  import Text from '$lib/components/Text/index.svelte';
+
   import * as styles from './index.css';
+
+  export let title;
+  export let author;
+  export let date;
+  export let children;
+
+  console.log(children);
 </script>
+
+<svelte:head>
+  <title>IKDH - {title}</title>
+</svelte:head>
 
 <div class={styles.container}>
   <slot />

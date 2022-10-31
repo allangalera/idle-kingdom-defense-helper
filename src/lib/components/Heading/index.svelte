@@ -11,6 +11,7 @@
   export let textAlign: Sprinkles['textAlign'] = 'left';
   export let marginBottom: Sprinkles['marginBottom'] = 'none';
   export let marginTop: Sprinkles['marginTop'] = 'none';
+  export let id: string = null;
 </script>
 
 <svelte:element
@@ -26,6 +27,7 @@
       marginTop,
     })
   )}
+  {id}
 >
   <slot />
 </svelte:element>
