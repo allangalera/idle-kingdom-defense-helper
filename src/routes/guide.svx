@@ -13,7 +13,7 @@ date: October 30th, 2022
 </script>
 
 # { title }
-author: { author } | update at: { date }
+author: { author } <br /> update at: { date }
 
 ## Table of contents
 
