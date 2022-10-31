@@ -2,7 +2,7 @@
 layout: guides
 title: Guide
 author: "@Ferro#0001"
-date: 2022/10/30
+date: October 30th, 2022
 ---
 
 <script>
