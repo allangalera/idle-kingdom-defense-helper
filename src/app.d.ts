@@ -1,20 +1,11 @@
-/// <reference types="@sveltejs/kit" />
-
-// See https://kit.svelte.dev/docs/typescript
+// See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
+// and what to do when importing types
 declare namespace App {
-  interface UserSession {
-    user: import('@supabase/supabase-js').User;
-    accessToken?: string;
+  // interface Locals {}
+  interface PageData {
+    session: import('@supabase/supabase-js').Session | null;
   }
-
-  interface Locals extends UserSession {
-    error: import('@supabase/supabase-js').ApiError;
-  }
-
-  interface Platform {}
-
-  interface Session extends UserSession {}
-
-  interface Stuff {}
+  // interface Platform {}
+  // interface Error {}
 }

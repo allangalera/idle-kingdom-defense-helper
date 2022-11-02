@@ -1,9 +1,9 @@
 {
-  "importOrder": ["^$lib/(.*)$", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
+  "overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
+  "pluginSearchDirs": ["."],
+  "plugins": ["prettier-plugin-svelte"],
   "printWidth": 100,
   "singleQuote": true,
-  "trailingComma": "es5",
-  "useTabs": false
+  "trailingComma": "none",
+  "useTabs": true
 }
