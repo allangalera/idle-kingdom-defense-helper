@@ -1,11 +1,11 @@
-import { portalLegionsMapByNameSlugified } from '$lib/db/portal';
+import { raidRewardsMapBySlugifiedName } from '$lib/utils/raid';
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ params }) => {
-	if (portalLegionsMapByNameSlugified.has(params.name)) {
+	if (raidRewardsMapBySlugifiedName.has(params.name)) {
 		return {
-			portal: portalLegionsMapByNameSlugified.get(params.name)
+			raid: raidRewardsMapBySlugifiedName.get(params.name)
 		};
 	}
 

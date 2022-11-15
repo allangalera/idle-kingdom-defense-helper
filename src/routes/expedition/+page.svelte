@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ExpeditionPage from '$lib/pages/expedition/index.svelte';
+	import ExpeditionPage from '$lib/modules/expedition/index.svelte';
 </script>
 
 <ExpeditionPage />

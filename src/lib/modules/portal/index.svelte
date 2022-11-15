@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Heading from '$lib/components/Heading/index.svelte';
 	import Link from '$lib/components/Link/index.svelte';
-	import Text from '$lib/components/Text/index.svelte';
 	import { portalLegionsMapByNameSlugified } from '$lib/db/portal';
 	import * as tableStyles from '$lib/styles/table.css';
 	import { getRowStyling } from '$lib/styles/utils';
