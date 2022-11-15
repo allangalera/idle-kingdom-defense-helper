@@ -7,7 +7,6 @@
 	export let size: Sprinkles['width'] = 8;
 
 	const data = convertGradeToStarLevel(grade);
-	console.log(data);
 </script>
 
 {#each { length: data.level } as level}

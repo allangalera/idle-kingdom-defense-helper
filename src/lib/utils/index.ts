@@ -250,8 +250,6 @@ export const convertGradeToStarLevel = (
 ): { rarity: RarityEnum; level: UpgradeLevel } => {
 	const level = match(grade % 5, [[0, 5], () => grade % 5]) as UpgradeLevel;
 
-	// console.log({ grade, levelMatch: grade % 5, level });
-
 	const rarity = match(grade / 5, [
 		[(n) => n <= 1, RarityEnum.common],
 		[(n) => n <= 2, RarityEnum.uncommon],
