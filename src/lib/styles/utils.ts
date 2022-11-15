@@ -1,10 +1,13 @@
 import { match } from 'oxide.ts';
 
 export const getRowStyling = (row: number, highlight = false) => {
-  if (highlight) return 'highlight';
-  return match(row, [[(n) => Boolean(n % 2), 'row'], () => 'otherRow']);
+	return match({ row, highlight }, [
+		[{ highlight: true }, 'highlight' as const],
+		[({ row }) => Boolean(row % 2), 'row' as const],
+		() => 'otherRow' as const
+	]);
 };
 
 export const concatClasses = (...classes: string[]) => {
-  return [...classes].join(' ');
+	return [...classes].join(' ');
 };
