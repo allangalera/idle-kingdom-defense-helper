@@ -229,13 +229,13 @@ Use the best gear available upgraded to +6 with scrolls. Hoard <GameIconInline n
 
 After midgame, when you're strong enough to farm stages for <GameIconInline name="rare-star" /> or <GameIconInline name="epic-star" /> blueprints under 30 secs (real time, including load screens), farm to collect a full set of S-tier frost archer gear (Bow and Arrow first).
 
-This can take days because it takes a few hundred blueprints on average per S-frost gear. It helps to focus on only one type of blueprints at a time. Do not purchase blueprints with <GameIconInline name="Steel" />. Frost effect is much more effective in hard fights than other elements.
+This can take days because it takes a few hundred blueprints on average per S-frost gear. It helps to focus on only one type of blueprints at a time. Do not purchase blueprints with <GameIconInline name="steel" />. Frost effect is much more effective in hard fights than other elements.
 
 The frost set should be promoted tier by tier until endgame, maxing out at 5<GameIconInline name="rare-star" />, in this order of priority: Bow, Arrow, Boots, Chest, Helm, Gloves.
 
 For each promotion, upgrade to +8 with regular scrolls only and no stones. Then upgrade to +12 with shiny scrolls and with stones  (<GameIconInline name="protect-weapon-normal" /><GameIconInline name="protect-armor-normal" /> recommended, <GameIconInline name="protect-weapon-shiny" /><GameIconInline name="protect-armor-shiny" /> only if you can't stand the failures). At +12, you can use <GameIconInline name="steel" /> to promote to next star tier.
 
-Craft recipes that drop from Battlefield to get better archer gear, or to farm for S-frost gear. Disassemble any unused archer gear for <GameIconInline name="Steel" />.
+Craft recipes that drop from Battlefield to get better archer gear, or to farm for S-frost gear. Disassemble any unused archer gear for <GameIconInline name="steel" />.
 
 If you have enough <GameIconInline name="steel" /> for the next promotion tier, the surplus can be used to upgrade Conquest forts.
 
