@@ -10,8 +10,9 @@ export const cardContainerWithValue = style({
 export const cardContainerNoValue = style({
 	display: 'flex',
 	width: '100%',
-	height: '100%'
-	// padding: theme.space[2]
+	height: '100%',
+	justifyContent: 'center',
+	alignItems: 'center'
 });
 
 export const cardContainerVariant = styleVariants({
