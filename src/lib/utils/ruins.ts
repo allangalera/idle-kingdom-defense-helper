@@ -7,7 +7,12 @@ export const getEnemyPattern = (stageLv: number) => {
   for (const stage of ruinConst.STAGE.lvs) {
     const currentLevel = ruinStageLevel + stage;
     const stageData = getEnemyIdFromStage(currentLevel);
-    enemies.push(stageData.selectedStageSet);
+    if (stageData) {
+      enemies.push({
+        id: enemies.length + 1,
+        enemies: stageData.selectedStageSet
+      });
+    }
   }
   return enemies;
 };
