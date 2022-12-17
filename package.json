@@ -60,6 +60,7 @@
 		"@radix-ui/colors": "^0.1.8",
 		"@supabase/auth-helpers-sveltekit": "^0.8.5",
 		"@supabase/supabase-js": "^2.0.5",
+		"@sveltejs/adapter-vercel": "^1.0.0",
 		"@vanilla-extract/sprinkles": "^1.5.1",
 		"change-case": "^4.1.2",
 		"imask": "^6.4.3",
