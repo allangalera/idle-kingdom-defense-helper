@@ -4,6 +4,9 @@ import type { UserConfig } from 'vite';
 
 const config: UserConfig = {
 	plugins: [sveltekit(), vanillaExtractPlugin()],
+	// test: {
+	// 	include: ['src/**/*.{test,spec}.{js,ts}']
+	// },
 	ssr: {
 		noExternal: ['@vanilla-extract/css', '@vanilla-extract/css/fileScope']
 	}
