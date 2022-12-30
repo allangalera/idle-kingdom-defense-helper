@@ -3,7 +3,7 @@
 	import { concatClasses } from '$lib/styles/utils';
 	import * as styles from './index.css';
 
-	export let type = 'button';
+	export let type: 'button' | 'submit' | 'reset' | null | undefined = 'button';
 	export let disabled = false;
 	export let variant: 'primary' | 'secondary' | 'danger' | 'success' | 'logic' = 'primary';
 	export let ref = null;
