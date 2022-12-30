@@ -68,10 +68,10 @@ export const returnItemStringIdById = (item: Item) => {
 		[
 			23,
 			match(`${item.st}#${item.gr}`, [
-				['1#1', 'protect-armor-normal' as const],
-				['1#2', 'protect-armor-shiny' as const],
-				['2#1', 'protect-weapon-normal' as const],
-				['2#2', 'protect-weapon-shiny' as const],
+				['2#1', 'protect-armor-normal' as const],
+				['2#2', 'protect-armor-shiny' as const],
+				['1#1', 'protect-weapon-normal' as const],
+				['1#2', 'protect-weapon-shiny' as const],
 				() => null
 			])
 		],
