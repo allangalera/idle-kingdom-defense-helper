@@ -1,33 +1,38 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
+	import * as styles from './index.css';
+	import { createEventDispatcher } from 'svelte';
 
-  import * as styles from './index.css';
+	export let selected: boolean;
+	export let ascensionLevel = 0;
 
-  export let selected;
-  export let ascensionLevel = 0;
+	const startLevels = [
+		'images/icons/iconStarBig1.png',
+		'images/icons/iconStarBig2.png',
+		'images/icons/iconStarBig3.png',
+		'images/icons/iconStarBig4.png',
+		'images/icons/iconStarBig5.png',
+		'images/icons/iconStarBig6.png',
+	];
 
-  const startLevels = [
-    'images/icons/iconStarBig1.png',
-    'images/icons/iconStarBig2.png',
-    'images/icons/iconStarBig3.png',
-    'images/icons/iconStarBig4.png',
-    'images/icons/iconStarBig5.png',
-    'images/icons/iconStarBig6.png',
-  ];
+	const dispatch = createEventDispatcher();
 
-  const dispatch = createEventDispatcher();
+	$: dispatch('selected', { selected });
 
-  $: dispatch('selected', { selected });
+	function onChange() {
+		selected = !selected;
+	}
 
-  function onChange() {
-    selected = !selected;
-  }
+	const onKeyDown = (e: KeyboardEvent) => {
+		if ([' ', 'Enter'].includes(e.key)) {
+			onChange();
+		}
+	};
 </script>
 
-<div class={styles.button} role="button" on:click on:click={onChange}>
-  {#if selected}
-    <img loading="lazy" src={startLevels[ascensionLevel]} alt="start level" />
-  {:else}
-    <img loading="lazy" class={styles.fade} src={startLevels[ascensionLevel]} alt="start level" />
-  {/if}
+<div class={styles.button} role="button" on:click on:click={onChange} on:keydown={onKeyDown}>
+	{#if selected}
+		<img loading="lazy" src={startLevels[ascensionLevel]} alt="start level" />
+	{:else}
+		<img loading="lazy" class={styles.fade} src={startLevels[ascensionLevel]} alt="start level" />
+	{/if}
 </div>
