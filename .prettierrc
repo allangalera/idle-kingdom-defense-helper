@@ -4,6 +4,6 @@
   "plugins": ["prettier-plugin-svelte"],
   "printWidth": 100,
   "singleQuote": true,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "useTabs": true
 }
