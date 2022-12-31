@@ -9,7 +9,12 @@
 	export let ref = null;
 	export let width: Sprinkles['width'] = 'unset';
 
-	const backgroundColors = {
+	type Variants = 'primary' | 'secondary' | 'danger' | 'success' | 'logic';
+
+	type VariantBackgroundProps = Record<Variants, Sprinkles['background']>;
+	type VariantBorderProps = Record<Variants, Sprinkles['borderColor']>;
+
+	const backgroundColors: VariantBackgroundProps = {
 		primary: {
 			lightMode: 'gray9',
 			darkMode: 'gray9',
@@ -21,9 +26,9 @@
 			lightMode: 'green9',
 		},
 		logic: 'transparent',
-	} as const;
+	};
 
-	const backgroundDisabledColors = {
+	const backgroundDisabledColors: VariantBackgroundProps = {
 		primary: {
 			lightMode: 'gray9',
 			darkMode: 'gray7',
@@ -38,9 +43,9 @@
 			lightMode: 'green9',
 		},
 		logic: 'transparent',
-	} as const;
+	};
 
-	const borderColors = {
+	const borderColors: VariantBorderProps = {
 		primary: {
 			lightMode: 'gray9',
 			darkMode: 'gray7',
@@ -52,8 +57,9 @@
 			lightMode: 'green9',
 		},
 		logic: 'transparent',
-	} as const;
-	const borderDisabledColors = {
+	};
+
+	const borderDisabledColors: VariantBorderProps = {
 		primary: {
 			lightMode: 'gray9',
 			darkMode: 'gray7',
@@ -68,7 +74,7 @@
 			lightMode: 'green9',
 		},
 		logic: 'transparent',
-	} as const;
+	};
 </script>
 
 <button
