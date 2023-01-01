@@ -13,6 +13,9 @@
 	import { ArcherGearEquip } from '$lib/types/enums';
 	import { getEquipData } from '$lib/utils/archer';
 	import * as styles from './index.css';
+	import type { Stats } from './type';
+	import { isNullable } from '@mobily/ts-belt/Guards';
+	import type { Option } from '@mobily/ts-belt/dist/types/Option';
 
 	const CALCULATOR_STORE_KEY = 'ARCHER_EQUIP_LEVEL_COMPARE_CALCULATOR';
 
@@ -31,11 +34,11 @@
 	let selectedEndLevel: number =
 		$calculatorsInformationStore?.[CALCULATOR_STORE_KEY]?.selectedEndLevel ?? 2;
 
-	let fromEquip;
-	let toEquip;
+	let fromEquip: ReturnType<typeof getEquipData>;
+	let toEquip: ReturnType<typeof getEquipData>;
 
-	let fromStats;
-	let toStats;
+	let fromStats: Option<Stats>;
+	let toStats: Option<Stats>;
 
 	const onEquipsUpdate = () => {
 		if (
@@ -43,8 +46,8 @@
 			+startEnhanceLevel === +endEnhanceLevel &&
 			selectedTierStart === selectedTierEnd
 		) {
-			fromEquip = null;
-			toEquip = null;
+			fromEquip = undefined;
+			toEquip = undefined;
 			return;
 		}
 		fromEquip = getEquipData(selectedEquip, selectedStartLevel, +selectedTierStart);
@@ -52,9 +55,25 @@
 	};
 
 	const calculateStats = () => {
-		if (!fromEquip || !toEquip) {
+		if (isNullable(fromEquip) || isNullable(toEquip)) {
 			fromStats = null;
 			toStats = null;
+			return;
+		}
+
+		if (
+			isNullable(fromEquip.statInitValue) ||
+			isNullable(fromEquip.statIncValue) ||
+			isNullable(fromEquip.subInitValue)
+		) {
+			return;
+		}
+
+		if (
+			isNullable(toEquip.statInitValue) ||
+			isNullable(toEquip.statIncValue) ||
+			isNullable(toEquip.subInitValue)
+		) {
 			return;
 		}
 
