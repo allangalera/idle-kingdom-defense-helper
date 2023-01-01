@@ -1,5 +1,5 @@
 import { ARCHER_EQUIP_MAX_GRADE, archerItemType, archerItems } from '$lib/db/archer';
-import { ArcherGearEquip } from '$lib/enums';
+import { ArcherGearEquip } from '$lib/types/enums';
 import { returnAbilityName } from './abilities';
 import { z } from 'zod';
 

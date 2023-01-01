@@ -1,5 +1,5 @@
 import { getTranslation } from '$lib/db/lang';
-import { Attributes } from '$lib/enums';
+import { Attributes } from '$lib/types/enums';
 import { match } from 'oxide.ts';
 
 export const AbilitiesTypes = {

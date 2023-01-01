@@ -1,6 +1,6 @@
 import { MAX_HERO_LEVEL } from '$lib/db/heroes';
-import { RarityEnum } from '$lib/enums';
 import type { UpgradeLevel } from '$lib/types';
+import { RarityEnum } from '$lib/types/enums';
 import { match } from 'oxide.ts';
 import { z } from 'zod';
 
@@ -164,7 +164,7 @@ const DIGITS_STR = [
 	'fw',
 	'fx',
 	'fy',
-	'fz'
+	'fz',
 ];
 const DIGITS_NUMBER = 1000;
 const DIGITS_COUNT = Math.floor(Math.log10(DIGITS_NUMBER));
@@ -179,7 +179,7 @@ type GetIdleKingdomNumberFormat = (value: number, decimalNumbers?: number) => st
 
 export const getIdleKingdomNumberFormat: GetIdleKingdomNumberFormat = (
 	value,
-	decimalNumbers = 0
+	decimalNumbers = 0,
 ): string => {
 	const formattedString = genericRounding(value, decimalNumbers);
 
@@ -195,13 +195,13 @@ export const getIdleKingdomNumberFormat: GetIdleKingdomNumberFormat = (
 
 export const heroUpgradeCostCalculatorParameterSchema = z
 	.object({
-		currentLevel: z.number().gte(1)
+		currentLevel: z.number().gte(1),
 	})
 	.extend({
-		targetLevel: z.number().lte(MAX_HERO_LEVEL)
+		targetLevel: z.number().lte(MAX_HERO_LEVEL),
 	})
 	.refine((value) => value.currentLevel < value.targetLevel, {
-		message: 'Current level need to be higher than Target level'
+		message: 'Current level need to be higher than Target level',
 	});
 
 export const romanize = (num: number) => {
@@ -237,7 +237,7 @@ export const romanize = (num: number) => {
 		'VI',
 		'VII',
 		'VIII',
-		'IX'
+		'IX',
 	];
 	let roman = '';
 	let i = 3;
@@ -246,7 +246,7 @@ export const romanize = (num: number) => {
 };
 
 export const convertGradeToStarLevel = (
-	grade: number
+	grade: number,
 ): { rarity: RarityEnum; level: UpgradeLevel } => {
 	const level = match(grade % 5, [[0, 5], () => grade % 5]) as UpgradeLevel;
 
@@ -256,7 +256,7 @@ export const convertGradeToStarLevel = (
 		[(n) => n <= 3, RarityEnum.rare],
 		[(n) => n <= 4, RarityEnum.epic],
 		[(n) => n <= 5, RarityEnum.legendary],
-		() => RarityEnum.mythic
+		() => RarityEnum.mythic,
 	]);
 
 	return { rarity, level };

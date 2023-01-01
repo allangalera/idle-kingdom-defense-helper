@@ -2,7 +2,7 @@ import { browser } from '$app/environment';
 import { MAX_HERO_GRADE, MAX_HERO_LEVEL } from '$lib/db/heroes';
 import type { UserRuneType } from '$lib/db/heroes';
 import type { UserHero } from '$lib/db/heroes';
-import type { HeroGearEquipTypes } from '$lib/enums';
+import type { HeroGearEquipTypes } from '$lib/types/enums';
 import * as R from 'remeda';
 import { writable } from 'svelte/store';
 import { z } from 'zod';
@@ -21,7 +21,7 @@ export const addHero = (hero: UserHero) => {
 	const schema = z.object({
 		id: z.number(),
 		level: z.number().gt(0).lte(MAX_HERO_LEVEL),
-		grade: z.number().gt(0).lte(MAX_HERO_GRADE)
+		grade: z.number().gt(0).lte(MAX_HERO_GRADE),
 	});
 
 	const { success } = schema.safeParse(hero);
@@ -33,7 +33,7 @@ export const addHero = (hero: UserHero) => {
 			return currentData;
 		}
 		return R.merge(currentData, {
-			heroes: [hero, ...(currentData.heroes ?? [])]
+			heroes: [hero, ...(currentData.heroes ?? [])],
 		});
 	});
 	return true;
@@ -43,7 +43,7 @@ export const addOrUpdateHero = (hero: UserHero) => {
 	const schema = z.object({
 		id: z.number().gt(0),
 		level: z.number().gt(0).lte(MAX_HERO_LEVEL),
-		grade: z.number().gt(0).lte(MAX_HERO_GRADE)
+		grade: z.number().gt(0).lte(MAX_HERO_GRADE),
 	});
 
 	const { success } = schema.safeParse(hero);
@@ -58,7 +58,7 @@ export const addOrUpdateHero = (hero: UserHero) => {
 		else clonedHeroes.push(hero);
 
 		return R.merge(currentData, {
-			heroes: clonedHeroes
+			heroes: clonedHeroes,
 		});
 	});
 	return true;
@@ -75,7 +75,7 @@ export const removeHero = (id: number) => {
 		}
 
 		return R.merge(currentData, {
-			heroes: currentData.heroes.filter((item) => item.id !== id)
+			heroes: currentData.heroes.filter((item) => item.id !== id),
 		});
 	});
 	return true;
@@ -91,7 +91,7 @@ export const addOrUpdateHeroArtifact = (heroId: number, slot: 'left' | 'right', 
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
@@ -106,14 +106,14 @@ export const removeHeroArtifact = (heroId: number, slot: 'left' | 'right') => {
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
 export const addOrUpdateHeroGear = (
 	heroId: number,
 	gearType: HeroGearEquipTypes,
-	grade: number
+	grade: number,
 ) => {
 	heroes.update((currentData) => {
 		const newHeroes = currentData.heroes.map((hero) => {
@@ -124,7 +124,7 @@ export const addOrUpdateHeroGear = (
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
@@ -139,7 +139,7 @@ export const removeHeroGear = (heroId: number, gearType: HeroGearEquipTypes) => 
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
@@ -154,7 +154,7 @@ export const addOrUpdateHeroRune = (heroId: number, runeData: UserRuneType) => {
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
@@ -171,7 +171,7 @@ export const removeHeroRune = (heroId: number, runeId: number) => {
 			return hero;
 		});
 		return R.merge(currentData, {
-			heroes: newHeroes
+			heroes: newHeroes,
 		});
 	});
 };
