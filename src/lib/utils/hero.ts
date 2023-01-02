@@ -1,13 +1,13 @@
-import { abilitiesIdsAllowed, artifactConst, artifacts } from '$lib/db/artifacts';
-import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost, heroes } from '$lib/db/heroes';
+import { MAX_HERO_LEVEL, gears, heroGradeInfo, heroLvCost } from '$lib/db/heroes';
 import type { HeroType } from '$lib/db/heroes';
+import { getTranslation } from '$lib/db/lang';
 import { runes, runesMap } from '$lib/db/runes';
-import langJSON from '$lib/gameInfo/lang.json';
 import { Attributes, HeroGearEquipOptions } from '$lib/types/enums';
 import type { HeroGearEquipTypes } from '$lib/types/enums';
 import { returnRuneAttribute } from '$lib/utils/runes';
 import { returnAbilityAttributeName } from './abilities';
 import { calculateArtifactStats } from './artifacts';
+import { A } from '@mobily/ts-belt';
 import { match } from 'oxide.ts';
 import * as R from 'remeda';
 import { z } from 'zod';
@@ -680,22 +680,19 @@ export const isCurrentSkillLevel = (
 };
 
 export const convertGradeToRarityAndLevel = (grade: number): { rarity: number; level: number } => {
-	const level = match(grade % 5, [[0, 5], (n) => n]) - 1;
+	const level = getLevelFromGrade(grade) - 1;
 
-	const rarity = match(grade / 5, [
-		[(n) => n <= 1, 0],
-		[(n) => n <= 2, 1],
-		[(n) => n <= 3, 2],
-		[(n) => n <= 4, 3],
-		[(n) => n <= 5, 4],
-		() => 5,
-	]);
+	const rarity = getRarityFromGrade(grade) - 1;
 
 	return { rarity, level };
 };
 
 export const getLevelFromGrade = (grade: number) => {
-	return match(grade % 5, [[0, 5], (n) => n]);
+	const level = grade % 5;
+	if (A.includes([0, 5], level)) {
+		return grade;
+	}
+	return level;
 };
 
 export const getRarityFromGrade = (grade: number) => {
@@ -709,6 +706,6 @@ export const getRarityFromGrade = (grade: number) => {
 	]);
 };
 
-export const returnRarityName = (rarity) => {
-	return langJSON[`RARITY_NAME_${rarity}`] ?? 'none';
+export const returnRarityName = (rarity: number) => {
+	return getTranslation(`RARITY_NAME_${rarity}`);
 };

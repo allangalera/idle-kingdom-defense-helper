@@ -1,6 +1,5 @@
 <script lang="ts">
 	import CardBorder from '$lib/components/CardBorder/index.svelte';
-	import { artifacts } from '$lib/db/artifacts';
 	import type { Sprinkles } from '$lib/styles/sprinkles.css';
 	import {
 		convertGradeToRarityAndLevel,
@@ -10,55 +9,20 @@
 	} from '$lib/utils/hero';
 	import * as styles from './index.css';
 
-	export let artifactData;
+	console.log('aqui');
+
+	export let artifactData: {};
 	export let width: Sprinkles['width'] = 24;
 
 	let rarityAndLevel;
-	let rarity;
-	let level;
-
-	const gearOptions = artifacts;
-
-	const heroGearEquip = {
-		all: 0,
-		weapon: 1,
-		helmet: 2,
-		chest: 3,
-		boots: 4,
-	};
-
-	const archerGearEquip = {
-		bow: 1,
-		arrow: 2,
-		helmet: 3,
-		chest: 4,
-		gloves: 5,
-		boots: 6,
-	};
-
-	const blueprintGearEquip = {
-		all: 0,
-		bow: 1,
-		arrow: 2,
-		helmet: 3,
-		chest: 4,
-		gloves: 5,
-		boots: 6,
-	};
-
-	const gearRarity = {
-		common: 1,
-		uncommon: 2,
-		rare: 3,
-		epic: 4,
-		legendary: 5,
-		mythic: 6,
-	};
+	let rarity: number;
+	let level: number;
 
 	const getImageSrc = ({ type, rarity }) => {
 		return `/images/icons/imgArtifact_${type}_${rarity}.png`;
 	};
 
+	console.log('aqui');
 	const rarityColors = {
 		common: 'cardBorderDefault',
 		uncommon: 'cardBoarderTierUncommon',
@@ -69,7 +33,7 @@
 	} as const;
 
 	const getCardBorderColor = (rarity) => {
-		return rarityColors[rarity];
+		return rarityColors[rarity] ?? 'cardBorderDefault';
 	};
 
 	$: level = getLevelFromGrade(artifactData.grade);
