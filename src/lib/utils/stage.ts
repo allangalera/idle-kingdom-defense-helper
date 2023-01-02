@@ -1,4 +1,4 @@
-import type { CardType } from '$lib/components/Card/card';
+import type { CardTypes } from '$lib/components/Card/type';
 import { MAX_STAGE_LEVEL } from '$lib/constants';
 import { getEnemyIdFromStage } from '$lib/db';
 import {
@@ -197,7 +197,7 @@ export const returnRewardDataByStage = (stage: number) => {
 	};
 };
 
-export const convertItemTypeToName = (type: number): CardType | null => {
+export const convertItemTypeToName = (type: number): CardTypes | null => {
 	return match(type, [
 		[24, 'ascension-stone' as const],
 		[31, 'hero-seal' as const],
