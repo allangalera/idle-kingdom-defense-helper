@@ -6,6 +6,6 @@ export const actions: Actions = {
 	async default(event) {
 		const { supabaseClient } = await getSupabase(event);
 		await supabaseClient.auth.signOut();
-		throw redirect(303, '/');
+		redirect(303, '/');
 	}
 };

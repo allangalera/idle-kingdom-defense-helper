@@ -20,13 +20,13 @@
 		"noUncheckedIndexedAccess": true,
 		"paths": {
 			"$lib": [
-				"src/lib"
+				"./src/lib"
 			],
 			"$lib/*": [
-				"src/lib/*"
+				"./src/lib/*"
 			],
 			"@mobily/ts-belt/*": [
-				"node_modules/@mobily/ts-belt/dist/types/*"
+				"./node_modules/@mobily/ts-belt/dist/types/*"
 			]
 		}
 	},
