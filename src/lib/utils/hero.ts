@@ -690,7 +690,7 @@ export const convertGradeToRarityAndLevel = (grade: number): { rarity: number; l
 export const getLevelFromGrade = (grade: number) => {
 	const level = grade % 5;
 	if (A.includes([0, 5], level)) {
-		return grade;
+		return 5;
 	}
 	return level;
 };
