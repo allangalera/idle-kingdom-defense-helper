@@ -9,8 +9,6 @@
 	} from '$lib/utils/hero';
 	import * as styles from './index.css';
 
-	console.log('aqui');
-
 	export let artifactData: {};
 	export let width: Sprinkles['width'] = 24;
 
@@ -22,7 +20,6 @@
 		return `/images/icons/imgArtifact_${type}_${rarity}.png`;
 	};
 
-	console.log('aqui');
 	const rarityColors = {
 		common: 'cardBorderDefault',
 		uncommon: 'cardBoarderTierUncommon',
